@@ -61,10 +61,11 @@ jobs:
       - name: Build
         run: |
           pnpm run --prefix xmcl-keystone-ui build
-          cross-env RELEASE=true pnpm run --prefix xmcl-electron-app build
+          pnpm run --prefix xmcl-electron-app build
         env:
           NODE_OPTIONS: --max-old-space-size=32768
           NODE_ENV: production
+          RELEASE: "true"
 
       - name: Upload Windows artifacts
         if: ${{ runner.os == 'Windows' }}
