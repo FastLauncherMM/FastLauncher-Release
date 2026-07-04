@@ -1,0 +1,88 @@
+name: FastLauncher Build
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "xmcl-runtime/**"
+      - "xmcl-runtime-api/**"
+      - "xmcl-keystone-ui/**"
+      - "xmcl-electron-app/**"
+      - "packages/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      ELECTRON_CACHE: ${{ github.workspace }}/.cache/electron
+      ELECTRON_BUILDER_CACHE: ${{ github.workspace }}/.cache/electron-builder
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: pnpm/action-setup@v6
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Cache Electron
+        uses: actions/cache@v5
+        with:
+          path: |
+            ${{ github.workspace }}/.cache/electron
+            ${{ github.workspace }}/.cache/electron-builder
+          key: ${{ runner.os }}-electron-${{ hashFiles('pnpm-lock.yaml') }}
+
+      - name: Cache Vite
+        uses: actions/cache@v5
+        with:
+          path: xmcl-keystone-ui/node_modules/.vite
+          key: ${{ runner.os }}-vite-${{ hashFiles('pnpm-lock.yaml', 'xmcl-keystone-ui/vite.config.ts') }}
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Setup Linux
+        if: ${{ runner.os == 'Linux' }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libarchive-tools
+
+      - name: Build
+        run: |
+          pnpm run --prefix xmcl-keystone-ui build
+          cross-env RELEASE=true pnpm run --prefix xmcl-electron-app build
+        env:
+          NODE_OPTIONS: --max-old-space-size=32768
+          NODE_ENV: production
+
+      - name: Upload Windows artifacts
+        if: ${{ runner.os == 'Windows' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: win-release
+          path: |
+            xmcl-electron-app/build/output/FastLauncher-setup.exe
+            xmcl-electron-app/build/output/FastLauncher-setup.exe.blockmap
+            xmcl-electron-app/build/output/xmcl-1.0.0-win32-x64.zip
+
+      - name: Upload Linux artifacts
+        if: ${{ runner.os == 'Linux' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: linux-release
+          path: |
+            xmcl-electron-app/build/output/*.deb
+            xmcl-electron-app/build/output/*.AppImage
+            xmcl-electron-app/build/output/*.rpm
+            xmcl-electron-app/build/output/*.tar.xz
