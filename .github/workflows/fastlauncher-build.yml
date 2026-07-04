@@ -75,7 +75,7 @@ jobs:
           path: |
             xmcl-electron-app/build/output/FastLauncher-setup.exe
             xmcl-electron-app/build/output/FastLauncher-setup.exe.blockmap
-            xmcl-electron-app/build/output/xmcl-1.0.0-win32-x64.zip
+            xmcl-electron-app/build/output/FastLauncher-*-win32-x64.zip
 
       - name: Upload Linux artifacts
         if: ${{ runner.os == 'Linux' }}

@@ -32,7 +32,7 @@ export const config = {
     to: '.',
     filter: 'package.json',
   }],
-  artifactName: 'xmcl-${version}-${platform}-${arch}.${ext}',
+  artifactName: 'FastLauncher-${version}-${platform}-${arch}.${ext}',
   appx: {
     displayName: 'FastLauncher',
     applicationId: 'xmcl',
@@ -43,7 +43,7 @@ export const config = {
     setBuildNumber: true,
   },
   dmg: {
-    artifactName: 'xmcl-${version}-${arch}.${ext}',
+    artifactName: 'FastLauncher-${version}-${arch}.${ext}',
     contents: [
       {
         x: 410,
@@ -96,14 +96,14 @@ export const config = {
     ],
   },
   linux: {
-    executableName: 'xmcl',
+    executableName: 'FastLauncher',
     desktop: {
       MimeType: 'x-scheme-handler/xmcl',
-      StartupWMClass: 'xmcl',
+      StartupWMClass: 'FastLauncher',
     },
     category: 'Game',
     icon: 'icons/dark.icns',
-    artifactName: 'xmcl-${version}-${arch}.${ext}',
+    artifactName: 'FastLauncher-${version}-${arch}.${ext}',
     target: [
       { target: 'deb', arch: ['x64', 'arm64'] },
       { target: 'rpm', arch: ['x64', 'arm64'] },
