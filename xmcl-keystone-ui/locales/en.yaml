@@ -1,4 +1,4 @@
-﻿AppAddInstanceDialog:
+AppAddInstanceDialog:
   choiceTitle: Multiple launch profiles detected. Please select one to import.
   createTitle: Create Game
   serverTitle: Input your server address
@@ -38,30 +38,30 @@ HomeLaunchMultiInstanceDialog:
 SettingMigrationDialog:
   selectRootDirectory: Select Root Directory
 agent:
-  callingTool: calling {name}â€¦
+  callingTool: calling {name}…
   disabledPlaceholder: Agent disabled
   emptyHint: >-
     Ask the agent to inspect your instance, toggle mods, read logs, or diagnose
     a crash.
-  inputPlaceholder: Ask the agentâ€¦  (Enter to send, Shift+Enter for newline)
+  inputPlaceholder: Ask the agent…  (Enter to send, Shift+Enter for newline)
   notConfiguredHint: >-
-    Set your API key, model and endpoint in Settings â†’ General â†’ AI Agent to
+    Set your API key, model and endpoint in Settings → General → AI Agent to
     enable the agent.
   notConfiguredTitle: Agent not configured
   openSettings: Open settings
   reset: Reset conversation
   setupGuide: Setup guide
-  statusDisabled: Disabled â€” missing API key
+  statusDisabled: Disabled — missing API key
   statusReady: Ready
-  statusWorking: Workingâ€¦
+  statusWorking: Working…
   suggestion1: >-
     Upgrade this instance to a newer Minecraft version, and update the mods to
     match
-  suggestion2: My mods are crashing â€” find the cause and tell me how to fix it
+  suggestion2: My mods are crashing — find the cause and tell me how to fix it
   suggestion3: >-
     Build a modpack: find mods for a feature I want and install them into this
     instance
-  thinking: thinkingâ€¦
+  thinking: thinking…
   title: FastLauncher Agent
   toggleHint: to toggle
 ago:
@@ -346,7 +346,7 @@ command:
       title: Refresh User
       description: Refresh user session
 commandPalette:
-  placeholder: Search commands, instances, modsâ€¦
+  placeholder: Search commands, instances, mods…
   commands: Commands
   instances: Instances
   modrinth: Modrinth
@@ -355,7 +355,7 @@ commandPalette:
   openHint: Open command palette ({shortcut})
   empty: Type to search.
   noResults: No matching results.
-  searching: Searchingâ€¦
+  searching: Searching…
   hintNavigate: navigate
   hintInvoke: invoke
   hintEnter: enter
@@ -608,7 +608,7 @@ java:
   importFromFile: Import Java From File
   invalid: Invalid Java Location
   location: Java Location
-  locationHint: No Java selected â€” using system default
+  locationHint: No Java selected — using system default
   maxMemory: Max Memory
   memory: Java Memory
   memoryAuto: Auto
@@ -840,8 +840,8 @@ minecraftFriends:
   unsupported: Friends are only available for Microsoft accounts.
 migrationWindow:
   title: Data Migration
-  preparing: Preparing migrationâ€¦
-  scanning: Calculatingâ€¦
+  preparing: Preparing migration…
+  scanning: Calculating…
   migrating: Moving your data
   done: Migration complete
   files: files
@@ -1427,14 +1427,14 @@ server:
   version: Server Requires Version
   versionHint: The Minecraft Version To Ping
 serverStatus:
-  nohost: Â§4Cannot find host!
+  nohost: §4Cannot find host!
   ping: Ping...
-  refuse: Â§4Server refused!
-  timeout: Â§4Connect server timeout!
+  refuse: §4Server refused!
+  timeout: §4Connect server timeout!
 setting:
   about: About
   aboutBmclDescription: BMCL API provides convenient downloads for users in Chinese Mainland
-  aboutContributors: ðŸ§‘â€ðŸ’» Contributors ðŸ§‘â€ðŸ’»
+  aboutContributors: 🧑‍💻 Contributors 🧑‍💻
   aboutDenoDescription: >-
     FastLauncher leverages Deno Deploy's hassle-free platform for serverless JavaScript
     applications
@@ -1442,7 +1442,7 @@ setting:
   aboutLicenseInfo: >-
     Free code signing on Windows provided by SignPath.io, certificate by
     SignPath Foundation
-  aboutSponsors: ðŸ˜‡ Sponsors ðŸ˜‡
+  aboutSponsors: 😇 Sponsors 😇
   advancedJavaOptions: Advanced Java Options
   advancedSettings: Advanced Settings
   advancedSettingsHint: Danger zone - reset or manage launcher data
@@ -1991,4 +1991,3 @@ versionType:
   beta: Beta
   name: Status
   release: Release
-

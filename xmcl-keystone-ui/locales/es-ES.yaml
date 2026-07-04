@@ -1,21 +1,21 @@
-﻿AppAddInstanceDialog:
+AppAddInstanceDialog:
   createTitle: Crear una instancia
-  serverTitle: Ingrese la direcciÃ³n de su servidor
+  serverTitle: Ingrese la dirección de su servidor
 AppShareInstanceDialog:
   alterDownloadDescription: |-
     Si no quiere estropear la instancia actual.
-    TambiÃ©n puede crear una nueva instancia desde la configuraciÃ³n de su par.
-    Haga clic en el botÃ³n a continuaciÃ³n para crear una instancia.
-  baseInfo: ConfiguraciÃ³n BÃ¡sica
+    También puede crear una nueva instancia desde la configuración de su par.
+    Haga clic en el botón a continuación para crear una instancia.
+  baseInfo: Configuración Básica
   cancelShare: Cancelar Compartir
   description: >-
-    DespuÃ©s de compartir, otros compaÃ±eros podran descargar los archivos del juego que compartiste a travÃ©s de tu PC.
+    Después de compartir, otros compañeros podran descargar los archivos del juego que compartiste a través de tu PC.
   downloadDescription: |-
-    Verifique los archivos que le proporcionÃ³ su compaÃ±ero.
+    Verifique los archivos que le proporcionó su compañero.
     Seleccione el archivo que desea descargar.
-    Se colocarÃ¡ en la instancia actual {name}.
+    Se colocará en la instancia actual {name}.
   downloadNotifyTitle: Descargar instancia de {user}
-  downloadTitle: Descargar archivos de otros compaÃ±eros
+  downloadTitle: Descargar archivos de otros compañeros
   filesToDownload: Elija archivos para descargar
   filesToShare: Elija archivos para compartir
   instanceShare: '{user} acaba de compartir archivos del juego contigo'
@@ -26,27 +26,27 @@ BaseSettingGeneral:
   title: General
 HomeJavaIssueDialog:
   incompatibleJava: Java Incompatible
-  incompatibleJavaHint: Â¡El Java actual puede ser incompatible con Minecraft seleccionado!
+  incompatibleJavaHint: ¡El Java actual puede ser incompatible con Minecraft seleccionado!
   missingJava: Falta Java
-  missingJavaHint: 'El Launcher no puede detectar ningÃºn java en su computadora. Puedes:'
+  missingJavaHint: 'El Launcher no puede detectar ningún java en su computadora. Puedes:'
   optionSwitch:
     name: Cambiar a {version}
 HomeLaunchMultiInstanceDialog:
-  confirm: SÃ­, Lanzar
-  description: EstÃ¡s lanzando varias instancias de Minecraft. Â¿EstÃ¡ seguro?
-  title: MÃºltiples instancias
+  confirm: Sí, Lanzar
+  description: Estás lanzando varias instancias de Minecraft. ¿Está seguro?
+  title: Múltiples instancias
 SettingMigrationDialog:
-  selectRootDirectory: Seleccionar Directorio RaÃ­z
+  selectRootDirectory: Seleccionar Directorio Raíz
 askAICrash:
   copyPrompt: Copie el indicador para preguntar a AI
   description: >-
-    Â¡Deja que Ai te ayude a entender el bloqueo del juego!
+    ¡Deja que Ai te ayude a entender el bloqueo del juego!
 
-    Â¡Siga las instrucciones a continuaciÃ³n para preguntarle a AI sobre este bloqueo del juego!
+    ¡Siga las instrucciones a continuación para preguntarle a AI sobre este bloqueo del juego!
   selectPlatform: Abra una plataforma AI y pegue el mensaje que acaba de copiar.
-authProfileAddedNotification: Perfil de AutenticaciÃ³n {name} AÃ±adido
+authProfileAddedNotification: Perfil de Autenticación {name} Añadido
 baseSetting:
-  title: ConfiguraciÃ³n BÃ¡sica
+  title: Configuración Básica
 browseApp:
   createShortcut: Crear Acceso directo
   default: DEFECTO
@@ -59,133 +59,133 @@ copyClipboard:
   success: Copiar al portapapeles
 create: Crear
 curseforge:
-  createdDate: Fecha de creaciÃ³n
-  lastUpdate: Ãšltima Fecha de ActualizaciÃ³n
+  createdDate: Fecha de creación
+  lastUpdate: Última Fecha de Actualización
 curseforgeCategory:
   API and Library: API y Bibliotecas
   Addons: Addons
   Adventure: Aventura
   Adventure and RPG: Aventura y RPG
-  Animated: AnimaciÃ³n
+  Animated: Animación
   Armor, Tools, and Weapons: Armadura, Herramientas y Armas
   Combat / PvP: Competitivo/PVP
-  Cosmetic: Apariencia/DecoraciÃ³n
+  Cosmetic: Apariencia/Decoración
   Creation: Modo creativo
   Data Packs: Paquete de datos
-  Education: EducaciÃ³n
-  Exploration: ExploraciÃ³n
-  Extra Large: De gran tamaÃ±o
+  Education: Educación
+  Exploration: Exploración
+  Extra Large: De gran tamaño
   FTB Official Pack: Paquete Oficial FTB
   Fabric: Fabric
   FancyMenu: FancyMenu
   Font Packs: Pack de Fuentes
   Food: Comida
   Game Map: Mapas de juego
-  Hardcore: DifÃ­cil
+  Hardcore: Difícil
   MCreator: MCreator
   Magic: Magico
   Map Based: Mapa Basado
-  Map and Information: Mapas e InformaciÃ³n
+  Map and Information: Mapas e Información
   Medieval: Medieval
   Mini Game: Mini juegos
-  Miscellaneous: MiscelÃ¡neos
+  Miscellaneous: Misceláneos
   Mod Support: Soporte para Mods
   Modded World: Mod para mundos
   Modern: Moderno
-  Multiplayer: Multijugador en lÃ­nea
+  Multiplayer: Multijugador en línea
   Parkour: Parkour
   Photo Realistic: Foto realista
   Puzzle: Puzzles
   QoL: QoL
   Quests: Tareas
   Redstone: Redstone
-  Sci-Fi: Ciencia FicciÃ³n
+  Sci-Fi: Ciencia Ficción
   Server Utility: Herramienta de Servidor
   Skyblock: SkyBlock
   Small / Light: Ligero
   Steampunk: Steampunk
   Storage: Almacenamiento
   Survival: Supervivencia
-  Tech: TecnologÃ­a
-  Technology: TecnologÃ­a
+  Tech: Tecnología
+  Technology: Tecnología
   Traditional: Tradicional
-  Twitch Integration: integraciÃ³n Twitch
+  Twitch Integration: integración Twitch
   Utility & QoL: Utilidad y Qol
   Vanilla+: Vanilla+
   World Gen: Generador de Mundos
 dataMigration:
-  apply: Aplicar ConfiguraciÃ³n
-  directoryCriteriaHint: Â¡AsegÃºrese de que su nueva ubicaciÃ³n de directorio sea un directorio VACÃO!
-  placeholder: Haga clic aquÃ­ para seleccionar el directorio
+  apply: Aplicar Configuración
+  directoryCriteriaHint: ¡Asegúrese de que su nueva ubicación de directorio sea un directorio VACÍO!
+  placeholder: Haga clic aquí para seleccionar el directorio
   setRootCause: >-
-    Â¡PerderÃ¡ sus datos (Mapas, Paquetes de Recursos, Mods) si cierra el Launcher en este proceso!
-  setRootDescription: Esto cambiarÃ¡ la carpeta de datos raÃ­z de este launcher y Minecraft.
-  setRootTitle: Establecer en una nueva ubicaciÃ³n de almacenamiento
-  unknownError: Â¡Error Desconocido! Vuelva a intentarlo o comunÃ­quese con el desarrollador.
-  waitReload: Migrando datos. Por favor, no cierres el Launcher o perderÃ¡s tus datos.
+    ¡Perderá sus datos (Mapas, Paquetes de Recursos, Mods) si cierra el Launcher en este proceso!
+  setRootDescription: Esto cambiará la carpeta de datos raíz de este launcher y Minecraft.
+  setRootTitle: Establecer en una nueva ubicación de almacenamiento
+  unknownError: ¡Error Desconocido! Vuelva a intentarlo o comuníquese con el desarrollador.
+  waitReload: Migrando datos. Por favor, no cierres el Launcher o perderás tus datos.
 delete:
   name: Eliminar {name}
   'no': 'No'
   'yes': Borrar
 diagnosis:
   badInstall:
-    message: Haga clic para intentar reinstalar esta versiÃ³n.
-    name: InstalaciÃ³n Erronea en {version}
+    message: Haga clic para intentar reinstalar esta versión.
+    name: Instalación Erronea en {version}
   corruptedAssets:
-    message: Launcher instalarÃ¡ assets por ti
-    name: 'Asset daÃ±ado : {name} | Asset daÃ±ado {name} | {count} Assets daÃ±ados'
+    message: Launcher instalará assets por ti
+    name: 'Asset dañado : {name} | Asset dañado {name} | {count} Assets dañados'
   corruptedAssetsIndex:
-    message: Launcher descargarÃ¡ el Ã­ndice de assets para ti
-    name: El archivo de Ã­ndice de assets {version} estÃ¡ daÃ±ado.
+    message: Launcher descargará el índice de assets para ti
+    name: El archivo de índice de assets {version} está dañado.
   corruptedLibraries:
-    message: Launcher instalarÃ¡ bibliotecas por ti
+    message: Launcher instalará bibliotecas por ti
     name: >-
-      Biblioteca daÃ±ada: {name} | Biblioteca daÃ±ada: {name} | {count} Bibliotecas daÃ±adas
+      Biblioteca dañada: {name} | Biblioteca dañada: {name} | {count} Bibliotecas dañadas
   corruptedVersionJar:
-    message: Clic para instalar esta versiÃ³n
-    name: La versiÃ³n %{version} del jar de Minecraft estÃ¡ daÃ±ada.
+    message: Clic para instalar esta versión
+    name: La versión %{version} del jar de Minecraft está dañada.
   incompatibleJava:
-    name: Â¡La versiÃ³n de java {javaVersion} no es adecuada para {version}!
+    name: ¡La versión de java {javaVersion} no es adecuada para {version}!
   instanceFiles:
-    description: La instalaciÃ³n de la instancia incluye archivos {counts}.
-    title: InstalaciÃ³n de instancia incompleta
+    description: La instalación de la instancia incluye archivos {counts}.
+    title: Instalación de instancia incompleta
   invalidJava:
-    name: UbicaciÃ³n de Java no vÃ¡lida.
+    name: Ubicación de Java no válida.
   unresolvedFiles:
     description: >-
-      No se pudo resolver {count} archivo durante la instalaciÃ³n | No se
-      pudieron resolver {count} archivos durante la instalaciÃ³n
+      No se pudo resolver {count} archivo durante la instalación | No se
+      pudieron resolver {count} archivos durante la instalación
     title: Archivos sin resolver
   unzipFileNotFound:
     description: No puedo encontrar {file}
     title: Archivo modpack no encontrado
 downloadUpdate:
-  name: Descargar actualizaciÃ³n {version}
+  name: Descargar actualización {version}
 env:
   select:
     all: Seleccionar todo
     fit: Seleccionar Ajustar
     none: Seleccionar Ninguno
 errors:
-  BadInstanceType: 'Instancia no vÃ¡lida: {type}'
-  DNSNotFoundError: Error de bÃºsqueda DNS
+  BadInstanceType: 'Instancia no válida: {type}'
+  DNSNotFoundError: Error de búsqueda DNS
   DatabaseNotOpened: |-
-    Â¡La base de datos no estÃ¡ abierta!
-    Â¡El lanzador no funcionarÃ¡ correctamente!
+    ¡La base de datos no está abierta!
+    ¡El lanzador no funcionará correctamente!
     Seleccione un directorio de datos al que pueda acceder el iniciador.
-    Puede intentar restablecer la raÃ­z de datos en la pÃ¡gina de configuraciÃ³n.
+    Puede intentar restablecer la raíz de datos en la página de configuración.
   DiskIsFull: |-
-    Â¡Tu disco estÃ¡ lleno!
-    Â¡No puedo escribir nada en el disco!
-    Â¡Todas las caracterÃ­sticas pueden no ser funcionales!
+    ¡Tu disco está lleno!
+    ¡No puedo escribir nada en el disco!
+    ¡Todas las características pueden no ser funcionales!
   NotFoundError: 404 No encontrado
 eula:
   body: >-
-    Al marcar el botÃ³n de la casilla de verificaciÃ³n, estÃ¡s indicando que estÃ¡s de acuerdo con la {eula} de Minecraft.
+    Al marcar el botón de la casilla de verificación, estás indicando que estás de acuerdo con la {eula} de Minecraft.
 fabricVersion:
   disable: Desactivar Fabric
-  empty: No hay versiÃ³n de Fabric para Minecraft {version}
-  showSnapshot: Mostrar versiÃ³n Snapshot
+  empty: No hay versión de Fabric para Minecraft {version}
+  showSnapshot: Mostrar versión Snapshot
   stable: Estable
   unstable: Inestable
 command:
@@ -198,53 +198,53 @@ command:
       title: Eliminar instancia
   user:
     login:
-      title: Iniciar sesiÃ³n de usuario
+      title: Iniciar sesión de usuario
     refresh:
       title: Actualizar usuario
 commandPalette:
-  placeholder: Buscar comandos, instancias, modsâ€¦
+  placeholder: Buscar comandos, instancias, mods…
   commands: Comandos
   instances: Instancias
   modrinth: Modrinth
   recent: Reciente
-  open: AcciÃ³n rÃ¡pida
+  open: Acción rápida
   openHint: Abrir paleta de comandos ({shortcut})
   empty: Escribe para buscar.
   noResults: Sin resultados.
-  searching: Buscandoâ€¦
+  searching: Buscando…
   hintNavigate: navegar
   hintInvoke: ejecutar
   hintEnter: entrar
-  hintBack: atrÃ¡s
+  hintBack: atrás
   hintClose: cerrar
 feedback:
   channel: Canales
-  description: EncontrÃ© un error o quiero hacer una sugerencia
+  description: Encontré un error o quiero hacer una sugerencia
   discord: Discord
   discordDescription: Unirse al canal de Discord
   discordJoin: Unirse
   generateReport: Crear un informe
   generateSaveAs: Guardar el informe
   github: Problema en Github
-  githubDescription: Abrir un problema en Github para expresar tu opiniÃ³n
+  githubDescription: Abrir un problema en Github para expresar tu opinión
   githubOpenIssue: Github
   hint: >-
-    Haz clic en el botÃ³n para crear un informe y ponerte en contacto con el equipo de desarrollo. El informe contendrÃ¡ informaciÃ³n sobre tu dispositivo, incluido el tipo de sistema operativo, la versiÃ³n, el nombre de usuario (en el sistema operativo) y otros datos.
+    Haz clic en el botón para crear un informe y ponerte en contacto con el equipo de desarrollo. El informe contendrá información sobre tu dispositivo, incluido el tipo de sistema operativo, la versión, el nombre de usuario (en el sistema operativo) y otros datos.
   kook: Kook
   kookDescription: >-
-    Kook es una aplicaciÃ³n alternativa para usuarios de Discord en China continental
+    Kook es una aplicación alternativa para usuarios de Discord en China continental
   name: Comentarios
   qq: Grupo de QQ
   qqDescription: >-
-    Ãšnete al grupo de QQ de comentarios y habla directamente con los autores. NÃºmero del grupo: {number}
+    Únete al grupo de QQ de comentarios y habla directamente con los autores. Número del grupo: {number}
   qqEnterGroup: Unirse
 fileDetail:
-  filesize: TamaÃ±o del archivo
+  filesize: Tamaño del archivo
 filterLocalOnly: Mostrar solo instalado
 forgeVersion:
   disable: Desactivar Forge
-  empty: Forge no tiene ninguna versiÃ³n para Minecraft {version}
-  latest: Ãšltima
+  empty: Forge no tiene ninguna versión para Minecraft {version}
+  latest: Última
   recommended: Recomendada
 gameType:
   adventure: Modo Aventura
@@ -257,7 +257,7 @@ importModpack:
   name: Importar paquete de modificaciones
 installAssets:
   asset: Instalar {count} recursos
-  assetIndex: Verificar Archivos de Ãndice de Recursos
+  assetIndex: Verificar Archivos de Índice de Recursos
   name: Instalar Archivos de Recursos
 installAuthlibInjector: Instalar authlib-injector
 installCurseforgeFile: Instalar Archivo de Curseforge
@@ -270,11 +270,11 @@ installForge:
 installInstance:
   file: Actualizar Archivo de Instancia {file}
   name: Actualizar Instancia
-  resolve: Resolver ConfiguraciÃ³n de Instancia
+  resolve: Resolver Configuración de Instancia
 installJre:
   decompress: Descomprimir archivos JRE en la carpeta
   download: Descargar archivo JRE comprimido
-  name: Instalar Biblioteca de Tiempo de EjecuciÃ³n de Java
+  name: Instalar Biblioteca de Tiempo de Ejecución de Java
 installLabyMod:
   name: Instalar LabyMod
 installLibraries:
@@ -286,42 +286,42 @@ installOptifine:
   download: Descargar Optifine Universal
   name: Instalar Optifine
 installVersion:
-  jar: Instalar VersiÃ³n Jar
-  json: Instalar VersiÃ³n Json
+  jar: Instalar Versión Jar
+  json: Instalar Versión Json
   name: Instalar Cliente de Minecraft {version}
 instance:
-  changeIcon: Cambiar el Ã­cono
+  changeIcon: Cambiar el ícono
   contents: Contenido
   current: Instancia Actual
   delete: Eliminar juego
   deleteFailed: No se pudo eliminar la instancia
-  deleteFailedPermission: Otro programa ocupÃ³ el archivo.
+  deleteFailedPermission: Otro programa ocupó el archivo.
   deleteFile: Eliminar archivos de la instancia
   deleteHint: >-
-    Los datos de la instancia se eliminarÃ¡n permanentemente del disco. Â¿EstÃ¡s seguro de hacer esto?
+    Los datos de la instancia se eliminarán permanentemente del disco. ¿Estás seguro de hacer esto?
   duplicate: Duplicar Juego
   duplicatedName: Nombre Duplicado
-  fileApi: URL del servidor de archivos para sincronizaciÃ³n
+  fileApi: URL del servidor de archivos para sincronización
   fileApiHint: >-
-    La URL para sincronizar archivos de instancia desde un servidor de configuraciÃ³n remoto.
+    La URL para sincronizar archivos de instancia desde un servidor de configuración remoto.
   fullscreen: Pantalla completa
   height: Altura
   icon: Icono de Perfil
-  iconHint: El icono podrÃ­a ser un archivo o un enlace URL de Internet.
+  iconHint: El icono podría ser un archivo o un enlace URL de Internet.
   iconUrl: URL del Icono
   installModpack: Actualizar instancia desde modpack
-  lastPlayed: Ãšltima vez jugado
+  lastPlayed: Última vez jugado
   launchArguments: Argumentos de Lanzamiento Previo
   launchServer: Iniciar el servidor localhost
   linkFileDesc: |-
-    Esto sobrescribirÃ¡ el {file} local de la instancia con el {file} global.
-    Â¿EstÃ¡s seguro de vincularlo?
-  linkFileTitle: Â¿EstÃ¡s seguro de vincular {file}?
+    Esto sobrescribirá el {file} local de la instancia con el {file} global.
+    ¿Estás seguro de vincularlo?
+  linkFileTitle: ¿Estás seguro de vincular {file}?
   mcOptions: Opciones de Minecraft
   mcOptionsHint: Argumentos adicionales de lanzamiento de Minecraft
   name: Nombre del Perfil
   nameHint: El nombre utilizado para identificar el juego
-  nameNoCyrillic: El nombre de la instancia no puede contener caracteres cirÃ­licos
+  nameNoCyrillic: El nombre de la instancia no puede contener caracteres cirílicos
   neverPlayed: Nunca Jugado
   openCrashReportFolder: Abrir Carpeta de Informes de Errores
   openLogFolder: Abrir Carpeta de Registro
@@ -329,30 +329,30 @@ instance:
   preExecCommand: Orden de prearranque
   preExecCommandHint: Comando a ejecutar antes de iniciar Minecraft
   prependCommand: Anteponer comando
-  prependCommandHint: Esto antepondrÃ¡ este comando antes de todos los comandos de inicio.
+  prependCommandHint: Esto antepondrá este comando antes de todos los comandos de inicio.
   requireName: El nombre es obligatorio
-  resolution: ResoluciÃ³n de ventana
-  resolutionPreset: ResoluciÃ³n preestablecida
+  resolution: Resolución de ventana
+  resolutionPreset: Resolución preestablecida
   showInstance: Mostrar carpeta del juego
   updates: Actualizaciones
-  useSharedOptions: Usar configuraciÃ³n de juego compartida
+  useSharedOptions: Usar configuración de juego compartida
   useSharedOptionsDesc: >-
-    Esto vincularÃ¡ el archivo options.txt a un archivo compartido entre instancias.
+    Esto vinculará el archivo options.txt a un archivo compartido entre instancias.
   useSharedServersList: Usar lista de servidores compartidos
-  useSharedServersListDesc: Esto vincularÃ¡ servers.dat a un archivo compartido entre instancias.
+  useSharedServersListDesc: Esto vinculará servers.dat a un archivo compartido entre instancias.
   vmOptions: Opciones de JVM
   vmOptionsHint: Argumentos adicionales para pasar a la JVM
   vmVar: Variables de entorno
-  vmVarHint: Haga clic en el botÃ³n para agregar variables ambientales
+  vmVarHint: Haga clic en el botón para agregar variables ambientales
   width: Ancho
   envVarKey: Clave
   envVarValue: Valor
   envVarKeyPlaceholder: MY_VAR
   envVarValuePlaceholder: valor
-  fileApiPlaceholder: Introduce aquÃ­ la URL de sincronizaciÃ³n remota si quieres mantener los recursos sincronizados
+  fileApiPlaceholder: Introduce aquí la URL de sincronización remota si quieres mantener los recursos sincronizados
 instanceAge:
-  older: MÃ¡s Antiguo
-  threeDay: En Tres DÃ­as
+  older: Más Antiguo
+  threeDay: En Tres Días
   today: Hoy
 instanceDiscover:
   gameFolder: Descubre {count} carpetas de juegos
@@ -368,27 +368,27 @@ instanceInstallSkip:
   skip: Saltar
   title: Posible fuente de archivo corrupto
   warning: >-
-    Algunos archivos se descargan varias veces y la suma de comprobaciÃ³n no coincide.
+    Algunos archivos se descargan varias veces y la suma de comprobación no coincide.
 
-    Esto puede deberse al hecho de que la suma de verificaciÃ³n original es incorrecta.
+    Esto puede deberse al hecho de que la suma de verificación original es incorrecta.
 
     Por favor, compruebe.
 
-    Si confirma que los archivos actuales son vÃ¡lidos, puede omitir la verificaciÃ³n de validaciÃ³n.
+    Si confirma que los archivos actuales son válidos, puede omitir la verificación de validación.
 instanceSetting:
-  fastLaunch: Inicio RÃ¡pido
+  fastLaunch: Inicio Rápido
   fastLaunchHint: Ignorar el estado del usuario y los problemas sin solucionar existentes
-  hideLauncher: Ocultar el lanzador despuÃ©s del inicio
+  hideLauncher: Ocultar el lanzador después del inicio
   icon: Elegir una imagen
   showLog: Mostrar Registro de Minecraft
   showLogHint: >-
-    Esto abrirÃ¡ una ventana para mostrar el registro de Minecraft despuÃ©s de iniciar el juego
+    Esto abrirá una ventana para mostrar el registro de Minecraft después de iniciar el juego
 instanceTemplate:
   ftb: Este es un modpack de FTB
   preview: Vista Previa del Modpack
 instanceUpdate:
-  basic: ActualizaciÃ³n de Ajustes
-  files: ActualizaciÃ³n de Archivos
+  basic: Actualización de Ajustes
+  files: Actualización de Archivos
   loaderChanged: |-
     Se ha cambiado el cargador de mods de esta instancia.
     El antiguo modloader es {modloader} y el nuevo modloader es {newModloader}.
@@ -397,40 +397,40 @@ instanceUpdate:
     Eliminar los archivos {remove}.
     Keep {keep} archivos.
   title: Actualizar Instancia
-  update: Iniciar ActualizaciÃ³n
+  update: Iniciar Actualización
 instances:
   add: Crear juego
   addCurseForgeDescription: |-
     Importar desde la carpeta de datos de curseforge.
-    Debes seleccionar la carpeta de datos raÃ­z de curseforge.
+    Debes seleccionar la carpeta de datos raíz de curseforge.
   addMMCDescription: |-
     Importe la instancia MultiMC existente.
     Debe seleccionar la carpeta de datos de MultiMC.
   addServer: Crear desde el servidor
-  addServerDescription: Esto crearÃ¡ un juego que se iniciarÃ¡ directamente en el servidor.
+  addServerDescription: Esto creará un juego que se iniciará directamente en el servidor.
   addTemplate: Crear desde modpack descargado
   fix: Reparar
-  folderSetting: ConfiguraciÃ³n de carpeta
+  folderSetting: Configuración de carpeta
   importFolderDescription: Importar Minecraft al Lanzador
   loadingFiles: Cargando archivos Modpack
   addPrismDescription: Importar instancia existente de PrismLauncher.
 items:
-  count: '{count} Ã­tems'
+  count: '{count} ítems'
   total: '{total} total'
 java:
   allocatedLong: Usar Java predeterminada del sistema
-  allocatedShort: AsignaciÃ³n AutomÃ¡tica
+  allocatedShort: Asignación Automática
   allocation: Asignado
-  autoHint: El mÃ­nimo crece con la cantidad de mods instalados; el mÃ¡ximo usa la memoria disponible del sistema.
+  autoHint: El mínimo crece con la cantidad de mods instalados; el máximo usa la memoria disponible del sistema.
   change: Cambiar
-  locationHint: NingÃºn Java seleccionado â€” usando el predeterminado del sistema
+  locationHint: Ningún Java seleccionado — usando el predeterminado del sistema
   openFolder: Abrir carpeta de Java
   presets: Predeterminados
 unauthenticatedWarning:
-  title: No has iniciado sesiÃ³n
-  description: No has iniciado sesiÃ³n en ninguna cuenta. El juego se ejecutarÃ¡ en modo demo. Inicia sesiÃ³n para acceder a todas las funciones.
+  title: No has iniciado sesión
+  description: No has iniciado sesión en ninguna cuenta. El juego se ejecutará en modo demo. Inicia sesión para acceder a todas las funciones.
   cancel: Cancelar
-  login: Iniciar sesiÃ³n
+  login: Iniciar sesión
   playAnyway: Jugar de todos modos
 launch:
   createShortcut: Crear atajo
@@ -441,42 +441,42 @@ launch:
 launchBlocked:
   launchBadVersion:
     description: >-
-      El archivo de la versiÃ³n {version} estÃ¡ daÃ±ado o falta. Tal vez necesite reinstalar esta versiÃ³n.
-    title: Error de archivo de versiÃ³n
+      El archivo de la versión {version} está dañado o falta. Tal vez necesite reinstalar esta versión.
+    title: Error de archivo de versión
   launchSpawnProcessFailed:
     description: >-
-      Verifique su Java o otorgue mÃ¡s permisos al iniciador y vuelva a intentarlo.
+      Verifique su Java o otorgue más permisos al iniciador y vuelva a intentarlo.
 
-      Si esto aÃºn no funciona, comunÃ­quese con los desarrolladores.
+      Si esto aún no funciona, comuníquese con los desarrolladores.
     title: No se puede iniciar el proceso del juego
 launchFailed:
   elyByAuthlib:
     description: >-
-      Se usÃ³ la sustituciÃ³n de Authlib de Ely.by para Minecraft versiÃ³n {version}, pero esta versiÃ³n puede no ser totalmente compatible.
+      Se usó la sustitución de Authlib de Ely.by para Minecraft versión {version}, pero esta versión puede no ser totalmente compatible.
     suggestion: >-
-      Puede desactivar la sustituciÃ³n de Authlib de Ely.by en la configuraciÃ³n de la instancia para evitar este problema.
+      Puede desactivar la sustitución de Authlib de Ely.by en la configuración de la instancia para evitar este problema.
     title: Problema de compatibilidad de Ely.by Authlib
   failedToLaunch: Error al iniciar el arranque
 launchPreExecuteCommandFailed:
   description: >-
-    El comando de pre-ejecuciÃ³n fallÃ³ con un error: {error}. Por favor, compruebe el comando e intÃ©ntelo de nuevo.
-  title: Fallo del comando de preejecuciÃ³n
+    El comando de pre-ejecución falló con un error: {error}. Por favor, compruebe el comando e inténtelo de nuevo.
+  title: Fallo del comando de preejecución
 launchStatus:
   elyByWarning: >-
-    La sustituciÃ³n de Authlib de Ely.by estÃ¡ habilitada. Algunas versiones de Minecraft pueden no ser compatibles y podrÃ­an provocar fallos. Puede desactivarla en la configuraciÃ³n de la instancia si surgen problemas.
+    La sustitución de Authlib de Ely.by está habilitada. Algunas versiones de Minecraft pueden no ser compatibles y podrían provocar fallos. Puede desactivarla en la configuración de la instancia si surgen problemas.
   refreshingUser: Actualizar token de usuario
   spawningProcess: Puesta en marcha del proceso
 logView:
   searchPlaceholder: Buscar registros...
 loginError:
   loginXboxAgeRestricted: >-
-    No inicie sesiÃ³n Xbox debido al problema de edad.
+    No inicie sesión Xbox debido al problema de edad.
 
-    AsegÃºrese de que la edad estÃ© configurada para su cuenta de Microsoft y que la edad sea superior a 18.
+    Asegúrese de que la edad esté configurada para su cuenta de Microsoft y que la edad sea superior a 18.
   noProfileForNewUser: >-
-    Â¡No se encontrÃ³ perfil de juego!
+    ¡No se encontró perfil de juego!
 
-    Si es un nuevo usuario de Minecraft, inicie sesiÃ³n al menos una vez en el lanzador oficial de Minecraft.
+    Si es un nuevo usuario de Minecraft, inicie sesión al menos una vez en el lanzador oficial de Minecraft.
 logsCrashes:
   crashes: Informes de Errores
   logs: Registros
@@ -487,34 +487,34 @@ me:
   news: Noticias
   recentPlay: Juego Reciente
 migrationWindow:
-  title: MigraciÃ³n de datos
-  preparing: Preparando la migraciÃ³nâ€¦
-  scanning: Calculandoâ€¦
+  title: Migración de datos
+  preparing: Preparando la migración…
+  scanning: Calculando…
   migrating: Moviendo tus datos
-  done: MigraciÃ³n completada
+  done: Migración completada
   files: archivos
-  warning: MantÃ©n el launcher abierto hasta que termine, o podrÃ­as perder tus datos.
-  error: Error en la migraciÃ³n
+  warning: Mantén el launcher abierto hasta que termine, o podrías perder tus datos.
+  error: Error en la migración
 minecraftVersion:
-  name: VersiÃ³n de Minecraft
+  name: Versión de Minecraft
   all: Todas las versiones
-  release: VersiÃ³n Estable
+  release: Versión Estable
   showAlpha: Mostrar Versiones Snapshot
-  snapshot: VersiÃ³n Snapshot
+  snapshot: Versión Snapshot
 mod:
   acceptVersion: Aceptar {version}
-  applyGroupRules: Aplicar reglas de agrupaciÃ³n guardadas
+  applyGroupRules: Aplicar reglas de agrupación guardadas
   compatible: Mod Compatible.
   createGroup: Crear grupo
-  currentVersion: 'VersiÃ³n Actual: {current}'
+  currentVersion: 'Versión Actual: {current}'
   denseView: Vista densa
   disableAll: Deshabilitar todo
-  dropHint: Arrastra el archivo .jar/.litemod del mod aquÃ­ para importarlo.
+  dropHint: Arrastra el archivo .jar/.litemod del mod aquí para importarlo.
   duplicatedDetected: '{count} modificaciones duplicadas'
   duplicatedDetectedDescription: >-
-    Mods encontrados con la misma identificaciÃ³n de mod pero archivos diferentes.
+    Mods encontrados con la misma identificación de mod pero archivos diferentes.
 
-    Esto podrÃ­a causar que Minecraft falle.
+    Esto podría causar que Minecraft falle.
 
     Seleccione el archivo que desea conservar.
   enableAll: Habilitar todo
@@ -524,7 +524,7 @@ mod:
   groupInstalled: Agrupar Mods Instalados
   groupName: Nombre del grupo
   groupNameRequired: El nombre del grupo es obligatorio
-  hasUpdate: Â¡El mod tiene una nueva versiÃ³n!
+  hasUpdate: ¡El mod tiene una nueva versión!
   incompatible: Mod Incompatible.
   incompatibleHint: Consulte su informe de compatibilidad de mods
   incompatibleHintDescription: |-
@@ -539,8 +539,8 @@ mod:
   name: Mod | Mods
   newFolder: Nueva carpeta
   noGroupsFound: No se encontraron grupos
-  noGroupsYet: AÃºn no hay grupos. Â¡Crea uno!
-  noModLoaderHint: Â¡No olvides habilitar un modloader para usar mods!
+  noGroupsYet: Aún no hay grupos. ¡Crea uno!
+  noModLoaderHint: ¡No olvides habilitar un modloader para usar mods!
   openLink: Abrir la URL del mod {url}
   search: Buscar Mods
   searchGroups: Buscar grupos...
@@ -549,15 +549,15 @@ mod:
   showFile: Mostrar la ruta del mod {file}
   showInModrinth: Mostrar {name} en Modrinth
   switchDefaultSource: Fuente de Mods por Defecto
-  syncGroupRules: Guardar reglas de agrupaciÃ³n
+  syncGroupRules: Guardar reglas de agrupación
   toUpdate: '{count} para actualizar'
   ungroup: Desagrado
-  description: DescripciÃ³n
+  description: Descripción
 modFilter:
   clear: Filtro claro
   dependenciesInstallOnly: Solo muestre modificaciones de dependencias perdidas
   disabledOnly: Solo muestre modificaciones deshabilitadas
-  hasUpdateOnly: Solo Show tiene modificaciones de actualizaciÃ³n
+  hasUpdateOnly: Solo Show tiene modificaciones de actualización
   incompatibleOnly: >-
     Solo muestran dependencias incompatibles o faltantes modificaciones faltantes
   unusedOnly: Solo muestran modificaciones de bibliotecas no utilizadas
@@ -565,72 +565,72 @@ modInstall:
   archived: >-
     {name} ha sido archivado.
 
-    {name} no recibirÃ¡ mÃ¡s actualizaciones a menos que el autor decida desarchivar el proyecto.
+    {name} no recibirá más actualizaciones a menos que el autor decida desarchivar el proyecto.
   autoUpgrade:
     description: >-
-      Has cambiado la versiÃ³n de Minecraft. Â¿Te gustarÃ­a actualizar automÃ¡ticamente los mods compatibles a versiones que coincidan con Minecraft {version}?
+      Has cambiado la versión de Minecraft. ¿Te gustaría actualizar automáticamente los mods compatibles a versiones que coincidan con Minecraft {version}?
     'no': Omitir
-    title: Â¿Actualizar Mods?
+    title: ¿Actualizar Mods?
     'yes': Actualizar Mods
   checkDependencies: Verificar dependencias
   checkUpgrade: Verificar Actualizaciones de Mods
   checkedDependencies: Dependencias comprobadas
   checkedUpgrade: Actualizaciones verificadas
-  currentVersion: VersiÃ³n Seleccionada
-  dependencyHint: 'Otra versiÃ³n instalada: {version}'
+  currentVersion: Versión Seleccionada
+  dependencyHint: 'Otra versión instalada: {version}'
   releaseOnly: Ignorar versiones alfa y beta al actualizar
   installDependencies: Instalar dependencias faltantes
-  installHint: Se instalarÃ¡ el archivo {file} con {dependencies} dependencias
+  installHint: Se instalará el archivo {file} con {dependencies} dependencias
   noVersionSupported: Mod solo es compatible con Minecraft {compatible}.
-  recommendation: Â¡Explora las modificaciones {first} en {modrinth} y {curseforge}!
+  recommendation: ¡Explora las modificaciones {first} en {modrinth} y {curseforge}!
   removeUnusedLibraries: Eliminar modificaciones de bibliotecas no utilizadas
-  search: Resultado de la BÃºsqueda
+  search: Resultado de la Búsqueda
   skipVersion: Salta los Mods con diferentes versiones de Minecraft
   source: Fuente de Mods
-  switch: Cambiar VersiÃ³n
+  switch: Cambiar Versión
   upgrade: Actualizar Mods
 modSearch:
-  noLocalModsFound: No se encontraron mods locales que coincidan con tu bÃºsqueda.
+  noLocalModsFound: No se encontraron mods locales que coincidan con tu búsqueda.
   noModsFound: No se encontraron mods.
-  noModsInstalled: No tienes ningÃºn mod instalado.
+  noModsInstalled: No tienes ningún mod instalado.
   searchInMarket: Buscar {keyword} en el mercado
 modUpgradePolicy:
   curseforge: Forja maldita primero
-  curseforgeOnly: SÃ³lo forja maldita
+  curseforgeOnly: Sólo forja maldita
   modrinth: Modrinth primero
-  modrinthOnly: SÃ³lo Modrinth
-  name: PolÃ­tica de actualizaciÃ³n
+  modrinthOnly: Sólo Modrinth
+  name: Política de actualización
 modified:
   reset: Restablecer
   save: Guardar
-  unsaved: Â¡Tus modificaciones no se han guardado!
+  unsaved: ¡Tus modificaciones no se han guardado!
 modpack:
   author: Nombre del Autor
-  authorHint: Esto podrÃ­a usarse para firmar en la exportaciÃ³n de modpack (Curseforge)
-  description: DescripciÃ³n
+  authorHint: Esto podría usarse para firmar en la exportación de modpack (Curseforge)
+  description: Descripción
   descriptionHint: >-
-    DescripciÃ³n general para tu modpack. Puede usarse para exportarlo como un modpack de Curseforge.
-  dropHint: Arrastra el archivo zip del modpack aquÃ­ para importarlo
+    Descripción general para tu modpack. Puede usarse para exportarlo como un modpack de Curseforge.
+  dropHint: Arrastra el archivo zip del modpack aquí para importarlo
   emitCurseforge: Emitir Modpack de Curseforge
   emitModrinth: Emitir Modpack de Modrinth
   emitModrinthStrict: Formato Estricto de Modrinth
   emitModrinthStrictDescription: >-
     Solo se permiten las URL de los 4 dominios listados en el documento de Modrinth
   export: Exportar como Modpack
-  exportDirectory: Directorio de exportaciÃ³n
-  exportDirectoryDescription: El modpack se exportarÃ¡ a la carpeta de descargas de forma predeterminada
+  exportDirectory: Directorio de exportación
+  exportDirectoryDescription: El modpack se exportará a la carpeta de descargas de forma predeterminada
   includeAssets: Incluir Recursos
   includes: Archivos para Incluir
-  modpackVersion: VersiÃ³n del Modpack
+  modpackVersion: Versión del Modpack
   name: Modpack | Modpacks
   overrides: Anulaciones
   url: URL
-  urlHint: La pÃ¡gina de inicio URL de tu modpack
+  urlHint: La página de inicio URL de tu modpack
 modpackImportConfirm:
   description: |-
     Detecte que suelte un archivo en el lanzador.
-    Â¿EstÃ¡s tratando de importar un Modpack?
-  title: Â¿EstÃ¡s tratando de importar un Modpack?
+    ¿Estás tratando de importar un Modpack?
+  title: ¿Estás tratando de importar un Modpack?
 modrinth:
   browseUrl: Abrir en el Navegador {url}
   categories:
@@ -651,31 +651,31 @@ modrinth:
     bungeecord: Bungeecord
     canvas: Canvas
     cartoon: Estilo Cartoony
-    categories: CategorÃ­as
+    categories: Categorías
     challenging: Desafiante
-    colored-lighting: IluminaciÃ³n de Colores
+    colored-lighting: Iluminación de Colores
     combat: Combate
-    core-shaders: NÃºcleo de Shaders
+    core-shaders: Núcleo de Shaders
     cursed: Maldito
     datapack: Paquete de Datos
-    decoration: DecoraciÃ³n
-    economy: EconomÃ­a
+    decoration: Decoración
+    economy: Economía
     entities: Entidades
     environment: Entorno
     equipment: Equipo
     fabric: Fabric
-    fantasy: FantasÃ­a
-    features: CaracterÃ­sticas
+    fantasy: Fantasía
+    features: Características
     folia: Folia
     foliage: Follaje
     fonts: Fuentes
     food: Comida
     forge: Forge
-    game-mechanics: MecÃ¡nicas de Juego
+    game-mechanics: Mecánicas de Juego
     gui: Interfaz de Usuario
     high: Alto
     iris: Iris
-    items: Ãtems
+    items: Ítems
     kitchen-sink: Kitchen Sink
     library: Biblioteca
     lightweight: Ligero
@@ -683,7 +683,7 @@ modrinth:
     locale: Idioma
     low: Bajo
     magic: Magia
-    management: GestiÃ³n
+    management: Gestión
     medium: Medio
     minecraft: Minecraft
     minigame: Minijuegos
@@ -693,10 +693,10 @@ modrinth:
     models: Modelos
     modloader: Cargador de Mods
     multiplayer: Multijugador
-    name: CategorÃ­as
+    name: Categorías
     neoforge: NeoForge
     optifine: Optifine
-    optimization: OptimizaciÃ³n
+    optimization: Optimización
     paper: Paper
     path-tracing: Rastreo de Trayectoria
     pbr: PBR
@@ -717,8 +717,8 @@ modrinth:
     spigot: Spigot
     sponge: Sponge
     storage: Almacenamiento
-    technology: TecnologÃ­a
-    themed: TemÃ¡tico
+    technology: Tecnología
+    themed: Temático
     transportation: Transporte
     tweaks: Ajustes
     utility: Utilidad
@@ -726,12 +726,12 @@ modrinth:
     vanilla-like: Similar a Vanilla
     velocity: Velocity
     waterfall: Cascada
-    worldgen: GeneraciÃ³n de Mundo
+    worldgen: Generación de Mundo
   clientSide: Lado del Cliente
   copyTitle: Copiar Texto {title} al portapapeles
   createAt: Creado
-  createCollection: Crear colecciÃ³n
-  description: DescripciÃ³n
+  createCollection: Crear colección
+  description: Descripción
   downloads: Descargas
   environments:
     default: Por Defecto
@@ -744,22 +744,22 @@ modrinth:
   featuredVersions: Versiones Destacadas
   followedProjects: Proyectos seguidos
   followers: Seguidores
-  gallery: GalerÃ­a
+  gallery: Galería
   gameVersions:
     name: Versiones del Juego
   headers:
-    status: EstadÃ­sticas
+    status: Estadísticas
     support: Soporta
-    version: VersiÃ³n
+    version: Versión
   issueUrl: Problema
   license: Licencia
   licenses:
     name: Licencias
   loginHint: >-
-    La operaciÃ³n requiere que el modrinth realice.
+    La operación requiere que el modrinth realice.
 
-    El lanzador abrirÃ¡ una ventana del navegador para iniciar sesiÃ³n en Modrinth.
-  loginTitle: Iniciar sesiÃ³n en Modrinth
+    El lanzador abrirá una ventana del navegador para iniciar sesión en Modrinth.
+  loginTitle: Iniciar sesión en Modrinth
   modLoaders:
     name: Cargadores de Mods
   modpackSource:
@@ -782,28 +782,28 @@ modrinth:
     relevance: Relevancia
     title: Ordenar por
     updated: Actualizado Recientemente
-  sourceUrl: CÃ³digo Fuente
-  technicalInformation: InformaciÃ³n TÃ©cnica
+  sourceUrl: Código Fuente
+  technicalInformation: Información Técnica
   updateAt: Actualizado
   versions: Versiones
   wikiUrl: Wiki
 multiplayer:
   exposedPortDescription: El puerto que expuso a otros pares
   exposedPorts: Puertos reenviados
-  kernel: NÃºcleo P2P
+  kernel: Núcleo P2P
   kernelDescription: >-
     Utilice WebRTC nativo o canal de datos de nodo.
 
-    Cambie esto solo cuando su conexiÃ³n p2p en algÃºn momento bloquee la ventana del iniciador.
-  otherExposedPortDescription: El prÃ³logo del puerto de {usuario}
+    Cambie esto solo cuando su conexión p2p en algún momento bloquee la ventana del iniciador.
+  otherExposedPortDescription: El prólogo del puerto de {usuario}
   sharingNotificationBody: >-
-    Puede descargar o crear una instancia desde la configuraciÃ³n compartida de {nombre}.
-  sharingNotificationTitle: Un compaÃ±ero estÃ¡ compartiendo la configuraciÃ³n del juego.
-  connectionError: Error de conexiÃ³n
+    Puede descargar o crear una instancia desde la configuración compartida de {nombre}.
+  sharingNotificationTitle: Un compañero está compartiendo la configuración del juego.
+  connectionError: Error de conexión
   connectionFailedHint: >-
-    No se puede establecer la conexiÃ³n. Comprueba que ambos pares tengan tipos de NAT compatibles.
+    No se puede establecer la conexión. Comprueba que ambos pares tengan tipos de NAT compatibles.
   natWarning: >-
-    Tu tipo de NAT puede impedir conexiones directas. Intenta activar el servidor de relÃ© en los ajustes o pÃ­dele a tu amigo que sea el anfitriÃ³n.
+    Tu tipo de NAT puede impedir conexiones directas. Intenta activar el servidor de relé en los ajustes o pídele a tu amigo que sea el anfitrión.
 optifineVersion:
   disable: Desactivar Optifine
   empty: Optifine no es compatible con Minecraft {version}
@@ -814,7 +814,7 @@ peerConnectionState:
   connecting: Conectando
   disconnected: Desconectada
   failed: Fallida
-  name: Estado de ConexiÃ³n
+  name: Estado de Conexión
   new: Nueva
 peerGroupState:
   closed: No en Grupo
@@ -824,31 +824,31 @@ peerGroupState:
 peerIceGatheringState:
   gathering: Recopilando Servidor Ice
 peerSignalingState:
-  have-local-offer: Esperando descripciÃ³n del par
+  have-local-offer: Esperando descripción del par
 presence:
   instance: Inactiva en Instancia {instance}
-  instanceSetting: 'Editar ConfiguraciÃ³n de la Instancia: {instance}'
+  instanceSetting: 'Editar Configuración de la Instancia: {instance}'
   mod: Viendo Mods en {instance}
   modrinthProject: Viendo {name} en Modrinth
   resourcePack: Viendo Paquetes de Recursos en {instance}
   save: Viendo Partidas Guardadas en {instance}
-  setting: Viendo PÃ¡gina de ConfiguraciÃ³n
+  setting: Viendo Página de Configuración
   shaderPack: Viendo Packs de Shaders en {instance}
 proxy:
-  host: AnfitriÃ³n
+  host: Anfitrión
   port: Puerto
 quiltVersion:
   disable: Desactivar Quilt
   empty: Quilt no es compatible con Minecraft {version}
 resourcepack:
   compatible: Formato compatible {format} con {version}
-  defaultDescription: El aspecto y la sensaciÃ³n predeterminados de Minecraft
+  defaultDescription: El aspecto y la sensación predeterminados de Minecraft
   delete:
     content: >-
-      Esto eliminarÃ¡ el archivo de paquete de recursos del disco, y no podremos deshacerlo. Â¿EstÃ¡s seguro de hacerlo?
+      Esto eliminará el archivo de paquete de recursos del disco, y no podremos deshacerlo. ¿Estás seguro de hacerlo?
     title: Eliminar el paquete de recursos
-  dropHint: Arrastra la carpeta/zip del paquete de recursos aquÃ­ para importar.
-  enable: '{count} Paquete de Recursos estÃ¡ habilitado'
+  dropHint: Arrastra la carpeta/zip del paquete de recursos aquí para importar.
+  enable: '{count} Paquete de Recursos está habilitado'
   incompatible: >-
     Formato de Paquete de Recursos incompatible ({format}). Se ajusta a {accept}. Actual {actual}.
   name: Paquete de Recursos | Paquetes de Recursos
@@ -868,9 +868,9 @@ save:
   createNew: Crear nuevo mundo
   createdWorlds: Tienes {count} mundos
   deleteHint: >-
-    Esta operaciÃ³n no se puede revertir. PerderÃ¡s estos datos de partida guardada para siempre. Â¿EstÃ¡s seguro de eliminar esta partida?
+    Esta operación no se puede revertir. Perderás estos datos de partida guardada para siempre. ¿Estás seguro de eliminar esta partida?
   deleteTitle: Eliminar la Partida
-  dropHint: Arrastra el archivo zip de partida guardada aquÃ­ para importar.
+  dropHint: Arrastra el archivo zip de partida guardada aquí para importar.
   export: Exportar Partida
   exportMessage: Exportar la Partida como zip
   exportTitle: Exportar la Partida
@@ -892,38 +892,38 @@ screenshots:
   empty: No tienes capturas de pantalla
   playRandom: Juega aleatoriamente
   playSequence: Jugar en orden
-  gallery: GalerÃ­a de capturas
+  gallery: Galería de capturas
   hint: Pulsa F2 en el juego para capturar pantallas
   openFolder: Abrir carpeta de capturas
 search:
-  favorate: RecopilaciÃ³n
+  favorate: Recopilación
   local: Instalado
   market: Mercado Mod
 server:
-  acceptingMinecraftVersion: Aceptando VersiÃ³n de Minecraft
-  creationHint: Por favor, completa la direcciÃ³n del servidor y realiza un ping al servidor
+  acceptingMinecraftVersion: Aceptando Versión de Minecraft
+  creationHint: Por favor, completa la dirección del servidor y realiza un ping al servidor
   expectedVersions: Versiones Soportadas
   export: Exportar servidor
   exportNoFilesHint: |-
     No se encontraron archivos de servidor.
     Puede ejecutar Server en Local una vez para generar algunos archivos.
-  exportOption: Opciones de exportaciÃ³n de servidor
+  exportOption: Opciones de exportación de servidor
   exportSSHAuthenticationFailed: |-
-    Todos los mÃ©todos de autenticaciÃ³n fallaron.
-    Verifique el nombre de usuario/contraseÃ±a o la clave privada.
+    Todos los métodos de autenticación fallaron.
+    Verifique el nombre de usuario/contraseña o la clave privada.
   exportSSHOptions: Opciones SSH
   exportSSHPrivateKeyPath: Ssh
   exportSSHRemotePath: Ruta de servidor remoto
   exportToFolder: Exportar a la carpeta
-  filterVersion: Filtrar versiÃ³n de Minecraft del servidor respondido
-  host: AnfitriÃ³n
-  hostHint: El anfitriÃ³n (con puerto) del servidor
-  hostRequired: Ingrese la direcciÃ³n IP del servidor
-  ipAddress: DirecciÃ³n IP
-  maxPlayers: Jugadores mÃ¡ximos
+  filterVersion: Filtrar versión de Minecraft del servidor respondido
+  host: Anfitrión
+  hostHint: El anfitrión (con puerto) del servidor
+  hostRequired: Ingrese la dirección IP del servidor
+  ipAddress: Dirección IP
+  maxPlayers: Jugadores máximos
   motd: MOTD del Servidor
-  nogui: Sin interfaz grÃ¡fica de usuario
-  onlineMode: Modo en lÃ­nea
+  nogui: Sin interfaz gráfica de usuario
+  onlineMode: Modo en línea
   ping: Ping
   pings: Pings
   players: Jugadores
@@ -931,78 +931,78 @@ server:
   unknown: Servidor Desconocido
   unknownDescription: Servidor Desconocido. Por favor, actualiza.
   upload: Servidor de carga
-  version: El Servidor Requiere VersiÃ³n
-  versionHint: La VersiÃ³n de Minecraft para hacer ping
+  version: El Servidor Requiere Versión
+  versionHint: La Versión de Minecraft para hacer ping
 serverStatus:
-  nohost: Â§4Â¡No se puede encontrar el anfitriÃ³n!
+  nohost: §4¡No se puede encontrar el anfitrión!
   ping: Realizando ping...
-  refuse: Â§4Â¡El servidor lo ha rechazado!
-  timeout: Â§4Â¡ConexiÃ³n al servidor agotada!
+  refuse: §4¡El servidor lo ha rechazado!
+  timeout: §4¡Conexión al servidor agotada!
 setting:
   themeStore:
-    name: AlmacÃ©n de temas
+    name: Almacén de temas
     description: Guardar y gestionar temas globales
     savedThemes: Temas guardados
-    noSavedThemes: AÃºn no hay temas guardados
-    saveToStore: Guardar en el almacÃ©n
+    noSavedThemes: Aún no hay temas guardados
+    saveToStore: Guardar en el almacén
     saveDialogTitle: Guardar tema
     themeName: Nombre del tema
     themeNameHint: Nombre para guardar este tema
-    loadConfirmTitle: Â¿Reemplazar el tema actual?
-    loadConfirmMessage: Cargar un tema guardado reemplazarÃ¡ el tema actual. Haz una copia si es necesario.
+    loadConfirmTitle: ¿Reemplazar el tema actual?
+    loadConfirmMessage: Cargar un tema guardado reemplazará el tema actual. Haz una copia si es necesario.
     loadTheme: Cargar tema
   about: Acerca de
   aboutBmclDescription: >-
     BMCL API proporciona descargas convenientes para usuarios en China continental
-  aboutContributors: ðŸ§‘â€ðŸ’» Contribuyentes ðŸ§‘â€ðŸ’»
+  aboutContributors: 🧑‍💻 Contribuyentes 🧑‍💻
   aboutDenoDescription: >-
     FastLauncher aprovecha la plataforma sin complicaciones de Deno Deploy para aplicaciones JavaScript sin servidor
   aboutLicense: MIT License
   aboutLicenseInfo: >-
-    Firma de cÃ³digo gratuita en Windows proporcionada por SignPath.io, certificado por SignPath Foundation
-  aboutSponsors: ðŸ˜‡ Patrocinadores ðŸ˜‡
+    Firma de código gratuita en Windows proporcionada por SignPath.io, certificado por SignPath Foundation
+  aboutSponsors: 😇 Patrocinadores 😇
   advancedJavaOptions: Opciones avanzadas de Java
-  advancedSettings: ConfiguraciÃ³n avanzada
+  advancedSettings: Configuración avanzada
   advancedSettingsHint: Zona de peligro - restablecer o administrar datos del lanzador
   apiSets:
-    auto: AutomÃ¡tico (Determinado por la red)
+    auto: Automático (Determinado por la red)
     official: Oficial (Mojang)
   appearance: Apariencia
   appearanceDescription: Personalizar la apariencia del lanzador
   appxUpdateHint: >-
-    El lanzador descargarÃ¡ y ejecutarÃ¡ el instalador. Si la ventana emergente del instalador falla, ejecÃºtala manualmente.
-  authenticationSettings: AutenticaciÃ³n
-  backdropBlur: Flojo de telÃ³n de fondo
-  backgroundColorAbove: Mostrar color de fondo como superposiciÃ³n
+    El lanzador descargará y ejecutará el instalador. Si la ventana emergente del instalador falla, ejecútala manualmente.
+  authenticationSettings: Autenticación
+  backdropBlur: Flojo de telón de fondo
+  backgroundColorAbove: Mostrar color de fondo como superposición
   backgroundColorAboveDescription: >-
-    Esto harÃ¡ que el color de fondo se muestre encima de la imagen o el vÃ­deo de fondo.
+    Esto hará que el color de fondo se muestre encima de la imagen o el vídeo de fondo.
   backgroundImage: Imagen de fondo
   backgroundImageClear: Borrar
-  backgroundImageDescription: Selecciona una imagen como fondo o bÃ³rrala
+  backgroundImageDescription: Selecciona una imagen como fondo o bórrala
   backgroundImageFit:
     contain: Contener
     cover: Cubrir
   backgroundImageUrl: URL de la imagen
   backgroundImageUrlPlaceholder: Ingrese la URL HTTP/HTTPS para la imagen
-  backgroundMusic: MÃºsica de fondo del tema
-  backgroundMusicUrl: URL de mÃºsica
-  backgroundMusicUrlPlaceholder: Ingrese la URL HTTP/HTTPS para mÃºsica
+  backgroundMusic: Música de fondo del tema
+  backgroundMusicUrl: URL de música
+  backgroundMusicUrlPlaceholder: Ingrese la URL HTTP/HTTPS para música
   backgroundType: Tipo de Fondo
   backgroundTypeDescription: Muestra efectos especiales en el fondo (esto puede afectar el rendimiento)
   backgroundTypes:
     halo: Halo
     image: Imagen
     none: Ninguno
-    particle: PartÃ­cula
+    particle: Partícula
     video: Video
   backgroundVideo: Video de Fondo
   backgroundVideoDescription: selecciona o borra el video
-  backgroundVideoUrl: URL del vÃ­deo
+  backgroundVideoUrl: URL del vídeo
   backgroundVideoUrlPlaceholder: Ingrese la URL HTTP/HTTPS para el video
   backgroundVideoVolume: Volumen
   backgroundVideoVolumeDescription: arrastra para ajustar el volumen
   browseRoot: Navegar
-  checkUpdate: Comprobar ActualizaciÃ³n
+  checkUpdate: Comprobar Actualización
   colorTheme:
     appBarColor: Color de la Barra de Aplicaciones
     backgroundColor: Color de Fondo
@@ -1016,103 +1016,103 @@ setting:
   darkTheme: Tema Oscuro
   darkThemeDescription: Elije el tema oscuro o claro
   developerMode: Modo de Desarrollador
-  developerModeDescription: El Modo de Desarrollador estÃ¡ diseÃ±ado para probar tus propios mods
-  disableTelemetry: Desactivar TelemetrÃ­a
+  developerModeDescription: El Modo de Desarrollador está diseñado para probar tus propios mods
+  disableTelemetry: Desactivar Telemetría
   disableTelemetryDescription: >-
-    FastLauncher recopilarÃ¡ eventos de inicio del juego y de inicio de sesiÃ³n del usuario.
+    FastLauncher recopilará eventos de inicio del juego y de inicio de sesión del usuario.
   enableDedicatedGPUOptimization: Asignar GPU dedicada
-  enableDedicatedGPUOptimizationDescription: Esta opciÃ³n asignarÃ¡ GPU dedicada al proceso de Minecraft.
+  enableDedicatedGPUOptimizationDescription: Esta opción asignará GPU dedicada al proceso de Minecraft.
   enableDiscord: Habilitar Presencia en Discord
-  enableDiscordDescription: Esto mantendrÃ¡ actualizado tu estado de lanzador en Discord
+  enableDiscordDescription: Esto mantendrá actualizado tu estado de lanzador en Discord
   enterUrl: Ingrese la URL
-  exportSettings: Exportar configuraciÃ³n
-  exportSettingsHint: Guardar la configuraciÃ³n actual en un archivo
+  exportSettings: Exportar configuración
+  exportSettingsHint: Guardar la configuración actual en un archivo
   general: General
   githubRelease: Lanzamiento en GitHub
-  globalSetting: ConfiguraciÃ³n Global de la Instancia
-  globalSettingHint: La instancia utilizarÃ¡ estos ajustes por defecto.
-  importSettings: Importar configuraciÃ³n
-  importSettingsHint: Cargar configuraciÃ³n desde un archivo exportado anteriormente
+  globalSetting: Configuración Global de la Instancia
+  globalSettingHint: La instancia utilizará estos ajustes por defecto.
+  importSettings: Importar configuración
+  importSettingsHint: Cargar configuración desde un archivo exportado anteriormente
   instanceTheme:
     activeDescription: |-
       Esta instancia utiliza un tema personalizado.
       Puede eliminarlo para utilizar el tema global.
     description: |-
       Habilite un tema personalizado para esta instancia.
-      Esto crearÃ¡ una copia del tema global actual.
+      Esto creará una copia del tema global actual.
     name: Tema de instancia
   language: Idioma
   languageDescription: El idioma de la interfaz
-  latestVersion: Ãšltima VersiÃ³n
+  latestVersion: Última Versión
   layout:
-    default: DiseÃ±o Predeterminado
-    focus: DiseÃ±o de Enfoque
+    default: Diseño Predeterminado
+    focus: Diseño de Enfoque
   layoutDescription: >-
-    El diseÃ±o del lanzador representa una lÃ³gica de interfaz de usuario diferente
-  layoutTitle: DiseÃ±o
-  linuxEnableDedicatedGPUOptimization: AsignaciÃ³n de un procesador grÃ¡fico dedicado
-  linuxEnableDedicatedGPUOptimizationDescription: Esta opciÃ³n asigna una GPU dedicada al proceso de Minecraft.
-  linuxTitlebar: Barra de TÃ­tulo Nativa en Linux
-  linuxTitlebarDescription: Usar la barra de tÃ­tulo nativa de Linux para el lanzador
-  location: UbicaciÃ³n del Almacenamiento
+    El diseño del lanzador representa una lógica de interfaz de usuario diferente
+  layoutTitle: Diseño
+  linuxEnableDedicatedGPUOptimization: Asignación de un procesador gráfico dedicado
+  linuxEnableDedicatedGPUOptimizationDescription: Esta opción asigna una GPU dedicada al proceso de Minecraft.
+  linuxTitlebar: Barra de Título Nativa en Linux
+  linuxTitlebarDescription: Usar la barra de título nativa de Linux para el lanzador
+  location: Ubicación del Almacenamiento
   manualUpdateHint: >-
-    La versiÃ³n no se puede actualizar automÃ¡ticamente. Vuelve a descargar el lanzador desde el sitio web oficial.
+    La versión no se puede actualizar automáticamente. Vuelve a descargar el lanzador desde el sitio web oficial.
   maunalUpdateHint: |-
-    La versiÃ³n no se puede actualizar automÃ¡ticamente.
-    Â¡Vuelva a descargar el iniciador del sitio web!
-  maxSockets: Por AnfitriÃ³n
+    La versión no se puede actualizar automáticamente.
+    ¡Vuelva a descargar el iniciador del sitio web!
+  maxSockets: Por Anfitrión
   maxSocketsDescription: >-
-    Limita el nÃºmero mÃ¡ximo de conexiones por anfitriÃ³n o en total para todos los anfitriones. 0 significa sin lÃ­mite.
-  maxSocketsTitle: MÃ¡ximo de Conexiones HTTP
-  memoryAssignment: AsignaciÃ³n de Memoria
+    Limita el número máximo de conexiones por anfitrión o en total para todos los anfitriones. 0 significa sin límite.
+  maxSocketsTitle: Máximo de Conexiones HTTP
+  memoryAssignment: Asignación de Memoria
   migrateFromOther: Importar desde otro lanzador
   minecraftOptions: Opciones de Minecraft
-  name: ConfiguraciÃ³n Global | Configuraciones Globales
-  network: ConfiguraciÃ³n de la red
-  newsPosition: Mover secciÃ³n de noticias
+  name: Configuración Global | Configuraciones Globales
+  network: Configuración de la red
+  newsPosition: Mover sección de noticias
   officialWebsite: Sitio Web Oficial
   particleMode:
     bubble: Burbuja
     push: Empujar
     remove: Eliminar
     repulse: Repulsar
-  particleModeDescription: Selecciona el comportamiento al hacer clic en las partÃ­culas
-  quickLaunchSettings: Inicio rÃ¡pido
+  particleModeDescription: Selecciona el comportamiento al hacer clic en las partículas
+  quickLaunchSettings: Inicio rápido
   replaceNative: Reemplazar bibliotecas nativas
-  replaceNativeDescription: Reemplace las bibliotecas nativas segÃºn el arco de su computadora.
+  replaceNativeDescription: Reemplace las bibliotecas nativas según el arco de su computadora.
   replaceNatives:
     all: Todo
-    legacy: Solo versiÃ³n heredada
-  resetAllSettings: Restablecer toda la configuraciÃ³n
+    legacy: Solo versión heredada
+  resetAllSettings: Restablecer toda la configuración
   resetAllSettingsConfirmMessage: >-
-    Esto eliminarÃ¡ permanentemente todas las configuraciones, cuentas, instancias, grupos y datos en cachÃ©. Esta acciÃ³n no se puede deshacer. Â¿EstÃ¡s seguro?
-  resetAllSettingsConfirmTitle: Â¿Restablecer toda la configuraciÃ³n?
-  resetAllSettingsHint: Restablecer el lanzador a los valores de fÃ¡brica (elimina todo)
-  resetAllSettingsSuccess: Toda la configuraciÃ³n ha sido restablecida. El lanzador se reiniciarÃ¡.
-  resetSettingsError: 'Error al restablecer la configuraciÃ³n: {error}'
+    Esto eliminará permanentemente todas las configuraciones, cuentas, instancias, grupos y datos en caché. Esta acción no se puede deshacer. ¿Estás seguro?
+  resetAllSettingsConfirmTitle: ¿Restablecer toda la configuración?
+  resetAllSettingsHint: Restablecer el lanzador a los valores de fábrica (elimina todo)
+  resetAllSettingsSuccess: Toda la configuración ha sido restablecida. El lanzador se reiniciará.
+  resetSettingsError: 'Error al restablecer la configuración: {error}'
   resetToDefault: Restablecer a los Valores Predeterminados
   select: seleccionar
-  settingsExported: ConfiguraciÃ³n exportada exitosamente
+  settingsExported: Configuración exportada exitosamente
   settingsImportError: >-
-    Error al importar la configuraciÃ³n. Por favor, verifica el formato del archivo.
-  settingsImported: ConfiguraciÃ³n importada exitosamente
-  settingsReloadHint: El launcher se reiniciarÃ¡ para aplicar toda la configuraciÃ³n.
+    Error al importar la configuración. Por favor, verifica el formato del archivo.
+  settingsImported: Configuración importada exitosamente
+  settingsReloadHint: El launcher se reiniciará para aplicar toda la configuración.
   showNewsHeader: Mostrar escaparate de noticias
   showRoot: Mostrar
-  sidebarAlign: AlineaciÃ³n de la barra lateral
-  sidebarAutoHide: Ocultar barra lateral automÃ¡ticamente
-  sidebarAutoHideHint: Oculta automÃ¡ticamente la barra lateral cuando el ratÃ³n se aleja
-  sidebarClassic: ClÃ¡sico
+  sidebarAlign: Alineación de la barra lateral
+  sidebarAutoHide: Ocultar barra lateral automáticamente
+  sidebarAutoHideHint: Oculta automáticamente la barra lateral cuando el ratón se aleja
+  sidebarClassic: Clásico
   sidebarNotch: Muesca
-  sidebarPosition: PosiciÃ³n de la barra lateral
+  sidebarPosition: Posición de la barra lateral
   sidebarScale: Escala de la barra lateral
   sidebarShowOnlyPinned: Mostrar solo fijados
   sidebarShowOnlyPinnedHint: Mostrar solo las instancias fijadas en la barra lateral
   sidebarStyle: Estilo de la barra lateral
   sidebarStyleHint: Elige el estilo de apariencia de la barra lateral
-  streamerMode: Modo de transmisiÃ³n
+  streamerMode: Modo de transmisión
   streamerModeDescription: >-
-    Esto ocultarÃ¡ su informaciÃ³n privada, como el correo electrÃ³nico, en el iniciador.
+    Esto ocultará su información privada, como el correo electrónico, en el iniciador.
   theme:
     dark: Tema Oscuro
     light: Tema Claro
@@ -1133,10 +1133,10 @@ setting:
   update: Actualizar
   useBmclAPI: Usar API de BMCL
   useBmclAPIDescription: >-
-    Usar BMCLAPI para descargar Minecraft cuando te encuentres en la China continental. (Esto no afectarÃ¡ si no estÃ¡s en la China continental)
+    Usar BMCLAPI para descargar Minecraft cuando te encuentres en la China continental. (Esto no afectará si no estás en la China continental)
   useProxy: Proxy HTTP
-  useProxyDescription: La direcciÃ³n del servidor proxy para las solicitudes HTTP
-  viewBackgroundMusic: Ver mÃºsicas
+  useProxyDescription: La dirección del servidor proxy para las solicitudes HTTP
+  viewBackgroundMusic: Ver músicas
   setAsBackground:
     global: Establecer como fondo del lanzador
     instance: Establecer como fondo de la instancia
@@ -1145,48 +1145,48 @@ setting:
     failed: No se pudo establecer la imagen de fondo
 settingLabel:
   global: Global
-  globalHint: Esta configuraciÃ³n seguirÃ¡ la configuraciÃ³n global
+  globalHint: Esta configuración seguirá la configuración global
   local: Local
-  localHint: Esta configuraciÃ³n estÃ¡ modificada por la instancia actual
+  localHint: Esta configuración está modificada por la instancia actual
 setup:
   account:
     description: >-
-      Inicia sesiÃ³n en tu cuenta del juego. Si no tienes una, puedes saltarte esto por ahora.
-    name: AÃ±adir una cuenta de juego
-    skip: SÃ¡ltatelo por ahora
+      Inicia sesión en tu cuenta del juego. Si no tienes una, puedes saltarte esto por ahora.
+    name: Añadir una cuenta de juego
+    skip: Sáltatelo por ahora
   appearance:
     name: '@:setting.appearance'
   dataRoot:
     description: >-
-      El directorio de datos no es un directorio .minecraft comÃºn. Dado que la estructura de directorios de datos de FastLauncher es diferente de la versiÃ³n original, no recomendamos usar el directorio .minecraft comÃºn como directorio de datos.
+      El directorio de datos no es un directorio .minecraft común. Dado que la estructura de directorios de datos de FastLauncher es diferente de la versión original, no recomendamos usar el directorio .minecraft común como directorio de datos.
     name: Establecer Directorio de Datos
   defaultPath: Directorio Predeterminado
   error:
     invalidChar: |-
-      Â¡El camino contiene personajes invÃ¡lidos!
-      Â¡PodrÃ­a causar que Minecraft no comience!
-      Â¡Plaese solo usa personajes y sÃ­mbolos ingleses!
+      ¡El camino contiene personajes inválidos!
+      ¡Podría causar que Minecraft no comience!
+      ¡Plaese solo usa personajes y símbolos ingleses!
   game:
     name: Importar Juego Existente
   locale:
     description: >-
-      Â¡Elige tu idioma preferido si lo tenemos! Si no ves tu idioma nativo y quieres ayudar, puedes visitar nuestro Github y enviar solicitudes de extracciÃ³n para traducir.
+      ¡Elige tu idioma preferido si lo tenemos! Si no ves tu idioma nativo y quieres ayudar, puedes visitar nuestro Github y enviar solicitudes de extracción para traducir.
     language: Idioma
     name: Establecer Idioma
   path: Ruta Actual
 shaderPack:
   deletion: Eliminar Pack de Shaders
-  deletionHint: Esto eliminarÃ¡ el archivo del pack de shaders {path} y no se podrÃ¡ deshacer.
-  dropHint: Arrastra y suelta el archivo del conjunto de sombreadores (.zip) aquÃ­
-  empty: No se ha asignado ningÃºn pack de shaders
+  deletionHint: Esto eliminará el archivo del pack de shaders {path} y no se podrá deshacer.
+  dropHint: Arrastra y suelta el archivo del conjunto de sombreadores (.zip) aquí
+  empty: No se ha asignado ningún pack de shaders
   enable: Usando el pack de shaders {name}
   manage: Gestionar Packs de Shaders
   name: Pack de Shaders
-  noShaderMod: No hay ningÃºn mod de sombreado instalado
+  noShaderMod: No hay ningún mod de sombreado instalado
   noShaderModHint: No puedes usar sombreador sin un mod de sombreado
   noShaderModInstallHint: >-
     Debe instalar uno de los siguientes mods para cargar el paquete de sombreadores.
-  searchHint: BÃºsqueda de un conjunto de sombreadores
+  searchHint: Búsqueda de un conjunto de sombreadores
   selectSearchHint: Localice y seleccione Shader Pack
   showDirectory: Mostrar directorio de packs de shaders
   showFile: Mostrar este pack de shaders en la carpeta
@@ -1194,13 +1194,13 @@ shaderPack:
   noPacks: No hay shaders instalados
   search: Buscar shaders...
 shared:
-  add: AÃ±adir
+  add: Añadir
   author: Autor
-  back: AtrÃ¡s
+  back: Atrás
   browse: Explorar
   cancel: Cancelar
   client: Cliente
-  description: DescripciÃ³n
+  description: Descripción
   disable: Desactivar
   enable: Activar
   install: Instalar
@@ -1222,20 +1222,20 @@ sidebar:
 sortBy:
   alphabetAsc: Ordenar por alfabeto (ascendente)
   alphabetDesc: Ordenar por alfabeto (descendente)
-  timeAsc: Ordenar por tiempo de modificaciÃ³n (ascendente)
-  timeDesc: Ordenar por tiempo de modificaciÃ³n (descendente)
+  timeAsc: Ordenar por tiempo de modificación (ascendente)
+  timeDesc: Ordenar por tiempo de modificación (descendente)
   name: Ordenar por
 store:
   discover: Descubrir
-  latestMinecraft: La Ãºltima versiÃ³n de Minecraft
+  latestMinecraft: La última versión de Minecraft
   name: Tienda de kits mod
-  searchResult: Resultado de la bÃºsqueda
+  searchResult: Resultado de la búsqueda
   trending: Tendencia
   empty: No se encontraron modpacks
-  emptyHint: Prueba a ajustar los filtros o la bÃºsqueda.
+  emptyHint: Prueba a ajustar los filtros o la búsqueda.
 tag:
   create: Crear Etiqueta
-  createSelected: Crear Etiqueta para la SelecciÃ³n
+  createSelected: Crear Etiqueta para la Selección
 task:
   cancelled: Cancelada
   clear: Borrar tareas terminadas
@@ -1244,23 +1244,23 @@ task:
     free: Gratis
     pending: Pendiente
     queued: Puesto en cola
-    running: ConexiÃ³n en ejecuciÃ³n
+    running: Conexión en ejecución
     size: cuenta total
   connections: Conexiones de red
-  empty: No hay Tareas en EjecuciÃ³n
+  empty: No hay Tareas en Ejecución
   failed: Fallida
   manager: Gestor de Tareas
-  nTaskRunning: '{count} tareas en ejecuciÃ³n'
+  nTaskRunning: '{count} tareas en ejecución'
   name: Tarea | Tareas
   pause: Pausar
 theme:
   selectImage: Seleccionar imagen
-  selectMusic: Seleccionar mÃºsica
-  selectVideo: Seleccionar vÃ­deo
+  selectMusic: Seleccionar música
+  selectVideo: Seleccionar vídeo
   title: FastLauncher
 title: FastLauncher
 transportType:
-  host: Candidato de AnfitriÃ³n
+  host: Candidato de Anfitrión
   prflx: Candidato Reflexivo de Par
   relay: Candidato de Relevo
   srflx: Candidato Reflexivo de Servidor
@@ -1271,34 +1271,34 @@ turnRegion:
 tutorial:
   hideNewsHeaderDescription: |-
     Puedes ver el show de noticias a la izquierda.
-    Al hacer clic en este botÃ³n se puede ocultar esta vitrina.
+    Al hacer clic en este botón se puede ocultar esta vitrina.
   instance:
     iconDescription: Haz clic para cambiar el icono.
     iconTitle: Icono de instancia
-    javaDescription: Seleccione o cambie la versiÃ³n de Java.
+    javaDescription: Seleccione o cambie la versión de Java.
     javaImportDescription: Importar Java desde el almacenamiento local.
-    javaImportTitle: ImportaciÃ³n de Java
+    javaImportTitle: Importación de Java
     javaTitle: Lista Java
   instanceSelectDescription: >-
-    Al hacer clic en este botÃ³n se navegarÃ¡ a la pÃ¡gina para seleccionar el juego y leer las noticias.
+    Al hacer clic en este botón se navegará a la página para seleccionar el juego y leer las noticias.
   recentPlayDescription: >-
-    Los juegos creados se enumerarÃ¡n aquÃ­.
+    Los juegos creados se enumerarán aquí.
 
-    Puede cambiar las vistas aquÃ­ para ver tambiÃ©n las versiones instaladas y los modpacks descargados.
-  storePoupularModpackDescription: VerÃ¡s los modpacks mÃ¡s populares en Curseforge y Modrinth en esta secciÃ³n.
-  storeSearchCategoryDescription: TambiÃ©n puede alternar las categorÃ­as o filtros aquÃ­.
+    Puede cambiar las vistas aquí para ver también las versiones instaladas y los modpacks descargados.
+  storePoupularModpackDescription: Verás los modpacks más populares en Curseforge y Modrinth en esta sección.
+  storeSearchCategoryDescription: También puede alternar las categorías o filtros aquí.
   storeSearchDescription: |-
     Puede buscar Modpack ingresando en este cuadro de texto.
     Presione Entrar para buscar.
-  storeSearchResultDescription: VerÃ¡ todos los resultados de bÃºsqueda enumerados aquÃ­.
+  storeSearchResultDescription: Verá todos los resultados de búsqueda enumerados aquí.
 universalDrop:
   unknownResource: Desconocido
 unresolvedFiles:
   description: >-
-    Estos archivos no se pudieron descargar durante la instalaciÃ³n. Busca una
+    Estos archivos no se pudieron descargar durante la instalación. Busca una
     fuente coincidente, instala las coincidencias o ignora archivos para
     iniciar de todos modos.
-  empty: Todos los archivos estÃ¡n resueltos.
+  empty: Todos los archivos están resueltos.
   ignoreSelected: 'Ignorar {count}'
   install: 'Instalar {count} coincidentes'
   matched: Coincidente
@@ -1312,20 +1312,20 @@ unresolvedFiles:
   title: Archivos sin resolver
   via: 'mediante {source}'
 upstream:
-  downgrade: Bajar la versiÃ³n
-  onlyShowCurrentVersion: Mostrar sÃ³lo la versiÃ³n actual de Minecraft
-  update: ActualizaciÃ³n
+  downgrade: Bajar la versión
+  onlyShowCurrentVersion: Mostrar sólo la versión actual de Minecraft
+  update: Actualización
 user:
   accessToken: Token de Acceso
-  authMode: Servicio de AutenticaciÃ³n
-  authService: Servicio de AutorizaciÃ³n
-  email: DirecciÃ³n de Correo ElectrÃ³nico
+  authMode: Servicio de Autenticación
+  authService: Servicio de Autorización
+  email: Dirección de Correo Electrónico
   id: ID de Usuario
   name: Nombre de Usuario
-  nameHint: El nombre que se mostrarÃ¡ en el juego
+  nameHint: El nombre que se mostrará en el juego
   profile: Perfil
   tokenExpired: Caducado
-  tokenValidUntil: Token VÃ¡lido Hasta
+  tokenValidUntil: Token Válido Hasta
 userSkin:
   reset: Restablecer
 version:
@@ -1348,4 +1348,3 @@ migrateMinecraft:
   name: Migrar archivos de Minecraft
 reinstall:
   name: Reinstalar {version}
-

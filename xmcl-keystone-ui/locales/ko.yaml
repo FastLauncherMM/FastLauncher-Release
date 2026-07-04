@@ -1,717 +1,717 @@
-﻿AppAddInstanceDialog:
-  choiceTitle: ì—¬ëŸ¬ ê°œì˜ ì‹¤í–‰ í”„ë¡œí•„ì´ ê°ì§€ë˜ì—ˆìŠµë‹ˆë‹¤. í•˜ë‚˜ë¥¼ ì„ íƒí•˜ì—¬ ê°€ì ¸ì˜¤ì„¸ìš”.
-  createTitle: ê²Œìž„ ìƒì„±
-  serverTitle: ì„œë²„ ì£¼ì†Œë¥¼ ìž…ë ¥í•˜ì„¸ìš”.
+AppAddInstanceDialog:
+  choiceTitle: 여러 개의 실행 프로필이 감지되었습니다. 하나를 선택하여 가져오세요.
+  createTitle: 게임 생성
+  serverTitle: 서버 주소를 입력하세요.
 AppShareInstanceDialog:
   alterDownloadDescription: >-
-    í˜„ìž¬ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë§ê°€íŠ¸ë¦¬ê³  ì‹¶ì§€ ì•Šë‹¤ë©´, ë‹¤ë¥¸ ì‚¬ìš©ìžì˜ ì„¤ì •ìœ¼ë¡œ ìƒˆ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•  ìˆ˜ë„ ìžˆìŠµë‹ˆë‹¤.  ì•„ëž˜ ë²„íŠ¼ì„ ëˆŒëŸ¬ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•˜ì„¸ìš”.
-  baseInfo: ê¸°ë³¸ ì„¤ì •
-  cancelShare: ê³µìœ  ì·¨ì†Œ
-  description: í”„ë¡œí•„ì„ ê³µìœ í•˜ë©´ ë‹¤ë¥¸ ê³³ì—ì„œ ì´ íŒŒì¼ë“¤ì„ ì‚¬ìš©ìžì˜ PCë¥¼  í†µí•´ ë‹¤ìš´ë¡œë“œ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  downloadDescription: ìƒëŒ€ë°©ì´ ì œê³µí•œ íŒŒì¼ì„ í™•ì¸í•´ì£¼ì„¸ìš”. ë‹¤ìš´ë¡œë“œí•  íŒŒì¼ì„ ì„ íƒí•˜ë©´ í˜„ìž¬ ì¸ìŠ¤í„´ìŠ¤ {name} ì— ì €ìž¥ë©ë‹ˆë‹¤.
-  downloadNotifyTitle: '{user} ì—ê²Œì„œ ì¸ìŠ¤í„´íŠ¸ ë‹¤ìš´ë¡œë“œ'
-  downloadTitle: ë‹¤ë¥¸ ì‚¬ìš©ìžì—ê²Œì„œ íŒŒì¼ ë‹¤ìš´ë¡œë“œ
-  filesToDownload: ë‹¤ìš°ë†€ë“œ ë°›ì„ íŒŒì¼ë“¤ì„ ì„ íƒí•´ì£¼ì„¸ìš”.
-  filesToShare: ê³µìœ í•  íŒŒì¼ë“¤ì„ ì„ íƒí•´ì£¼ì„¸ìš”.
-  instanceShare: '{user} ê°€ ë‹¹ì‹ ì—ê²Œ í˜„ìž¬ ì¸ìŠ¤í„´íŠ¸ë¥¼ ê³µìœ í–ˆì–´ìš”.'
-  share: ê³µìœ 
-  shareNotifyTitle: ê³µìœ  ì¸ìŠ¤í„´ìŠ¤
-  shareTitle: ë‹¤ë¥¸ í”Œë ˆì´ì–´ì—ê²Œ ê²Œìž„ íŒŒì¼ë“¤ì„ ê³µìœ 
+    현재 인스턴스를 망가트리고 싶지 않다면, 다른 사용자의 설정으로 새 인스턴스를 생성할 수도 있습니다.  아래 버튼을 눌러 인스턴스를 생성하세요.
+  baseInfo: 기본 설정
+  cancelShare: 공유 취소
+  description: 프로필을 공유하면 다른 곳에서 이 파일들을 사용자의 PC를  통해 다운로드 할 수 있습니다.
+  downloadDescription: 상대방이 제공한 파일을 확인해주세요. 다운로드할 파일을 선택하면 현재 인스턴스 {name} 에 저장됩니다.
+  downloadNotifyTitle: '{user} 에게서 인스턴트 다운로드'
+  downloadTitle: 다른 사용자에게서 파일 다운로드
+  filesToDownload: 다우놀드 받을 파일들을 선택해주세요.
+  filesToShare: 공유할 파일들을 선택해주세요.
+  instanceShare: '{user} 가 당신에게 현재 인스턴트를 공유했어요.'
+  share: 공유
+  shareNotifyTitle: 공유 인스턴스
+  shareTitle: 다른 플레이어에게 게임 파일들을 공유
 BaseSettingGeneral:
-  title: ê¸°ë³¸
+  title: 기본
 HomeJavaIssueDialog:
-  incompatibleJava: í˜¸í•œë˜ì§€ ì•ŠëŠ” ìžë°”
-  incompatibleJavaHint: í˜„ìž¬ ìžë°”ëŠ” ì„ íƒëœ ë§ˆì¸í¬ëž˜í”„íŠ¸ì™€ í˜¸í™˜ë˜ì§€ ì•Šì„ ê±°ì˜ˆìš”.
-  missingJava: ìžë°” ì—†ìŒ
-  missingJavaHint: 'ëŸ°ì²˜ê°€ ì‚¬ìš©ìžì˜ ì»´í“¨í„°ì—ì„œ ìžë°”ë¥¼ ê°ì§€í•˜ì§€ ëª»í–ˆì–´ìš” ì‹œë„í•´ë³´ì„¸ìš”:'
+  incompatibleJava: 호한되지 않는 자바
+  incompatibleJavaHint: 현재 자바는 선택된 마인크래프트와 호환되지 않을 거예요.
+  missingJava: 자바 없음
+  missingJavaHint: '런처가 사용자의 컴퓨터에서 자바를 감지하지 못했어요 시도해보세요:'
   optionSwitch:
-    name: '{version} ë¡œ ë³€ê²½í–ˆì–´ìš”.'
+    name: '{version} 로 변경했어요.'
 HomeLaunchMultiInstanceDialog:
-  confirm: ì˜ˆ, ì‹¤í–‰
-  description: Minecraft ì¸ìŠ¤í„´ìŠ¤ë¥¼ ì—¬ëŸ¬ ê°œ ì‹¤í–‰í•˜ë ¤ê³  í•´ìš”. ê³„ì†í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  title: ë‹¤ìˆ˜ì˜ ì¸ìŠ¤í„´ìŠ¤
+  confirm: 예, 실행
+  description: Minecraft 인스턴스를 여러 개 실행하려고 해요. 계속하시겠습니까?
+  title: 다수의 인스턴스
 SettingMigrationDialog:
-  selectRootDirectory: ìµœìƒìœ„ ê²½ë¡œë¥¼ ì„ íƒ
+  selectRootDirectory: 최상위 경로를 선택
 ago:
-  day: '{duration} ì¼ ì „ | {duration} ì¼ ì „'
-  hour: '{duration} ì‹œê°„ ì „ | {duration} ì‹œê°„ ì „'
-  minute: '{duration} ë¶„ ì „ | {duration} ë¶„ ì „'
-  second: '{duration} ì´ˆ ì „ | {duration} ì´ˆ ì „'
+  day: '{duration} 일 전 | {duration} 일 전'
+  hour: '{duration} 시간 전 | {duration} 시간 전'
+  minute: '{duration} 분 전 | {duration} 분 전'
+  second: '{duration} 초 전 | {duration} 초 전'
 askAICrash:
-  copyPrompt: AIì—ê²Œ ë¬¼ì–´ë³¼ í”„ë¡¬í”„íŠ¸ ë³µì‚¬
-  description: AIê°€ ê²Œìž„ ì¶©ëŒì„ ì´í•´í•  ìˆ˜ ìžˆë„ë¡ ë„ì™€ì¤„ ê±°ì˜ˆìš”! ì•„ëž˜ ì•ˆë‚´ë¥¼ ë”°ë¼ ê²Œìž„ ì¶©ëŒì— ëŒ€í•´ AIì—ê²Œ ë¬¼ì–´ë³´ì„¸ìš”
-  selectPlatform: AI í”Œëž«í¼ì„ ì—´ê³ , ë°©ê¸ˆ ë³µì‚¬í•œ í”„ë¡¬í”„íŠ¸ë¥¼ ë¶™ì—¬ ë„£ìœ¼ì„¸ìš”.
-authProfileAddedNotification: ì¸ì¦ í”„ë¡œí•„ {name} ì´ ì¶”ê°€ëì–´ìš”
+  copyPrompt: AI에게 물어볼 프롬프트 복사
+  description: AI가 게임 충돌을 이해할 수 있도록 도와줄 거예요! 아래 안내를 따라 게임 충돌에 대해 AI에게 물어보세요
+  selectPlatform: AI 플랫폼을 열고, 방금 복사한 프롬프트를 붙여 넣으세요.
+authProfileAddedNotification: 인증 프로필 {name} 이 추가됐어요
 baseSetting:
-  title: ì¸ìŠ¤í„´ìŠ¤ ì„¤ì •
+  title: 인스턴스 설정
 browseApp:
-  createShortcut: ë°”ë¡œê°€ê¸° ë§Œë“¤ê¸°
-  default: ê¸°ë³¸
-  delete: ì‚­ì œ
-  launch: ì‹¤í–‰ í›„ ê¸°ë³¸ìœ¼ë¡œ ì„¤ì •í•˜ê¸°
-browseApps: ëŸ°ì²˜ UIë¥¼ ë³´ê³  ìžˆì–´ìš”.
-color: ìƒ‰
-confirm: ì‹œìž‘
+  createShortcut: 바로가기 만들기
+  default: 기본
+  delete: 삭제
+  launch: 실행 후 기본으로 설정하기
+browseApps: 런처 UI를 보고 있어요.
+color: 색
+confirm: 시작
 copyClipboard:
-  success: í´ë¦½ë³´ë“œì— ë³µì‚¬
-create: ë§Œë“¤ê¸°
+  success: 클립보드에 복사
+create: 만들기
 curseforge:
-  category: ì¹´í…Œê³ ë¦¬
-  createdDate: ë§Œë“  ë‚ ìž
-  lastUpdate: ë§ˆì§€ë§‰ ì—…ë°ì´íŠ¸ ë‚ ìž
-  releasedDate: ì¶œì‹œ ë‚ ìž
+  category: 카테고리
+  createdDate: 만든 날자
+  lastUpdate: 마지막 업데이트 날자
+  releasedDate: 출시 날자
 curseforgeCategory:
-  API and Library: APIì™€ ë¼ì´ë¸ŒëŸ¬ë¦¬
-  Addons: ì—ë“œì˜¨
-  Adventure: ì–´ë“œë²¤ì³
-  Adventure and RPG: ì–´ë“œë²¤ì³ì™€ RPG
-  Animated: ì—ë‹ˆë©”ì´ì…˜
-  Armor, Tools, and Weapons: ê°‘ì˜·, ë„êµ¬, ë¬´ê¸°
-  Combat / PvP: ê²½ìŸ/PVP
-  Cosmetic: ì™¸í˜•/ìž¥ì‹
-  Creation: ì°½ìž‘ ëª¨ë“œ
-  Data Packs: ë°ì´í„° íŒ©
-  Education: êµìœ¡
-  Exploration: íƒí—˜
-  Extra Large: í° í¬ê¸°
-  FTB Official Pack: ê³µì‹ FTB íŒ©
+  API and Library: API와 라이브러리
+  Addons: 에드온
+  Adventure: 어드벤쳐
+  Adventure and RPG: 어드벤쳐와 RPG
+  Animated: 에니메이션
+  Armor, Tools, and Weapons: 갑옷, 도구, 무기
+  Combat / PvP: 경쟁/PVP
+  Cosmetic: 외형/장식
+  Creation: 창작 모드
+  Data Packs: 데이터 팩
+  Education: 교육
+  Exploration: 탐험
+  Extra Large: 큰 크기
+  FTB Official Pack: 공식 FTB 팩
   Fabric: Fabric
-  FancyMenu: í™”ë ¤í•œ ë©”ë‰´
-  Font Packs: í°íŠ¸
-  Food: ìŒì‹
-  Game Map: ê²Œìž„ ì§€ë„
-  Hardcore: í•˜ë“œì½”ì–´
+  FancyMenu: 화려한 메뉴
+  Font Packs: 폰트
+  Food: 음식
+  Game Map: 게임 지도
+  Hardcore: 하드코어
   MCreator: MCreator
-  Magic: ë§ˆë²•
-  Map Based: ì§€ë„ ê¸°ë°˜
-  Map and Information: ì§€ë„ì™€ ì •ë³´
-  Medieval: ì¤‘ì„¸
-  Mini Game: ë¯¸ë‹ˆ ê²Œìž„
-  Miscellaneous: ê¸°íƒ€
-  Mod Support: ëª¨ë“œ ì§€ì›
-  Modded World: ëª¨ë“œ ì ìš© ì„¸ê³„
-  Modern: í˜„ëŒ€
-  Multiplayer: ë©€í‹°í”Œë ˆì´ì–´
-  Parkour: íŒŒì¿ ë¥´
-  Photo Realistic: í˜„ì‹¤ì 
-  Puzzle: í¼ì¦
-  QoL: QoL(íŽ¸ì˜ ê¸°ëŠ¥)
-  Quests: í€˜ìŠ¤íŠ¸
-  Redstone: ë ˆë“œìŠ¤í†¤
+  Magic: 마법
+  Map Based: 지도 기반
+  Map and Information: 지도와 정보
+  Medieval: 중세
+  Mini Game: 미니 게임
+  Miscellaneous: 기타
+  Mod Support: 모드 지원
+  Modded World: 모드 적용 세계
+  Modern: 현대
+  Multiplayer: 멀티플레이어
+  Parkour: 파쿠르
+  Photo Realistic: 현실적
+  Puzzle: 퍼즐
+  QoL: QoL(편의 기능)
+  Quests: 퀘스트
+  Redstone: 레드스톤
   Sci-Fi: SF
-  Server Utility: ì„œë²„ ë„êµ¬
-  Skyblock: ìŠ¤ì¹´ì´ ë¸”ëŸ­
-  Small / Light: ì†Œí˜• / ê°€ë²¼ì›€
-  Steampunk: ìŠ¤íŒ€íŽ‘í¬
-  Storage: ì €ìž¥
-  Survival: ìƒì¡´
-  Tech: ê¸°ìˆ 
-  Technology: ê¸°ìˆ 
-  Traditional: ì „í†µ
-  Twitch Integration: íŠ¸ìœ„ì¹˜ ì—°ë™
-  Utility & QoL: ë„êµ¬ ë° íŽ¸ì˜ ê¸°ëŠ¥
+  Server Utility: 서버 도구
+  Skyblock: 스카이 블럭
+  Small / Light: 소형 / 가벼움
+  Steampunk: 스팀펑크
+  Storage: 저장
+  Survival: 생존
+  Tech: 기술
+  Technology: 기술
+  Traditional: 전통
+  Twitch Integration: 트위치 연동
+  Utility & QoL: 도구 및 편의 기능
   Vanilla+: Vanilla+
-  World Gen: ì›”ë“œ ìƒì„±
+  World Gen: 월드 생성
 dataMigration:
-  apply: ì„¤ì • ì ìš©
-  directoryCriteriaHint: ë‹¹ì‹ ì˜ ìƒˆë¡œìš´ ê²½ë¡œê°€ ë¹„ì–´ìžˆëŠ”ì§€ í™•ì¸í•´ì£¼ì„¸ìš”.
-  placeholder: ì—¬ê¸°ë¥¼ í´ë¦­í•´ ë””ë ‰í„°ë¦¬ ì„ íƒ
-  setRootCause: ì´ ê³¼ì •ì—ì„œ ëŸ°ì²˜ë¥¼ ì¢…ë£Œí•˜ë©´ ë°ì´í„°(ë§µ, ë¦¬ì†ŒìŠ¤ íŒ©, ëª¨ë“œ)ë¥¼ ìžƒê²Œ ë©ë‹ˆë‹¤!
-  setRootDescription: ì´ ìž‘ì—…ì€ ëŸ°ì²˜ì™€ ë§ˆì¸í¬ëž˜í”„íŠ¸ì˜ ë£¨íŠ¸ ë°ì´í„° í´ë”ë¥¼ ë³€ê²½í•©ë‹ˆë‹¤.
-  setRootTitle: ìƒˆ ì €ìž¥ ìœ„ì¹˜ë¡œ ì„¤ì •
-  unknownError: ì•Œ ìˆ˜ ì—†ëŠ” ì˜¤ë¥˜ìž…ë‹ˆë‹¤! ë‹¤ì‹œ ì‹œë„í•˜ê±°ë‚˜ ê°œë°œìžì—ê²Œ ë¬¸ì˜í•˜ì„¸ìš”!
-  waitReload: ë°ì´í„°ë¥¼ ë§ˆì´ê·¸ë ˆì´ì…˜ ì¤‘ìž…ë‹ˆë‹¤. ì¢…ë£Œí•˜ë©´ ë°ì´í„°ê°€ ì†ì‹¤ë  ìˆ˜ ìžˆìœ¼ë‹ˆ ëŸ°ì²˜ë¥¼ ë‹«ì§€ ë§ˆì„¸ìš”.
+  apply: 설정 적용
+  directoryCriteriaHint: 당신의 새로운 경로가 비어있는지 확인해주세요.
+  placeholder: 여기를 클릭해 디렉터리 선택
+  setRootCause: 이 과정에서 런처를 종료하면 데이터(맵, 리소스 팩, 모드)를 잃게 됩니다!
+  setRootDescription: 이 작업은 런처와 마인크래프트의 루트 데이터 폴더를 변경합니다.
+  setRootTitle: 새 저장 위치로 설정
+  unknownError: 알 수 없는 오류입니다! 다시 시도하거나 개발자에게 문의하세요!
+  waitReload: 데이터를 마이그레이션 중입니다. 종료하면 데이터가 손실될 수 있으니 런처를 닫지 마세요.
 delete:
-  name: '{name} ì‚­ì œ'
-  'no': ì•„ë‹ˆì˜¤
-  'yes': ì‚­ì œ
+  name: '{name} 삭제'
+  'no': 아니오
+  'yes': 삭제
 dependencies:
-  embedded: ë‚´ìž¥ë¨
-  incompatible: í˜¸í™˜ë˜ì§€ ì•ŠìŒ
-  name: ì˜ì¡´ì„±
-  optional: ì„ íƒ
-  required: í•„ìˆ˜
+  embedded: 내장됨
+  incompatible: 호환되지 않음
+  name: 의존성
+  optional: 선택
+  required: 필수
 diagnosis:
   badInstall:
-    message: í´ë¦­í•˜ì—¬ ì´ ë²„ì „ì„ ìž¬ì„¤ì¹˜í•´ ë³´ì„¸ìš”.
-    name: '{version} ì„¤ì¹˜ê°€ ì†ìƒë¨'
+    message: 클릭하여 이 버전을 재설치해 보세요.
+    name: '{version} 설치가 손상됨'
   corruptedAssets:
-    message: ëŸ°ì²˜ê°€ ì—ì…‹ì„ ìžë™ìœ¼ë¡œ ì„¤ì¹˜í•©ë‹ˆë‹¤
-    name: 'ì†ìƒëœ ì—ì…‹: {name} | ì†ìƒëœ ì—ì…‹ {name} | ì†ìƒëœ ì—ì…‹ {count}ê°œ'
+    message: 런처가 에셋을 자동으로 설치합니다
+    name: '손상된 에셋: {name} | 손상된 에셋 {name} | 손상된 에셋 {count}개'
   corruptedAssetsIndex:
-    message: ëŸ°ì²˜ê°€ ì—ì…‹ ì¸ë±ìŠ¤ë¥¼ ë‹¤ìš´ë¡œë“œí•©ë‹ˆë‹¤
-    name: '{version} ì˜ ì—ì…‹ ì¸ë±ìŠ¤ íŒŒì¼ì´ ì†ìƒë˜ì—ˆìŠµë‹ˆë‹¤.'
+    message: 런처가 에셋 인덱스를 다운로드합니다
+    name: '{version} 의 에셋 인덱스 파일이 손상되었습니다.'
   corruptedLibraries:
-    message: ëŸ°ì²˜ê°€ ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ ìžë™ìœ¼ë¡œ ì„¤ì¹˜í•©ë‹ˆë‹¤
-    name: 'ì†ìƒëœ ë¼ì´ë¸ŒëŸ¬ë¦¬: {name} | ì†ìƒëœ ë¼ì´ë¸ŒëŸ¬ë¦¬: {name} | ì†ìƒëœ ë¼ì´ë¸ŒëŸ¬ë¦¬ {count}ê°œ'
+    message: 런처가 라이브러리를 자동으로 설치합니다
+    name: '손상된 라이브러리: {name} | 손상된 라이브러리: {name} | 손상된 라이브러리 {count}개'
   corruptedVersionJar:
-    message: í´ë¦­í•˜ì—¬ ì´ ë²„ì „ì„ ì„¤ì¹˜í•˜ì„¸ìš”
-    name: ë§ˆì¸í¬ëž˜í”„íŠ¸ %{version} ì˜ ë²„ì „ JARê°€ ì†ìƒë˜ì—ˆìŠµë‹ˆë‹¤.
+    message: 클릭하여 이 버전을 설치하세요
+    name: 마인크래프트 %{version} 의 버전 JAR가 손상되었습니다.
   incompatibleJava:
-    name: ìžë°” {javaVersion} ëŠ” {version} ê³¼(ì™€) í˜¸í™˜ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤!
+    name: 자바 {javaVersion} 는 {version} 과(와) 호환되지 않습니다!
   instanceFiles:
-    description: ì¸ìŠ¤í„´ìŠ¤ ì„¤ì¹˜ì—ëŠ” {counts}ê°œì˜ íŒŒì¼ì´ í¬í•¨ë©ë‹ˆë‹¤.
-    title: ë¶ˆì™„ì „í•œ ì¸ìŠ¤í„´ìŠ¤ ì„¤ì¹˜
+    description: 인스턴스 설치에는 {counts}개의 파일이 포함됩니다.
+    title: 불완전한 인스턴스 설치
   invalidJava:
-    name: ìž˜ëª»ëœ ìžë°” ê²½ë¡œìž…ë‹ˆë‹¤.
+    name: 잘못된 자바 경로입니다.
   missingJava:
-    message: í´ë¦­í•˜ì—¬ ì´ ë¬¸ì œë¥¼ í•´ê²°í•˜ì„¸ìš”
-    name: ë§ˆì¸í¬ëž˜í”„íŠ¸ë¥¼ ì‹¤í–‰í•  ìžë°”ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤!
+    message: 클릭하여 이 문제를 해결하세요
+    name: 마인크래프트를 실행할 자바를 찾을 수 없습니다!
   missingLibraries:
-    message: ëŸ°ì²˜ê°€ ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ ìžë™ìœ¼ë¡œ ì„¤ì¹˜í•©ë‹ˆë‹¤
-    name: ëˆ„ë½ëœ ë¼ì´ë¸ŒëŸ¬ë¦¬ {name} | ëˆ„ë½ëœ ë¼ì´ë¸ŒëŸ¬ë¦¬ {name} | ëˆ„ë½ëœ ë¼ì´ë¸ŒëŸ¬ë¦¬ {count}ê°œ
+    message: 런처가 라이브러리를 자동으로 설치합니다
+    name: 누락된 라이브러리 {name} | 누락된 라이브러리 {name} | 누락된 라이브러리 {count}개
   missingVersion:
-    message: í´ë¦­í•˜ì—¬ ì´ ë²„ì „ì„ ì„¤ì¹˜í•˜ì„¸ìš”
-    name: ë²„ì „ {version} ê°€ ì„¤ì¹˜ë˜ì–´ ìžˆì§€ ì•ŠìŠµë‹ˆë‹¤!
+    message: 클릭하여 이 버전을 설치하세요
+    name: 버전 {version} 가 설치되어 있지 않습니다!
   unresolvedFiles:
-    description: ì„¤ì¹˜ ì¤‘ íŒŒì¼ {count}ê°œë¥¼ í™•ì¸í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤
-    title: í™•ì¸ë˜ì§€ ì•Šì€ íŒŒì¼
+    description: 설치 중 파일 {count}개를 확인할 수 없습니다
+    title: 확인되지 않은 파일
   unzipFileNotFound:
-    description: '{file} ì„(ë¥¼) ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤'
-    title: ëª¨ë“œíŒ© íŒŒì¼ì„ ì°¾ì„ ìˆ˜ ì—†ìŒ
+    description: '{file} 을(를) 찾을 수 없습니다'
+    title: 모드팩 파일을 찾을 수 없음
 disk:
-  available: ì‚¬ìš© ê°€ëŠ¥
-  used: ì‚¬ìš©ë¨
-downloadCount: '{count} íšŒ ë‹¤ìš´ë¡œë“œ'
+  available: 사용 가능
+  used: 사용됨
+downloadCount: '{count} 회 다운로드'
 downloadUpdate:
-  name: '{version} ì—…ë°ì´íŠ¸ ë‹¤ìš´ë¡œë“œ'
+  name: '{version} 업데이트 다운로드'
 duration:
-  day: '{duration }ì¼ | {duration} ì¼'
-  hour: '{duration} ì‹œê°„ | {duration} ì‹œê°„'
-  minute: '{duration} ë¶„ | {duration} ë¶„'
-  second: '{duration} ì´ˆ | {duration} ì´ˆ'
+  day: '{duration }일 | {duration} 일'
+  hour: '{duration} 시간 | {duration} 시간'
+  minute: '{duration} 분 | {duration} 분'
+  second: '{duration} 초 | {duration} 초'
 env:
   select:
-    all: ëª¨ë‘ ì„ íƒ
-    fit: ë§žê²Œ ì„ íƒ
-    none: ëª¨ë‘ í•´ì œ
+    all: 모두 선택
+    fit: 맞게 선택
+    none: 모두 해제
 errors:
   BadForgeInstallerJarError: >-
-    Forge ì„¤ì¹˜ìš© JAR íŒŒì¼ì„ íŒŒì‹±í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. Forge ì„¤ì¹˜ íŒŒì¼ í˜•ì‹ì´ ë³€ê²½ëœ ê²ƒì¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ë¬¸ì œê°€ ê³„ì†ë˜ë©´ ê°œë°œìžì—ê²Œ ë¬¸ì˜í•˜ì„¸ìš”.
-  BadInstanceType: '{type} ì€(ëŠ”) ìž˜ëª»ëœ ì¸ìŠ¤í„´ìŠ¤ ìœ í˜•ìž…ë‹ˆë‹¤!'
-  BodyTimeoutError: HTTP ì‹œê°„ ì´ˆê³¼
-  ChecksumNotMatchError: 'ì²´í¬ì„¬ì´ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤! ì˜ˆìƒ: {expect}. ì‹¤ì œ: {actual}.'
-  ConnectTimeoutError: ì„œë²„ ì—°ê²° ì‹œê°„ ì´ˆê³¼.
-  DNSNotFoundError: DNS ì¡°íšŒ ì˜¤ë¥˜
-  DatabaseNotOpened: ë°ì´í„°ë² ì´ìŠ¤ê°€ ì—´ë ¤ ìžˆì§€ ì•ŠìŠµë‹ˆë‹¤! ëŸ°ì²˜ë¥¼ ìž¬ì‹œìž‘í•˜ê±°ë‚˜ ê°œë°œìžì—ê²Œ ë¬¸ì˜í•˜ì„¸ìš”!
-  DiskIsFull: ë””ìŠ¤í¬ì— ì—¬ìœ  ê³µê°„ì´ ì—†ìŠµë‹ˆë‹¤! ë””ìŠ¤í¬ ê³µê°„ì„ í™•ë³´í•œ í›„ ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”.
-  DownloadAggregateError: íŒŒì¼ ë‹¤ìš´ë¡œë“œì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.
-  DownloadFileSystemError: ë‹¤ìš´ë¡œë“œ íŒŒì¼ ê²½ë¡œì— ì ‘ê·¼í•˜ëŠ” ì¤‘ ì˜¤ë¥˜ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤. ëŸ°ì²˜ê°€ í•´ë‹¹ ê²½ë¡œì— ì“°ê¸° ê¶Œí•œì´ ìžˆëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.
-  HeadersTimeoutError: HTTP í—¤ë” ì‹œê°„ ì´ˆê³¼
-  NotFoundError: 404 ì°¾ì„ ìˆ˜ ì—†ìŒ
-  SocketError: ì„œë²„ ì†Œì¼“ ì˜¤ë¥˜
+    Forge 설치용 JAR 파일을 파싱할 수 없습니다. Forge 설치 파일 형식이 변경된 것일 수 있습니다. 문제가 계속되면 개발자에게 문의하세요.
+  BadInstanceType: '{type} 은(는) 잘못된 인스턴스 유형입니다!'
+  BodyTimeoutError: HTTP 시간 초과
+  ChecksumNotMatchError: '체크섬이 일치하지 않습니다! 예상: {expect}. 실제: {actual}.'
+  ConnectTimeoutError: 서버 연결 시간 초과.
+  DNSNotFoundError: DNS 조회 오류
+  DatabaseNotOpened: 데이터베이스가 열려 있지 않습니다! 런처를 재시작하거나 개발자에게 문의하세요!
+  DiskIsFull: 디스크에 여유 공간이 없습니다! 디스크 공간을 확보한 후 다시 시도하세요.
+  DownloadAggregateError: 파일 다운로드에 실패했습니다.
+  DownloadFileSystemError: 다운로드 파일 경로에 접근하는 중 오류가 발생했습니다. 런처가 해당 경로에 쓰기 권한이 있는지 확인하세요.
+  HeadersTimeoutError: HTTP 헤더 시간 초과
+  NotFoundError: 404 찾을 수 없음
+  SocketError: 서버 소켓 오류
 eula:
-  body: ì²´í¬ë°•ìŠ¤ë¥¼ ì„ íƒí•˜ë©´ ë§ˆì¸í¬ëž˜í”„íŠ¸ {eula}ì— ë™ì˜í•˜ê²Œ ë©ë‹ˆë‹¤.
+  body: 체크박스를 선택하면 마인크래프트 {eula}에 동의하게 됩니다.
 exception:
   http: >-
-    {url} ë¡œì˜ HTTP ìš”ì²­ì´ ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. ìƒíƒœ ì½”ë“œ {statusCode}. {code}. ë‹¤ì‹œ ì‹œë„í•˜ê±°ë‚˜ ë„¤íŠ¸ì›Œí¬ë¥¼ í™•ì¸í•˜ì„¸ìš”. ì˜¤ë¥˜ê°€ ì§€ì†ë˜ë©´ ê°œë°œíŒ€ì— ë³´ê³ ì„œë¥¼ ë³´ë‚´ì£¼ì„¸ìš”.
+    {url} 로의 HTTP 요청이 실패했습니다. 상태 코드 {statusCode}. {code}. 다시 시도하거나 네트워크를 확인하세요. 오류가 지속되면 개발팀에 보고서를 보내주세요.
 extensions:
-  mrpack: Modrinth ëª¨ë“œíŒ©
-  zip: Zip íŒŒì¼
+  mrpack: Modrinth 모드팩
+  zip: Zip 파일
 fabricVersion:
-  disable: Fabric ë¹„í™œì„±í™”
-  empty: ë§ˆì¸í¬ëž˜í”„íŠ¸ {version} ìš© Fabric ë²„ì „ì´ ì—†ìŠµë‹ˆë‹¤
-  showSnapshot: ìŠ¤ëƒ…ìƒ· í‘œì‹œ
-  stable: ì•ˆì •
-  unstable: ë¶ˆì•ˆì •
+  disable: Fabric 비활성화
+  empty: 마인크래프트 {version} 용 Fabric 버전이 없습니다
+  showSnapshot: 스냅샷 표시
+  stable: 안정
+  unstable: 불안정
 command:
   instance:
     launch:
-      title: ì¸ìŠ¤í„´ìŠ¤ ì‹¤í–‰
+      title: 인스턴스 실행
     create:
-      title: ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
+      title: 인스턴스 생성
     delete:
-      title: ì¸ìŠ¤í„´ìŠ¤ ì‚­ì œ
+      title: 인스턴스 삭제
   user:
     login:
-      title: ì‚¬ìš©ìž ë¡œê·¸ì¸
+      title: 사용자 로그인
     refresh:
-      title: ì‚¬ìš©ìž ìƒˆë¡œ ê³ ì¹¨
+      title: 사용자 새로 고침
 commandPalette:
-  placeholder: ëª…ë ¹, ì¸ìŠ¤í„´ìŠ¤, ëª¨ë“œ ê²€ìƒ‰â€¦
-  commands: ëª…ë ¹
-  instances: ì¸ìŠ¤í„´ìŠ¤
+  placeholder: 명령, 인스턴스, 모드 검색…
+  commands: 명령
+  instances: 인스턴스
   modrinth: Modrinth
-  recent: ìµœê·¼ í•­ëª©
-  open: ë¹ ë¥¸ ìž‘ì—…
-  openHint: ëª…ë ¹ íŒ”ë ˆíŠ¸ ì—´ê¸° ({shortcut})
-  empty: ê²€ìƒ‰í•˜ë ¤ë©´ ìž…ë ¥í•˜ì„¸ìš”.
-  noResults: ì¼ì¹˜í•˜ëŠ” ê²°ê³¼ê°€ ì—†ìŠµë‹ˆë‹¤.
-  searching: ê²€ìƒ‰ ì¤‘â€¦
-  hintNavigate: ì´ë™
-  hintInvoke: ì‹¤í–‰
-  hintEnter: ì—´ê¸°
-  hintBack: ë’¤ë¡œ
-  hintClose: ë‹«ê¸°
+  recent: 최근 항목
+  open: 빠른 작업
+  openHint: 명령 팔레트 열기 ({shortcut})
+  empty: 검색하려면 입력하세요.
+  noResults: 일치하는 결과가 없습니다.
+  searching: 검색 중…
+  hintNavigate: 이동
+  hintInvoke: 실행
+  hintEnter: 열기
+  hintBack: 뒤로
+  hintClose: 닫기
 feedback:
-  channel: ì±„ë„
-  description: ë²„ê·¸ë¥¼ ë°œê²¬í–ˆê±°ë‚˜ ì œì•ˆì„ í•˜ê³  ì‹¶ì–´ìš”
+  channel: 채널
+  description: 버그를 발견했거나 제안을 하고 싶어요
   discord: Discord
-  discordDescription: ë””ìŠ¤ì½”ë“œ ì±„ë„ ì°¸ì—¬
-  discordJoin: ì°¸ì—¬
-  generateReport: ë³´ê³ ì„œ ìƒì„±
-  generateSaveAs: ë³´ê³ ì„œ ì €ìž¥ ìœ„ì¹˜
-  github: Github ì´ìŠˆ
-  githubDescription: ìƒê°ì„ ì „í•˜ê¸° ìœ„í•´ Github ì´ìŠˆ ì—´ê¸°
+  discordDescription: 디스코드 채널 참여
+  discordJoin: 참여
+  generateReport: 보고서 생성
+  generateSaveAs: 보고서 저장 위치
+  github: Github 이슈
+  githubDescription: 생각을 전하기 위해 Github 이슈 열기
   githubOpenIssue: Github
-  hint: ë²„íŠ¼ì„ ëˆŒëŸ¬ ë³´ê³ ì„œë¥¼ ìƒì„±í•˜ê³  ê°œë°œíŒ€ì— ì—°ë½í•˜ì„¸ìš”. ë³´ê³ ì„œì—ëŠ” ìš´ì˜ì²´ì œ ì¢…ë¥˜, ë²„ì „, ì‚¬ìš©ìž ì´ë¦„ ë“± ê¸°ê¸° ì •ë³´ê°€ í¬í•¨ë©ë‹ˆë‹¤.
+  hint: 버튼을 눌러 보고서를 생성하고 개발팀에 연락하세요. 보고서에는 운영체제 종류, 버전, 사용자 이름 등 기기 정보가 포함됩니다.
   kook: Kook
-  kookDescription: Kookì€ ì¤‘êµ­ ë³¸í†  ì‚¬ìš©ìžë¥¼ ìœ„í•œ ë””ìŠ¤ì½”ë“œ ëŒ€ì²´ ì•±ìž…ë‹ˆë‹¤
-  name: í”¼ë“œë°±
-  qq: QQ ê·¸ë£¹
-  qqDescription: 'QQ í”¼ë“œë°± ê·¸ë£¹ì— ë“¤ì–´ê°€ ì €ìžì™€ ì§ì ‘ ëŒ€í™”í•˜ì„¸ìš”. ê·¸ë£¹ ë²ˆí˜¸: {number}'
-  qqEnterGroup: ì°¸ì—¬
+  kookDescription: Kook은 중국 본토 사용자를 위한 디스코드 대체 앱입니다
+  name: 피드백
+  qq: QQ 그룹
+  qqDescription: 'QQ 피드백 그룹에 들어가 저자와 직접 대화하세요. 그룹 번호: {number}'
+  qqEnterGroup: 참여
 fileDetail:
-  fileSize: íŒŒì¼ í¬ê¸°
-  filesize: íŒŒì¼ í¬ê¸°
-  hash: í•´ì‹œ
-filterLocalOnly: ì„¤ì¹˜ëœ ê²ƒë§Œ í‘œì‹œ
+  fileSize: 파일 크기
+  filesize: 파일 크기
+  hash: 해시
+filterLocalOnly: 설치된 것만 표시
 forgeVersion:
-  disable: Forge ë¹„í™œì„±í™”
-  empty: ForgeëŠ” ë§ˆì¸í¬ëž˜í”„íŠ¸ {version} ìš© ë¦´ë¦¬ìŠ¤ë¥¼ ì œê³µí•˜ì§€ ì•ŠìŠµë‹ˆë‹¤
-  latest: ìµœì‹ 
-  recommended: ê¶Œìž¥
+  disable: Forge 비활성화
+  empty: Forge는 마인크래프트 {version} 용 릴리스를 제공하지 않습니다
+  latest: 최신
+  recommended: 권장
 gameType:
-  adventure: ì–´ë“œë²¤ì²˜ ëª¨ë“œ
-  creative: í¬ë¦¬ì—ì´í‹°ë¸Œ ëª¨ë“œ
-  spectator: ê´€ì „ìž ëª¨ë“œ
-  survival: ì„œë°”ì´ë²Œ ëª¨ë“œ
-help: ë„ì›€ë§
-home: í™ˆ
+  adventure: 어드벤처 모드
+  creative: 크리에이티브 모드
+  spectator: 관전자 모드
+  survival: 서바이벌 모드
+help: 도움말
+home: 홈
 importModpack:
-  name: ëª¨ë“œíŒ© ê°€ì ¸ì˜¤ê¸°
+  name: 모드팩 가져오기
 installAssets:
-  asset: ì—ì…‹ {count} ê°œ ì„¤ì¹˜
-  assetIndex: ì—ì…‹ ì¸ë±ìŠ¤ íŒŒì¼ í™•ì¸
-  name: ì—ì…‹ íŒŒì¼ ì„¤ì¹˜
-installAuthlibInjector: authlib-injector ì„¤ì¹˜
-installCurseforgeFile: Curseforge íŒŒì¼ ì„¤ì¹˜
+  asset: 에셋 {count} 개 설치
+  assetIndex: 에셋 인덱스 파일 확인
+  name: 에셋 파일 설치
+installAuthlibInjector: authlib-injector 설치
+installCurseforgeFile: Curseforge 파일 설치
 installFabric:
-  name: Fabric ì„¤ì¹˜
+  name: Fabric 설치
 installForge:
-  downloadInstaller: ì¸ìŠ¤í†¨ëŸ¬ ë‹¤ìš´ë¡œë“œ
-  name: Forge ì„¤ì¹˜
-  postProcessing: í›„ì²˜ë¦¬
+  downloadInstaller: 인스톨러 다운로드
+  name: Forge 설치
+  postProcessing: 후처리
 installInstance:
-  file: ì¸ìŠ¤í„´ìŠ¤ íŒŒì¼ {file} ì—…ë°ì´íŠ¸
-  link: '{count} ê°œ íŒŒì¼ ë³µì‚¬ ë˜ëŠ” ë§í¬'
-  name: ì¸ìŠ¤í„´ìŠ¤ ì—…ë°ì´íŠ¸
-  resolve: ì¸ìŠ¤í„´ìŠ¤ ì„¤ì • í•´ì„
-  unzip: '{count}ê°œ íŒŒì¼ ì••ì¶• í•´ì œ'
+  file: 인스턴스 파일 {file} 업데이트
+  link: '{count} 개 파일 복사 또는 링크'
+  name: 인스턴스 업데이트
+  resolve: 인스턴스 설정 해석
+  unzip: '{count}개 파일 압축 해제'
 installJre:
-  decompress: JRE íŒŒì¼ì„ í´ë”ë¡œ ì••ì¶• í•´ì œ
-  download: ì••ì¶•ëœ JRE íŒŒì¼ ë‹¤ìš´ë¡œë“œ
-  name: ìžë°” ëŸ°íƒ€ìž„ ì„¤ì¹˜
+  decompress: JRE 파일을 폴더로 압축 해제
+  download: 압축된 JRE 파일 다운로드
+  name: 자바 런타임 설치
 installLabyMod:
-  name: LabyMod ì„¤ì¹˜
+  name: LabyMod 설치
 installLibraries:
-  library: ë¼ì´ë¸ŒëŸ¬ë¦¬ ì„¤ì¹˜
-  name: ë¼ì´ë¸ŒëŸ¬ë¦¬ ì„¤ì¹˜
+  library: 라이브러리 설치
+  name: 라이브러리 설치
 installModrinthFile:
-  name: Modrinth ì„¤ì¹˜
+  name: Modrinth 설치
 installOptifine:
-  download: Optifine Universal ë‹¤ìš´ë¡œë“œ
-  name: Optifine ì„¤ì¹˜
+  download: Optifine Universal 다운로드
+  name: Optifine 설치
 installVersion:
-  jar: ë²„ì „ Jar ì„¤ì¹˜
-  json: ë²„ì „ Json ì„¤ì¹˜
-  name: ë§ˆì¸í¬ëž˜í”„íŠ¸ í´ë¼ì´ì–¸íŠ¸ {version} ì„¤ì¹˜
+  jar: 버전 Jar 설치
+  json: 버전 Json 설치
+  name: 마인크래프트 클라이언트 {version} 설치
 instance:
-  changeIcon: ì•„ì´ì½˜ ë³€ê²½
-  contents: ì½˜í…ì¸ 
-  current: í˜„ìž¬ ì¸ìŠ¤í„´ìŠ¤
-  delete: ê²Œìž„ ì‚­ì œ
-  deleteFailed: ì¸ìŠ¤í„´ìŠ¤ ì‚­ì œ ì‹¤íŒ¨
-  deleteFailedPermission: ë‹¤ë¥¸ í”„ë¡œê·¸ëž¨ì´ íŒŒì¼ì„ ì‚¬ìš© ì¤‘ìž…ë‹ˆë‹¤
-  deleteFile: ì¸ìŠ¤í„´ìŠ¤ íŒŒì¼ ì‚­ì œ
-  deleteHint: ì¸ìŠ¤í„´ìŠ¤ ë°ì´í„°ëŠ” ë””ìŠ¤í¬ì—ì„œ ì˜êµ¬ì ìœ¼ë¡œ ì œê±°ë©ë‹ˆë‹¤. ê³„ì†í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  duplicate: ê²Œìž„ ë³µì œ
-  duplicatedName: ì¤‘ë³µëœ ì´ë¦„
-  fileApi: ë™ê¸°í™” íŒŒì¼ ì„œë²„ API URL
-  fileApiHint: ì›ê²© êµ¬ì„± ì„œë²„ì—ì„œ ì¸ìŠ¤í„´ìŠ¤ íŒŒì¼ì„ ë™ê¸°í™”í•  URLìž…ë‹ˆë‹¤.
-  fullscreen: ì „ì²´ í™”ë©´
-  height: ë†’ì´
-  icon: í”„ë¡œí•„ ì•„ì´ì½˜
-  iconHint: ì•„ì´ì½˜ì€ íŒŒì¼ì´ê±°ë‚˜ ì¸í„°ë„· URLì¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  iconUrl: ì•„ì´ì½˜ URL
-  installModpack: ëª¨ë“œíŒ©ìœ¼ë¡œ ì¸ìŠ¤í„´ìŠ¤ ì—…ë°ì´íŠ¸
-  lastPlayed: ë§ˆì§€ë§‰ í”Œë ˆì´
-  launchArguments: ì‹¤í–‰ ì¸ìˆ˜ ë¯¸ë¦¬ë³´ê¸°
-  launchServer: ë¡œì»¬í˜¸ìŠ¤íŠ¸ ì„œë²„ ì‹¤í–‰
-  linkFileDesc: ì¸ìŠ¤í„´ìŠ¤ì˜ ë¡œì»¬ {file} ì„(ë¥¼) ì „ì—­ {file} ë¡œ ë®ì–´ì”ë‹ˆë‹¤. ë§í¬í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  linkFileTitle: '{file} ì„(ë¥¼) ë§í¬í•˜ì‹œê² ìŠµë‹ˆê¹Œ?'
-  mcOptions: ë§ˆì¸í¬ëž˜í”„íŠ¸ ì˜µì…˜
-  mcOptionsHint: ì¶”ê°€ ë§ˆì¸í¬ëž˜í”„íŠ¸ ì‹¤í–‰ ì¸ìˆ˜
-  name: í”„ë¡œí•„ ì´ë¦„
-  nameHint: ëª¨ë“œíŒ© ì´ë¦„
-  nameNoCyrillic: ì´ë¦„ì—ëŠ” í‚¤ë¦´ ë¬¸ìžë¥¼ í¬í•¨í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤
-  neverPlayed: í”Œë ˆì´ ê¸°ë¡ ì—†ìŒ
-  openCrashReportFolder: í¬ëž˜ì‹œ ë¦¬í¬íŠ¸ í´ë” ì—´ê¸°
-  openLogFolder: ë¡œê·¸ í´ë” ì—´ê¸°
-  playtime: í”Œë ˆì´ ì‹œê°„
-  preExecCommand: ì‚¬ì „ ì‹¤í–‰ ëª…ë ¹
-  preExecCommandHint: ë§ˆì¸í¬ëž˜í”„íŠ¸ ì‹¤í–‰ ì „ì— ìˆ˜í–‰í•  ëª…ë ¹
-  prependCommand: ëª…ë ¹ ì•žì— ì¶”ê°€
-  prependCommandHint: ëª¨ë“  ì‹¤í–‰ ëª…ë ¹ ì•žì— ì´ ëª…ë ¹ì„ ì¶”ê°€í•©ë‹ˆë‹¤
-  requireName: ì´ë¦„ì€ í•„ìˆ˜ìž…ë‹ˆë‹¤
-  resolution: í•´ìƒë„
-  resolutionPreset: í•´ìƒë„ í”„ë¦¬ì…‹
-  showInstance: ê²Œìž„ í´ë” ì—´ê¸°
-  updates: ì—…ë°ì´íŠ¸
-  useSharedOptions: ê³µìœ  ê²Œìž„ ì„¤ì • ì‚¬ìš©
-  useSharedOptionsDesc: ì¸ìŠ¤í„´ìŠ¤ ê°„ì— ê³µìœ ë˜ëŠ” íŒŒì¼ì— options.txtë¥¼ ë§í¬í•©ë‹ˆë‹¤
-  useSharedServersList: ê³µìœ  ì„œë²„ ëª©ë¡ ì‚¬ìš©
-  useSharedServersListDesc: ì¸ìŠ¤í„´ìŠ¤ ê°„ì— ê³µìœ ë˜ëŠ” íŒŒì¼ì— servers.datë¥¼ ë§í¬í•©ë‹ˆë‹¤
-  vmOptions: JVM ì˜µì…˜
-  vmOptionsHint: JVMì— ì „ë‹¬í•  ì¶”ê°€ ì¸ìˆ˜
-  vmVar: í™˜ê²½ ë³€ìˆ˜
-  vmVarHint: + ë²„íŠ¼ì„ ëˆŒëŸ¬ í™˜ê²½ ë³€ìˆ˜ë¥¼ ì¶”ê°€í•˜ì„¸ìš”
-  width: ë„ˆë¹„
-  envVarKey: í‚¤
-  envVarValue: ê°’
+  changeIcon: 아이콘 변경
+  contents: 콘텐츠
+  current: 현재 인스턴스
+  delete: 게임 삭제
+  deleteFailed: 인스턴스 삭제 실패
+  deleteFailedPermission: 다른 프로그램이 파일을 사용 중입니다
+  deleteFile: 인스턴스 파일 삭제
+  deleteHint: 인스턴스 데이터는 디스크에서 영구적으로 제거됩니다. 계속하시겠습니까?
+  duplicate: 게임 복제
+  duplicatedName: 중복된 이름
+  fileApi: 동기화 파일 서버 API URL
+  fileApiHint: 원격 구성 서버에서 인스턴스 파일을 동기화할 URL입니다.
+  fullscreen: 전체 화면
+  height: 높이
+  icon: 프로필 아이콘
+  iconHint: 아이콘은 파일이거나 인터넷 URL일 수 있습니다.
+  iconUrl: 아이콘 URL
+  installModpack: 모드팩으로 인스턴스 업데이트
+  lastPlayed: 마지막 플레이
+  launchArguments: 실행 인수 미리보기
+  launchServer: 로컬호스트 서버 실행
+  linkFileDesc: 인스턴스의 로컬 {file} 을(를) 전역 {file} 로 덮어씁니다. 링크하시겠습니까?
+  linkFileTitle: '{file} 을(를) 링크하시겠습니까?'
+  mcOptions: 마인크래프트 옵션
+  mcOptionsHint: 추가 마인크래프트 실행 인수
+  name: 프로필 이름
+  nameHint: 모드팩 이름
+  nameNoCyrillic: 이름에는 키릴 문자를 포함할 수 없습니다
+  neverPlayed: 플레이 기록 없음
+  openCrashReportFolder: 크래시 리포트 폴더 열기
+  openLogFolder: 로그 폴더 열기
+  playtime: 플레이 시간
+  preExecCommand: 사전 실행 명령
+  preExecCommandHint: 마인크래프트 실행 전에 수행할 명령
+  prependCommand: 명령 앞에 추가
+  prependCommandHint: 모든 실행 명령 앞에 이 명령을 추가합니다
+  requireName: 이름은 필수입니다
+  resolution: 해상도
+  resolutionPreset: 해상도 프리셋
+  showInstance: 게임 폴더 열기
+  updates: 업데이트
+  useSharedOptions: 공유 게임 설정 사용
+  useSharedOptionsDesc: 인스턴스 간에 공유되는 파일에 options.txt를 링크합니다
+  useSharedServersList: 공유 서버 목록 사용
+  useSharedServersListDesc: 인스턴스 간에 공유되는 파일에 servers.dat를 링크합니다
+  vmOptions: JVM 옵션
+  vmOptionsHint: JVM에 전달할 추가 인수
+  vmVar: 환경 변수
+  vmVarHint: + 버튼을 눌러 환경 변수를 추가하세요
+  width: 너비
+  envVarKey: 키
+  envVarValue: 값
   envVarKeyPlaceholder: MY_VAR
-  envVarValuePlaceholder: ê°’
-  fileApiPlaceholder: ë¦¬ì†ŒìŠ¤ ë™ê¸°í™”ë¥¼ ìœ ì§€í•˜ë ¤ë©´ ì—¬ê¸°ì— ì›ê²© ë™ê¸°í™” URLì„ ìž…ë ¥í•˜ì„¸ìš”
+  envVarValuePlaceholder: 값
+  fileApiPlaceholder: 리소스 동기화를 유지하려면 여기에 원격 동기화 URL을 입력하세요
 instanceAge:
-  older: ì´ì „
-  threeDay: 3ì¼ ì´ë‚´
-  today: ì˜¤ëŠ˜
+  older: 이전
+  threeDay: 3일 이내
+  today: 오늘
 instanceDiscover:
-  gameFolder: ê²Œìž„ í´ë” {count} ê°œ ê²€ìƒ‰
-  instanceFolder: ì¸ìŠ¤í„´ìŠ¤ {count} ê°œ ë°œê²¬
+  gameFolder: 게임 폴더 {count} 개 검색
+  instanceFolder: 인스턴스 {count} 개 발견
 instanceFileOperation:
-  add: ì¶”ê°€
-  backup-add: êµì²´(ë°±ì—…)
-  backup-remove: ì œê±°(ë°±ì—…)
-  keep: ìœ ì§€
-  remove: ì œê±°
+  add: 추가
+  backup-add: 교체(백업)
+  backup-remove: 제거(백업)
+  keep: 유지
+  remove: 제거
 instanceInstallSkip:
-  ignore: ë¬´ì‹œ
-  skip: ê±´ë„ˆë›°ê¸°
-  title: ì†ìƒëœ íŒŒì¼ ì†ŒìŠ¤ ê°€ëŠ¥ì„±
+  ignore: 무시
+  skip: 건너뛰기
+  title: 손상된 파일 소스 가능성
   warning: >-
-    ì¼ë¶€ íŒŒì¼ì´ ì—¬ëŸ¬ ë²ˆ ë‹¤ìš´ë¡œë“œë˜ì—ˆê³  ì²´í¬ì„¬ì´ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì›ë³¸ ì²´í¬ì„¬ì´ ìž˜ëª»ë˜ì—ˆì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤. í™•ì¸í•´ ì£¼ì„¸ìš”. í˜„ìž¬ íŒŒì¼ì´ ìœ íš¨í•˜ë‹¤ê³  í™•ì‹ í•œë‹¤ë©´ ìœ íš¨ì„± ê²€ì‚¬ë¥¼ ê±´ë„ˆë›¸ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+    일부 파일이 여러 번 다운로드되었고 체크섬이 일치하지 않습니다. 원본 체크섬이 잘못되었을 수 있습니다. 확인해 주세요. 현재 파일이 유효하다고 확신한다면 유효성 검사를 건너뛸 수 있습니다.
 instanceSetting:
-  disableAuthlibInjector: authlib injector ë¹„í™œì„±í™”
-  disableAuthlibInjectorDescription: ì„œë“œíŒŒí‹° ìŠ¤í‚¨ ì‹œìŠ¤í…œì„ ì‚¬ìš©í•˜ëŠ” ê²½ìš°. authlib injectorê°€ ê²Œìž„ì—ì„œ ìŠ¤í‚¨ì„ í‘œì‹œí•˜ëŠ” ë° ë„ì›€ì´ ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  disableElyByAuthlib: ely.byì˜ authlib ëŒ€ì²´ ë¹„í™œì„±í™”
-  disableElyByAuthlibDescription: Ely.byëŠ” ëª¨ë“  ì„œë²„ì—ì„œ ìŠ¤í‚¨ì„ ë³´íŽ¸ì ìœ¼ë¡œ í‘œì‹œí•˜ëŠ” ê³ ìœ í•œ authlib ëŒ€ì²´ë¥¼ ê°€ì§€ê³  ìžˆìŠµë‹ˆë‹¤.
-  fastLaunch: í„°ë³´ ì‹¤í–‰
-  fastLaunchHint: ì‚¬ìš©ìž ìƒíƒœì™€ ê¸°ì¡´ì˜ ìˆ˜ì •ë˜ì§€ ì•Šì€ ë¬¸ì œë¥¼ ë¬´ì‹œí•©ë‹ˆë‹¤
-  hideLauncher: ì‹¤í–‰ í›„ ëŸ°ì²˜ ìˆ¨ê¸°ê¸°
-  icon: ì´ë¯¸ì§€ ì„ íƒ
-  showLog: ë§ˆì¸í¬ëž˜í”„íŠ¸ ë¡œê·¸ í‘œì‹œ
-  showLogHint: ê²Œìž„ ì‹œìž‘ í›„ ë§ˆì¸í¬ëž˜í”„íŠ¸ ë¡œê·¸ë¥¼ ìŠ¤íŠ¸ë¦¬ë°í•˜ëŠ” ì°½ì´ íŒì—…ë©ë‹ˆë‹¤
+  disableAuthlibInjector: authlib injector 비활성화
+  disableAuthlibInjectorDescription: 서드파티 스킨 시스템을 사용하는 경우. authlib injector가 게임에서 스킨을 표시하는 데 도움이 될 수 있습니다.
+  disableElyByAuthlib: ely.by의 authlib 대체 비활성화
+  disableElyByAuthlibDescription: Ely.by는 모든 서버에서 스킨을 보편적으로 표시하는 고유한 authlib 대체를 가지고 있습니다.
+  fastLaunch: 터보 실행
+  fastLaunchHint: 사용자 상태와 기존의 수정되지 않은 문제를 무시합니다
+  hideLauncher: 실행 후 런처 숨기기
+  icon: 이미지 선택
+  showLog: 마인크래프트 로그 표시
+  showLogHint: 게임 시작 후 마인크래프트 로그를 스트리밍하는 창이 팝업됩니다
 instanceTemplate:
-  ftb: ì´ê²ƒì€ FTB ëª¨ë“œíŒ©ìž…ë‹ˆë‹¤
-  preview: ëª¨ë“œíŒ© ë¯¸ë¦¬ë³´ê¸°
+  ftb: 이것은 FTB 모드팩입니다
+  preview: 모드팩 미리보기
 instanceUpdate:
-  basic: ì„¤ì • ì—…ë°ì´íŠ¸
-  files: íŒŒì¼ ì—…ë°ì´íŠ¸
+  basic: 설정 업데이트
+  files: 파일 업데이트
   loaderChanged: >-
-    ì´ ì¸ìŠ¤í„´ìŠ¤ì˜ ëª¨ë“œ ë¡œë”ê°€ ë³€ê²½ë˜ì—ˆìŠµë‹ˆë‹¤. ì´ì „ ëª¨ë“œ ë¡œë”ëŠ” {modloader} ì´ê³ , ìƒˆë¡œìš´ ëª¨ë“œ ë¡œë”ëŠ” {newModloader} ìž…ë‹ˆë‹¤.
-  summary: '{add} ê°œ íŒŒì¼ ì¶”ê°€. {remove} ê°œ íŒŒì¼ ì œê±°. {keep} ê°œ íŒŒì¼ ìœ ì§€.'
-  title: ì¸ìŠ¤í„´ìŠ¤ ì—…ë°ì´íŠ¸
-  update: ì—…ë°ì´íŠ¸ ì‹œìž‘
+    이 인스턴스의 모드 로더가 변경되었습니다. 이전 모드 로더는 {modloader} 이고, 새로운 모드 로더는 {newModloader} 입니다.
+  summary: '{add} 개 파일 추가. {remove} 개 파일 제거. {keep} 개 파일 유지.'
+  title: 인스턴스 업데이트
+  update: 업데이트 시작
 instances:
-  add: ê²Œìž„ ìƒì„±
-  addCurseForgeDescription: Curseforge ë°ì´í„° í´ë”ì—ì„œ ê°€ì ¸ì˜¤ê¸°. Curseforgeì˜ ë£¨íŠ¸ ë°ì´í„° í´ë”ë¥¼ ì„ íƒí•´ì•¼ í•©ë‹ˆë‹¤
-  addDescription: ì²˜ìŒë¶€í„° ìƒˆ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
-  addMMCDescription: ê¸°ì¡´ MultiMC ì¸ìŠ¤í„´ìŠ¤ ê°€ì ¸ì˜¤ê¸°. MultiMCì˜ ë°ì´í„° í´ë”ë¥¼ ì„ íƒí•´ì•¼ í•©ë‹ˆë‹¤.
-  addManually: ìˆ˜ë™ ìƒì„±
-  addModrinthDescription: ê¸°ì¡´ Modrinth ì¸ìŠ¤í„´ìŠ¤ ê°€ì ¸ì˜¤ê¸°. Modrinth ë£¨íŠ¸ ë°ì´í„° í´ë”ë¥¼ ì„ íƒí•´ì•¼ í•©ë‹ˆë‹¤.
-  addServer: ì„œë²„ì—ì„œ ìƒì„±
-  addServerDescription: ì„œë²„ë¡œ ì§ì ‘ ì‹¤í–‰ë˜ëŠ” ê²Œìž„ì„ ìƒì„±í•©ë‹ˆë‹¤.
-  addTemplate: ë‹¤ìš´ë¡œë“œëœ ëª¨ë“œíŒ©ì—ì„œ ìƒì„±
-  addTemplateDescription: ë‹¤ìš´ë¡œë“œëœ ëª¨ë“œíŒ©ì—ì„œ ê°€ì ¸ì˜¤ê¸°
-  addVanilla: ë°”ë‹ë¼ ë§ˆì¸í¬ëž˜í”„íŠ¸ì—ì„œ ìƒì„±
-  addVanillaDescription: ì¼ë°˜ .minecraft í´ë”ì—ì„œ ê°€ì ¸ì˜¤ê¸°. ì›ë³¸ ê²Œìž„ í”„ë¡œí•„ì„ FastLauncherë¡œ ë³µì œí•©ë‹ˆë‹¤.
-  fix: ìˆ˜ë¦¬
-  folderSetting: í´ë” ì„¤ì •
-  importFolderDescription: ë§ˆì¸í¬ëž˜í”„íŠ¸ë¥¼ ëŸ°ì²˜ë¡œ ê°€ì ¸ì˜¤ê¸°
-  loadingFiles: ëª¨ë“œíŒ© íŒŒì¼ ë¡œë”© ì¤‘
-  addPrismDescription: ê¸°ì¡´ PrismLauncher ì¸ìŠ¤í„´ìŠ¤ ê°€ì ¸ì˜¤ê¸°.
+  add: 게임 생성
+  addCurseForgeDescription: Curseforge 데이터 폴더에서 가져오기. Curseforge의 루트 데이터 폴더를 선택해야 합니다
+  addDescription: 처음부터 새 인스턴스 생성
+  addMMCDescription: 기존 MultiMC 인스턴스 가져오기. MultiMC의 데이터 폴더를 선택해야 합니다.
+  addManually: 수동 생성
+  addModrinthDescription: 기존 Modrinth 인스턴스 가져오기. Modrinth 루트 데이터 폴더를 선택해야 합니다.
+  addServer: 서버에서 생성
+  addServerDescription: 서버로 직접 실행되는 게임을 생성합니다.
+  addTemplate: 다운로드된 모드팩에서 생성
+  addTemplateDescription: 다운로드된 모드팩에서 가져오기
+  addVanilla: 바닐라 마인크래프트에서 생성
+  addVanillaDescription: 일반 .minecraft 폴더에서 가져오기. 원본 게임 프로필을 FastLauncher로 복제합니다.
+  fix: 수리
+  folderSetting: 폴더 설정
+  importFolderDescription: 마인크래프트를 런처로 가져오기
+  loadingFiles: 모드팩 파일 로딩 중
+  addPrismDescription: 기존 PrismLauncher 인스턴스 가져오기.
 items:
-  count: '{count} ì•„ì´í…œ'
-  total: '{total} ì´í•©'
+  count: '{count} 아이템'
+  total: '{total} 총합'
 java:
-  allocatedLong: ì‹œìŠ¤í…œ ê¸°ë³¸ ìžë°” ì‚¬ìš©
-  allocatedShort: ìžë™ í• ë‹¹
-  importFromFile: íŒŒì¼ì—ì„œ ìžë°” ê°€ì ¸ì˜¤ê¸°
-  invalid: ìž˜ëª»ëœ ìžë°” ë²„ì „
-  location: ìžë°” ë²„ì „
-  maxMemory: ìµœëŒ€ ë©”ëª¨ë¦¬
-  memory: ìžë°” ë©”ëª¨ë¦¬
-  memoryAuto: ìžë™
-  memoryManual: ìˆ˜ë™
-  memoryUnassigned: í• ë‹¹ í•´ì œ
-  minMemory: ìµœì†Œ ë©”ëª¨ë¦¬
-  noMemory: ë©”ëª¨ë¦¬ ì‚¬ìš©ëŸ‰ì„ ì œí•œí•˜ì§€ ì•ŠìŒ
-  refresh: ë¡œì»¬ ìžë°” ìƒˆë¡œê³ ì¹¨
-  systemMemory: 'ì‹œìŠ¤í…œ ì—¬ìœ  ë©”ëª¨ë¦¬: {free} / {total}'
-  allocation: í• ë‹¹ë¨
-  autoHint: ìµœì†Œê°’ì€ ì„¤ì¹˜ëœ ëª¨ë“œ ìˆ˜ì— ë”°ë¼ ì¦ê°€í•˜ê³ , ìµœëŒ€ê°’ì€ ì‚¬ìš© ê°€ëŠ¥í•œ ì‹œìŠ¤í…œ ë©”ëª¨ë¦¬ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.
-  change: ë³€ê²½
-  locationHint: Javaê°€ ì„ íƒë˜ì§€ ì•ŠìŒ â€” ì‹œìŠ¤í…œ ê¸°ë³¸ê°’ ì‚¬ìš©
-  openFolder: Java í´ë” ì—´ê¸°
-  presets: í”„ë¦¬ì…‹
+  allocatedLong: 시스템 기본 자바 사용
+  allocatedShort: 자동 할당
+  importFromFile: 파일에서 자바 가져오기
+  invalid: 잘못된 자바 버전
+  location: 자바 버전
+  maxMemory: 최대 메모리
+  memory: 자바 메모리
+  memoryAuto: 자동
+  memoryManual: 수동
+  memoryUnassigned: 할당 해제
+  minMemory: 최소 메모리
+  noMemory: 메모리 사용량을 제한하지 않음
+  refresh: 로컬 자바 새로고침
+  systemMemory: '시스템 여유 메모리: {free} / {total}'
+  allocation: 할당됨
+  autoHint: 최소값은 설치된 모드 수에 따라 증가하고, 최대값은 사용 가능한 시스템 메모리를 사용합니다.
+  change: 변경
+  locationHint: Java가 선택되지 않음 — 시스템 기본값 사용
+  openFolder: Java 폴더 열기
+  presets: 프리셋
 labyMod:
-  disable: LabyMod ë¹„í™œì„±í™”
-  empty: í˜„ìž¬ ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „ì„ LabyModê°€ ì§€ì›í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤
+  disable: LabyMod 비활성화
+  empty: 현재 마인크래프트 버전을 LabyMod가 지원하지 않습니다
 unauthenticatedWarning:
-  title: ë¡œê·¸ì¸ë˜ì§€ ì•ŠìŒ
-  description: ì–´ë– í•œ ê³„ì •ì—ë„ ë¡œê·¸ì¸ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. ê²Œìž„ì´ ë°ëª¨ ëª¨ë“œë¡œ ì‹¤í–‰ë©ë‹ˆë‹¤. ëª¨ë“  ê¸°ëŠ¥ì„ ì‚¬ìš©í•˜ë ¤ë©´ ë¡œê·¸ì¸í•˜ì„¸ìš”.
-  cancel: ì·¨ì†Œ
-  login: ë¡œê·¸ì¸
-  playAnyway: ê·¸ëž˜ë„ í”Œë ˆì´
+  title: 로그인되지 않음
+  description: 어떠한 계정에도 로그인되지 않았습니다. 게임이 데모 모드로 실행됩니다. 모든 기능을 사용하려면 로그인하세요.
+  cancel: 취소
+  login: 로그인
+  playAnyway: 그래도 플레이
 launch:
-  cancel: ì·¨ì†Œ
-  createShortcut: ë°”ë¡œê°€ê¸° ë§Œë“¤ê¸°
-  kill: ì¤‘ì§€
-  killServer: ë¡œì»¬í˜¸ìŠ¤íŠ¸ ì„œë²„ ì¢…ë£Œ
-  launch: ì‹¤í–‰
-  launchAnyway: ë¬´ì‹œí•˜ê³  ì‹¤í–‰
-  launchAs: ë‹¤ë¥¸ ê³„ì •ìœ¼ë¡œ ì‹¤í–‰
-  forceKill: ê°•ì œ ì¢…ë£Œ
+  cancel: 취소
+  createShortcut: 바로가기 만들기
+  kill: 중지
+  killServer: 로컬호스트 서버 종료
+  launch: 실행
+  launchAnyway: 무시하고 실행
+  launchAs: 다른 계정으로 실행
+  forceKill: 강제 종료
 launchBlocked:
   launchBadVersion:
-    description: ë²„ì „ {version}ì˜ JSONì— ë¬¸ì œê°€ ìžˆìŠµë‹ˆë‹¤. ìž¬ì„¤ì¹˜ë¥¼ ì‹œë„í•´ ë³´ì„¸ìš”.
-    title: ìž˜ëª»ëœ ë²„ì „ JSON
+    description: 버전 {version}의 JSON에 문제가 있습니다. 재설치를 시도해 보세요.
+    title: 잘못된 버전 JSON
   launchGeneralException:
-    description: ëª‡ ê°€ì§€ ì˜¤ë¥˜ë¡œ ì¸í•´ ì‹¤í–‰ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.
-    title: ì‹¤í–‰ ì‹¤íŒ¨
+    description: 몇 가지 오류로 인해 실행에 실패했습니다.
+    title: 실행 실패
   launchInvalidJavaPath:
     description: >-
-      ì„ íƒí•œ ìžë°”ê°€ ì—†ê±°ë‚˜ ìž˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤. ìƒˆë¡œ ì„ íƒí•´ì£¼ì„¸ìš”. <span class="highlight"> {javaPath} </span>
-    title: ìž˜ëª»ëœ ìžë°” ê²½ë¡œ
+      선택한 자바가 없거나 잘못되었습니다. 새로 선택해주세요. <span class="highlight"> {javaPath} </span>
+    title: 잘못된 자바 경로
   launchJavaNoPermission:
     description: >-
-      ëŸ°ì²˜ê°€ ìžë°” <span class="highlight"> {javaPath} </span>ë¥¼ ì‹¤í–‰í•  ê¶Œí•œì´ ì—†ìŠµë‹ˆë‹¤. ìžë°” íŒŒì¼ì˜ ê¶Œí•œì„ ë³€ê²½í•˜ê±°ë‚˜ ëŸ°ì²˜ ê¶Œí•œì„ ìƒìŠ¹ì‹œí‚¤ì„¸ìš”.
-    title: ì‹¤í–‰ ê¶Œí•œ ì—†ìŒ
+      런처가 자바 <span class="highlight"> {javaPath} </span>를 실행할 권한이 없습니다. 자바 파일의 권한을 변경하거나 런처 권한을 상승시키세요.
+    title: 실행 권한 없음
   launchNoProperJava:
-    description: ê²Œìž„ì„ ì‹¤í–‰í•  ì ì ˆí•œ ìžë°”ë¥¼ ì„ íƒí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ({javaPath}ê°€ ìž˜ëª»ë˜ì—ˆë‚˜ìš”?)
-    title: ì ì ˆí•œ ìžë°”ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŒ
+    description: 게임을 실행할 적절한 자바를 선택할 수 없습니다. ({javaPath}가 잘못되었나요?)
+    title: 적절한 자바를 찾을 수 없음
   launchNoVersionInstalled:
-    description: ì‹¤í–‰í•  ë²„ì „ <span class="highlight">{version}</span>ì„(ë¥¼) í•´ì„í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
-    title: ì„ íƒëœ ë²„ì „ ì—†ìŒ
+    description: 실행할 버전 <span class="highlight">{version}</span>을(를) 해석할 수 없습니다.
+    title: 선택된 버전 없음
   launchSpawnProcessFailed:
-    description: ìžë°”ë¥¼ í™•ì¸í•˜ê±°ë‚˜ ëŸ°ì²˜ì— ë” ë§Žì€ ê¶Œí•œì„ ë¶€ì—¬í•œ ë’¤ ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”. ê·¸ëž˜ë„ ë˜ì§€ ì•Šìœ¼ë©´ ê°œë°œìžì—ê²Œ ë¬¸ì˜í•˜ì„¸ìš”.
-    title: ê²Œìž„ í”„ë¡œì„¸ìŠ¤ ì‹œìž‘ ì‹¤íŒ¨
-  unexpectedText: ì˜ˆìƒì¹˜ ëª»í•œ ìƒí™©ìž…ë‹ˆë‹¤. ëŸ°ì²˜ë¥¼ ìž¬ì‹œìž‘í•˜ë©´ ë¬¸ì œê°€ ì™„í™”ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì´ ë¬¸ì œê°€ ë‹¤ì‹œ ë°œìƒí•˜ë©´ ê°œë°œìžì—ê²Œ ë¬¸ì˜í•˜ì„¸ìš”.
+    description: 자바를 확인하거나 런처에 더 많은 권한을 부여한 뒤 다시 시도하세요. 그래도 되지 않으면 개발자에게 문의하세요.
+    title: 게임 프로세스 시작 실패
+  unexpectedText: 예상치 못한 상황입니다. 런처를 재시작하면 문제가 완화될 수 있습니다. 이 문제가 다시 발생하면 개발자에게 문의하세요.
 launchFailed:
-  crash: ê²Œìž„ì´ í¬ëž˜ì‹œë˜ì—ˆìŠµë‹ˆë‹¤!!
-  description: í¬ëž˜ì‹œ ë¦¬í¬íŠ¸ê°€ ì—†ìŠµë‹ˆë‹¤. ì•„ëž˜ëŠ” ì—ëŸ¬ ë¡œê·¸ì™€ ìµœì‹  ë¡œê·¸ìž…ë‹ˆë‹¤.
+  crash: 게임이 크래시되었습니다!!
+  description: 크래시 리포트가 없습니다. 아래는 에러 로그와 최신 로그입니다.
   elyByAuthlib:
     description: >-
-      Minecraft ë²„ì „ {version}ì— ëŒ€í•´ Ely.byì˜ Authlib ëŒ€ì²´ê°€ ì‚¬ìš©ë˜ì—ˆì§€ë§Œ, ì´ ë²„ì „ì€ ì™„ì „ížˆ í˜¸í™˜ë˜ì§€ ì•Šì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-    suggestion: ì´ ë¬¸ì œë¥¼ í”¼í•˜ë ¤ë©´ ì¸ìŠ¤í„´ìŠ¤ ì„¤ì •ì—ì„œ Ely.byì˜ Authlib ëŒ€ì²´ë¥¼ ë¹„í™œì„±í™”í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-    title: Ely.by Authlib í˜¸í™˜ì„± ë¬¸ì œ
-  failedToLaunch: ì‹¤í–‰ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤
-  latestLog: ìµœì‹  ë¡œê·¸
-  title: ë¹„ì •ìƒ ì½”ë“œë¡œ ê²Œìž„ì´ ì¢…ë£Œë¨
+      Minecraft 버전 {version}에 대해 Ely.by의 Authlib 대체가 사용되었지만, 이 버전은 완전히 호환되지 않을 수 있습니다.
+    suggestion: 이 문제를 피하려면 인스턴스 설정에서 Ely.by의 Authlib 대체를 비활성화할 수 있습니다.
+    title: Ely.by Authlib 호환성 문제
+  failedToLaunch: 실행에 실패했습니다
+  latestLog: 최신 로그
+  title: 비정상 코드로 게임이 종료됨
 launchPreExecuteCommandFailed:
-  description: 'ì‚¬ì „ ì‹¤í–‰ ëª…ë ¹ì´ ì˜¤ë¥˜ë¡œ ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤: {error}. ëª…ë ¹ì„ í™•ì¸í•˜ê³  ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”.'
-  title: ì‚¬ì „ ì‹¤í–‰ ëª…ë ¹ ì‹¤íŒ¨
+  description: '사전 실행 명령이 오류로 실패했습니다: {error}. 명령을 확인하고 다시 시도하세요.'
+  title: 사전 실행 명령 실패
 launchStatus:
-  assigningMemory: ë©”ëª¨ë¦¬ í• ë‹¹ ì¤‘
+  assigningMemory: 메모리 할당 중
   elyByWarning: >-
-    Ely.by Authlib ëŒ€ì²´ê°€ í™œì„±í™”ë˜ì–´ ìžˆìŠµë‹ˆë‹¤. ì¼ë¶€ Minecraft ë²„ì „ì€ í˜¸í™˜ë˜ì§€ ì•Šì•„ í¬ëž˜ì‹œê°€ ë°œìƒí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ë¬¸ì œê°€ ë°œìƒí•˜ë©´ ì¸ìŠ¤í„´ìŠ¤ ì„¤ì •ì—ì„œ ë¹„í™œì„±í™”í•˜ì„¸ìš”.
-  exit: ê²Œìž„ì„ ì¢…ë£Œí• ê¹Œìš”?
-  injectingAuthLib: ì„œë“œíŒŒí‹° AuthLib ì„¤ì • ì¤‘
-  launching: ì‹¤í–‰ ì¤‘...
-  launchingSlow: ì•„ì§ ì‹¤í–‰ ì¤‘... ê·¸ëž˜í”½ ì—”ì§„ ì´ˆê¸°í™”ê°€ ëŠë¦´ ìˆ˜ ìžˆì–´ìš”...
-  refreshingUser: ì‚¬ìš©ìž í† í° ìƒˆë¡œê³ ì¹¨ ì¤‘
-  spawningProcess: í”„ë¡œì„¸ìŠ¤ ì‹œìž‘ ì¤‘
+    Ely.by Authlib 대체가 활성화되어 있습니다. 일부 Minecraft 버전은 호환되지 않아 크래시가 발생할 수 있습니다. 문제가 발생하면 인스턴스 설정에서 비활성화하세요.
+  exit: 게임을 종료할까요?
+  injectingAuthLib: 서드파티 AuthLib 설정 중
+  launching: 실행 중...
+  launchingSlow: 아직 실행 중... 그래픽 엔진 초기화가 느릴 수 있어요...
+  refreshingUser: 사용자 토큰 새로고침 중
+  spawningProcess: 프로세스 시작 중
 launcherUpdate:
-  alreadyLatest: ìµœì‹  ìƒíƒœ
-  installAndQuit: ìž¬ì‹œìž‘í•˜ì—¬ ì„¤ì¹˜
-  noUpdateAvailable: ì‚¬ìš© ê°€ëŠ¥í•œ ì—…ë°ì´íŠ¸ ì—†ìŒ
-  updateToThisVersion: ë‹¤ìš´ë¡œë“œ ë° ì„¤ì¹˜
+  alreadyLatest: 최신 상태
+  installAndQuit: 재시작하여 설치
+  noUpdateAvailable: 사용 가능한 업데이트 없음
+  updateToThisVersion: 다운로드 및 설치
 localVersion:
-  auto: ìžë™ ê³„ì‚°ë¨
-  empty: ì„¤ì¹˜ëœ ë²„ì „ ì—†ìŒ
-  hint: íŠ¹ì • ë¡œì»¬ ë²„ì „ì„ ì§ì ‘ ì‹¤í–‰í•©ë‹ˆë‹¤
-  reinstallDescription: ì´ ë²„ì „ ì„¤ì¹˜ì— ë¬¸ì œê°€ ìžˆë‹¤ê³  ìƒê°ë˜ë©´ ìž¬ì„¤ì¹˜ë¥¼ ì‹œë„í•´ ë³´ì„¸ìš”.
-  reinstallTitle: '{version} ìž¬ì„¤ì¹˜'
-  title: ë¡œì»¬ ë²„ì „
+  auto: 자동 계산됨
+  empty: 설치된 버전 없음
+  hint: 특정 로컬 버전을 직접 실행합니다
+  reinstallDescription: 이 버전 설치에 문제가 있다고 생각되면 재설치를 시도해 보세요.
+  reinstallTitle: '{version} 재설치'
+  title: 로컬 버전
 logLevel:
-  error: ì˜¤ë¥˜
-  info: ì •ë³´
-  success: ì„±ê³µ
-  warning: ê²½ê³ 
+  error: 오류
+  info: 정보
+  success: 성공
+  warning: 경고
 logView:
-  searchPlaceholder: ë¡œê·¸ ê²€ìƒ‰...
+  searchPlaceholder: 로그 검색...
 login:
-  dropHint: ì¸ì¦ ì½”ë“œê°€ í¬í•¨ëœ ë§í¬ë¥¼ ì—¬ê¸°ì— ë†“ì•„ ìˆ˜ë™ ë¡œê·¸ì¸í•˜ì„¸ìš”
-  forgetPassword: ë¹„ë°€ë²ˆí˜¸ë¥¼ ìžŠìœ¼ì…¨ë‚˜ìš”?
-  login: ë¡œê·¸ì¸
-  manualLoginUrl: ë¸Œë¼ìš°ì €ê°€ ë‚˜íƒ€ë‚˜ì§€ ì•Šìœ¼ë©´ ì´ ë§í¬ë¥¼ í´ë¦­í•´ ì¸ì¦í•˜ì„¸ìš”!
-  signup: ê°€ìž…í•˜ê¸°
-  signupDescription: ì²˜ìŒ ì˜¤ì…¨ë‚˜ìš”?
-  userRelogin: ì‚¬ìš©ìž ì•¡ì„¸ìŠ¤ í† í°ì´ ë§Œë£Œë˜ì—ˆìŠµë‹ˆë‹¤. ë‹¤ì‹œ ë¡œê·¸ì¸í•˜ì„¸ìš”!
+  dropHint: 인증 코드가 포함된 링크를 여기에 놓아 수동 로그인하세요
+  forgetPassword: 비밀번호를 잊으셨나요?
+  login: 로그인
+  manualLoginUrl: 브라우저가 나타나지 않으면 이 링크를 클릭해 인증하세요!
+  signup: 가입하기
+  signupDescription: 처음 오셨나요?
+  userRelogin: 사용자 액세스 토큰이 만료되었습니다. 다시 로그인하세요!
 loginError:
   acquireMicrosoftTokenFailed: >-
     Fail to acquire Microsoft token. This might be a network issue. Please retry.
   badNetworkOrServer: >-
     Please check your network connectivity! Or maybe the authentication server is down!
-  checkOwnershipFailed: ê²Œìž„ ì†Œìœ ê¶Œ í™•ì¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”.
-  connectionReset: ì„œë²„ê°€ ì—°ê²°ì„ ìž¬ì„¤ì •í–ˆê¸° ë•Œë¬¸ì— ë¡œê·¸ì¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤
-  fetchMinecraftProfileFailed: 'ë§ˆì¸í¬ëž˜í”„íŠ¸ í”„ë¡œí•„ ê°€ì ¸ì˜¤ê¸° ì‹¤íŒ¨: {reason}'
-  illegalEmail: ì´ë©”ì¼ì´ ìœ íš¨í•´ì•¼ í•©ë‹ˆë‹¤
-  invalidCredentials: ìž˜ëª»ëœ ìžê²© ì¦ëª…ìž…ë‹ˆë‹¤. ìž˜ëª»ëœ ì‚¬ìš©ìž ì´ë¦„ ë˜ëŠ” ë¹„ë°€ë²ˆí˜¸ìž…ë‹ˆë‹¤.
-  loginMinecraftByXboxFailed: Xbox í† í°ìœ¼ë¡œ ë§ˆì¸í¬ëž˜í”„íŠ¸ í† í° êµí™˜ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. Xboxì— ë§ˆì¸í¬ëž˜í”„íŠ¸ê°€ ìžˆëŠ”ì§€ í™•ì¸í•˜ê±°ë‚˜ ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”.
-  loginXboxAgeRestricted: ë‚˜ì´ ë¬¸ì œë¡œ ì¸í•´ Xbox ë¡œê·¸ì¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. Microsoft ê³„ì •ì— ë‚˜ì´ê°€ ì„¤ì •ë˜ì–´ ìžˆê³  18ì„¸ ì´ìƒì¸ì§€ í™•ì¸í•˜ì„¸ìš”.
+  checkOwnershipFailed: 게임 소유권 확인에 실패했습니다. 다시 시도하세요.
+  connectionReset: 서버가 연결을 재설정했기 때문에 로그인에 실패했습니다
+  fetchMinecraftProfileFailed: '마인크래프트 프로필 가져오기 실패: {reason}'
+  illegalEmail: 이메일이 유효해야 합니다
+  invalidCredentials: 잘못된 자격 증명입니다. 잘못된 사용자 이름 또는 비밀번호입니다.
+  loginMinecraftByXboxFailed: Xbox 토큰으로 마인크래프트 토큰 교환에 실패했습니다. Xbox에 마인크래프트가 있는지 확인하거나 다시 시도하세요.
+  loginXboxAgeRestricted: 나이 문제로 인해 Xbox 로그인에 실패했습니다. Microsoft 계정에 나이가 설정되어 있고 18세 이상인지 확인하세요.
   loginXboxFailed: >-
-    Microsoft í† í°ìœ¼ë¡œ Xbox ë¡œê·¸ì¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. Microsoft ê³„ì •ê³¼ ë…ë¦½ì ì¸ Xbox ê³„ì •ì´ ìžˆëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”. ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”.
-  noProfileForNewUser: ê²Œìž„ í”„ë¡œí•„ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤! ìƒˆë¡œìš´ ë§ˆì¸í¬ëž˜í”„íŠ¸ ì‚¬ìš©ìžë¼ë©´, ë§ˆì¸í¬ëž˜í”„íŠ¸ ê³µì‹ ëŸ°ì²˜ì—ì„œ ìµœì†Œ í•œ ë²ˆì€ ë¡œê·¸ì¸í•˜ì„¸ìš”.
-  requestFailed: ë¡œê·¸ì¸ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. ì •í™•í•œ ì´ìœ ë¥¼ ì•Œ ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”.
-  requireEmail: ì´ë©”ì¼ì´ í•„ìš”í•©ë‹ˆë‹¤
-  requirePassword: ë¹„ë°€ë²ˆí˜¸ê°€ í•„ìš”í•©ë‹ˆë‹¤
-  requireUsername: ì‚¬ìš©ìž ì´ë¦„ì´ í•„ìš”í•©ë‹ˆë‹¤
-  timeout: ë¡œê·¸ì¸ ì‹œê°„ ì´ˆê³¼. ë‹¤ì‹œ ì‹œë„í•˜ê±°ë‚˜ ë„¤íŠ¸ì›Œí¬ë¥¼ í™•ì¸í•˜ì„¸ìš”.
+    Microsoft 토큰으로 Xbox 로그인에 실패했습니다. Microsoft 계정과 독립적인 Xbox 계정이 있는지 확인하세요. 다시 시도하세요.
+  noProfileForNewUser: 게임 프로필을 찾을 수 없습니다! 새로운 마인크래프트 사용자라면, 마인크래프트 공식 런처에서 최소 한 번은 로그인하세요.
+  requestFailed: 로그인에 실패했습니다. 정확한 이유를 알 수 없습니다. 다시 시도하세요.
+  requireEmail: 이메일이 필요합니다
+  requirePassword: 비밀번호가 필요합니다
+  requireUsername: 사용자 이름이 필요합니다
+  timeout: 로그인 시간 초과. 다시 시도하거나 네트워크를 확인하세요.
 logsCrashes:
-  crashes: í¬ëž˜ì‹œ ë¦¬í¬íŠ¸
-  logs: ë¡œê·¸
-  placeholder: íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤
-  title: ë¡œê·¸ ë˜ëŠ” í¬ëž˜ì‹œ ë¦¬í¬íŠ¸
-  failures: ì‹¤í–‰ ì‹¤íŒ¨
+  crashes: 크래시 리포트
+  logs: 로그
+  placeholder: 파일이 없습니다
+  title: 로그 또는 크래시 리포트
+  failures: 실행 실패
 me:
-  news: ë‰´ìŠ¤
-  recentPlay: ìµœê·¼ í”Œë ˆì´
+  news: 뉴스
+  recentPlay: 최근 플레이
 migrationWindow:
-  title: ë°ì´í„° ë§ˆì´ê·¸ë ˆì´ì…˜
-  preparing: ë§ˆì´ê·¸ë ˆì´ì…˜ ì¤€ë¹„ ì¤‘â€¦
-  scanning: ê³„ì‚° ì¤‘â€¦
-  migrating: ë°ì´í„° ì´ë™ ì¤‘
-  done: ë§ˆì´ê·¸ë ˆì´ì…˜ ì™„ë£Œ
-  files: ê°œ íŒŒì¼
-  warning: ì™„ë£Œë  ë•Œê¹Œì§€ ëŸ°ì²˜ë¥¼ ë‹«ì§€ ë§ˆì„¸ìš”. ë°ì´í„°ê°€ ì†ì‹¤ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  error: ë§ˆì´ê·¸ë ˆì´ì…˜ ì‹¤íŒ¨
+  title: 데이터 마이그레이션
+  preparing: 마이그레이션 준비 중…
+  scanning: 계산 중…
+  migrating: 데이터 이동 중
+  done: 마이그레이션 완료
+  files: 개 파일
+  warning: 완료될 때까지 런처를 닫지 마세요. 데이터가 손실될 수 있습니다.
+  error: 마이그레이션 실패
 minecraftVersion:
-  name: ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „
-  all: ëª¨ë“  ë²„ì „
-  release: ì •ì‹
-  showAlpha: ìŠ¤ëƒ…ìƒ· í‘œì‹œ
-  snapshot: ìŠ¤ëƒ…ìƒ·
+  name: 마인크래프트 버전
+  all: 모든 버전
+  release: 정식
+  showAlpha: 스냅샷 표시
+  snapshot: 스냅샷
 mod:
-  acceptVersion: '{version} ì ìš©'
-  applyGroupRules: ì €ìž¥ëœ ê·¸ë£¹ ê·œì¹™ ì ìš©
-  compatible: í˜¸í™˜ë˜ëŠ” ëª¨ë“œìž…ë‹ˆë‹¤.
-  createGroup: ê·¸ë£¹ ìƒì„±
-  currentVersion: í˜„ìž¬ {current}
-  denseView: ë°€ì§‘ ë³´ê¸°
-  disableAll: ëª¨ë‘ ë¹„í™œì„±í™”
-  dropHint: ëª¨ë“œì˜ .jar/.litemodë¥¼ ì—¬ê¸°ë¡œ ë“œëž˜ê·¸í•˜ì—¬ ê°€ì ¸ì˜¤ì„¸ìš”.
-  duplicatedDetected: ì¤‘ë³µëœ ëª¨ë“œ {count}ê°œ ë°œê²¬
+  acceptVersion: '{version} 적용'
+  applyGroupRules: 저장된 그룹 규칙 적용
+  compatible: 호환되는 모드입니다.
+  createGroup: 그룹 생성
+  currentVersion: 현재 {current}
+  denseView: 밀집 보기
+  disableAll: 모두 비활성화
+  dropHint: 모드의 .jar/.litemod를 여기로 드래그하여 가져오세요.
+  duplicatedDetected: 중복된 모드 {count}개 발견
   duplicatedDetectedDescription: >-
     Found mods with same mod id but different files. This might cause Minecraft crash. Please select the file you want to keep.
-  enableAll: ëª¨ë‘ í™œì„±í™”
-  enabled: '{count} ê°œ ëª¨ë“œ í™œì„±í™”ë¨'
-  filter: ëª¨ë“œ í•„í„°
-  group: ê·¸ë£¹í™”
-  groupInstalled: ì„¤ì¹˜ëœ ëª¨ë“œ ê·¸ë£¹í™”
-  groupName: ê·¸ë£¹ ì´ë¦„
-  groupNameRequired: ê·¸ë£¹ ì´ë¦„ì´ í•„ìš”í•©ë‹ˆë‹¤
-  hasUpdate: ìƒˆ ë²„ì „ì˜ ëª¨ë“œê°€ ìžˆìŠµë‹ˆë‹¤!
-  incompatible: í˜¸í™˜ë˜ì§€ ì•ŠëŠ” ëª¨ë“œìž…ë‹ˆë‹¤.
-  incompatibleHint: ëª¨ë“œ í˜¸í™˜ì„± ë³´ê³ ì„œë¥¼ í™•ì¸í•˜ì„¸ìš”
+  enableAll: 모두 활성화
+  enabled: '{count} 개 모드 활성화됨'
+  filter: 모드 필터
+  group: 그룹화
+  groupInstalled: 설치된 모드 그룹화
+  groupName: 그룹 이름
+  groupNameRequired: 그룹 이름이 필요합니다
+  hasUpdate: 새 버전의 모드가 있습니다!
+  incompatible: 호환되지 않는 모드입니다.
+  incompatibleHint: 모드 호환성 보고서를 확인하세요
   incompatibleHintDescription: >-
     Some mods dependencies might be missing. Or some dependencies versions do not matched.
-  maybeCompatible: ì•„ë§ˆë„ í˜¸í™˜ë¨.
-  modloaderSelectHint: ì´ ëª¨ë“œëŠ” ë‹¤ìŒ ëª¨ë“œ ë¡œë”ë¥¼ ì§€ì›í•©ë‹ˆë‹¤. ì„¤ì¹˜í•  í•­ëª©ì„ ì„ íƒí•˜ì„¸ìš”.
-  modloaderSelectNotSupported: ë§ˆì¸í¬ëž˜í”„íŠ¸ {minecraft}ì— ëŒ€í•œ {modloader}ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤
-  mods: ëª¨ë“œ {count} ê°œ
-  name: ëª¨ë“œ
-  newFolder: ìƒˆ í´ë”
-  noGroupsFound: ê·¸ë£¹ì„ ì°¾ì„ ìˆ˜ ì—†ìŒ
-  noGroupsYet: ì•„ì§ ê·¸ë£¹ì´ ì—†ìŠµë‹ˆë‹¤. í•˜ë‚˜ ë§Œë“œì„¸ìš”!
-  noModLoaderHint: ëª¨ë“œë¥¼ ì‚¬ìš©í•˜ë ¤ë©´ ëª¨ë“œ ë¡œë”ë¥¼ í™œì„±í™”í•˜ëŠ” ê²ƒì„ ìžŠì§€ ë§ˆì„¸ìš”!
-  openLink: ëª¨ë“œ URL ì—´ê¸° {url}
-  search: ëª¨ë“œ ê²€ìƒ‰
-  searchGroups: ê·¸ë£¹ ê²€ìƒ‰...
-  searchOnMcWiki: '{name} ì„(ë¥¼) MC ë°±ê³¼ì‚¬ì „ì—ì„œ ì°¾ê¸°'
-  selectOrCreateGroup: ê·¸ë£¹ ì„ íƒ ë˜ëŠ” ìƒì„±
-  showDirectory: ëª¨ë“œ ë””ë ‰í„°ë¦¬ ì—´ê¸°
-  showFile: ëª¨ë“œ ê²½ë¡œ ì—´ê¸° {file}
-  showInModrinth: Modrinthì—ì„œ {name} ë³´ê¸°
-  switchDefaultSource: ê¸°ë³¸ ëª¨ë“œ ì†ŒìŠ¤
-  syncGroupRules: ê·¸ë£¹ ê·œì¹™ ì €ìž¥
-  toUpdate: ì—…ë°ì´íŠ¸ {count}ê°œ
-  ungroup: ê·¸ë£¹ í•´ì œ
-  description: ì„¤ëª…
+  maybeCompatible: 아마도 호환됨.
+  modloaderSelectHint: 이 모드는 다음 모드 로더를 지원합니다. 설치할 항목을 선택하세요.
+  modloaderSelectNotSupported: 마인크래프트 {minecraft}에 대한 {modloader}를 찾을 수 없습니다
+  mods: 모드 {count} 개
+  name: 모드
+  newFolder: 새 폴더
+  noGroupsFound: 그룹을 찾을 수 없음
+  noGroupsYet: 아직 그룹이 없습니다. 하나 만드세요!
+  noModLoaderHint: 모드를 사용하려면 모드 로더를 활성화하는 것을 잊지 마세요!
+  openLink: 모드 URL 열기 {url}
+  search: 모드 검색
+  searchGroups: 그룹 검색...
+  searchOnMcWiki: '{name} 을(를) MC 백과사전에서 찾기'
+  selectOrCreateGroup: 그룹 선택 또는 생성
+  showDirectory: 모드 디렉터리 열기
+  showFile: 모드 경로 열기 {file}
+  showInModrinth: Modrinth에서 {name} 보기
+  switchDefaultSource: 기본 모드 소스
+  syncGroupRules: 그룹 규칙 저장
+  toUpdate: 업데이트 {count}개
+  ungroup: 그룹 해제
+  description: 설명
 modFilter:
-  clear: í•„í„° ì§€ìš°ê¸°
-  dependenciesInstallOnly: ëˆ„ë½ëœ ì˜ì¡´ì„± ëª¨ë“œë§Œ í‘œì‹œ
-  disabledOnly: ë¹„í™œì„±í™”ëœ ëª¨ë“œë§Œ í‘œì‹œ
-  hasUpdateOnly: ì—…ë°ì´íŠ¸ê°€ ìžˆëŠ” ëª¨ë“œë§Œ í‘œì‹œ
-  incompatibleOnly: í˜¸í™˜ ë¶ˆê°€/ì˜ì¡´ì„± ëˆ„ë½ ëª¨ë“œë§Œ í‘œì‹œ
-  unusedOnly: ì‚¬ìš©ë˜ì§€ ì•ŠëŠ” ë¼ì´ë¸ŒëŸ¬ë¦¬ ëª¨ë“œë§Œ í‘œì‹œ
+  clear: 필터 지우기
+  dependenciesInstallOnly: 누락된 의존성 모드만 표시
+  disabledOnly: 비활성화된 모드만 표시
+  hasUpdateOnly: 업데이트가 있는 모드만 표시
+  incompatibleOnly: 호환 불가/의존성 누락 모드만 표시
+  unusedOnly: 사용되지 않는 라이브러리 모드만 표시
 modInstall:
   archived: >-
-    {name}ì´(ê°€) ë³´ê´€ë˜ì—ˆìŠµë‹ˆë‹¤. ì œìž‘ìžê°€ í”„ë¡œì íŠ¸ë¥¼ ë³´ê´€ í•´ì œí•˜ê¸°ë¡œ ê²°ì •í•˜ì§€ ì•ŠëŠ” í•œ {name}ì€(ëŠ”) ë” ì´ìƒ ì—…ë°ì´íŠ¸ë¥¼ ë°›ì§€ ì•ŠìŠµë‹ˆë‹¤.
+    {name}이(가) 보관되었습니다. 제작자가 프로젝트를 보관 해제하기로 결정하지 않는 한 {name}은(는) 더 이상 업데이트를 받지 않습니다.
   autoUpgrade:
     description: >-
-      Minecraft ë²„ì „ì„ ë³€ê²½í–ˆìŠµë‹ˆë‹¤. í˜¸í™˜ë˜ëŠ” ëª¨ë“œë¥¼ ìžë™ìœ¼ë¡œ Minecraft {version}ì— ë§žëŠ” ë²„ì „ìœ¼ë¡œ ì—…ë°ì´íŠ¸í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-    'no': ê±´ë„ˆë›°ê¸°
-    title: ëª¨ë“œë¥¼ ì—…ë°ì´íŠ¸í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-    'yes': ëª¨ë“œ ì—…ë°ì´íŠ¸
-  checkDependencies: ì˜ì¡´ì„± í™•ì¸
-  checkUpgrade: ëª¨ë“œ ì—…ë°ì´íŠ¸ í™•ì¸
-  checkedDependencies: í™•ì¸ëœ ì˜ì¡´ì„±
-  checkedUpgrade: ì„ íƒ í•­ëª© ì—…ê·¸ë ˆì´ë“œ
-  currentVersion: ì„ íƒëœ ë²„ì „
-  dependencyHint: ë‹¤ë¥¸ ë²„ì „ì´ ì„¤ì¹˜ë¨ {version}
-  releaseOnly: ì—…ë°ì´íŠ¸ ì‹œ ì•ŒíŒŒ ë° ë² íƒ€ ë²„ì „ ë¬´ì‹œ
-  installDependencies: ëˆ„ë½ëœ ì˜ì¡´ì„± ì„¤ì¹˜
-  installHint: '{dependencies} ê°œì˜ ì˜ì¡´ì„±ê³¼ í•¨ê»˜ {file} íŒŒì¼ì„ ì„¤ì¹˜í•©ë‹ˆë‹¤'
-  noVersionSupported: ì´ ëª¨ë“œëŠ” ë§ˆì¸í¬ëž˜í”„íŠ¸ {supported}ë§Œ ì§€ì›í•©ë‹ˆë‹¤.
-  recommendation: '{modrinth} ë° {curseforge}ì—ì„œ {first} ëª¨ë“œë¥¼ íƒìƒ‰í•˜ì‹­ì‹œì˜¤!'
-  removeUnusedLibraries: ì‚¬ìš©ë˜ì§€ ì•ŠëŠ” ë¼ì´ë¸ŒëŸ¬ë¦¬ ëª¨ë“œ ì œê±°
-  search: ê²€ìƒ‰ ê²°ê³¼
-  skipVersion: ë‹¤ë¥¸ ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „ì˜ ëª¨ë“œëŠ” ê±´ë„ˆë›°ê¸°
-  source: ëª¨ë“œ ì†ŒìŠ¤
-  switch: ë²„ì „ ì „í™˜
-  upgrade: ëª¨ë“œ ì—…ê·¸ë ˆì´ë“œ
+      Minecraft 버전을 변경했습니다. 호환되는 모드를 자동으로 Minecraft {version}에 맞는 버전으로 업데이트하시겠습니까?
+    'no': 건너뛰기
+    title: 모드를 업데이트하시겠습니까?
+    'yes': 모드 업데이트
+  checkDependencies: 의존성 확인
+  checkUpgrade: 모드 업데이트 확인
+  checkedDependencies: 확인된 의존성
+  checkedUpgrade: 선택 항목 업그레이드
+  currentVersion: 선택된 버전
+  dependencyHint: 다른 버전이 설치됨 {version}
+  releaseOnly: 업데이트 시 알파 및 베타 버전 무시
+  installDependencies: 누락된 의존성 설치
+  installHint: '{dependencies} 개의 의존성과 함께 {file} 파일을 설치합니다'
+  noVersionSupported: 이 모드는 마인크래프트 {supported}만 지원합니다.
+  recommendation: '{modrinth} 및 {curseforge}에서 {first} 모드를 탐색하십시오!'
+  removeUnusedLibraries: 사용되지 않는 라이브러리 모드 제거
+  search: 검색 결과
+  skipVersion: 다른 마인크래프트 버전의 모드는 건너뛰기
+  source: 모드 소스
+  switch: 버전 전환
+  upgrade: 모드 업그레이드
 modSearch:
-  noLocalModsFound: ê²€ìƒ‰ê³¼ ì¼ì¹˜í•˜ëŠ” ë¡œì»¬ ëª¨ë“œë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
-  noModsFound: ëª¨ë“œë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
-  noModsInstalled: ì„¤ì¹˜ëœ ëª¨ë“œê°€ ì—†ìŠµë‹ˆë‹¤.
-  searchInMarket: '{keyword} ë§ˆì¼“ì—ì„œ ê²€ìƒ‰'
+  noLocalModsFound: 검색과 일치하는 로컬 모드를 찾을 수 없습니다.
+  noModsFound: 모드를 찾을 수 없습니다.
+  noModsInstalled: 설치된 모드가 없습니다.
+  searchInMarket: '{keyword} 마켓에서 검색'
 modUpgradePolicy:
-  curseforge: Curseforge ìš°ì„ 
-  curseforgeOnly: Curseforge ì „ìš©
-  modrinth: Modrinth ìš°ì„ 
-  modrinthOnly: Modrinth ì „ìš©
-  name: ì—…ê·¸ë ˆì´ë“œ ì •ì±…
+  curseforge: Curseforge 우선
+  curseforgeOnly: Curseforge 전용
+  modrinth: Modrinth 우선
+  modrinthOnly: Modrinth 전용
+  name: 업그레이드 정책
 modified:
-  reset: ì´ˆê¸°í™”
-  save: ì €ìž¥
-  unsaved: ìˆ˜ì • ì‚¬í•­ì´ ì €ìž¥ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤!
+  reset: 초기화
+  save: 저장
+  unsaved: 수정 사항이 저장되지 않았습니다!
 modpack:
-  author: ì œìž‘ìž ì´ë¦„
-  authorHint: ë‚´ë³´ë‚¸ ëª¨ë“œíŒ©(Curseforge) ì„œëª…ì— ì‚¬ìš©ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤
-  description: ì„¤ëª…
-  descriptionHint: ëª¨ë“œíŒ©ì— ëŒ€í•œ ì¼ë°˜ì ì¸ ì„¤ëª…ìž…ë‹ˆë‹¤. Curseforge ëª¨ë“œíŒ©ìœ¼ë¡œ ë‚´ë³´ë‚¼ ë•Œ ì‚¬ìš©ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  dropHint: ëª¨ë“œíŒ© zipì„ ì—¬ê¸°ë¡œ ë“œëž˜ê·¸í•˜ì—¬ ê°€ì ¸ì˜¤ê¸°
-  emitCurseforge: Curseforge ëª¨ë“œíŒ© ë‚´ë³´ë‚´ê¸°
-  emitModrinth: Modrinth ëª¨ë“œíŒ© ë‚´ë³´ë‚´ê¸°
-  emitModrinthStrict: ì—„ê²©í•œ Modrinth í˜•ì‹
-  emitModrinthStrictDescription: Modrinth ë¬¸ì„œì— ê¸°ìž¬ëœ 4ê°œ ë„ë©”ì¸ì˜ URLë§Œ í—ˆìš©ë©ë‹ˆë‹¤
-  export: ëª¨ë“œíŒ©ìœ¼ë¡œ ë‚´ë³´ë‚´ê¸°
-  exportDirectory: ë‚´ë³´ë‚´ê¸° ë””ë ‰í„°ë¦¬
-  exportDirectoryDescription: ëª¨ë“œíŒ©ì€ ê¸°ë³¸ì ìœ¼ë¡œ ë‹¤ìš´ë¡œë“œ í´ë”ì— ë‚´ë³´ë‚´ì§‘ë‹ˆë‹¤.
-  includeAssets: ì—ì…‹ í¬í•¨
-  includes: í¬í•¨í•  íŒŒì¼
-  modpackVersion: ëª¨ë“œíŒ© ë²„ì „
-  name: ëª¨ë“œíŒ©
-  overrides: ì˜¤ë²„ë¼ì´ë“œ
+  author: 제작자 이름
+  authorHint: 내보낸 모드팩(Curseforge) 서명에 사용될 수 있습니다
+  description: 설명
+  descriptionHint: 모드팩에 대한 일반적인 설명입니다. Curseforge 모드팩으로 내보낼 때 사용될 수 있습니다.
+  dropHint: 모드팩 zip을 여기로 드래그하여 가져오기
+  emitCurseforge: Curseforge 모드팩 내보내기
+  emitModrinth: Modrinth 모드팩 내보내기
+  emitModrinthStrict: 엄격한 Modrinth 형식
+  emitModrinthStrictDescription: Modrinth 문서에 기재된 4개 도메인의 URL만 허용됩니다
+  export: 모드팩으로 내보내기
+  exportDirectory: 내보내기 디렉터리
+  exportDirectoryDescription: 모드팩은 기본적으로 다운로드 폴더에 내보내집니다.
+  includeAssets: 에셋 포함
+  includes: 포함할 파일
+  modpackVersion: 모드팩 버전
+  name: 모드팩
+  overrides: 오버라이드
   url: URL
-  urlHint: ëª¨ë“œíŒ©ì˜ í™ˆíŽ˜ì´ì§€ URL
+  urlHint: 모드팩의 홈페이지 URL
 modpackImportConfirm:
-  description: ëŸ°ì²˜ì— íŒŒì¼ì„ ë“œë¡­í•œ ê²ƒì„ ê°ì§€í–ˆìŠµë‹ˆë‹¤. ëª¨ë“œíŒ©ì„ ê°€ì ¸ì˜¤ë ¤ëŠ” ì¤‘ì¸ê°€ìš”?
-  title: ëª¨ë“œíŒ©ì„ ê°€ì ¸ì˜¤ë ¤ëŠ” ì¤‘ì¸ê°€ìš”?
+  description: 런처에 파일을 드롭한 것을 감지했습니다. 모드팩을 가져오려는 중인가요?
+  title: 모드팩을 가져오려는 중인가요?
 modrinth:
-  browseUrl: ë¸Œë¼ìš°ì €ì—ì„œ ì—´ê¸° {url}
+  browseUrl: 브라우저에서 열기 {url}
   categories:
     128x: 128x
     16x: 16x
@@ -721,833 +721,832 @@ modrinth:
     512x+: 512x+
     64x: 64x
     8x-: 8x-
-    adventure: ì–´ë“œë²¤ì²˜
-    atmosphere: ë¶„ìœ„ê¸°
-    audio: ì˜¤ë””ì˜¤
-    blocks: ë¸”ë¡
-    bloom: ë¸”ë£¸
+    adventure: 어드벤처
+    atmosphere: 분위기
+    audio: 오디오
+    blocks: 블록
+    bloom: 블룸
     bukkit: Bukkit
     bungeecord: Bungeecord
-    canvas: ìº”ë²„ìŠ¤
-    cartoon: ë§Œí™”
-    categories: ì¹´í…Œê³ ë¦¬
-    challenging: ë„ì „ì 
-    colored-lighting: ì»¬ëŸ¬ ì¡°ëª…
-    combat: ì „íˆ¬
-    core-shaders: ì½”ì–´ ì…°ì´ë”
-    cursed: ì €ì£¼ë°›ì€
-    datapack: ë°ì´í„° íŒ©
-    decoration: ìž¥ì‹
-    economy: ê²½ì œ
-    entities: ì—”í‹°í‹°
-    environment: í™˜ê²½
-    equipment: ìž¥ë¹„
+    canvas: 캔버스
+    cartoon: 만화
+    categories: 카테고리
+    challenging: 도전적
+    colored-lighting: 컬러 조명
+    combat: 전투
+    core-shaders: 코어 셰이더
+    cursed: 저주받은
+    datapack: 데이터 팩
+    decoration: 장식
+    economy: 경제
+    entities: 엔티티
+    environment: 환경
+    equipment: 장비
     fabric: Fabric
-    fantasy: íŒíƒ€ì§€
-    features: ê¸°ëŠ¥
+    fantasy: 판타지
+    features: 기능
     folia: Folia
-    foliage: ìžŽì‚¬ê·€
-    fonts: í°íŠ¸
-    food: ìŒì‹
+    foliage: 잎사귀
+    fonts: 폰트
+    food: 음식
     forge: Forge
-    game-mechanics: ê²Œìž„ ë©”ì»¤ë‹ˆì¦˜
+    game-mechanics: 게임 메커니즘
     gui: GUI
-    high: ë†’ìŒ
+    high: 높음
     iris: Iris
-    items: ì•„ì´í…œ
-    kitchen-sink: í‚¤ì¹œ ì‹±í¬
-    library: ë¼ì´ë¸ŒëŸ¬ë¦¬
-    lightweight: ê²½ëŸ‰
+    items: 아이템
+    kitchen-sink: 키친 싱크
+    library: 라이브러리
+    lightweight: 경량
     liteloader: LiteLoader
-    locale: ë¡œì¼€ì¼
-    low: ë‚®ìŒ
-    magic: ë§ˆë²•
-    management: ê´€ë¦¬
-    medium: ì¤‘ê°„
-    minecraft: ë§ˆì¸í¬ëž˜í”„íŠ¸
-    minigame: ë¯¸ë‹ˆ ê²Œìž„
-    misc: ê¸°íƒ€
-    mobs: ëª¹
-    modded: ëª¨ë“œ ì ìš©
-    models: ëª¨ë¸
-    modloader: ëª¨ë“œ ë¡œë”
-    multiplayer: ë©€í‹°í”Œë ˆì´ì–´
-    name: ì¹´í…Œê³ ë¦¬
+    locale: 로케일
+    low: 낮음
+    magic: 마법
+    management: 관리
+    medium: 중간
+    minecraft: 마인크래프트
+    minigame: 미니 게임
+    misc: 기타
+    mobs: 몹
+    modded: 모드 적용
+    models: 모델
+    modloader: 모드 로더
+    multiplayer: 멀티플레이어
+    name: 카테고리
     neoforge: NeoForge
     optifine: Optifine
-    optimization: ìµœì í™”
+    optimization: 최적화
     paper: Paper
-    path-tracing: íŒ¨ìŠ¤ íŠ¸ë ˆì´ì‹±
+    path-tracing: 패스 트레이싱
     pbr: PBR
-    performance impact: ì„±ëŠ¥ ì˜í–¥
-    potato: í¬í…Œì´í† 
+    performance impact: 성능 영향
+    potato: 포테이토
     purpur: Purpur
-    quests: í€˜ìŠ¤íŠ¸
+    quests: 퀘스트
     quilt: Quilt
-    realistic: í˜„ì‹¤ì 
-    reflections: ë°˜ì‚¬
-    resolutions: í•´ìƒë„
+    realistic: 현실적
+    reflections: 반사
+    resolutions: 해상도
     rift: Rift
-    screenshot: ìŠ¤í¬ë¦°ìƒ·
-    semi-realistic: ë°˜í˜„ì‹¤ì 
-    shadows: ê·¸ë¦¼ìž
-    simplistic: ë‹¨ìˆœí•œ
-    social: ì†Œì…œ
+    screenshot: 스크린샷
+    semi-realistic: 반현실적
+    shadows: 그림자
+    simplistic: 단순한
+    social: 소셜
     spigot: Spigot
     sponge: Sponge
-    storage: ì €ìž¥ì†Œ
-    technology: ê¸°ìˆ 
-    themed: í…Œë§ˆ
-    transportation: êµí†µ
-    tweaks: ì¡°ì •
-    utility: ìœ í‹¸ë¦¬í‹°
-    vanilla: ë°”ë‹ë¼
-    vanilla-like: ë°”ë‹ë¼ë¥˜
+    storage: 저장소
+    technology: 기술
+    themed: 테마
+    transportation: 교통
+    tweaks: 조정
+    utility: 유틸리티
+    vanilla: 바닐라
+    vanilla-like: 바닐라류
     velocity: Velocity
     waterfall: Waterfall
-    worldgen: ì›”ë“œ ìƒì„±
-  clientSide: í´ë¼ì´ì–¸íŠ¸ ì¸¡
-  copyTitle: í…ìŠ¤íŠ¸ {title}ë¥¼ í´ë¦½ë³´ë“œì— ë³µì‚¬
-  createAt: ìƒì„±ë¨
-  createCollection: ì»¬ë ‰ì…˜ ë§Œë“¤ê¸°
-  description: ì„¤ëª…
-  downloads: ë‹¤ìš´ë¡œë“œ
+    worldgen: 월드 생성
+  clientSide: 클라이언트 측
+  copyTitle: 텍스트 {title}를 클립보드에 복사
+  createAt: 생성됨
+  createCollection: 컬렉션 만들기
+  description: 설명
+  downloads: 다운로드
   environments:
-    default: ê¸°ë³¸ê°’
-    name: í™˜ê²½
-    optional: ì„ íƒ
-    required: í•„ìˆ˜
-    unsupported: ë¯¸ì§€ì›
-    all: ì „ì²´
-  externalResources: ì™¸ë¶€ ë¦¬ì†ŒìŠ¤
-  featuredVersions: ì¶”ì²œ ë²„ì „
-  followedProjects: íŒ”ë¡œìš°í•œ í”„ë¡œì íŠ¸
-  followers: íŒ”ë¡œì›Œ
-  gallery: ê°¤ëŸ¬ë¦¬
+    default: 기본값
+    name: 환경
+    optional: 선택
+    required: 필수
+    unsupported: 미지원
+    all: 전체
+  externalResources: 외부 리소스
+  featuredVersions: 추천 버전
+  followedProjects: 팔로우한 프로젝트
+  followers: 팔로워
+  gallery: 갤러리
   gameVersions:
-    name: ê²Œìž„ ë²„ì „
+    name: 게임 버전
   headers:
-    status: í†µê³„
-    support: ì§€ì›
-    version: ë²„ì „
-  issueUrl: ì´ìŠˆ
-  license: ë¼ì´ì„ ìŠ¤
+    status: 통계
+    support: 지원
+    version: 버전
+  issueUrl: 이슈
+  license: 라이선스
   licenses:
-    name: ë¼ì´ì„ ìŠ¤
-  loginHint: ì´ ìž‘ì—…ì„ ìˆ˜í–‰í•˜ë ¤ë©´ Modrinthê°€ í•„ìš”í•©ë‹ˆë‹¤. ëŸ°ì²˜ê°€ ë¸Œë¼ìš°ì € ì°½ì„ ì—´ì–´ Modrinthì— ë¡œê·¸ì¸í•©ë‹ˆë‹¤.
-  loginTitle: Modrinth ë¡œê·¸ì¸
+    name: 라이선스
+  loginHint: 이 작업을 수행하려면 Modrinth가 필요합니다. 런처가 브라우저 창을 열어 Modrinth에 로그인합니다.
+  loginTitle: Modrinth 로그인
   modLoaders:
-    name: ëª¨ë“œ ë¡œë”
+    name: 모드 로더
   modpackSource:
-    source: ì›ì²œ
-  projectId: í”„ë¡œì íŠ¸ ID
-  projectMembers: í”„ë¡œì íŠ¸ ë©¤ë²„
+    source: 원천
+  projectId: 프로젝트 ID
+  projectMembers: 프로젝트 멤버
   projectType:
-    mod: ëª¨ë“œ
-    modpack: ëª¨ë“œíŒ©
-    resourcepack: ë¦¬ì†ŒìŠ¤ íŒ©
-    shader: ì…°ì´ë”
-    datapack: ë°ì´í„° íŒ©
-    plugin: í”ŒëŸ¬ê·¸ì¸
-  projects: í”„ë¡œì íŠ¸ {count}ê°œ
-  serverSide: ì„œë²„ ì¸¡
+    mod: 모드
+    modpack: 모드팩
+    resourcepack: 리소스 팩
+    shader: 셰이더
+    datapack: 데이터 팩
+    plugin: 플러그인
+  projects: 프로젝트 {count}개
+  serverSide: 서버 측
   sort:
-    downloads: ë‹¤ìš´ë¡œë“œ ìˆ˜
-    follows: íŒ”ë¡œìš° ìˆ˜
-    newest: ìµœê·¼ ìƒì„±
-    relevance: ì—°ê´€ë„
-    title: ì •ë ¬ ê¸°ì¤€
-    updated: ìµœê·¼ ì—…ë°ì´íŠ¸
-  sourceUrl: ì†ŒìŠ¤
-  technicalInformation: ê¸°ìˆ  ì •ë³´
-  updateAt: ì—…ë°ì´íŠ¸ë¨
-  versions: ë²„ì „
-  wikiUrl: ìœ„í‚¤
+    downloads: 다운로드 수
+    follows: 팔로우 수
+    newest: 최근 생성
+    relevance: 연관도
+    title: 정렬 기준
+    updated: 최근 업데이트
+  sourceUrl: 소스
+  technicalInformation: 기술 정보
+  updateAt: 업데이트됨
+  versions: 버전
+  wikiUrl: 위키
 modrinthCard:
-  currentVersion: í˜„ìž¬ ë²„ì „
+  currentVersion: 현재 버전
 multiplayer:
-  allowTurn: ë¦´ë ˆì´ ì„œë²„ ì‚¬ìš©
+  allowTurn: 릴레이 서버 사용
   allowTurnHint: >-
-    ì¹œêµ¬ì™€ ì—°ê²°í•  ìˆ˜ ì—†ì„ ë•Œ ë¦´ë ˆì´ ì„œë²„ë¥¼ í—ˆìš©í•©ë‹ˆë‹¤. í•˜ì§€ë§Œ ë¦´ë ˆì´ ì„œë²„ ì‚¬ìš©ì€ ì—°ê²° ì†ë„ë¥¼ ëŠë¦¬ê²Œ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì£¼ì˜í•´ì„œ ì‚¬ìš©í•˜ì„¸ìš”.
-  complete: ì™„ë£Œ
-  confirm: í™•ì¸
-  connections: ì—°ê²°
-  copied: ë³µì‚¬ë¨!
-  copy: ë³µì‚¬
-  copyGroupToFriendHint: ì¹œêµ¬ë“¤ì´ ì´ IDë¡œ ê·¸ë£¹ì— ì°¸ì—¬í•  ìˆ˜ ìžˆë„ë¡ í•˜ì„¸ìš”
+    친구와 연결할 수 없을 때 릴레이 서버를 허용합니다. 하지만 릴레이 서버 사용은 연결 속도를 느리게 할 수 있습니다. 주의해서 사용하세요.
+  complete: 완료
+  confirm: 확인
+  connections: 연결
+  copied: 복사됨!
+  copy: 복사
+  copyGroupToFriendHint: 친구들이 이 ID로 그룹에 참여할 수 있도록 하세요
   copyLocalHint: >
-    "ë¡œì»¬ SDP í…ìŠ¤íŠ¸ë¥¼ ë³µì‚¬í•˜ì—¬ ìƒëŒ€ë°©ì—ê²Œ ë³´ë‚´ê³ , ìƒëŒ€ë°©ì´ ì´ í…ìŠ¤íŠ¸ë¥¼ ì—°ê²° ì°¸ì—¬ ì„¹ì…˜ì— ìž…ë ¥í•˜ë„ë¡ í•˜ì„¸ìš”. <span>í† í°ì€ <span style="color: red; font-weight: bold;">í•œ ëª…ì˜ í”¼ì–´</span>ì—ê²Œë§Œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤! ê°™ì€ í† í°ì„ ì—¬ëŸ¬ í”¼ì–´ì—ê²Œ ë³´ë‚¼ ìˆ˜ ì—†ìŠµë‹ˆë‹¤!</span> <br> <span class="hint-text" style="font-style: italic;">ì—¬ëŸ¬ í”¼ì–´ì™€ ì—°ê²°í•´ì•¼ í•œë‹¤ë©´ <span style="font-weight: bold; color: rgba(245, 158, 11)">ì—¬ëŸ¬ ê°œì˜</span> ì—°ê²°ì„ ìƒì„±í•´ì•¼ í•©ë‹ˆë‹¤.</span>"
-  createLocalToken: ë¡œì»¬ í† í° ìƒì„±
-  currentIpTitle: ê°ì§€ëœ ì™¸ë¶€ IP
-  currentNatTitle: 'í˜„ìž¬ ë„¤íŠ¸ì›Œí¬ (NAT):'
-  difficultyLevelHint: ì„œë²„ ì ‘ì† ë‚œì´ë„
-  disconnect: ì—°ê²° í•´ì œ
-  disconnectDescription: ì‚¬ìš©ìž {user} ( {id} )ì™€ì˜ ì—°ê²°ì„ í•´ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  disconnected: ì—°ê²° í•´ì œë¨
-  enterRemoteToken: ì›ê²© í† í° ìž…ë ¥
-  enterRemoteTokenHint: ìƒëŒ€ë°©ì´ ë‹¹ì‹ ì˜ í† í°ì„ ìž…ë ¥í•˜ë©´, ì•„ëž˜ í…ìŠ¤íŠ¸ ì˜ì—­ì— ìƒëŒ€ë°©ì˜ í† í°ì„ ìž…ë ¥í•´ì•¼ í•©ë‹ˆë‹¤. ì—°ê²°í•˜ë ¤ë©´ í™•ì¸ì„ í´ë¦­í•˜ì„¸ìš”.
-  exposedPortDescription: ë‹¤ë¥¸ í”Œë ˆì´ì–´ì—ê²Œ ë…¸ì¶œëœ í¬íŠ¸
-  exposedPorts: í¬ì›Œë”©ëœ í¬íŠ¸
+    "로컬 SDP 텍스트를 복사하여 상대방에게 보내고, 상대방이 이 텍스트를 연결 참여 섹션에 입력하도록 하세요. <span>토큰은 <span style="color: red; font-weight: bold;">한 명의 피어</span>에게만 사용할 수 있습니다! 같은 토큰을 여러 피어에게 보낼 수 없습니다!</span> <br> <span class="hint-text" style="font-style: italic;">여러 피어와 연결해야 한다면 <span style="font-weight: bold; color: rgba(245, 158, 11)">여러 개의</span> 연결을 생성해야 합니다.</span>"
+  createLocalToken: 로컬 토큰 생성
+  currentIpTitle: 감지된 외부 IP
+  currentNatTitle: '현재 네트워크 (NAT):'
+  difficultyLevelHint: 서버 접속 난이도
+  disconnect: 연결 해제
+  disconnectDescription: 사용자 {user} ( {id} )와의 연결을 해제하시겠습니까?
+  disconnected: 연결 해제됨
+  enterRemoteToken: 원격 토큰 입력
+  enterRemoteTokenHint: 상대방이 당신의 토큰을 입력하면, 아래 텍스트 영역에 상대방의 토큰을 입력해야 합니다. 연결하려면 확인을 클릭하세요.
+  exposedPortDescription: 다른 플레이어에게 노출된 포트
+  exposedPorts: 포워딩된 포트
   gatheringIce: >
-    "ICE ì„œë²„ê°€ ë„¤íŠ¸ì›Œí¬ì— ëŒ€í•œ ì¶©ë¶„í•œ ì •ë³´ë¥¼ ìˆ˜ì§‘í•  ë•Œê¹Œì§€ ê¸°ë‹¤ë ¤ ì£¼ì„¸ìš”. ì°¸ì„ ìˆ˜ ì—†ê³  ì¶©ë¶„í•œ ì •ë³´ê°€ ìžˆë‹¤ë©´, í˜„ìž¬ SDPë¥¼ ë¯¸ë¦¬ ìƒëŒ€ë°©ì—ê²Œ ì£¼ê³  ë‹¤ìŒì„ í´ë¦­í•˜ì„¸ìš”. <span class="v-chip v-chip--label v-size--small" style="text-font: bold" >ë¡œì»¬ í† í°</span>ì„ ìƒëŒ€ë°©ì—ê²Œ ë³´ë‚´ê³ , ìƒëŒ€ë°©ì´ <span class="v-chip v-chip--label v-size--small" style="text-font: bold"> ì—°ê²° ì°¸ì—¬ </span> ì„¹ì…˜ì— í† í°ì„ ìž…ë ¥í•˜ë„ë¡ í•˜ì„¸ìš”. <br> ICE ì„œë²„ê°€ <span class="v-chip v-chip--label v-size--small" style="text-font: bold">ë¡œì»¬ í† í°</span>ì„ ìƒì„±í•˜ê¸° ìœ„í•´ ì •ë³´ë¥¼ ìˆ˜ì§‘í•˜ëŠ” ë° ì‹œê°„ì´ ê±¸ë¦´ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.<br> ICE ìƒíƒœê°€ ì™„ë£Œë  ë•Œê¹Œì§€ ê¸°ë‹¤ë¦´ í•„ìš”ëŠ” ì—†ìŠµë‹ˆë‹¤. ì•„ëž˜ í† í°ì´ ë³€ê²½ë˜ì§€ ì•Šìœ¼ë©´ ë³µì‚¬í•´ì„œ ìƒëŒ€ë°©ì—ê²Œ ë³´ë‚¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤."
-  groupId: ê·¸ë£¹ ID
-  illegalTokenDescription: ìž˜ëª»ëœ í† í°ìž…ë‹ˆë‹¤. ìƒëŒ€ë°©ì˜ í† í°ì´ ì˜¬ë°”ë¥¸ì§€ í™•ì¸í•˜ì„¸ìš”
-  initiateConnection: ì—°ê²° ì‹œìž‘
-  joinConnection: ìƒëŒ€ë°©ì´ ì´ë¯¸ ì—°ê²°ì„ ì‹œìž‘í–ˆë‹¤ë©´, ì—°ê²° ì°¸ì—¬ë¥¼ í•´ì•¼ í•©ë‹ˆë‹¤.
-  joinManual: ì°¸ì—¬
-  joinOrCreateGroup: ê·¸ë£¹ ì°¸ì—¬/ìƒì„±
-  joinOrCreateGroupHint: ì¹œêµ¬ë“¤ë¡œë¶€í„° ê·¸ë£¹ IDë¥¼ ë°›ê±°ë‚˜ ê·¸ë£¹ì„ ìƒì„±í•˜ì„¸ìš”
-  kernel: P2P ì»¤ë„
+    "ICE 서버가 네트워크에 대한 충분한 정보를 수집할 때까지 기다려 주세요. 참을 수 없고 충분한 정보가 있다면, 현재 SDP를 미리 상대방에게 주고 다음을 클릭하세요. <span class="v-chip v-chip--label v-size--small" style="text-font: bold" >로컬 토큰</span>을 상대방에게 보내고, 상대방이 <span class="v-chip v-chip--label v-size--small" style="text-font: bold"> 연결 참여 </span> 섹션에 토큰을 입력하도록 하세요. <br> ICE 서버가 <span class="v-chip v-chip--label v-size--small" style="text-font: bold">로컬 토큰</span>을 생성하기 위해 정보를 수집하는 데 시간이 걸릴 수 있습니다.<br> ICE 상태가 완료될 때까지 기다릴 필요는 없습니다. 아래 토큰이 변경되지 않으면 복사해서 상대방에게 보낼 수 있습니다."
+  groupId: 그룹 ID
+  illegalTokenDescription: 잘못된 토큰입니다. 상대방의 토큰이 올바른지 확인하세요
+  initiateConnection: 연결 시작
+  joinConnection: 상대방이 이미 연결을 시작했다면, 연결 참여를 해야 합니다.
+  joinManual: 참여
+  joinOrCreateGroup: 그룹 참여/생성
+  joinOrCreateGroupHint: 친구들로부터 그룹 ID를 받거나 그룹을 생성하세요
+  kernel: P2P 커널
   kernelDescription: >-
-    ë„¤ì´í‹°ë¸Œ WebRTC ë˜ëŠ” node-datachannelì„ ì‚¬ìš©í•©ë‹ˆë‹¤. P2P ì—°ê²°ì´ ë•Œë•Œë¡œ ëŸ°ì²˜ ì°½ì„ í¬ëž˜ì‹œì‹œí‚¬ ë•Œë§Œ ì´ ì„¤ì •ì„ ë³€ê²½í•˜ì„¸ìš”.
-  leaveGroup: ê·¸ë£¹ ë– ë‚˜ê¸°
-  localToken: ë¡œì»¬ í† í°
-  manualConnect: ìˆ˜ë™ ì—°ê²°
-  name: LAN ë©€í‹°í”Œë ˆì´ì–´
-  networkInfo: ë„¤íŠ¸ì›Œí¬ ì •ë³´
-  next: ë‹¤ìŒ
-  otherExposedPortDescription: '{user} ê°€ í¬ì›Œë”©í•œ í¬íŠ¸'
-  placeholder: ë‹¤ë¥¸ ì‚¬ìš©ìžì™€ ì—°ê²°í•˜ì—¬ LANì—ì„œ ë§ˆì¸í¬ëž˜í”„íŠ¸ë¥¼ í”Œë ˆì´í•˜ì„¸ìš”!
-  previous: ì´ì „
-  receiveHint: ìƒëŒ€ë°©ì´ ë‹¹ì‹ ì˜ í† í°ì„ ìž…ë ¥í•˜ë©´ ì—°ê²°ì´ ìžë™ìœ¼ë¡œ ìƒì„±ë©ë‹ˆë‹¤. ì´ì œ ëŒ€í™”ìƒìžë¥¼ ë‹«ì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  receiveRemoteTokenHint: ìƒëŒ€ë°©ì˜ í† í°ì„ ì—¬ê¸°ì— ìž…ë ¥í•˜ì„¸ìš”.
-  remoteToken: ì›ê²© í† í°
-  routerInfo: ë¼ìš°í„° ì •ë³´
-  sendTokenToRemote: ì›ê²©ìœ¼ë¡œ í† í° ë³´ë‚´ê¸°
-  share: ì¸ìŠ¤í„´ìŠ¤ ì„¤ì • ê³µìœ 
-  sharing: íŒŒì¼ ê³µìœ  ì¤‘...
-  sharingNotificationBody: '{name} ì˜ ê³µìœ  ì„¤ì •ì—ì„œ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë‹¤ìš´ë¡œë“œí•˜ê±°ë‚˜ ìƒì„±í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.'
-  sharingNotificationTitle: í”¼ì–´ê°€ ê²Œìž„ ì„¤ì •ì„ ê³µìœ í•˜ê³  ìžˆìŠµë‹ˆë‹¤
-  start: ì‹œìž‘
-  startNewP2PConnection: ì‹œìž‘ ë²„íŠ¼ì„ í´ë¦­í•˜ì—¬ ìƒˆë¡œìš´ í”¼ì–´ ì—°ê²°ì„ ìƒì„±í•˜ì„¸ìš”
-  connectionError: ì—°ê²° ì˜¤ë¥˜
+    네이티브 WebRTC 또는 node-datachannel을 사용합니다. P2P 연결이 때때로 런처 창을 크래시시킬 때만 이 설정을 변경하세요.
+  leaveGroup: 그룹 떠나기
+  localToken: 로컬 토큰
+  manualConnect: 수동 연결
+  name: LAN 멀티플레이어
+  networkInfo: 네트워크 정보
+  next: 다음
+  otherExposedPortDescription: '{user} 가 포워딩한 포트'
+  placeholder: 다른 사용자와 연결하여 LAN에서 마인크래프트를 플레이하세요!
+  previous: 이전
+  receiveHint: 상대방이 당신의 토큰을 입력하면 연결이 자동으로 생성됩니다. 이제 대화상자를 닫을 수 있습니다.
+  receiveRemoteTokenHint: 상대방의 토큰을 여기에 입력하세요.
+  remoteToken: 원격 토큰
+  routerInfo: 라우터 정보
+  sendTokenToRemote: 원격으로 토큰 보내기
+  share: 인스턴스 설정 공유
+  sharing: 파일 공유 중...
+  sharingNotificationBody: '{name} 의 공유 설정에서 인스턴스를 다운로드하거나 생성할 수 있습니다.'
+  sharingNotificationTitle: 피어가 게임 설정을 공유하고 있습니다
+  start: 시작
+  startNewP2PConnection: 시작 버튼을 클릭하여 새로운 피어 연결을 생성하세요
+  connectionError: 연결 오류
   connectionFailedHint: >-
-    ì—°ê²°ì„ ì„¤ì •í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ì–‘ìª½ í”¼ì–´ì˜ NAT ìœ í˜•ì´ í˜¸í™˜ë˜ëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.
+    연결을 설정할 수 없습니다. 양쪽 피어의 NAT 유형이 호환되는지 확인하세요.
   natWarning: >-
-    NAT ìœ í˜•ì´ ì§ì ‘ ì—°ê²°ì„ ë°©í•´í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì„¤ì •ì—ì„œ ë¦´ë ˆì´ ì„œë²„ë¥¼ í™œì„±í™”í•˜ê±°ë‚˜ ì¹œêµ¬ì—ê²Œ í˜¸ìŠ¤íŠ¸ë¥¼ ë¶€íƒí•˜ì„¸ìš”.
-myStuff: ë‚´ ìžë£Œ
+    NAT 유형이 직접 연결을 방해할 수 있습니다. 설정에서 릴레이 서버를 활성화하거나 친구에게 호스트를 부탁하세요.
+myStuff: 내 자료
 natType:
-  blocked: ì°¨ë‹¨ë¨
-  fullCone: ì™„ì „ ê°œë°©í˜•
-  openInternet: ê°œë°©í˜• ì¸í„°ë„·
-  restrictNat: ì œí•œ NAT
-  restrictPortNat: í¬íŠ¸ ì œí•œ NAT
-  symmetricNat: ëŒ€ì¹­ NAT
-  symmetricUDPFirewall: ëŒ€ì¹­ UDP ë°©í™”ë²½
-  unknown: ì•Œ ìˆ˜ ì—†ìŒ
+  blocked: 차단됨
+  fullCone: 완전 개방형
+  openInternet: 개방형 인터넷
+  restrictNat: 제한 NAT
+  restrictPortNat: 포트 제한 NAT
+  symmetricNat: 대칭 NAT
+  symmetricUDPFirewall: 대칭 UDP 방화벽
+  unknown: 알 수 없음
 neoForgedVersion:
-  disable: NeoForged ë¹„í™œì„±í™”
-  empty: NeoForgedëŠ” {version}ì„(ë¥¼) ì§€ì›í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤
+  disable: NeoForged 비활성화
+  empty: NeoForged는 {version}을(를) 지원하지 않습니다
 news:
-  name: ë‰´ìŠ¤
-  readMore: ë” ì½ê¸°
+  name: 뉴스
+  readMore: 더 읽기
 optifineVersion:
-  disable: Optifine ë¹„í™œì„±í™”
-  empty: Optifineì€ ë§ˆì¸í¬ëž˜í”„íŠ¸ {version} ì„(ë¥¼) ì§€ì›í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤
-optional: ì„ íƒì‚¬í•­
+  disable: Optifine 비활성화
+  empty: Optifine은 마인크래프트 {version} 을(를) 지원하지 않습니다
+optional: 선택사항
 peerConnectionState:
-  closed: ë‹«íž˜
-  connected: ì—°ê²°ë¨
-  connecting: ì—°ê²° ì¤‘
-  disconnected: ì—°ê²° í•´ì œë¨
-  failed: ì‹¤íŒ¨
-  name: ì—°ê²° ìƒíƒœ
-  new: ìƒˆë¡œ
+  closed: 닫힘
+  connected: 연결됨
+  connecting: 연결 중
+  disconnected: 연결 해제됨
+  failed: 실패
+  name: 연결 상태
+  new: 새로
 peerGroupState:
-  closed: ê·¸ë£¹ì— ì—†ìŒ
-  closing: ë‹«ëŠ” ì¤‘
-  connected: ê·¸ë£¹ ì°¸ì—¬ë¨
-  connecting: ì—°ê²° ì¤‘
+  closed: 그룹에 없음
+  closing: 닫는 중
+  connected: 그룹 참여됨
+  connecting: 연결 중
 peerIceGatheringState:
-  gathering: ICE ì„œë²„ ìˆ˜ì§‘ ì¤‘
+  gathering: ICE 서버 수집 중
 peerSignalingState:
-  have-local-offer: í”¼ì–´ ì„¤ëª… ëŒ€ê¸° ì¤‘
+  have-local-offer: 피어 설명 대기 중
 presence:
-  instance: '{instance} ì¸ìŠ¤í„´ìŠ¤ ì—ì„œ ëŒ€ê¸° ì¤‘'
-  instanceSetting: 'ì„¤ì • íŽ¸ì§‘ ì¤‘: {instance}'
-  mod: '{instance} ì—ì„œ ëª¨ë“œ ë³´ëŠ” ì¤‘'
-  modrinthProject: Modrinthì—ì„œ {name} ë³´ëŠ” ì¤‘
-  resourcePack: '{instance} ì—ì„œ ë¦¬ì†ŒìŠ¤ íŒ© ë³´ëŠ” ì¤‘'
-  save: '{instance} ì—ì„œ ì €ìž¥ëœ ì›”ë“œ ë³´ëŠ” ì¤‘'
-  setting: ì„¤ì • íŽ˜ì´ì§€ ë³´ëŠ” ì¤‘
-  shaderPack: '{instance} ì—ì„œ ì…°ì´ë” íŒ© ë³´ëŠ” ì¤‘'
+  instance: '{instance} 인스턴스 에서 대기 중'
+  instanceSetting: '설정 편집 중: {instance}'
+  mod: '{instance} 에서 모드 보는 중'
+  modrinthProject: Modrinth에서 {name} 보는 중
+  resourcePack: '{instance} 에서 리소스 팩 보는 중'
+  save: '{instance} 에서 저장된 월드 보는 중'
+  setting: 설정 페이지 보는 중
+  shaderPack: '{instance} 에서 셰이더 팩 보는 중'
 proxy:
-  host: í˜¸ìŠ¤íŠ¸
-  port: í¬íŠ¸
+  host: 호스트
+  port: 포트
 quiltVersion:
-  disable: Quilt ë¹„í™œì„±í™”
-  empty: QuiltëŠ” ë§ˆì¸í¬ëž˜í”„íŠ¸ {version} ì„(ë¥¼) ì§€ì›í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤
+  disable: Quilt 비활성화
+  empty: Quilt는 마인크래프트 {version} 을(를) 지원하지 않습니다
 resourcepack:
-  compatible: '{version} ê³¼(ì™€) í˜¸í™˜ë˜ëŠ” í˜•ì‹ {format}'
-  defaultDescription: ë§ˆì¸í¬ëž˜í”„íŠ¸ì˜ ê¸°ë³¸ ëª¨ì–‘ê³¼ ëŠë‚Œ
+  compatible: '{version} 과(와) 호환되는 형식 {format}'
+  defaultDescription: 마인크래프트의 기본 모양과 느낌
   delete:
-    content: ì´ ìž‘ì—…ì€ ë¦¬ì†ŒìŠ¤ íŒ© íŒŒì¼ì„ ë””ìŠ¤í¬ì—ì„œ ì œê±°í•˜ë©°, ë˜ëŒë¦´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ì •ë§ë¡œ ì´ ìž‘ì—…ì„ ìˆ˜í–‰í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-    title: ë¦¬ì†ŒìŠ¤ íŒ© ì‚­ì œ
-  dropHint: ë¦¬ì†ŒìŠ¤ íŒ©ì˜ í´ë”/zipì„ ì—¬ê¸°ë¡œ ë“œëž˜ê·¸í•˜ì—¬ ê°€ì ¸ì˜¤ì„¸ìš”.
-  enable: ë¦¬ì†ŒìŠ¤ íŒ© {count}ê°œ í™œì„±í™”ë¨
-  incompatible: í˜¸í™˜ë˜ì§€ ì•ŠëŠ” ë¦¬ì†ŒìŠ¤ íŒ© í˜•ì‹( {format} ). {accept} ì— ë§žìŒ. í˜„ìž¬ {actual}.
-  name: ë¦¬ì†ŒìŠ¤ íŒ©
-  searchHint: ë¦¬ì†ŒìŠ¤ íŒ© ê²€ìƒ‰
-  searchOnCurseforge: Curseforgeì—ì„œ {name} ê²€ìƒ‰
+    content: 이 작업은 리소스 팩 파일을 디스크에서 제거하며, 되돌릴 수 없습니다. 정말로 이 작업을 수행하시겠습니까?
+    title: 리소스 팩 삭제
+  dropHint: 리소스 팩의 폴더/zip을 여기로 드래그하여 가져오세요.
+  enable: 리소스 팩 {count}개 활성화됨
+  incompatible: 호환되지 않는 리소스 팩 형식( {format} ). {accept} 에 맞음. 현재 {actual}.
+  name: 리소스 팩
+  searchHint: 리소스 팩 검색
+  searchOnCurseforge: Curseforge에서 {name} 검색
   searchOnModrinth: '@:mod.searchOnModrinth'
-  selected: ì„ íƒëœ ë¦¬ì†ŒìŠ¤ íŒ©
-  showDirectory: ë¦¬ì†ŒìŠ¤ íŒ© ë””ë ‰í„°ë¦¬ ì—´ê¸°
-  showFile: í´ë”ì—ì„œ ë¦¬ì†ŒìŠ¤ íŒ© ë³´ê¸° {file}
-  showInCurseforge: Curseforgeì—ì„œ {name} ë³´ê¸°
-  unselected: ì„ íƒë˜ì§€ ì•Šì€ ë¦¬ì†ŒìŠ¤ íŒ©
-  noPacks: ë¦¬ì†ŒìŠ¤ íŒ©ì„ ì°¾ì„ ìˆ˜ ì—†ìŒ
-  search: ë¦¬ì†ŒìŠ¤ íŒ© ê²€ìƒ‰...
+  selected: 선택된 리소스 팩
+  showDirectory: 리소스 팩 디렉터리 열기
+  showFile: 폴더에서 리소스 팩 보기 {file}
+  showInCurseforge: Curseforge에서 {name} 보기
+  unselected: 선택되지 않은 리소스 팩
+  noPacks: 리소스 팩을 찾을 수 없음
+  search: 리소스 팩 검색...
 save:
   copy:
-    name: ì €ìž¥ëœ ì›”ë“œ ë³µì‚¬
-  createNew: ìƒˆ ì›”ë“œ ìƒì„±
-  createdWorlds: ì›”ë“œ {count} ê°œê°€ ìžˆìŠµë‹ˆë‹¤
-  deleteHint: ì´ ìž‘ì—…ì€ ë˜ëŒë¦´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ì €ìž¥ëœ ì›”ë“œ ë°ì´í„°ë¥¼ ì˜ì›ížˆ ìžƒê²Œ ë©ë‹ˆë‹¤. ì •ë§ë¡œ ì´ ì €ìž¥ëœ ì›”ë“œë¥¼ ì‚­ì œí•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  deleteTitle: ì €ìž¥ëœ ì›”ë“œ ì‚­ì œ
-  dropHint: ì €ìž¥ëœ ì›”ë“œ zipì„ ì—¬ê¸°ë¡œ ë“œëž˜ê·¸í•˜ì—¬ ê°€ì ¸ì˜¤ê¸°
-  export: ì €ìž¥ëœ ì›”ë“œ ë‚´ë³´ë‚´ê¸°
-  exportMessage: ì €ìž¥ëœ ì›”ë“œë¥¼ zipìœ¼ë¡œ ë‚´ë³´ë‚´ê¸°
-  exportTitle: ì €ìž¥ëœ ì›”ë“œ ë‚´ë³´ë‚´ê¸°
-  gameMode: ê²Œìž„ ëª¨ë“œ
-  independent: ì¸ìŠ¤í„´ìŠ¤ê°€ ë…ë¦½ì ì¸ ì €ìž¥ëœ ì›”ë“œ í´ë”ë¥¼ ì‚¬ìš©í•¨
-  levelName: ë ˆë²¨ ì´ë¦„
-  name: ì €ìž¥ëœ ì›”ë“œ
-  search: ì €ìž¥ëœ ì›”ë“œ ê²€ìƒ‰
+    name: 저장된 월드 복사
+  createNew: 새 월드 생성
+  createdWorlds: 월드 {count} 개가 있습니다
+  deleteHint: 이 작업은 되돌릴 수 없습니다. 저장된 월드 데이터를 영원히 잃게 됩니다. 정말로 이 저장된 월드를 삭제하시겠습니까?
+  deleteTitle: 저장된 월드 삭제
+  dropHint: 저장된 월드 zip을 여기로 드래그하여 가져오기
+  export: 저장된 월드 내보내기
+  exportMessage: 저장된 월드를 zip으로 내보내기
+  exportTitle: 저장된 월드 내보내기
+  gameMode: 게임 모드
+  independent: 인스턴스가 독립적인 저장된 월드 폴더를 사용함
+  levelName: 레벨 이름
+  name: 저장된 월드
+  search: 저장된 월드 검색
   seed: Seed
-  selected: ë¡œì»¬ ì €ìž¥ëœ ì›”ë“œ
-  shared: ì¸ìŠ¤í„´ìŠ¤ê°€ ê³µìœ  ì €ìž¥ëœ ì›”ë“œ í´ë”ë¥¼ ì‚¬ìš©í•¨
-  showDirectory: ì €ìž¥ëœ ì›”ë“œ ë””ë ‰í„°ë¦¬ ì—´ê¸°
-  unselected: ê³µìœ  ì €ìž¥ëœ ì›”ë“œ
-  useCurrent: í˜„ìž¬ ì›”ë“œ ì‚¬ìš©
-  openFolder: ì €ìž¥ í´ë” ì—´ê¸°
-  searchHint: CurseForgeì—ì„œ ì›”ë“œ ê²€ìƒ‰
-  searchSaves: ì €ìž¥ ê²€ìƒ‰
+  selected: 로컬 저장된 월드
+  shared: 인스턴스가 공유 저장된 월드 폴더를 사용함
+  showDirectory: 저장된 월드 디렉터리 열기
+  unselected: 공유 저장된 월드
+  useCurrent: 현재 월드 사용
+  openFolder: 저장 폴더 열기
+  searchHint: CurseForge에서 월드 검색
+  searchSaves: 저장 검색
 screenshots:
-  empty: ìŠ¤í¬ë¦°ìƒ·ì´ ì—†ìŠµë‹ˆë‹¤
-  playRandom: ë¬´ìž‘ìœ„ ìž¬ìƒ
-  playSequence: ìˆœì„œëŒ€ë¡œ ìž¬ìƒ
-  gallery: ìŠ¤í¬ë¦°ìƒ· ê°¤ëŸ¬ë¦¬
-  hint: ê²Œìž„ì—ì„œ F2ë¥¼ ëˆŒëŸ¬ ìŠ¤í¬ë¦°ìƒ· ì´¬ì˜
-  openFolder: ìŠ¤í¬ë¦°ìƒ· í´ë” ì—´ê¸°
+  empty: 스크린샷이 없습니다
+  playRandom: 무작위 재생
+  playSequence: 순서대로 재생
+  gallery: 스크린샷 갤러리
+  hint: 게임에서 F2를 눌러 스크린샷 촬영
+  openFolder: 스크린샷 폴더 열기
 search:
-  favorate: ì»¬ë ‰ì…˜
-  local: ì„¤ì¹˜ë¨
-  market: ëª¨ë“œ ë§ˆì¼“
+  favorate: 컬렉션
+  local: 설치됨
+  market: 모드 마켓
 server:
-  acceptingMinecraftVersion: í—ˆìš©í•˜ëŠ” ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „
-  creationHint: ì„œë²„ ì£¼ì†Œë¥¼ ìž…ë ¥í•˜ê³  ì„œë²„ì— í•‘ì„ ë³´ë‚´ì„¸ìš”
-  expectedVersions: ì§€ì›ë˜ëŠ” ë²„ì „
-  export: ì„œë²„ ë‚´ë³´ë‚´ê¸°
-  exportNoFilesHint: ì„œë²„ íŒŒì¼ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ì¼ë¶€ íŒŒì¼ì„ ìƒì„±í•˜ë ¤ë©´ ë¡œì»¬ì—ì„œ ì„œë²„ë¥¼ í•œ ë²ˆ ì‹¤í–‰í•´ ë³´ì„¸ìš”.
-  exportOption: ì„œë²„ ë‚´ë³´ë‚´ê¸° ì˜µì…˜
-  exportSSHAuthenticationFailed: ëª¨ë“  ì¸ì¦ ë°©ë²•ì´ ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. ì‚¬ìš©ìž ì´ë¦„/ë¹„ë°€ë²ˆí˜¸ ë˜ëŠ” ê°œì¸ í‚¤ë¥¼ í™•ì¸í•˜ì„¸ìš”.
-  exportSSHOptions: SSH ì˜µì…˜
-  exportSSHPrivateKeyPath: SSH ê°œì¸ í‚¤ ê²½ë¡œ
-  exportSSHRemotePath: ì›ê²© ì„œë²„ ê²½ë¡œ
-  exportToFolder: í´ë”ë¡œ ë‚´ë³´ë‚´ê¸°
-  filterVersion: ì„œë²„ê°€ ì‘ë‹µí•œ ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „ í•„í„°
-  host: í˜¸ìŠ¤íŠ¸
-  hostHint: ì„œë²„ì˜ í˜¸ìŠ¤íŠ¸(í¬íŠ¸ í¬í•¨)
-  hostRequired: ì„œë²„ IP ì£¼ì†Œë¥¼ ìž…ë ¥í•˜ì„¸ìš”
-  ipAddress: IP ì£¼ì†Œ
-  maxPlayers: ìµœëŒ€ í”Œë ˆì´ì–´
-  motd: ì„œë²„ MOTD
-  nogui: ì„œë²„ GUI ì—†ìŒ
-  onlineMode: ì˜¨ë¼ì¸ ëª¨ë“œ
-  ping: í•‘
-  pings: í•‘ë“¤
-  players: í”Œë ˆì´ì–´
-  port: í¬íŠ¸
-  unknown: ì•Œ ìˆ˜ ì—†ëŠ” ì„œë²„
-  unknownDescription: ì•Œ ìˆ˜ ì—†ëŠ” ì„œë²„ìž…ë‹ˆë‹¤. ìƒˆë¡œê³ ì¹¨í•˜ì„¸ìš”
-  upload: ì„œë²„ ì—…ë¡œë“œ
-  version: ì„œë²„ê°€ ìš”êµ¬í•˜ëŠ” ë²„ì „
-  versionHint: í•‘ì„ ë³´ë‚¼ ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „
+  acceptingMinecraftVersion: 허용하는 마인크래프트 버전
+  creationHint: 서버 주소를 입력하고 서버에 핑을 보내세요
+  expectedVersions: 지원되는 버전
+  export: 서버 내보내기
+  exportNoFilesHint: 서버 파일을 찾을 수 없습니다. 일부 파일을 생성하려면 로컬에서 서버를 한 번 실행해 보세요.
+  exportOption: 서버 내보내기 옵션
+  exportSSHAuthenticationFailed: 모든 인증 방법이 실패했습니다. 사용자 이름/비밀번호 또는 개인 키를 확인하세요.
+  exportSSHOptions: SSH 옵션
+  exportSSHPrivateKeyPath: SSH 개인 키 경로
+  exportSSHRemotePath: 원격 서버 경로
+  exportToFolder: 폴더로 내보내기
+  filterVersion: 서버가 응답한 마인크래프트 버전 필터
+  host: 호스트
+  hostHint: 서버의 호스트(포트 포함)
+  hostRequired: 서버 IP 주소를 입력하세요
+  ipAddress: IP 주소
+  maxPlayers: 최대 플레이어
+  motd: 서버 MOTD
+  nogui: 서버 GUI 없음
+  onlineMode: 온라인 모드
+  ping: 핑
+  pings: 핑들
+  players: 플레이어
+  port: 포트
+  unknown: 알 수 없는 서버
+  unknownDescription: 알 수 없는 서버입니다. 새로고침하세요
+  upload: 서버 업로드
+  version: 서버가 요구하는 버전
+  versionHint: 핑을 보낼 마인크래프트 버전
 serverStatus:
-  nohost: Â§4í˜¸ìŠ¤íŠ¸ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤!
-  ping: í•‘ ì¤‘...
-  refuse: Â§4ì„œë²„ê°€ ê±°ë¶€í–ˆìŠµë‹ˆë‹¤!
-  timeout: Â§4ì„œë²„ ì—°ê²° ì‹œê°„ ì´ˆê³¼!
+  nohost: §4호스트를 찾을 수 없습니다!
+  ping: 핑 중...
+  refuse: §4서버가 거부했습니다!
+  timeout: §4서버 연결 시간 초과!
 setting:
   themeStore:
-    name: í…Œë§ˆ ì €ìž¥ì†Œ
-    description: ì „ì—­ í…Œë§ˆë¥¼ ì €ìž¥í•˜ê³  ê´€ë¦¬í•©ë‹ˆë‹¤
-    savedThemes: ì €ìž¥ëœ í…Œë§ˆ
-    noSavedThemes: ì €ìž¥ëœ í…Œë§ˆê°€ ì—†ìŠµë‹ˆë‹¤
-    saveToStore: ì €ìž¥ì†Œì— ì €ìž¥
-    saveDialogTitle: í…Œë§ˆ ì €ìž¥
-    themeName: í…Œë§ˆ ì´ë¦„
-    themeNameHint: ì´ í…Œë§ˆë¥¼ ì €ìž¥í•  ì´ë¦„
-    loadConfirmTitle: í˜„ìž¬ í…Œë§ˆë¥¼ êµì²´í• ê¹Œìš”?
-    loadConfirmMessage: ì €ìž¥ëœ í…Œë§ˆë¥¼ ë¶ˆëŸ¬ì˜¤ë©´ í˜„ìž¬ í…Œë§ˆê°€ êµì²´ë©ë‹ˆë‹¤. í•„ìš”í•˜ë©´ ë°±ì—…í•˜ì„¸ìš”.
-    loadTheme: í…Œë§ˆ ë¶ˆëŸ¬ì˜¤ê¸°
-  about: ì •ë³´
-  aboutBmclDescription: BMCL APIëŠ” ì¤‘êµ­ ë³¸í† ì˜ ì‚¬ìš©ìžë¥¼ ìœ„í•œ íŽ¸ë¦¬í•œ ë‹¤ìš´ë¡œë“œë¥¼ ì œê³µí•©ë‹ˆë‹¤
-  aboutContributors: ðŸ§‘â€ðŸ’» ê¸°ì—¬ìž ðŸ§‘â€ðŸ’»
-  aboutDenoDescription: FastLauncherì€ ì„œë²„ë¦¬ìŠ¤ JavaScript ì• í”Œë¦¬ì¼€ì´ì…˜ì„ ìœ„í•´ Deno Deployì˜ ê°„íŽ¸í•œ í”Œëž«í¼ì„ í™œìš©í•©ë‹ˆë‹¤
+    name: 테마 저장소
+    description: 전역 테마를 저장하고 관리합니다
+    savedThemes: 저장된 테마
+    noSavedThemes: 저장된 테마가 없습니다
+    saveToStore: 저장소에 저장
+    saveDialogTitle: 테마 저장
+    themeName: 테마 이름
+    themeNameHint: 이 테마를 저장할 이름
+    loadConfirmTitle: 현재 테마를 교체할까요?
+    loadConfirmMessage: 저장된 테마를 불러오면 현재 테마가 교체됩니다. 필요하면 백업하세요.
+    loadTheme: 테마 불러오기
+  about: 정보
+  aboutBmclDescription: BMCL API는 중국 본토의 사용자를 위한 편리한 다운로드를 제공합니다
+  aboutContributors: 🧑‍💻 기여자 🧑‍💻
+  aboutDenoDescription: FastLauncher은 서버리스 JavaScript 애플리케이션을 위해 Deno Deploy의 간편한 플랫폼을 활용합니다
   aboutLicense: MIT License
-  aboutLicenseInfo: SignPath.ioê°€ ì œê³µí•˜ëŠ” Windowsì˜ ë¬´ë£Œ ì½”ë“œ ì„œëª…, SignPath Foundationì—ì„œ ì¸ì¦
-  aboutSponsors: ðŸ˜‡ ìŠ¤í°ì„œ ðŸ˜‡
-  advancedJavaOptions: ê³ ê¸‰ Java ì˜µì…˜
-  advancedSettings: ê³ ê¸‰ ì„¤ì •
-  advancedSettingsHint: ìœ„í—˜ êµ¬ì—­ - ëŸ°ì²˜ ë°ì´í„° ìž¬ì„¤ì • ë˜ëŠ” ê´€ë¦¬
+  aboutLicenseInfo: SignPath.io가 제공하는 Windows의 무료 코드 서명, SignPath Foundation에서 인증
+  aboutSponsors: 😇 스폰서 😇
+  advancedJavaOptions: 고급 Java 옵션
+  advancedSettings: 고급 설정
+  advancedSettingsHint: 위험 구역 - 런처 데이터 재설정 또는 관리
   apiSets:
-    auto: ìžë™ (ë„¤íŠ¸ì›Œí¬ì— ë”°ë¼ ê²°ì •)
-    official: ê³µì‹ (Mojang)
-  appearance: ì™¸ê´€
-  appearanceDescription: ëŸ°ì²˜ ì™¸ê´€ ì‚¬ìš©ìž ì§€ì •
-  appxUpdateHint: ëŸ°ì²˜ê°€ ì¸ìŠ¤í†¨ëŸ¬ë¥¼ ë‹¤ìš´ë¡œë“œí•˜ê³  ì‹¤í–‰í•©ë‹ˆë‹¤. íŒì—… ì¸ìŠ¤í†¨ëŸ¬ê°€ ì‹¤íŒ¨í•˜ë©´ ìˆ˜ë™ìœ¼ë¡œ ì‹¤í–‰í•˜ì„¸ìš”.
-  authenticationSettings: ì¸ì¦
-  backdropBlur: ë°°ê²½ ë¸”ëŸ¬
-  backgroundColorAbove: ë°°ê²½ìƒ‰ì„ ì˜¤ë²„ë ˆì´ë¡œ í‘œì‹œ
-  backgroundColorAboveDescription: ë°°ê²½ ì´ë¯¸ì§€ë‚˜ ë¹„ë””ì˜¤ ìœ„ì— ë°°ê²½ìƒ‰ì„ í‘œì‹œí•©ë‹ˆë‹¤.
-  backgroundImage: ë°°ê²½ ì´ë¯¸ì§€
-  backgroundImageClear: ì§€ìš°ê¸°
-  backgroundImageDescription: ë°°ê²½ìœ¼ë¡œ ì´ë¯¸ì§€ ì„ íƒ ë˜ëŠ” ì§€ìš°ê¸°
+    auto: 자동 (네트워크에 따라 결정)
+    official: 공식 (Mojang)
+  appearance: 외관
+  appearanceDescription: 런처 외관 사용자 지정
+  appxUpdateHint: 런처가 인스톨러를 다운로드하고 실행합니다. 팝업 인스톨러가 실패하면 수동으로 실행하세요.
+  authenticationSettings: 인증
+  backdropBlur: 배경 블러
+  backgroundColorAbove: 배경색을 오버레이로 표시
+  backgroundColorAboveDescription: 배경 이미지나 비디오 위에 배경색을 표시합니다.
+  backgroundImage: 배경 이미지
+  backgroundImageClear: 지우기
+  backgroundImageDescription: 배경으로 이미지 선택 또는 지우기
   backgroundImageFit:
-    contain: í¬í•¨
-    cover: ë®ê¸°
-    name: ì´ë¯¸ì§€ ë§žì¶¤
-  backgroundImageUrl: ì´ë¯¸ì§€ URL
-  backgroundImageUrlPlaceholder: ì´ë¯¸ì§€ì˜ HTTP/HTTPS URLì„ ìž…ë ¥í•˜ì„¸ìš”.
-  backgroundMusic: í…Œë§ˆ ë°°ê²½ ìŒì•…
-  backgroundMusicUrl: ìŒì•… URL
-  backgroundMusicUrlPlaceholder: ìŒì•…ì— ëŒ€í•œ HTTP/HTTPS URLì„ ìž…ë ¥í•˜ì„¸ìš”.
-  backgroundType: ë°°ê²½ ìœ í˜•
-  backgroundTypeDescription: ë°°ê²½ì— íŠ¹ìˆ˜ íš¨ê³¼ í‘œì‹œ (ì„±ëŠ¥ì— ì˜í–¥ì„ ì¤„ ìˆ˜ ìžˆìŒ)
+    contain: 포함
+    cover: 덮기
+    name: 이미지 맞춤
+  backgroundImageUrl: 이미지 URL
+  backgroundImageUrlPlaceholder: 이미지의 HTTP/HTTPS URL을 입력하세요.
+  backgroundMusic: 테마 배경 음악
+  backgroundMusicUrl: 음악 URL
+  backgroundMusicUrlPlaceholder: 음악에 대한 HTTP/HTTPS URL을 입력하세요.
+  backgroundType: 배경 유형
+  backgroundTypeDescription: 배경에 특수 효과 표시 (성능에 영향을 줄 수 있음)
   backgroundTypes:
-    halo: í›„ê´‘
-    image: ì´ë¯¸ì§€
-    none: ì—†ìŒ
-    particle: íŒŒí‹°í´
-    video: ë¹„ë””ì˜¤
-  backgroundVideo: ë°°ê²½ ë¹„ë””ì˜¤
-  backgroundVideoDescription: ë¹„ë””ì˜¤ ì„ íƒ ë˜ëŠ” ì§€ìš°ê¸°
-  backgroundVideoUrl: ë¹„ë””ì˜¤ URL
-  backgroundVideoUrlPlaceholder: ë™ì˜ìƒì˜ HTTP/HTTPS URLì„ ìž…ë ¥í•˜ì„¸ìš”.
-  backgroundVideoVolume: ë³¼ë¥¨
-  backgroundVideoVolumeDescription: ë“œëž˜ê·¸í•˜ì—¬ ë³¼ë¥¨ ì¡°ì ˆ
-  browseRoot: ì°¾ì•„ë³´ê¸°
-  checkUpdate: ì—…ë°ì´íŠ¸ í™•ì¸
+    halo: 후광
+    image: 이미지
+    none: 없음
+    particle: 파티클
+    video: 비디오
+  backgroundVideo: 배경 비디오
+  backgroundVideoDescription: 비디오 선택 또는 지우기
+  backgroundVideoUrl: 비디오 URL
+  backgroundVideoUrlPlaceholder: 동영상의 HTTP/HTTPS URL을 입력하세요.
+  backgroundVideoVolume: 볼륨
+  backgroundVideoVolumeDescription: 드래그하여 볼륨 조절
+  browseRoot: 찾아보기
+  checkUpdate: 업데이트 확인
   colorTheme:
-    appBarColor: ì•± ë°”
-    backgroundColor: ë°°ê²½ìƒ‰
-    cardColor: ì¹´ë“œ ìƒ‰ìƒ
-    description: í…Œë§ˆì˜ ìƒ‰ìƒ ë³€ê²½
-    errorColor: ì˜¤ë¥˜ ìƒ‰ìƒ
-    name: í…Œë§ˆ ìƒ‰ìƒ ë° ë¸”ëŸ¬
-    primaryColor: ê¸°ë³¸ ìƒ‰ìƒ
-    sideBarColor: ì‚¬ì´ë“œë°”
-    warningColor: ê²½ê³  ìƒ‰ìƒ
-  darkTheme: í…Œë§ˆ
-  darkThemeDescription: ë‹¤í¬ ë˜ëŠ” ë¼ì´íŠ¸ í…Œë§ˆ ì¤‘ ì„ íƒ
-  devModeLabel: ê°œë°œ
-  developerMode: ê°œë°œìž ëª¨ë“œ
-  developerModeDescription: ê°œë°œìž ëª¨ë“œëŠ” ìžì‹ ì˜ ëª¨ë“œë¥¼ í…ŒìŠ¤íŠ¸í•˜ê¸° ìœ„í•œ ê²ƒìž…ë‹ˆë‹¤
-  disableTelemetry: ì›ê²© ë¶„ì„ ë¹„í™œì„±í™”
-  disableTelemetryDescription: FastLauncherì´ ê²Œìž„ ì‹¤í–‰ ë° ì‚¬ìš©ìž ë¡œê·¸ì¸ ì´ë²¤íŠ¸ë¥¼ ìˆ˜ì§‘í•©ë‹ˆë‹¤.
-  enableDedicatedGPUOptimization: ì „ìš© GPU í• ë‹¹
-  enableDedicatedGPUOptimizationDescription: ì´ ì˜µì…˜ì€ ë§ˆì¸í¬ëž˜í”„íŠ¸ í”„ë¡œì„¸ìŠ¤ì— ì „ìš© GPUë¥¼ í• ë‹¹í•©ë‹ˆë‹¤.
-  enableDiscord: Discord ìƒíƒœ í‘œì‹œ í™œì„±í™”
-  enableDiscordDescription: ëŸ°ì²˜ì˜ Discord ìƒíƒœë¥¼ ì—…ë°ì´íŠ¸í•©ë‹ˆë‹¤
-  enterUrl: URLì„ ìž…ë ¥í•˜ì„¸ìš”
-  exportSettings: ì„¤ì • ë‚´ë³´ë‚´ê¸°
-  exportSettingsHint: í˜„ìž¬ ì„¤ì •ì„ íŒŒì¼ë¡œ ì €ìž¥
-  general: ì¼ë°˜
-  githubRelease: Github ë¦´ë¦¬ìŠ¤
-  globalSetting: ì „ì²´ ì¸ìŠ¤í„´ìŠ¤ ì„¤ì •
-  globalSettingHint: ì¸ìŠ¤í„´ìŠ¤ëŠ” ê¸°ë³¸ì ìœ¼ë¡œ ì´ ì„¤ì •ì„ ì‚¬ìš©í•©ë‹ˆë‹¤.
-  importSettings: ì„¤ì • ê°€ì ¸ì˜¤ê¸°
-  importSettingsHint: ì´ì „ì— ë‚´ë³´ë‚¸ íŒŒì¼ì—ì„œ ì„¤ì • ë¡œë“œ
+    appBarColor: 앱 바
+    backgroundColor: 배경색
+    cardColor: 카드 색상
+    description: 테마의 색상 변경
+    errorColor: 오류 색상
+    name: 테마 색상 및 블러
+    primaryColor: 기본 색상
+    sideBarColor: 사이드바
+    warningColor: 경고 색상
+  darkTheme: 테마
+  darkThemeDescription: 다크 또는 라이트 테마 중 선택
+  devModeLabel: 개발
+  developerMode: 개발자 모드
+  developerModeDescription: 개발자 모드는 자신의 모드를 테스트하기 위한 것입니다
+  disableTelemetry: 원격 분석 비활성화
+  disableTelemetryDescription: FastLauncher이 게임 실행 및 사용자 로그인 이벤트를 수집합니다.
+  enableDedicatedGPUOptimization: 전용 GPU 할당
+  enableDedicatedGPUOptimizationDescription: 이 옵션은 마인크래프트 프로세스에 전용 GPU를 할당합니다.
+  enableDiscord: Discord 상태 표시 활성화
+  enableDiscordDescription: 런처의 Discord 상태를 업데이트합니다
+  enterUrl: URL을 입력하세요
+  exportSettings: 설정 내보내기
+  exportSettingsHint: 현재 설정을 파일로 저장
+  general: 일반
+  githubRelease: Github 릴리스
+  globalSetting: 전체 인스턴스 설정
+  globalSettingHint: 인스턴스는 기본적으로 이 설정을 사용합니다.
+  importSettings: 설정 가져오기
+  importSettingsHint: 이전에 내보낸 파일에서 설정 로드
   instanceTheme:
     activeDescription: |-
-      ì´ ì¸ìŠ¤í„´ìŠ¤ëŠ” ë§žì¶¤ í…Œë§ˆë¥¼ ì‚¬ìš©í•˜ê³  ìžˆìŠµë‹ˆë‹¤.
-      ê¸€ë¡œë²Œí…Œë§ˆë¥¼ ì‚¬ìš©í•˜ì‹œë ¤ë©´ ì‚­ì œí•˜ì‹œë©´ ë©ë‹ˆë‹¤.
+      이 인스턴스는 맞춤 테마를 사용하고 있습니다.
+      글로벌테마를 사용하시려면 삭제하시면 됩니다.
     description: |-
-      ì´ ì¸ìŠ¤í„´ìŠ¤ì— ëŒ€í•œ ë§žì¶¤ í…Œë§ˆë¥¼ í™œì„±í™”í•©ë‹ˆë‹¤.
-      ê·¸ëŸ¬ë©´ í˜„ìž¬ ì „ì—­ í…Œë§ˆì˜ ë³µì‚¬ë³¸ì´ ìƒì„±ë©ë‹ˆë‹¤.
-    name: ì¸ìŠ¤í„´ìŠ¤ í…Œë§ˆ
-  language: ì–¸ì–´
-  languageDescription: í‘œì‹œ ì–¸ì–´
-  latestVersion: ìµœì‹  ë²„ì „
+      이 인스턴스에 대한 맞춤 테마를 활성화합니다.
+      그러면 현재 전역 테마의 복사본이 생성됩니다.
+    name: 인스턴스 테마
+  language: 언어
+  languageDescription: 표시 언어
+  latestVersion: 최신 버전
   layout:
-    default: ê¸°ë³¸ ë ˆì´ì•„ì›ƒ
-    focus: í¬ì»¤ìŠ¤ ë ˆì´ì•„ì›ƒ
-  layoutDescription: ëŸ°ì²˜ UIì˜ ë ˆì´ì•„ì›ƒ
-  layoutTitle: ë ˆì´ì•„ì›ƒ
-  linuxEnableDedicatedGPUOptimization: ì „ìš© ê·¸ëž˜í”½ í”„ë¡œì„¸ì„œ í• ë‹¹
-  linuxEnableDedicatedGPUOptimizationDescription: ì´ ì˜µì…˜ì€ ë§ˆì¸í¬ëž˜í”„íŠ¸ í”„ë¡œì„¸ìŠ¤ì— ì „ìš© GPUë¥¼ í• ë‹¹í•©ë‹ˆë‹¤.
-  linuxTitlebar: ë„¤ì´í‹°ë¸Œ ì œëª© í‘œì‹œì¤„
-  linuxTitlebarDescription: ëŸ°ì²˜ì— ë„¤ì´í‹°ë¸Œ Linux ì œëª© í‘œì‹œì¤„ ì‚¬ìš©
-  livePreview: ë¼ì´ë¸Œ ë¯¸ë¦¬ë³´ê¸°
-  location: ì €ìž¥ ìœ„ì¹˜
-  manualUpdateHint: ë²„ì „ì„ ìžë™ìœ¼ë¡œ ì—…ë°ì´íŠ¸í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ê³µì‹ ì›¹ì‚¬ì´íŠ¸ì—ì„œ ëŸ°ì²˜ë¥¼ ë‹¤ì‹œ ë‹¤ìš´ë¡œë“œí•˜ì„¸ìš”!
-  maunalUpdateHint: ë²„ì „ì„ ìžë™ ì—…ë°ì´íŠ¸í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ì›¹ì‚¬ì´íŠ¸ì—ì„œ ëŸ°ì²˜ë¥¼ ë‹¤ì‹œ ë‹¤ìš´ë¡œë“œí•˜ì„¸ìš”!
-  maxSockets: í˜¸ìŠ¤íŠ¸ë‹¹
-  maxSocketsDescription: í˜¸ìŠ¤íŠ¸ë‹¹ ë˜ëŠ” ì „ì²´ í˜¸ìŠ¤íŠ¸ì— ëŒ€í•´ í—ˆìš©í•  ìµœëŒ€ ì†Œì¼“ ìˆ˜ë¥¼ ì œí•œí•©ë‹ˆë‹¤. 0ì€ ì œí•œ ì—†ìŒì„ ì˜ë¯¸í•©ë‹ˆë‹¤.
-  maxSocketsTitle: ìµœëŒ€ HTTP ì†Œì¼“
-  memoryAssignment: ë©”ëª¨ë¦¬ í• ë‹¹
-  migrateFromOther: ë‹¤ë¥¸ ëŸ°ì²˜ì—ì„œ ê°€ì ¸ì˜¤ê¸°
-  minecraftOptions: Minecraft ì˜µì…˜
-  name: ì „ì²´ ì„¤ì •
-  network: ë„¤íŠ¸ì›Œí¬ ì„¤ì •
-  newsPosition: ë‰´ìŠ¤ ì„¹ì…˜ ì´ë™
-  officialWebsite: ê³µì‹ ì›¹ì‚¬ì´íŠ¸
+    default: 기본 레이아웃
+    focus: 포커스 레이아웃
+  layoutDescription: 런처 UI의 레이아웃
+  layoutTitle: 레이아웃
+  linuxEnableDedicatedGPUOptimization: 전용 그래픽 프로세서 할당
+  linuxEnableDedicatedGPUOptimizationDescription: 이 옵션은 마인크래프트 프로세스에 전용 GPU를 할당합니다.
+  linuxTitlebar: 네이티브 제목 표시줄
+  linuxTitlebarDescription: 런처에 네이티브 Linux 제목 표시줄 사용
+  livePreview: 라이브 미리보기
+  location: 저장 위치
+  manualUpdateHint: 버전을 자동으로 업데이트할 수 없습니다. 공식 웹사이트에서 런처를 다시 다운로드하세요!
+  maunalUpdateHint: 버전을 자동 업데이트할 수 없습니다. 웹사이트에서 런처를 다시 다운로드하세요!
+  maxSockets: 호스트당
+  maxSocketsDescription: 호스트당 또는 전체 호스트에 대해 허용할 최대 소켓 수를 제한합니다. 0은 제한 없음을 의미합니다.
+  maxSocketsTitle: 최대 HTTP 소켓
+  memoryAssignment: 메모리 할당
+  migrateFromOther: 다른 런처에서 가져오기
+  minecraftOptions: Minecraft 옵션
+  name: 전체 설정
+  network: 네트워크 설정
+  newsPosition: 뉴스 섹션 이동
+  officialWebsite: 공식 웹사이트
   particleMode:
-    bubble: ê±°í’ˆ
-    name: íŒŒí‹°í´ ëª¨ë“œ
-    push: ë°€ê¸°
-    remove: ì œê±°
-    repulse: ë°€ì–´ë‚´ê¸°
-  particleModeDescription: íŒŒí‹°í´ í´ë¦­ ë™ìž‘ ì„ íƒ
-  quickLaunchSettings: ë¹ ë¥¸ ì‹¤í–‰
-  replaceNative: ì‹œìŠ¤í…œ ë¼ì´ë¸ŒëŸ¬ë¦¬
-  replaceNativeDescription: 'ì‚¬ìš© ì¤‘ì¸ ì»´í“¨í„° í™˜ê²½(ì˜ˆ: 32ë¹„íŠ¸/64ë¹„íŠ¸)ì— ë§žê²Œ í•„ìš”í•œ ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ êµì²´í•©ë‹ˆë‹¤.'
+    bubble: 거품
+    name: 파티클 모드
+    push: 밀기
+    remove: 제거
+    repulse: 밀어내기
+  particleModeDescription: 파티클 클릭 동작 선택
+  quickLaunchSettings: 빠른 실행
+  replaceNative: 시스템 라이브러리
+  replaceNativeDescription: '사용 중인 컴퓨터 환경(예: 32비트/64비트)에 맞게 필요한 라이브러리를 교체합니다.'
   replaceNatives:
-    all: ëª¨ë‘
-    legacy: ë ˆê±°ì‹œ ë²„ì „ë§Œ
-  resetAllSettings: ëª¨ë“  ì„¤ì • ìž¬ì„¤ì •
-  resetAllSettingsConfirmMessage: ì´ ìž‘ì—…ì€ ëª¨ë“  ì„¤ì •, ê³„ì •, ì¸ìŠ¤í„´ìŠ¤, ê·¸ë£¹ ë° ìºì‹œ ë°ì´í„°ë¥¼ ì˜êµ¬ì ìœ¼ë¡œ ì‚­ì œí•©ë‹ˆë‹¤. ì´ ìž‘ì—…ì€ ì·¨ì†Œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ê³„ì†í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  resetAllSettingsConfirmTitle: ëª¨ë“  ì„¤ì •ì„ ìž¬ì„¤ì •í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  resetAllSettingsHint: ëŸ°ì²˜ë¥¼ ê³µìž¥ ê¸°ë³¸ê°’ìœ¼ë¡œ ìž¬ì„¤ì • (ëª¨ë“  ê²ƒ ì‚­ì œ)
-  resetAllSettingsSuccess: ëª¨ë“  ì„¤ì •ì´ ìž¬ì„¤ì •ë˜ì—ˆìŠµë‹ˆë‹¤. ëŸ°ì²˜ê°€ ìž¬ì‹œìž‘ë©ë‹ˆë‹¤.
-  resetSettingsError: 'ì„¤ì •ì„ ìž¬ì„¤ì •í•˜ëŠ” ì¤‘ì— ì˜¤ë¥˜ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤: {error}'
-  resetToDefault: ê¸°ë³¸ê°’ìœ¼ë¡œ ìž¬ì„¤ì •
-  select: ì„ íƒ
-  settingsExported: ì„¤ì •ì´ ì„±ê³µì ìœ¼ë¡œ ë‚´ë³´ë‚´ì¡ŒìŠµë‹ˆë‹¤
-  settingsImportError: ì„¤ì • ê°€ì ¸ì˜¤ê¸°ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤. íŒŒì¼ í˜•ì‹ì„ í™•ì¸í•˜ì„¸ìš”.
-  settingsImported: ì„¤ì •ì´ ì„±ê³µì ìœ¼ë¡œ ê°€ì ¸ì™€ì¡ŒìŠµë‹ˆë‹¤
-  settingsReloadHint: ëª¨ë“  ì„¤ì •ì„ ì ìš©í•˜ê¸° ìœ„í•´ ëŸ°ì²˜ë¥¼ ë‹¤ì‹œ ì‹œìž‘í•©ë‹ˆë‹¤.
-  showNewsHeader: ë‰´ìŠ¤ ì‡¼ì¼€ì´ìŠ¤ í‘œì‹œ
-  showRoot: í‘œì‹œ
-  sidebarAlign: ì‚¬ì´ë“œë°” ì •ë ¬
-  sidebarAutoHide: ì‚¬ì´ë“œë°” ìžë™ ìˆ¨ê¹€
-  sidebarAutoHideHint: ì‚¬ì´ë“œë°”ë¥¼ ìžë™ìœ¼ë¡œ ìˆ¨ê¸°ê³  ë§ˆìš°ìŠ¤ ì˜¤ë²„ ì‹œ í‘œì‹œ
-  sidebarClassic: í´ëž˜ì‹
-  sidebarNotch: ë…¸ì¹˜
-  sidebarPosition: ì‚¬ì´ë“œë°” ìœ„ì¹˜
-  sidebarScale: ì‚¬ì´ë“œë°” í¬ê¸°
-  sidebarShowOnlyPinned: ê³ ì •ëœ ì¸ìŠ¤í„´ìŠ¤ë§Œ í‘œì‹œ
-  sidebarShowOnlyPinnedHint: ì‚¬ì´ë“œë°”ì— ê³ ì •ëœ ì¸ìŠ¤í„´ìŠ¤ë§Œ í‘œì‹œ
-  sidebarStyle: ì‚¬ì´ë“œë°” ìŠ¤íƒ€ì¼
-  sidebarStyleHint: í´ëž˜ì‹ê³¼ ëª¨ë˜ ë…¸ì¹˜ ë””ìžì¸ ì¤‘ ì„ íƒ
-  streamerMode: ìŠ¤íŠ¸ë¦¬ë° ëª¨ë“œ
-  streamerModeDescription: ëŸ°ì²˜ì—ì„œ ì´ë©”ì¼ê³¼ ê°™ì€ ê°œì¸ ì •ë³´ë¥¼ ìˆ¨ê¹ë‹ˆë‹¤.
+    all: 모두
+    legacy: 레거시 버전만
+  resetAllSettings: 모든 설정 재설정
+  resetAllSettingsConfirmMessage: 이 작업은 모든 설정, 계정, 인스턴스, 그룹 및 캐시 데이터를 영구적으로 삭제합니다. 이 작업은 취소할 수 없습니다. 계속하시겠습니까?
+  resetAllSettingsConfirmTitle: 모든 설정을 재설정하시겠습니까?
+  resetAllSettingsHint: 런처를 공장 기본값으로 재설정 (모든 것 삭제)
+  resetAllSettingsSuccess: 모든 설정이 재설정되었습니다. 런처가 재시작됩니다.
+  resetSettingsError: '설정을 재설정하는 중에 오류가 발생했습니다: {error}'
+  resetToDefault: 기본값으로 재설정
+  select: 선택
+  settingsExported: 설정이 성공적으로 내보내졌습니다
+  settingsImportError: 설정 가져오기에 실패했습니다. 파일 형식을 확인하세요.
+  settingsImported: 설정이 성공적으로 가져와졌습니다
+  settingsReloadHint: 모든 설정을 적용하기 위해 런처를 다시 시작합니다.
+  showNewsHeader: 뉴스 쇼케이스 표시
+  showRoot: 표시
+  sidebarAlign: 사이드바 정렬
+  sidebarAutoHide: 사이드바 자동 숨김
+  sidebarAutoHideHint: 사이드바를 자동으로 숨기고 마우스 오버 시 표시
+  sidebarClassic: 클래식
+  sidebarNotch: 노치
+  sidebarPosition: 사이드바 위치
+  sidebarScale: 사이드바 크기
+  sidebarShowOnlyPinned: 고정된 인스턴스만 표시
+  sidebarShowOnlyPinnedHint: 사이드바에 고정된 인스턴스만 표시
+  sidebarStyle: 사이드바 스타일
+  sidebarStyleHint: 클래식과 모던 노치 디자인 중 선택
+  streamerMode: 스트리밍 모드
+  streamerModeDescription: 런처에서 이메일과 같은 개인 정보를 숨깁니다.
   theme:
-    dark: ë‹¤í¬ í…Œë§ˆ
-    light: ë¼ì´íŠ¸ í…Œë§ˆ
-    system: ì‹œìŠ¤í…œ í…Œë§ˆ ì‚¬ìš©
-  themeExport: í…Œë§ˆ ë‚´ë³´ë‚´ê¸°
-  themeBorderRadius: ë‘¥ê·¼ ëª¨ì„œë¦¬
-  themeBorderRadiusDescription: ì¹´ë“œ, ëŒ€í™”ìƒìž, ë©”ë‰´, íŒ¨ë„ì˜ ë‘¥ê·¼ ëª¨ì„œë¦¬ë¥¼ ì¼œê±°ë‚˜ ë•ë‹ˆë‹¤.
-  themeFont: í°íŠ¸
-  themeFontDescription: ëŸ°ì²˜ì˜ í°íŠ¸ë¥¼ ë³€ê²½í•©ë‹ˆë‹¤.
-  themeFontUrl: ê¸€ê¼´ URL
-  themeFontUrlPlaceholder: ê¸€ê¼´ì— ëŒ€í•œ HTTP/HTTPS URLì„ ìž…ë ¥í•˜ì„¸ìš”.
-  themeImport: í…Œë§ˆ ê°€ì ¸ì˜¤ê¸°
-  themeResetFont: í°íŠ¸ ìž¬ì„¤ì •
-  themeSelectFont: í°íŠ¸ ì„ íƒ
-  themeSettings: í…Œë§ˆ ì„¤ì •
-  themeShare: í…Œë§ˆ ê³µìœ 
-  themeShareDescription: ì¹œêµ¬ì™€ í…Œë§ˆë¥¼ ê³µìœ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  update: ì—…ë°ì´íŠ¸
-  useBmclAPI: BMCL API ì‚¬ìš©
-  useBmclAPIDescription: ì¤‘êµ­ ë³¸í† ì— ìžˆì„ ë•Œ BMCLAPIë¥¼ ì‚¬ìš©í•˜ì—¬ ë§ˆì¸í¬ëž˜í”„íŠ¸ë¥¼ ë‹¤ìš´ë¡œë“œí•©ë‹ˆë‹¤. (ì¤‘êµ­ ë³¸í† ì— ìžˆì§€ ì•Šë‹¤ë©´ ì˜í–¥ì„ ë°›ì§€ ì•ŠìŠµë‹ˆë‹¤)
-  useProxy: HTTP í”„ë¡ì‹œ
-  useProxyDescription: HTTP ìš”ì²­ì„ ìœ„í•œ í”„ë¡ì‹œ ì„œë²„ ì£¼ì†Œ
-  viewBackgroundMusic: ìŒì•… ë³´ê¸°
+    dark: 다크 테마
+    light: 라이트 테마
+    system: 시스템 테마 사용
+  themeExport: 테마 내보내기
+  themeBorderRadius: 둥근 모서리
+  themeBorderRadiusDescription: 카드, 대화상자, 메뉴, 패널의 둥근 모서리를 켜거나 끕니다.
+  themeFont: 폰트
+  themeFontDescription: 런처의 폰트를 변경합니다.
+  themeFontUrl: 글꼴 URL
+  themeFontUrlPlaceholder: 글꼴에 대한 HTTP/HTTPS URL을 입력하세요.
+  themeImport: 테마 가져오기
+  themeResetFont: 폰트 재설정
+  themeSelectFont: 폰트 선택
+  themeSettings: 테마 설정
+  themeShare: 테마 공유
+  themeShareDescription: 친구와 테마를 공유할 수 있습니다.
+  update: 업데이트
+  useBmclAPI: BMCL API 사용
+  useBmclAPIDescription: 중국 본토에 있을 때 BMCLAPI를 사용하여 마인크래프트를 다운로드합니다. (중국 본토에 있지 않다면 영향을 받지 않습니다)
+  useProxy: HTTP 프록시
+  useProxyDescription: HTTP 요청을 위한 프록시 서버 주소
+  viewBackgroundMusic: 음악 보기
   setAsBackground:
-    global: ëŸ°ì²˜ ë°°ê²½ìœ¼ë¡œ ì„¤ì •
-    instance: ì¸ìŠ¤í„´ìŠ¤ ë°°ê²½ìœ¼ë¡œ ì„¤ì •
-    successGlobal: ë°°ê²½ ì´ë¯¸ì§€ê°€ ì—…ë°ì´íŠ¸ë˜ì—ˆìŠµë‹ˆë‹¤.
-    successInstance: ì¸ìŠ¤í„´ìŠ¤ ë°°ê²½ ì´ë¯¸ì§€ê°€ ì—…ë°ì´íŠ¸ë˜ì—ˆìŠµë‹ˆë‹¤.
-    failed: ë°°ê²½ ì´ë¯¸ì§€ ì„¤ì •ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤
+    global: 런처 배경으로 설정
+    instance: 인스턴스 배경으로 설정
+    successGlobal: 배경 이미지가 업데이트되었습니다.
+    successInstance: 인스턴스 배경 이미지가 업데이트되었습니다.
+    failed: 배경 이미지 설정에 실패했습니다
 settingLabel:
-  global: ì „ì²´
-  globalHint: ì´ ì„¤ì •ì€ ëª¨ë“  ì¸ìŠ¤í„´ìŠ¤ì— ì ìš©ë©ë‹ˆë‹¤
-  local: í˜„ìž¬ ì¸ìŠ¤í„´ìŠ¤
-  localHint: ì´ ì„¤ì •ì€ í˜„ìž¬ ì¸ìŠ¤í„´ìŠ¤ì—ë§Œ ì ìš©ë©ë‹ˆë‹¤
+  global: 전체
+  globalHint: 이 설정은 모든 인스턴스에 적용됩니다
+  local: 현재 인스턴스
+  localHint: 이 설정은 현재 인스턴스에만 적용됩니다
 setup:
   account:
     description: >-
-      ê²Œìž„ ê³„ì •ì„ ì¶”ê°€í•˜ì—¬ Minecraft Java Editionì„ í”Œë ˆì´í•˜ì„¸ìš”. Microsoft ê³„ì •ê³¼ Mojang ê³„ì •ì´ ëª¨ë‘ ì§€ì›ë©ë‹ˆë‹¤.
-    name: ê³„ì • ì¶”ê°€
-    skip: ì§€ê¸ˆì€ ê±´ë„ˆë›°ê¸°
+      게임 계정을 추가하여 Minecraft Java Edition을 플레이하세요. Microsoft 계정과 Mojang 계정이 모두 지원됩니다.
+    name: 계정 추가
+    skip: 지금은 건너뛰기
   appearance:
     name: '@:setting.appearance'
   dataRoot:
     description: >-
-      ìµœìƒìœ„ í´ë”ê°€ ì¼ë°˜ì ì¸ .minecraft ë””ë ‰í„°ë¦¬ê°€ ì•„ë‹™ë‹ˆë‹¤.  FastLauncher ë°ì´í„° ë””ë ‰í„°ë¦¬ êµ¬ì¡°ëŠ” ê¸°ë³¸ ë²„ì „ê³¼ ë‹¤ë¥´ê¸° ë•Œë¬¸ì—, ì¼ë°˜ì ì¸ .minecraft ë””ë ‰í„°ë¦¬ë¥¼ ìµœìƒìœ„ í´ë”ë¡œ ì‚¬ìš©í•˜ëŠ” ê²ƒì„ ê¶Œìž¥í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
-    drives: ê¶Œìž¥ ìœ„ì¹˜
-    name: ë°ì´í„° ë””ë ‰í„°ë¦¬ ì„¤ì •
+      최상위 폴더가 일반적인 .minecraft 디렉터리가 아닙니다.  FastLauncher 데이터 디렉터리 구조는 기본 버전과 다르기 때문에, 일반적인 .minecraft 디렉터리를 최상위 폴더로 사용하는 것을 권장하지 않습니다.
+    drives: 권장 위치
+    name: 데이터 디렉터리 설정
   defaultLayoutDescription: >-
-    ê¸°ë³¸ ë ˆì´ì•„ì›ƒì€ ê²Œìž„ "ì¸ìŠ¤í„´ìŠ¤" ê°œë…ì„ í–¥ìƒì‹œí‚¤ë ¤ê³  í•©ë‹ˆë‹¤. Discordì™€ ê°™ì€ ì•±ì²˜ëŸ¼ ë³´ìž…ë‹ˆë‹¤. Steamê³¼ ê°™ì€ ë‹¤ë¥¸ ê²Œìž„ ëŸ°ì²˜ ì•±ì—ì„œë„ ì˜ê°ì„ ë°›ì•˜ìŠµë‹ˆë‹¤.
-  defaultPath: ê¸°ë³¸ ê²½ë¡œ
+    기본 레이아웃은 게임 "인스턴스" 개념을 향상시키려고 합니다. Discord와 같은 앱처럼 보입니다. Steam과 같은 다른 게임 런처 앱에서도 영감을 받았습니다.
+  defaultPath: 기본 경로
   error:
-    badDataRoot: ëŸ°ì²˜ ë°ì´í„°ì— ìœ íš¨í•˜ì§€ ì•Šì€ ë””ë ‰í„°ë¦¬ìž…ë‹ˆë‹¤! ë‹¤ë¥¸ ë””ë ‰í„°ë¦¬ë¥¼ ì‹œë„í•˜ì„¸ìš”!
-    exists: ì„ íƒí•œ ë””ë ‰í„°ë¦¬ê°€ ë¹„ì–´ ìžˆì§€ ì•ŠìŠµë‹ˆë‹¤. ê´œì°®ì§€ë§Œ ë°ì´í„°ë¥¼ ë°±ì—…í–ˆëŠ”ì§€ í™•ì¸í•˜ì„¸ìš”.
-    invalidChar: ê²½ë¡œì— ìœ íš¨í•˜ì§€ ì•Šì€ ë¬¸ìžê°€ í¬í•¨ë˜ì–´ ìžˆìŠµë‹ˆë‹¤! ë§ˆì¸í¬ëž˜í”„íŠ¸ ì‹œìž‘ì— ì‹¤íŒ¨í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤! ì˜ì–´ ë¬¸ìžì™€ ê¸°í˜¸ë§Œ ì‚¬ìš©í•˜ì„¸ìš”!
-    noPermission: ëŸ°ì²˜ê°€ ì„ íƒí•œ ë””ë ‰í„°ë¦¬ì— ì ‘ê·¼í•  ê¶Œí•œì´ ì—†ìŠµë‹ˆë‹¤! ë‹¤ë¥¸ ë””ë ‰í„°ë¦¬ë¥¼ ì‹œë„í•˜ì„¸ìš”.
-    nonDictionary: ì„ íƒí•œ ê²½ë¡œëŠ” íŒŒì¼ìž…ë‹ˆë‹¤! ë””ë ‰í„°ë¦¬ë¥¼ ì„ íƒí•˜ì„¸ìš”.
-  focusLayoutDescription: í¬ì»¤ìŠ¤ ë ˆì´ì•„ì›ƒì€ ë§ˆì¸í¬ëž˜í”„íŠ¸ ëŸ°ì²˜ì˜ ë ˆê±°ì‹œ ë ˆì´ì•„ì›ƒìž…ë‹ˆë‹¤. ë‹¨ì¼ ì¸ìŠ¤í„´ìŠ¤ ë˜ëŠ” ì†Œìˆ˜ì˜ ì¸ìŠ¤í„´ìŠ¤ì™€ í•¨ê»˜ ì‚¬ìš©í•˜ë„ë¡ ì„¤ê³„ë˜ì—ˆìŠµë‹ˆë‹¤.
+    badDataRoot: 런처 데이터에 유효하지 않은 디렉터리입니다! 다른 디렉터리를 시도하세요!
+    exists: 선택한 디렉터리가 비어 있지 않습니다. 괜찮지만 데이터를 백업했는지 확인하세요.
+    invalidChar: 경로에 유효하지 않은 문자가 포함되어 있습니다! 마인크래프트 시작에 실패할 수 있습니다! 영어 문자와 기호만 사용하세요!
+    noPermission: 런처가 선택한 디렉터리에 접근할 권한이 없습니다! 다른 디렉터리를 시도하세요.
+    nonDictionary: 선택한 경로는 파일입니다! 디렉터리를 선택하세요.
+  focusLayoutDescription: 포커스 레이아웃은 마인크래프트 런처의 레거시 레이아웃입니다. 단일 인스턴스 또는 소수의 인스턴스와 함께 사용하도록 설계되었습니다.
   game:
-    name: ê¸°ì¡´ ê²Œìž„ ê°€ì ¸ì˜¤ê¸°
+    name: 기존 게임 가져오기
   locale:
     description: >-
-      ì§€ì›í•˜ëŠ” ì–¸ì–´ê°€ ìžˆë‹¤ë©´ ì„ í˜¸í•˜ëŠ” ì–¸ì–´ë¥¼ ì„ íƒí•˜ì„¸ìš”! ëª¨êµ­ì–´ê°€ ë³´ì´ì§€ ì•Šê³  ë„ì›€ì„ ì£¼ê³  ì‹¶ë‹¤ë©´ Githubë¥¼ ë°©ë¬¸í•˜ì—¬ ë²ˆì—­ í’€ ë¦¬í€˜ìŠ¤íŠ¸ë¥¼ ì œì¶œí•˜ì„¸ìš”!
-    language: ì–¸ì–´
-    name: ì–¸ì–´ ì„¤ì •
-  path: í˜„ìž¬ ê²½ë¡œ
+      지원하는 언어가 있다면 선호하는 언어를 선택하세요! 모국어가 보이지 않고 도움을 주고 싶다면 Github를 방문하여 번역 풀 리퀘스트를 제출하세요!
+    language: 언어
+    name: 언어 설정
+  path: 현재 경로
 shaderPack:
-  deletion: ì…°ì´ë” íŒ© ì‚­ì œ
-  deletionHint: ì…°ì´ë” íŒ© íŒŒì¼ {path} ì„(ë¥¼) ì‚­ì œí•˜ë©°, ë˜ëŒë¦´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
-  disabled: ë¹„í™œì„±í™”ëœ ì…°ì´ë” íŒ©
-  dropHint: ì…°ì´ë” íŒ© ê°€ì ¸ì˜¤ê¸°
-  empty: í• ë‹¹ëœ ì…°ì´ë” íŒ© ì—†ìŒ
-  enable: '{name} ì‚¬ìš© ì¤‘'
-  enabled: í™œì„±í™”ëœ ì…°ì´ë” íŒ©
-  manage: ì…°ì´ë” íŒ© ê´€ë¦¬
-  name: ì…°ì´ë” íŒ©
-  noShaderMod: ì…°ì´ë” ëª¨ë“œê°€ ì„¤ì¹˜ë˜ì§€ ì•ŠìŒ
-  noShaderModHint: ì…°ì´ë” ëª¨ë“œ ì—†ì´ëŠ” ì…°ì´ë”ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤
-  noShaderModInstallHint: ì…°ì´ë” íŒ©ì„ ë¡œë“œí•˜ë ¤ë©´ ë‹¤ìŒ ëª¨ë“œ ì¤‘ í•˜ë‚˜ë¥¼ ì„¤ì¹˜í•´ì•¼ í•©ë‹ˆë‹¤.
-  searchHint: ì…°ì´ë” íŒ© ê²€ìƒ‰
-  selectSearchHint: ì…°ì´ë” íŒ© ê²€ìƒ‰ ë° ì„ íƒ
-  showDirectory: ì…°ì´ë” íŒ© ë””ë ‰í„°ë¦¬ ì—´ê¸°
-  showFile: í´ë”ì—ì„œ ì´ ì…°ì´ë” íŒ© ë³´ê¸°
-  market: ì…°ì´ë” ë§ˆì¼“
-  noPacks: ì…°ì´ë” íŒ©ì´ ì„¤ì¹˜ë˜ì§€ ì•ŠìŒ
-  search: ì…°ì´ë” íŒ© ê²€ìƒ‰...
+  deletion: 셰이더 팩 삭제
+  deletionHint: 셰이더 팩 파일 {path} 을(를) 삭제하며, 되돌릴 수 없습니다.
+  disabled: 비활성화된 셰이더 팩
+  dropHint: 셰이더 팩 가져오기
+  empty: 할당된 셰이더 팩 없음
+  enable: '{name} 사용 중'
+  enabled: 활성화된 셰이더 팩
+  manage: 셰이더 팩 관리
+  name: 셰이더 팩
+  noShaderMod: 셰이더 모드가 설치되지 않음
+  noShaderModHint: 셰이더 모드 없이는 셰이더를 사용할 수 없습니다
+  noShaderModInstallHint: 셰이더 팩을 로드하려면 다음 모드 중 하나를 설치해야 합니다.
+  searchHint: 셰이더 팩 검색
+  selectSearchHint: 셰이더 팩 검색 및 선택
+  showDirectory: 셰이더 팩 디렉터리 열기
+  showFile: 폴더에서 이 셰이더 팩 보기
+  market: 셰이더 마켓
+  noPacks: 셰이더 팩이 설치되지 않음
+  search: 셰이더 팩 검색...
 shared:
-  add: ì¶”ê°€
-  author: ìž‘ì„±ìž
-  back: ë’¤ë¡œ
-  browse: ê³ ë¥´ê¸°
-  cancel: ì·¨ì†Œ
-  client: í´ë¼ì´ì–¸íŠ¸
-  description: ì„¤ëª…
-  disable: ë¹„í™œì„±í™”
-  download: ë‹¤ìš´ë¡œë“œ
-  edit: íŽ¸ì§‘
-  enable: í™œì„±í™”
-  filter: í•„í„°
-  install: ì„¤ì¹˜
-  installed: ì„¤ì¹˜ë¨
-  keepSelected: ì„ íƒëœ ê²ƒ ìœ ì§€
-  manage: ê´€ë¦¬
-  name: ì´ë¦„
-  next: ë‹¤ìŒ
-  'no': ì•„ë‹ˆì˜¤
-  ok: í™•ì¸
-  previous: ì´ì „
-  refresh: ìƒˆë¡œê³ ì¹¨
-  remove: ì œê±°
-  search: ì°¾ë‹¤
-  server: ì„œë²„
-  skipForNow: ì§€ê¸ˆì€ ê±´ë„ˆë›°ê¸°
-  'yes': ì˜ˆ
+  add: 추가
+  author: 작성자
+  back: 뒤로
+  browse: 고르기
+  cancel: 취소
+  client: 클라이언트
+  description: 설명
+  disable: 비활성화
+  download: 다운로드
+  edit: 편집
+  enable: 활성화
+  filter: 필터
+  install: 설치
+  installed: 설치됨
+  keepSelected: 선택된 것 유지
+  manage: 관리
+  name: 이름
+  next: 다음
+  'no': 아니오
+  ok: 확인
+  previous: 이전
+  refresh: 새로고침
+  remove: 제거
+  search: 찾다
+  server: 서버
+  skipForNow: 지금은 건너뛰기
+  'yes': 예
 sidebar:
-  pin: ê³ ì •
-  unpin: ê³ ì • í•´ì œ
+  pin: 고정
+  unpin: 고정 해제
 sortBy:
-  alphabetAsc: ì•ŒíŒŒë²³ìˆœ ì •ë ¬ (ì˜¤ë¦„ì°¨ìˆœ)
-  alphabetDesc: ì•ŒíŒŒë²³ìˆœ ì •ë ¬ (ë‚´ë¦¼ì°¨ìˆœ)
-  timeAsc: ìˆ˜ì • ì‹œê°„ìˆœ ì •ë ¬ (ì˜¤ë¦„ì°¨ìˆœ)
-  timeDesc: ìˆ˜ì • ì‹œê°„ìˆœ ì •ë ¬ (ë‚´ë¦¼ì°¨ìˆœ)
-  name: ì •ë ¬ ê¸°ì¤€
+  alphabetAsc: 알파벳순 정렬 (오름차순)
+  alphabetDesc: 알파벳순 정렬 (내림차순)
+  timeAsc: 수정 시간순 정렬 (오름차순)
+  timeDesc: 수정 시간순 정렬 (내림차순)
+  name: 정렬 기준
 store:
-  discover: ë°œê²¬í•˜ë‹¤
-  latestMinecraft: ìµœì‹  ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „
-  name: ëª¨ë“œíŒ© ë§ˆì¼“
-  searchResult: ê²€ìƒ‰ê²°ê³¼
-  trending: ì¸ê¸° ê¸‰ìƒìŠ¹
-  empty: ëª¨ë“œíŒ©ì„ ì°¾ì„ ìˆ˜ ì—†ìŒ
-  emptyHint: í•„í„° ë˜ëŠ” ê²€ìƒ‰ì–´ë¥¼ ì¡°ì •í•´ ë³´ì„¸ìš”.
+  discover: 발견하다
+  latestMinecraft: 최신 마인크래프트 버전
+  name: 모드팩 마켓
+  searchResult: 검색결과
+  trending: 인기 급상승
+  empty: 모드팩을 찾을 수 없음
+  emptyHint: 필터 또는 검색어를 조정해 보세요.
 tag:
-  create: íƒœê·¸ ìƒì„±
-  createSelected: ì„ íƒëœ í•­ëª©ì— íƒœê·¸ ìƒì„±
+  create: 태그 생성
+  createSelected: 선택된 항목에 태그 생성
 task:
-  cancelled: ì·¨ì†Œë¨
-  clear: ì™„ë£Œëœ ìž‘ì—… ì§€ìš°ê¸°
+  cancelled: 취소됨
+  clear: 완료된 작업 지우기
   connection:
-    connected: ì—°ê²°ë¨
-    free: ì—¬ìœ 
-    pending: ëŒ€ê¸° ì¤‘
-    queued: ëŒ€ê¸°ì—´
-    running: ì—°ê²° ì‹¤í–‰ ì¤‘
-    size: ì´ ê°œìˆ˜
-  connections: ë„¤íŠ¸ì›Œí¬ ì—°ê²°
-  empty: ì‹¤í–‰ ì¤‘ì¸ ìž‘ì—… ì—†ìŒ
-  failed: ì‹¤íŒ¨
-  manager: ìž‘ì—… ê´€ë¦¬ìž
-  nTaskRunning: '{count} ê°œ ìž‘ì—…ì´ ì‹¤í–‰ ì¤‘ìž…ë‹ˆë‹¤'
-  name: ìž‘ì—…
-  pause: ì¼ì‹œì •ì§€
+    connected: 연결됨
+    free: 여유
+    pending: 대기 중
+    queued: 대기열
+    running: 연결 실행 중
+    size: 총 개수
+  connections: 네트워크 연결
+  empty: 실행 중인 작업 없음
+  failed: 실패
+  manager: 작업 관리자
+  nTaskRunning: '{count} 개 작업이 실행 중입니다'
+  name: 작업
+  pause: 일시정지
 theme:
-  selectImage: ì´ë¯¸ì§€ ì„ íƒ
-  selectMusic: ìŒì•… ì„ íƒ
-  selectVideo: ë¹„ë””ì˜¤ ì„ íƒ
+  selectImage: 이미지 선택
+  selectMusic: 음악 선택
+  selectVideo: 비디오 선택
   title: FastLauncher
 title: FastLauncher
 transportType:
-  host: í˜¸ìŠ¤íŠ¸ í›„ë³´
-  prflx: í”¼ì–´ ë°˜ì‚¬ í›„ë³´
-  relay: ë¦´ë ˆì´ í›„ë³´
-  srflx: ì„œë²„ ë°˜ì‚¬ í›„ë³´
+  host: 호스트 후보
+  prflx: 피어 반사 후보
+  relay: 릴레이 후보
+  srflx: 서버 반사 후보
 turnRegion:
-  fr: í”„ëž‘ìŠ¤
-  guangzhou: ì¤‘êµ­ ê´‘ì €ìš°
-  hk: í™ì½©
-  liaoning: ì¤‘êµ­ ëž´ì˜¤ë‹
-  po: í´ëž€ë“œ
+  fr: 프랑스
+  guangzhou: 중국 광저우
+  hk: 홍콩
+  liaoning: 중국 랴오닝
+  po: 폴란드
 tutorial:
-  feedbackDescription: ë¬¸ì œê°€ ë°œìƒí•˜ë©´ ì´ ë²„íŠ¼ì„ í´ë¦­í•˜ì—¬ í”¼ë“œë°±ì„ ë³´ë‚´ì„¸ìš”!
-  hideNewsHeaderDescription: ì™¼ìª½ì—ì„œ ë‰´ìŠ¤ ì‡¼ì¼€ì´ìŠ¤ë¥¼ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì´ ë²„íŠ¼ì„ í´ë¦­í•˜ë©´ ì‡¼ì¼€ì´ìŠ¤ë¥¼ ìˆ¨ê¸¸ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+  feedbackDescription: 문제가 발생하면 이 버튼을 클릭하여 피드백을 보내세요!
+  hideNewsHeaderDescription: 왼쪽에서 뉴스 쇼케이스를 볼 수 있습니다. 이 버튼을 클릭하면 쇼케이스를 숨길 수 있습니다.
   instance:
-    iconDescription: í´ë¦­í•˜ì—¬ ì•„ì´ì½˜ì„ ë³€ê²½í•˜ì„¸ìš”.
-    iconTitle: ì¸ìŠ¤í„´ìŠ¤ ì•„ì´ì½˜
-    javaDescription: ìžë°” ë²„ì „ì„ ì„ íƒí•˜ê±°ë‚˜ ì „í™˜í•˜ì„¸ìš”.
-    javaImportDescription: ë¡œì»¬ ì €ìž¥ì†Œì—ì„œ ìžë°”ë¥¼ ê°€ì ¸ì˜¤ì„¸ìš”.
-    javaImportTitle: ìžë°” ê°€ì ¸ì˜¤ê¸°
-    javaTitle: ìžë°” ëª©ë¡
-  instanceAddDescription: ì´ ë²„íŠ¼ì„ í´ë¦­í•˜ì—¬ ê¸°ì¡´ ë§ˆì¸í¬ëž˜í”„íŠ¸ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ê°€ì ¸ì˜¤ê±°ë‚˜ ì²˜ìŒë¶€í„° ë˜ëŠ” ëª¨ë“œíŒ©ìœ¼ë¡œ ìƒˆë¡œ ìƒì„±í•˜ì„¸ìš”.
-  instanceSelectDescription: ì´ ë²„íŠ¼ì„ í´ë¦­í•˜ë©´ ê²Œìž„ì„ ì„ íƒí•˜ê³  ë‰´ìŠ¤ë¥¼ ì½ì„ ìˆ˜ ìžˆëŠ” íŽ˜ì´ì§€ë¡œ ì´ë™í•©ë‹ˆë‹¤.
-  launchDescription: ì´ ë²„íŠ¼ì„ í´ë¦­í•˜ì—¬ ê²Œìž„ì„ ì„¤ì¹˜í•˜ê±°ë‚˜ ì‹¤í–‰í•˜ì„¸ìš”.
+    iconDescription: 클릭하여 아이콘을 변경하세요.
+    iconTitle: 인스턴스 아이콘
+    javaDescription: 자바 버전을 선택하거나 전환하세요.
+    javaImportDescription: 로컬 저장소에서 자바를 가져오세요.
+    javaImportTitle: 자바 가져오기
+    javaTitle: 자바 목록
+  instanceAddDescription: 이 버튼을 클릭하여 기존 마인크래프트 인스턴스를 가져오거나 처음부터 또는 모드팩으로 새로 생성하세요.
+  instanceSelectDescription: 이 버튼을 클릭하면 게임을 선택하고 뉴스를 읽을 수 있는 페이지로 이동합니다.
+  launchDescription: 이 버튼을 클릭하여 게임을 설치하거나 실행하세요.
   mod:
     defaultSourceDescription: >-
-      ì—¬ê¸°ì„œ ëª¨ë“œ ì„¸ë¶€ ì •ë³´ì˜ ì†ŒìŠ¤ë¥¼ ì„ íƒí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. Modrinthì™€ Curseforge ëª¨ë‘ì— ê²Œì‹œëœ ëª¨ë“œë“¤ì´ ìžˆìŠµë‹ˆë‹¤. ì´ ë‘ ì½˜í…ì¸  ì œê³µìž ê°„ì— ì „í™˜í•˜ë ¤ë©´ ì—¬ê¸°ì„œ ê°’ì„ ë³€ê²½í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-    defaultSourceTitle: ëª¨ë“œ ì½˜í…ì¸  ì†ŒìŠ¤ ì„ íƒ
+      여기서 모드 세부 정보의 소스를 선택할 수 있습니다. Modrinth와 Curseforge 모두에 게시된 모드들이 있습니다. 이 두 콘텐츠 제공자 간에 전환하려면 여기서 값을 변경할 수 있습니다.
+    defaultSourceTitle: 모드 콘텐츠 소스 선택
     detailDescription: >-
-      ì™¼ìª½ì—ì„œ í•­ëª©ì„ ì„ íƒí•˜ë©´ ëª¨ë“œì˜ ì„¸ë¶€ ì •ë³´ë¥¼ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì½˜í…ì¸ ëŠ” Modrinth, Curseforge ë˜ëŠ” íŒŒì‹±ëœ ëª¨ë“œ ì½˜í…ì¸ ì—ì„œ ì˜¬ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-    detailTitle: ëª¨ë“œ ì„¸ë¶€ ì •ë³´
-    listDescription: ìž…ë ¥ì´ ì—†ì„ ë•ŒëŠ” ì„¤ì¹˜ëœ ëª¨ë“œë¥¼ í‘œì‹œí•©ë‹ˆë‹¤. í‚¤ì›Œë“œë‚˜ ì¹´í…Œê³ ë¦¬ë¥¼ ì„ íƒí•˜ë©´ ê²€ìƒ‰ëœ ëª¨ë“œë¥¼ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-    listTitle: ì„¤ì¹˜ëœ ëª¨ë“œ ë˜ëŠ” ëª¨ë“œ ê²€ìƒ‰
-    searchDescription: ì´ ê²€ìƒ‰ ìƒìžë¡œ Modrinth, Curseforge ë˜ëŠ” ë¡œì»¬ ìºì‹œì—ì„œ ëª¨ë“œë¥¼ ê²€ìƒ‰í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-    searchTitle: ëª¨ë“œ ê²€ìƒ‰
+      왼쪽에서 항목을 선택하면 모드의 세부 정보를 볼 수 있습니다. 콘텐츠는 Modrinth, Curseforge 또는 파싱된 모드 콘텐츠에서 올 수 있습니다.
+    detailTitle: 모드 세부 정보
+    listDescription: 입력이 없을 때는 설치된 모드를 표시합니다. 키워드나 카테고리를 선택하면 검색된 모드를 볼 수 있습니다.
+    listTitle: 설치된 모드 또는 모드 검색
+    searchDescription: 이 검색 상자로 Modrinth, Curseforge 또는 로컬 캐시에서 모드를 검색할 수 있습니다.
+    searchTitle: 모드 검색
   multiplayer:
-    contentDescription: ë‹¹ì‹ ê³¼ í”¼ì–´ ê°„ì˜ ì—°ê²°ì´ ì—¬ê¸°ì— ë‚˜ì—´ë©ë‹ˆë‹¤.
+    contentDescription: 당신과 피어 간의 연결이 여기에 나열됩니다.
     contentTitle: '@:multiplayer.connections'
     groupDescription: >-
-      ë‹¤ë¥¸ í”Œë ˆì´ì–´ì™€ ê·¸ë£¹ì„ ìƒì„±í•˜ê±°ë‚˜ ì°¸ì—¬í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ëŸ°ì²˜ëŠ” ê·¸ë£¹ì— ë”°ë¼ ë‹¹ì‹ ê³¼ ì¹œêµ¬ë“¤ ê°„ì— P2P ì—°ê²°ì„ ìƒì„±í•˜ë ¤ê³  ì‹œë„í•©ë‹ˆë‹¤. ì¹œêµ¬ë“¤ì´ ì¤€ ê·¸ë£¹ ì´ë¦„ì„ ìž…ë ¥í•˜ê±°ë‚˜ ê³ ìœ í•œ ì´ë¦„ì„ ë§Œë“¤ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-    groupTitle: ê·¸ë£¹ ì°¸ì—¬
+      다른 플레이어와 그룹을 생성하거나 참여할 수 있습니다. 런처는 그룹에 따라 당신과 친구들 간에 P2P 연결을 생성하려고 시도합니다. 친구들이 준 그룹 이름을 입력하거나 고유한 이름을 만들 수 있습니다.
+    groupTitle: 그룹 참여
     joinDescription: >-
-      ê·¸ë£¹ ì´ë¦„ì„ ìž…ë ¥í•˜ë©´ ì´ ë²„íŠ¼ì„ í´ë¦­í•˜ì—¬ ê·¸ë£¹ì— ì°¸ì—¬í•˜ê±°ë‚˜ ìƒì„±í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ê·¸ë£¹ ì´ë¦„ì´ ë¹„ì–´ ìžˆìœ¼ë©´ ëŸ°ì²˜ê°€ ì´ë¦„ì„ ìƒì„±í•´ ì¤ë‹ˆë‹¤.
+      그룹 이름을 입력하면 이 버튼을 클릭하여 그룹에 참여하거나 생성할 수 있습니다. 그룹 이름이 비어 있으면 런처가 이름을 생성해 줍니다.
     manualDescription: >-
-      ë‹¹ì‹ ì´ë‚˜ ì¹œêµ¬ê°€ ê·¸ë£¹ì— ì—°ê²°í•  ìˆ˜ ì—†ë‹¤ë©´, ìˆ˜ë™ ì—°ê²°ì„ í´ë¦­í•˜ì—¬ í† í°ì„ ìˆ˜ë™ìœ¼ë¡œ êµí™˜í•´ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ê·¸ê²ƒë„ ì‹¤íŒ¨í•œë‹¤ë©´ ì¸í„°ë„· ë¬¸ì œì¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  recentPlayDescription: ìƒì„±ëœ ê²Œìž„ë“¤ì´ ì—¬ê¸°ì— ë‚˜ì—´ë©ë‹ˆë‹¤. ì—¬ê¸°ì„œ ë·°ë¥¼ ì „í™˜í•˜ì—¬ ì„¤ì¹˜ëœ ë²„ì „ê³¼ ë‹¤ìš´ë¡œë“œëœ ëª¨ë“œíŒ©ë„ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  storePoupularModpackDescription: ì´ ì„¹ì…˜ì—ì„œ Curseforgeì™€ Modrinthì˜ ê°€ìž¥ ì¸ê¸° ìžˆëŠ” ëª¨ë“œíŒ©ì„ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-  storeSearchCategoryDescription: ì—¬ê¸°ì„œ ì¹´í…Œê³ ë¦¬ë‚˜ í•„í„°ë¥¼ í† ê¸€í•  ìˆ˜ë„ ìžˆìŠµë‹ˆë‹¤.
-  storeSearchDescription: ì´ í…ìŠ¤íŠ¸ ìƒìžì— ìž…ë ¥í•˜ì—¬ ëª¨ë“œíŒ©ì„ ê²€ìƒ‰í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. Enterë¥¼ ëˆŒëŸ¬ ê²€ìƒ‰í•˜ì„¸ìš”.
-  storeSearchResultDescription: ëª¨ë“  ê²€ìƒ‰ ê²°ê³¼ê°€ ì—¬ê¸°ì— ë‚˜ì—´ë©ë‹ˆë‹¤.
-  userAccountDescription: ì´ ì•„ì´ì½˜ì„ í´ë¦­í•˜ì—¬ ë§ˆì¸í¬ëž˜í”„íŠ¸ ê³„ì •ì„ ì¶”ê°€í•˜ê±°ë‚˜ ê´€ë¦¬í•˜ì„¸ìš”.
+      당신이나 친구가 그룹에 연결할 수 없다면, 수동 연결을 클릭하여 토큰을 수동으로 교환해 볼 수 있습니다. 그것도 실패한다면 인터넷 문제일 수 있습니다.
+  recentPlayDescription: 생성된 게임들이 여기에 나열됩니다. 여기서 뷰를 전환하여 설치된 버전과 다운로드된 모드팩도 볼 수 있습니다.
+  storePoupularModpackDescription: 이 섹션에서 Curseforge와 Modrinth의 가장 인기 있는 모드팩을 볼 수 있습니다.
+  storeSearchCategoryDescription: 여기서 카테고리나 필터를 토글할 수도 있습니다.
+  storeSearchDescription: 이 텍스트 상자에 입력하여 모드팩을 검색할 수 있습니다. Enter를 눌러 검색하세요.
+  storeSearchResultDescription: 모든 검색 결과가 여기에 나열됩니다.
+  userAccountDescription: 이 아이콘을 클릭하여 마인크래프트 계정을 추가하거나 관리하세요.
 universalDrop:
-  unknownResource: ì•Œ ìˆ˜ ì—†ìŒ
+  unknownResource: 알 수 없음
 unresolvedFiles:
-  description: ì„¤ì¹˜ ì¤‘ì— ì´ íŒŒì¼ë“¤ì„ ë‹¤ìš´ë¡œë“œí•  ìˆ˜ ì—†ì—ˆìŠµë‹ˆë‹¤. ì¼ì¹˜í•˜ëŠ” ì†ŒìŠ¤ë¥¼ ê²€ìƒ‰í•˜ì—¬ ì„¤ì¹˜í•˜ê±°ë‚˜, íŒŒì¼ì„ ë¬´ì‹œí•˜ê³  ì‹¤í–‰í•˜ì„¸ìš”.
-  empty: ëª¨ë“  íŒŒì¼ì´ í™•ì¸ë˜ì—ˆìŠµë‹ˆë‹¤.
-  ignoreSelected: '{count}ê°œ ë¬´ì‹œ'
-  install: 'ì¼ì¹˜ í•­ëª© {count}ê°œ ì„¤ì¹˜'
-  matched: ì¼ì¹˜
-  noMatch: ì°¾ì„ ìˆ˜ ì—†ìŒ
-  search: ì†ŒìŠ¤ ê²€ìƒ‰
+  description: 설치 중에 이 파일들을 다운로드할 수 없었습니다. 일치하는 소스를 검색하여 설치하거나, 파일을 무시하고 실행하세요.
+  empty: 모든 파일이 확인되었습니다.
+  ignoreSelected: '{count}개 무시'
+  install: '일치 항목 {count}개 설치'
+  matched: 일치
+  noMatch: 찾을 수 없음
+  search: 소스 검색
   source:
     curseforge-name: CurseForge
-    dependency: ì¢…ì†ì„±
-    modrinth-hash: Modrinth í•´ì‹œ
+    dependency: 종속성
+    modrinth-hash: Modrinth 해시
     modrinth-name: Modrinth
-  title: í™•ì¸ë˜ì§€ ì•Šì€ íŒŒì¼
-  via: '{source} í†µí•´'
+  title: 확인되지 않은 파일
+  via: '{source} 통해'
 upstream:
-  downgrade: ë‹¤ìš´ê·¸ë ˆì´ë“œ
-  onlyShowCurrentVersion: í˜„ìž¬ ë§ˆì¸í¬ëž˜í”„íŠ¸ ë²„ì „ë§Œ í‘œì‹œ
-  update: ì—…ë°ì´íŠ¸
+  downgrade: 다운그레이드
+  onlyShowCurrentVersion: 현재 마인크래프트 버전만 표시
+  update: 업데이트
 user:
-  accessToken: ì•¡ì„¸ìŠ¤ í† í°
-  authMode: ì¸ì¦ ì„œë¹„ìŠ¤
-  authService: ì¸ì¦ ì„œë¹„ìŠ¤
-  email: ì´ë©”ì¼ ì£¼ì†Œ
-  id: ì‚¬ìš©ìž ID
-  name: ì‚¬ìš©ìž ì´ë¦„
-  nameHint: ê²Œìž„ì—ì„œ í‘œì‹œë˜ëŠ” ì´ë¦„
-  profile: í”„ë¡œí•„
-  tokenExpired: ë§Œë£Œë¨
-  tokenValidUntil: í† í° ìœ íš¨ ê¸°ê°„
+  accessToken: 액세스 토큰
+  authMode: 인증 서비스
+  authService: 인증 서비스
+  email: 이메일 주소
+  id: 사용자 ID
+  name: 사용자 이름
+  nameHint: 게임에서 표시되는 이름
+  profile: 프로필
+  tokenExpired: 만료됨
+  tokenValidUntil: 토큰 유효 기간
 userAccount:
-  add: ê³„ì • ì¶”ê°€
-  removeDescription: ì´ ê³„ì •ì˜ ëª¨ë“  ì •ë³´ê°€ ì œê±°ë©ë‹ˆë‹¤. ê³„ì†í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
-  removeTitle: ê³„ì • ì œê±°
+  add: 계정 추가
+  removeDescription: 이 계정의 모든 정보가 제거됩니다. 계속하시겠습니까?
+  removeTitle: 계정 제거
 userCape:
-  changeTitle: ë§í†  ë³€ê²½
+  changeTitle: 망토 변경
   description: >-
-    ë§í† ëŠ” í”Œë ˆì´ì–´ê°€ ë‹¤ì–‘í•œ ì´ë²¤íŠ¸, ìº íŽ˜ì¸ ë° ê¸°íƒ€ í–‰ì‚¬ë¥¼ í†µí•´ ìž ê¸ˆ í•´ì œí•  ìˆ˜ ìžˆëŠ” íŠ¹ë³„í•œ ë³´ìƒìž…ë‹ˆë‹¤. ì—¬ê¸°ì„œ í˜„ìž¬ ì†Œìœ í•œ ë§í†  ì¤‘ì—ì„œ ì„ íƒí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤:
-  noCape: ë§í†  ì—†ìŒ
+    망토는 플레이어가 다양한 이벤트, 캠페인 및 기타 행사를 통해 잠금 해제할 수 있는 특별한 보상입니다. 여기서 현재 소유한 망토 중에서 선택할 수 있습니다:
+  noCape: 망토 없음
 userService:
-  add: ë” ë§Žì€ ì„œë¹„ìŠ¤ ì¶”ê°€
-  authlibInjectorMetadata: Authlib-Injector ë©”íƒ€ë°ì´í„°
-  baseUrlHint: ì‚¬ìš©ìž ì§€ì • ì„œë¹„ìŠ¤ì˜ ê¸°ë³¸ URL
-  homepage: í™ˆíŽ˜ì´ì§€
-  implementation: êµ¬í˜„
-  manageServices: ì„œë¹„ìŠ¤ ê´€ë¦¬
-  register: ë“±ë¡
-  server: ì„œë²„
-  skinDomains: ìŠ¤í‚¨ ë„ë©”ì¸
-  title: ì„œë“œíŒŒí‹° ì‚¬ìš©ìž ì„œë¹„ìŠ¤
-  version: ë²„ì „
+  add: 더 많은 서비스 추가
+  authlibInjectorMetadata: Authlib-Injector 메타데이터
+  baseUrlHint: 사용자 지정 서비스의 기본 URL
+  homepage: 홈페이지
+  implementation: 구현
+  manageServices: 서비스 관리
+  register: 등록
+  server: 서버
+  skinDomains: 스킨 도메인
+  title: 서드파티 사용자 서비스
+  version: 버전
 userServices:
   microsoft:
-    account: Microsoft ê³„ì •
-    deviceCode: ë””ë°”ì´ìŠ¤ ì½”ë“œ
-    deviceCodeHint: ë¡œê·¸ì¸ì„ í´ë¦­í•œ í›„ ë””ë°”ì´ìŠ¤ ì½”ë“œê°€ ìƒì„±ë©ë‹ˆë‹¤
+    account: Microsoft 계정
+    deviceCode: 디바이스 코드
+    deviceCodeHint: 로그인을 클릭한 후 디바이스 코드가 생성됩니다
     name: Microsoft
-    password: ë¸Œë¼ìš°ì €ì—ì„œ ë¹„ë°€ë²ˆí˜¸ ìž…ë ¥
-    useDeviceCode: ë””ë°”ì´ìŠ¤ ì½”ë“œë¡œ ë¡œê·¸ì¸
+    password: 브라우저에서 비밀번호 입력
+    useDeviceCode: 디바이스 코드로 로그인
   mojang:
-    account: ì´ë©”ì¼ ì£¼ì†Œ
+    account: 이메일 주소
     name: Mojang
-    password: ë¹„ë°€ë²ˆí˜¸
+    password: 비밀번호
   offline:
-    account: ì‚¬ìš©ìž ì´ë¦„
-    name: ì˜¤í”„ë¼ì¸
-    password: ë¹„ë°€ë²ˆí˜¸ ì—†ìŒ
-    uuid: ì‚¬ìš©ìž UUID (ì„ íƒì‚¬í•­)
+    account: 사용자 이름
+    name: 오프라인
+    password: 비밀번호 없음
+    uuid: 사용자 UUID (선택사항)
 userSkin:
-  import: ìŠ¤í‚¨ ê°€ì ¸ì˜¤ê¸°
-  importFile: íŒŒì¼ì—ì„œ ì—´ê¸°
-  importLink: ë§í¬ì—ì„œ ì—´ê¸°
-  placeUrlHere: ê°€ì ¸ì˜¬ ìŠ¤í‚¨ URLì„ ì—¬ê¸°ì— ìž…ë ¥í•˜ì„¸ìš”
-  reset: ìž¬ì„¤ì •
-  save: ì €ìž¥
-  saveTitle: ìŠ¤í‚¨ì„ ë””ìŠ¤í¬ì— ì €ìž¥
-  skinType: ìŠ¤í‚¨ ìœ í˜•
-  upload: ìŠ¤í‚¨ ì—…ë¡œë“œ
-  urlNotEmpty: ìŠ¤í‚¨ URLì€ ë¹„ì–´ìžˆì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤
-  urlNotValid: ìŠ¤í‚¨ URLì´ ìœ íš¨í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤
-  useSlim: ìŠ¬ë¦¼ ëª¨ë¸ ì‚¬ìš©
+  import: 스킨 가져오기
+  importFile: 파일에서 열기
+  importLink: 링크에서 열기
+  placeUrlHere: 가져올 스킨 URL을 여기에 입력하세요
+  reset: 재설정
+  save: 저장
+  saveTitle: 스킨을 디스크에 저장
+  skinType: 스킨 유형
+  upload: 스킨 업로드
+  urlNotEmpty: 스킨 URL은 비어있을 수 없습니다
+  urlNotValid: 스킨 URL이 유효하지 않습니다
+  useSlim: 슬림 모델 사용
 version:
-  checkIntegrity: ë¬´ê²°ì„±ì„ í™•ì¸í•˜ì‹­ì‹œì˜¤
-  name: ë²„ì „
-  notInstalled: ë²„ì „ì´ ì„¤ì¹˜ë˜ì§€ ì•ŠìŒ
+  checkIntegrity: 무결성을 확인하십시오
+  name: 버전
+  notInstalled: 버전이 설치되지 않음
 versionType:
-  alpha: ì•ŒíŒŒ
-  beta: ë² íƒ€
-  name: ìƒíƒœ
-  release: ì •ì‹
+  alpha: 알파
+  beta: 베타
+  name: 상태
+  release: 정식
 downloadModMetadataDb:
-  name: Mod ë©”íƒ€ë°ì´í„° DB ë‹¤ìš´ë¡œë“œ
+  name: Mod 메타데이터 DB 다운로드
 duplicateInstance:
-  name: ì¸ìŠ¤í„´ìŠ¤ ë³µì œ
+  name: 인스턴스 복제
 exportModpack:
-  name: ëª¨ë“œíŒ© ë‚´ë³´ë‚´ê¸°
+  name: 모드팩 내보내기
 installProfile:
-  name: í”„ë¡œíŒŒì¼ {version} ì„¤ì¹˜
+  name: 프로파일 {version} 설치
 installQuilt:
-  name: Quilt {version} ì„¤ì¹˜
+  name: Quilt {version} 설치
 instanceLauncher:
-  search: ì¸ìŠ¤í„´ìŠ¤ ê²€ìƒ‰...
-  showAll: ëª¨ë“  ì¸ìŠ¤í„´ìŠ¤ í‘œì‹œ
-  title: ëª¨ë“  ì¸ìŠ¤í„´ìŠ¤
+  search: 인스턴스 검색...
+  showAll: 모든 인스턴스 표시
+  title: 모든 인스턴스
 migrateMinecraft:
-  name: Minecraft íŒŒì¼ ë§ˆì´ê·¸ë ˆì´ì…˜
+  name: Minecraft 파일 마이그레이션
 reinstall:
-  name: '{version} ìž¬ì„¤ì¹˜'
-
+  name: '{version} 재설치'

@@ -1,744 +1,744 @@
-﻿AppAddInstanceDialog:
-  choiceTitle: è¤‡æ•°ã®ãƒ©ãƒ³ãƒãƒ£ãƒ¼æ§‹æˆãŒæ¤œå‡ºã•ã‚Œã¾ã—ãŸã€‚ã‚¤ãƒ³ãƒãƒ¼ãƒˆã™ã‚‹ã‚‚ã®ã‚’ä¸€ã¤é¸æŠžã—ã¦ãã ã•ã„ã€‚
-  createTitle: ã‚²ãƒ¼ãƒ ã‚’ä½œæˆ
-  serverTitle: ã‚µãƒ¼ãƒãƒ¼ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…¥åŠ›
+AppAddInstanceDialog:
+  choiceTitle: 複数のランチャー構成が検出されました。インポートするものを一つ選択してください。
+  createTitle: ゲームを作成
+  serverTitle: サーバーアドレスを入力
 AppShareInstanceDialog:
-  alterDownloadDescription: ç¾åœ¨ã®èµ·å‹•æ§‹æˆã‚’ã„ã˜ã‚ŠãŸããªã‘ã‚Œã°ã€ãƒ”ã‚¢ã®æ§‹æˆã‹ã‚‰æ–°ã—ãèµ·å‹•æ§‹æˆã‚’ä½œã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚ä¸‹ã®ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨èµ·å‹•æ§‹æˆã‚’ä½œæˆã—ã¾ã™ã€‚
-  baseInfo: åŸºæœ¬çš„ãªè¨­å®š
-  cancelShare: å…±æœ‰ã‚’å–ã‚Šæ¶ˆã™
-  description: ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…±æœ‰ã™ã‚‹ã¨ã€ä»–ã®å ´æ‰€ã‹ã‚‰ã‚ãªãŸã®PCã‚’é€šã—ã¦ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã§ãã‚‹ã‚ˆã†ã«ãªã‚Šã¾ã™ã€‚
-  downloadDescription: ãƒ”ã‚¢ã‹ã‚‰æä¾›ã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç¢ºèªã—ã€ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚ã“ã‚Œã¯ç¾åœ¨ã®èµ·å‹•æ§‹æˆ {name} ã«é…ç½®ã•ã‚Œã¾ã™ã€‚
-  downloadNotifyTitle: '{user} ã‹ã‚‰èµ·å‹•æ§‹æˆã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰'
-  downloadTitle: ä»–ã®ãƒ”ã‚¢ã‹ã‚‰ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
-  filesToDownload: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é¸æŠž
-  filesToShare: å…±æœ‰ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é¸æŠž
-  instanceShare: '{user} ãŒç¾åœ¨ã®èµ·å‹•æ§‹æˆã‚’ã‚ãªãŸã«å…±æœ‰ã—ã¾ã—ãŸã€‚'
-  share: å…±æœ‰
-  shareNotifyTitle: èµ·å‹•æ§‹æˆã‚’å…±æœ‰
-  shareTitle: ã‚²ãƒ¼ãƒ ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä»–ã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«å…±æœ‰
+  alterDownloadDescription: 現在の起動構成をいじりたくなければ、ピアの構成から新しく起動構成を作ることができます。下のボタンをクリックすると起動構成を作成します。
+  baseInfo: 基本的な設定
+  cancelShare: 共有を取り消す
+  description: プロファイルを共有すると、他の場所からあなたのPCを通してファイルをダウンロードできるようになります。
+  downloadDescription: ピアから提供されたファイルを確認し、ダウンロードするファイルを選択してください。これは現在の起動構成 {name} に配置されます。
+  downloadNotifyTitle: '{user} から起動構成をダウンロード'
+  downloadTitle: 他のピアからファイルをダウンロード
+  filesToDownload: ダウンロードするファイルを選択
+  filesToShare: 共有するファイルを選択
+  instanceShare: '{user} が現在の起動構成をあなたに共有しました。'
+  share: 共有
+  shareNotifyTitle: 起動構成を共有
+  shareTitle: ゲームファイルを他のプレイヤーに共有
 BaseSettingGeneral:
-  title: ä¸€èˆ¬
+  title: 一般
 HomeJavaIssueDialog:
-  incompatibleJava: äº’æ›æ€§ã®ãªã„Java
-  incompatibleJavaHint: ç¾åœ¨ã®Javaã¯é¸æŠžã•ã‚ŒãŸMinecraftã¨äº’æ›æ€§ãŒãªã„å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™!
-  missingJava: JavaãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
-  missingJavaHint: 'ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯Javaã‚’è¦‹ã¤ã‘ã‚‹ã“ã¨ãŒã§ãã¾ã›ã‚“ã§ã—ãŸã€‚æ¬¡ã®ã“ã¨ã‚’è©¦ã™ã“ã¨ãŒã§ãã¾ã™:'
+  incompatibleJava: 互換性のないJava
+  incompatibleJavaHint: 現在のJavaは選択されたMinecraftと互換性がない可能性があります!
+  missingJava: Javaが見つかりません
+  missingJavaHint: 'ランチャーはJavaを見つけることができませんでした。次のことを試すことができます:'
   optionSwitch:
-    name: '{version} ã«åˆ‡ã‚Šæ›¿ãˆ'
+    name: '{version} に切り替え'
 HomeLaunchMultiInstanceDialog:
-  confirm: ã¯ã„ã€èµ·å‹•ã—ã¾ã™ã€‚
-  description: è¤‡æ•°ã®èµ·å‹•æ§‹æˆã‚’èµ·å‹•ã—ã‚ˆã†ã¨ã—ã¦ã„ã¾ã™ã€‚ç¶šè¡Œã—ã¾ã™ã‹?
-  title: è¤‡æ•°ã®èµ·å‹•æ§‹æˆ
+  confirm: はい、起動します。
+  description: 複数の起動構成を起動しようとしています。続行しますか?
+  title: 複数の起動構成
 SettingMigrationDialog:
-  selectRootDirectory: ãƒ«ãƒ¼ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’é¸æŠž
+  selectRootDirectory: ルートディレクトリを選択
 ago:
-  day: '{duration} æ—¥å‰'
-  hour: '{duration} æ™‚é–“å‰'
-  minute: '{duration} åˆ†å‰'
-  second: '{duration} ç§’å‰'
+  day: '{duration} 日前'
+  hour: '{duration} 時間前'
+  minute: '{duration} 分前'
+  second: '{duration} 秒前'
 askAICrash:
-  copyPrompt: ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‚’ã‚³ãƒ”ãƒ¼ã—ã¦AIã«å°‹ã­ã¾ã™
+  copyPrompt: プロンプトをコピーしてAIに尋ねます
   description: |-
-    AIãŒã‚²ãƒ¼ãƒ ã®ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ã‚’ç†è§£ã™ã‚‹ã®ã‚’æ‰‹ä¼ã£ã¦ãã ã•ã„ï¼
-    ä»¥ä¸‹ã®æŒ‡ç¤ºã«å¾“ã£ã¦ã€ã“ã®ã‚²ãƒ¼ãƒ ã®ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ã«ã¤ã„ã¦AIã«å°‹ã­ã¦ãã ã•ã„ï¼
-  selectPlatform: AIãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ ã‚’é–‹ãã€ã‚³ãƒ”ãƒ¼ã—ãŸãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‚’è²¼ã‚Šä»˜ã‘ã¾ã™ã€‚
-authProfileAddedNotification: èªè¨¼ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ« {name} ãŒè¿½åŠ ã•ã‚Œã¾ã—ãŸ
+    AIがゲームのクラッシュを理解するのを手伝ってください！
+    以下の指示に従って、このゲームのクラッシュについてAIに尋ねてください！
+  selectPlatform: AIプラットフォームを開き、コピーしたプロンプトを貼り付けます。
+authProfileAddedNotification: 認証プロファイル {name} が追加されました
 baseSetting:
-  title: åŸºæœ¬è¨­å®š
+  title: 基本設定
 browseApp:
-  createShortcut: ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã‚’ä½œæˆ
-  default: ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ
-  delete: å‰Šé™¤
-  launch: ç«‹ã¡ä¸Šã’ã¦ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã«è¨­å®šã™ã‚‹
-browseApps: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã®UIã‚’è¡¨ç¤ºã™ã‚‹
-color: è‰²
-confirm: ã‚¹ã‚¿ãƒ¼ãƒˆ
+  createShortcut: ショートカットを作成
+  default: デフォルト
+  delete: 削除
+  launch: 立ち上げてデフォルトに設定する
+browseApps: ランチャーのUIを表示する
+color: 色
+confirm: スタート
 copyClipboard:
-  success: ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã«ã‚³ãƒ”ãƒ¼
-create: ä½œæˆ
+  success: クリップボードにコピー
+create: 作成
 curseforge:
-  category: ã‚«ãƒ†ã‚´ãƒª
-  createdDate: ä½œæˆæ—¥
-  lastUpdate: æœ€çµ‚ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆæ—¥
-  releasedDate: ãƒªãƒªãƒ¼ã‚¹æ—¥
+  category: カテゴリ
+  createdDate: 作成日
+  lastUpdate: 最終アップデート日
+  releasedDate: リリース日
 curseforgeCategory:
-  API and Library: APIã¨ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
-  Addons: ã‚¢ãƒ‰ã‚ªãƒ³
-  Adventure: ã‚¢ãƒ‰ãƒ™ãƒ³ãƒãƒ£ãƒ¼
-  Adventure and RPG: å†’é™º/RPG
-  Animated: ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³
-  Armor, Tools, and Weapons: é˜²å…·ã€é“å…·ã€æ­¦å™¨
-  Combat / PvP: å¯¾æˆ¦/PvP
-  Cosmetic: å¤–è¦‹/è£…é£¾
-  Creation: ã‚¯ãƒªã‚¨ã‚¤ãƒ†ã‚£ãƒ–ãƒ¢ãƒ¼ãƒ‰
-  Data Packs: ãƒ‡ãƒ¼ã‚¿ãƒ‘ãƒƒã‚¯
-  Education: æ•™è‚²
-  Exploration: å†’é™º
-  Extra Large: è¶…å¤§åž‹
-  FTB Official Pack: FTBå…¬å¼ãƒ‘ãƒƒã‚¯
+  API and Library: APIとライブラリ
+  Addons: アドオン
+  Adventure: アドベンチャー
+  Adventure and RPG: 冒険/RPG
+  Animated: アニメーション
+  Armor, Tools, and Weapons: 防具、道具、武器
+  Combat / PvP: 対戦/PvP
+  Cosmetic: 外見/装飾
+  Creation: クリエイティブモード
+  Data Packs: データパック
+  Education: 教育
+  Exploration: 冒険
+  Extra Large: 超大型
+  FTB Official Pack: FTB公式パック
   Fabric: Fabric
   FancyMenu: FancyMenu
-  Font Packs: ãƒ•ã‚©ãƒ³ãƒˆãƒ‘ãƒƒã‚¯
-  Food: é£Ÿæ–™
-  Game Map: ã‚²ãƒ¼ãƒ ãƒžãƒƒãƒ—
-  Hardcore: ãƒãƒ¼ãƒ‰ã‚³ã‚¢
+  Font Packs: フォントパック
+  Food: 食料
+  Game Map: ゲームマップ
+  Hardcore: ハードコア
   MCreator: MCreator
-  Magic: é­”æ³•
-  Map Based: ãƒžãƒƒãƒ—ãƒ™ãƒ¼ã‚¹
-  Map and Information: åœ°å›³ã¨æƒ…å ±
-  Medieval: ä¸­ä¸–
-  Mini Game: ãƒŸãƒ‹ã‚²ãƒ¼ãƒ 
-  Miscellaneous: ãã®ä»–
-  Mod Support: Modã‚µãƒãƒ¼ãƒˆ
-  Modded World: Modã•ã‚ŒãŸä¸–ç•Œ
-  Modern: è¿‘ä»£çš„
-  Multiplayer: ãƒžãƒ«ãƒãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼
-  Parkour: ãƒ‘ãƒ«ã‚¯ãƒ¼ãƒ«
-  Photo Realistic: å†™å®Ÿçš„
-  Puzzle: ãƒ‘ã‚ºãƒ«
+  Magic: 魔法
+  Map Based: マップベース
+  Map and Information: 地図と情報
+  Medieval: 中世
+  Mini Game: ミニゲーム
+  Miscellaneous: その他
+  Mod Support: Modサポート
+  Modded World: Modされた世界
+  Modern: 近代的
+  Multiplayer: マルチプレイヤー
+  Parkour: パルクール
+  Photo Realistic: 写実的
+  Puzzle: パズル
   QoL: QoL
-  Quests: ã‚¯ã‚¨ã‚¹ãƒˆ
-  Redstone: ãƒ¬ãƒƒãƒ‰ã‚¹ãƒˆãƒ¼ãƒ³
+  Quests: クエスト
+  Redstone: レッドストーン
   Sci-Fi: SF
-  Server Utility: ã‚µãƒ¼ãƒãƒ¼ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£
-  Skyblock: ã‚¹ã‚«ã‚¤ãƒ–ãƒ­ãƒƒã‚¯
-  Small / Light: å°ã•ã„/è»½é‡
-  Steampunk: ã‚¹ãƒãƒ¼ãƒ ãƒ‘ãƒ³ã‚¯
-  Storage: ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸
-  Survival: ã‚µãƒã‚¤ãƒãƒ«
-  Tech: æŠ€è¡“
-  Technology: æŠ€è¡“
-  Traditional: ä¼çµ±çš„
-  Twitch Integration: Twitchã®çµ±åˆ
-  Utility & QoL: ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£/QoL
+  Server Utility: サーバーユーティリティ
+  Skyblock: スカイブロック
+  Small / Light: 小さい/軽量
+  Steampunk: スチームパンク
+  Storage: ストレージ
+  Survival: サバイバル
+  Tech: 技術
+  Technology: 技術
+  Traditional: 伝統的
+  Twitch Integration: Twitchの統合
+  Utility & QoL: ユーティリティ/QoL
   Vanilla+: Vanilla+
-  World Gen: ãƒ¯ãƒ¼ãƒ«ãƒ‰ç”Ÿæˆ
+  World Gen: ワールド生成
 dataMigration:
-  apply: è¨­å®šã‚’é©ç”¨
-  directoryCriteriaHint: æ–°ã—ã„ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒç©ºãªã“ã¨ã‚’ç¢ºèªã—ã¦ãã ã•ã„!
-  placeholder: ã“ã“ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’é¸æŠž
-  setRootCause: ã“ã®ãƒ—ãƒ­ã‚»ã‚¹ä¸­ã«ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’é–‰ã˜ã‚‹ã¨ã€ãƒ‡ãƒ¼ã‚¿(ãƒžãƒƒãƒ—ã€ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã€Mod)ã¯å¤±ã‚ã‚Œã¾ã™!
-  setRootDescription: ã“ã®ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¨Minecraftã®ãƒ«ãƒ¼ãƒˆãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’å¤‰æ›´ã—ã¾ã™ã€‚
-  setRootTitle: ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ä¸Šã®æ–°ã—ã„å ´æ‰€ã«è¨­å®š
-  unknownError: æœªçŸ¥ã®ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ! å†åº¦è©¦ã™ã‹ã€é–‹ç™ºè€…ã«é€£çµ¡ã—ã¦ãã ã•ã„!
-  waitReload: ãƒ‡ãƒ¼ã‚¿ã‚’ç§»è¡Œä¸­ã§ã™ã€‚ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’é–‰ã˜ãªã„ã§ãã ã•ã„ã€‚
+  apply: 設定を適用
+  directoryCriteriaHint: 新しいディレクトリが空なことを確認してください!
+  placeholder: ここをクリックしてディレクトリを選択
+  setRootCause: このプロセス中にランチャーを閉じると、データ(マップ、リソースパック、Mod)は失われます!
+  setRootDescription: このランチャーとMinecraftのルートフォルダーを変更します。
+  setRootTitle: ストレージ上の新しい場所に設定
+  unknownError: 未知のエラーが発生しました! 再度試すか、開発者に連絡してください!
+  waitReload: データを移行中です。ランチャーを閉じないでください。
 delete:
-  name: '{name} ã‚’å‰Šé™¤'
-  'no': ã„ã„ãˆ
-  'yes': ã¯ã„
+  name: '{name} を削除'
+  'no': いいえ
+  'yes': はい
 dependencies:
-  embedded: åŸ‹ã‚è¾¼ã¿
-  incompatible: ä¸é©åˆ
-  name: ä¾å­˜é–¢ä¿‚
-  optional: ã‚ªãƒ—ã‚·ãƒ§ãƒ³
-  required: è¦æ±‚
+  embedded: 埋め込み
+  incompatible: 不適合
+  name: 依存関係
+  optional: オプション
+  required: 要求
 diagnosis:
   badInstall:
-    message: ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã®å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’è©¦è¡Œã—ã¾ã™ã€‚
-    name: '{version} ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã«å¤±æ•—ã—ã¾ã—ãŸã€‚'
+    message: クリックしてこのバージョンの再インストールを試行します。
+    name: '{version} のインストールに失敗しました。'
   corruptedAssets:
-    message: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãŒã‚¢ã‚»ãƒƒãƒˆã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™
-    name: 'ã‚¢ã‚»ãƒƒãƒˆãŒä¸å®Œå…¨ã§ã™: {name} | ã‚¢ã‚»ãƒƒãƒˆãŒä¸å®Œå…¨ã§ã™: {name} | {count} å€‹ã®ã‚¢ã‚»ãƒƒãƒˆãŒå£Šã‚Œã¦ã„ã¾ã™'
+    message: ランチャーがアセットをインストールします
+    name: 'アセットが不完全です: {name} | アセットが不完全です: {name} | {count} 個のアセットが壊れています'
   corruptedAssetsIndex:
-    message: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯ã‚¢ã‚»ãƒƒãƒˆã®ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™ã€‚
-    name: ã‚¢ã‚»ãƒƒãƒˆã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ {version} ãŒå£Šã‚Œã¦ã„ã¾ã™ã€‚
+    message: ランチャーはアセットのインデックスをダウンロードします。
+    name: アセットインデックス {version} が壊れています。
   corruptedLibraries:
-    message: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãŒãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã€‚
-    name: 'å£Šã‚ŒãŸãƒ©ã‚¤ãƒ–ãƒ©ãƒª: {name} | å£Šã‚ŒãŸãƒ©ã‚¤ãƒ–ãƒ©ãƒª: {name} | {count} å€‹ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãŒå£Šã‚Œã¦ã„ã¾ã™ã€‚'
+    message: ランチャーがライブラリをインストールします。
+    name: '壊れたライブラリ: {name} | 壊れたライブラリ: {name} | {count} 個のライブラリが壊れています。'
   corruptedVersionJar:
-    message: ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã€‚
-    name: Minecraft %{version} ã®JarãŒå£Šã‚Œã¦ã„ã¾ã™ã€‚
+    message: クリックするとこのバージョンをインストールします。
+    name: Minecraft %{version} のJarが壊れています。
   incompatibleJava:
-    name: Javaãƒãƒ¼ã‚¸ãƒ§ãƒ³ {javaVersion} ã¯ {version} ã«é©åˆã—ã¾ã›ã‚“!
+    name: Javaバージョン {javaVersion} は {version} に適合しません!
   instanceFiles:
-    description: èµ·å‹•æ§‹æˆã¯ {counts} å€‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å«ã¿ã¾ã™ã€‚
-    title: çµ‚äº†ã—ã¦ã„ãªã„èµ·å‹•æ§‹æˆã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+    description: 起動構成は {counts} 個のファイルを含みます。
+    title: 終了していない起動構成のインストール
   invalidJava:
-    name: Javaã®å ´æ‰€ãŒç„¡åŠ¹ã§ã™ã€‚
+    name: Javaの場所が無効です。
   missingJava:
-    message: ã‚¯ãƒªãƒƒã‚¯ã—ã¦å•é¡Œã‚’å‡¦ç†ã—ã¾ã™ã€‚
-    name: Minecraftã‚’ç«‹ã¡ä¸Šã’ã‚‹ãŸã‚ã®JavaãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“!
+    message: クリックして問題を処理します。
+    name: Minecraftを立ち上げるためのJavaが見つかりません!
   missingLibraries:
-    message: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãŒãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã€‚
+    message: ランチャーがライブラリをインストールします。
     name: >-
-      è¦‹ã¤ã‹ã‚‰ãªã„ {name} ãƒ©ã‚¤ãƒ–ãƒ©ãƒª | è¦‹ã¤ã‹ã‚‰ãªã„ {name} ãƒ©ã‚¤ãƒ–ãƒ©ãƒª | {count} å€‹ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ | {count} å€‹ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
+      見つからない {name} ライブラリ | 見つからない {name} ライブラリ | {count} 個のライブラリが見つかりません | {count} 個のライブラリが見つかりません
   missingVersion:
-    message: ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã€‚
-    name: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ {version} ã¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã›ã‚“!
+    message: クリックしてこのバージョンをインストールします。
+    name: バージョン {version} はインストールされていません!
   unresolvedFiles:
-    description: ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ä¸­ã« {count} å€‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’è§£æ±ºã§ãã¾ã›ã‚“ã§ã—ãŸ
-    title: æœªè§£æ±ºã®ãƒ•ã‚¡ã‚¤ãƒ«
+    description: インストール中に {count} 個のファイルを解決できませんでした
+    title: 未解決のファイル
   unzipFileNotFound:
-    description: '{file}ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“'
-    title: ModPackãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
+    description: '{file}が見つかりません'
+    title: ModPackファイルが見つかりません
 disk:
-  available: åˆ©ç”¨å¯èƒ½
-  used: ä½¿ç”¨æ¸ˆã¿
-downloadCount: '{count} ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰'
+  available: 利用可能
+  used: 使用済み
+downloadCount: '{count} ダウンロード'
 downloadUpdate:
-  name: æ›´æ–° {version} ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
+  name: 更新 {version} をダウンロード
 duration:
-  day: '{duration} æ—¥'
-  hour: '{duration} æ™‚é–“'
-  minute: '{duration} åˆ†'
-  second: '{duration} ç§’'
+  day: '{duration} 日'
+  hour: '{duration} 時間'
+  minute: '{duration} 分'
+  second: '{duration} 秒'
 env:
   select:
-    all: ã™ã¹ã¦é¸æŠž
-    fit: é¸æŠž
-    none: é¸æŠžã—ãªã„
+    all: すべて選択
+    fit: 選択
+    none: 選択しない
 errors:
   BadForgeInstallerJarError: >-
-    Forge ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã®Jarã‚’è§£æžã§ãã¾ã›ã‚“ã€‚ForgeãŒæ–°ã—ã„ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã®ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆã‚’æŽ¡ç”¨ã—ãŸã®ã‹ã‚‚ã—ã‚Œã¾ã›ã‚“? ã“ã®å•é¡ŒãŒç¶šãå ´åˆã¯é–‹ç™ºè€…ã«é€£çµ¡ã—ã¦ãã ã•ã„ã€‚
-  BadInstanceType: 'æœ‰åŠ¹ãªèµ·å‹•æ§‹æˆã§ã¯ã‚ã‚Šã¾ã›ã‚“: {type}'
-  BodyTimeoutError: HTTPãŒã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆã—ã¾ã—ãŸ
-  ChecksumNotMatchError: 'ãƒã‚§ãƒƒã‚¯ã‚µãƒ ãŒä¸€è‡´ã—ã¾ã›ã‚“ã§ã—ãŸ! æƒ³å®š: {expect}. çµæžœ {actual}.'
-  ConnectTimeoutError: ã‚µãƒ¼ãƒãƒ¼ã¸ã®æŽ¥ç¶šãŒã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆã—ã¾ã—ãŸã€‚
-  DNSNotFoundError: DNS ãƒ«ãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚¨ãƒ©ãƒ¼
+    Forge インストーラーのJarを解析できません。Forgeが新しいインストーラーのフォーマットを採用したのかもしれません? この問題が続く場合は開発者に連絡してください。
+  BadInstanceType: '有効な起動構成ではありません: {type}'
+  BodyTimeoutError: HTTPがタイムアウトしました
+  ChecksumNotMatchError: 'チェックサムが一致しませんでした! 想定: {expect}. 結果 {actual}.'
+  ConnectTimeoutError: サーバーへの接続がタイムアウトしました。
+  DNSNotFoundError: DNS ルックアップエラー
   DatabaseNotOpened: >-
-    ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ãŒé–‹ã‘ã¾ã›ã‚“ã§ã—ãŸ! ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯é©åˆ‡ã«å‹•ä½œã§ãã¾ã›ã‚“! ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãŒã‚¢ã‚¯ã‚»ã‚¹ã§ãã‚‹ãƒ‡ãƒ¼ã‚¿ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’é¸æŠžã™ã‚‹ã‹ã€ãƒ‡ãƒ¼ã‚¿ã®ãƒ«ãƒ¼ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¨­å®šã‹ã‚‰ãƒªã‚»ãƒƒãƒˆã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
+    データベースが開けませんでした! ランチャーは適切に動作できません! ランチャーがアクセスできるデータディレクトリを選択するか、データのルートディレクトリを設定からリセットすることができます。
   DiskIsFull: |-
-    ã‚ãªãŸã®ãƒ‡ã‚£ã‚¹ã‚¯ã¯ã„ã£ã±ã„ã§ã™ï¼
-    ãƒ‡ã‚£ã‚¹ã‚¯ã«ä½•ã‚‚æ›¸ãã“ã¨ã¯ã§ãã¾ã›ã‚“ï¼
-    ã™ã¹ã¦ã®æ©Ÿèƒ½ãŒæ©Ÿèƒ½ã—ãªã„å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ï¼
-  DownloadAggregateError: ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã«å¤±æ•—ã€‚
-  DownloadFileSystemError: ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹ã«ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹éš›ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸã€‚ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã«ãƒ•ã‚©ãƒ«ãƒ€ã¸ã®ã‚¢ã‚¯ã‚»ã‚¹æ¨©é™ãŒã‚ã‚‹ã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚
-  HeadersTimeoutError: HTTPã®ãƒ˜ãƒƒãƒ€ãƒ¼ãŒã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆ
+    あなたのディスクはいっぱいです！
+    ディスクに何も書くことはできません！
+    すべての機能が機能しない可能性があります！
+  DownloadAggregateError: ファイルのダウンロードに失敗。
+  DownloadFileSystemError: ファイルパスにダウンロードする際エラーが発生しました。ランチャーにフォルダへのアクセス権限があるか確認してください。
+  HeadersTimeoutError: HTTPのヘッダーがタイムアウト
   NotFoundError: 404 Not Found
-  SocketError: ã‚µãƒ¼ãƒãƒ¼ã‚½ã‚±ãƒƒãƒˆã‚¨ãƒ©ãƒ¼
+  SocketError: サーバーソケットエラー
 eula:
-  body: ã“ã®ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ã‚’æŠ¼ã™ã“ã¨ã§ã€Minecraftã® {eula} ã«åŒæ„ã—ãŸã“ã¨ã«ãªã‚Šã¾ã™ã€‚
+  body: このチェックボックスを押すことで、Minecraftの {eula} に同意したことになります。
 exception:
   http: >-
-    {url} ã¸ã®HTTPãƒªã‚¯ã‚¨ã‚¹ãƒˆã«å¤±æ•—ã—ã¾ã—ãŸã€‚ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ {statusCode} ã§ã™ã€‚å†åº¦è©¦ã™ã‹ã€ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æŽ¥ç¶šã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚ã‚¨ãƒ©ãƒ¼ãŒç¶šãå ´åˆã¯ã€ãƒ¬ãƒãƒ¼ãƒˆã‚’é–‹ç™ºè€…ã«é€ã£ã¦ãã ã•ã„ã€‚
+    {url} へのHTTPリクエストに失敗しました。ステータスコードは {statusCode} です。再度試すか、ネットワーク接続を確認してください。エラーが続く場合は、レポートを開発者に送ってください。
 extensions:
   mrpack: Modrinth Modpack
-  zip: Zip ãƒ•ã‚¡ã‚¤ãƒ«
+  zip: Zip ファイル
 fabricVersion:
-  disable: Fabricã‚’ä½¿ç”¨ã—ãªã„
-  empty: Minecraft {version} ç”¨ã®Fabricãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒã‚ã‚Šã¾ã›ã‚“
-  showSnapshot: ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆã‚’è¡¨ç¤º
-  stable: å®‰å®šç‰ˆ
-  unstable: ä¸å®‰å®šç‰ˆ
+  disable: Fabricを使用しない
+  empty: Minecraft {version} 用のFabricバージョンがありません
+  showSnapshot: スナップショットを表示
+  stable: 安定版
+  unstable: 不安定版
 command:
   instance:
     launch:
-      title: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’èµ·å‹•
+      title: インスタンスを起動
     create:
-      title: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’ä½œæˆ
+      title: インスタンスを作成
     delete:
-      title: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’å‰Šé™¤
+      title: インスタンスを削除
   user:
     login:
-      title: ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒ­ã‚°ã‚¤ãƒ³
+      title: ユーザーログイン
     refresh:
-      title: ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚’æ›´æ–°
+      title: ユーザーを更新
 commandPalette:
-  placeholder: ã‚³ãƒžãƒ³ãƒ‰ã€ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã€Mod ã‚’æ¤œç´¢â€¦
-  commands: ã‚³ãƒžãƒ³ãƒ‰
-  instances: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹
+  placeholder: コマンド、インスタンス、Mod を検索…
+  commands: コマンド
+  instances: インスタンス
   modrinth: Modrinth
-  recent: æœ€è¿‘ä½¿ç”¨
-  open: ã‚¯ã‚¤ãƒƒã‚¯æ“ä½œ
-  openHint: ã‚³ãƒžãƒ³ãƒ‰ãƒ‘ãƒ¬ãƒƒãƒˆã‚’é–‹ã ({shortcut})
-  empty: æ¤œç´¢ã™ã‚‹ã«ã¯å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚
-  noResults: ä¸€è‡´ã™ã‚‹çµæžœãŒã‚ã‚Šã¾ã›ã‚“ã€‚
-  searching: æ¤œç´¢ä¸­â€¦
-  hintNavigate: ç§»å‹•
-  hintInvoke: å®Ÿè¡Œ
-  hintEnter: é–‹ã
-  hintBack: æˆ»ã‚‹
-  hintClose: é–‰ã˜ã‚‹
+  recent: 最近使用
+  open: クイック操作
+  openHint: コマンドパレットを開く ({shortcut})
+  empty: 検索するには入力してください。
+  noResults: 一致する結果がありません。
+  searching: 検索中…
+  hintNavigate: 移動
+  hintInvoke: 実行
+  hintEnter: 開く
+  hintBack: 戻る
+  hintClose: 閉じる
 feedback:
-  channel: ãƒãƒ£ãƒ³ãƒãƒ«
-  description: ãƒã‚°ã‚’è¦‹ã¤ã‘ã¾ã—ãŸ / ææ¡ˆãŒã‚ã‚Šã¾ã™
+  channel: チャンネル
+  description: バグを見つけました / 提案があります
   discord: Discord
-  discordDescription: Discordãƒãƒ£ãƒ³ãƒãƒ«ã«å‚åŠ 
-  discordJoin: å‚åŠ 
-  generateReport: ãƒ¬ãƒãƒ¼ãƒˆã‚’ä½œæˆ
-  generateSaveAs: ãƒ¬ãƒãƒ¼ãƒˆã®ä¿å­˜å…ˆ
+  discordDescription: Discordチャンネルに参加
+  discordJoin: 参加
+  generateReport: レポートを作成
+  generateSaveAs: レポートの保存先
   github: Github Issue
-  githubDescription: Github Issueã‚’é–‹ãæ„è¦‹ã‚’å…±æœ‰
+  githubDescription: Github Issueを開き意見を共有
   githubOpenIssue: Github
-  hint: ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãƒ¬ãƒãƒ¼ãƒˆã‚’ä½œæˆã—é–‹ç™ºè€…ã«é€£çµ¡ã—ã¾ã™ã€‚ãƒ¬ãƒãƒ¼ãƒˆã¯ã‚ãªãŸã®ãƒ‡ãƒã‚¤ã‚¹æƒ…å ±(OS, ãƒãƒ¼ã‚¸ãƒ§ãƒ³, OSã«ãŠã‘ã‚‹ãƒ¦ãƒ¼ã‚¶ãƒ¼å)ãªã©ã‚’å«ã¿ã¾ã™ã€‚
+  hint: クリックしてレポートを作成し開発者に連絡します。レポートはあなたのデバイス情報(OS, バージョン, OSにおけるユーザー名)などを含みます。
   kook: Kook
-  kookDescription: Kook ã¯ä¸­å›½æœ¬åœŸã®ãƒ¦ãƒ¼ã‚¶ãƒ¼ã®ãŸã‚ã®Discordã®ä»£æ›¿ã‚¢ãƒ—ãƒªã§ã™
-  name: ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯
-  qq: QQã‚°ãƒ«ãƒ¼ãƒ—
-  qqDescription: 'ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ç”¨QQã‚°ãƒ«ãƒ¼ãƒ—ã«å‚åŠ ã—è‘—è€…ã«ç›´æŽ¥é€£çµ¡ã‚’å–ã‚‹ã€‚ ã‚°ãƒ«ãƒ¼ãƒ—ãƒŠãƒ³ãƒãƒ¼: {number}'
-  qqEnterGroup: å‚åŠ 
+  kookDescription: Kook は中国本土のユーザーのためのDiscordの代替アプリです
+  name: フィードバック
+  qq: QQグループ
+  qqDescription: 'フィードバック用QQグループに参加し著者に直接連絡を取る。 グループナンバー: {number}'
+  qqEnterGroup: 参加
 fileDetail:
-  fileSize: ãƒ•ã‚¡ã‚¤ãƒ«ã‚µã‚¤ã‚º
-  filesize: ãƒ•ã‚¡ã‚¤ãƒ«ã‚µã‚¤ã‚º
-  hash: ãƒãƒƒã‚·ãƒ¥å€¤
-filterLocalOnly: ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã‚‹ã‚‚ã®ã ã‘ã‚’è¡¨ç¤º
+  fileSize: ファイルサイズ
+  filesize: ファイルサイズ
+  hash: ハッシュ値
+filterLocalOnly: インストールされているものだけを表示
 forgeVersion:
-  disable: Forgeã‚’ä½¿ç”¨ã—ãªã„
-  empty: Minecraft {version} ç”¨ã®ForgeãŒã‚ã‚Šã¾ã›ã‚“
-  latest: æœ€æ–°
-  recommended: æŽ¨å¥¨
+  disable: Forgeを使用しない
+  empty: Minecraft {version} 用のForgeがありません
+  latest: 最新
+  recommended: 推奨
 gameType:
-  adventure: ã‚¢ãƒ‰ãƒ™ãƒ³ãƒãƒ£ãƒ¼ãƒ¢ãƒ¼ãƒ‰
-  creative: ã‚¯ãƒªã‚¨ã‚¤ãƒ†ã‚£ãƒ–ãƒ¢ãƒ¼ãƒ‰
-  spectator: ã‚¹ãƒšã‚¯ãƒ†ã‚¤ã‚¿ãƒ¼ãƒ¢ãƒ¼ãƒ‰
-  survival: ã‚µãƒã‚¤ãƒãƒ«ãƒ¢ãƒ¼ãƒ‰
-help: ãƒ˜ãƒ«ãƒ—
-home: ãƒ›ãƒ¼ãƒ 
+  adventure: アドベンチャーモード
+  creative: クリエイティブモード
+  spectator: スペクテイターモード
+  survival: サバイバルモード
+help: ヘルプ
+home: ホーム
 importModpack:
-  name: Modpackã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
+  name: Modpackをインポート
 installAssets:
-  asset: '{count} å€‹ã®ã‚¢ã‚»ãƒƒãƒˆã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«'
-  assetIndex: ã‚¢ã‚»ãƒƒãƒˆã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç¢ºèª
-  name: ã‚¢ã‚»ãƒƒãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-installAuthlibInjector: authlib-injectorã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-installCurseforgeFile: Curseforge ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  asset: '{count} 個のアセットをインストール'
+  assetIndex: アセットインデックスファイルを確認
+  name: アセットファイルをインストール
+installAuthlibInjector: authlib-injectorをインストール
+installCurseforgeFile: Curseforge ファイルをインストール
 installFabric:
-  name: Fabric ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  name: Fabric をインストール
 installForge:
-  downloadInstaller: ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
-  name: Forge ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-  postProcessing: ãƒã‚¹ãƒˆãƒ—ãƒ­ã‚»ãƒƒã‚·ãƒ³ã‚°
+  downloadInstaller: インストーラーをダウンロード
+  name: Forge をインストール
+  postProcessing: ポストプロセッシング
 installInstance:
-  file: èµ·å‹•æ§‹æˆãƒ•ã‚¡ã‚¤ãƒ« {file} ã‚’ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
-  link: '{count} å€‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚³ãƒ”ãƒ¼ã€ã¾ãŸã¯ãƒªãƒ³ã‚¯'
-  name: èµ·å‹•æ§‹æˆã‚’ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
-  resolve: èµ·å‹•æ§‹æˆã‚’è§£æ±º
-  unzip: '{count} å€‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’è§£å‡'
+  file: 起動構成ファイル {file} をアップデート
+  link: '{count} 個のファイルをコピー、またはリンク'
+  name: 起動構成をアップデート
+  resolve: 起動構成を解決
+  unzip: '{count} 個のファイルを解凍'
 installJre:
-  decompress: JREã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã«è§£å‡
-  download: åœ§ç¸®ã•ã‚ŒãŸJREã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
-  name: Java Runtime Library (JRE) ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  decompress: JREのファイルをフォルダーに解凍
+  download: 圧縮されたJREのファイルをダウンロード
+  name: Java Runtime Library (JRE) をインストール
 installLabyMod:
-  name: LabyModã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  name: LabyModをインストール
 installLibraries:
-  library: ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-  name: ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  library: ライブラリをインストール
+  name: ライブラリをインストール
 installModrinthFile:
-  name: Modrinthã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  name: Modrinthをインストール
 installOptifine:
-  download: Optifine Universalã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
-  name: Optifine ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  download: Optifine Universalをダウンロード
+  name: Optifine をインストール
 installVersion:
-  jar: Jarãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-  json: Jsonãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-  name: Minecraft Client {version} ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  jar: Jarファイルをインストール
+  json: Jsonファイルをインストール
+  name: Minecraft Client {version} をインストール
 instance:
-  changeIcon: ã‚¢ã‚¤ã‚³ãƒ³ã‚’å¤‰æ›´
-  contents: ã‚³ãƒ³ãƒ†ãƒ³ãƒ„
-  current: ç¾åœ¨ã®èµ·å‹•æ§‹æˆ
-  delete: ã‚²ãƒ¼ãƒ ã‚’å‰Šé™¤
-  deleteFailed: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®å‰Šé™¤ã«å¤±æ•—ã—ã¾ã—ãŸ
-  deleteFailedPermission: ä»–ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ãŒãƒ•ã‚¡ã‚¤ãƒ«ã‚’å æœ‰ã—ã¦ã„ã¾ã™
-  deleteFile: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤
-  deleteHint: èµ·å‹•æ§‹æˆã¯ãƒ‡ã‚£ã‚¹ã‚¯ã‹ã‚‰æ°¸ä¹…ã«å‰Šé™¤ã•ã‚Œã¾ã™ã€‚ç¶šè¡Œã—ã¾ã™ã‹?
-  duplicate: ã‚²ãƒ¼ãƒ ã‚’è¤‡è£½
-  duplicatedName: è¤‡è£½ã•ã‚ŒãŸåå‰
-  fileApi: ãƒ•ã‚¡ã‚¤ãƒ«åŒæœŸã‚µãƒ¼ãƒãƒ¼ã®APIã®URL
-  fileApiHint: ã“ã®URLã¯ãƒªãƒ¢ãƒ¼ãƒˆã®åŒæœŸã‚µãƒ¼ãƒãƒ¼ã‹ã‚‰èµ·å‹•æ§‹æˆãƒ•ã‚¡ã‚¤ãƒ«ã‚’åŒæœŸã—ã¾ã™ã€‚
-  fullscreen: å…¨ç”»é¢è¡¨ç¤º
-  height: èº«é•·
-  icon: ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚¢ã‚¤ã‚³ãƒ³
-  iconHint: ãƒ•ã‚¡ã‚¤ãƒ«ã‹ç”»åƒã®URLãŒä½¿ç”¨ã§ãã¾ã™ã€‚
-  iconUrl: ã‚¢ã‚¤ã‚³ãƒ³ã®URL
-  installModpack: ModPackã‹ã‚‰ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’æ›´æ–°ã—ã¾ã™
-  lastPlayed: æœ€å¾Œã«ãƒ—ãƒ¬ã‚¤
-  launchArguments: èµ·å‹•å¼•æ•°ã®ãƒ—ãƒ¬ãƒ“ãƒ¥ãƒ¼
-  launchServer: Localhostã‚µãƒ¼ãƒãƒ¼ã‚’ç«‹ã¡ä¸Šã’ã‚‹
+  changeIcon: アイコンを変更
+  contents: コンテンツ
+  current: 現在の起動構成
+  delete: ゲームを削除
+  deleteFailed: インスタンスの削除に失敗しました
+  deleteFailedPermission: 他のプログラムがファイルを占有しています
+  deleteFile: インスタンスのファイルを削除
+  deleteHint: 起動構成はディスクから永久に削除されます。続行しますか?
+  duplicate: ゲームを複製
+  duplicatedName: 複製された名前
+  fileApi: ファイル同期サーバーのAPIのURL
+  fileApiHint: このURLはリモートの同期サーバーから起動構成ファイルを同期します。
+  fullscreen: 全画面表示
+  height: 身長
+  icon: プロファイルアイコン
+  iconHint: ファイルか画像のURLが使用できます。
+  iconUrl: アイコンのURL
+  installModpack: ModPackからインスタンスを更新します
+  lastPlayed: 最後にプレイ
+  launchArguments: 起動引数のプレビュー
+  launchServer: Localhostサーバーを立ち上げる
   linkFileDesc: |-
-    ã“ã‚Œã¯ãƒ­ãƒ¼ã‚«ãƒ«ã®{file}ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’ã‚°ãƒ­ãƒ¼ãƒãƒ«ã®{file}ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã§ä¸Šæ›¸ãã—ã¾ã™ã€‚
-    æœ¬å½“ã«ãƒžãƒ¼ã‚¸ã—ã¾ã™ã‹ï¼Ÿ
-  linkFileTitle: æœ¬å½“ã«{file}ã‚’ãƒªãƒ³ã‚¯ã—ã¾ã™ã‹ï¼Ÿ
-  mcOptions: Minecraftã®ã‚ªãƒ—ã‚·ãƒ§ãƒ³
-  mcOptionsHint: è¿½åŠ ã®Minecraftå®Ÿè¡Œå¼•æ•°
-  name: èµ·å‹•æ§‹æˆã®åå‰
-  nameHint: Modpackã®åå‰
-  nameNoCyrillic: ã‚­ãƒªãƒ«æ–‡å­—ã¯ä½¿ç”¨ã§ãã¾ã›ã‚“
-  neverPlayed: æœªãƒ—ãƒ¬ã‚¤
-  openCrashReportFolder: ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ãƒ¬ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒ«ãƒ€ã‚’é–‹ã
-  openLogFolder: ãƒ­ã‚°ãƒ•ã‚©ãƒ«ãƒ€ã‚’é–‹ã
-  playtime: ãƒ—ãƒ¬ã‚¤æ™‚é–“
-  preExecCommand: ãƒ—ãƒ¬ã‚¹ã‚¿ãƒ¼ãƒˆãƒ»ã‚³ãƒžãƒ³ãƒ‰
-  preExecCommandHint: Minecraftã‚’èµ·å‹•ã™ã‚‹å‰ã«å®Ÿè¡Œã™ã‚‹ã‚³ãƒžãƒ³ãƒ‰
-  prependCommand: å…ˆé ­ã«ã‚³ãƒžãƒ³ãƒ‰ã‚’è¿½åŠ 
-  prependCommandHint: å…¨ã¦ã®èµ·å‹•ã‚³ãƒžãƒ³ãƒ‰ã®å…ˆé ­ã«è¿½åŠ ã•ã‚Œã¾ã™
-  requireName: åå‰ã¯å¿…é ˆé …ç›®ã§ã™
-  resolution: è§£åƒåº¦
-  resolutionPreset: è§£åƒåº¦ãƒ—ãƒªã‚»ãƒƒãƒˆ
-  showInstance: ã‚²ãƒ¼ãƒ ãƒ•ã‚©ãƒ«ãƒ€ã‚’é–‹ã
-  updates: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
-  useSharedOptions: ä¸€èˆ¬çš„ãªã‚²ãƒ¼ãƒ è¨­å®šã‚’ä½¿ç”¨ã™ã‚‹
-  useSharedOptionsDesc: ã“ã‚Œã§options.txtãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®å…±æœ‰ãƒ•ã‚¡ã‚¤ãƒ«ã«ãƒªãƒ³ã‚¯ã•ã‚Œã‚‹ã€‚
-  useSharedServersList: å…±æœ‰ã‚µãƒ¼ãƒãƒ¼ã®ãƒªã‚¹ãƒˆã‚’ä½¿ã†
-  useSharedServersListDesc: ã“ã‚Œã«ã‚ˆã‚Šã€server.datãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®å…±æœ‰ãƒ•ã‚¡ã‚¤ãƒ«ã«ãƒªãƒ³ã‚¯ã•ã‚Œã‚‹ã€‚
-  vmOptions: JVMå®Ÿè¡Œå¼•æ•°
-  vmOptionsHint: JVMã«æ¸¡ã•ã‚Œã‚‹è¿½åŠ ã®å¼•æ•°
-  vmVar: ç’°å¢ƒå¤‰æ•°
-  vmVarHint: ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ç’°å¢ƒå¤‰æ•°ã‚’è¿½åŠ ã—ã¾ã™
-  width: å¹…
-  envVarKey: ã‚­ãƒ¼
-  envVarValue: å€¤
+    これはローカルの{file}インスタンスをグローバルの{file}インスタンスで上書きします。
+    本当にマージしますか？
+  linkFileTitle: 本当に{file}をリンクしますか？
+  mcOptions: Minecraftのオプション
+  mcOptionsHint: 追加のMinecraft実行引数
+  name: 起動構成の名前
+  nameHint: Modpackの名前
+  nameNoCyrillic: キリル文字は使用できません
+  neverPlayed: 未プレイ
+  openCrashReportFolder: クラッシュレポートフォルダを開く
+  openLogFolder: ログフォルダを開く
+  playtime: プレイ時間
+  preExecCommand: プレスタート・コマンド
+  preExecCommandHint: Minecraftを起動する前に実行するコマンド
+  prependCommand: 先頭にコマンドを追加
+  prependCommandHint: 全ての起動コマンドの先頭に追加されます
+  requireName: 名前は必須項目です
+  resolution: 解像度
+  resolutionPreset: 解像度プリセット
+  showInstance: ゲームフォルダを開く
+  updates: アップデート
+  useSharedOptions: 一般的なゲーム設定を使用する
+  useSharedOptionsDesc: これでoptions.txtファイルがインスタンスの共有ファイルにリンクされる。
+  useSharedServersList: 共有サーバーのリストを使う
+  useSharedServersListDesc: これにより、server.datファイルがインスタンスの共有ファイルにリンクされる。
+  vmOptions: JVM実行引数
+  vmOptionsHint: JVMに渡される追加の引数
+  vmVar: 環境変数
+  vmVarHint: ボタンをクリックして環境変数を追加します
+  width: 幅
+  envVarKey: キー
+  envVarValue: 値
   envVarKeyPlaceholder: MY_VAR
-  envVarValuePlaceholder: å€¤
-  fileApiPlaceholder: ãƒªã‚½ãƒ¼ã‚¹ã‚’åŒæœŸã•ã›ãŸã„å ´åˆã¯ã€ã“ã“ã«ãƒªãƒ¢ãƒ¼ãƒˆåŒæœŸURLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
+  envVarValuePlaceholder: 値
+  fileApiPlaceholder: リソースを同期させたい場合は、ここにリモート同期URLを入力してください
 instanceAge:
-  older: å¤ã„
-  threeDay: ä¸‰æ—¥ä»¥å†…
-  today: ä»Šæ—¥
+  older: 古い
+  threeDay: 三日以内
+  today: 今日
 instanceDiscover:
-  gameFolder: '{count} å€‹ã®ã‚²ãƒ¼ãƒ  ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’ç™ºè¦‹ã™ã‚‹'
-  instanceFolder: '{count} å€‹ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ãŒè¦‹ã¤ã‹ã‚Šã¾ã—ãŸ'
+  gameFolder: '{count} 個のゲーム フォルダーを発見する'
+  instanceFolder: '{count} 個のインスタンスが見つかりました'
 instanceFileOperation:
-  add: è¿½åŠ 
-  backup-add: ç½®ãæ›ãˆã‚‹ (ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—)
-  backup-remove: å‰Šé™¤ã™ã‚‹ (ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—)
-  keep: ä¿æŒã™ã‚‹
-  remove: å‰Šé™¤
+  add: 追加
+  backup-add: 置き換える (バックアップ)
+  backup-remove: 削除する (バックアップ)
+  keep: 保持する
+  remove: 削除
 instanceInstallSkip:
-  ignore: ç„¡è¦–ã™ã‚‹
-  skip: ã‚¹ã‚­ãƒƒãƒ—
-  title: ç ´æã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã‚½ãƒ¼ã‚¹ã®å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™
+  ignore: 無視する
+  skip: スキップ
+  title: 破損したファイルソースの可能性があります
   warning: |-
-    ä¸€éƒ¨ã®ãƒ•ã‚¡ã‚¤ãƒ«ã¯ã€ãƒã‚§ãƒƒã‚¯ã‚µãƒ ãŒä¸€è‡´ã—ãªã„çŠ¶æ…‹ã§è¤‡æ•°å›žãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã•ã‚Œã¾ã™ã€‚
-    ã“ã‚Œã¯ã€å…ƒã®ãƒã‚§ãƒƒã‚¯ã‚µãƒ ãŒæ­£ã—ããªã„ã“ã¨ãŒåŽŸå› ã§ã‚ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
-    ãƒã‚§ãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚
-    ç¾åœ¨ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒæœ‰åŠ¹ã§ã‚ã‚‹ã“ã¨ã‚’ç¢ºèªã—ãŸå ´åˆã¯ã€æ¤œè¨¼ãƒã‚§ãƒƒã‚¯ã‚’ã‚¹ã‚­ãƒƒãƒ—ã§ãã¾ã™ã€‚
+    一部のファイルは、チェックサムが一致しない状態で複数回ダウンロードされます。
+    これは、元のチェックサムが正しくないことが原因である可能性があります。
+    チェックしてください。
+    現在のファイルが有効であることを確認した場合は、検証チェックをスキップできます。
 instanceSetting:
-  disableAuthlibInjector: authlib injectorã‚’ç„¡åŠ¹åŒ–ã™ã‚‹
-  disableAuthlibInjectorDescription: ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£ã®ã‚¹ã‚­ãƒ³ã‚·ã‚¹ãƒ†ãƒ ã‚’ä½¿ç”¨ã—ã¦ã„ã‚‹ã®ãªã‚‰ã°ã€authlib injectorã¯ã‚¹ã‚­ãƒ³ã®è¡¨ç¤ºã«å½¹ç«‹ã¡ã¾ã™ã€‚
-  disableElyByAuthlib: ely.by ã®authlibã®ç½®ãæ›ãˆã‚’ç„¡åŠ¹åŒ–
-  disableElyByAuthlibDescription: ely.by ã¯ãƒ¦ãƒ‹ãƒ¼ã‚¯ãªauthlibã®ç½®ãæ›ãˆã§ã©ã®ã‚µãƒ¼ãƒãƒ¼ã§ã‚‚äº’æ›æ€§ã‚’ä¿ã¡ã‚¹ã‚­ãƒ³ã‚’è¡¨ç¤ºã§ãã¾ã™ã€‚
-  fastLaunch: é«˜é€Ÿèµ·å‹•
-  fastLaunchHint: ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã¨å•é¡Œã‚’ç„¡è¦–ã—ã¾ã™
-  hideLauncher: ã‚²ãƒ¼ãƒ ã®èµ·å‹•å¾Œãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’éš ã™
-  icon: ç”»åƒã‚’é¸æŠž
-  showLog: Minecraftã®ãƒ­ã‚°ã‚’è¡¨ç¤º
-  showLogHint: ã‚²ãƒ¼ãƒ èµ·å‹•å¾Œã«Minecraftã®ãƒ­ã‚°ã‚’æµã™ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’è¡¨ç¤ºã—ã¾ã™
+  disableAuthlibInjector: authlib injectorを無効化する
+  disableAuthlibInjectorDescription: サードパーティのスキンシステムを使用しているのならば、authlib injectorはスキンの表示に役立ちます。
+  disableElyByAuthlib: ely.by のauthlibの置き換えを無効化
+  disableElyByAuthlibDescription: ely.by はユニークなauthlibの置き換えでどのサーバーでも互換性を保ちスキンを表示できます。
+  fastLaunch: 高速起動
+  fastLaunchHint: ユーザーステータスと問題を無視します
+  hideLauncher: ゲームの起動後ランチャーを隠す
+  icon: 画像を選択
+  showLog: Minecraftのログを表示
+  showLogHint: ゲーム起動後にMinecraftのログを流すポップアップウィンドウを表示します
 instanceTemplate:
-  ftb: FTB ã®Modpackã§ã™
-  preview: Modpackã®ãƒ—ãƒ¬ãƒ“ãƒ¥ãƒ¼
+  ftb: FTB のModpackです
+  preview: Modpackのプレビュー
 instanceUpdate:
-  basic: è¨­å®šã®æ›´æ–°
-  files: ãƒ•ã‚¡ã‚¤ãƒ«ã®ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
+  basic: 設定の更新
+  files: ファイルのアップデート
   loaderChanged: >-
-    ã“ã®èµ·å‹•æ§‹æˆã®ModloaderãŒå¤‰æ›´ã•ã‚Œã¾ã—ãŸã€‚ä»¥å‰ã®Modloaderã¯ {modloader}, ç¾åœ¨ã®Modloacerã¯ {newModLoader}ã§ã™ã€‚
+    この起動構成のModloaderが変更されました。以前のModloaderは {modloader}, 現在のModloacerは {newModLoader}です。
   summary: |-
-    {add}ãƒ•ã‚¡ã‚¤ãƒ«ã‚’è¿½åŠ ã—ã¾ã™ã€‚
-    {remove}ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å‰Šé™¤ã—ã¾ã™ã€‚
-    {keep}ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä¿æŒã—ã¾ã™ã€‚
-  title: èµ·å‹•æ§‹æˆã®æ›´æ–°
-  update: æ›´æ–°ã‚’é–‹å§‹
+    {add}ファイルを追加します。
+    {remove}ファイルを削除します。
+    {keep}ファイルを保持します。
+  title: 起動構成の更新
+  update: 更新を開始
 instances:
-  add: ã‚²ãƒ¼ãƒ ã‚’ä½œæˆ
+  add: ゲームを作成
   addCurseForgeDescription: |-
-    Cursforge ãƒ‡ãƒ¼ã‚¿ ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‹ã‚‰ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã¾ã™ã€‚
-    Cursforgeã®ãƒ«ãƒ¼ãƒˆãƒ‡ãƒ¼ã‚¿ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’é¸æŠžã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™
-  addDescription: æ–°ã—ã„èµ·å‹•æ§‹æˆã‚’1ã‹ã‚‰ä½œã‚‹
+    Cursforge データ フォルダーからインポートします。
+    Cursforgeのルートデータフォルダーを選択する必要があります
+  addDescription: 新しい起動構成を1から作る
   addMMCDescription: |-
-    æ—¢å­˜ã® MultiMC ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã¾ã™ã€‚
-    MultiMC ã‹ã‚‰ãƒ‡ãƒ¼ã‚¿ ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’é¸æŠžã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
-  addManually: æ‰‹å‹•ã§ä½œæˆ
+    既存の MultiMC インスタンスをインポートします。
+    MultiMC からデータ フォルダーを選択する必要があります。
+  addManually: 手動で作成
   addModrinthDescription: |-
-    æ—¢å­˜ã® Modrinth ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã¾ã™ã€‚
-    Modrinth ãƒ«ãƒ¼ãƒˆ ãƒ‡ãƒ¼ã‚¿ ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’é¸æŠžã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
-  addServer: ã‚µãƒ¼ãƒãƒ¼ã‹ã‚‰ä½œæˆ
-  addServerDescription: ã‚²ãƒ¼ãƒ ã‹ã‚‰ç›´æŽ¥ç«‹ã¡ä¸Šã’ã‚‰ã‚Œã‚‹ã‚µãƒ¼ãƒãƒ¼ã‚’ä½œæˆã—ã¾ã™ã€‚
-  addTemplate: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸmodpackã‹ã‚‰ä½œæˆ
-  addTemplateDescription: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã•ã‚ŒãŸModpackã‹ã‚‰ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  addVanilla: Vanilla-LikeãªMinecraftã‹ã‚‰ä½œæˆ
-  addVanillaDescription: ä¸€èˆ¬çš„ãª.minecraftãƒ•ã‚©ãƒ«ãƒ€ã‹ã‚‰ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã¾ã™ã€‚ã“ã‚Œã¯å…ƒã®ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã‚’FastLauncherã«è¤‡è£½ã—ã¾ã™ã€‚
-  fix: ç›´ã™
-  folder: ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼
-  folderSetting: ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã®è¨­å®š
-  importFolderDescription: Minecraftã‚’ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã«ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  loadingFiles: Modpackãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã¿ä¸­
-  addPrismDescription: æ—¢å­˜ã®PrismLauncherã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã€‚
+    既存の Modrinth インスタンスをインポートします。
+    Modrinth ルート データ フォルダーを選択する必要があります。
+  addServer: サーバーから作成
+  addServerDescription: ゲームから直接立ち上げられるサーバーを作成します。
+  addTemplate: ダウンロードしたmodpackから作成
+  addTemplateDescription: ダウンロードされたModpackからインポート
+  addVanilla: Vanilla-LikeなMinecraftから作成
+  addVanillaDescription: 一般的な.minecraftフォルダからインポートします。これは元のプロファイルをFastLauncherに複製します。
+  fix: 直す
+  folder: フォルダー
+  folderSetting: フォルダーの設定
+  importFolderDescription: Minecraftをランチャーにインポート
+  loadingFiles: Modpackファイルを読み込み中
+  addPrismDescription: 既存のPrismLauncherインスタンスをインポート。
 items:
-  count: '{count} å€‹'
-  total: åˆè¨ˆ {total} å€‹
+  count: '{count} 個'
+  total: 合計 {total} 個
 java:
-  allocatedLong: ã‚·ã‚¹ãƒ†ãƒ ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®Javaã‚’ä½¿ç”¨
-  allocatedShort: è‡ªå‹•å‰²ã‚Šå½“ã¦
-  importFromFile: Javaã‚’ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  invalid: Javaã®å ´æ‰€ãŒç„¡åŠ¹ã§ã™
-  location: Javaã®å ´æ‰€
-  maxMemory: æœ€å¤§ãƒ¡ãƒ¢ãƒªãƒ¼å‰²ã‚Šå½“ã¦
-  memory: Java ãƒ¡ãƒ¢ãƒªãƒ¼
-  memoryAuto: è‡ªå‹•
-  memoryManual: æ‰‹å‹•
-  memoryUnassigned: æœªå‰²ã‚Šå½“ã¦
-  minMemory: æœ€ä½Žãƒ¡ãƒ¢ãƒªãƒ¼å‰²ã‚Šå½“ã¦
-  noMemory: ãƒ¡ãƒ¢ãƒªã®ä½¿ç”¨ã‚’åˆ¶é™ã—ãªã„
-  refresh: ãƒ­ãƒ¼ã‚«ãƒ«ã®Javaã‚’ãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥ã™ã‚‹
-  systemMemory: 'ã‚·ã‚¹ãƒ†ãƒ ç©ºããƒ¡ãƒ¢ãƒª: {free} / {total}'
-  allocation: å‰²ã‚Šå½“ã¦æ¸ˆã¿
-  autoHint: æœ€å°å€¤ã¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿Modã®æ•°ã«å¿œã˜ã¦å¢—åŠ ã—ã€æœ€å¤§å€¤ã¯åˆ©ç”¨å¯èƒ½ãªã‚·ã‚¹ãƒ†ãƒ ãƒ¡ãƒ¢ãƒªã‚’ä½¿ç”¨ã—ã¾ã™ã€‚
-  change: å¤‰æ›´
-  locationHint: JavaãŒé¸æŠžã•ã‚Œã¦ã„ã¾ã›ã‚“ â€” ã‚·ã‚¹ãƒ†ãƒ ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚’ä½¿ç”¨
-  openFolder: Javaãƒ•ã‚©ãƒ«ãƒ€ã‚’é–‹ã
-  presets: ãƒ—ãƒªã‚»ãƒƒãƒˆ
+  allocatedLong: システムのデフォルトのJavaを使用
+  allocatedShort: 自動割り当て
+  importFromFile: Javaをファイルからインポート
+  invalid: Javaの場所が無効です
+  location: Javaの場所
+  maxMemory: 最大メモリー割り当て
+  memory: Java メモリー
+  memoryAuto: 自動
+  memoryManual: 手動
+  memoryUnassigned: 未割り当て
+  minMemory: 最低メモリー割り当て
+  noMemory: メモリの使用を制限しない
+  refresh: ローカルのJavaをリフレッシュする
+  systemMemory: 'システム空きメモリ: {free} / {total}'
+  allocation: 割り当て済み
+  autoHint: 最小値はインストール済みModの数に応じて増加し、最大値は利用可能なシステムメモリを使用します。
+  change: 変更
+  locationHint: Javaが選択されていません — システムのデフォルトを使用
+  openFolder: Javaフォルダを開く
+  presets: プリセット
 labyMod:
-  disable: LabyMod ã‚’ä½¿ç”¨ã—ãªã„
-  empty: LabyMod ã¯ç¾åœ¨ã®Minecraftã‚’ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã›ã‚“
+  disable: LabyMod を使用しない
+  empty: LabyMod は現在のMinecraftをサポートしていません
 unauthenticatedWarning:
-  title: ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ã„ã¾ã›ã‚“
-  description: ã©ã®ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã«ã‚‚ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ã„ã¾ã›ã‚“ã€‚ã‚²ãƒ¼ãƒ ã¯ãƒ‡ãƒ¢ãƒ¢ãƒ¼ãƒ‰ã§èµ·å‹•ã—ã¾ã™ã€‚ã™ã¹ã¦ã®æ©Ÿèƒ½ã‚’ä½¿ã†ã«ã¯ã‚µã‚¤ãƒ³ã‚¤ãƒ³ã—ã¦ãã ã•ã„ã€‚
-  cancel: ã‚­ãƒ£ãƒ³ã‚»ãƒ«
-  login: ã‚µã‚¤ãƒ³ã‚¤ãƒ³
-  playAnyway: ãã‚Œã§ã‚‚ãƒ—ãƒ¬ã‚¤
+  title: ログインしていません
+  description: どのアカウントにもログインしていません。ゲームはデモモードで起動します。すべての機能を使うにはサインインしてください。
+  cancel: キャンセル
+  login: サインイン
+  playAnyway: それでもプレイ
 launch:
-  cancel: ã‚­ãƒ£ãƒ³ã‚»ãƒ«
-  createShortcut: ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã‚’ä½œæˆã—ã¾ã™
-  kill: åœæ­¢
-  killServer: Localhost Serverã‚’çµ‚äº†
-  launch: èµ·å‹•
-  launchAnyway: ã©ã¡ã‚‰ã§ã‚‚èµ°ã‚Œã‚‹
-  launchAs: åˆ¥ã®ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã§èµ·å‹•
-  forceKill: å¼·åˆ¶çµ‚äº†
+  cancel: キャンセル
+  createShortcut: ショートカットを作成します
+  kill: 停止
+  killServer: Localhost Serverを終了
+  launch: 起動
+  launchAnyway: どちらでも走れる
+  launchAs: 別のアカウントで起動
+  forceKill: 強制終了
 launchBlocked:
   launchBadVersion:
-    description: ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ {version} ã®jsonã¯ã“ã‚ã‚Œã¦ã„ã¾ã™ã€‚ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ã¨è§£æ±ºã™ã‚‹ã‹ã‚‚ã—ã‚Œã¾ã›ã‚“?
-    title: ç ´æã—ãŸãƒãƒ¼ã‚¸ãƒ§ãƒ³JSON
+    description: このバージョン {version} のjsonはこわれています。このバージョンを再インストールすると解決するかもしれません?
+    title: 破損したバージョンJSON
   launchGeneralException:
-    description: ã„ãã¤ã‹ã®ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã€èµ·å‹•ã«å¤±æ•—ã—ã¾ã—ãŸã€‚
-    title: èµ·å‹•ã«å¤±æ•—
+    description: いくつかのエラーが発生し、起動に失敗しました。
+    title: 起動に失敗
   launchInvalidJavaPath:
     description: >-
-      é¸æŠžã•ã‚ŒãŸJavaã¯å­˜åœ¨ã—ãªã„ã‹ã€ç„¡åŠ¹ã§ã™ã€‚ä»–ã®Javaã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚<span class="highlight"> {javaPath} </span>
-    title: ç„¡åŠ¹ãªJavaãƒ‘ã‚¹
+      選択されたJavaは存在しないか、無効です。他のJavaを選択してください。<span class="highlight"> {javaPath} </span>
+    title: 無効なJavaパス
   launchJavaNoPermission:
     description: >-
-      ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯Java <span class="highlight"> {javaPath} </span> ã‚’å®Ÿè¡Œã™ã‚‹æ¨©é™ãŒã‚ã‚Šã¾ã›ã‚“ã€‚Javaã®ãƒ•ã‚¡ã‚¤ãƒ«ã®æ¨©é™ã‚’å¤‰æ›´ã™ã‚‹ã‹ã€ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã®æ¨©é™ã‚’æ˜‡æ ¼ã—ã¦ãã ã•ã„ã€‚
-    title: èµ·å‹•ã™ã‚‹æ¨©é™ãŒä¸è¶³
+      ランチャーはJava <span class="highlight"> {javaPath} </span> を実行する権限がありません。Javaのファイルの権限を変更するか、ランチャーの権限を昇格してください。
+    title: 起動する権限が不足
   launchNoProperJava:
-    description: ã‚²ãƒ¼ãƒ ã‚’èµ·å‹•ã™ã‚‹ãŸã‚ã®é©åˆ‡ãªJavaãŒã‚ã‚Šã¾ã›ã‚“ã€‚ ({javaPath}ãŒç„¡åŠ¹ã‹ã‚‚ã—ã‚Œã¾ã›ã‚“)
-    title: é©åˆ‡ãªJavaãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
+    description: ゲームを起動するための適切なJavaがありません。 ({javaPath}が無効かもしれません)
+    title: 適切なJavaが見つかりません
   launchNoVersionInstalled:
-    description: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ <span class="highlight">{version}</span> ã‚’èµ·å‹•ã§ãã¾ã›ã‚“
-    title: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒé¸æŠžã•ã‚Œã¦ã„ã¾ã›ã‚“
+    description: バージョン <span class="highlight">{version}</span> を起動できません
+    title: バージョンが選択されていません
   launchSpawnProcessFailed:
-    description: Javaã‚’ç¢ºèªã™ã‚‹ã‹ã€ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã«å¤šãã®æ¨©é™ã‚’ä¸Žãˆã¦å†åº¦è©¦ã—ã¦ãã ã•ã„ã€‚ã‚‚ã—åŠ¹æžœãŒãªã‘ã‚Œã°ã€é–‹ç™ºè€…ã«é€£çµ¡ã—ã¦ãã ã•ã„ã€‚
-    title: ã‚²ãƒ¼ãƒ ãƒ—ãƒ­ã‚»ã‚¹ã®èµ·å‹•ã«å¤±æ•—
-  unexpectedText: ã“ã‚Œã¯äºˆæœŸã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚å•é¡Œã‚’è»½æ¸›ã™ã‚‹ãŸã‚ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’å†èµ·å‹•ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚ã‚‚ã—å†åº¦èµ·ã“ã£ãŸã‚‰è‘—è€…ã«é€£çµ¡ã—ã¦ãã ã•ã„ã€‚
+    description: Javaを確認するか、ランチャーに多くの権限を与えて再度試してください。もし効果がなければ、開発者に連絡してください。
+    title: ゲームプロセスの起動に失敗
+  unexpectedText: これは予期されていません。問題を軽減するためランチャーを再起動することができます。もし再度起こったら著者に連絡してください。
 launchFailed:
-  crash: ã‚²ãƒ¼ãƒ ãŒã‚¯ãƒ©ãƒƒã‚·ãƒ¥ã—ã¾ã—ãŸ!!!!
-  description: ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ãƒ¬ãƒãƒ¼ãƒˆã¯ã‚ã‚Šã¾ã›ã‚“ã€‚ã‚¨ãƒ©ãƒ¼ãƒ­ã‚°ã¨æœ€æ–°ã®ãƒ­ã‚°ã§ã™ã€‚
+  crash: ゲームがクラッシュしました!!!!
+  description: クラッシュレポートはありません。エラーログと最新のログです。
   elyByAuthlib:
     description: >-
-      Minecraft ãƒãƒ¼ã‚¸ãƒ§ãƒ³ {version} ã«å¯¾ã—ã¦ Ely.by ã® Authlib ç½®æ›ãŒä½¿ç”¨ã•ã‚Œã¾ã—ãŸãŒã€ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã¯å®Œå…¨ã«äº’æ›æ€§ãŒãªã„å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
-    suggestion: ã“ã®å•é¡Œã‚’å›žé¿ã™ã‚‹ã«ã¯ã€ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹è¨­å®šã§ Ely.by ã® Authlib ç½®æ›ã‚’ç„¡åŠ¹ã«ã§ãã¾ã™ã€‚
-    title: Ely.by Authlib ã®äº’æ›æ€§ã®å•é¡Œ
-  failedToLaunch: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã®èµ·å‹•ã«å¤±æ•—
-  latestLog: æœ€æ–°ã®ãƒ­ã‚°
-  title: ã‚²ãƒ¼ãƒ ãŒç•°å¸¸ãªã‚³ãƒ¼ãƒ‰ã§çµ‚äº†ã—ã¾ã—ãŸ
+      Minecraft バージョン {version} に対して Ely.by の Authlib 置換が使用されましたが、このバージョンは完全に互換性がない可能性があります。
+    suggestion: この問題を回避するには、インスタンス設定で Ely.by の Authlib 置換を無効にできます。
+    title: Ely.by Authlib の互換性の問題
+  failedToLaunch: ランチャーの起動に失敗
+  latestLog: 最新のログ
+  title: ゲームが異常なコードで終了しました
 launchStatus:
-  assigningMemory: ãƒ¡ãƒ¢ãƒªã‚’å‰²ã‚Šå½“ã¦ä¸­
+  assigningMemory: メモリを割り当て中
   elyByWarning: >-
-    Ely.by ã® Authlib ç½®æ›ãŒæœ‰åŠ¹ã«ãªã£ã¦ã„ã¾ã™ã€‚ã„ãã¤ã‹ã® Minecraft ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã¯äº’æ›æ€§ãŒãªãã€ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚å•é¡ŒãŒç™ºç”Ÿã—ãŸå ´åˆã¯ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹è¨­å®šã§ç„¡åŠ¹ã«ã—ã¦ãã ã•ã„ã€‚
-  exit: ã‚²ãƒ¼ãƒ ã‚’çµ‚äº†ã—ã¾ã™ã‹?
-  injectingAuthLib: ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£AuthLibã‚’è¨­å®šä¸­
-  launching: èµ·å‹•ä¸­...
-  launchingSlow: ã¾ã èµ·å‹•ä¸­ã§ã™... ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ã‚¹ã‚¨ãƒ³ã‚¸ãƒ³ã®ç«‹ã¡ä¸Šã’ã¯æ™‚é–“ãŒã‹ã‹ã‚‹ã‹ã‚‚ã—ã‚Œã¾ã›ã‚“...
-  refreshingUser: ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒˆãƒ¼ã‚¯ãƒ³ã‚’æ›´æ–°ä¸­
-  spawningProcess: ãƒ—ãƒ­ã‚»ã‚¹ã‚’ç”Ÿæˆä¸­
+    Ely.by の Authlib 置換が有効になっています。いくつかの Minecraft バージョンは互換性がなく、クラッシュする可能性があります。問題が発生した場合はインスタンス設定で無効にしてください。
+  exit: ゲームを終了しますか?
+  injectingAuthLib: サードパーティAuthLibを設定中
+  launching: 起動中...
+  launchingSlow: まだ起動中です... グラフィックスエンジンの立ち上げは時間がかかるかもしれません...
+  refreshingUser: ユーザートークンを更新中
+  spawningProcess: プロセスを生成中
 launcherUpdate:
-  alreadyLatest: æœ€æ–°ã®çŠ¶æ…‹ã§ã™
-  installAndQuit: å†èµ·å‹•ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™
-  noUpdateAvailable: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã¯ã‚ã‚Šã¾ã›ã‚“
-  updateToThisVersion: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  alreadyLatest: 最新の状態です
+  installAndQuit: 再起動してインストールします
+  noUpdateAvailable: アップデートはありません
+  updateToThisVersion: ダウンロードしてインストール
 localVersion:
-  auto: è‡ªå‹•ã§è¨ˆç®—æ¸ˆã¿
-  empty: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã›ã‚“
-  hint: ç‰¹å®šã®ãƒ­ãƒ¼ã‚«ãƒ«ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’ç›´æŽ¥èµ·å‹•ã™ã‚‹
-  reinstallDescription: ã‚‚ã—ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã«å•é¡ŒãŒã‚ã‚‹ã®ãªã‚‰ã€å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’è©¦ã™ã“ã¨ãŒã§ãã¾ã™ã€‚
-  reinstallTitle: å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ« {version}
-  title: ãƒ­ãƒ¼ã‚«ãƒ«ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+  auto: 自動で計算済み
+  empty: バージョンがインストールされていません
+  hint: 特定のローカルバージョンを直接起動する
+  reinstallDescription: もしこのバージョンのインストールに問題があるのなら、再インストールを試すことができます。
+  reinstallTitle: 再インストール {version}
+  title: ローカルバージョン
 logLevel:
-  error: ã‚¨ãƒ©ãƒ¼
-  info: æƒ…å ±
-  success: æˆåŠŸ
-  warning: è­¦å‘Š
+  error: エラー
+  info: 情報
+  success: 成功
+  warning: 警告
 logView:
-  searchPlaceholder: ãƒ­ã‚°ã‚’æ¤œç´¢...
+  searchPlaceholder: ログを検索...
 login:
-  dropHint: ã“ã“ã«èªè¨¼ã‚³ãƒ¼ãƒ‰ã‚’å«ã‚“ã URLã‚’ãƒ‰ãƒ­ãƒƒãƒ—ã™ã‚‹ã“ã¨ã§æ‰‹å‹•ã§ãƒ­ã‚°ã‚¤ãƒ³ã§ãã¾ã™
-  forgetPassword: ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å¿˜ã‚Œã¾ã—ãŸã‹?
-  login: ãƒ­ã‚°ã‚¤ãƒ³
-  manualLoginUrl: ã‚‚ã—ãƒ–ãƒ©ã‚¦ã‚¶ãŒè¡¨ç¤ºã•ã‚Œãªã‹ã£ãŸã‚‰ã€ã“ã®ãƒªãƒ³ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦èªè¨¼ã—ã¦ãã ã•ã„!
-  signup: ã‚µã‚¤ãƒ³ã‚¢ãƒƒãƒ—
-  signupDescription: åˆã‚ã¦ã§ã™ã‹?
-  userRelogin: ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®ãƒˆãƒ¼ã‚¯ãƒ³ã®æœŸé™ãŒåˆ‡ã‚Œã¾ã—ãŸã€‚å†ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ãã ã•ã„!
+  dropHint: ここに認証コードを含んだURLをドロップすることで手動でログインできます
+  forgetPassword: パスワードを忘れましたか?
+  login: ログイン
+  manualLoginUrl: もしブラウザが表示されなかったら、このリンクをクリックして認証してください!
+  signup: サインアップ
+  signupDescription: 初めてですか?
+  userRelogin: アカウントのトークンの期限が切れました。再ログインしてください!
 loginError:
-  acquireMicrosoftTokenFailed: Microsoftãƒˆãƒ¼ã‚¯ãƒ³ã®å–å¾—ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ãŠãã‚‰ããƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã«å•é¡ŒãŒã‚ã‚Šã¾ã™ã€‚å†åº¦è©¦ã—ã¦ãã ã•ã„ã€‚
-  badNetworkOrServer: ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã®æŽ¥ç¶šçŠ¶æ…‹ã‚’ç¢ºèªã—ã¦ãã ã•ã„! ã¾ãŸã¯èªè¨¼ã‚µãƒ¼ãƒãƒ¼ãŒãƒ€ã‚¦ãƒ³ã—ã¦ã„ã¾ã™!
-  checkOwnershipFailed: ã‚²ãƒ¼ãƒ ã®æ‰€æœ‰æ¨©ã®ç¢ºèªã«å¤±æ•—ã—ã¾ã—ãŸã€‚å†åº¦è©¦ã—ã¦ãã ã•ã„ã€‚
-  connectionReset: ã‚µãƒ¼ãƒãƒ¼ã‹ã‚‰ã®æŽ¥ç¶šã®ãƒªã‚»ãƒƒãƒˆã«ã‚ˆã‚Šãƒ­ã‚°ã‚¤ãƒ³ã«å¤±æ•—ã—ã¾ã—ãŸ
-  fetchMinecraftProfileFailed: Minecraftãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã®å–å¾—ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ {reason}
-  illegalEmail: ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ãŒç„¡åŠ¹ã§ã™
-  invalidCredentials: èªè¨¼æƒ…å ±ãŒç„¡åŠ¹ã§ã™ã€‚ãƒ¦ãƒ¼ã‚¶ãƒ¼åã¾ãŸã¯ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒé–“é•ã£ã¦ã„ã¾ã™ã€‚
+  acquireMicrosoftTokenFailed: Microsoftトークンの取得に失敗しました。おそらくネットワークに問題があります。再度試してください。
+  badNetworkOrServer: ネットワークの接続状態を確認してください! または認証サーバーがダウンしています!
+  checkOwnershipFailed: ゲームの所有権の確認に失敗しました。再度試してください。
+  connectionReset: サーバーからの接続のリセットによりログインに失敗しました
+  fetchMinecraftProfileFailed: Minecraftプロファイルの取得に失敗しました。 {reason}
+  illegalEmail: メールアドレスが無効です
+  invalidCredentials: 認証情報が無効です。ユーザー名またはパスワードが間違っています。
   loginMinecraftByXboxFailed: >-
-    Xboxãƒˆãƒ¼ã‚¯ãƒ³ã®Minecraftãƒˆãƒ¼ã‚¯ãƒ³ã¸ã®å¼•ãæ›ãˆã«å¤±æ•—ã—ã¾ã—ãŸã€‚Xboxã§Minecraftã‚’æ‰€æŒã—ã¦ã„ã‚‹ã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚å†åº¦è©¦ã—ã¦ãã ã•ã„ã€‚
+    XboxトークンのMinecraftトークンへの引き換えに失敗しました。XboxでMinecraftを所持しているか確認してください。再度試してください。
   loginXboxAgeRestricted: |-
-    å¹´é½¢ã®å•é¡ŒãŒåŽŸå› ã§Xboxã®ãƒ­ã‚°ã‚¤ãƒ³ã«å¤±æ•—ã—ã¾ã™ã€‚
-    Microsoftã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®å¹´é½¢ãŒè¨­å®šã•ã‚Œã¦ãŠã‚Šã€å¹´é½¢ãŒ18ã‚’è¶…ãˆã¦ã„ã‚‹ã“ã¨ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚
+    年齢の問題が原因でXboxのログインに失敗します。
+    Microsoftアカウントの年齢が設定されており、年齢が18を超えていることを確認してください。
   loginXboxFailed: >-
-    Microsoftãƒˆãƒ¼ã‚¯ãƒ³ã§ã®Xboxã¸ã®ãƒ­ã‚°ã‚¤ãƒ³ã«å¤±æ•—ã—ã¾ã—ãŸã€‚Microsoftã‚¢ã‚«ã‚¦ãƒ³ãƒˆã¸æŽ¥ç¶šã•ã‚ŒãŸå­¤ç«‹ã—ã¦ã„ãªã„Xboxã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚å†åº¦è©¦ã—ã¦ãã ã•ã„ã€‚
+    MicrosoftトークンでのXboxへのログインに失敗しました。Microsoftアカウントへ接続された孤立していないXboxアカウントか確認してください。再度試してください。
   noProfileForNewUser: |-
-    ã‚²ãƒ¼ãƒ ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ï¼
-    æ–°ã—ã„Minecraftãƒ¦ãƒ¼ã‚¶ãƒ¼ã®å ´åˆã¯ã€Minecraftã®å…¬å¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã§å°‘ãªãã¨ã‚‚1å›žãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ãã ã•ã„ã€‚
-  requestFailed: ãƒ­ã‚°ã‚¤ãƒ³ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ç†ç”±ã¯ä¸æ˜Žã§ã™ã€‚å†åº¦è©¦ã—ã¦ãã ã•ã„ã€‚
-  requireEmail: ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ãŒå¿…è¦ã§ã™
-  requirePassword: ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒå¿…è¦ã§ã™
-  requireUsername: ãƒ¦ãƒ¼ã‚¶ãƒ¼åãŒå¿…è¦ã§ã™
-  timeout: ãƒ­ã‚°ã‚¤ãƒ³ãŒã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆã—ã¾ã—ãŸã€‚å†åº¦è©¦ã™ã‹ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚
+    ゲームプロファイルは見つかりません！
+    新しいMinecraftユーザーの場合は、Minecraftの公式ランチャーで少なくとも1回ログインしてください。
+  requestFailed: ログインに失敗しました。理由は不明です。再度試してください。
+  requireEmail: メールアドレスが必要です
+  requirePassword: パスワードが必要です
+  requireUsername: ユーザー名が必要です
+  timeout: ログインがタイムアウトしました。再度試すかネットワークを確認してください。
 logsCrashes:
-  crashes: ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ãƒ¬ãƒãƒ¼ãƒˆ
-  logs: ãƒ­ã‚°
-  placeholder: ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ
-  title: ãƒ­ã‚°ã€ã¾ãŸã¯ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ãƒ¬ãƒãƒ¼ãƒˆ
-  failures: èµ·å‹•å¤±æ•—
+  crashes: クラッシュレポート
+  logs: ログ
+  placeholder: ファイルが見つかりませんでした
+  title: ログ、またはクラッシュレポート
+  failures: 起動失敗
 me:
-  news: ãƒ‹ãƒ¥ãƒ¼ã‚¹
-  recentPlay: ãƒ—ãƒ¬ã‚¤ã®å±¥æ­´
+  news: ニュース
+  recentPlay: プレイの履歴
 migrationWindow:
-  title: ãƒ‡ãƒ¼ã‚¿ç§»è¡Œ
-  preparing: ç§»è¡Œã‚’æº–å‚™ã—ã¦ã„ã¾ã™â€¦
-  scanning: è¨ˆç®—ä¸­â€¦
-  migrating: ãƒ‡ãƒ¼ã‚¿ã‚’ç§»å‹•ã—ã¦ã„ã¾ã™
-  done: ç§»è¡ŒãŒå®Œäº†ã—ã¾ã—ãŸ
-  files: ãƒ•ã‚¡ã‚¤ãƒ«
-  warning: å®Œäº†ã™ã‚‹ã¾ã§ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’é–‰ã˜ãªã„ã§ãã ã•ã„ã€‚ãƒ‡ãƒ¼ã‚¿ãŒå¤±ã‚ã‚Œã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
-  error: ç§»è¡Œã«å¤±æ•—ã—ã¾ã—ãŸ
+  title: データ移行
+  preparing: 移行を準備しています…
+  scanning: 計算中…
+  migrating: データを移動しています
+  done: 移行が完了しました
+  files: ファイル
+  warning: 完了するまでランチャーを閉じないでください。データが失われる可能性があります。
+  error: 移行に失敗しました
 minecraftVersion:
-  name: Minecraft ãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  all: ã™ã¹ã¦ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  release: ãƒªãƒªãƒ¼ã‚¹
-  showAlpha: ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆã‚’è¡¨ç¤º
-  snapshot: ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆ
+  name: Minecraft バージョン
+  all: すべてのバージョン
+  release: リリース
+  showAlpha: スナップショットを表示
+  snapshot: スナップショット
 mod:
-  acceptVersion: '{version} ã‚’å—ã‘å…¥ã‚Œã‚‹'
-  applyGroupRules: ä¿å­˜ã•ã‚ŒãŸã‚°ãƒ«ãƒ¼ãƒ—åŒ–ãƒ«ãƒ¼ãƒ«ã‚’é©ç”¨ã—ã¾ã™
-  compatible: åˆ©ç”¨å¯èƒ½ãªModã§ã™ã€‚
-  createGroup: ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½œæˆ
-  currentVersion: ç¾åœ¨ {current}
-  denseView: ã‚³ãƒ³ãƒ‘ã‚¯ãƒˆãªãƒ“ãƒ¥ãƒ¼
-  disableAll: ã™ã¹ã¦ç„¡åŠ¹åŒ–
-  dropHint: ã“ã“ã«Modãƒ•ã‚¡ã‚¤ãƒ«(.jar/.litemod)ã‚’ãƒ‰ãƒ­ãƒƒãƒ—ã—ã¦ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã¾ã™ã€‚
-  duplicatedDetected: '{count} å€‹ã®é‡è¤‡ã—ãŸ MOD'
+  acceptVersion: '{version} を受け入れる'
+  applyGroupRules: 保存されたグループ化ルールを適用します
+  compatible: 利用可能なModです。
+  createGroup: グループを作成
+  currentVersion: 現在 {current}
+  denseView: コンパクトなビュー
+  disableAll: すべて無効化
+  dropHint: ここにModファイル(.jar/.litemod)をドロップしてインポートします。
+  duplicatedDetected: '{count} 個の重複した MOD'
   duplicatedDetectedDescription: |-
-    åŒã˜ MOD ID ã§ç•°ãªã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’æŒã¤ MOD ãŒè¦‹ã¤ã‹ã‚Šã¾ã—ãŸã€‚
-    ã“ã‚Œã«ã‚ˆã‚Šã€Minecraft ãŒã‚¯ãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
-    ä¿å­˜ã—ãŸã„ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚
-  enableAll: ã™ã¹ã¦æœ‰åŠ¹åŒ–
-  enabled: '{count} å€‹ã®ModãŒæœ‰åŠ¹'
-  filter: Modã‚’ãƒ•ã‚£ãƒ«ã‚¿
-  group: ã‚°ãƒ«ãƒ¼ãƒ—ã‚¢ãƒƒãƒ—
-  groupInstalled: ã‚°ãƒ«ãƒ¼ãƒ—ã§ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚ŒãŸMod
-  groupName: ã‚°ãƒ«ãƒ¼ãƒ—å
-  groupNameRequired: ã‚°ãƒ«ãƒ¼ãƒ—åã¯å¿…é ˆã§ã™
-  hasUpdate: Modã«ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆãŒã‚ã‚Šã¾ã™!
-  incompatible: é©åˆã—ãªã„Modã§ã™ã€‚
-  incompatibleHint: MOD äº’æ›æ€§ãƒ¬ãƒãƒ¼ãƒˆã‚’ç¢ºèªã—ã¦ãã ã•ã„
+    同じ MOD ID で異なるファイルを持つ MOD が見つかりました。
+    これにより、Minecraft がクラッシュする可能性があります。
+    保存したいファイルを選択してください。
+  enableAll: すべて有効化
+  enabled: '{count} 個のModが有効'
+  filter: Modをフィルタ
+  group: グループアップ
+  groupInstalled: グループでインストールされたMod
+  groupName: グループ名
+  groupNameRequired: グループ名は必須です
+  hasUpdate: Modにアップデートがあります!
+  incompatible: 適合しないModです。
+  incompatibleHint: MOD 互換性レポートを確認してください
   incompatibleHintDescription: |-
-    ä¸€éƒ¨ã® MOD ã®ä¾å­˜é–¢ä¿‚ãŒæ¬ è½ã—ã¦ã„ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
-    ã¾ãŸã¯ã€ä¸€éƒ¨ã®ä¾å­˜é–¢ä¿‚ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒä¸€è‡´ã—ã¾ã›ã‚“ã€‚
-  maybeCompatible: ãŠãã‚‰ãé©åˆã—ã¾ã›ã‚“ã€‚
+    一部の MOD の依存関係が欠落している可能性があります。
+    または、一部の依存関係のバージョンが一致しません。
+  maybeCompatible: おそらく適合しません。
   modloaderSelectHint: |-
-    MOD ã¯ä»¥ä¸‹ã® MOD ãƒ­ãƒ¼ãƒ€ãƒ¼ã‚’ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã™ã€‚
-    ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ã‚‚ã®ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚
-  modloaderSelectNotSupported: Minecraft {minecraft} ã® {modloader} ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
+    MOD は以下の MOD ローダーをサポートしています。
+    インストールするものを選択してください。
+  modloaderSelectNotSupported: Minecraft {minecraft} の {modloader} が見つかりません
   mods: '{count} Mods'
   name: Mod | Mods
-  newFolder: æ–°ã—ã„ãƒ•ã‚©ãƒ«ãƒ€
-  noGroupsFound: ã‚°ãƒ«ãƒ¼ãƒ—ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
-  noGroupsYet: ã¾ã ã‚°ãƒ«ãƒ¼ãƒ—ãŒã‚ã‚Šã¾ã›ã‚“ã€‚ä½œæˆã—ã¦ãã ã•ã„ï¼
-  noModLoaderHint: Modã‚’ä½¿ã†ãŸã‚ã«Modloaderã‚’æœ‰åŠ¹åŒ–ã™ã‚‹ã®ã‚’å¿˜ã‚Œãªã„ã§ãã ã•ã„!
-  openLink: Modã®URL {url} ã‚’é–‹ã
-  search: Modã‚’æ¤œç´¢
-  searchGroups: ã‚°ãƒ«ãƒ¼ãƒ—ã‚’æ¤œç´¢...
-  searchOnMcWiki: Mod {name} ã‚’McWikiã§è¦‹ã‚‹
-  selectOrCreateGroup: ã‚°ãƒ«ãƒ¼ãƒ—ã‚’é¸æŠžã¾ãŸã¯ä½œæˆ
-  showDirectory: Modsãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¦‹ã‚‹
-  showFile: Modãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª {file} ã‚’è¡¨ç¤º
-  showInModrinth: Modrinthã§ {name} ã‚’è¦‹ã‚‹
-  switchDefaultSource: Modã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚½ãƒ¼ã‚¹ã‚’åˆ‡ã‚Šæ›¿ãˆ
-  syncGroupRules: ã‚°ãƒ«ãƒ¼ãƒ—åŒ–ãƒ«ãƒ¼ãƒ«ã®ä¿å­˜
-  toUpdate: '{count} å€‹ã®ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ'
-  ungroup: ã‚°ãƒ«ãƒ¼ãƒ—åŒ–
-  description: èª¬æ˜Ž
+  newFolder: 新しいフォルダ
+  noGroupsFound: グループが見つかりません
+  noGroupsYet: まだグループがありません。作成してください！
+  noModLoaderHint: Modを使うためにModloaderを有効化するのを忘れないでください!
+  openLink: ModのURL {url} を開く
+  search: Modを検索
+  searchGroups: グループを検索...
+  searchOnMcWiki: Mod {name} をMcWikiで見る
+  selectOrCreateGroup: グループを選択または作成
+  showDirectory: Modsディレクトリを見る
+  showFile: Modディレクトリ {file} を表示
+  showInModrinth: Modrinthで {name} を見る
+  switchDefaultSource: Modのデフォルトソースを切り替え
+  syncGroupRules: グループ化ルールの保存
+  toUpdate: '{count} 個のアップデート'
+  ungroup: グループ化
+  description: 説明
 modFilter:
-  clear: ã‚¯ãƒªã‚¢ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼
-  dependenciesInstallOnly: è¦‹é€ƒã•ã‚ŒãŸä¾å­˜é–¢ä¿‚ã®MODã®ã¿ã‚’è¡¨ç¤ºã—ã¾ã™
-  disabledOnly: éšœå®³ã®ã‚ã‚‹MODã®ã¿ã‚’è¡¨ç¤ºã—ã¾ã™
-  hasUpdateOnly: ã‚·ãƒ§ãƒ¼ã®ã¿ã«æ›´æ–°modãŒã‚ã‚Šã¾ã™
-  incompatibleOnly: äº’æ›æ€§ã®ãªã„modã®ã¿ã‚’è¡¨ç¤ºã—ã¾ã™
-  unusedOnly: æœªä½¿ç”¨ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªMODã®ã¿ã‚’è¡¨ç¤ºã—ã¾ã™
+  clear: クリアフィルター
+  dependenciesInstallOnly: 見逃された依存関係のMODのみを表示します
+  disabledOnly: 障害のあるMODのみを表示します
+  hasUpdateOnly: ショーのみに更新modがあります
+  incompatibleOnly: 互換性のないmodのみを表示します
+  unusedOnly: 未使用のライブラリMODのみを表示します
 modInstall:
-  archived: '{name} ã¯ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã•ã‚Œã¾ã—ãŸã€‚ ä½œè€…ãŒã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ã‚’è§£é™¤ã—ãªã„é™ã‚Š {name} ã¯ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã‚’å—ã‘å–ã‚Šã¾ã›ã‚“ã€‚'
+  archived: '{name} はアーカイブされました。 作者がアーカイブを解除しない限り {name} はアップデートを受け取りません。'
   autoUpgrade:
     description: >-
-      Minecraftã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’å¤‰æ›´ã—ã¾ã—ãŸã€‚äº’æ›æ€§ã®ã‚ã‚‹Modã‚’è‡ªå‹•çš„ã« Minecraft {version} ã«å¯¾å¿œã™ã‚‹ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã«æ›´æ–°ã—ã¾ã™ã‹ï¼Ÿ
-    'no': ã‚¹ã‚­ãƒƒãƒ—
-    title: Modã‚’ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã—ã¾ã™ã‹ï¼Ÿ
-    'yes': Modã‚’ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
-  checkDependencies: ä¾å­˜é–¢ä¿‚ã‚’ç¢ºèª
-  checkUpgrade: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã‚’ç¢ºèª
-  checkedDependencies: ä¾å­˜é–¢ä¿‚ã‚’ç¢ºèªã—ã¾ã—ãŸ
-  checkedUpgrade: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã‚’ç¢ºèªã—ã¾ã—ãŸ
-  currentVersion: é¸æŠžã•ã‚ŒãŸãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  dependencyHint: ä»–ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ {version} ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã™
-  releaseOnly: æ›´æ–°æ™‚ã«ã‚¢ãƒ«ãƒ•ã‚¡ç‰ˆã¨ãƒ™ãƒ¼ã‚¿ç‰ˆã‚’ç„¡è¦–ã™ã‚‹
-  installDependencies: æœªã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã®ä¾å­˜é–¢ä¿‚ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-  installHint: '{file} ã‚’ {dependencies} å€‹ã®ä¾å­˜é–¢ä¿‚ã¨ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«'
-  noVersionSupported: ã“ã®Modã¯Minecraft {supported} ã®ã¿ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã™ã€‚
-  recommendation: '{modrinth}ã¨{curseforge}ã§{first} modsã‚’æŽ¢ç´¢ã—ã¦ãã ã•ã„ï¼'
-  removeUnusedLibraries: æœªä½¿ç”¨ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªMODã‚’å‰Šé™¤ã—ã¾ã™
-  search: æ¤œç´¢çµæžœ
-  skipVersion: ç•°ãªã‚‹ Minecraft ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã® Mod ã‚’ã‚¹ã‚­ãƒƒãƒ—ã™ã‚‹
-  source: Modã‚½ãƒ¼ã‚¹
-  switch: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’åˆ‡ã‚Šæ›¿ãˆ
-  upgrade: Modã‚’ã‚¢ãƒƒãƒ—ã‚°ãƒ¬ãƒ¼ãƒ‰
+      Minecraftのバージョンを変更しました。互換性のあるModを自動的に Minecraft {version} に対応するバージョンに更新しますか？
+    'no': スキップ
+    title: Modをアップデートしますか？
+    'yes': Modをアップデート
+  checkDependencies: 依存関係を確認
+  checkUpgrade: アップデートを確認
+  checkedDependencies: 依存関係を確認しました
+  checkedUpgrade: アップデートを確認しました
+  currentVersion: 選択されたバージョン
+  dependencyHint: 他のバージョン {version} がインストールされています
+  releaseOnly: 更新時にアルファ版とベータ版を無視する
+  installDependencies: 未インストールの依存関係をインストール
+  installHint: '{file} を {dependencies} 個の依存関係とインストール'
+  noVersionSupported: このModはMinecraft {supported} のみサポートしています。
+  recommendation: '{modrinth}と{curseforge}で{first} modsを探索してください！'
+  removeUnusedLibraries: 未使用のライブラリMODを削除します
+  search: 検索結果
+  skipVersion: 異なる Minecraft バージョンの Mod をスキップする
+  source: Modソース
+  switch: バージョンを切り替え
+  upgrade: Modをアップグレード
 modSearch:
-  noLocalModsFound: æ¤œç´¢ã«ä¸€è‡´ã™ã‚‹ãƒ­ãƒ¼ã‚«ãƒ«ModãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã€‚
-  noModsFound: ModãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã€‚
-  noModsInstalled: ã¾ã ModãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚
-  searchInMarket: '{keyword} ã‚’ãƒžãƒ¼ã‚±ãƒƒãƒˆã§æ¤œç´¢'
+  noLocalModsFound: 検索に一致するローカルModが見つかりません。
+  noModsFound: Modが見つかりません。
+  noModsInstalled: まだModがインストールされていません。
+  searchInMarket: '{keyword} をマーケットで検索'
 modUpgradePolicy:
-  curseforge: ã‚«ãƒ¼ã‚¹ãƒ•ã‚©ãƒ¼ã‚¸ãƒ»ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆ
-  curseforgeOnly: Curseforgeã®ã¿
-  modrinth: ãƒ¢ãƒ‰ãƒªãƒ³ã‚¹ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆ
-  modrinthOnly: ãƒ¢ãƒ‰ãƒªãƒ³ã‚¹ã®ã¿
-  name: ãƒãƒªã‚·ãƒ¼ã‚’ã‚¢ãƒƒãƒ—ã‚°ãƒ¬ãƒ¼ãƒ‰ã—ã¾ã™
+  curseforge: カースフォージ・ファースト
+  curseforgeOnly: Curseforgeのみ
+  modrinth: モドリンスファースト
+  modrinthOnly: モドリンスのみ
+  name: ポリシーをアップグレードします
 modified:
-  reset: ãƒªã‚»ãƒƒãƒˆ
-  save: ä¿å­˜
-  unsaved: å¤‰æ›´ãŒä¿å­˜ã•ã‚Œã¦ã„ã¾ã›ã‚“!
+  reset: リセット
+  save: 保存
+  unsaved: 変更が保存されていません!
 modpack:
-  author: è‘—è€…å
-  authorHint: ã“ã‚Œã‚‰ã¯ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã•ã‚ŒãŸModpackã«ç½²åã™ã‚‹éš›ä½¿ã‚ã‚Œã¾ã™ (Curseforge)
-  description: èª¬æ˜Ž
-  descriptionHint: ã“ã®Modpackã«ãŠã‘ã‚‹å…¨èˆ¬çš„ãªèª¬æ˜Žã§ã™ã€‚Curseforge Modpackã¨ã—ã¦ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã™ã‚‹éš›ä½¿ã‚ã‚Œã¾ã™ã€‚
-  dropHint: ã“ã“ã«Modpackã®zipã‚’ãƒ‰ãƒ­ãƒƒãƒ—ã—ã¦ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã¾ã™ã€‚
-  emitCurseforge: Curseforge modpackã‚’ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã—ã¾ã™
-  emitModrinth: Modrinth Modpackã‚’ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã—ã¾ã™
-  emitModrinthStrict: åŽ³å¯†ãªModrinthãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆ
-  emitModrinthStrictDescription: Modrinthã®ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã«è¨˜è¼‰ã•ã‚ŒãŸ4ã¤ã®ãƒ‰ãƒ¡ã‚¤ãƒ³ã®URLã®ã¿è¨±å¯ã—ã¾ã™
-  export: Modpackã¨ã—ã¦ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
-  exportDirectory: ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
-  exportDirectoryDescription: ModPackã¯ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã«ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã•ã‚Œã¾ã™
-  includeAssets: ã‚¢ã‚»ãƒƒãƒˆã‚’å«ã‚€
-  includes: å«ã‚ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«
-  modpackVersion: Modpackã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+  author: 著者名
+  authorHint: これらはエクスポートされたModpackに署名する際使われます (Curseforge)
+  description: 説明
+  descriptionHint: このModpackにおける全般的な説明です。Curseforge Modpackとしてエクスポートする際使われます。
+  dropHint: ここにModpackのzipをドロップしてインポートします。
+  emitCurseforge: Curseforge modpackをエクスポートします
+  emitModrinth: Modrinth Modpackをエクスポートします
+  emitModrinthStrict: 厳密なModrinthフォーマット
+  emitModrinthStrictDescription: Modrinthのドキュメントに記載された4つのドメインのURLのみ許可します
+  export: Modpackとしてエクスポート
+  exportDirectory: エクスポートディレクトリ
+  exportDirectoryDescription: ModPackはデフォルトでダウンロードフォルダーにエクスポートされます
+  includeAssets: アセットを含む
+  includes: 含めるファイル
+  modpackVersion: Modpackのバージョン
   name: Modpack | Modpacks
-  overrides: ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰
+  overrides: オーバーライド
   url: URL
-  urlHint: ã‚ãªãŸã®Modpackã®ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ã®URL
+  urlHint: あなたのModpackのホームページのURL
 modpackImportConfirm:
   description: |-
-    ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã«ãƒ‰ãƒ­ãƒƒãƒ—ã™ã‚‹ã“ã¨ã‚’æ¤œå‡ºã—ã¾ã™ã€‚
-    modpackã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã‚ˆã†ã¨ã—ã¦ã„ã¾ã™ã‹ï¼Ÿ
-  title: modpackã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆã—ã‚ˆã†ã¨ã—ã¦ã„ã¾ã™ã‹ï¼Ÿ
+    ファイルをランチャーにドロップすることを検出します。
+    modpackをインポートしようとしていますか？
+  title: modpackをインポートしようとしていますか？
 modrinth:
-  browseUrl: ãƒ–ãƒ©ã‚¦ã‚¶ã§é–‹ã {url}
+  browseUrl: ブラウザで開く {url}
   categories:
     128x: 128x
     16x: 16x
@@ -748,843 +748,842 @@ modrinth:
     512x+: 512x+
     64x: 64x
     8x-: 8x-
-    adventure: å†’é™º
-    atmosphere: é›°å›²æ°—
-    audio: ã‚ªãƒ¼ãƒ‡ã‚£ã‚ª
-    blocks: ãƒ–ãƒ­ãƒƒã‚¯
+    adventure: 冒険
+    atmosphere: 雰囲気
+    audio: オーディオ
+    blocks: ブロック
     bloom: Bloom
     bukkit: Bukkit
     bungeecord: Bungeecord
     canvas: Canvas
-    cartoon: ã‚«ãƒ¼ãƒˆã‚¥ãƒ¼ãƒ³
-    categories: ã‚«ãƒ†ã‚´ãƒªãƒ¼
-    challenging: æŒ‘æˆ¦çš„
-    colored-lighting: è‰²ä»˜ãç…§æ˜Ž
-    combat: æˆ¦é—˜
-    core-shaders: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼
-    cursed: å‘ªã‚ã‚ŒãŸ
-    datapack: ãƒ‡ãƒ¼ã‚¿ãƒ‘ãƒƒã‚¯
-    decoration: è£…é£¾
-    economy: çµŒæ¸ˆ
-    entities: ã‚¨ãƒ³ãƒ†ã‚£ãƒ†ã‚£
-    environment: ç’°å¢ƒ
-    equipment: è£…å‚™
+    cartoon: カートゥーン
+    categories: カテゴリー
+    challenging: 挑戦的
+    colored-lighting: 色付き照明
+    combat: 戦闘
+    core-shaders: シェーダー
+    cursed: 呪われた
+    datapack: データパック
+    decoration: 装飾
+    economy: 経済
+    entities: エンティティ
+    environment: 環境
+    equipment: 装備
     fabric: Fabric
-    fantasy: ãƒ•ã‚¡ãƒ³ã‚¿ã‚¸ãƒ¼
-    features: æ©Ÿèƒ½
+    fantasy: ファンタジー
+    features: 機能
     folia: Folia
     foliage: Foliage
-    fonts: ãƒ•ã‚©ãƒ³ãƒˆ
-    food: é£Ÿæ–™
+    fonts: フォント
+    food: 食料
     forge: Forge
-    game-mechanics: ã‚²ãƒ¼ãƒ ãƒ¡ã‚«ãƒ‹ã‚¯ã‚¹
+    game-mechanics: ゲームメカニクス
     gui: GUI
-    high: é«˜
+    high: 高
     iris: Iris
-    items: ã‚¢ã‚¤ãƒ†ãƒ 
-    kitchen-sink: ã‚­ãƒƒãƒãƒ³ã‚·ãƒ³ã‚¯
-    library: ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
-    lightweight: è»½é‡åŒ–
+    items: アイテム
+    kitchen-sink: キッチンシンク
+    library: ライブラリ
+    lightweight: 軽量化
     liteloader: LiteLoader
-    locale: ãƒ­ã‚±ãƒ¼ãƒ«
-    low: ä½Ž
-    magic: é­”æ³•
-    management: ç®¡ç†
-    medium: ä¸­
+    locale: ロケール
+    low: 低
+    magic: 魔法
+    management: 管理
+    medium: 中
     minecraft: Minecraft
-    minigame: ãƒŸãƒ‹ã‚²ãƒ¼ãƒ 
-    misc: ãã®ä»–
+    minigame: ミニゲーム
+    misc: その他
     mobs: Mobs
     modded: Modded
-    models: ãƒ¢ãƒ‡ãƒ«
-    modloader: Modãƒ­ãƒ¼ãƒ€ãƒ¼
-    multiplayer: ãƒžãƒ«ãƒãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼
-    name: ã‚«ãƒ†ã‚´ãƒªãƒ¼
+    models: モデル
+    modloader: Modローダー
+    multiplayer: マルチプレイヤー
+    name: カテゴリー
     neoforge: NeoForge
     optifine: Optifine
-    optimization: æœ€é©åŒ–
+    optimization: 最適化
     paper: Paper
-    path-tracing: ãƒ‘ã‚¹ãƒˆãƒ¬ãƒ¼ã‚·ãƒ³ã‚°
+    path-tracing: パストレーシング
     pbr: PBR
-    performance impact: ãƒ‘ãƒ•ã‚©ãƒ¼ãƒžãƒ³ã‚¹ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ
-    potato: ã˜ã‚ƒãŒã„ã‚‚
+    performance impact: パフォーマンスインパクト
+    potato: じゃがいも
     purpur: Purpur
-    quests: ã‚¯ã‚¨ã‚¹ãƒˆ
+    quests: クエスト
     quilt: Quilt
-    realistic: ç¾å®Ÿçš„
-    reflections: åå°„
-    resolutions: è§£åƒåº¦
+    realistic: 現実的
+    reflections: 反射
+    resolutions: 解像度
     rift: Rift
-    screenshot: ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆ
-    semi-realistic: åŠå†™å®Ÿçš„
-    shadows: å½±
-    simplistic: ã‚·ãƒ³ãƒ—ãƒ«
-    social: ã‚½ãƒ¼ã‚·ãƒ£ãƒ«
+    screenshot: スクリーンショット
+    semi-realistic: 半写実的
+    shadows: 影
+    simplistic: シンプル
+    social: ソーシャル
     spigot: Spigot
     sponge: Sponge
-    storage: ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸
-    technology: ãƒ†ã‚¯ãƒŽãƒ­ã‚¸ãƒ¼
-    themed: ãƒ†ãƒ¼ãƒž
-    transportation: è¼¸é€
-    tweaks: èª¿æ•´
-    utility: ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£
-    vanilla: ãƒãƒ‹ãƒ©
-    vanilla-like: ãƒãƒ‹ãƒ©é¢¨
+    storage: ストレージ
+    technology: テクノロジー
+    themed: テーマ
+    transportation: 輸送
+    tweaks: 調整
+    utility: ユーティリティ
+    vanilla: バニラ
+    vanilla-like: バニラ風
     velocity: Velocity
     waterfall: Waterfall
-    worldgen: ãƒ¯ãƒ¼ãƒ«ãƒ‰ç”Ÿæˆ
-  clientSide: ã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆã‚µã‚¤ãƒ‰
-  copyTitle: ãƒ†ã‚­ã‚¹ãƒˆ {title} ã‚’ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã«ã‚³ãƒ”ãƒ¼
-  createAt: ä½œæˆæ¸ˆã¿
-  createCollection: ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³ã‚’ä½œæˆã—ã¾ã™
-  description: èª¬æ˜Ž
-  downloads: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
+    worldgen: ワールド生成
+  clientSide: クライアントサイド
+  copyTitle: テキスト {title} をクリップボードにコピー
+  createAt: 作成済み
+  createCollection: コレクションを作成します
+  description: 説明
+  downloads: ダウンロード
   environments:
-    default: ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ
-    name: ç’°å¢ƒ
-    optional: ã‚ªãƒ—ã‚·ãƒ§ãƒ³
-    required: å¿…é ˆ
-    unsupported: æœªã‚µãƒãƒ¼ãƒˆ
-    all: ã™ã¹ã¦
-  externalResources: å¤–éƒ¨ãƒªãƒ³ã‚¯
-  featuredVersions: æŽ¨å¥¨ãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  followedProjects: ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã«å¾“ã£ãŸ
-  followers: ãƒ•ã‚©ãƒ­ãƒ¯ãƒ¼
-  gallery: ã‚®ãƒ£ãƒ©ãƒªãƒ¼
+    default: デフォルト
+    name: 環境
+    optional: オプション
+    required: 必須
+    unsupported: 未サポート
+    all: すべて
+  externalResources: 外部リンク
+  featuredVersions: 推奨バージョン
+  followedProjects: プロジェクトに従った
+  followers: フォロワー
+  gallery: ギャラリー
   gameVersions:
-    name: ã‚²ãƒ¼ãƒ ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+    name: ゲームバージョン
   headers:
-    status: çŠ¶æ…‹
-    support: ã‚µãƒãƒ¼ãƒˆ
-    version: ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+    status: 状態
+    support: サポート
+    version: バージョン
   issueUrl: Issue
-  license: ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
+  license: ライセンス
   licenses:
-    name: ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
+    name: ライセンス
   loginHint: |-
-    æ“ä½œã«ã¯ã€å®Ÿè¡Œã™ã‚‹ã«ã¯modrinthãŒå¿…è¦ã§ã™ã€‚
-    ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯ã€ãƒ–ãƒ©ã‚¦ã‚¶ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’é–‹ãã€Modrinthã‚’ãƒ­ã‚°ã‚¤ãƒ³ã—ã¾ã™ã€‚
-  loginTitle: Modrinthã«ãƒ­ã‚°ã‚¤ãƒ³ã—ã¾ã™
+    操作には、実行するにはmodrinthが必要です。
+    ランチャーは、ブラウザウィンドウを開き、Modrinthをログインします。
+  loginTitle: Modrinthにログインします
   modLoaders:
-    name: Modãƒ­ãƒ¼ãƒ€ãƒ¼
+    name: Modローダー
   modpackSource:
-    source: ã‚½ãƒ¼ã‚¹
-  projectId: ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆID
-  projectMembers: ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ¡ãƒ³ãƒãƒ¼
+    source: ソース
+  projectId: プロジェクトID
+  projectMembers: プロジェクトメンバー
   projectType:
     mod: Mod
     modpack: Modpack
-    resourcepack: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯
-    shader: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼
-    datapack: ãƒ‡ãƒ¼ã‚¿ãƒ‘ãƒƒã‚¯
-    plugin: ãƒ—ãƒ©ã‚°ã‚¤ãƒ³
-  projects: '{count}ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ'
-  serverSide: ã‚µãƒ¼ãƒãƒ¼ã‚µã‚¤ãƒ‰
+    resourcepack: リソースパック
+    shader: シェーダー
+    datapack: データパック
+    plugin: プラグイン
+  projects: '{count}プロジェクト'
+  serverSide: サーバーサイド
   sort:
-    downloads: åˆè¨ˆãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æ•°
-    follows: ãƒ•ã‚©ãƒ­ãƒ¼æ•°
-    newest: æœ€è¿‘ä½œæˆã•ã‚ŒãŸ
-    relevance: é–¢é€£æ€§
-    title: ã‚½ãƒ¼ãƒˆé †
-    updated: æœ€è¿‘ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã•ã‚ŒãŸ
-  sourceUrl: ã‚½ãƒ¼ã‚¹
-  technicalInformation: æŠ€è¡“çš„ãªæƒ…å ±
-  updateAt: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆæ¸ˆã¿
-  versions: ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+    downloads: 合計ダウンロード数
+    follows: フォロー数
+    newest: 最近作成された
+    relevance: 関連性
+    title: ソート順
+    updated: 最近アップデートされた
+  sourceUrl: ソース
+  technicalInformation: 技術的な情報
+  updateAt: アップデート済み
+  versions: バージョン
   wikiUrl: Wiki
 modrinthCard:
-  currentVersion: ç¾åœ¨ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+  currentVersion: 現在のバージョン
 multiplayer:
-  allowTurn: ãƒªãƒ¬ãƒ¼ã‚µãƒ¼ãƒãƒ¼ã‚’æœ‰åŠ¹åŒ–
-  allowTurnHint: ãƒ•ãƒ¬ãƒ³ãƒ‰ã«æŽ¥ç¶šã§ããªã„å ´åˆã¯ãƒªãƒ¬ãƒ¼ã‚µãƒ¼ãƒãƒ¼ã‚’æœ‰åŠ¹ã«ã—ã¦ãã ã•ã„ã€‚ãƒªãƒ¬ãƒ¼ã‚µãƒ¼ãƒãƒ¼ã¯æŽ¥ç¶šé€Ÿåº¦ã‚’ä½Žä¸‹ã•ã›ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚æ³¨æ„ã—ã¦ä½¿ç”¨ã—ã¦ãã ã•ã„ã€‚
-  complete: å®Œäº†
-  confirm: ç¶šè¡Œ
-  connections: æŽ¥ç¶š
-  copied: ã‚³ãƒ”ãƒ¼æ¸ˆã¿!
-  copy: ã‚³ãƒ”ãƒ¼
-  copyGroupToFriendHint: ã“ã®IDã§ãƒ•ãƒ¬ãƒ³ãƒ‰ã‚’ã‚°ãƒ«ãƒ¼ãƒ—ã«è¿½åŠ ã§ãã¾ã™
+  allowTurn: リレーサーバーを有効化
+  allowTurnHint: フレンドに接続できない場合はリレーサーバーを有効にしてください。リレーサーバーは接続速度を低下させる可能性があります。注意して使用してください。
+  complete: 完了
+  confirm: 続行
+  connections: 接続
+  copied: コピー済み!
+  copy: コピー
+  copyGroupToFriendHint: このIDでフレンドをグループに追加できます
   copyLocalHint: >-
-    "ãƒ­ãƒ¼ã‚«ãƒ«SDPãƒ†ã‚­ã‚¹ãƒˆã‚’ã‚³ãƒ”ãƒ¼ã—ã¦æŽ¥ç¶šã«å‚åŠ ã—ã¦ãã ã•ã„ <span>ä¸€ã¤ã®ãƒˆãƒ¼ã‚¯ãƒ³ã§æŽ¥ç¶šã§ãã‚‹ãƒ”ã‚¢ã¯ <span style="color: red; font-weight: bold;">1ã¤</span>ã®ã¿ã§ã™! åŒã˜ãƒˆãƒ¼ã‚¯ãƒ³ã‚’è¤‡æ•°ã®ãƒ”ã‚¢ã«é€ã‚‹ã“ã¨ã¯ã§ãã¾ã›ã‚“!</span> <br> <span class="hint-text" style="font-style: italic;">è¤‡æ•°ã®ãƒ”ã‚¢ã«æŽ¥ç¶šã™ã‚‹å¿…è¦ãŒã‚ã‚‹å ´åˆã€ <span style="font-weight: bold; color: rgba(245, 158, 11)">è¤‡æ•°ã®</span>æŽ¥ç¶šã‚’ä½œã£ã¦ãã ã•ã„</span>"
-  createLocalToken: ãƒ­ãƒ¼ã‚«ãƒ«ãƒˆãƒ¼ã‚¯ãƒ³ã‚’ä½œæˆ
-  currentIpTitle: æ¤œå‡ºã•ã‚ŒãŸãƒ‘ãƒ–ãƒªãƒƒã‚¯IP
-  currentNatTitle: 'ç¾åœ¨ã®ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ (NAT):'
-  difficultyLevelHint: æŽ¥ç¶šã‚’ä½œæˆã™ã‚‹é›£æ˜“åº¦
-  disconnect: åˆ‡æ–­
-  disconnectDescription: ãƒ¦ãƒ¼ã‚¶ãƒ¼ {user}({id}) ã¨ã®æŽ¥ç¶šã‚’åˆ‡æ–­ã—ã¾ã™ã‹?
-  disconnected: åˆ‡æ–­æ¸ˆã¿
-  enterRemoteToken: ãƒªãƒ¢ãƒ¼ãƒˆãƒˆãƒ¼ã‚¯ãƒ³ã‚’å…¥åŠ›
-  enterRemoteTokenHint: ã‚ãªãŸã®ãƒ”ã‚¢ãŒãƒˆãƒ¼ã‚¯ãƒ³ã‚’å…¥åŠ›ã—ãŸã‚‰ã€ã‚ãªãŸãŒç›¸æ‰‹å´ã®ãƒˆãƒ¼ã‚¯ãƒ³ã‚’ä¸‹ã«å…¥åŠ›ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚ç¶šè¡Œã‚’æŠ¼ã—ã¦æŽ¥ç¶šã—ã¾ã™ã€‚
-  exposedPortDescription: ãƒ”ã‚¢ã«å…¬é–‹ã•ã‚Œã‚‹ãƒãƒ¼ãƒˆ
-  exposedPorts: é–‹ã‹ã‚ŒãŸãƒãƒ¼ãƒˆ
+    "ローカルSDPテキストをコピーして接続に参加してください <span>一つのトークンで接続できるピアは <span style="color: red; font-weight: bold;">1つ</span>のみです! 同じトークンを複数のピアに送ることはできません!</span> <br> <span class="hint-text" style="font-style: italic;">複数のピアに接続する必要がある場合、 <span style="font-weight: bold; color: rgba(245, 158, 11)">複数の</span>接続を作ってください</span>"
+  createLocalToken: ローカルトークンを作成
+  currentIpTitle: 検出されたパブリックIP
+  currentNatTitle: '現在のネットワーク (NAT):'
+  difficultyLevelHint: 接続を作成する難易度
+  disconnect: 切断
+  disconnectDescription: ユーザー {user}({id}) との接続を切断しますか?
+  disconnected: 切断済み
+  enterRemoteToken: リモートトークンを入力
+  enterRemoteTokenHint: あなたのピアがトークンを入力したら、あなたが相手側のトークンを下に入力する必要があります。続行を押して接続します。
+  exposedPortDescription: ピアに公開されるポート
+  exposedPorts: 開かれたポート
   gatheringIce: |-
-    "ICEã‚µãƒ¼ãƒãƒ¼ãŒã‚ãªãŸã®ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã«ã¤ã„ã¦ã®æƒ…å ±ã‚’åŽé›†ã™ã‚‹ã¾ã§ãŠå¾…ã¡ä¸‹ã•ã„ã€‚ ã‚‚ã—ã‚ãªãŸãŒæ€¥ã„ã§ã„ã¦ååˆ†ãªæƒ…å ±ã‚’ãŠæŒã¡ã§ã‚ã‚Œã°ã€
-    ç¾åœ¨ã®SDPã‚’ç›¸æ‰‹ã«äº‹å‰ã«ä¼ãˆã¦ãŠã„ã¦æ¬¡ã¸ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚ æ¬¡ã« <span class="v-chip v-chip--label
-    v-size--small" style="text-font: bold" >ãƒ­ãƒ¼ã‚«ãƒ«ãƒˆãƒ¼ã‚¯ãƒ³</span> ã‚’ã‚ãªãŸã®ãƒ”ã‚¢ã«é€ã£ã¦ã€
-    ç›¸æ‰‹ã®ãƒˆãƒ¼ã‚¯ãƒ³ã‚’ <span class="v-chip v-chip--label v-size--small" style="text-font:
-    bold"> æŽ¥ç¶šã«å‚åŠ  </span> ã‚’æŠ¼ã—ã¦ãã ã•ã„ã€‚ <br> ICEã‚µãƒ¼ãƒãƒ¼ãŒ <span class="v-chip
+    "ICEサーバーがあなたのネットワークについての情報を収集するまでお待ち下さい。 もしあなたが急いでいて十分な情報をお持ちであれば、
+    現在のSDPを相手に事前に伝えておいて次へをクリックしてください。 次に <span class="v-chip v-chip--label
+    v-size--small" style="text-font: bold" >ローカルトークン</span> をあなたのピアに送って、
+    相手のトークンを <span class="v-chip v-chip--label v-size--small" style="text-font:
+    bold"> 接続に参加 </span> を押してください。 <br> ICEサーバーが <span class="v-chip
     v-chip--label v-size--small" style="text-font:
-    bold">ãƒ­ãƒ¼ã‚«ãƒ«ãƒˆãƒ¼ã‚¯ãƒ³</span>ã‚’ä½œæˆã™ã‚‹ã®ã«ååˆ†ãªæƒ…å ±ã‚’é›†ã‚ã‚‹ã“ã¨ã«æ™‚é–“ãŒã‹ã‹ã‚‹ã“ã¨ãŒã‚ã‚Šã¾ã™<br>
-    ICEã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãŒå®Œäº†ã«ãªã‚‹ã¾ã§å¾…ã¤å¿…è¦ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚ ä»¥ä¸‹ã®ãƒˆãƒ¼ã‚¯ãƒ³ãŒå¤‰æ›´ã•ã‚Œã¦ã„ãªã„å ´åˆã€ãã‚Œã‚’ã‚³ãƒ”ãƒ¼ã—ç›¸æ‰‹ã®ãƒ”ã‚¢ã«é€ä¿¡ã§ãã¾ã™ã€‚"
-  groupId: ã‚°ãƒ«ãƒ¼ãƒ—ID
-  illegalTokenDescription: ç„¡åŠ¹ãªãƒˆãƒ¼ã‚¯ãƒ³ã§ã™ã€‚ã‚ãªãŸã®ãƒ”ã‚¢ã‹ã‚‰å—ã‘å–ã£ãŸãƒˆãƒ¼ã‚¯ãƒ³ãŒæ­£ã—ã„ã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚
-  initiateConnection: æŽ¥ç¶šã‚’åˆæœŸåŒ–
-  joinConnection: ã‚‚ã—ã‚ãªãŸã®ãƒ”ã‚¢ãŒã™ã§ã«æŽ¥ç¶šã‚’åˆæœŸåŒ–ã—ã¦ã„ãŸå ´åˆã€æŽ¥ç¶šã«å‚åŠ ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
-  joinManual: å‚åŠ 
-  joinOrCreateGroup: ã‚°ãƒ«ãƒ¼ãƒ—ã«å‚åŠ /ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½œæˆ
-  joinOrCreateGroupHint: ã‚ãªãŸã®ã‚°ãƒ«ãƒ¼ãƒ—IDã‚’å–å¾—ã™ã‚‹ã‹ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½œæˆã—ã¦ãã ã•ã„
-  kernel: P2P ã‚«ãƒ¼ãƒãƒ«
-  kernelDescription: ãƒã‚¤ãƒ†ã‚£ãƒ– WebRTCã¾ãŸã¯Node-Datachannelã‚’ä½¿ç”¨ã—ã¾ã™ã€‚P2PæŽ¥ç¶šã«ã‚ˆã‚Šãƒ©ãƒ³ãƒãƒ£ãƒ¼ãŒã‚¯ãƒ©ãƒƒã‚·ãƒ¥ã™ã‚‹æ™‚ã®ã¿åˆ‡ã‚Šæ›¿ãˆã¦ãã ã•ã„ã€‚
-  leaveGroup: ã‚°ãƒ«ãƒ¼ãƒ—ã‚’æŠœã‘ã‚‹
-  localToken: ãƒ­ãƒ¼ã‚«ãƒ«ãƒˆãƒ¼ã‚¯ãƒ³
-  manualConnect: æ‰‹å‹•æŽ¥ç¶š
-  name: LAN ãƒžãƒ«ãƒãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼
-  networkInfo: ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æƒ…å ±
-  next: æ¬¡ã¸
-  otherExposedPortDescription: ãƒãƒ¼ãƒˆã¯ {user} ã«ã‚ˆã‚Šãƒ•ã‚©ãƒ¯ãƒ¼ãƒ‰ã•ã‚Œã¦ã„ã¾ã™
-  placeholder: ä»–ã®ãƒ¦ãƒ¼ã‚¶ãƒ¼ã«æŽ¥ç¶šã—Minecraftã§LANãƒžãƒ«ãƒãƒ—ãƒ¬ã‚¤ã‚’ã—ã¾ã—ã‚‡ã†!
-  previous: æˆ»ã‚‹
-  receiveHint: ä»–ã®ãƒ‘ãƒ¼ãƒ†ã‚£ãƒ¼ãŒã‚ãªãŸã®ãƒˆãƒ¼ã‚¯ãƒ³ã‚’å…¥åŠ›ã—ãŸå¾Œã€ã‚ãªãŸã®æŽ¥ç¶šã¯è‡ªå‹•ã§æŽ¥ç¶šã•ã‚Œã¾ã™ã€‚ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã‚’é–‰ã˜ã‚‹ã“ã¨ãŒã§ãã¾ã™
-  receiveRemoteTokenHint: ã‚ãªãŸã®ãƒ”ã‚¢ã‹ã‚‰å—ã‘å–ã£ãŸãƒˆãƒ¼ã‚¯ãƒ³ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
-  remoteToken: ãƒªãƒ¢ãƒ¼ãƒˆãƒˆãƒ¼ã‚¯ãƒ³
-  routerInfo: ãƒ«ãƒ¼ã‚¿ãƒ¼æƒ…å ±
-  sendTokenToRemote: ãƒªãƒ¢ãƒ¼ãƒˆã«ãƒˆãƒ¼ã‚¯ãƒ³ã‚’é€ã‚‹
-  share: èµ·å‹•æ§‹æˆã‚’å…±æœ‰ã™ã‚‹
-  sharing: ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…±æœ‰ä¸­...
-  sharingNotificationBody: '{name} ã‹ã‚‰èµ·å‹•æ§‹æˆã€å…±æœ‰ã•ã‚ŒãŸè¨­å®šã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰/ä½œæˆã§ãã¾ã™'
-  sharingNotificationTitle: ãƒ”ã‚¢ã¯ã‚²ãƒ¼ãƒ ã®è¨­å®šã‚’å…±æœ‰ã—ã¦ã„ã¾ã™
-  start: ã‚¹ã‚¿ãƒ¼ãƒˆ
-  startNewP2PConnection: ã‚¹ã‚¿ãƒ¼ãƒˆãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦æ–°ã—ã„ãƒ”ã‚¢ã¸ã®æŽ¥ç¶šã‚’ä½œæˆã—ã¾ã™
-  connectionError: æŽ¥ç¶šã‚¨ãƒ©ãƒ¼
+    bold">ローカルトークン</span>を作成するのに十分な情報を集めることに時間がかかることがあります<br>
+    ICEステータスが完了になるまで待つ必要はありません。 以下のトークンが変更されていない場合、それをコピーし相手のピアに送信できます。"
+  groupId: グループID
+  illegalTokenDescription: 無効なトークンです。あなたのピアから受け取ったトークンが正しいか確認してください。
+  initiateConnection: 接続を初期化
+  joinConnection: もしあなたのピアがすでに接続を初期化していた場合、接続に参加する必要があります。
+  joinManual: 参加
+  joinOrCreateGroup: グループに参加/グループを作成
+  joinOrCreateGroupHint: あなたのグループIDを取得するかグループを作成してください
+  kernel: P2P カーネル
+  kernelDescription: ネイティブ WebRTCまたはNode-Datachannelを使用します。P2P接続によりランチャーがクラッシュする時のみ切り替えてください。
+  leaveGroup: グループを抜ける
+  localToken: ローカルトークン
+  manualConnect: 手動接続
+  name: LAN マルチプレイヤー
+  networkInfo: ネットワーク情報
+  next: 次へ
+  otherExposedPortDescription: ポートは {user} によりフォワードされています
+  placeholder: 他のユーザーに接続しMinecraftでLANマルチプレイをしましょう!
+  previous: 戻る
+  receiveHint: 他のパーティーがあなたのトークンを入力した後、あなたの接続は自動で接続されます。ダイアログを閉じることができます
+  receiveRemoteTokenHint: あなたのピアから受け取ったトークンを入力してください
+  remoteToken: リモートトークン
+  routerInfo: ルーター情報
+  sendTokenToRemote: リモートにトークンを送る
+  share: 起動構成を共有する
+  sharing: ファイルを共有中...
+  sharingNotificationBody: '{name} から起動構成、共有された設定をダウンロード/作成できます'
+  sharingNotificationTitle: ピアはゲームの設定を共有しています
+  start: スタート
+  startNewP2PConnection: スタートボタンをクリックして新しいピアへの接続を作成します
+  connectionError: 接続エラー
   connectionFailedHint: >-
-    æŽ¥ç¶šã‚’ç¢ºç«‹ã§ãã¾ã›ã‚“ã€‚ä¸¡æ–¹ã®ãƒ”ã‚¢ã®NATã‚¿ã‚¤ãƒ—ãŒäº’æ›æ€§ãŒã‚ã‚‹ã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚
+    接続を確立できません。両方のピアのNATタイプが互換性があるか確認してください。
   natWarning: >-
-    NATã‚¿ã‚¤ãƒ—ãŒç›´æŽ¥æŽ¥ç¶šã‚’å¦¨ã’ã¦ã„ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚è¨­å®šã§ãƒªãƒ¬ãƒ¼ã‚µãƒ¼ãƒãƒ¼ã‚’æœ‰åŠ¹ã«ã™ã‚‹ã‹ã€ãƒ•ãƒ¬ãƒ³ãƒ‰ã«ãƒ›ã‚¹ãƒˆã‚’ä¾é ¼ã—ã¦ãã ã•ã„ã€‚
-myStuff: ç§ã®ä½œå“
+    NATタイプが直接接続を妨げている可能性があります。設定でリレーサーバーを有効にするか、フレンドにホストを依頼してください。
+myStuff: 私の作品
 natType:
-  blocked: ãƒ–ãƒ­ãƒƒã‚¯ã•ã‚ŒãŸ
+  blocked: ブロックされた
   fullCone: Full Cone
-  openInternet: ã‚ªãƒ¼ãƒ—ãƒ³ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆ
+  openInternet: オープンインターネット
   restrictNat: Ristrict NAT
   restrictPortNat: Restrict Port NAT
   symmetricNat: Symmetric NAT
   symmetricUDPFirewall: Symmetric UDP Firewall
-  unknown: æœªçŸ¥
+  unknown: 未知
 neoForgedVersion:
-  disable: NeoForge ã‚’ä½¿ç”¨ã—ãªã„
-  empty: NeoForgeã¯Minecraft {version} ã‚’ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã›ã‚“
+  disable: NeoForge を使用しない
+  empty: NeoForgeはMinecraft {version} をサポートしていません
 news:
-  name: ãƒ‹ãƒ¥ãƒ¼ã‚¹
-  readMore: ã•ã‚‰ã«èª­ã‚€
+  name: ニュース
+  readMore: さらに読む
 optifineVersion:
-  disable: Optifine ã‚’ä½¿ç”¨ã—ãªã„
-  empty: Optifineã¯Minecraft {version} ã‚’ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã›ã‚“
-optional: ã‚ªãƒ—ã‚·ãƒ§ãƒ³
+  disable: Optifine を使用しない
+  empty: OptifineはMinecraft {version} をサポートしていません
+optional: オプション
 peerConnectionState:
-  closed: ã‚¯ãƒ­ãƒ¼ã‚º
-  connected: æŽ¥ç¶šæ¸ˆã¿
-  connecting: æŽ¥ç¶šä¸­
-  disconnected: åˆ‡æ–­æ¸ˆã¿
-  failed: å¤±æ•—
-  name: æŽ¥ç¶šçŠ¶æ…‹
-  new: æ–°è¦
+  closed: クローズ
+  connected: 接続済み
+  connecting: 接続中
+  disconnected: 切断済み
+  failed: 失敗
+  name: 接続状態
+  new: 新規
 peerGroupState:
-  closed: ã‚°ãƒ«ãƒ¼ãƒ—ã«æœªå‚åŠ 
-  closing: ã‚¯ãƒ­ãƒ¼ã‚º
-  connected: å‚åŠ æ¸ˆã¿
-  connecting: æŽ¥ç¶šä¸­
+  closed: グループに未参加
+  closing: クローズ
+  connected: 参加済み
+  connecting: 接続中
 peerIceGatheringState:
-  gathering: ICEã‚µãƒ¼ãƒãƒ¼ã‚’å–å¾—ä¸­
+  gathering: ICEサーバーを取得中
 peerSignalingState:
-  have-local-offer: ãƒ”ã‚¢ã®æƒ…å ±ã‚’å¾…æ©Ÿä¸­
+  have-local-offer: ピアの情報を待機中
 presence:
-  instance: èµ·å‹•æ§‹æˆ {instance} ã§ã‚¢ã‚¤ãƒ‰ãƒ«ä¸­
-  instanceSetting: 'èµ·å‹•æ§‹æˆã‚’ç·¨é›†: {instance}'
-  mod: '{instance} ã§Modã‚’é–²è¦§ä¸­'
-  modrinthProject: Modrinthã§ {name} ã‚’é–²è¦§ä¸­
-  resourcePack: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã‚’ {instance} ã§é–²è¦§ä¸­
-  save: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’ {instance} ã§é–²è¦§ä¸­
-  setting: è¨­å®šãƒšãƒ¼ã‚¸ã‚’é–²è¦§ä¸­
-  shaderPack: '{instance} ã§ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’é–²è¦§ä¸­'
+  instance: 起動構成 {instance} でアイドル中
+  instanceSetting: '起動構成を編集: {instance}'
+  mod: '{instance} でModを閲覧中'
+  modrinthProject: Modrinthで {name} を閲覧中
+  resourcePack: リソースパックを {instance} で閲覧中
+  save: セーブデータを {instance} で閲覧中
+  setting: 設定ページを閲覧中
+  shaderPack: '{instance} でシェーダーパックを閲覧中'
 proxy:
-  host: ãƒ›ã‚¹ãƒˆ
-  port: ãƒãƒ¼ãƒˆ
+  host: ホスト
+  port: ポート
 quiltVersion:
-  disable: Quilt ã‚’ä½¿ç”¨ã—ãªã„
-  empty: Quiltã¯Minecraft {version} ã‚’ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã›ã‚“
+  disable: Quilt を使用しない
+  empty: QuiltはMinecraft {version} をサポートしていません
 resourcepack:
-  compatible: é©åˆã™ã‚‹ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆ {format} ãƒãƒ¼ã‚¸ãƒ§ãƒ³ {version}
-  defaultDescription: ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®Minecraftã®ãƒ«ãƒƒã‚¯ï¼†ãƒ•ã‚£ãƒ¼ãƒ«
+  compatible: 適合するフォーマット {format} バージョン {version}
+  defaultDescription: デフォルトのMinecraftのルック＆フィール
   delete:
-    content: ã“ã‚Œã¯ãƒ‡ã‚£ã‚¹ã‚¯ã‹ã‚‰ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã‚’å‰Šé™¤ã—ã¾ã™ã€‚å–ã‚Šæ¶ˆã™ã“ã¨ã¯ã§ãã¾ã›ã‚“ã€‚ç¶šè¡Œã—ã¾ã™ã‹?
-    title: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã‚’å‰Šé™¤
-  dropHint: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã®ãƒ•ã‚©ãƒ«ãƒ€/Zipã‚’ãƒ‰ãƒ­ãƒƒãƒ—ã—ã¦ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  enable: '{count} å€‹ã®ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ãŒæœ‰åŠ¹'
-  incompatible: é©åˆã—ãªã„ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆã§ã™({format}). ãƒ•ã‚£ãƒƒãƒˆ {accept}, ç¾åœ¨{actual}
-  name: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ | ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯
-  searchHint: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã‚’æ¤œç´¢ã™ã‚‹
-  searchOnCurseforge: Curseforgeã§ {name} ã‚’æ¤œç´¢
+    content: これはディスクからリソースパックを削除します。取り消すことはできません。続行しますか?
+    title: リソースパックを削除
+  dropHint: リソースパックのフォルダ/Zipをドロップしてインポート
+  enable: '{count} 個のリソースパックが有効'
+  incompatible: 適合しないリソースパックフォーマットです({format}). フィット {accept}, 現在{actual}
+  name: リソースパック | リソースパック
+  searchHint: リソースパックを検索する
+  searchOnCurseforge: Curseforgeで {name} を検索
   searchOnModrinth: '@:mod.searchOnModrinth'
-  selected: é¸æŠžã•ã‚ŒãŸãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯
-  showDirectory: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¡¨ç¤º
-  showFile: ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã®ä¸­ã‹ã‚‰ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ {file} ã‚’è¦‹ã‚‹
-  showInCurseforge: Curseforgeã§ {name} ã‚’è¦‹ã‚‹
-  unselected: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã®é¸æŠžãŒè§£é™¤ã•ã‚Œã¾ã—ãŸ
-  noPacks: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
-  search: ãƒªã‚½ãƒ¼ã‚¹ãƒ‘ãƒƒã‚¯ã‚’æ¤œç´¢...
+  selected: 選択されたリソースパック
+  showDirectory: リソースパックのディレクトリを表示
+  showFile: フォルダーの中からリソースパック {file} を見る
+  showInCurseforge: Curseforgeで {name} を見る
+  unselected: リソースパックの選択が解除されました
+  noPacks: リソースパックが見つかりません
+  search: リソースパックを検索...
 save:
   copy:
-    name: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’ã‚³ãƒ”ãƒ¼
-  createNew: æ–°ã—ã„ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚’ä½œã‚‹
-  createdWorlds: '{count} å€‹ã®ãƒ¯ãƒ¼ãƒ«ãƒ‰ãŒã‚ã‚Šã¾ã™'
-  deleteHint: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’å‰Šé™¤ã—ã¾ã™ã€‚ã“ã®æ“ä½œã¯å–ã‚Šæ¶ˆã›ã¾ã›ã‚“ã€‚ç¶šè¡Œã—ã¾ã™ã‹?
-  deleteTitle: ã“ã®ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’å‰Šé™¤
-  dropHint: zipã‚’ã“ã“ã«ãƒ‰ãƒ©ãƒƒã‚°ã—ã¦ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  export: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
-  exportMessage: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’Zipã¨ã—ã¦ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
-  exportTitle: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
-  gameMode: ã‚²ãƒ¼ãƒ ãƒ¢ãƒ¼ãƒ‰
-  independent: èµ·å‹•æ§‹æˆã¯ç‹¬ç«‹ã—ãŸã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’ä½¿ç”¨ã—ã¾ã™
-  levelName: ãƒ¬ãƒ™ãƒ«å
-  name: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ | ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿
-  search: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã‚’æ¤œç´¢
+    name: セーブデータをコピー
+  createNew: 新しいワールドを作る
+  createdWorlds: '{count} 個のワールドがあります'
+  deleteHint: セーブデータを削除します。この操作は取り消せません。続行しますか?
+  deleteTitle: このセーブデータを削除
+  dropHint: zipをここにドラッグしてインポート
+  export: セーブデータをエクスポート
+  exportMessage: セーブデータをZipとしてエクスポート
+  exportTitle: セーブデータをエクスポート
+  gameMode: ゲームモード
+  independent: 起動構成は独立したセーブデータを使用します
+  levelName: レベル名
+  name: セーブデータ | セーブデータ
+  search: セーブデータを検索
   seed: Seed
-  selected: ãƒ­ãƒ¼ã‚«ãƒ«ã®ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿
-  shared: èµ·å‹•æ§‹æˆã¯å…±æœ‰ã•ã‚ŒãŸã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã®ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½¿ç”¨ã—ã¾ã™
-  showDirectory: ã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’é–‹ã
-  unselected: å…±æœ‰ã•ã‚ŒãŸã‚»ãƒ¼ãƒ–ãƒ‡ãƒ¼ã‚¿
-  useCurrent: ç¾åœ¨ã®ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚’ä½¿ç”¨
-  openFolder: ã‚»ãƒ¼ãƒ–ãƒ•ã‚©ãƒ«ãƒ€ã‚’é–‹ã
-  searchHint: CurseForgeã§ãƒ¯ãƒ¼ãƒ«ãƒ‰ã‚’æ¤œç´¢
-  searchSaves: ã‚»ãƒ¼ãƒ–ã‚’æ¤œç´¢
+  selected: ローカルのセーブデータ
+  shared: 起動構成は共有されたセーブデータのフォルダを使用します
+  showDirectory: セーブデータのディレクトリを開く
+  unselected: 共有されたセーブデータ
+  useCurrent: 現在のワールドを使用
+  openFolder: セーブフォルダを開く
+  searchHint: CurseForgeでワールドを検索
+  searchSaves: セーブを検索
 screenshots:
-  empty: ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆãŒã‚ã‚Šã¾ã›ã‚“
-  playRandom: ã‚·ãƒ£ãƒƒãƒ•ãƒ«
-  playSequence: é †ç•ªã«å†ç”Ÿ
-  gallery: ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆã‚®ãƒ£ãƒ©ãƒªãƒ¼
-  hint: ã‚²ãƒ¼ãƒ å†…ã§F2ã‚’æŠ¼ã—ã¦ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆã‚’æ’®å½±
-  openFolder: ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆãƒ•ã‚©ãƒ«ãƒ€ã‚’é–‹ã
+  empty: スクリーンショットがありません
+  playRandom: シャッフル
+  playSequence: 順番に再生
+  gallery: スクリーンショットギャラリー
+  hint: ゲーム内でF2を押してスクリーンショットを撮影
+  openFolder: スクリーンショットフォルダを開く
 search:
-  favorate: ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³
-  local: è¨­ç½®æ¸ˆã¿
-  market: ãƒ¢ãƒƒãƒ‰ãƒžãƒ¼ã‚±ãƒƒãƒˆ
+  favorate: コレクション
+  local: 設置済み
+  market: モッドマーケット
 server:
-  acceptingMinecraftVersion: Minecraftãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’ä½¿ç”¨ä¸­
-  creationHint: ã‚µãƒ¼ãƒãƒ¼ã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…¥åŠ›ã—ã€pingã—ã¦ãã ã•ã„
-  expectedVersions: ã‚µãƒãƒ¼ãƒˆã•ã‚ŒãŸãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  export: ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã‚µãƒ¼ãƒãƒ¼
+  acceptingMinecraftVersion: Minecraftバージョンを使用中
+  creationHint: サーバーアドレスを入力し、pingしてください
+  expectedVersions: サポートされたバージョン
+  export: エクスポートサーバー
   exportNoFilesHint: |-
-    ã‚µãƒ¼ãƒãƒ¼ãƒ•ã‚¡ã‚¤ãƒ«ã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã€‚
-    ãƒ­ãƒ¼ã‚«ãƒ«ã§ã‚µãƒ¼ãƒãƒ¼ã‚’1å›žå®Ÿè¡Œã—ã¦ã€ã„ãã¤ã‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç”Ÿæˆã§ãã¾ã™ã€‚
-  exportOption: ã‚µãƒ¼ãƒãƒ¼ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã‚ªãƒ—ã‚·ãƒ§ãƒ³
+    サーバーファイルは見つかりません。
+    ローカルでサーバーを1回実行して、いくつかのファイルを生成できます。
+  exportOption: サーバーエクスポートオプション
   exportSSHAuthenticationFailed: |-
-    ã™ã¹ã¦ã®èªè¨¼æ–¹æ³•ãŒå¤±æ•—ã—ã¾ã—ãŸã€‚
-    ãƒ¦ãƒ¼ã‚¶ãƒ¼å/ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã¾ãŸã¯ç§˜å¯†éµã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚
-  exportSSHOptions: SSHã‚ªãƒ—ã‚·ãƒ§ãƒ³
-  exportSSHPrivateKeyPath: SSHç§˜å¯†ã‚­ãƒ¼ãƒ‘ã‚¹
-  exportSSHRemotePath: ãƒªãƒ¢ãƒ¼ãƒˆã‚µãƒ¼ãƒãƒ¼ãƒ‘ã‚¹
-  exportToFolder: ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã«ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã—ã¾ã™
-  filterVersion: å¯¾å¿œã—ãŸMinecraftãƒãƒ¼ã‚¸ãƒ§ãƒ³ã®ã‚µãƒ¼ãƒãƒ¼ã‚’ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼ã—ã¾ã™
-  host: ãƒ›ã‚¹ãƒˆ
-  hostHint: ã‚µãƒ¼ãƒãƒ¼ã®ãƒ›ã‚¹ãƒˆ(ã¨ãƒãƒ¼ãƒˆ)
-  hostRequired: ã‚µãƒ¼ãƒãƒ¼IPã‚¢ãƒ‰ãƒ¬ã‚¹ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
-  ipAddress: IP ã‚¢ãƒ‰ãƒ¬ã‚¹
-  maxPlayers: æœ€å¤§ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼æ•°
-  motd: ã‚µãƒ¼ãƒãƒ¼ MOTD
-  nogui: ã‚µãƒ¼ãƒãƒ¼ã®GUIãªã—
-  onlineMode: ã‚ªãƒ³ãƒ©ã‚¤ãƒ³ãƒ¢ãƒ¼ãƒ‰
+    すべての認証方法が失敗しました。
+    ユーザー名/パスワードまたは秘密鍵を確認してください。
+  exportSSHOptions: SSHオプション
+  exportSSHPrivateKeyPath: SSH秘密キーパス
+  exportSSHRemotePath: リモートサーバーパス
+  exportToFolder: フォルダーにエクスポートします
+  filterVersion: 対応したMinecraftバージョンのサーバーをフィルターします
+  host: ホスト
+  hostHint: サーバーのホスト(とポート)
+  hostRequired: サーバーIPアドレスを入力してください
+  ipAddress: IP アドレス
+  maxPlayers: 最大プレイヤー数
+  motd: サーバー MOTD
+  nogui: サーバーのGUIなし
+  onlineMode: オンラインモード
   ping: Ping
   pings: Ping
-  players: ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼æ•°
-  port: ãƒãƒ¼ãƒˆ
-  unknown: æœªçŸ¥ã®ã‚µãƒ¼ãƒãƒ¼
-  unknownDescription: æœªçŸ¥ã®ã‚µãƒ¼ãƒãƒ¼ã§ã™ã€‚æƒ…å ±ã‚’æ›´æ–°ã—ã¦ãã ã•ã„ã€‚
-  upload: ã‚µãƒ¼ãƒãƒ¼ã‚’ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™
-  version: ã‚µãƒ¼ãƒãƒ¼ã®è¦æ±‚ã™ã‚‹ãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  versionHint: Pingã™ã‚‹Minecraftã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+  players: プレイヤー数
+  port: ポート
+  unknown: 未知のサーバー
+  unknownDescription: 未知のサーバーです。情報を更新してください。
+  upload: サーバーをアップロードします
+  version: サーバーの要求するバージョン
+  versionHint: PingするMinecraftのバージョン
 serverStatus:
-  nohost: Â§4ãƒ›ã‚¹ãƒˆãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“!
+  nohost: §4ホストが見つかりません!
   ping: Ping...
-  refuse: Â§4ã‚µãƒ¼ãƒãƒ¼ãŒæ‹’å¦ã—ã¾ã—ãŸ!
-  timeout: Â§4ã‚µãƒ¼ãƒãƒ¼ã¸ã®æŽ¥ç¶šãŒã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆ!
+  refuse: §4サーバーが拒否しました!
+  timeout: §4サーバーへの接続がタイムアウト!
 setting:
   themeStore:
-    name: ãƒ†ãƒ¼ãƒžã‚¹ãƒˆã‚¢
-    description: ã‚°ãƒ­ãƒ¼ãƒãƒ«ãƒ†ãƒ¼ãƒžã‚’ä¿å­˜ãƒ»ç®¡ç†ã—ã¾ã™
-    savedThemes: ä¿å­˜æ¸ˆã¿ãƒ†ãƒ¼ãƒž
-    noSavedThemes: ä¿å­˜æ¸ˆã¿ãƒ†ãƒ¼ãƒžãŒã‚ã‚Šã¾ã›ã‚“
-    saveToStore: ã‚¹ãƒˆã‚¢ã«ä¿å­˜
-    saveDialogTitle: ãƒ†ãƒ¼ãƒžã‚’ä¿å­˜
-    themeName: ãƒ†ãƒ¼ãƒžå
-    themeNameHint: ã“ã®ãƒ†ãƒ¼ãƒžã‚’ä¿å­˜ã™ã‚‹åå‰
-    loadConfirmTitle: ç¾åœ¨ã®ãƒ†ãƒ¼ãƒžã‚’ç½®ãæ›ãˆã¾ã™ã‹ï¼Ÿ
-    loadConfirmMessage: ä¿å­˜æ¸ˆã¿ãƒ†ãƒ¼ãƒžã‚’èª­ã¿è¾¼ã‚€ã¨ç¾åœ¨ã®ãƒ†ãƒ¼ãƒžãŒç½®ãæ›ã‚ã‚Šã¾ã™ã€‚å¿…è¦ãªã‚‰ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã—ã¦ãã ã•ã„ã€‚
-    loadTheme: ãƒ†ãƒ¼ãƒžã‚’èª­ã¿è¾¼ã‚€
-  about: ã«ã¤ã„ã¦
-  aboutBmclDescription: BMCL APIã¯ã€ä¸­å›½æœ¬åœŸã®ãƒ¦ãƒ¼ã‚¶ãƒ¼ã«ä¾¿åˆ©ãªãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚’æä¾›ã—ã¾ã™
-  aboutContributors: ðŸ§‘â€ðŸ’» ã‚³ãƒ³ãƒˆãƒªãƒ“ãƒ¥ãƒ¼ã‚¿ãƒ¼ ðŸ§‘â€ðŸ’»
-  aboutDenoDescription: FastLauncherã¯ã‚µãƒ¼ãƒãƒ¼ãƒ¬ã‚¹JavaScriptã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ç”¨ã®Deno Deployã®æ‰‹é–“ã®ã‹ã‹ã‹ã‚‰ãªã„ãƒ—ãƒ©ãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ ã‚’æ´»ç”¨ã—ã¦ã„ã¾ã™
+    name: テーマストア
+    description: グローバルテーマを保存・管理します
+    savedThemes: 保存済みテーマ
+    noSavedThemes: 保存済みテーマがありません
+    saveToStore: ストアに保存
+    saveDialogTitle: テーマを保存
+    themeName: テーマ名
+    themeNameHint: このテーマを保存する名前
+    loadConfirmTitle: 現在のテーマを置き換えますか？
+    loadConfirmMessage: 保存済みテーマを読み込むと現在のテーマが置き換わります。必要ならバックアップしてください。
+    loadTheme: テーマを読み込む
+  about: について
+  aboutBmclDescription: BMCL APIは、中国本土のユーザーに便利なダウンロードを提供します
+  aboutContributors: 🧑‍💻 コントリビューター 🧑‍💻
+  aboutDenoDescription: FastLauncherはサーバーレスJavaScriptアプリケーション用のDeno Deployの手間のかかからないプラットフォームを活用しています
   aboutLicense: MIT License
-  aboutLicenseInfo: SignPath.ioãŒæä¾›ã™ã‚‹Windowsä¸Šã®ç„¡æ–™ã‚³ãƒ¼ãƒ‰ç½²åã€SignPath Foundationã«ã‚ˆã‚‹è¨¼æ˜Žæ›¸
-  aboutSponsors: ðŸ˜‡ ã‚¹ãƒãƒ³ã‚µãƒ¼ ðŸ˜‡
-  advancedJavaOptions: é«˜åº¦ãªJavaã‚ªãƒ—ã‚·ãƒ§ãƒ³
-  advancedSettings: è©³ç´°è¨­å®š
-  advancedSettingsHint: å±é™ºã‚¾ãƒ¼ãƒ³ - ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãƒ‡ãƒ¼ã‚¿ã®ãƒªã‚»ãƒƒãƒˆã¾ãŸã¯ç®¡ç†
+  aboutLicenseInfo: SignPath.ioが提供するWindows上の無料コード署名、SignPath Foundationによる証明書
+  aboutSponsors: 😇 スポンサー 😇
+  advancedJavaOptions: 高度なJavaオプション
+  advancedSettings: 詳細設定
+  advancedSettingsHint: 危険ゾーン - ランチャーデータのリセットまたは管理
   apiSets:
-    auto: è‡ªå‹• (ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã«ã‚ˆã‚Šåˆ¤æ–­)
-    official: å…¬å¼ (Mojang)
-  appearance: å¤–è¦³
-  appearanceDescription: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã®å¤–è¦³ã‚’ã‚«ã‚¹ã‚¿ãƒžã‚¤ã‚º
-  appxUpdateHint: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—å®Ÿè¡Œã—ã¾ã™ã€‚ã‚‚ã—ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—ã—ãŸã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ãŒå¤±æ•—ã—ãŸã‚‰æ‰‹å‹•ã§å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
-  authenticationSettings: èªè¨¼
-  backdropBlur: èƒŒæ™¯ã®ã¼ã‹ã—
-  backgroundColorAbove: èƒŒæ™¯ç”»åƒã‚’ã‚ªãƒ¼ãƒãƒ¼ãƒ¬ã‚¤ã¨ã—ã¦è¡¨ç¤º
-  backgroundColorAboveDescription: èƒŒæ™¯ã®ç”»åƒã€æ˜ åƒã®ä¸Šã«èƒŒæ™¯è‰²ã‚’é©ç”¨ã§ãã‚‹ã‚ˆã†ã«ã—ã¾ã™
-  backgroundImage: èƒŒæ™¯ç”»åƒ
-  backgroundImageClear: ã‚¯ãƒªã‚¢
-  backgroundImageDescription: èƒŒæ™¯ã«ä½¿ã†ç”»åƒã‚’é¸æŠžã€ã¾ãŸã¯ã‚¯ãƒªã‚¢
+    auto: 自動 (ネットワークにより判断)
+    official: 公式 (Mojang)
+  appearance: 外観
+  appearanceDescription: ランチャーの外観をカスタマイズ
+  appxUpdateHint: ランチャーがインストーラーをダウンロードし実行します。もしポップアップしたインストーラーが失敗したら手動で実行してください。
+  authenticationSettings: 認証
+  backdropBlur: 背景のぼかし
+  backgroundColorAbove: 背景画像をオーバーレイとして表示
+  backgroundColorAboveDescription: 背景の画像、映像の上に背景色を適用できるようにします
+  backgroundImage: 背景画像
+  backgroundImageClear: クリア
+  backgroundImageDescription: 背景に使う画像を選択、またはクリア
   backgroundImageFit:
-    contain: å«ã‚€
-    cover: è¦†ã†
-    name: åˆã‚ã›ã‚‹
-  backgroundImageUrl: ç”»åƒURL
-  backgroundImageUrlPlaceholder: ç”»åƒã®HTTP/HTTPS URLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
+    contain: 含む
+    cover: 覆う
+    name: 合わせる
+  backgroundImageUrl: 画像URL
+  backgroundImageUrlPlaceholder: 画像のHTTP/HTTPS URLを入力してください
   backgroundMusic: BGM
-  backgroundMusicUrl: éŸ³æ¥½URL
-  backgroundMusicUrlPlaceholder: éŸ³æ¥½ã®HTTP/HTTPS URLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
-  backgroundType: èƒŒæ™¯ã®ç¨®é¡ž
-  backgroundTypeDescription: èƒŒæ™¯ã«ç‰¹æ®ŠåŠ¹æžœã‚’è¡¨ç¤ºã—ã¾ã™ (å‹•ä½œãŒé‡ããªã‚‹ã‹ã‚‚ã—ã‚Œã‚ã›ã‚“)
+  backgroundMusicUrl: 音楽URL
+  backgroundMusicUrlPlaceholder: 音楽のHTTP/HTTPS URLを入力してください
+  backgroundType: 背景の種類
+  backgroundTypeDescription: 背景に特殊効果を表示します (動作が重くなるかもしれあせん)
   backgroundTypes:
-    halo: ãƒ˜ã‚¤ãƒ­ãƒ¼
-    image: ç”»åƒ
-    none: ãªã—
-    particle: ãƒ‘ãƒ¼ãƒ†ã‚£ã‚¯ãƒ«
-    video: ãƒ“ãƒ‡ã‚ª
-  backgroundVideo: èƒŒæ™¯ã®ãƒ“ãƒ‡ã‚ª
-  backgroundVideoDescription: æ˜ åƒã‚’é¸ã¶ã‹ã‚¯ãƒªã‚¢ã™ã‚‹
-  backgroundVideoUrl: å‹•ç”»ã®URL
-  backgroundVideoUrlPlaceholder: ãƒ“ãƒ‡ã‚ªã®HTTP/HTTPS URLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
-  backgroundVideoVolume: éŸ³é‡
-  backgroundVideoVolumeDescription: ãƒ‰ãƒ©ãƒƒã‚°ã—ã¦éŸ³é‡ã‚’èª¿æ•´
-  browseRoot: è¦‹ã‚‹
-  checkUpdate: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã‚’ç¢ºèª
+    halo: ヘイロー
+    image: 画像
+    none: なし
+    particle: パーティクル
+    video: ビデオ
+  backgroundVideo: 背景のビデオ
+  backgroundVideoDescription: 映像を選ぶかクリアする
+  backgroundVideoUrl: 動画のURL
+  backgroundVideoUrlPlaceholder: ビデオのHTTP/HTTPS URLを入力してください
+  backgroundVideoVolume: 音量
+  backgroundVideoVolumeDescription: ドラッグして音量を調整
+  browseRoot: 見る
+  checkUpdate: アップデートを確認
   colorTheme:
-    appBarColor: ã‚¢ãƒ—ãƒªãƒãƒ¼
-    backgroundColor: èƒŒæ™¯è‰²
-    cardColor: ã‚«ãƒ¼ãƒ‰ã®è‰²
-    description: ã“ã®ãƒ†ãƒ¼ãƒžã§è‰²ã‚’å¤‰ãˆã‚‹
-    errorColor: ã‚¨ãƒ©ãƒ¼ã®è‰²
-    name: ãƒ†ãƒ¼ãƒžã‚«ãƒ©ãƒ¼
-    primaryColor: ãƒ—ãƒ©ã‚¤ãƒžãƒªã‚«ãƒ©ãƒ¼
-    sideBarColor: ã‚µã‚¤ãƒ‰ãƒãƒ¼
-    warningColor: è­¦å‘Šã®è‰²
-  darkTheme: ãƒ†ãƒ¼ãƒž
-  darkThemeDescription: ãƒ€ãƒ¼ã‚¯ãƒ†ãƒ¼ãƒžã‹ãƒ©ã‚¤ãƒˆãƒ†ãƒ¼ãƒžã‚’é¸æŠžã—ã¦ãã ã•ã„
-  devModeLabel: é–‹ç™º
-  developerMode: é–‹ç™ºè€…ãƒ¢ãƒ¼ãƒ‰
-  developerModeDescription: ã‚ãªãŸã®ä½œæˆã—ãŸModã‚’ç°¡å˜ã«è©¦ã›ã¾ã™
-  disableTelemetry: ãƒ†ãƒ¬ãƒ¡ãƒˆãƒªã‚’ç„¡åŠ¹åŒ–
-  disableTelemetryDescription: FastLauncherã¯ã‚²ãƒ¼ãƒ ã®ç«‹ã¡ä¸Šã’ã¨ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚¤ãƒ™ãƒ³ãƒˆã‚’åŽé›†ã—ã¾ã™
-  enableDedicatedGPUOptimization: å¤–éƒ¨GPUã‚’ä½¿ç”¨
-  enableDedicatedGPUOptimizationDescription: Minecraftã®ãƒ—ãƒ­ã‚»ã‚¹ã«å¤–éƒ¨GPUã‚’å‰²ã‚Šå½“ã¦ã¾ã™
-  enableDiscord: Discord RPCã‚’æœ‰åŠ¹åŒ–
-  enableDiscordDescription: FastLauncherã§ã®ãƒªãƒƒãƒãƒ—ãƒ¬ã‚¼ãƒ³ã‚¹
-  enterUrl: URLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
-  exportSettings: è¨­å®šã‚’ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
-  exportSettingsHint: ç¾åœ¨ã®è¨­å®šã‚’ãƒ•ã‚¡ã‚¤ãƒ«ã«ä¿å­˜
-  general: ä¸€èˆ¬
-  githubRelease: Github ãƒªãƒªãƒ¼ã‚¹
-  globalSetting: ã‚°ãƒ­ãƒ¼ãƒãƒ«è¨­å®š
-  globalSettingHint: èµ·å‹•æ§‹æˆã¯ã“ã‚Œã‚‰ã®è¨­å®šã‚’ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¨ã—ã¦è¨­å®šã—ã¾ã™
-  importSettings: è¨­å®šã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  importSettingsHint: ä»¥å‰ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰è¨­å®šã‚’èª­ã¿è¾¼ã¿
+    appBarColor: アプリバー
+    backgroundColor: 背景色
+    cardColor: カードの色
+    description: このテーマで色を変える
+    errorColor: エラーの色
+    name: テーマカラー
+    primaryColor: プライマリカラー
+    sideBarColor: サイドバー
+    warningColor: 警告の色
+  darkTheme: テーマ
+  darkThemeDescription: ダークテーマかライトテーマを選択してください
+  devModeLabel: 開発
+  developerMode: 開発者モード
+  developerModeDescription: あなたの作成したModを簡単に試せます
+  disableTelemetry: テレメトリを無効化
+  disableTelemetryDescription: FastLauncherはゲームの立ち上げとユーザーイベントを収集します
+  enableDedicatedGPUOptimization: 外部GPUを使用
+  enableDedicatedGPUOptimizationDescription: Minecraftのプロセスに外部GPUを割り当てます
+  enableDiscord: Discord RPCを有効化
+  enableDiscordDescription: FastLauncherでのリッチプレゼンス
+  enterUrl: URLを入力してください
+  exportSettings: 設定をエクスポート
+  exportSettingsHint: 現在の設定をファイルに保存
+  general: 一般
+  githubRelease: Github リリース
+  globalSetting: グローバル設定
+  globalSettingHint: 起動構成はこれらの設定をデフォルトとして設定します
+  importSettings: 設定をインポート
+  importSettingsHint: 以前エクスポートしたファイルから設定を読み込み
   instanceTheme:
     activeDescription: |-
-      ã“ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã¯ã‚«ã‚¹ã‚¿ãƒ  ãƒ†ãƒ¼ãƒžã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
-      ã‚°ãƒ­ãƒ¼ãƒãƒ« ãƒ†ãƒ¼ãƒžã‚’ä½¿ç”¨ã™ã‚‹ã«ã¯ã€ã“ã‚Œã‚’å‰Šé™¤ã—ã¾ã™ã€‚
+      このインスタンスはカスタム テーマを使用しています。
+      グローバル テーマを使用するには、これを削除します。
     description: |-
-      ã“ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®ã‚«ã‚¹ã‚¿ãƒ  ãƒ†ãƒ¼ãƒžã‚’æœ‰åŠ¹ã«ã—ã¾ã™ã€‚
-      ã“ã‚Œã«ã‚ˆã‚Šã€ç¾åœ¨ã®ã‚°ãƒ­ãƒ¼ãƒãƒ« ãƒ†ãƒ¼ãƒžã®ã‚³ãƒ”ãƒ¼ãŒä½œæˆã•ã‚Œã¾ã™ã€‚
-    name: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®ãƒ†ãƒ¼ãƒž
-  language: è¨€èªž
-  languageDescription: è¡¨ç¤ºã™ã‚‹è¨€èªž
-  latestVersion: æœ€æ–°ç‰ˆ
+      このインスタンスのカスタム テーマを有効にします。
+      これにより、現在のグローバル テーマのコピーが作成されます。
+    name: インスタンスのテーマ
+  language: 言語
+  languageDescription: 表示する言語
+  latestVersion: 最新版
   layout:
-    default: ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ
-    focus: ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆã‚’ãƒ•ã‚©ãƒ¼ã‚«ã‚¹
-  layoutDescription: ãƒ©ãƒ³ãƒãƒ£ãƒ¼UIã®ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ
-  layoutTitle: ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ
-  linuxEnableDedicatedGPUOptimization: å¤–éƒ¨GPUã‚’ä½¿ç”¨
-  linuxEnableDedicatedGPUOptimizationDescription: Minecraftã®ãƒ—ãƒ­ã‚»ã‚¹ã«å¤–éƒ¨GPUã‚’å‰²ã‚Šå½“ã¦ã€å¤–éƒ¨GPUã‚’DRI PRIME, Optimusãªã©ã§å„ªå…ˆçš„ã«ä½¿ç”¨ã—ã¾ã™
-  linuxTitlebar: ã‚·ã‚¹ãƒ†ãƒ ã®ã‚¿ã‚¤ãƒˆãƒ«ãƒãƒ¼
-  linuxTitlebarDescription: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã§ã‚·ã‚¹ãƒ†ãƒ æ¨™æº–ã®ã‚¿ã‚¤ãƒˆãƒ«ãƒãƒ¼ã‚’ä½¿ç”¨ã—ã¾ã™
-  livePreview: ãƒ©ã‚¤ãƒ–ãƒ—ãƒ¬ãƒ“ãƒ¥ãƒ¼
-  location: ä¿ç®¡å ´æ‰€
-  manualUpdateHint: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã®è‡ªå‹•æ›´æ–°ãŒã§ãã¾ã›ã‚“ã€‚å…¬å¼ã‚µã‚¤ãƒˆã‹ã‚‰å†åº¦ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ãã ã•ã„ï¼
-  maunalUpdateHint: ã“ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’è‡ªå‹•ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆã§ãã¾ã›ã‚“ã€‚ã‚¦ã‚§ãƒ–ã‚µã‚¤ãƒˆã‹ã‚‰ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’å†ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ãã ã•ã„!
-  maxSockets: ãƒ›ã‚¹ãƒˆæ¯Ž
-  maxSocketsDescription: ãƒ›ã‚¹ãƒˆæ¯Žã®æœ€å¤§ã®ã‚½ã‚±ãƒƒãƒˆã€ã¾ãŸã¯å…¨ã¦ã®æœ€å¤§ã®ã‚½ã‚±ãƒƒãƒˆã‚’åˆ¶é™ã—ã¾ã™ã€‚0ã§ç„¡åˆ¶é™ã€‚
-  maxSocketsTitle: æœ€å¤§HTTPã‚½ã‚±ãƒƒãƒˆæ•°
-  memoryAssignment: ãƒ¡ãƒ¢ãƒªå‰²ã‚Šå½“ã¦
-  migrateFromOther: ä»–ã®ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‹ã‚‰ã‚¤ãƒ³ãƒãƒ¼ãƒˆã™ã‚‹
-  minecraftOptions: Minecraftã‚ªãƒ—ã‚·ãƒ§ãƒ³
-  name: ã‚°ãƒ­ãƒ¼ãƒãƒ«è¨­å®š | ã‚°ãƒ­ãƒ¼ãƒãƒ«è¨­å®š
-  network: ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯è¨­å®š
-  newsPosition: ãƒ‹ãƒ¥ãƒ¼ã‚¹ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã‚’ç§»å‹•
-  officialWebsite: å…¬å¼ã‚µã‚¤ãƒˆ
+    default: デフォルトのレイアウト
+    focus: レイアウトをフォーカス
+  layoutDescription: ランチャーUIのレイアウト
+  layoutTitle: レイアウト
+  linuxEnableDedicatedGPUOptimization: 外部GPUを使用
+  linuxEnableDedicatedGPUOptimizationDescription: Minecraftのプロセスに外部GPUを割り当て、外部GPUをDRI PRIME, Optimusなどで優先的に使用します
+  linuxTitlebar: システムのタイトルバー
+  linuxTitlebarDescription: ランチャーでシステム標準のタイトルバーを使用します
+  livePreview: ライブプレビュー
+  location: 保管場所
+  manualUpdateHint: バージョンの自動更新ができません。公式サイトから再度ランチャーをダウンロードしてください！
+  maunalUpdateHint: このバージョンを自動アップデートできません。ウェブサイトからランチャーを再ダウンロードしてください!
+  maxSockets: ホスト毎
+  maxSocketsDescription: ホスト毎の最大のソケット、または全ての最大のソケットを制限します。0で無制限。
+  maxSocketsTitle: 最大HTTPソケット数
+  memoryAssignment: メモリ割り当て
+  migrateFromOther: 他のランチャーからインポートする
+  minecraftOptions: Minecraftオプション
+  name: グローバル設定 | グローバル設定
+  network: ネットワーク設定
+  newsPosition: ニュースセクションを移動
+  officialWebsite: 公式サイト
   particleMode:
-    bubble: ãƒãƒ–ãƒ«
-    name: ãƒ‘ãƒ¼ãƒ†ã‚£ã‚¯ãƒ«ãƒ¢ãƒ¼ãƒ‰
-    push: ãƒ—ãƒƒã‚·ãƒ¥
-    remove: å‰Šé™¤
-    repulse: ãƒªãƒ‘ãƒ«ã‚¹
-  particleModeDescription: ãƒ‘ãƒ¼ãƒ†ã‚£ã‚¯ãƒ«ã®æŒ™å‹•ã‚’é¸ã¶
-  quickLaunchSettings: ã‚¯ã‚¤ãƒƒã‚¯èµ·å‹•
-  replaceNative: ãƒã‚¤ãƒ†ã‚£ãƒ–ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’ç½®ãæ›ãˆã¾ã™
-  replaceNativeDescription: ãƒã‚¤ãƒ†ã‚£ãƒ–ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’ã‚ãªãŸã®ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£ã«åˆã‚ã›ã¦ç½®ãæ›ãˆã¾ã™
+    bubble: バブル
+    name: パーティクルモード
+    push: プッシュ
+    remove: 削除
+    repulse: リパルス
+  particleModeDescription: パーティクルの挙動を選ぶ
+  quickLaunchSettings: クイック起動
+  replaceNative: ネイティブライブラリを置き換えます
+  replaceNativeDescription: ネイティブライブラリをあなたのコンピューターアーキテクチャに合わせて置き換えます
   replaceNatives:
-    all: ã™ã¹ã¦
-    legacy: å¤ã„ãƒãƒ¼ã‚­ãƒ§ãƒ³ã®ã¿
-  resetAllSettings: ã™ã¹ã¦ã®è¨­å®šã‚’ãƒªã‚»ãƒƒãƒˆ
-  resetAllSettingsConfirmMessage: ã“ã‚Œã¯ã™ã¹ã¦ã®è¨­å®šã€ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã€ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã€ã‚°ãƒ«ãƒ¼ãƒ—ã€ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ‡ãƒ¼ã‚¿ã‚’å®Œå…¨ã«å‰Šé™¤ã—ã¾ã™ã€‚ã“ã®æ“ä½œã¯å–ã‚Šæ¶ˆã™ã“ã¨ãŒã§ãã¾ã›ã‚“ã€‚ã‚ˆã‚ã—ã„ã§ã™ã‹ï¼Ÿ
-  resetAllSettingsConfirmTitle: ã™ã¹ã¦ã®è¨­å®šã‚’ãƒªã‚»ãƒƒãƒˆã—ã¾ã™ã‹ï¼Ÿ
-  resetAllSettingsHint: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‚’å·¥å ´å‡ºè·æ™‚ã®è¨­å®šã«ãƒªã‚»ãƒƒãƒˆï¼ˆã™ã¹ã¦å‰Šé™¤ï¼‰
-  resetAllSettingsSuccess: ã™ã¹ã¦ã®è¨­å®šãŒãƒªã‚»ãƒƒãƒˆã•ã‚Œã¾ã—ãŸã€‚ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãŒå†èµ·å‹•ã—ã¾ã™ã€‚
-  resetSettingsError: 'è¨­å®šã®ãƒªã‚»ãƒƒãƒˆä¸­ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ: {error}'
-  resetToDefault: ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã«ãƒªã‚»ãƒƒãƒˆ
-  select: é¸æŠž
-  settingsExported: è¨­å®šã®ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆã«æˆåŠŸã—ã¾ã—ãŸ
-  settingsImportError: è¨­å®šã®ã‚¤ãƒ³ãƒãƒ¼ãƒˆã«å¤±æ•—ã—ã¾ã—ãŸã€‚ãƒ•ã‚¡ã‚¤ãƒ«å½¢å¼ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚
-  settingsImported: è¨­å®šã®ã‚¤ãƒ³ãƒãƒ¼ãƒˆã«æˆåŠŸã—ã¾ã—ãŸ
-  settingsReloadHint: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯å†èµ·å‹•ã—ã¦ã€ã™ã¹ã¦ã®è¨­å®šã‚’é©ç”¨ã—ã¾ã™ã€‚
-  showNewsHeader: ãƒ‹ãƒ¥ãƒ¼ã‚¹ã‚’éš ã•ãªã„
-  showRoot: è¦‹ã‚‹
-  sidebarAlign: ã‚µã‚¤ãƒ‰ãƒãƒ¼ã®é…ç½®
-  sidebarAutoHide: ã‚µã‚¤ãƒ‰ãƒãƒ¼ã‚’è‡ªå‹•çš„ã«éš ã™
-  sidebarAutoHideHint: ã‚µã‚¤ãƒ‰ãƒãƒ¼ã‚’è‡ªå‹•çš„ã«éš ã—ã€ãƒ›ãƒãƒ¼æ™‚ã«è¡¨ç¤ºã™ã‚‹
-  sidebarClassic: ã‚¯ãƒ©ã‚·ãƒƒã‚¯
-  sidebarNotch: ãƒŽãƒƒãƒ
-  sidebarPosition: ã‚µã‚¤ãƒ‰ãƒãƒ¼ã®ä½ç½®
-  sidebarScale: ã‚µã‚¤ãƒ‰ãƒãƒ¼ã®ã‚¹ã‚±ãƒ¼ãƒ«
-  sidebarShowOnlyPinned: ãƒ”ãƒ³ç•™ã‚ã•ã‚ŒãŸã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®ã¿ã‚’è¡¨ç¤º
-  sidebarShowOnlyPinnedHint: ã‚µã‚¤ãƒ‰ãƒãƒ¼ã«ãƒ”ãƒ³ç•™ã‚ã•ã‚ŒãŸã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®ã¿ã‚’è¡¨ç¤ºã™ã‚‹
-  sidebarStyle: ã‚µã‚¤ãƒ‰ãƒãƒ¼ã®ã‚¹ã‚¿ã‚¤ãƒ«
-  sidebarStyleHint: ã‚¯ãƒ©ã‚·ãƒƒã‚¯ã¨ãƒ¢ãƒ€ãƒ³ãªãƒŽãƒƒãƒãƒ‡ã‚¶ã‚¤ãƒ³ã‹ã‚‰é¸æŠž
-  streamerMode: ã‚¹ãƒˆãƒªãƒ¼ãƒŸãƒ³ã‚°ãƒ¢ãƒ¼ãƒ‰
-  streamerModeDescription: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã§ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã®ã‚ˆã†ãªæ©Ÿå¯†æ€§ã®é«˜ã„æƒ…å ±ã‚’éš ã—ã¾ã™ã€‚
+    all: すべて
+    legacy: 古いバーキョンのみ
+  resetAllSettings: すべての設定をリセット
+  resetAllSettingsConfirmMessage: これはすべての設定、アカウント、インスタンス、グループ、キャッシュデータを完全に削除します。この操作は取り消すことができません。よろしいですか？
+  resetAllSettingsConfirmTitle: すべての設定をリセットしますか？
+  resetAllSettingsHint: ランチャーを工場出荷時の設定にリセット（すべて削除）
+  resetAllSettingsSuccess: すべての設定がリセットされました。ランチャーが再起動します。
+  resetSettingsError: '設定のリセット中にエラーが発生しました: {error}'
+  resetToDefault: デフォルトにリセット
+  select: 選択
+  settingsExported: 設定のエクスポートに成功しました
+  settingsImportError: 設定のインポートに失敗しました。ファイル形式を確認してください。
+  settingsImported: 設定のインポートに成功しました
+  settingsReloadHint: ランチャーは再起動して、すべての設定を適用します。
+  showNewsHeader: ニュースを隠さない
+  showRoot: 見る
+  sidebarAlign: サイドバーの配置
+  sidebarAutoHide: サイドバーを自動的に隠す
+  sidebarAutoHideHint: サイドバーを自動的に隠し、ホバー時に表示する
+  sidebarClassic: クラシック
+  sidebarNotch: ノッチ
+  sidebarPosition: サイドバーの位置
+  sidebarScale: サイドバーのスケール
+  sidebarShowOnlyPinned: ピン留めされたインスタンスのみを表示
+  sidebarShowOnlyPinnedHint: サイドバーにピン留めされたインスタンスのみを表示する
+  sidebarStyle: サイドバーのスタイル
+  sidebarStyleHint: クラシックとモダンなノッチデザインから選択
+  streamerMode: ストリーミングモード
+  streamerModeDescription: ランチャーでメールアドレスのような機密性の高い情報を隠します。
   theme:
-    dark: ãƒ€ãƒ¼ã‚¯ãƒ†ãƒ¼ãƒž
-    light: ãƒ©ã‚¤ãƒˆãƒ†ãƒ¼ãƒž
-    system: ã‚·ã‚¹ãƒ†ãƒ ã®ãƒ†ãƒ¼ãƒžã‚’ä½¿ã†
-  themeExport: ãƒ†ãƒ¼ãƒžã‚’ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
-  themeBorderRadius: è§’ä¸¸
-  themeBorderRadiusDescription: ã‚«ãƒ¼ãƒ‰ã€ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã€ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã€ãƒ‘ãƒãƒ«ã®è§’ä¸¸ã‚’æœ‰åŠ¹ã¾ãŸã¯ç„¡åŠ¹ã«ã—ã¾ã™ã€‚
-  themeFont: ãƒ•ã‚©ãƒ³ãƒˆ
-  themeFontDescription: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã®ãƒ•ã‚©ãƒ³ãƒˆã‚’å¤‰æ›´ã—ã¾ã™ã€‚
-  themeFontUrl: ãƒ•ã‚©ãƒ³ãƒˆURL
-  themeFontUrlPlaceholder: ãƒ•ã‚©ãƒ³ãƒˆã®HTTP/HTTPS URLã‚’å…¥åŠ›ã—ã¦ãã ã•ã„
-  themeImport: ãƒ†ãƒ¼ãƒžã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  themeResetFont: ãƒ•ã‚©ãƒ³ãƒˆã‚’ãƒªã‚»ãƒƒãƒˆ
-  themeSelectFont: ãƒ•ã‚©ãƒ³ãƒˆã‚’é¸æŠž
-  themeSettings: ãƒ†ãƒ¼ãƒžè¨­å®š
-  themeShare: ãƒ†ãƒ¼ãƒžã‚’å…±æœ‰
-  themeShareDescription: ãƒ¬ãƒ¼ãƒžã‚’ã‚ãªãŸã®ãƒ•ãƒ¬ãƒ³ãƒ‰ã¨å…±æœ‰ã§ãã¾ã™ã€‚
-  update: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
-  useBmclAPI: BMCL APIã‚’ä½¿ã†
-  useBmclAPIDescription: ä¸­å›½æœ¬åœŸã«ã„ã‚‹å ´åˆ BMCLAPI ã‚’ç”¨ã„ã¦Minecraftã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™ (ä¸­å›½æœ¬åœŸã«å±…ãªã„å ´åˆæ©Ÿèƒ½ã—ã¾ã›ã‚“)
-  useProxy: HTTPãƒ—ãƒ­ã‚­ã‚·
-  useProxyDescription: HTTPãƒªã‚¯ã‚¨ã‚¹ãƒˆã®ãŸã‚ã®ãƒ—ãƒ­ã‚­ã‚·ã‚µãƒ¼ãƒãƒ¼ã®ã‚¢ãƒ‰ãƒ¬ã‚¹
-  viewBackgroundMusic: BGMãƒ•ã‚©ãƒ«ãƒ€ã‚’è¦‹ã‚‹
+    dark: ダークテーマ
+    light: ライトテーマ
+    system: システムのテーマを使う
+  themeExport: テーマをエクスポート
+  themeBorderRadius: 角丸
+  themeBorderRadiusDescription: カード、ダイアログ、メニュー、パネルの角丸を有効または無効にします。
+  themeFont: フォント
+  themeFontDescription: ランチャーのフォントを変更します。
+  themeFontUrl: フォントURL
+  themeFontUrlPlaceholder: フォントのHTTP/HTTPS URLを入力してください
+  themeImport: テーマをインポート
+  themeResetFont: フォントをリセット
+  themeSelectFont: フォントを選択
+  themeSettings: テーマ設定
+  themeShare: テーマを共有
+  themeShareDescription: レーマをあなたのフレンドと共有できます。
+  update: アップデート
+  useBmclAPI: BMCL APIを使う
+  useBmclAPIDescription: 中国本土にいる場合 BMCLAPI を用いてMinecraftをダウンロードします (中国本土に居ない場合機能しません)
+  useProxy: HTTPプロキシ
+  useProxyDescription: HTTPリクエストのためのプロキシサーバーのアドレス
+  viewBackgroundMusic: BGMフォルダを見る
   setAsBackground:
-    global: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã®èƒŒæ™¯ã«è¨­å®š
-    instance: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®èƒŒæ™¯ã«è¨­å®š
-    successGlobal: èƒŒæ™¯ç”»åƒã‚’æ›´æ–°ã—ã¾ã—ãŸã€‚
-    successInstance: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®èƒŒæ™¯ç”»åƒã‚’æ›´æ–°ã—ã¾ã—ãŸã€‚
-    failed: èƒŒæ™¯ç”»åƒã®è¨­å®šã«å¤±æ•—ã—ã¾ã—ãŸ
+    global: ランチャーの背景に設定
+    instance: インスタンスの背景に設定
+    successGlobal: 背景画像を更新しました。
+    successInstance: インスタンスの背景画像を更新しました。
+    failed: 背景画像の設定に失敗しました
 settingLabel:
-  global: ã‚°ãƒ­ãƒ¼ãƒãƒ«
-  globalHint: ã‚°ãƒ­ãƒ¼ãƒãƒ«è¨­å®šã«å¾“ã„ã¾ã™
-  local: ãƒ­ãƒ¼ã‚«ãƒ«
-  localHint: ç¾åœ¨ã®èµ·å‹•æ§‹æˆã«ã®ã¿é©ç”¨ã•ã‚Œã¾ã™
+  global: グローバル
+  globalHint: グローバル設定に従います
+  local: ローカル
+  localHint: 現在の起動構成にのみ適用されます
 setup:
   account:
-    description: ã‚²ãƒ¼ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã§ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ãã ã•ã„ã€‚ã‚‚ã—ãŠæŒã¡ã§ãªã„ã®ãªã‚‰ã€ã‚¹ã‚­ãƒƒãƒ—ã§ãã¾ã™ã€‚
-    name: ã‚²ãƒ¼ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¿½åŠ 
-    skip: ä»Šã¯ã‚¹ã‚­ãƒƒãƒ—ã™ã‚‹
+    description: ゲームアカウントでログインしてください。もしお持ちでないのなら、スキップできます。
+    name: ゲームアカウントを追加
+    skip: 今はスキップする
   appearance:
     name: '@:setting.appearance'
   dataRoot:
     description: >-
-      ãƒ‡ãƒ¼ã‚¿ã®ãƒ«ãƒ¼ãƒˆã¯ä¸€èˆ¬çš„ãª.minecraftãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚FastLauncherã®ãƒ‡ã‚£ãƒ¬ã‚­ãƒˆãƒªæ§‹é€ ã¯ãƒãƒ‹ãƒ©ã¨ã¯äº’æ›æ€§ãŒãªã„ã®ã§ã€.minecraftã‚’ãƒ‡ãƒ¼ã‚¿ã®ãƒ«ãƒ¼ãƒˆã«è¨­å®šã™ã‚‹ã“ã¨ã¯æŽ¨å¥¨ã•ã‚Œã¾ã›ã‚“ã€‚
-    drives: æŽ¨å¥¨ã®è¨€èªž
-    name: ãƒ‡ãƒ¼ã‚¿ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¨­å®š
+      データのルートは一般的な.minecraftディレクトリではありません。FastLauncherのディレキトリ構造はバニラとは互換性がないので、.minecraftをデータのルートに設定することは推奨されません。
+    drives: 推奨の言語
+    name: データディレクトリを設定
   defaultLayoutDescription: >-
-    ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆã¯"ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹"ã‚³ãƒ³ã‚»ãƒ—ãƒˆã‚’å¼·åŒ–ã—ã‚ˆã†ã¨ã—ã¦ã„ã¾ã™ã€‚Discordã®ã‚ˆã†ãªæ„Ÿã˜ã§ã™ã€‚Steamãªã©ä»–ã®ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã‹ã‚‰ã‚‚ã‚¤ãƒ³ã‚¹ãƒ‘ã‚¤ã‚¢ã•ã‚Œã¦ã„ã¾ã™ã€‚
-  defaultPath: ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒ‘ã‚¹
+    デフォルトのレイアウトは"インスタンス"コンセプトを強化しようとしています。Discordのような感じです。Steamなど他のランチャーからもインスパイアされています。
+  defaultPath: デフォルトのパス
   error:
-    badDataRoot: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ãƒ‡ãƒ¼ã‚¿ã®ãŸã‚ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒç„¡åŠ¹ã§ã™! ä»–ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’é¸æŠžã—ã¦ãã ã•ã„!
-    exists: é¸æŠžã•ã‚ŒãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã¯ç©ºã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚ç¶šè¡Œã§ãã¾ã™ãŒã€ãƒ‡ãƒ¼ã‚¿ã®ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã‚’å¿˜ã‚Œãªã„ã§ãã ã•ã„ã€‚
+    badDataRoot: ランチャーデータのためのディレクトリが無効です! 他のディレクトリを選択してください!
+    exists: 選択されたディレクトリは空ではありません。続行できますが、データのバックアップを忘れないでください。
     invalidChar: |-
-      ãƒ‘ã‚¹ã«ã¯ç„¡åŠ¹ãªæ–‡å­—ãŒå«ã¾ã‚Œã¦ã„ã¾ã™ï¼
-      MinecraftãŒé–‹å§‹ã«å¤±æ•—ã™ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ï¼
-      Plaeseã¯è‹±èªžã®ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã¨ã‚·ãƒ³ãƒœãƒ«ã®ã¿ã‚’ä½¿ç”¨ã—ã¾ã™ï¼
-    noPermission: ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯é¸æŠžã•ã‚ŒãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹æ¨©é™ãŒã‚ã‚Šã¾ã›ã‚“! ä»–ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚
-    nonDictionary: é¸æŠžã•ã‚ŒãŸãƒ‘ã‚¹ã¯ãƒ•ã‚¡ã‚¤ãƒ«ã§ã™! ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’é¸æŠžã—ã¦ãã ã•ã„!
-  focusLayoutDescription: ãƒ•ã‚©ãƒ¼ã‚«ã‚¹ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆã¯Minecraftãƒ©ãƒ³ãƒãƒ£ãƒ¼ã®æ˜”ã®ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆã§ã™ã€‚ã“ã‚Œã¯å˜ä¸€ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚„ã„ãã¤ã‹ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®ãŸã‚ã«ãƒ‡ã‚¶ã‚¤ãƒ³ã•ã‚Œã¦ã„ã¾ã™
+      パスには無効な文字が含まれています！
+      Minecraftが開始に失敗する可能性があります！
+      Plaeseは英語のキャラクターとシンボルのみを使用します！
+    noPermission: ランチャーは選択されたディレクトリにアクセスする権限がありません! 他を選択してください。
+    nonDictionary: 選択されたパスはファイルです! ディレクトリを選択してください!
+  focusLayoutDescription: フォーカスレイアウトはMinecraftランチャーの昔のレイアウトです。これは単一インスタンスやいくつかのインスタンスのためにデザインされています
   game:
-    name: ã™ã§ã«å­˜åœ¨ã™ã‚‹ã‚²ãƒ¼ãƒ ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
+    name: すでに存在するゲームをインポート
   locale:
     description: >-
-      ã‚‚ã—ã‚ã‚‹å ´åˆã¯ã‚ãªãŸã®æœ€ã‚‚å¥½ã¾ã—ã„è¨€èªžã‚’é¸æŠžã—ã¦ãã ã•ã„! ã‚‚ã—ãƒã‚¤ãƒ†ã‚£ãƒ–ã®è¨€èªžãŒç„¡ãè¶³ã™ã‚±ã‚¢å¿…è¦ãªå ´åˆã¯ã€ç§é”ã®Githubã§ç¿»è¨³ã«ã¤ã„ã¦ãƒ—ãƒ«ãƒªã‚¯ã‚¨ã‚¹ãƒˆã‚’ã—ã¦ãã ã•ã„!
-    language: è¨€èªž
-    name: è¨€èªžã‚’è¨­å®š
-  path: ç¾åœ¨ã®ãƒ‘ã‚¹
+      もしある場合はあなたの最も好ましい言語を選択してください! もしネイティブの言語が無く足すケア必要な場合は、私達のGithubで翻訳についてプルリクエストをしてください!
+    language: 言語
+    name: 言語を設定
+  path: 現在のパス
 shaderPack:
-  deletion: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’å‰Šé™¤
-  deletionHint: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ {path} ã‚’å‰Šé™¤ã—ã¾ã™ã€‚ã“ã®æ“ä½œã¯å–ã‚Šæ¶ˆã›ã¾ã›ã‚“ã€‚
-  disabled: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ãŒç„¡åŠ¹ã§ã™
-  dropHint: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  empty: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ãŒã‚ã‚Šã¾ã›ã‚“
-  enable: '{name} ã‚’ä½¿ç”¨ä¸­'
-  enabled: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ãŒæœ‰åŠ¹
-  manage: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’ç®¡ç†
-  name: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯
-  noShaderMod: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ¢ãƒƒãƒ‰ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã›ã‚“
-  noShaderModHint: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼MODãŒãªã„ã¨ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ã¯ä½¿ãˆãªã„
-  noShaderModInstallHint: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ ãƒ‘ãƒƒã‚¯ã‚’èª­ã¿è¾¼ã‚€ã«ã¯ã€æ¬¡ã®ã„ãšã‚Œã‹ã® MOD ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
-  searchHint: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’æ¤œç´¢
-  selectSearchHint: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’æ¤œç´¢ã—ã¦é¸ã¶
-  showDirectory: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¦‹ã‚‹
-  showFile: ã“ã®ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã§è¦‹ã‚‹
-  market: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒžãƒ¼ã‚±ãƒƒãƒˆ
-  noPacks: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã›ã‚“
-  search: ã‚·ã‚§ãƒ¼ãƒ€ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’æ¤œç´¢...
+  deletion: シェーダーパックを削除
+  deletionHint: シェーダーパック {path} を削除します。この操作は取り消せません。
+  disabled: シェーダーパックが無効です
+  dropHint: シェーダーパックをインポート
+  empty: シェーダーパックがありません
+  enable: '{name} を使用中'
+  enabled: シェーダーパックが有効
+  manage: シェーダーパックを管理
+  name: シェーダーパック
+  noShaderMod: シェーダーモッドがインストールされていません
+  noShaderModHint: シェーダーMODがないとシェーダーは使えない
+  noShaderModInstallHint: シェーダー パックを読み込むには、次のいずれかの MOD をインストールする必要があります。
+  searchHint: シェーダーパックを検索
+  selectSearchHint: シェーダーパックを検索して選ぶ
+  showDirectory: シェーダーパックのディレクトリを見る
+  showFile: このシェーダーパックをフォルダーで見る
+  market: シェーダーマーケット
+  noPacks: シェーダーパックがインストールされていません
+  search: シェーダーパックを検索...
 shared:
-  add: è¿½åŠ 
-  author: è‘—è€…
-  back: æˆ»ã‚‹
-  browse: ãƒ–ãƒ©ã‚¦ã‚º
-  cancel: ã‚­ãƒ£ãƒ³ã‚»ãƒ«
-  client: ã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆ
-  description: æ¦‚è¦
-  disable: ç„¡åŠ¹åŒ–
-  download: ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
-  edit: ã‚¨ãƒ‡ã‚£ã‚¿ãƒ¼
-  enable: æœ‰åŠ¹åŒ–
-  filter: ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼
-  install: ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-  installed: ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿
-  keepSelected: é¸æŠžã—ãŸã¾ã¾ã«ã™ã‚‹
-  manage: ç®¡ç†
-  name: åå‰
-  next: æ¬¡ã¸
-  'no': ã„ã„ãˆ
-  ok: ã¯ã„
-  previous: ä»¥å‰ã®
-  refresh: æœ€æ–°ã®æƒ…å ±ã«æ›´æ–°
-  remove: å‰Šé™¤
-  search: æ¤œç´¢
-  server: ã‚µãƒ¼ãƒãƒ¼
-  skipForNow: ä»Šã™ãã‚¹ã‚­ãƒƒãƒ—ã™ã‚‹
-  'yes': ã¯ã„
+  add: 追加
+  author: 著者
+  back: 戻る
+  browse: ブラウズ
+  cancel: キャンセル
+  client: クライアント
+  description: 概要
+  disable: 無効化
+  download: ダウンロード
+  edit: エディター
+  enable: 有効化
+  filter: フィルター
+  install: インストール
+  installed: インストール済み
+  keepSelected: 選択したままにする
+  manage: 管理
+  name: 名前
+  next: 次へ
+  'no': いいえ
+  ok: はい
+  previous: 以前の
+  refresh: 最新の情報に更新
+  remove: 削除
+  search: 検索
+  server: サーバー
+  skipForNow: 今すぐスキップする
+  'yes': はい
 sidebar:
-  pin: ãƒ”ãƒ³ç•™ã‚ã™ã‚‹
-  unpin: å›ºå®šã‚’è§£é™¤ã™ã‚‹
+  pin: ピン留めする
+  unpin: 固定を解除する
 sortBy:
-  alphabetAsc: ã‚¢ãƒ«ãƒ•ã‚¡ãƒ™ãƒƒãƒˆã§ã‚½ãƒ¼ãƒˆï¼ˆæ˜‡é †ï¼‰
-  alphabetDesc: ã‚¢ãƒ«ãƒ•ã‚¡ãƒ™ãƒƒãƒˆã§ã‚½ãƒ¼ãƒˆï¼ˆä¸‹é™ï¼‰
-  timeAsc: å¤‰æ›´æ™‚é–“ã”ã¨ã«ã‚½ãƒ¼ãƒˆï¼ˆä¸Šæ˜‡ï¼‰
-  timeDesc: å¤‰æ›´æ™‚é–“ã”ã¨ã«ã‚½ãƒ¼ãƒˆï¼ˆä¸‹é™ï¼‰
-  name: ä¸¦ã³æ›¿ãˆ
+  alphabetAsc: アルファベットでソート（昇順）
+  alphabetDesc: アルファベットでソート（下降）
+  timeAsc: 変更時間ごとにソート（上昇）
+  timeDesc: 変更時間ごとにソート（下降）
+  name: 並び替え
 store:
-  discover: ç™ºè¦‹ã™ã‚‹
-  latestMinecraft: æœ€æ–°ã®Minecraftãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  name: Modpack ãƒžãƒ¼ã‚±ãƒƒãƒˆ
-  searchResult: æ¤œç´¢çµæžœ
-  trending: ãƒˆãƒ¬ãƒ³ãƒ‰
-  empty: ModpackãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
-  emptyHint: ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼ã¾ãŸã¯æ¤œç´¢æ¡ä»¶ã‚’èª¿æ•´ã—ã¦ã¿ã¦ãã ã•ã„ã€‚
+  discover: 発見する
+  latestMinecraft: 最新のMinecraftバージョン
+  name: Modpack マーケット
+  searchResult: 検索結果
+  trending: トレンド
+  empty: Modpackが見つかりません
+  emptyHint: フィルターまたは検索条件を調整してみてください。
 tag:
-  create: ã‚¿ã‚°ã‚’ä½œæˆ
-  createSelected: é¸æŠžã•ã‚ŒãŸã‚‚ã®ã§æ–°ã—ã„ã‚¿ã‚°ã‚’ä½œã‚‹
+  create: タグを作成
+  createSelected: 選択されたもので新しいタグを作る
 task:
-  cancelled: ã‚­ãƒ£ãƒ³ã‚»ãƒ«ã•ã‚Œã¾ã—ãŸ
-  clear: çµ‚äº†ã—ãŸã‚¿ã‚¹ã‚¯ã‚’ã‚¯ãƒªã‚¢
+  cancelled: キャンセルされました
+  clear: 終了したタスクをクリア
   connection:
-    connected: æŽ¥ç¶šæ¸ˆã¿
-    free: æŽ¥ç¶šãªã—
-    pending: ä¿ç•™ä¸­
-    queued: ã‚­ãƒ¥ãƒ¼æ¸ˆã¿
-    running: æŽ¥ç¶šã‚’å®Ÿè¡Œä¸­
-    size: åˆè¨ˆ
-  connections: ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æŽ¥ç¶š
-  empty: å®Ÿè¡Œä¸­ã®ã‚¿ã‚¹ã‚¯ãªã—
-  failed: å¤±æ•—
-  manager: ã‚¿ã‚¹ã‚¯ãƒžãƒãƒ¼ã‚¸ãƒ£ãƒ¼
-  nTaskRunning: '{count} å€‹ã®ã‚¿ã‚¹ã‚¯ãŒå®Ÿè¡Œä¸­'
-  name: ã‚¿ã‚¹ã‚¯ | ã‚¿ã‚¹ã‚¯
-  pause: ä¸€æ™‚åœæ­¢
+    connected: 接続済み
+    free: 接続なし
+    pending: 保留中
+    queued: キュー済み
+    running: 接続を実行中
+    size: 合計
+  connections: ネットワーク接続
+  empty: 実行中のタスクなし
+  failed: 失敗
+  manager: タスクマネージャー
+  nTaskRunning: '{count} 個のタスクが実行中'
+  name: タスク | タスク
+  pause: 一時停止
 theme:
-  selectImage: ç”»åƒã‚’é¸æŠž
-  selectMusic: éŸ³æ¥½ã‚’é¸æŠž
-  selectVideo: æ˜ åƒã‚’é¸æŠž
+  selectImage: 画像を選択
+  selectMusic: 音楽を選択
+  selectVideo: 映像を選択
   title: FastLauncher
 title: FastLauncher
 transportType:
-  host: ãƒ›ã‚¹ãƒˆå€™è£œ
-  prflx: ãƒ”ã‚¢ã®åå°„ã®å€™è£œ
-  relay: ãƒªãƒ¬ãƒ¼å€™è£œ
-  srflx: ã‚µãƒ¼ãƒãƒ¼åå°„å€™è£œ
+  host: ホスト候補
+  prflx: ピアの反射の候補
+  relay: リレー候補
+  srflx: サーバー反射候補
 turnRegion:
-  fr: ãƒ•ãƒ©ãƒ³ã‚¹
-  guangzhou: ä¸­å›½ã€åºƒå·ž
-  hk: é¦™æ¸¯
-  liaoning: ä¸­å›½ã€é¼å¯§çœ
-  po: ãƒãƒ¼ãƒ©ãƒ³ãƒ‰
+  fr: フランス
+  guangzhou: 中国、広州
+  hk: 香港
+  liaoning: 中国、遼寧省
+  po: ポーランド
 tutorial:
-  feedbackDescription: å•é¡Œã«é­é‡ã—ãŸå ´åˆã¯ã€ã“ã®ãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã¦ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯ã‚’é€ã£ã¦ãã ã•ã„!
-  hideNewsHeaderDescription: ãƒ‹ãƒ¥ãƒ¼ã‚¹ã‚’å·¦ã§è¦‹ã‚Œã¾ã™ã€‚ã“ã®ãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã“ã¨ã§éš ã›ã¾ã™
+  feedbackDescription: 問題に遭遇した場合は、このボタンを押してフィードバックを送ってください!
+  hideNewsHeaderDescription: ニュースを左で見れます。このボタンを押すことで隠せます
   instance:
-    iconDescription: ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã‚¢ã‚¤ã‚³ãƒ³ã‚’å¤‰ãˆã‚‹
-    iconTitle: èµ·å‹•æ§‹æˆã®ã‚¢ã‚¤ã‚³ãƒ³
-    javaDescription: Javaã‚’é¸ã¶ã‹åˆ‡ã‚Šæ›¿ãˆã‚‹
-    javaImportDescription: Javaã‚’ãƒ­ãƒ¼ã‚«ãƒ«ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã‹ã‚‰ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-    javaImportTitle: Javaã‚’ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-    javaTitle: Javaã®ãƒªã‚¹ãƒˆ
-  instanceAddDescription: ã“ã®ãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã¦æ—¢å­˜ã®èµ·å‹•æ§‹æˆã‚„Modpackã‹ã‚‰ã‚¤ãƒ³ãƒãƒ¼ãƒˆã™ã‚‹ã‹ã€æ–°ã—ãä½œã‚Œã¾ã™ã€‚
-  instanceSelectDescription: ã“ã®ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãƒ‹ãƒ¥ãƒ¼ã‚¹ã‚’è¦‹ãŸã‚Šã‚²ãƒ¼ãƒ ã‚’é¸ã‚“ã ã‚Šã§ãã¾ã™ã€‚
-  launchDescription: ã“ã®ãƒœã‚¿ãƒ³ã‚’æŠ¼ã—ã¦ã‚²ãƒ¼ãƒ ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ã‹èµ·å‹•ã—ã¾ã™
+    iconDescription: クリックしてアイコンを変える
+    iconTitle: 起動構成のアイコン
+    javaDescription: Javaを選ぶか切り替える
+    javaImportDescription: Javaをローカルストレージからインポート
+    javaImportTitle: Javaをインポート
+    javaTitle: Javaのリスト
+  instanceAddDescription: このボタンを押して既存の起動構成やModpackからインポートするか、新しく作れます。
+  instanceSelectDescription: このボタンをクリックしてニュースを見たりゲームを選んだりできます。
+  launchDescription: このボタンを押してゲームをインストールするか起動します
   mod:
     defaultSourceDescription: >-
-      ã“ã“ã§Modã®è©³ç´°ã®ã‚½ãƒ¼ã‚¹ã‚’é¸æŠžã§ãã¾ã™ã€‚ã‚‚ã—Modrinthã¨Curseforgeã®ä¸¡æ–¹ã«å…¬é–‹ã•ã‚Œã¦ã„ã‚‹ModãŒã‚ã‚Šã€ã“ã‚Œã‚‰2ã¤ã®ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼ã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹å ´åˆã¯ã€ã“ã“ã§å€¤ã‚’å¤‰æ›´ã§ãã¾ã™ã€‚
-    defaultSourceTitle: Modã®ã‚½ãƒ¼ã‚¹ã‚’é¸ã¶
-    detailDescription: å·¦ã§ã‚¢ã‚¤ãƒ†ãƒ ã‚’é¸ã¶ã¨ã€Modã®è©³ç´°ã‚’è¦‹ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚Modrinthã€Curseforgeã¾ãŸã¯ä»–ã®Modã‚’è¦‹ã‚‹ã“ã¨ãŒã§ãã¾ã™
-    detailTitle: Modã®è©³ç´°
-    listDescription: ä½•ã‚‚å…¥åŠ›ã—ã¦ã„ãªã„å ´åˆã¯ã€ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ¸ˆã¿ã®ModãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›ã—ãŸã‚Šã‚«ãƒ†ã‚´ãƒªã‚’é¸ã¶ã¨Modã‚’æ¤œç´¢ã§ãã¾ã™ã€‚
-    listTitle: ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã€ã¾ãŸã¯Modã‚’æ¤œç´¢
-    searchDescription: Modrinth, Curseforgeã‹ã‚‰Modã‚’æ¤œç´¢ã™ã‚‹ã‹ã€ãƒ­ãƒ¼ã‚«ãƒ«ã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã§æ¤œç´¢ãƒœãƒƒã‚¯ã‚¹ã‹ã‚‰æŽ¢ã›ã¾ã™ã€‚
-    searchTitle: Modã‚’æ¤œç´¢
+      ここでModの詳細のソースを選択できます。もしModrinthとCurseforgeの両方に公開されているModがあり、これら2つのコンテンツプロバイダーを切り替える場合は、ここで値を変更できます。
+    defaultSourceTitle: Modのソースを選ぶ
+    detailDescription: 左でアイテムを選ぶと、Modの詳細を見ることができます。Modrinth、Curseforgeまたは他のModを見ることができます
+    detailTitle: Modの詳細
+    listDescription: 何も入力していない場合は、インストール済みのModが表示されます。キーワードを入力したりカテゴリを選ぶとModを検索できます。
+    listTitle: インストール、またはModを検索
+    searchDescription: Modrinth, CurseforgeからModを検索するか、ローカルのキャッシュで検索ボックスから探せます。
+    searchTitle: Modを検索
   multiplayer:
-    contentDescription: ã‚ãªãŸã¨ã‚ãªãŸã®ãƒ”ã‚¢ã¨ã®æŽ¥ç¶šãŒã“ã“ã«ãƒªã‚¹ãƒˆã•ã‚Œã¦ã„ã¾ã™ã€‚
+    contentDescription: あなたとあなたのピアとの接続がここにリストされています。
     contentTitle: '@:multiplayer.connections'
     groupDescription: >-
-      ã‚ãªãŸã¯ä»–ã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã¨ã‚°ãƒ«ãƒ¼ãƒ—ã«å‚åŠ /ä½œæˆã§ãã¾ã™ã€‚ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯ã‚ãªãŸã¨ã‚ãªãŸã®ãƒ•ãƒ¬ãƒ³ãƒ‰ã‚’P2Pã§æŽ¥ç¶šã‚’è©¦ã¿ã¾ã™ã€‚ã‚ãªãŸã¯ãƒ•ãƒ¬ãƒ³ãƒ‰ã‹ã‚‰æ¸¡ã•ã‚ŒãŸã‚°ãƒ«ãƒ¼ãƒ—åã‚’å…¥åŠ›ã™ã‚‹ã‹ã€ã‚ãªãŸã®ç‹¬è‡ªã®åå‰ã‚’å…¥åŠ›ã§ãã¾ã™ã€‚
-    groupTitle: ã‚°ãƒ«ãƒ¼ãƒ—ã«å‚åŠ 
-    joinDescription: ã‚°ãƒ«ãƒ¼ãƒ—åã‚’å…¥åŠ›ã™ã‚‹ã¨ã€ã“ã®ãƒœã‚¿ãƒ³ã§ã‚°ãƒ«ãƒ¼ãƒ—ã«å‚åŠ /ã‚°ãƒ«ãƒ¼ãƒ—ã‚’ä½œæˆã§ãã¾ã™ã€‚ã‚°ãƒ«ãƒ¼ãƒ—åãŒç©ºç™½ã ã£ãŸå ´åˆã€ãƒ©ãƒ³ãƒãƒ£ãƒ¼ã¯è‡ªå‹•ã§åå‰ã‚’ç”Ÿæˆã—ã¾ã™ã€‚
+      あなたは他のプレイヤーとグループに参加/作成できます。ランチャーはあなたとあなたのフレンドをP2Pで接続を試みます。あなたはフレンドから渡されたグループ名を入力するか、あなたの独自の名前を入力できます。
+    groupTitle: グループに参加
+    joinDescription: グループ名を入力すると、このボタンでグループに参加/グループを作成できます。グループ名が空白だった場合、ランチャーは自動で名前を生成します。
     manualDescription: >-
-      ã‚‚ã—ã‚ãªãŸã€ã‚‚ã—ãã¯ã‚ãªãŸã®ãƒ•ãƒ¬ãƒ³ãƒ‰ã¯ã‚°ãƒ«ãƒ¼ãƒ—ã«æŽ¥ç¶šã§ããªã„å ´åˆã€æ‰‹å‹•ã§æŽ¥ç¶šã™ã‚‹ãŸã‚ã®ãƒˆãƒ¼ã‚¯ãƒ³ã‚’ã“ã“ã§å–å¾—ã§ãã¾ã™ã€‚ã‚‚ã—ãã‚Œã§ã‚‚å¤±æ•—ã—ãŸãªã‚‰ã°ã€ãŠãã‚‰ããƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ã®å•é¡Œã§ã—ã‚‡ã†ã€‚
-  recentPlayDescription: ã‚ãªãŸãŒä½œæˆã—ãŸã‚²ãƒ¼ãƒ ã¯ã“ã“ã§è¦‹ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚ŒãŸãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚„ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã•ã‚ŒãŸModpackã«ãƒ“ãƒ¥ãƒ¼ã‚’åˆ‡ã‚Šæ›¿ãˆã‚‰ã‚Œã¾ã™ã€‚
-  storePoupularModpackDescription: ã“ã“ã§Curseforgeã‚„Modrinthã§æœ€ã‚‚æœ‰åãªModpackã‚’è¦‹ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
-  storeSearchCategoryDescription: ã“ã“ã§ã‚«ãƒ†ã‚´ãƒªãƒ¼ã‚„ãƒ•ã‚£ãƒ«ã‚¿ãƒ¼ã‚’å¤‰æ›´ã§ãã¾ã™
-  storeSearchDescription: ã“ã®ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹ã«å…¥åŠ›ã™ã‚‹ã“ã¨ã§Modpackã‚’æ¤œç´¢ã§ãã¾ã™ã€‚Enterã§æ¤œç´¢ã—ã¾ã™ã€‚
-  storeSearchResultDescription: ã™ã¹ã¦ã®æ¤œç´¢å±¥æ­´
-  userAccountDescription: ã“ã®ã‚¢ã‚¤ã‚³ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦Minecraftã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¿½åŠ /ç®¡ç†ã§ãã¾ã™
+      もしあなた、もしくはあなたのフレンドはグループに接続できない場合、手動で接続するためのトークンをここで取得できます。もしそれでも失敗したならば、おそらくネットワークの問題でしょう。
+  recentPlayDescription: あなたが作成したゲームはここで見ることができます。インストールされたバージョンやダウンロードされたModpackにビューを切り替えられます。
+  storePoupularModpackDescription: ここでCurseforgeやModrinthで最も有名なModpackを見ることができます。
+  storeSearchCategoryDescription: ここでカテゴリーやフィルターを変更できます
+  storeSearchDescription: このテキストボックスに入力することでModpackを検索できます。Enterで検索します。
+  storeSearchResultDescription: すべての検索履歴
+  userAccountDescription: このアイコンをクリックしてMinecraftアカウントを追加/管理できます
 universalDrop:
-  unknownResource: æœªçŸ¥
+  unknownResource: 未知
 unresolvedFiles:
-  description: ã“ã‚Œã‚‰ã®ãƒ•ã‚¡ã‚¤ãƒ«ã¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ä¸­ã«ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã§ãã¾ã›ã‚“ã§ã—ãŸã€‚ä¸€è‡´ã™ã‚‹ã‚½ãƒ¼ã‚¹ã‚’æ¤œç´¢ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ã‹ã€ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç„¡è¦–ã—ã¦èµ·å‹•ã—ã¦ãã ã•ã„ã€‚
-  empty: ã™ã¹ã¦ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒè§£æ±ºã•ã‚Œã¾ã—ãŸã€‚
-  ignoreSelected: '{count} ä»¶ã‚’ç„¡è¦–'
-  install: 'ä¸€è‡´ã—ãŸ {count} ä»¶ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«'
-  matched: ä¸€è‡´
-  noMatch: è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“
-  search: ã‚½ãƒ¼ã‚¹ã‚’æ¤œç´¢
+  description: これらのファイルはインストール中にダウンロードできませんでした。一致するソースを検索してインストールするか、ファイルを無視して起動してください。
+  empty: すべてのファイルが解決されました。
+  ignoreSelected: '{count} 件を無視'
+  install: '一致した {count} 件をインストール'
+  matched: 一致
+  noMatch: 見つかりません
+  search: ソースを検索
   source:
     curseforge-name: CurseForge
-    dependency: ä¾å­˜é–¢ä¿‚
-    modrinth-hash: Modrinth ãƒãƒƒã‚·ãƒ¥
+    dependency: 依存関係
+    modrinth-hash: Modrinth ハッシュ
     modrinth-name: Modrinth
-  title: æœªè§£æ±ºã®ãƒ•ã‚¡ã‚¤ãƒ«
-  via: '{source} çµŒç”±'
+  title: 未解決のファイル
+  via: '{source} 経由'
 upstream:
-  downgrade: ãƒ€ã‚¦ãƒ³ã‚°ãƒ¬ãƒ¼ãƒ‰
-  onlyShowCurrentVersion: ç¾åœ¨ã®Minecraftãƒãƒ¼ã‚¸ãƒ§ãƒ³ã®ã¿è¡¨ç¤º
-  update: ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ
+  downgrade: ダウングレード
+  onlyShowCurrentVersion: 現在のMinecraftバージョンのみ表示
+  update: アップデート
 user:
-  accessToken: ã‚¢ã‚¯ã‚»ã‚¹ãƒˆãƒ¼ã‚¯ãƒ³
-  authMode: èªè¨¼ã‚µãƒ¼ãƒ“ã‚¹
-  authService: èªè¨¼ã‚µãƒ¼ãƒ“ã‚¹
-  email: ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹
-  id: ãƒ¦ãƒ¼ã‚¶ãƒ¼ID
-  name: ãƒ¦ãƒ¼ã‚¶ãƒ¼å
-  nameHint: ã‚²ãƒ¼ãƒ å†…ã§è¡¨ç¤ºã•ã‚Œã‚‹åå‰
-  profile: ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«
-  tokenExpired: æœŸé™åˆ‡ã‚Œ
-  tokenValidUntil: ãƒˆãƒ¼ã‚¯ãƒ³ã¯ã“ã®æœŸé–“ã¾ã§æœ‰åŠ¹
+  accessToken: アクセストークン
+  authMode: 認証サービス
+  authService: 認証サービス
+  email: メールアドレス
+  id: ユーザーID
+  name: ユーザー名
+  nameHint: ゲーム内で表示される名前
+  profile: プロファイル
+  tokenExpired: 期限切れ
+  tokenValidUntil: トークンはこの期間まで有効
 userAccount:
-  add: ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¿½åŠ 
-  removeDescription: ã“ã‚Œã¯ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã«é–¢ã™ã‚‹ã™ã¹ã¦ã®æƒ…å ±ã‚’å‰Šé™¤ã—ã¾ã™ã€‚ç¶šè¡Œã—ã¾ã™ã‹?
-  removeTitle: ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤
+  add: アカウントを追加
+  removeDescription: これはアカウントに関するすべての情報を削除します。続行しますか?
+  removeTitle: アカウントを削除
 userCape:
-  changeTitle: ã‚ãªãŸã®ã‚±ãƒ¼ãƒ—ã‚’å¤‰æ›´
-  description: 'ã‚±ãƒ¼ãƒ—ã¯ç‰¹åˆ¥ãªå ±é…¬ã§ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã¯æ§˜ã€…ãªã‚¤ãƒ™ãƒ³ãƒˆã€ã‚­ãƒ£ãƒ³ãƒšãƒ¼ãƒ³ã€ãã—ã¦ä»–ã®ã†ã‚Œã—ã„ãƒãƒ—ãƒ‹ãƒ³ã‚°ã§å—é ˜ã§ãã¾ã™ã€ç¾åœ¨æ‰€æœ‰ã—ã¦ã„ã‚‹ã‚‚ã®ã‹ã‚‰é¸ã¹ã¾ã™:'
-  noCape: ã‚±ãƒ¼ãƒ—ãŒã‚ã‚Šã¾ã›ã‚“
+  changeTitle: あなたのケープを変更
+  description: 'ケープは特別な報酬でプレイヤーは様々なイベント、キャンペーン、そして他のうれしいハプニングで受領できます、現在所有しているものから選べます:'
+  noCape: ケープがありません
 userService:
-  add: ä»–ã®ã‚µãƒ¼ãƒ“ã‚¹ã‚’è¿½åŠ 
-  authlibInjectorMetadata: Authlib-Injector ãƒ¡ã‚¿ãƒ‡ãƒ¼ã‚¿
-  baseUrlHint: ã‚ãªãŸã®ã‚«ã‚¹ã‚¿ãƒ ã‚µãƒ¼ãƒ“ã‚¹ã®ãƒ™ãƒ¼ã‚¹URL
-  homepage: ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸
-  implementation: å®Ÿè£…
-  manageServices: ã‚µãƒ¼ãƒ“ã‚¹ã‚’ç®¡ç†
-  register: ç™»éŒ²
-  server: ã‚µãƒ¼ãƒãƒ¼
-  skinDomains: ã‚¹ã‚­ãƒ³ãƒ‰ãƒ¡ã‚¤ãƒ³
-  title: ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£ã®ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚µãƒ¼ãƒ“ã‚¹
-  version: ãƒãƒ¼ã‚¸ãƒ§ãƒ³
+  add: 他のサービスを追加
+  authlibInjectorMetadata: Authlib-Injector メタデータ
+  baseUrlHint: あなたのカスタムサービスのベースURL
+  homepage: ホームページ
+  implementation: 実装
+  manageServices: サービスを管理
+  register: 登録
+  server: サーバー
+  skinDomains: スキンドメイン
+  title: サードパーティのユーザーサービス
+  version: バージョン
 userServices:
   microsoft:
-    account: Microsoft ã‚¢ã‚«ã‚¦ãƒ³ãƒˆ
-    deviceCode: ãƒ‡ãƒã‚¤ã‚¹ã‚³ãƒ¼ãƒ‰
-    deviceCodeHint: ãƒ‡ãƒã‚¤ã‚¹ã‚³ãƒ¼ãƒ‰ã¯ãƒ­ã‚°ã‚¤ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸå¾Œã«ç”Ÿæˆã•ã‚Œã¾ã™
+    account: Microsoft アカウント
+    deviceCode: デバイスコード
+    deviceCodeHint: デバイスコードはログインをクリックした後に生成されます
     name: Microsoft
-    password: ãƒ–ãƒ©ã‚¦ã‚¶ã§ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›
-    useDeviceCode: ãƒ‡ãƒã‚¤ã‚¹ã‚³ãƒ¼ãƒ‰ã§ãƒ­ã‚°ã‚¤ãƒ³
+    password: ブラウザでパスワードを入力
+    useDeviceCode: デバイスコードでログイン
   mojang:
-    account: ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹
+    account: メールアドレス
     name: Mojang
-    password: ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰
+    password: パスワード
   offline:
-    account: ãƒ¦ãƒ¼ã‚¶ãƒ¼å
-    name: ã‚ªãƒ•ãƒ©ã‚¤ãƒ³
-    password: ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒã‚ã‚Šã¾ã›ã‚“
-    uuid: ãƒ¦ãƒ¼ã‚¶ãƒ¼UUID (ã‚ªãƒ—ã‚·ãƒ§ãƒ³)
+    account: ユーザー名
+    name: オフライン
+    password: パスワードがありません
+    uuid: ユーザーUUID (オプション)
 userSkin:
-  import: ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  importFile: ãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰é–‹ã
-  importLink: ãƒªãƒ³ã‚¯ã‹ã‚‰é–‹ã
-  placeUrlHere: ã‚¹ã‚­ãƒ³URLã‚’ã“ã“ã«è²¼ã‚Šä»˜ã‘ã¦ã‚¤ãƒ³ãƒãƒ¼ãƒˆ
-  reset: ãƒªã‚»ãƒƒãƒˆ
-  save: ä¿å­˜
-  saveTitle: ã‚¹ã‚­ãƒ³ã‚’ãƒ‡ã‚£ã‚¹ã‚¯ã«ä¿å­˜
-  skinType: ã‚¹ã‚­ãƒ³ã®ç¨®é¡ž
-  upload: ã‚¹ã‚­ãƒ³ã‚’ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰
-  urlNotEmpty: ã‚¹ã‚­ãƒ³ã®URLã¯ç©ºç™½ã«ã§ãã¾ã›ã‚“
-  urlNotValid: ã‚¹ã‚­ãƒ³ã®URLãŒç„¡åŠ¹ã§ã™
-  useSlim: ã‚¹ãƒªãƒ ãªã‚¹ã‚­ãƒ³ã‚’ä½¿ç”¨
+  import: インポート
+  importFile: ファイルから開く
+  importLink: リンクから開く
+  placeUrlHere: スキンURLをここに貼り付けてインポート
+  reset: リセット
+  save: 保存
+  saveTitle: スキンをディスクに保存
+  skinType: スキンの種類
+  upload: スキンをアップロード
+  urlNotEmpty: スキンのURLは空白にできません
+  urlNotValid: スキンのURLが無効です
+  useSlim: スリムなスキンを使用
 version:
-  checkIntegrity: æ•´åˆæ€§ã‚’ç¢ºèªã—ã¦ãã ã•ã„
-  name: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ | ãƒãƒ¼ã‚¸ãƒ§ãƒ³
-  notInstalled: ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã¾ã›ã‚“
+  checkIntegrity: 整合性を確認してください
+  name: バージョン | バージョン
+  notInstalled: バージョンがインストールされていません
 versionType:
-  alpha: ã‚¢ãƒ«ãƒ•ã‚¡
-  beta: ãƒ™ãƒ¼ã‚¿
-  name: ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹
-  release: ãƒªãƒªãƒ¼ã‚¹
+  alpha: アルファ
+  beta: ベータ
+  name: ステータス
+  release: リリース
 downloadModMetadataDb:
-  name: Modãƒ¡ã‚¿ãƒ‡ãƒ¼ã‚¿ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
+  name: Modメタデータデータベースをダウンロード
 duplicateInstance:
-  name: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’è¤‡è£½
+  name: インスタンスを複製
 exportModpack:
-  name: Modpackã‚’ã‚¨ã‚¯ã‚¹ãƒãƒ¼ãƒˆ
+  name: Modpackをエクスポート
 installProfile:
-  name: ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ« {version} ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  name: プロファイル {version} をインストール
 installQuilt:
-  name: Quilt {version} ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+  name: Quilt {version} をインストール
 instanceLauncher:
-  search: ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’æ¤œç´¢...
-  showAll: ã™ã¹ã¦ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’è¡¨ç¤º
-  title: ã™ã¹ã¦ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹
+  search: インスタンスを検索...
+  showAll: すべてのインスタンスを表示
+  title: すべてのインスタンス
 migrateMinecraft:
-  name: Minecraftãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç§»è¡Œ
+  name: Minecraftファイルを移行
 reinstall:
-  name: '{version} ã‚’å†ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«'
-
+  name: '{version} を再インストール'

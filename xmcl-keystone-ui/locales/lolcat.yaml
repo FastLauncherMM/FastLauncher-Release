@@ -1,4 +1,4 @@
-﻿AppAddInstanceDialog:
+AppAddInstanceDialog:
   choiceTitle: MANY LAUNCH PROFILEZ DETECTED! PLZ PICK ONE TO IMPORT.
   createTitle: MAKE GAME
   serverTitle: TYP IN DA SERVR ADDWESS
@@ -244,7 +244,7 @@ command:
     refresh:
       title: REFRESHEZ USERZ
 commandPalette:
-  placeholder: SEARCH COMMANDZ, INSTANCEZ, MODZâ€¦
+  placeholder: SEARCH COMMANDZ, INSTANCEZ, MODZ…
   commands: COMMANDZ
   instances: INSTANCEZ
   modrinth: MODRINTH
@@ -253,7 +253,7 @@ commandPalette:
   openHint: OPENZ COMMAND PALETTE ({shortcut})
   empty: TYPE 2 SEARCH
   noResults: NO MATCH OH NOEZ
-  searching: SEARCHINâ€¦
+  searching: SEARCHIN…
   hintNavigate: MOVE
   hintInvoke: DO IT
   hintEnter: GO IN
@@ -481,7 +481,7 @@ java:
   allocation: Allocaeted
   autoHint: Min growz wif moar modz; max uzes ur freeshmemz.
   change: Chaneg
-  locationHint: No Java pikd â€” uzin systmm defawlt
+  locationHint: No Java pikd — uzin systmm defawlt
   openFolder: Open Java fldr
   presets: Presetz
 labyMod:
@@ -615,8 +615,8 @@ me:
   recentPlay: RECENT PLAY
 migrationWindow:
   title: DATA MUVIN
-  preparing: GETTIN REDY 2 MUVâ€¦
-  scanning: COUNTIN STUFFSâ€¦
+  preparing: GETTIN REDY 2 MUV…
+  scanning: COUNTIN STUFFS…
   migrating: MUVIN UR STUFFS
   done: ALL DUN MUVIN
   files: filez
@@ -1116,10 +1116,10 @@ server:
   version: SERVER REQUIRES VERSHUN
   versionHint: TEH MINECWAFT VERSHUN TO PING
 serverStatus:
-  nohost: Â§4CANNOT FIND HOST!
+  nohost: §4CANNOT FIND HOST!
   ping: PING...
-  refuse: Â§4SERVER REFUSED!
-  timeout: Â§4CONNECT SERVR TIMEOUT!
+  refuse: §4SERVER REFUSED!
+  timeout: §4CONNECT SERVR TIMEOUT!
 setting:
   themeStore:
     name: TEEM STOR
@@ -1135,13 +1135,13 @@ setting:
     loadTheme: LOAD TEEM
   about: ABOUT
   aboutBmclDescription: BMCL API PROVIDEZ CONVENEENT DOWNLODZ FUR USRZ IN CHINEEZ MAINLUND
-  aboutContributors: ðŸ§‘â€ðŸ’» CONTRUBUTORS ðŸ§‘â€ðŸ’»
+  aboutContributors: 🧑‍💻 CONTRUBUTORS 🧑‍💻
   aboutDenoDescription: >-
     FastLauncher LEVERAGEZ DENO DEPLOY'S HASSEL-FRU PLATFURM FUR SERVERLUS JAVASCRIPT APPLICASHUNZ
   aboutLicense: MIT License
   aboutLicenseInfo: >-
     FRU CUD SINING ON WUNDUZ PROVDED BI SIGNPATH.IO, CERTIFICAT BI SIGNPATH FUNDASHUN
-  aboutSponsors: ðŸ˜‡ SPONORZ ðŸ˜‡
+  aboutSponsors: 😇 SPONORZ 😇
   advancedJavaOptions: ADVANCED JAVA OPSHUNS
   advancedSettings: ADVANCED SETTINGZ
   advancedSettingsHint: DANGR ZONE - RESET OR MANAG LAUNCHER DATA
@@ -1603,4 +1603,3 @@ migrateMinecraft:
   name: Migrate Minecraft Filez
 reinstall:
   name: Reinstol {version}
-

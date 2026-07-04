@@ -1,832 +1,832 @@
-﻿AppAddInstanceDialog:
+AppAddInstanceDialog:
   choiceTitle: |-
-    æˆ‘ä»¬å‘çŽ°å¤šä¸ªå¯åŠ¨é…ç½®æ–‡ä»¶ã€‚
-    è¯·é€‰æ‹©å…¶ä¸­çš„ä¸€é¡¹è¿›è¡Œå¯¼å…¥ã€‚
-  createTitle: åˆ›å»ºæ¸¸æˆ
-  serverTitle: è¾“å…¥æ‚¨çš„æœåŠ¡å™¨åœ°å€
+    我们发现多个启动配置文件。
+    请选择其中的一项进行导入。
+  createTitle: 创建游戏
+  serverTitle: 输入您的服务器地址
 AppShareInstanceDialog:
   alterDownloadDescription: |-
-    å¦‚æžœæ‚¨ä¸æƒ³æžä¹±å½“å‰å®žä¾‹ã€‚
-    æ‚¨è¿˜å¯ä»¥ä»Žå¯¹ç­‰æ–¹çš„é…ç½®åˆ›å»ºä¸€ä¸ªæ–°å®žä¾‹ã€‚
-    å•å‡»ä¸‹é¢çš„æŒ‰é’®åˆ›å»ºå®žä¾‹ã€‚
-  baseInfo: åˆ†äº«çš„åŸºæœ¬é…ç½®
-  cancelShare: å–æ¶ˆåˆ†äº«
-  description: åˆ†äº«åŽï¼Œæ‚¨çš„è”æœºä¼™ä¼´å°†å¯ä»¥ä¸‹è½½æ‚¨åˆ†äº«çš„æ¸¸æˆèµ„æº
-  downloadDescription: è¯·é€‰æ‹©ä»Žæ‚¨çš„å°ä¼™ä¼´é‚£ä¸‹è½½çš„æ–‡ä»¶ã€‚æ–‡ä»¶å°†ä¸‹è½½åˆ°å½“å‰å®žä¾‹ {name} ä¸­ã€‚
-  downloadNotifyTitle: ä»Ž {user} ä¸‹è½½å®žä¾‹
-  downloadTitle: ä»Žå…¶ä»–çŽ©å®¶é‚£èŽ·å¾—æ¸¸æˆèµ„æº
-  filesToDownload: é€‰æ‹©æ‚¨æƒ³ä¸‹è½½çš„æ–‡ä»¶
-  filesToShare: é€‰æ‹©åˆ†äº«çš„æ–‡ä»¶
-  instanceShare: '{user} ç»™æ‚¨åˆ†äº«äº†ä»–çš„æ¸¸æˆé…ç½®'
-  share: åˆ†äº«
-  shareNotifyTitle: åˆ†äº«é…ç½®
-  shareTitle: åˆ†äº«å¯åŠ¨é…ç½®ç»™å…¶ä»–çŽ©å®¶
+    如果您不想搞乱当前实例。
+    您还可以从对等方的配置创建一个新实例。
+    单击下面的按钮创建实例。
+  baseInfo: 分享的基本配置
+  cancelShare: 取消分享
+  description: 分享后，您的联机伙伴将可以下载您分享的游戏资源
+  downloadDescription: 请选择从您的小伙伴那下载的文件。文件将下载到当前实例 {name} 中。
+  downloadNotifyTitle: 从 {user} 下载实例
+  downloadTitle: 从其他玩家那获得游戏资源
+  filesToDownload: 选择您想下载的文件
+  filesToShare: 选择分享的文件
+  instanceShare: '{user} 给您分享了他的游戏配置'
+  share: 分享
+  shareNotifyTitle: 分享配置
+  shareTitle: 分享启动配置给其他玩家
 BaseSettingGeneral:
-  title: å¸¸è§„è®¾ç½®
+  title: 常规设置
 HomeJavaIssueDialog:
-  incompatibleJava: å½“å‰ Java ç‰ˆæœ¬å¯èƒ½æ— æ³•æ­£å¸¸å¯åŠ¨ Minecraft
-  incompatibleJavaHint: Java {javaVersion} å¯èƒ½æ— æ³•è¿è¡Œå·²é€‰æ‹©çš„ Minecraft ç‰ˆæœ¬
-  missingJava: æ²¡æœ‰æ‰¾åˆ° Java
-  missingJavaHint: å¯åŠ¨å™¨åœ¨æ‚¨çš„ç”µè„‘ä¸Šæ²¡æœ‰æ‰¾åˆ°ä»»ä½•Javaã€‚æ‚¨å¯ä»¥å°è¯•ï¼š
+  incompatibleJava: 当前 Java 版本可能无法正常启动 Minecraft
+  incompatibleJavaHint: Java {javaVersion} 可能无法运行已选择的 Minecraft 版本
+  missingJava: 没有找到 Java
+  missingJavaHint: 启动器在您的电脑上没有找到任何Java。您可以尝试：
   optionSwitch:
-    name: åˆ‡æ¢åˆ°å·²æœ‰çš„ Java {version}
+    name: 切换到已有的 Java {version}
 HomeLaunchMultiInstanceDialog:
-  confirm: æ˜¯çš„ï¼Œå¤šå®žä¾‹å¯åŠ¨
-  description: æ­£åœ¨å°è¯•å¯åŠ¨å¤šä¸ª Minecraft å®žä¾‹ï¼Œæ‚¨ç¡®å®šä¹ˆï¼Ÿ
-  title: å¤šå®žä¾‹å¯åŠ¨
+  confirm: 是的，多实例启动
+  description: 正在尝试启动多个 Minecraft 实例，您确定么？
+  title: 多实例启动
 SettingMigrationDialog:
-  selectRootDirectory: é€‰æ‹©æ–°çš„æ ¹ç›®å½•
+  selectRootDirectory: 选择新的根目录
 agent:
   title: FastLauncher Agent
-  statusReady: å°±ç»ª
-  statusWorking: å¤„ç†ä¸­â€¦
-  statusDisabled: å·²ç¦ç”¨ â€” ç¼ºå°‘ API Key
-  reset: é‡ç½®å¯¹è¯
-  notConfiguredTitle: Agent å°šæœªé…ç½®
+  statusReady: 就绪
+  statusWorking: 处理中…
+  statusDisabled: 已禁用 — 缺少 API Key
+  reset: 重置对话
+  notConfiguredTitle: Agent 尚未配置
   notConfiguredHint: >-
-    åœ¨è®¾ç½® â†’ é€šç”¨ â†’ AI Agent ä¸­å¡«å†™ API Keyã€æ¨¡åž‹å’Œ Endpoint ä»¥å¯ç”¨ Agentã€‚
-  openSettings: æ‰“å¼€è®¾ç½®
-  setupGuide: é…ç½®æŒ‡å—
+    在设置 → 通用 → AI Agent 中填写 API Key、模型和 Endpoint 以启用 Agent。
+  openSettings: 打开设置
+  setupGuide: 配置指南
   emptyHint: >-
-    è®© Agent æ£€æŸ¥ä½ çš„å®žä¾‹ã€å¯ç”¨/ç¦ç”¨æ¨¡ç»„ã€è¯»å–æ—¥å¿—æˆ–è¯Šæ–­å´©æºƒã€‚
-  suggestion1: å°†æ­¤å®žä¾‹å‡çº§åˆ°æ›´æ–°çš„ Minecraft ç‰ˆæœ¬ï¼Œå¹¶åŒæ­¥æ›´æ–°æ¨¡ç»„
-  suggestion2: æˆ‘çš„æ¨¡ç»„å´©æºƒäº† â€” æ‰¾å‡ºåŽŸå› å¹¶å‘Šè¯‰æˆ‘å¦‚ä½•ä¿®å¤
-  suggestion3: æž„å»ºä¸€ä¸ªæ•´åˆåŒ…ï¼šä¸ºæˆ‘æƒ³è¦çš„åŠŸèƒ½æŸ¥æ‰¾æ¨¡ç»„å¹¶å®‰è£…åˆ°æ­¤å®žä¾‹
-  thinking: æ€è€ƒä¸­â€¦
-  callingTool: æ­£åœ¨è°ƒç”¨ {name}â€¦
-  inputPlaceholder: å‘ Agent æé—®â€¦ï¼ˆEnter å‘é€ï¼ŒShift+Enter æ¢è¡Œï¼‰
-  disabledPlaceholder: Agent å·²ç¦ç”¨
-  toggleHint: åˆ‡æ¢
+    让 Agent 检查你的实例、启用/禁用模组、读取日志或诊断崩溃。
+  suggestion1: 将此实例升级到更新的 Minecraft 版本，并同步更新模组
+  suggestion2: 我的模组崩溃了 — 找出原因并告诉我如何修复
+  suggestion3: 构建一个整合包：为我想要的功能查找模组并安装到此实例
+  thinking: 思考中…
+  callingTool: 正在调用 {name}…
+  inputPlaceholder: 向 Agent 提问…（Enter 发送，Shift+Enter 换行）
+  disabledPlaceholder: Agent 已禁用
+  toggleHint: 切换
 ago:
-  day: '{duration} å¤©å‰'
-  hour: '{duration} å°æ—¶å‰'
-  minute: '{duration} åˆ†é’Ÿå‰'
-  second: '{duration} ç§’å‰'
+  day: '{duration} 天前'
+  hour: '{duration} 小时前'
+  minute: '{duration} 分钟前'
+  second: '{duration} 秒前'
 askAICrash:
-  agentNotConfigured: åœ¨è®¾ç½®ä¸­é…ç½® AI æä¾›å•†å’Œ API å¯†é’¥ï¼Œå³å¯è®©å¯åŠ¨å™¨å†…ç½®çš„ AI åŠ©æ‰‹ä¸ºä½ è¯Šæ–­å¹¶ä¿®å¤æ­¤é—®é¢˜ã€‚
-  askAgent: ä½¿ç”¨å†…ç½® AI åŠ©æ‰‹è¯Šæ–­
-  copyPrompt: å¤åˆ¶æç¤ºè¯¢é—®AI
+  agentNotConfigured: 在设置中配置 AI 提供商和 API 密钥，即可让启动器内置的 AI 助手为你诊断并修复此问题。
+  askAgent: 使用内置 AI 助手诊断
+  copyPrompt: 复制提示询问AI
   description: |-
-    è®©AIåˆ†æžæ¸¸æˆå´©æºƒï¼
-    è¯·æŒ‰ç…§ä¸‹é¢çš„è¯´æ˜Žå‘AIè¯¢é—®æœ‰å…³æ­¤æ¸¸æˆå´©æºƒçš„ä¿¡æ¯ï¼
-  orExternal: æˆ–ä½¿ç”¨å¤–éƒ¨ AI
-  selectPlatform: æ‰“å¼€ä¸€ä¸ªAIå¹³å°ï¼Œç²˜è´´æ‚¨åˆšåˆšå¤åˆ¶çš„æç¤ºã€‚
-  setupAgent: è®¾ç½® AI åŠ©æ‰‹
-authProfileAddedNotification: å·²æ·»åŠ ç¬¬ä¸‰æ–¹éªŒè¯ {name}
+    让AI分析游戏崩溃！
+    请按照下面的说明向AI询问有关此游戏崩溃的信息！
+  orExternal: 或使用外部 AI
+  selectPlatform: 打开一个AI平台，粘贴您刚刚复制的提示。
+  setupAgent: 设置 AI 助手
+authProfileAddedNotification: 已添加第三方验证 {name}
 baseSetting:
-  title: å®žä¾‹è®¾ç½®
+  title: 实例设置
 browseApp:
-  createShortcut: åˆ›å»ºå¿«æ·æ–¹å¼
-  default: é»˜è®¤
-  delete: åˆ é™¤
-  launch: å¯åŠ¨å¹¶è®¾ç½®ä¸ºé»˜è®¤
-browseApps: æŸ¥çœ‹å¯åŠ¨å™¨çš„ç”¨æˆ·ç•Œé¢
-color: é¢œè‰²
-confirm: å¼€å§‹
+  createShortcut: 创建快捷方式
+  default: 默认
+  delete: 删除
+  launch: 启动并设置为默认
+browseApps: 查看启动器的用户界面
+color: 颜色
+confirm: 开始
 copyClipboard:
-  success: å¤åˆ¶åˆ°å‰ªè´´æ¿
-create: åˆ›å»º
+  success: 复制到剪贴板
+create: 创建
 curseforge:
-  category: åˆ†ç±»
-  createdDate: åˆ›å»ºæ—¥æœŸ
-  lastUpdate: ä¸Šæ¬¡æ›´æ–°æ—¥æœŸ
-  releasedDate: å‘å¸ƒæ—¥æœŸ
+  category: 分类
+  createdDate: 创建日期
+  lastUpdate: 上次更新日期
+  releasedDate: 发布日期
 curseforgeCategory:
-  API and Library: API å’Œåº“
-  Addons: æ’ä»¶
-  Adventure: å†’é™©
-  Adventure and RPG: å†’é™©å’Œå‰§æƒ…
-  Animated: åŠ¨ç”»
-  Armor, Tools, and Weapons: æŠ¤ç”²ã€å·¥å…·å’Œæ­¦å™¨
-  Combat / PvP: ç«žæŠ€/PVP
-  Cosmetic: å¤–è§‚/è£…é¥°
-  Creation: åˆ›é€ æ¨¡å¼
-  Data Packs: æ•°æ®åŒ…
-  Education: æ•™è‚²
-  Exploration: æŽ¢ç´¢
-  Extra Large: è¶…å¤§åž‹
-  FTB Official Pack: FTB å®˜æ–¹åŒ…
+  API and Library: API 和库
+  Addons: 插件
+  Adventure: 冒险
+  Adventure and RPG: 冒险和剧情
+  Animated: 动画
+  Armor, Tools, and Weapons: 护甲、工具和武器
+  Combat / PvP: 竞技/PVP
+  Cosmetic: 外观/装饰
+  Creation: 创造模式
+  Data Packs: 数据包
+  Education: 教育
+  Exploration: 探索
+  Extra Large: 超大型
+  FTB Official Pack: FTB 官方包
   Fabric: Fabric
   FancyMenu: FancyMenu
-  Font Packs: å­—ä½“
-  Food: é£Ÿç‰©
-  Game Map: æ¸¸æˆåœ°å›¾
-  Hardcore: ç¡¬æ ¸
+  Font Packs: 字体
+  Food: 食物
+  Game Map: 游戏地图
+  Hardcore: 硬核
   MCreator: MCreator
-  Magic: é­”æ³•
-  Map Based: åŸºäºŽåœ°å›¾
-  Map and Information: åœ°å›¾å’Œä¿¡æ¯
-  Medieval: ä¸­ä¸–çºª
-  Mini Game: å°æ¸¸æˆ
-  Miscellaneous: æ‚é¡¹
-  Mod Support: å…¼å®¹æ¨¡ç»„
-  Modded World: æ¨¡ç»„åŒ–ä¸–ç•Œ
-  Modern: çŽ°ä»£
-  Multiplayer: å¤šäººè”æœº
-  Parkour: è·‘é…·
-  Photo Realistic: çœŸå®žé£Žæ ¼
-  Puzzle: è§£å¯†
+  Magic: 魔法
+  Map Based: 基于地图
+  Map and Information: 地图和信息
+  Medieval: 中世纪
+  Mini Game: 小游戏
+  Miscellaneous: 杂项
+  Mod Support: 兼容模组
+  Modded World: 模组化世界
+  Modern: 现代
+  Multiplayer: 多人联机
+  Parkour: 跑酷
+  Photo Realistic: 真实风格
+  Puzzle: 解密
   QoL: QoL
-  Quests: ä»»åŠ¡
-  Redstone: çº¢çŸ³
-  Sci-Fi: ç§‘å¹»
-  Server Utility: æœåŠ¡ç«¯å·¥å…·
-  Skyblock: ç©ºå²›
-  Small / Light: è½»é‡çº§
-  Steampunk: è’¸æ±½æœ‹å…‹
-  Storage: å­˜å‚¨
-  Survival: ç”Ÿå­˜
-  Tech: ç§‘æŠ€
-  Technology: ç§‘æŠ€
-  Traditional: ä¼ ç»Ÿ
-  Twitch Integration: Twitch é›†æˆ
-  Utility & QoL: å·¥å…·å’Œ QoL
-  Vanilla+: åŽŸç‰ˆæ”¹è‰¯
-  World Gen: ä¸–ç•Œç”Ÿæˆ
+  Quests: 任务
+  Redstone: 红石
+  Sci-Fi: 科幻
+  Server Utility: 服务端工具
+  Skyblock: 空岛
+  Small / Light: 轻量级
+  Steampunk: 蒸汽朋克
+  Storage: 存储
+  Survival: 生存
+  Tech: 科技
+  Technology: 科技
+  Traditional: 传统
+  Twitch Integration: Twitch 集成
+  Utility & QoL: 工具和 QoL
+  Vanilla+: 原版改良
+  World Gen: 世界生成
 dataMigration:
-  apply: å¼€å§‹è¿ç§»
-  directoryCriteriaHint: è¯·ç¡®ä¿æ‚¨é€‰æ‹©çš„æ–°æ–‡ä»¶å¤¹<span class="font-bold text-lg mx-1">æ˜¯ç©ºçš„ï¼</span>
-  placeholder: ç‚¹å‡»æ­¤å¤„ä»¥é€‰æ‹©æ–°çš„æ ¹ç›®å½•
-  setRootCause: è¯·ç¡®ä¿å¯åŠ¨å™¨åœ¨æ­¤è¿‡ç¨‹ä¸­ä¸è¢«ä¸­æ–­ï¼Œå¦åˆ™æŸäº›æ•°æ®ä¼šé—å¤±ï¼
-  setRootDescription: å¯åŠ¨å™¨çš„æ ¹ç›®å½•å°†ä¼šè¢«æ”¹å˜
-  setRootTitle: è¿ç§»æ ¹ç›®å½•åˆ°æ–°çš„ä½ç½®
-  unknownError: æœªçŸ¥é”™è¯¯ï¼Œè¯·è”ç³»ä½œè€…æˆ–é‡è¯•ã€‚
-  waitReload: è¿ç§»æ•°æ®ä¸­ã€‚è¯·ä¸è¦å…³é—­å¯åŠ¨å™¨ï¼Œå¦åˆ™æ‚¨å¯èƒ½ä¼šä¸¢å¤±ä¸€éƒ¨åˆ†æ•°æ®
+  apply: 开始迁移
+  directoryCriteriaHint: 请确保您选择的新文件夹<span class="font-bold text-lg mx-1">是空的！</span>
+  placeholder: 点击此处以选择新的根目录
+  setRootCause: 请确保启动器在此过程中不被中断，否则某些数据会遗失！
+  setRootDescription: 启动器的根目录将会被改变
+  setRootTitle: 迁移根目录到新的位置
+  unknownError: 未知错误，请联系作者或重试。
+  waitReload: 迁移数据中。请不要关闭启动器，否则您可能会丢失一部分数据
 delete:
-  name: åˆ é™¤ {name}
-  'no': å–æ¶ˆ
-  'yes': åˆ é™¤
+  name: 删除 {name}
+  'no': 取消
+  'yes': 删除
 dependencies:
-  embedded: å†…åµŒ
-  incompatible: ä¸å…¼å®¹
-  name: ä¾èµ–
-  optional: å¯é€‰
-  required: å¿…éœ€
+  embedded: 内嵌
+  incompatible: 不兼容
+  name: 依赖
+  optional: 可选
+  required: 必需
 diagnosis:
   badInstall:
-    message: ä¹Ÿè®¸æ‚¨åº”è¯¥å°è¯•é‡æ–°å®‰è£…æ­¤ç‰ˆæœ¬
-    name: '{version} ç‰ˆæœ¬å®‰è£…å¤±è´¥'
+    message: 也许您应该尝试重新安装此版本
+    name: '{version} 版本安装失败'
   corruptedAssets:
-    message: å¯åŠ¨å™¨å°†é‡æ–°ä¸‹è½½æ¸¸æˆæ–‡ä»¶
-    name: 'Assets æ–‡ä»¶ä¸å®Œæ•´: {name} | Assets æ–‡ä»¶ä¸å®Œæ•´: {name} | {count} ä¸ªæ¸¸æˆèµ„æºä¸å®Œæ•´'
+    message: 启动器将重新下载游戏文件
+    name: 'Assets 文件不完整: {name} | Assets 文件不完整: {name} | {count} 个游戏资源不完整'
   corruptedAssetsIndex:
-    message: å¯åŠ¨å™¨å°†é‡æ–°ä¸‹è½½æ¸¸æˆèµ„æºç›®å½•
-    name: '{version} æ¸¸æˆèµ„æºç›®å½•æŸåã€‚'
+    message: 启动器将重新下载游戏资源目录
+    name: '{version} 游戏资源目录损坏。'
   corruptedLibraries:
-    message: å¯åŠ¨å™¨å°†é‡æ–°ä¸‹è½½ä¸å®Œæ•´çš„æ–‡ä»¶
+    message: 启动器将重新下载不完整的文件
     name: >-
-      Libraries æ–‡ä»¶ä¸å®Œæ•´: {name} | Libraries æ–‡ä»¶ä¸å®Œæ•´: {name} | {count} ä¸ª Libraries æ–‡ä»¶ä¸å®Œæ•´ | {count} ä¸ª Libraries æ–‡ä»¶ä¸å®Œæ•´
+      Libraries 文件不完整: {name} | Libraries 文件不完整: {name} | {count} 个 Libraries 文件不完整 | {count} 个 Libraries 文件不完整
   corruptedVersionJar:
-    message: å¯åŠ¨å™¨å°†é‡æ–°ä¸‹è½½ä¸å®Œæ•´çš„æ–‡ä»¶
-    name: Minecraft {version} æ¸¸æˆ Jar æ–‡ä»¶ä¸å®Œæ•´ã€‚
+    message: 启动器将重新下载不完整的文件
+    name: Minecraft {version} 游戏 Jar 文件不完整。
   incompatibleJava:
-    name: Java {javaVersion} å¯èƒ½ä¸ç¬¦åˆ {version} ç‰ˆæœ¬éœ€æ±‚ï¼
+    name: Java {javaVersion} 可能不符合 {version} 版本需求！
   instanceFiles:
-    description: å®žä¾‹å®‰è£…åŒ…æ‹¬ {counts} ä¸ªæ–‡ä»¶ã€‚
-    title: å®žä¾‹å®‰è£…æœªå®Œæˆ
+    description: 实例安装包括 {counts} 个文件。
+    title: 实例安装未完成
   invalidJava:
-    name: å½“å‰ Java è·¯å¾„å·²ç»å¤±æ•ˆ
+    name: 当前 Java 路径已经失效
   missingJava:
-    message: ç‚¹å‡»æ¥è§£å†³è¿™ä¸ªé—®é¢˜
-    name: æ²¡æœ‰æ‰¾åˆ°åˆé€‚çš„ Java æ¥å¯åŠ¨
+    message: 点击来解决这个问题
+    name: 没有找到合适的 Java 来启动
   missingLibraries:
-    message: å¯åŠ¨å™¨å°†è‡ªåŠ¨ä¸‹è½½å¹¶å®‰è£… Libraries æ–‡ä»¶
+    message: 启动器将自动下载并安装 Libraries 文件
     name: >-
-      ç¼ºå°‘ {name} ä¾èµ– | ç¼ºå°‘ {name} ä¾èµ– | ç¼ºå°‘ {count} ä¸ª Libraries æ–‡ä»¶ | ç¼ºå°‘ {count} ä¸ª Libraries æ–‡ä»¶
+      缺少 {name} 依赖 | 缺少 {name} 依赖 | 缺少 {count} 个 Libraries 文件 | 缺少 {count} 个 Libraries 文件
   missingVersion:
-    message: å¯åŠ¨å™¨å°†è‡ªåŠ¨å®‰è£…è¯¥ç‰ˆæœ¬
-    name: æœªå®‰è£… {version}
+    message: 启动器将自动安装该版本
+    name: 未安装 {version}
   unresolvedFiles:
-    description: å®‰è£…æ—¶æœ‰ {count} ä¸ªæ–‡ä»¶æ— æ³•è§£æž
-    title: æœªè§£æžçš„æ–‡ä»¶
+    description: 安装时有 {count} 个文件无法解析
+    title: 未解析的文件
   unzipFileNotFound:
-    description: æ‰¾ä¸åˆ°{file}
-    title: æ‰¾ä¸åˆ°modpackæ–‡ä»¶
+    description: 找不到{file}
+    title: 找不到modpack文件
 difficulty:
-  easy: ç®€å•
-  hard: å›°éš¾
-  normal: æ™®é€š
-  peaceful: å’Œå¹³
+  easy: 简单
+  hard: 困难
+  normal: 普通
+  peaceful: 和平
 disk:
-  available: å¯ç”¨
-  used: å·²ç”¨
-downloadCount: '{count} æ¬¡ä¸‹è½½'
+  available: 可用
+  used: 已用
+downloadCount: '{count} 次下载'
 downloadModMetadataDb:
-  name: ä¸‹è½½ Mod å…ƒæ•°æ®æ•°æ®åº“
+  name: 下载 Mod 元数据数据库
 downloadUpdate:
-  name: ä¸‹è½½æ›´æ–° {version}
+  name: 下载更新 {version}
 duplicateInstance:
-  name: å¤åˆ¶å®žä¾‹
+  name: 复制实例
 duration:
-  day: '{duration} å¤©'
-  hour: '{duration} å°æ—¶'
-  minute: '{duration} åˆ†é’Ÿ'
-  second: '{duration} ç§’'
+  day: '{duration} 天'
+  hour: '{duration} 小时'
+  minute: '{duration} 分钟'
+  second: '{duration} 秒'
 env:
   select:
-    all: å…¨é€‰
-    fit: é€‰æ‹©åŒ¹é…çš„
-    none: å…¨ä¸é€‰
+    all: 全选
+    fit: 选择匹配的
+    none: 全不选
 errors:
-  BadForgeInstallerJarError: æ— æ³•è§£æž Forge å®‰è£…åŒ… Jar æ–‡ä»¶ã€‚ä¹Ÿè®¸ Forge æœ‰äº†æ–°çš„å®‰è£…åŒ…æ ¼å¼ï¼Ÿå¦‚æžœç»å¸¸é‡åˆ°æ­¤é—®é¢˜ï¼Œè¯·è”ç³»å¼€å‘å›¢é˜Ÿã€‚
-  BadInstanceType: 'ä¸æ˜¯ä¸€ä¸ªåˆæ³•çš„å®žä¾‹: {type}'
-  BodyTimeoutError: ç­‰å¾… HTTP æ•°æ®è¶…æ—¶
-  ChecksumNotMatchError: æ–‡ä»¶æ ¡éªŒå¤±è´¥ï¼æœŸæœ›çš„å“ˆå¸Œå€¼æ˜¯ {expect}ï¼Œå®žé™…èŽ·å–åˆ°çš„æ˜¯ {actual}ã€‚
-  ConnectTimeoutError: ä¸ŽæœåŠ¡å™¨å»ºç«‹è¿žæŽ¥è¶…æ—¶
-  DNSNotFoundError: DNS æŸ¥è¯¢é”™è¯¯
+  BadForgeInstallerJarError: 无法解析 Forge 安装包 Jar 文件。也许 Forge 有了新的安装包格式？如果经常遇到此问题，请联系开发团队。
+  BadInstanceType: '不是一个合法的实例: {type}'
+  BodyTimeoutError: 等待 HTTP 数据超时
+  ChecksumNotMatchError: 文件校验失败！期望的哈希值是 {expect}，实际获取到的是 {actual}。
+  ConnectTimeoutError: 与服务器建立连接超时
+  DNSNotFoundError: DNS 查询错误
   DatabaseNotOpened: |-
-    æ•°æ®åº“æ— æ³•æ‰“å¼€ï¼
-    å¯åŠ¨å™¨å°†æ— æ³•æ­£å¸¸å·¥ä½œï¼
-    è¯·é€‰æ‹©å¯åŠ¨å™¨å¯ä»¥è®¿é—®çš„æ•°æ®ç›®å½•ã€‚æ‚¨å¯ä»¥åœ¨è®¾ç½®é¡µé¢é‡æ–°é€‰æ‹©æ•°æ®ç›®å½•ã€‚
+    数据库无法打开！
+    启动器将无法正常工作！
+    请选择启动器可以访问的数据目录。您可以在设置页面重新选择数据目录。
   DiskIsFull: |-
-    æ‚¨çš„ç£ç›˜å·²æ»¡ï¼
-    å¯åŠ¨å™¨æ— æ³•å°†ä»»ä½•å†…å®¹å†™å…¥ç£ç›˜ã€‚èµ¶å¿«æ¢ä¸€ä¸ªæ•°æ®ç›®å½•æˆ–è€…æ¸…ä¸€ä¸‹ä½ çš„ç£ç›˜å§ã€‚
+    您的磁盘已满！
+    启动器无法将任何内容写入磁盘。赶快换一个数据目录或者清一下你的磁盘吧。
   CorruptedResourceMetadata: |-
-    æ£€æµ‹åˆ°å¹¶å·²æ¸…ç† {count} ä¸ªèµ„æºçš„æŸåå…ƒæ•°æ®ã€‚æ–‡ä»¶æœ¬èº«ä»å¯ä½¿ç”¨ï¼Œä½†å…¶ Modrinth/CurseForge å…³è”ä¿¡æ¯å·²ä¸¢å¤±ï¼Œå°†åœ¨ä¸‹æ¬¡æ‰«ææ—¶è‡ªåŠ¨é‡æ–°è¯†åˆ«ã€‚
-  DownloadAggregateError: ä¸‹è½½æ–‡ä»¶å¤±è´¥ã€‚
-  DownloadFileSystemError: æ— æ³•è®¿é—®ä¸‹è½½ç›®æ ‡è·¯å¾„ï¼Œè¯·ç¡®è®¤å¯åŠ¨å™¨æœ‰æƒå†™å…¥ç›®æ ‡è·¯å¾„ã€‚
-  HeadersTimeoutError: ç­‰å¾… HTTP å¤´ä¿¡æ¯è¶…æ—¶
+    检测到并已清理 {count} 个资源的损坏元数据。文件本身仍可使用，但其 Modrinth/CurseForge 关联信息已丢失，将在下次扫描时自动重新识别。
+  DownloadAggregateError: 下载文件失败。
+  DownloadFileSystemError: 无法访问下载目标路径，请确认启动器有权写入目标路径。
+  HeadersTimeoutError: 等待 HTTP 头信息超时
   InstallInstructionFailed:
-    title: Minecraft æ–‡ä»¶å®‰è£…å¤±è´¥
+    title: Minecraft 文件安装失败
     body: '{name}: {message}'
   InstallNetworkError:
-    title: æ— æ³•ä¸‹è½½ Minecraft æ–‡ä»¶
-    body: ç½‘ç»œé—®é¢˜ä¸­æ–­äº†å®‰è£…ï¼Œè¯·æ£€æŸ¥æ‚¨çš„ç½‘ç»œæˆ–ä»£ç†åŽé‡è¯•ã€‚
+    title: 无法下载 Minecraft 文件
+    body: 网络问题中断了安装，请检查您的网络或代理后重试。
   InstallPermissionDenied:
-    title: æ— æ³•å†™å…¥å¯åŠ¨å™¨ç›®å½•
-    body: æ€æ¯’è½¯ä»¶æˆ–ç›®å½•æƒé™é˜»æ­¢äº†å®‰è£…ã€‚è¯·å°†å¯åŠ¨å™¨åŠ å…¥æ€æ¯’è½¯ä»¶ç™½åå•ï¼Œæˆ–åœ¨è®¾ç½®ä¸­é€‰æ‹©å…¶ä»–æ•°æ®ç›®å½•ã€‚
-  NotFoundError: 404 æœªæ‰¾åˆ°èµ„æº
-  SocketError: æœåŠ¡å™¨è¿žæŽ¥æ–­å¼€
+    title: 无法写入启动器目录
+    body: 杀毒软件或目录权限阻止了安装。请将启动器加入杀毒软件白名单，或在设置中选择其他数据目录。
+  NotFoundError: 404 未找到资源
+  SocketError: 服务器连接断开
 eula:
-  body: é€‰ä¸­å¤é€‰æ¡†æŒ‰é’®å³è¡¨ç¤ºæ‚¨åŒæ„ Minecraft çš„ {eula}ã€‚
+  body: 选中复选框按钮即表示您同意 Minecraft 的 {eula}。
 exception:
-  http: '{url} çš„ HTTP è¯·æ±‚å¤±è´¥ã€‚çŠ¶æ€ç  {statusCode}ã€‚{code}ï¼Œè¯·é‡è¯•æˆ–æ£€æŸ¥æ‚¨çš„ç½‘ç»œã€‚å¦‚æžœæ­¤é—®é¢˜æŒç»­å‡ºçŽ°ï¼Œè¯·è”ç³»å¼€å‘å›¢é˜Ÿã€‚'
+  http: '{url} 的 HTTP 请求失败。状态码 {statusCode}。{code}，请重试或检查您的网络。如果此问题持续出现，请联系开发团队。'
 extensions:
-  mrpack: Modrinth æ•´åˆåŒ…
-  zip: Zip åŽ‹ç¼©åŒ…
+  mrpack: Modrinth 整合包
+  zip: Zip 压缩包
 fabricVersion:
-  disable: ä¸ä½¿ç”¨ Fabric
-  empty: Minecraft {version} æ²¡æœ‰æ‰¾åˆ°å¯ç”¨çš„ Fabric ç‰ˆæœ¬
-  showSnapshot: æ˜¾ç¤ºå¿«ç…§ç‰ˆ
-  stable: ç¨³å®šç‰ˆ
-  unstable: é¢„è§ˆç‰ˆ
+  disable: 不使用 Fabric
+  empty: Minecraft {version} 没有找到可用的 Fabric 版本
+  showSnapshot: 显示快照版
+  stable: 稳定版
+  unstable: 预览版
 command:
   instance:
     launch:
-      title: å¯åŠ¨å®žä¾‹
+      title: 启动实例
     create:
-      title: åˆ›å»ºå®žä¾‹
+      title: 创建实例
     delete:
-      title: åˆ é™¤å®žä¾‹
+      title: 删除实例
   user:
     login:
-      title: ç”¨æˆ·ç™»å½•
+      title: 用户登录
     refresh:
-      title: åˆ·æ–°ç”¨æˆ·
+      title: 刷新用户
 commandPalette:
-  placeholder: æœç´¢å‘½ä»¤ã€å®žä¾‹ã€æ¨¡ç»„â€¦
-  commands: å‘½ä»¤
-  instances: å®žä¾‹
+  placeholder: 搜索命令、实例、模组…
+  commands: 命令
+  instances: 实例
   modrinth: Modrinth
-  recent: æœ€è¿‘
-  open: å¿«é€Ÿæ“ä½œ
-  openHint: æ‰“å¼€å‘½ä»¤é¢æ¿ ({shortcut})
-  empty: è¾“å…¥ä»¥æœç´¢ã€‚
-  noResults: æ²¡æœ‰åŒ¹é…çš„ç»“æžœã€‚
-  searching: æœç´¢ä¸­â€¦
-  hintNavigate: æµè§ˆ
-  hintInvoke: æ‰§è¡Œ
-  hintEnter: è¿›å…¥
-  hintBack: è¿”å›ž
-  hintClose: å…³é—­
+  recent: 最近
+  open: 快速操作
+  openHint: 打开命令面板 ({shortcut})
+  empty: 输入以搜索。
+  noResults: 没有匹配的结果。
+  searching: 搜索中…
+  hintNavigate: 浏览
+  hintInvoke: 执行
+  hintEnter: 进入
+  hintBack: 返回
+  hintClose: 关闭
 feedback:
-  channel: è”ç³»æ¸ é“
-  description: æˆ‘æ‰¾åˆ°äº†æ¼æ´ž/æˆ‘æƒ³åé¦ˆ
+  channel: 联系渠道
+  description: 我找到了漏洞/我想反馈
   discord: Discord
-  discordDescription: åŠ å…¥ Discord é¢‘é“
-  discordJoin: åŠ å…¥
-  generateReport: ç”ŸæˆæŠ¥å‘Š
-  generateSaveAs: å°†æŠ¥å‘Šä¿å­˜åœ¨
+  discordDescription: 加入 Discord 频道
+  discordJoin: 加入
+  generateReport: 生成报告
+  generateSaveAs: 将报告保存在
   github: Github Issue
-  githubDescription: é€šè¿‡ Github Issue æ¥åé¦ˆæ‚¨çš„æƒ³æ³•
+  githubDescription: 通过 Github Issue 来反馈您的想法
   githubOpenIssue: Github
-  hint: ç‚¹å‡»ç”ŸæˆæŠ¥å‘ŠæŒ‰é’®å¹¶è”ç³»å¼€å‘å›¢é˜Ÿã€‚è¿™ä¸ªæŠ¥å‘Šä¼šåŒ…å«ä½ çš„è®¾å¤‡ä¿¡æ¯ï¼Œå¦‚æ“ä½œç³»ç»Ÿï¼Œç‰ˆæœ¬ï¼Œæ“ä½œç³»ç»Ÿçš„ç”¨æˆ·åç­‰ã€‚
+  hint: 点击生成报告按钮并联系开发团队。这个报告会包含你的设备信息，如操作系统，版本，操作系统的用户名等。
   kook: Kook
-  kookDescription: åŠ å…¥ Kook (å›½å¤–è¯·é€‰ Discord)
-  name: åé¦ˆ
-  qq: QQ ç¾¤
-  qqDescription: åŠ å…¥åé¦ˆç¾¤ç›´æŽ¥å’Œä½œè€…èŠèŠå§ï¼Œç¾¤å· {number}
-  qqEnterGroup: åŠ ç¾¤
+  kookDescription: 加入 Kook (国外请选 Discord)
+  name: 反馈
+  qq: QQ 群
+  qqDescription: 加入反馈群直接和作者聊聊吧，群号 {number}
+  qqEnterGroup: 加群
 fileDetail:
-  fileSize: æ–‡ä»¶å¤§å°
-  filesize: æ–‡ä»¶å¤§å°
-  hash: å“ˆå¸Œå€¼
-filterLocalOnly: åªæ˜¾ç¤ºå·²å®‰è£…
+  fileSize: 文件大小
+  filesize: 文件大小
+  hash: 哈希值
+filterLocalOnly: 只显示已安装
 forgeVersion:
-  disable: ä¸ä½¿ç”¨ Forge
-  empty: Minecraft {version} ä¸æ”¯æŒ Forge
-  latest: æœ€æ–°ç‰ˆ
-  recommended: ç¨³å®šç‰ˆ
+  disable: 不使用 Forge
+  empty: Minecraft {version} 不支持 Forge
+  latest: 最新版
+  recommended: 稳定版
 gameType:
-  adventure: å†’é™©æ¨¡å¼
-  creative: åˆ›é€ æ¨¡å¼
-  spectator: æ—è§‚è€…æ¨¡å¼
-  survival: ç”Ÿå­˜æ¨¡å¼
-help: å¸®åŠ©
-home: ä¸»é¡µ
+  adventure: 冒险模式
+  creative: 创造模式
+  spectator: 旁观者模式
+  survival: 生存模式
+help: 帮助
+home: 主页
 importModpack:
-  name: å¯¼å…¥æ•´åˆåŒ…
+  name: 导入整合包
 exportModpack:
-  name: å¯¼å‡ºæ•´åˆåŒ…
+  name: 导出整合包
 installAssets:
-  asset: ä¸‹è½½ {count} ä¸ªèµ„æºæ–‡ä»¶
-  assetIndex: ä¸‹è½½èµ„æºæ–‡ä»¶ç›®å½•
-  name: ä¸‹è½½æ¸¸æˆèµ„æºæ–‡ä»¶
-installAuthlibInjector: å®‰è£… authlib-injector
-installCurseforgeFile: å®‰è£… Curseforge æ–‡ä»¶
+  asset: 下载 {count} 个资源文件
+  assetIndex: 下载资源文件目录
+  name: 下载游戏资源文件
+installAuthlibInjector: 安装 authlib-injector
+installCurseforgeFile: 安装 Curseforge 文件
 installFabric:
-  name: å®‰è£… Fabric
+  name: 安装 Fabric
 installForge:
-  downloadInstaller: ä¸‹è½½ Forge å®‰è£…å™¨
-  name: å®‰è£… Forge
-  postProcessing: å¤„ç† Minecraft Jar æ–‡ä»¶
+  downloadInstaller: 下载 Forge 安装器
+  name: 安装 Forge
+  postProcessing: 处理 Minecraft Jar 文件
 installInstance:
-  file: æ›´æ–°/å®‰è£…å®žä¾‹æ–‡ä»¶ {file}
-  link: å¤åˆ¶æˆ–é“¾æŽ¥ {count} ä¸ªæ–‡ä»¶
-  name: æ›´æ–°/å®‰è£…å®žä¾‹
-  resolve: è§£æžå®žä¾‹å®‰è£…ä¿¡æ¯
-  unzip: è§£åŽ‹ {count} ä¸ªæ–‡ä»¶
+  file: 更新/安装实例文件 {file}
+  link: 复制或链接 {count} 个文件
+  name: 更新/安装实例
+  resolve: 解析实例安装信息
+  unzip: 解压 {count} 个文件
 installJre:
-  decompress: è§£åŽ‹ JRE æ–‡ä»¶åˆ°æœ¬åœ°
-  download: ä¸‹è½½åŽ‹ç¼©çš„ JRE æ–‡ä»¶
-  name: å®‰è£… Java è¿è¡Œåº“
+  decompress: 解压 JRE 文件到本地
+  download: 下载压缩的 JRE 文件
+  name: 安装 Java 运行库
 installLabyMod:
-  name: å®‰è£… LabyMod
+  name: 安装 LabyMod
 installLibraries:
-  library: æ£€æŸ¥ Libraries æ–‡ä»¶
-  name: å®‰è£…ä¾èµ–è¿è¡Œåº“
+  library: 检查 Libraries 文件
+  name: 安装依赖运行库
 installModrinthFile:
-  name: ä»Ž Modrinth ä¸‹è½½
+  name: 从 Modrinth 下载
 installOptifine:
-  download: ä¸‹è½½ Optifine Universal
-  name: å®‰è£… Optifine
+  download: 下载 Optifine Universal
+  name: 安装 Optifine
 installProfile:
-  name: å®‰è£…é…ç½® {version}
+  name: 安装配置 {version}
 installQuilt:
-  name: å®‰è£… Quilt {version}
+  name: 安装 Quilt {version}
 installVersion:
-  jar: å®‰è£…æ¸¸æˆ Jar æ–‡ä»¶
-  json: å®‰è£…æ¸¸æˆ JSON æ–‡ä»¶
-  name: å®‰è£…{id}çš„æ¸¸æˆæœ¬ä½“
+  jar: 安装游戏 Jar 文件
+  json: 安装游戏 JSON 文件
+  name: 安装{id}的游戏本体
 instance:
-  changeIcon: æ›´æ”¹å›¾æ ‡
-  contents: å†…å®¹
-  current: å½“å‰å®žä¾‹
-  delete: åˆ é™¤æ¸¸æˆ
-  deleteFailed: åˆ é™¤å®žä¾‹å¤±è´¥
-  deleteFailedPermission: å…¶ä»–ç¨‹åºå ç”¨äº†è¯¥æ–‡ä»¶
-  deleteFile: åˆ é™¤å®žä¾‹æ–‡ä»¶
-  deleteHint: æ¸¸æˆæ•°æ®å°†å®Œå…¨è¢«ç§»é™¤ã€‚æ‚¨ç¡®å®šç»§ç»­æ­¤æ“ä½œå—ï¼Ÿ
-  duplicate: åˆ›å»ºå¤‡ä»½
-  duplicatedName: åå­—å†²çªï¼
-  fileApi: è¿œç¨‹åŒæ­¥æ–‡ä»¶æœåŠ¡å™¨ API åœ°å€
-  fileApiPlaceholder: å¦‚éœ€ä¿æŒèµ„æºåŒæ­¥ï¼Œè¯·åœ¨æ­¤å¤„å¡«å…¥è¿œç¨‹åŒæ­¥åœ°å€
-  fileApiHint: ç”¨äºŽè¿œç¨‹åŒæ­¥å®žä¾‹æ–‡ä»¶çš„é“¾æŽ¥
-  fullscreen: å…¨å±
-  height: é«˜åº¦
-  hideCard: éšè—æ­¤å¡ç‰‡
-  icon: å®žä¾‹å›¾æ ‡
-  iconHint: è¯¥å›¾æ ‡å¯ä»¥æ˜¯æ–‡ä»¶æˆ–äº’è”ç½‘ URL é“¾æŽ¥ã€‚
-  iconUrl: å›¾ç‰‡ URL
-  installModpack: ä»Žmodpackæ›´æ–°å®žä¾‹
-  lastPlayed: ä¸Šæ¬¡æ¸¸çŽ©
-  launchArguments: å¯åŠ¨å‘½ä»¤é¢„è§ˆ
-  launchServer: å¯åŠ¨æœ¬åœ°æœåŠ¡ç«¯
+  changeIcon: 更改图标
+  contents: 内容
+  current: 当前实例
+  delete: 删除游戏
+  deleteFailed: 删除实例失败
+  deleteFailedPermission: 其他程序占用了该文件
+  deleteFile: 删除实例文件
+  deleteHint: 游戏数据将完全被移除。您确定继续此操作吗？
+  duplicate: 创建备份
+  duplicatedName: 名字冲突！
+  fileApi: 远程同步文件服务器 API 地址
+  fileApiPlaceholder: 如需保持资源同步，请在此处填入远程同步地址
+  fileApiHint: 用于远程同步实例文件的链接
+  fullscreen: 全屏
+  height: 高度
+  hideCard: 隐藏此卡片
+  icon: 实例图标
+  iconHint: 该图标可以是文件或互联网 URL 链接。
+  iconUrl: 图片 URL
+  installModpack: 从modpack更新实例
+  lastPlayed: 上次游玩
+  launchArguments: 启动命令预览
+  launchServer: 启动本地服务端
   linkFileDesc: |-
-    è¿™å°†ä½¿ç”¨å…¨å±€ {file} è¦†ç›–å®žä¾‹æœ¬åœ° {file}ã€‚
-    æ‚¨ç¡®å®šè¦é“¾æŽ¥å—ï¼Ÿ
-  linkFileTitle: æ‚¨ç¡®å®šè¦é“¾æŽ¥{file}å—ï¼Ÿ
-  mcOptions: Minecraft å¯åŠ¨é€‰é¡¹
-  mcOptionsHint: é¢å¤–çš„ Minecraft å¯åŠ¨å‚æ•°
-  name: åç§°
-  nameHint: åç§°ä¾¿äºŽä»¥åŽè¯†åˆ«
-  nameNoCyrillic: æ— è¥¿é‡Œå°”å­—æ¯åç§°
-  nameInvalidChars: 'åç§°ä¸èƒ½åŒ…å«ä»¥ä¸‹å­—ç¬¦ï¼š< > : " / \\ | ? *'
-  nameReservedName: æ­¤åç§°æ˜¯ç³»ç»Ÿä¿ç•™åç§°ï¼Œæ— æ³•ä½¿ç”¨
-  namePathTraversal: åç§°ä¸èƒ½åŒ…å«è·¯å¾„éåŽ†ç¬¦å·ï¼ˆ".."ï¼‰
-  nameWhitespaceOnly: åç§°ä¸èƒ½ä»…ç”±ç©ºæ ¼æˆ–ç‚¹å·ç»„æˆ
-  nameTrailingDotOrSpace: åç§°ä¸èƒ½ä»¥ç‚¹å·æˆ–ç©ºæ ¼ç»“å°¾
-  neverPlayed: ä»Žæœªæ¸¸çŽ©
-  openCrashReportFolder: æ‰“å¼€åŒ…å«é”™è¯¯æŠ¥å‘Šçš„æ–‡ä»¶å¤¹
-  openLogFolder: æ‰“å¼€æ—¥å¿—æ–‡ä»¶å¤¹
-  playtime: æ¸¸çŽ©æ—¶é•¿
-  preExecCommand: å¯åŠ¨å‰æ‰§è¡Œå‘½ä»¤
-  preExecCommandHint: åœ¨å¯åŠ¨ Minecraft ä¹‹å‰è¦æ‰§è¡Œçš„å‘½ä»¤
-  prependCommand: å‰ç½®å‘½ä»¤
-  prependCommandHint: è¿™å°†åœ¨å¯åŠ¨å‘½ä»¤ä¹‹å‰æ·»åŠ æ­¤å‘½ä»¤
-  requireName: å¿…é¡»å¡«å†™åç§°
-  resolution: åˆ†è¾¨çŽ‡
-  resolutionPreset: åˆ†è¾¨çŽ‡é¢„è®¾
-  showHiddenCards: æ˜¾ç¤ºéšè—çš„å¡ç‰‡
-  showInstance: æ‰“å¼€æ–‡ä»¶å¤¹
-  updates: æ›´æ–°
-  useSharedOptions: å…±äº« Minecraft è®¾ç½®
-  useSharedOptionsDesc: è¿™ä¼šå°† options.txt é“¾æŽ¥åˆ°è·¨å®žä¾‹çš„å…±äº«æ–‡ä»¶
-  useSharedServersList: å…±äº«æœåŠ¡å™¨åˆ—è¡¨
-  useSharedServersListDesc: è¿™ä¼šå°†servers.daté“¾æŽ¥åˆ°è·¨å®žä¾‹çš„å…±äº«æ–‡ä»¶
-  vmOptions: JVM å¯åŠ¨é€‰é¡¹
-  vmOptionsHint: é¢å¤–çš„ JVM çš„å¯åŠ¨å‚æ•°
-  vmVar: çŽ¯å¢ƒå˜é‡
-  vmVarHint: ç‚¹å‡»æŒ‰é’®æ·»åŠ çŽ¯å¢ƒå˜é‡
-  envVarKey: å˜é‡å
-  envVarValue: å€¼
+    这将使用全局 {file} 覆盖实例本地 {file}。
+    您确定要链接吗？
+  linkFileTitle: 您确定要链接{file}吗？
+  mcOptions: Minecraft 启动选项
+  mcOptionsHint: 额外的 Minecraft 启动参数
+  name: 名称
+  nameHint: 名称便于以后识别
+  nameNoCyrillic: 无西里尔字母名称
+  nameInvalidChars: '名称不能包含以下字符：< > : " / \\ | ? *'
+  nameReservedName: 此名称是系统保留名称，无法使用
+  namePathTraversal: 名称不能包含路径遍历符号（".."）
+  nameWhitespaceOnly: 名称不能仅由空格或点号组成
+  nameTrailingDotOrSpace: 名称不能以点号或空格结尾
+  neverPlayed: 从未游玩
+  openCrashReportFolder: 打开包含错误报告的文件夹
+  openLogFolder: 打开日志文件夹
+  playtime: 游玩时长
+  preExecCommand: 启动前执行命令
+  preExecCommandHint: 在启动 Minecraft 之前要执行的命令
+  prependCommand: 前置命令
+  prependCommandHint: 这将在启动命令之前添加此命令
+  requireName: 必须填写名称
+  resolution: 分辨率
+  resolutionPreset: 分辨率预设
+  showHiddenCards: 显示隐藏的卡片
+  showInstance: 打开文件夹
+  updates: 更新
+  useSharedOptions: 共享 Minecraft 设置
+  useSharedOptionsDesc: 这会将 options.txt 链接到跨实例的共享文件
+  useSharedServersList: 共享服务器列表
+  useSharedServersListDesc: 这会将servers.dat链接到跨实例的共享文件
+  vmOptions: JVM 启动选项
+  vmOptionsHint: 额外的 JVM 的启动参数
+  vmVar: 环境变量
+  vmVarHint: 点击按钮添加环境变量
+  envVarKey: 变量名
+  envVarValue: 值
   envVarKeyPlaceholder: MY_VAR
   envVarValuePlaceholder: value
-  width: å®½åº¦
+  width: 宽度
 instanceAge:
-  older: ä¸‰å¤©å‰
-  threeDay: ä¸‰å¤©å†…
-  today: ä»Šå¤©
+  older: 三天前
+  threeDay: 三天内
+  today: 今天
 instanceDiscover:
-  gameFolder: å‘çŽ° {count} ä¸ªæ¸¸æˆæ–‡ä»¶å¤¹
-  instanceFolder: æ‰¾åˆ° {count} ä¸ªå®žä¾‹
+  gameFolder: 发现 {count} 个游戏文件夹
+  instanceFolder: 找到 {count} 个实例
 instanceFileOperation:
-  add: æ–°å¢ž
-  backup-add: å¤‡ä»½å¹¶æ›¿æ¢
-  backup-remove: ç§»é™¤ï¼ˆå¤‡ä»½ï¼‰
-  keep: ä¿ç•™
-  remove: ç§»é™¤
+  add: 新增
+  backup-add: 备份并替换
+  backup-remove: 移除（备份）
+  keep: 保留
+  remove: 移除
 instanceInstallSkip:
-  ignore: å¿½ç•¥
-  skip: è·³è¿‡
-  title: æ½œåœ¨æŸåçš„æ–‡ä»¶æº
+  ignore: 忽略
+  skip: 跳过
+  title: 潜在损坏的文件源
   warning: |-
-    æœ‰äº›æ–‡ä»¶è¢«å¤šæ¬¡ä¸‹è½½ï¼Œä¸”æ ¡éªŒå’Œä¸åŒ¹é…ã€‚
-    è¿™å¯èƒ½æ˜¯ç”±äºŽåŽŸå§‹æ ¡éªŒä¸æ­£ç¡®é€ æˆçš„ã€‚
-    è¯·æ£€æŸ¥ã€‚
-    å¦‚æžœç¡®è®¤å½“å‰æ–‡ä»¶æœ‰æ•ˆï¼Œåˆ™å¯ä»¥è·³è¿‡éªŒè¯æ£€æŸ¥ã€‚
+    有些文件被多次下载，且校验和不匹配。
+    这可能是由于原始校验不正确造成的。
+    请检查。
+    如果确认当前文件有效，则可以跳过验证检查。
 instanceSetting:
-  disableAuthlibInjector: ç¦ç”¨ authlib æ³¨å…¥å™¨
+  disableAuthlibInjector: 禁用 authlib 注入器
   disableAuthlibInjectorDescription: |-
-    å¦‚æžœæ‚¨ä½¿ç”¨çš„æ˜¯ç¬¬ä¸‰æ–¹çš®è‚¤ç³»ç»Ÿã€‚
-    authlib æ³¨å…¥å™¨å¯ä»¥å¸®åŠ©æ‚¨åœ¨æ¸¸æˆä¸­æ˜¾ç¤ºçš®è‚¤ã€‚
-  disableElyByAuthlib: ç¦ç”¨ ely.by çš„ authlib æ›¿æ¢
-  disableElyByAuthlibDescription: Ely.by æœ‰ä¸€ä¸ªç‹¬ç‰¹çš„ authlib æ›¿ä»£å“ï¼Œå¯ä»¥åœ¨ä»»ä½•æœåŠ¡å™¨ä¸­æ™®éæ˜¾ç¤ºçš®è‚¤ã€‚
-  fastLaunch: å¿«é€Ÿå¯åŠ¨
-  fastLaunchHint: å¯åŠ¨æ—¶è·³è¿‡åˆ·æ–°ç”¨æˆ·å’Œæ²¡æœ‰ä¿®å¤çš„é—®é¢˜
-  hideLauncher: Minecraft å¯åŠ¨åŽéšè—å¯åŠ¨å™¨
-  icon: é€‰æ‹©å›¾ç‰‡
-  showLog: Minecraft å¯åŠ¨åŽæ˜¾ç¤ºæ—¥å¿—
-  showLogHint: æ¸¸æˆå¼€å¯åŽå°†å¼¹å‡ºä¸€ä¸ªæ˜¾ç¤º Minecraft æ—¥å¿—çš„çª—å£
+    如果您使用的是第三方皮肤系统。
+    authlib 注入器可以帮助您在游戏中显示皮肤。
+  disableElyByAuthlib: 禁用 ely.by 的 authlib 替换
+  disableElyByAuthlibDescription: Ely.by 有一个独特的 authlib 替代品，可以在任何服务器中普遍显示皮肤。
+  fastLaunch: 快速启动
+  fastLaunchHint: 启动时跳过刷新用户和没有修复的问题
+  hideLauncher: Minecraft 启动后隐藏启动器
+  icon: 选择图片
+  showLog: Minecraft 启动后显示日志
+  showLogHint: 游戏开启后将弹出一个显示 Minecraft 日志的窗口
 instanceTemplate:
-  ftb: è¿™æ˜¯ä¸€ä¸ª FTB çš„æ•´åˆåŒ…é…ç½®
-  preview: é¢„è§ˆ
+  ftb: 这是一个 FTB 的整合包配置
+  preview: 预览
 instanceUpdate:
-  basic: è®¾ç½®æ›´æ–°
-  files: æ–‡ä»¶æ›´æ–°
+  basic: 设置更新
+  files: 文件更新
   loaderChanged: |-
-    è¯¥å®žä¾‹çš„æ¨¡ç»„åŠ è½½å™¨å·²æ›´æ”¹ã€‚
-    ä»¥å‰çš„æ¨¡ç»„åŠ è½½å™¨æ˜¯ {modloader}ï¼ŒçŽ°åœ¨çš„æ¨¡ç»„åŠ è½½å™¨æ˜¯ {newModloader}ã€‚
-  noFiles: æ— æ–‡ä»¶å˜æ›´
+    该实例的模组加载器已更改。
+    以前的模组加载器是 {modloader}，现在的模组加载器是 {newModloader}。
+  noFiles: 无文件变更
   summary: |-
-    æ·»åŠ {add}æ–‡ä»¶ã€‚
-    åˆ é™¤{remove}æ–‡ä»¶ã€‚
-    ä¿ç•™{keep}æ–‡ä»¶ã€‚
-  title: æ›´æ–°å®žä¾‹
-  update: å¼€å§‹æ›´æ–°å®žä¾‹
+    添加{add}文件。
+    删除{remove}文件。
+    保留{keep}文件。
+  title: 更新实例
+  update: 开始更新实例
 instances:
-  add: æ·»åŠ æˆ–åˆ›å»ºæ¸¸æˆ
+  add: 添加或创建游戏
   addCurseForgeDescription: |-
-    ä»Žcurseforge æ•°æ®æ–‡ä»¶å¤¹å¯¼å…¥ã€‚
-    æ‚¨éœ€è¦é€‰æ‹©curseforgeçš„æ ¹æ•°æ®æ–‡ä»¶å¤¹
-  addDescription: ä»Žå¤´å¼€å§‹åˆ›å»ºä¸€ä¸ªæ–°å®žä¾‹
+    从curseforge 数据文件夹导入。
+    您需要选择curseforge的根数据文件夹
+  addDescription: 从头开始创建一个新实例
   addMMCDescription: |-
-    å¯¼å…¥çŽ°æœ‰çš„ MultiMC å®žä¾‹ã€‚
-    æ‚¨éœ€è¦ä»Ž MultiMC ä¸­é€‰æ‹©æ•°æ®æ–‡ä»¶å¤¹ã€‚
-  addManually: æ‰‹åŠ¨åˆ›å»º
+    导入现有的 MultiMC 实例。
+    您需要从 MultiMC 中选择数据文件夹。
+  addManually: 手动创建
   addModrinthDescription: |-
-    å¯¼å…¥çŽ°æœ‰çš„ Modrinth å®žä¾‹ã€‚
-    æ‚¨éœ€è¦é€‰æ‹© Modrinth æ ¹æ•°æ®æ–‡ä»¶å¤¹ã€‚
-  addServer: ä»ŽæœåŠ¡å™¨åˆ›å»º
-  addServerDescription: è¿™å°†åˆ›å»ºä¸€ä¸ªç›´æŽ¥å¯åŠ¨åˆ°æœåŠ¡å™¨çš„æ¸¸æˆã€‚
-  addTemplate: ä»Žä¸‹è½½çš„æ•´åˆåŒ…åˆ›å»º
-  addTemplateDescription: ä»Žä¸‹è½½çš„æ•´åˆåŒ…å¯¼å…¥
-  addVanilla: ä»ŽåŽŸç‰ˆ Minecraft åˆ›å»º
+    导入现有的 Modrinth 实例。
+    您需要选择 Modrinth 根数据文件夹。
+  addServer: 从服务器创建
+  addServerDescription: 这将创建一个直接启动到服务器的游戏。
+  addTemplate: 从下载的整合包创建
+  addTemplateDescription: 从下载的整合包导入
+  addVanilla: 从原版 Minecraft 创建
   addVanillaDescription: |-
-    ä»Žé€šç”¨ .minecraft æ–‡ä»¶å¤¹å¯¼å…¥ã€‚
-    è¿™ä¼šå°†åŽŸå§‹æ¸¸æˆé…ç½®æ–‡ä»¶å¤åˆ¶åˆ° FastLauncherã€‚
-  fix: ä¿®å¤
-  folder: æ–‡ä»¶å¤¹
-  folderSetting: æ–‡ä»¶å¤¹è®¾ç½®
-  importFolderDescription: å¯¼å…¥ Minecraft åˆ°å¯åŠ¨å™¨
-  addPrismDescription: å¯¼å…¥çŽ°æœ‰çš„ PrismLauncher å®žä¾‹ã€‚
-  loadingFiles: åŠ è½½æ•´åˆåŒ…æ–‡ä»¶
+    从通用 .minecraft 文件夹导入。
+    这会将原始游戏配置文件复制到 FastLauncher。
+  fix: 修复
+  folder: 文件夹
+  folderSetting: 文件夹设置
+  importFolderDescription: 导入 Minecraft 到启动器
+  addPrismDescription: 导入现有的 PrismLauncher 实例。
+  loadingFiles: 加载整合包文件
 items:
-  count: '{count} ä¸ª'
-  total: å…± {total} ä¸ª
+  count: '{count} 个'
+  total: 共 {total} 个
 instanceLauncher:
-  search: æœç´¢å®žä¾‹...
-  showAll: æ˜¾ç¤ºæ‰€æœ‰å®žä¾‹
-  title: æ‰€æœ‰å®žä¾‹
+  search: 搜索实例...
+  showAll: 显示所有实例
+  title: 所有实例
 java:
-  allocatedLong: å¯åŠ¨å™¨è‡ªåŠ¨é€‰æ‹© Java
-  allocatedShort: è‡ªåŠ¨åˆ†é…
-  allocation: å·²åˆ†é…
-  autoHint: æœ€å°å†…å­˜éšå·²å®‰è£… Mod æ•°é‡å¢žé•¿ï¼›æœ€å¤§å†…å­˜ä½¿ç”¨ç³»ç»Ÿå¯ç”¨å†…å­˜ã€‚
-  change: æ›´æ¢
-  importFromFile: ä»Žæ–‡ä»¶å¯¼å…¥ Java
-  invalid: æ— æ•ˆçš„ Java è·¯å¾„
-  location: Java è·¯å¾„
-  locationHint: æœªé€‰æ‹© Java â€” ä½¿ç”¨ç³»ç»Ÿé»˜è®¤
-  maxMemory: æœ€å¤§å†…å­˜
-  memory: Java å†…å­˜
-  memoryAuto: è‡ªåŠ¨
-  memoryManual: æ‰‹åŠ¨æŒ‡å®š
-  memoryUnassigned: ä¸æŒ‡å®šå†…å­˜
-  minMemory: æœ€å°å†…å­˜
-  noMemory: ä¸è®¾ç½®å†…å­˜é™åˆ¶
-  openFolder: æ‰“å¼€ Java æ‰€åœ¨æ–‡ä»¶å¤¹
-  presets: é¢„è®¾
-  refresh: åˆ·æ–°æœ¬åœ° Java
-  systemMemory: 'ç³»ç»Ÿç©ºé—²å†…å­˜: {free} / {total}'
+  allocatedLong: 启动器自动选择 Java
+  allocatedShort: 自动分配
+  allocation: 已分配
+  autoHint: 最小内存随已安装 Mod 数量增长；最大内存使用系统可用内存。
+  change: 更换
+  importFromFile: 从文件导入 Java
+  invalid: 无效的 Java 路径
+  location: Java 路径
+  locationHint: 未选择 Java — 使用系统默认
+  maxMemory: 最大内存
+  memory: Java 内存
+  memoryAuto: 自动
+  memoryManual: 手动指定
+  memoryUnassigned: 不指定内存
+  minMemory: 最小内存
+  noMemory: 不设置内存限制
+  openFolder: 打开 Java 所在文件夹
+  presets: 预设
+  refresh: 刷新本地 Java
+  systemMemory: '系统空闲内存: {free} / {total}'
 labyMod:
-  disable: ä¸ä½¿ç”¨ LabyMod
-  empty: å½“å‰ Minecraft ä¸æ”¯æŒ LabyMod
+  disable: 不使用 LabyMod
+  empty: 当前 Minecraft 不支持 LabyMod
 unauthenticatedWarning:
-  title: æœªç™»å½•
-  description: å½“å‰æœªç™»å½•ä»»ä½•è´¦å·ï¼Œæ¸¸æˆå°†ä»¥æ¼”ç¤ºæ¨¡å¼å¯åŠ¨ã€‚å¦‚éœ€å®Œæ•´åŠŸèƒ½ï¼Œè¯·å…ˆç™»å½•ã€‚
-  cancel: å–æ¶ˆ
-  login: ç™»å½•
-  playAnyway: ä»è¦å¯åŠ¨
+  title: 未登录
+  description: 当前未登录任何账号，游戏将以演示模式启动。如需完整功能，请先登录。
+  cancel: 取消
+  login: 登录
+  playAnyway: 仍要启动
 launch:
-  cancel: ä¸­æ­¢
-  createShortcut: åˆ›å»ºå¿«æ·æ–¹å¼
-  kill: åœæ­¢
-  forceKill: å¼ºåˆ¶ç»“æŸ
-  killServer: åœæ­¢æœ¬åœ°æœåŠ¡å™¨
-  launch: å¯åŠ¨
-  launchAnyway: ç›´æŽ¥å¯åŠ¨
-  launchAs: ä»¥å…¶ä»–è´¦å·å¯åŠ¨
-  launchTo: å¯åŠ¨è‡³â€¦
+  cancel: 中止
+  createShortcut: 创建快捷方式
+  kill: 停止
+  forceKill: 强制结束
+  killServer: 停止本地服务器
+  launch: 启动
+  launchAnyway: 直接启动
+  launchAs: 以其他账号启动
+  launchTo: 启动至…
 launchBlocked:
   launchBadVersion:
-    description: ç‰ˆæœ¬ {version} çš„ JSON å†…æœ‰æ— æ³•è§£æžçš„åº“ï¼Œä¹Ÿè®¸æ‚¨éœ€è¦é‡æ–°å®‰è£…æ­¤ç‰ˆæœ¬ï¼Ÿ
-    title: ç‰ˆæœ¬ JSON å¯èƒ½æŸå
+    description: 版本 {version} 的 JSON 内有无法解析的库，也许您需要重新安装此版本？
+    title: 版本 JSON 可能损坏
   launchGeneralException:
-    description: ä¸€äº›æœªçŸ¥é”™è¯¯å¯¼è‡´å¯åŠ¨å¤±è´¥ã€‚
-    title: æ— æ³•å¯åŠ¨
+    description: 一些未知错误导致启动失败。
+    title: 无法启动
   launchInvalidJavaPath:
     description: >-
-      å½“å‰ Java è·¯å¾„å¯èƒ½æ— æ•ˆï¼Œè¯·æ£€æŸ¥ Java å¯æ‰§è¡Œæ–‡ä»¶æ˜¯å¦å­˜åœ¨ <span class="highlight"> {javaPath} </span>
-    title: Java è·¯å¾„æ— æ•ˆ
+      当前 Java 路径可能无效，请检查 Java 可执行文件是否存在 <span class="highlight"> {javaPath} </span>
+    title: Java 路径无效
   launchJavaNoPermission:
     description: >-
-      æ²¡æœ‰æƒé™æ‰§è¡Œ <span class="highlight"> {javaPath} </span>ï¼Œè¯·å°è¯•ç»™å¯åŠ¨å™¨æ›´é«˜æƒé™ï¼Œç»™ Java æ–‡ä»¶å¢žåŠ å¯æ‰§è¡Œæƒé™ï¼Œæˆ–è€…æ›´æ¢ Javaã€‚
-    title: æ— æƒé™ä½¿ç”¨ Java
+      没有权限执行 <span class="highlight"> {javaPath} </span>，请尝试给启动器更高权限，给 Java 文件增加可执行权限，或者更换 Java。
+    title: 无权限使用 Java
   launchNoProperJava:
-    description: æ‰¾ä¸åˆ°åˆé€‚çš„ Java æ¥å¯åŠ¨æ¸¸æˆã€‚({javaPath} å¯èƒ½æ— æ•ˆï¼Ÿ)
-    title: æ²¡æœ‰åˆé€‚çš„ Java
+    description: 找不到合适的 Java 来启动游戏。({javaPath} 可能无效？)
+    title: 没有合适的 Java
   launchNoVersionInstalled:
-    description: æ‰¾ä¸åˆ° Minecraft å¯åŠ¨ã€‚å½“å‰ç‰ˆæœ¬æ˜¯ <span class="highlight">{version}</span>ã€‚
-    title: æ— æ³•æ‰¾åˆ°å®‰è£…çš„ Minecraft
+    description: 找不到 Minecraft 启动。当前版本是 <span class="highlight">{version}</span>。
+    title: 无法找到安装的 Minecraft
   launchSpawnProcessFailed:
     description: |-
-      è¯·æ£€æŸ¥æ‚¨çš„ Javaï¼Œæˆ–å‘å¯åŠ¨å™¨æŽˆäºˆæ›´å¤šæƒé™ï¼Œç„¶åŽé‡è¯•ã€‚
-      å¦‚æžœä»ç„¶æ— æ³•è§£å†³é—®é¢˜ï¼Œè¯·è”ç³»å¼€å‘äººå‘˜ã€‚
-    title: æ— æ³•å¯åŠ¨æ¸¸æˆè¿›ç¨‹
-  unexpectedText: è¿™æ˜¯æ„æ–™ä¹‹å¤–çš„é”™è¯¯ï¼Œæ‚¨å¯ä»¥é‡å¯å¯åŠ¨å™¨æ¥å°è¯•ç¼“è§£é—®é¢˜ï¼Œè¯·è”ç³»ä½œè€…æ¥ä¿®å¤ã€‚
+      请检查您的 Java，或向启动器授予更多权限，然后重试。
+      如果仍然无法解决问题，请联系开发人员。
+    title: 无法启动游戏进程
+  unexpectedText: 这是意料之外的错误，您可以重启启动器来尝试缓解问题，请联系作者来修复。
 launchFailed:
-  crash: æ¸¸æˆå´©æºƒäº†ï¼
-  description: æ²¡æœ‰æ‰¾åˆ°å´©æºƒæŠ¥å‘Šï¼Œè¿™é‡Œæ˜¯æ¸¸æˆè¾“å‡ºå’Œæœ€æ–°çš„æ—¥å¿—æ–‡ä»¶
+  crash: 游戏崩溃了！
+  description: 没有找到崩溃报告，这里是游戏输出和最新的日志文件
   elyByAuthlib:
-    description: Minecraft ç‰ˆæœ¬ {version} ä½¿ç”¨äº† Ely.by çš„ authlib æ›¿æ¢ï¼Œä½†æ­¤ç‰ˆæœ¬å¯èƒ½ä¸å®Œå…¨å…¼å®¹ã€‚
-    suggestion: ä½ å¯ä»¥åœ¨å®žä¾‹è®¾ç½®ä¸­ç¦ç”¨ Ely.by çš„ authlib æ›¿æ¢æ¥é¿å…æ­¤é—®é¢˜ã€‚
-    title: Ely.by Authlib å…¼å®¹æ€§é—®é¢˜
-  failedToLaunch: å¯åŠ¨å™¨å¯åŠ¨å¤±è´¥
-  latestLog: æœ€æ–°æ—¥å¿—æ–‡ä»¶
-  title: æ¸¸æˆæœªæ­£å¸¸é€€å‡º
+    description: Minecraft 版本 {version} 使用了 Ely.by 的 authlib 替换，但此版本可能不完全兼容。
+    suggestion: 你可以在实例设置中禁用 Ely.by 的 authlib 替换来避免此问题。
+    title: Ely.by Authlib 兼容性问题
+  failedToLaunch: 启动器启动失败
+  latestLog: 最新日志文件
+  title: 游戏未正常退出
 launchPreExecuteCommandFailed:
-  description: é¢„æ‰§è¡Œå‘½ä»¤å¤±è´¥ï¼Œå‡ºçŽ°é”™è¯¯ï¼š {error}ã€‚è¯·æ£€æŸ¥å‘½ä»¤å¹¶é‡è¯•ã€‚
-  title: é¢„æ‰§è¡Œå‘½ä»¤å¤±è´¥
+  description: 预执行命令失败，出现错误： {error}。请检查命令并重试。
+  title: 预执行命令失败
 launchStatus:
-  assigningMemory: æ­£åœ¨åˆ†é…å†…å­˜
-  elyByWarning: å·²å¯ç”¨ Ely.by authlib æ›¿æ¢ã€‚æŸäº› Minecraft ç‰ˆæœ¬å¯èƒ½ä¸å…¼å®¹å¹¶å¯èƒ½å¯¼è‡´å´©æºƒã€‚å¦‚æžœå‡ºçŽ°é—®é¢˜ï¼Œä½ å¯ä»¥åœ¨å®žä¾‹è®¾ç½®ä¸­ç¦ç”¨å®ƒã€‚
-  exit: å…³é—­æ¸¸æˆï¼Ÿ
-  injectingAuthLib: é…ç½®ç¬¬ä¸‰æ–¹éªŒè¯ä¸­
-  launching: å¯åŠ¨ä¸­...
-  launchingSlow: è¿˜åœ¨å¯åŠ¨â€¦Minecraftçš„å¯åŠ¨ä¼šæ¯”è¾ƒæ…¢å‘¢~
-  refreshingUser: åˆ·æ–°ç”¨æˆ·ä»¤ç‰Œ
-  spawningProcess: æ­£åœ¨å¯åŠ¨æ¸¸æˆ
+  assigningMemory: 正在分配内存
+  elyByWarning: 已启用 Ely.by authlib 替换。某些 Minecraft 版本可能不兼容并可能导致崩溃。如果出现问题，你可以在实例设置中禁用它。
+  exit: 关闭游戏？
+  injectingAuthLib: 配置第三方验证中
+  launching: 启动中...
+  launchingSlow: 还在启动…Minecraft的启动会比较慢呢~
+  refreshingUser: 刷新用户令牌
+  spawningProcess: 正在启动游戏
 launcherUpdate:
-  alreadyLatest: å·²æ˜¯æœ€æ–°
-  installAndQuit: é‡å¯å¹¶å®‰è£…æ›´æ–°
-  noUpdateAvailable: ç›®å‰æ²¡æœ‰å¯ç”¨æ›´æ–°
-  updateToThisVersion: ä¸‹è½½å¹¶å®‰è£…
+  alreadyLatest: 已是最新
+  installAndQuit: 重启并安装更新
+  noUpdateAvailable: 目前没有可用更新
+  updateToThisVersion: 下载并安装
 localVersion:
-  auto: è‡ªåŠ¨é€‰æ‹©
-  empty: æœ¬åœ°æ²¡æœ‰å®‰è£…ä»»ä½•ç‰ˆæœ¬
-  hint: ç›´æŽ¥å¯åŠ¨æŸä¸ªæœ¬åœ°ç‰ˆæœ¬
-  reinstallDescription: å¦‚æžœæ‚¨è§‰å¾—æ­¤ç‰ˆæœ¬å®‰è£…çš„æœ‰é—®é¢˜ï¼Œå¯ä»¥å°è¯•é‡æ–°å®‰è£…è¯¥ç‰ˆæœ¬ã€‚
-  reinstallTitle: é‡æ–°å®‰è£… {version}
-  title: æœ¬åœ°ç‰ˆæœ¬
+  auto: 自动选择
+  empty: 本地没有安装任何版本
+  hint: 直接启动某个本地版本
+  reinstallDescription: 如果您觉得此版本安装的有问题，可以尝试重新安装该版本。
+  reinstallTitle: 重新安装 {version}
+  title: 本地版本
 logLevel:
-  error: é”™è¯¯
-  info: ä¿¡æ¯
-  success: æˆåŠŸ
-  warning: è­¦å‘Š
+  error: 错误
+  info: 信息
+  success: 成功
+  warning: 警告
 logView:
-  searchPlaceholder: æœç´¢æ—¥å¿—...
+  searchPlaceholder: 搜索日志...
 login:
-  dropHint: å°†éªŒè¯é“¾æŽ¥æ‹–å…¥æ­¤å¤„æ‰‹åŠ¨éªŒè¯
-  forgetPassword: å¿˜è®°å¯†ç ï¼Ÿ
-  login: ç™»å½•
-  manualLoginUrl: å¦‚æžœæµè§ˆå™¨æ²¡æœ‰è‡ªåŠ¨æ‰“å¼€ï¼Œè¯·ç‚¹å‡»æ­¤é“¾æŽ¥æ¥éªŒè¯ï¼
-  signup: æ³¨å†Œ
-  signupDescription: æ²¡æœ‰è´¦å·?
-  userRelogin: ç”¨æˆ·ä¿¡æ¯è¿‡æœŸï¼Œè¯·é‡æ–°ç™»å½•ï¼
+  dropHint: 将验证链接拖入此处手动验证
+  forgetPassword: 忘记密码？
+  login: 登录
+  manualLoginUrl: 如果浏览器没有自动打开，请点击此链接来验证！
+  signup: 注册
+  signupDescription: 没有账号?
+  userRelogin: 用户信息过期，请重新登录！
 loginError:
-  acquireMicrosoftTokenFailed: èŽ·å– Microsoft é€šè¯å¤±è´¥ã€‚è¿™å¯èƒ½æ˜¯ä¸€ä¸ªç½‘ç»œé—®é¢˜ï¼Œè¯·é‡è¯•ã€‚
-  badNetworkOrServer: è¯·æ£€æŸ¥æ‚¨çš„ç½‘ç»œè¿žæŽ¥ï¼å½“ç„¶ä¹Ÿå¯èƒ½æ˜¯éªŒè¯æœåŠ¡å™¨æŒ‚äº†:/
-  checkOwnershipFailed: åœ¨æ£€æŸ¥æ‚¨æ˜¯å¦æ‹¥æœ‰ Minecraft æ—¶å‘ç”Ÿé”™è¯¯ï¼Œè¯·é‡è¯•
-  connectionReset: å› ä¸ºæœåŠ¡ç«¯æ–­å¼€äº†è¿žæŽ¥å¯¼è‡´ç™»å½•å¤±è´¥ï¼Œè¯·é‡è¯•æˆ–æ£€æŸ¥ç½‘ç»œ
-  fetchMinecraftProfileFailed: 'èŽ·å– Minecraft ç”¨æˆ·ä¿¡æ¯å¤±è´¥: {reason}'
-  illegalEmail: å½“å‰çš„é‚®ç®±æ ¼å¼ä¸åˆæ³•
-  invalidCredentials: æ— æ³•éªŒè¯ã€‚ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯ã€‚
-  loginMinecraftByXboxFailed: åœ¨é€šè¿‡ Xbox é€šè¯äº¤æ¢ Minecraft é€šè¯çš„è¿‡ç¨‹ä¸­å‘ç”Ÿé”™è¯¯ï¼Œè¯·ç¡®è®¤æ‚¨çš„ Xbox è´¦å·æ‹¥æœ‰ Minecraftã€‚æ‚¨å¯ä»¥å°è¯•é‡è¯•ç™»å½•
-  loginMinecraftByXboxRateLimited: å¾®è½¯çš„ Minecraft ç™»å½•æœåŠ¡å½“å‰æ­£åœ¨é™æµï¼ˆHTTP 429ï¼‰ï¼Œè¯·ç¨ç­‰ç‰‡åˆ»åŽé‡è¯•ã€‚
-  loginMinecraftByXboxRateLimitedWithRetry: å¾®è½¯çš„ Minecraft ç™»å½•æœåŠ¡å½“å‰æ­£åœ¨é™æµï¼ˆHTTP 429ï¼‰ï¼Œè¯·ç­‰å¾…çº¦ {seconds} ç§’åŽé‡è¯•ã€‚
-  loginMinecraftByXboxServerError: å¾®è½¯çš„ Minecraft ç™»å½•æœåŠ¡è¿”å›žäº†æœåŠ¡å™¨é”™è¯¯ï¼ˆHTTP {status}ï¼‰ï¼Œè¿™æ˜¯å¾®è½¯é‚£è¾¹çš„é—®é¢˜ï¼Œè¯·ç¨åŽå‡ åˆ†é’Ÿå†è¯•ã€‚
-  loginMinecraftByXboxStatus: 'é€šè¿‡ Xbox é€šè¯äº¤æ¢ Minecraft é€šè¯å¤±è´¥ï¼ˆHTTP {status}ï¼‰ï¼Œè¯·ç¡®è®¤æ‚¨çš„ Xbox è´¦å·æ‹¥æœ‰ Minecraftï¼Œæˆ–ç¨åŽé‡è¯•ã€‚'
+  acquireMicrosoftTokenFailed: 获取 Microsoft 通证失败。这可能是一个网络问题，请重试。
+  badNetworkOrServer: 请检查您的网络连接！当然也可能是验证服务器挂了:/
+  checkOwnershipFailed: 在检查您是否拥有 Minecraft 时发生错误，请重试
+  connectionReset: 因为服务端断开了连接导致登录失败，请重试或检查网络
+  fetchMinecraftProfileFailed: '获取 Minecraft 用户信息失败: {reason}'
+  illegalEmail: 当前的邮箱格式不合法
+  invalidCredentials: 无法验证。用户名或密码错误。
+  loginMinecraftByXboxFailed: 在通过 Xbox 通证交换 Minecraft 通证的过程中发生错误，请确认您的 Xbox 账号拥有 Minecraft。您可以尝试重试登录
+  loginMinecraftByXboxRateLimited: 微软的 Minecraft 登录服务当前正在限流（HTTP 429），请稍等片刻后重试。
+  loginMinecraftByXboxRateLimitedWithRetry: 微软的 Minecraft 登录服务当前正在限流（HTTP 429），请等待约 {seconds} 秒后重试。
+  loginMinecraftByXboxServerError: 微软的 Minecraft 登录服务返回了服务器错误（HTTP {status}），这是微软那边的问题，请稍后几分钟再试。
+  loginMinecraftByXboxStatus: '通过 Xbox 通证交换 Minecraft 通证失败（HTTP {status}），请确认您的 Xbox 账号拥有 Minecraft，或稍后重试。'
   loginXboxAgeRestricted: |-
-    ç”±äºŽå¹´é¾„é—®é¢˜ï¼Œæ— æ³•ç™»å½•Xboxã€‚
-    è¯·ç¡®ä¿ä¸ºæ‚¨çš„Microsoftå¸æˆ·è®¾å®šå¹´é¾„ï¼Œå¹¶ä¸”å¹´é¾„é«˜äºŽ18å²ã€‚
-  loginXboxChildAccount: 'æ‚¨çš„å¾®è½¯è´¦å·æ˜¯å„¿ç«¥è´¦å·ï¼Œéœ€è¦å…ˆåœ¨ Microsoft å®¶åº­ä¸­è¢«æ·»åŠ ä¸ºå®¶åº­æˆå‘˜æ‰èƒ½ç™»å½• Xbox / Minecraftã€‚è¯·åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€ {url} å®Œæˆè®¾ç½®åŽé‡è¯•ã€‚'
-  loginXboxNoXboxProfile: 'è¯¥å¾®è½¯è´¦å·è¿˜æ²¡æœ‰ Xbox æ¡£æ¡ˆã€‚è¯·åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€ {url} åˆ›å»ºä¸€ä¸ª Xbox æ¡£æ¡ˆåŽé‡è¯•ã€‚'
-  loginXboxAdultVerification: 'æ‚¨çš„å¾®è½¯è´¦å·éœ€è¦å…ˆå®Œæˆæˆäººèº«ä»½éªŒè¯ï¼ˆéƒ¨åˆ†åœ°åŒºå¼ºåˆ¶è¦æ±‚ï¼‰æ‰èƒ½ç™»å½• Xboxã€‚è¯·åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€ {url} å®ŒæˆéªŒè¯åŽé‡è¯•ã€‚'
-  loginXboxRegionLocked: Xbox Live åœ¨æ‚¨è´¦å·æ‰€åœ¨çš„å›½å®¶/åœ°åŒºä¸å¯ç”¨ã€‚è¯·åˆ°å¾®è½¯è´¦å·è®¾ç½®ä¸­ä¿®æ”¹è´¦å·çš„å›½å®¶/åœ°åŒºåŽé‡è¯•ã€‚
-  loginXboxBanned: è¯¥å¾®è½¯ / Xbox è´¦å·å·²è¢«å¾®è½¯å°ç¦æˆ–æš‚åœä½¿ç”¨ï¼Œæ— æ³•ç™»å½• Minecraftã€‚è¯·è”ç³»å¾®è½¯ / Xbox å®¢æœã€‚
-  loginXboxBadXsts: å¾®è½¯è¿”å›žçš„ XSTS å“åº”ç¼ºå°‘ç”¨æˆ·èº«ä»½ä¿¡æ¯ã€‚è¿™é€šå¸¸æ˜¯ä¸´æ—¶é—®é¢˜ï¼Œè¯·ç¨åŽå‡ åˆ†é’Ÿå†è¯•ã€‚
-  loginXboxFailed: è¯·æ±‚ Xbox é€šè¯å¤±è´¥ï¼Œè¯·ç¡®ä¿æ‚¨çš„å¾®è½¯è´¦å·å·²ç»ç»‘å®šäº†ä¸€ä¸ª Xbox è´¦å·ï¼
-  loginXboxFailedWithCode: 'è¯·æ±‚ Xbox é€šè¯å¤±è´¥ï¼ˆXErr {code}ï¼‰ï¼Œè¯·æ ¹æ®è¯¥é”™è¯¯ç æœç´¢è§£å†³æ–¹æ¡ˆï¼Œæˆ–ç¨åŽé‡è¯•ã€‚'
+    由于年龄问题，无法登录Xbox。
+    请确保为您的Microsoft帐户设定年龄，并且年龄高于18岁。
+  loginXboxChildAccount: '您的微软账号是儿童账号，需要先在 Microsoft 家庭中被添加为家庭成员才能登录 Xbox / Minecraft。请在浏览器中打开 {url} 完成设置后重试。'
+  loginXboxNoXboxProfile: '该微软账号还没有 Xbox 档案。请在浏览器中打开 {url} 创建一个 Xbox 档案后重试。'
+  loginXboxAdultVerification: '您的微软账号需要先完成成人身份验证（部分地区强制要求）才能登录 Xbox。请在浏览器中打开 {url} 完成验证后重试。'
+  loginXboxRegionLocked: Xbox Live 在您账号所在的国家/地区不可用。请到微软账号设置中修改账号的国家/地区后重试。
+  loginXboxBanned: 该微软 / Xbox 账号已被微软封禁或暂停使用，无法登录 Minecraft。请联系微软 / Xbox 客服。
+  loginXboxBadXsts: 微软返回的 XSTS 响应缺少用户身份信息。这通常是临时问题，请稍后几分钟再试。
+  loginXboxFailed: 请求 Xbox 通证失败，请确保您的微软账号已经绑定了一个 Xbox 账号！
+  loginXboxFailedWithCode: '请求 Xbox 通证失败（XErr {code}），请根据该错误码搜索解决方案，或稍后重试。'
   noProfileForNewUser: |-
-    æ‰¾ä¸åˆ°æ¸¸æˆèµ„æ–™ï¼
-    å¦‚æžœæ‚¨æ˜¯æ–°çš„Minecraftç”¨æˆ·ï¼Œè¯·åœ¨Minecraftå®˜æ–¹å¯åŠ¨å™¨ä¸­è‡³å°‘ç™»å½•ä¸€æ¬¡ã€‚
-  requestFailed: ç”±äºŽæœªçŸ¥åŽŸå› ç™»å½•å¤±è´¥ï¼Œè¯·é‡è¯•
-  requireEmail: å¿…é¡»ä½¿ç”¨é‚®ç®±ç™»å½•
-  requirePassword: è¯·è¾“å…¥å¯†ç 
-  requireUsername: ç”¨æˆ·åä¸èƒ½ä¸ºç©º
-  timeout: ç™»å½•è¶…æ—¶ï¼Œè¯·é‡è¯•æˆ–æ£€æŸ¥æ‚¨çš„ç½‘ç»œï¼
+    找不到游戏资料！
+    如果您是新的Minecraft用户，请在Minecraft官方启动器中至少登录一次。
+  requestFailed: 由于未知原因登录失败，请重试
+  requireEmail: 必须使用邮箱登录
+  requirePassword: 请输入密码
+  requireUsername: 用户名不能为空
+  timeout: 登录超时，请重试或检查您的网络！
 logsCrashes:
-  crashes: å´©æºƒæŠ¥å‘Š
-  failures: å¯åŠ¨å¤±è´¥
-  logs: æ—¥å¿—
-  placeholder: æ²¡æœ‰æ‰¾åˆ°æ–‡ä»¶
-  serverLogs: æœåŠ¡å™¨æ—¥å¿—
-  title: æ—¥å¿—æˆ–å´©æºƒæŠ¥å‘Š
+  crashes: 崩溃报告
+  failures: 启动失败
+  logs: 日志
+  placeholder: 没有找到文件
+  serverLogs: 服务器日志
+  title: 日志或崩溃报告
 me:
-  news: æ–°é—»
-  recentPlay: æœ€è¿‘æ¸¸çŽ©
+  news: 新闻
+  recentPlay: 最近游玩
 migrationWindow:
-  title: æ•°æ®è¿ç§»
-  preparing: æ­£åœ¨å‡†å¤‡è¿ç§»â€¦
-  scanning: æ­£åœ¨è®¡ç®—â€¦
-  migrating: æ­£åœ¨ç§»åŠ¨æ•°æ®
-  done: è¿ç§»å®Œæˆ
-  files: ä¸ªæ–‡ä»¶
-  warning: è¯·åœ¨è¿ç§»å®Œæˆå‰ä¿æŒå¯åŠ¨å™¨å¼€å¯ï¼Œå¦åˆ™æ•°æ®å¯èƒ½ä¸¢å¤±ã€‚
-  error: è¿ç§»å¤±è´¥
+  title: 数据迁移
+  preparing: 正在准备迁移…
+  scanning: 正在计算…
+  migrating: 正在移动数据
+  done: 迁移完成
+  files: 个文件
+  warning: 请在迁移完成前保持启动器开启，否则数据可能丢失。
+  error: 迁移失败
 minecraftVersion:
-  name: Minecraft ç‰ˆæœ¬
-  all: æ‰€æœ‰ç‰ˆæœ¬
-  release: æ­£å¼ç‰ˆ
-  showAlpha: æ˜¾ç¤ºå¿«ç…§ç‰ˆ
-  snapshot: å¿«ç…§ç‰ˆ
+  name: Minecraft 版本
+  all: 所有版本
+  release: 正式版
+  showAlpha: 显示快照版
+  snapshot: 快照版
 mod:
-  acceptVersion: æŽ¨è {version}
-  applyGroupRules: åº”ç”¨å·²ä¿å­˜çš„åˆ†ç»„è§„åˆ™
-  compatible: å¯ç”¨äºŽå½“å‰ç‰ˆæœ¬ã€‚
-  createGroup: åˆ›å»ºåˆ†ç»„
-  currentVersion: å½“å‰æ˜¯ {current}
-  denseView: ç®€ç•¥æ¨¡å¼
-  description: æè¿°
-  disableAll: å…¨éƒ¨ç¦ç”¨
-  dropHint: å°†æ¨¡ç»„ Jar æ–‡ä»¶æ‹–å…¥æ­¤å¤„æ¥å¯¼å…¥
-  duplicatedDetected: æœ‰ {count} ä¸ªæ¨¡ç»„é‡å¤äº†
+  acceptVersion: 推荐 {version}
+  applyGroupRules: 应用已保存的分组规则
+  compatible: 可用于当前版本。
+  createGroup: 创建分组
+  currentVersion: 当前是 {current}
+  denseView: 简略模式
+  description: 描述
+  disableAll: 全部禁用
+  dropHint: 将模组 Jar 文件拖入此处来导入
+  duplicatedDetected: 有 {count} 个模组重复了
   duplicatedDetectedDescription: |-
-    æ‰¾åˆ°å…·æœ‰ç›¸åŒ mod id ä½†æ–‡ä»¶ä¸åŒçš„ modã€‚
-    è¿™å¯èƒ½ä¼šå¯¼è‡´ Minecraft å´©æºƒã€‚
-    è¯·é€‰æ‹©æ‚¨è¦ä¿ç•™çš„æ–‡ä»¶ã€‚
-  enableAll: å…¨éƒ¨å¯ç”¨
-  enabled: ä¸€å…±å¯ç”¨äº† {count} ä¸ªæ¨¡ç»„
-  filter: ç­›é€‰æ¨¡ç»„
-  group: åˆ†ç»„
-  groupInstalled: åˆ†å¼€æ˜¾ç¤ºå·²å®‰è£…æ¨¡ç»„
-  groupName: åˆ†ç»„åç§°
-  groupNameRequired: åˆ†ç»„åç§°æ˜¯å¿…éœ€çš„
-  hasUpdate: modæœ‰ä¸€ä¸ªæ–°ç‰ˆæœ¬ï¼
-  incompatible: å¯èƒ½ä¸å…¼å®¹å½“å‰ç‰ˆæœ¬ã€‚
-  incompatibleHint: æŸ¥çœ‹æ‚¨çš„æ¨¡ç»„å…¼å®¹æ€§æŠ¥å‘Š
+    找到具有相同 mod id 但文件不同的 mod。
+    这可能会导致 Minecraft 崩溃。
+    请选择您要保留的文件。
+  enableAll: 全部启用
+  enabled: 一共启用了 {count} 个模组
+  filter: 筛选模组
+  group: 分组
+  groupInstalled: 分开显示已安装模组
+  groupName: 分组名称
+  groupNameRequired: 分组名称是必需的
+  hasUpdate: mod有一个新版本！
+  incompatible: 可能不兼容当前版本。
+  incompatibleHint: 查看您的模组兼容性报告
   incompatibleHintDescription: |-
-    æŸäº›æ¨¡ç»„ä¾èµ–é¡¹å¯èƒ½ä¼šä¸¢å¤±ã€‚
-    æˆ–è€…æŸäº›ä¾èµ–é¡¹ç‰ˆæœ¬ä¸åŒ¹é…ã€‚
-  maybeCompatible: ä¹Ÿè®¸å…¼å®¹äºŽå½“å‰ç‰ˆæœ¬ã€‚
+    某些模组依赖项可能会丢失。
+    或者某些依赖项版本不匹配。
+  maybeCompatible: 也许兼容于当前版本。
   modloaderSelectHint: |-
-    è¯¥æ¨¡ç»„æ”¯æŒä»¥ä¸‹æ¨¡ç»„åŠ è½½å™¨ã€‚
-    è¯·é€‰æ‹©ä¸€ä¸ªè¿›è¡Œå®‰è£…ã€‚
-  modloaderSelectNotSupported: æ‰¾ä¸åˆ° Minecraft {minecraft} çš„ {modloader}
-  mods: '{count} ä¸ªæ¨¡ç»„'
-  name: æ¨¡ç»„ | æ¨¡ç»„
-  newFolder: æ–°å»ºæ–‡ä»¶å¤¹
-  noGroupsFound: æœªæ‰¾åˆ°åˆ†ç»„
-  noGroupsYet: è¿˜æ²¡æœ‰åˆ†ç»„ï¼Œåˆ›å»ºä¸€ä¸ªå§ï¼
-  noModLoaderHint: è¯·ä¸è¦å¿˜è®°é€‰æ‹©æ¨¡ç»„åŠ è½½å™¨æ¥åŠ è½½æ¨¡ç»„
-  openLink: æ‰“å¼€æ¨¡ç»„é“¾æŽ¥ {url}
-  search: æœç´¢æ¨¡ç»„
-  searchGroups: æœç´¢åˆ†ç»„...
-  searchOnMcWiki: åœ¨ MC ç™¾ç§‘ä¸­æŸ¥æ‰¾ {name}
-  selectOrCreateGroup: é€‰æ‹©æˆ–åˆ›å»ºåˆ†ç»„
-  showDirectory: æ˜¾ç¤ºæ¨¡ç»„æ–‡ä»¶å¤¹
-  showFile: æ‰“å¼€æ¨¡ç»„æ‰€åœ¨ä½ç½® {file}
-  showInModrinth: åœ¨ Modrinth ä¸­æ˜¾ç¤º {name}
-  switchDefaultSource: æœ¬åœ°æ¨¡ç»„é»˜è®¤æ˜¾ç¤ºä¸º
-  syncGroupRules: å°†åˆ†ç»„è§„åˆ™ä¿å­˜
-  toUpdate: '{count} ä¸ªæœ‰æ–°ç‰ˆæœ¬'
-  ungroup: å–æ¶ˆåˆ†ç»„
+    该模组支持以下模组加载器。
+    请选择一个进行安装。
+  modloaderSelectNotSupported: 找不到 Minecraft {minecraft} 的 {modloader}
+  mods: '{count} 个模组'
+  name: 模组 | 模组
+  newFolder: 新建文件夹
+  noGroupsFound: 未找到分组
+  noGroupsYet: 还没有分组，创建一个吧！
+  noModLoaderHint: 请不要忘记选择模组加载器来加载模组
+  openLink: 打开模组链接 {url}
+  search: 搜索模组
+  searchGroups: 搜索分组...
+  searchOnMcWiki: 在 MC 百科中查找 {name}
+  selectOrCreateGroup: 选择或创建分组
+  showDirectory: 显示模组文件夹
+  showFile: 打开模组所在位置 {file}
+  showInModrinth: 在 Modrinth 中显示 {name}
+  switchDefaultSource: 本地模组默认显示为
+  syncGroupRules: 将分组规则保存
+  toUpdate: '{count} 个有新版本'
+  ungroup: 取消分组
 modFilter:
-  clear: æ¸…é™¤è¿‡æ»¤å™¨
-  dependenciesInstallOnly: ä»…æ˜¾ç¤ºé—æ¼çš„ä¾èµ–é¡¹mods
-  disabledOnly: ä»…æ˜¾ç¤ºç¦ç”¨çš„mod
-  hasUpdateOnly: åªæœ‰Showå…·æœ‰æ›´æ–°çš„mods
-  incompatibleOnly: ä»…æ˜¾ç¤ºä¸å…¼å®¹æˆ–ç¼ºå°‘ä¾èµ–çš„ Mods
-  unusedOnly: ä»…æ˜¾ç¤ºæœªä½¿ç”¨çš„åº“mods
+  clear: 清除过滤器
+  dependenciesInstallOnly: 仅显示遗漏的依赖项mods
+  disabledOnly: 仅显示禁用的mod
+  hasUpdateOnly: 只有Show具有更新的mods
+  incompatibleOnly: 仅显示不兼容或缺少依赖的 Mods
+  unusedOnly: 仅显示未使用的库mods
 modInstall:
   archived: |-
-    {name} å·²å­˜æ¡£ã€‚
-    é™¤éžä½œè€…å†³å®šå–æ¶ˆå­˜æ¡£è¯¥é¡¹ç›®ï¼Œå¦åˆ™ {name} å°†ä¸ä¼šæ”¶åˆ°ä»»ä½•è¿›ä¸€æ­¥çš„æ›´æ–°ã€‚
+    {name} 已存档。
+    除非作者决定取消存档该项目，否则 {name} 将不会收到任何进一步的更新。
   autoUpgrade:
-    description: æ‚¨å·²æ›´æ”¹ Minecraft ç‰ˆæœ¬ã€‚æ˜¯å¦è¦è‡ªåŠ¨å°†å…¼å®¹çš„æ¨¡ç»„æ›´æ–°åˆ°ä¸Ž Minecraft {version} åŒ¹é…çš„ç‰ˆæœ¬ï¼Ÿ
-    'no': è·³è¿‡
-    title: æ›´æ–°æ¨¡ç»„ï¼Ÿ
-    'yes': æ›´æ–°æ¨¡ç»„
-  checkDependencies: æ£€æŸ¥ä¾èµ–å…³ç³»
-  checkUpgrade: æ£€æŸ¥æ¨¡ç»„æ›´æ–°
-  checkedDependencies: å·²æ£€æŸ¥ä¾èµ–å…³ç³»
-  checkedUpgrade: å·²åˆ·æ–°æ›´æ–°åˆ—è¡¨
-  currentVersion: å·²é€‰ç‰ˆæœ¬
-  dependencyHint: å®‰è£…äº†å…¶ä»–ç‰ˆæœ¬ {version}
-  releaseOnly: æ›´æ–°æ—¶å¿½ç•¥ alpha å’Œ beta ç‰ˆæœ¬
-  installDependencies: å®‰è£…ç¼ºå°‘çš„ä¾èµ–é¡¹
-  installHint: å®‰è£… {file} ä¸ªæ–‡ä»¶å’Œ {dependencies} ä¸ªä¾èµ–æ–‡ä»¶
-  noVersionSupported: Mod ä»…æ”¯æŒ Minecraft {supported}ã€‚
-  recommendation: åœ¨{modrinth}å’Œ{curseforge}ä¸­æŽ¢ç´¢{first} modsï¼
-  removeUnusedLibraries: åˆ é™¤æœªä½¿ç”¨çš„åº“mods
-  search: æœç´¢ç»“æžœ
-  skipVersion: å¿½ç•¥ä¸åŒ Minecraft ç‰ˆæœ¬çš„ Mod
-  source: æ¨¡ç»„æ¥æº
-  switch: åˆ‡æ¢ç‰ˆæœ¬
-  upgrade: æ›´æ–°æ¨¡ç»„
+    description: 您已更改 Minecraft 版本。是否要自动将兼容的模组更新到与 Minecraft {version} 匹配的版本？
+    'no': 跳过
+    title: 更新模组？
+    'yes': 更新模组
+  checkDependencies: 检查依赖关系
+  checkUpgrade: 检查模组更新
+  checkedDependencies: 已检查依赖关系
+  checkedUpgrade: 已刷新更新列表
+  currentVersion: 已选版本
+  dependencyHint: 安装了其他版本 {version}
+  releaseOnly: 更新时忽略 alpha 和 beta 版本
+  installDependencies: 安装缺少的依赖项
+  installHint: 安装 {file} 个文件和 {dependencies} 个依赖文件
+  noVersionSupported: Mod 仅支持 Minecraft {supported}。
+  recommendation: 在{modrinth}和{curseforge}中探索{first} mods！
+  removeUnusedLibraries: 删除未使用的库mods
+  search: 搜索结果
+  skipVersion: 忽略不同 Minecraft 版本的 Mod
+  source: 模组来源
+  switch: 切换版本
+  upgrade: 更新模组
 modSearch:
-  noLocalModsFound: æœªæ‰¾åˆ°åŒ¹é…æœç´¢çš„æœ¬åœ°æ¨¡ç»„ã€‚
-  noModsFound: æœªæ‰¾åˆ°æ¨¡ç»„ã€‚
-  noModsInstalled: æ‚¨å°šæœªå®‰è£…ä»»ä½•æ¨¡ç»„ã€‚
-  searchInMarket: åœ¨å¸‚åœºä¸­æœç´¢ {keyword}
+  noLocalModsFound: 未找到匹配搜索的本地模组。
+  noModsFound: 未找到模组。
+  noModsInstalled: 您尚未安装任何模组。
+  searchInMarket: 在市场中搜索 {keyword}
 modUpgradePolicy:
-  curseforge: Curseforge ä¼˜å…ˆ
-  curseforgeOnly: ä»…é™ Curseforge
-  modrinth: Modrinth ä¼˜å…ˆ
-  modrinthOnly: ä»…é™ Modrinth
-  name: æ›´æ–°ç­–ç•¥
+  curseforge: Curseforge 优先
+  curseforgeOnly: 仅限 Curseforge
+  modrinth: Modrinth 优先
+  modrinthOnly: 仅限 Modrinth
+  name: 更新策略
 modified:
-  reset: é‡ç½®
-  save: ä¿å­˜
-  unsaved: æ³¨æ„ï¼æ‚¨å°šæœªä¿å­˜æ›´æ”¹ï¼
+  reset: 重置
+  save: 保存
+  unsaved: 注意！您尚未保存更改！
 modpack:
-  author: ç½²å
-  authorHint: è¿™ä¸ªæ¸¸æˆ/æ•´åˆåŒ…çš„åˆ¶ä½œäºº
-  description: æ¸¸æˆç®€ä»‹
-  descriptionHint: é€šç”¨çš„æ•´åˆåŒ…ç®€ä»‹ã€‚åœ¨å¯¼å‡ºæˆ Curseforge æ•´åˆåŒ…æˆ–è€…å…¶ä»–æ ¼å¼æ—¶ä¼šä½¿ç”¨
-  dropHint: é€šè¿‡æ‹–æ‹½å¯¼å…¥æ•´åˆåŒ…æ–‡ä»¶
-  emitCurseforge: ç”Ÿæˆ Curseforge æ•´åˆåŒ…
-  emitModrinth: ç”Ÿæˆ Modrinth æ•´åˆåŒ…
-  emitModrinthStrict: ä¸¥æ ¼éµå®ˆ Modrinth æ•´åˆåŒ…æ ¼å¼
-  emitModrinthStrictDescription: ä¸‹è½½é“¾æŽ¥åªå…è®¸åŒ…å« Modrinth å®˜ç½‘å®šä¹‰çš„å››ä¸ªåŸŸå
-  export: å¯¼å‡ºæ•´åˆåŒ…
-  exportDirectory: å¯¼å‡ºç›®å½•
-  exportDirectoryDescription: é»˜è®¤æƒ…å†µä¸‹ï¼Œmodpackå°†å¯¼å‡ºåˆ°ä¸‹è½½æ–‡ä»¶å¤¹
-  includeAssets: æ˜¯å¦åŒ…å«æ¸¸æˆèµ„æº (Assets) æ–‡ä»¶
-  includes: æ‰“åŒ…æ–‡ä»¶
-  modpackVersion: æ•´åˆåŒ…ç‰ˆæœ¬
-  name: æ•´åˆåŒ…
-  overrides: æ•´åˆåŒ…æ‰“åŒ…è¦†ç›– (overrides)
+  author: 署名
+  authorHint: 这个游戏/整合包的制作人
+  description: 游戏简介
+  descriptionHint: 通用的整合包简介。在导出成 Curseforge 整合包或者其他格式时会使用
+  dropHint: 通过拖拽导入整合包文件
+  emitCurseforge: 生成 Curseforge 整合包
+  emitModrinth: 生成 Modrinth 整合包
+  emitModrinthStrict: 严格遵守 Modrinth 整合包格式
+  emitModrinthStrictDescription: 下载链接只允许包含 Modrinth 官网定义的四个域名
+  export: 导出整合包
+  exportDirectory: 导出目录
+  exportDirectoryDescription: 默认情况下，modpack将导出到下载文件夹
+  includeAssets: 是否包含游戏资源 (Assets) 文件
+  includes: 打包文件
+  modpackVersion: 整合包版本
+  name: 整合包
+  overrides: 整合包打包覆盖 (overrides)
   url: URL
-  urlHint: æ•´åˆåŒ…çš„ä¸»é¡µ URL åœ°å€
+  urlHint: 整合包的主页 URL 地址
 modpackImportConfirm:
   description: |-
-    æ£€æµ‹æ‚¨å°†æ–‡ä»¶æ”¾å…¥å¯åŠ¨å™¨ä¸­ã€‚
-    è¿™ä¸ªæ–‡ä»¶æ˜¯ä¸æ˜¯ä¸€ä¸ªæ•´åˆåŒ…(ModPack)ï¼Ÿ
-  title: æ‚¨æ˜¯å¦è¦å¯¼å…¥ModPackï¼Ÿ
+    检测您将文件放入启动器中。
+    这个文件是不是一个整合包(ModPack)？
+  title: 您是否要导入ModPack？
 modrinth:
-  browseUrl: åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€ {url}
+  browseUrl: 在浏览器中打开 {url}
   categories:
     128x: 128x
     16x: 16x
@@ -836,961 +836,960 @@ modrinth:
     512x+: 512x+
     64x: 64x
     8x-: 8x-
-    adventure: å†’é™©
-    atmosphere: æ°›å›´
-    audio: éŸ³æ•ˆ
-    blocks: æ–¹å—
-    bloom: ç‚«å…‰ (Bloom)
+    adventure: 冒险
+    atmosphere: 氛围
+    audio: 音效
+    blocks: 方块
+    bloom: 炫光 (Bloom)
     bukkit: Bukkit
     bungeecord: Bungeecord
     canvas: Canvas
-    cartoon: å¡é€šé£Žæ ¼
-    categories: åˆ†ç±»
-    challenging: æŒ‘æˆ˜
-    colored-lighting: ç¯å…‰ç€è‰²
-    combat: æˆ˜æ–—
-    core-shaders: å…‰å½±
-    cursed: æ€ªå¼‚
-    datapack: æ•°æ®åŒ…
-    decoration: è£…é¥°
-    economy: ç»æµŽ
-    entities: å®žä½“
-    environment: çŽ¯å¢ƒ
-    equipment: è£…å¤‡
+    cartoon: 卡通风格
+    categories: 分类
+    challenging: 挑战
+    colored-lighting: 灯光着色
+    combat: 战斗
+    core-shaders: 光影
+    cursed: 怪异
+    datapack: 数据包
+    decoration: 装饰
+    economy: 经济
+    entities: 实体
+    environment: 环境
+    equipment: 装备
     fabric: Fabric
-    fantasy: å¹»æƒ³
-    features: ç‰¹æ€§
+    fantasy: 幻想
+    features: 特性
     folia: Folia
-    foliage: ä¼˜åŒ–æ¤è¢«
-    fonts: å­—ä½“
-    food: é£Ÿç‰©
+    foliage: 优化植被
+    fonts: 字体
+    food: 食物
     forge: Forge
-    game-mechanics: æ¸¸æˆæœºåˆ¶
-    gui: ç•Œé¢
-    high: é«˜
+    game-mechanics: 游戏机制
+    gui: 界面
+    high: 高
     iris: Iris
-    items: ç‰©å“
-    kitchen-sink: æ‚çƒ©
-    library: ç¨‹åºåº“
-    lightweight: è½»é‡
+    items: 物品
+    kitchen-sink: 杂烩
+    library: 程序库
+    lightweight: 轻量
     liteloader: Liteloader
-    locale: æœ¬åœ°åŒ–
-    low: ä½Ž
-    magic: é­”æ³•
-    management: ç®¡ç†
-    medium: ä¸­ç­‰
+    locale: 本地化
+    low: 低
+    magic: 魔法
+    management: 管理
+    medium: 中等
     minecraft: Minecraft
-    minigame: å°æ¸¸æˆ
-    misc: æ‚é¡¹
-    mobs: æ€ªç‰©
-    modded: å…¼å®¹æ¨¡ç»„
-    models: æ¨¡åž‹
-    modloader: æ¨¡ç»„åŠ è½½å™¨
-    multiplayer: å¤šäººæ¸¸æˆ
-    name: ç±»åˆ«
+    minigame: 小游戏
+    misc: 杂项
+    mobs: 怪物
+    modded: 兼容模组
+    models: 模型
+    modloader: 模组加载器
+    multiplayer: 多人游戏
+    name: 类别
     neoforge: NeoForge
     optifine: Optifine
-    optimization: ä¼˜åŒ–
+    optimization: 优化
     paper: Paper
-    path-tracing: å…‰çº¿è¿½è¸ª
+    path-tracing: 光线追踪
     pbr: PBR
-    performance impact: æ€§èƒ½éœ€æ±‚
-    potato: åœŸè±†ï¼ˆéžå¸¸ä½Žï¼‰
+    performance impact: 性能需求
+    potato: 土豆（非常低）
     purpur: Purpur
-    quests: ä»»åŠ¡å¯¼å‘
+    quests: 任务导向
     quilt: Quilt
-    realistic: çœŸå®žé£Žæ ¼
-    reflections: æ°´å
-    resolutions: åˆ†è¾¨çŽ‡
+    realistic: 真实风格
+    reflections: 水反
+    resolutions: 分辨率
     rift: Rift
-    screenshot: éšä¾¿æˆªå›¾å°±èƒ½å½“å£çº¸
-    semi-realistic: åŠçœŸå®žé£Ž
-    shadows: å…‰å½±
-    simplistic: ç®€çº¦
-    social: ç¤¾äº¤
+    screenshot: 随便截图就能当壁纸
+    semi-realistic: 半真实风
+    shadows: 光影
+    simplistic: 简约
+    social: 社交
     spigot: Spigot
     sponge: Sponge
-    storage: å­˜å‚¨
-    technology: ç§‘æŠ€
-    themed: ä¸»ä½“åŒ–
-    transportation: äº¤é€š
+    storage: 存储
+    technology: 科技
+    themed: 主体化
+    transportation: 交通
     tweaks: Tweaks
-    utility: å®žç”¨å·¥å…·
-    vanilla: åŽŸç‰ˆ
-    vanilla-like: åŽŸç‰ˆé£Žæ ¼
+    utility: 实用工具
+    vanilla: 原版
+    vanilla-like: 原版风格
     velocity: Velocity
     waterfall: Waterfall
-    worldgen: ä¸–ç•Œç”Ÿæˆ
-  clientSide: å®¢æˆ·ç«¯
-  copyTitle: å¤åˆ¶ "{title}" åˆ°å‰ªè´´æ¿
-  createAt: åˆ›å»ºæ—¥æœŸ
-  createCollection: åˆ›å»ºé›†åˆ
-  description: è¯¦æƒ…
-  downloads: ä¸‹è½½é‡
+    worldgen: 世界生成
+  clientSide: 客户端
+  copyTitle: 复制 "{title}" 到剪贴板
+  createAt: 创建日期
+  createCollection: 创建集合
+  description: 详情
+  downloads: 下载量
   environments:
-    all: å…¨éƒ¨
-    default: é»˜è®¤
-    name: è¿è¡ŒçŽ¯å¢ƒ
-    optional: å¯é€‰
-    required: å¿…è£…
-    unsupported: ä¸æ”¯æŒ
-  externalResources: ç¬¬ä¸‰æ–¹é“¾æŽ¥
-  featuredVersions: æŽ¨èç‰ˆæœ¬
-  followedProjects: å…³æ³¨çš„é¡¹ç›®
-  followers: å…³æ³¨æ•°
-  gallery: å›¾ç‰‡å±•ç¤º
+    all: 全部
+    default: 默认
+    name: 运行环境
+    optional: 可选
+    required: 必装
+    unsupported: 不支持
+  externalResources: 第三方链接
+  featuredVersions: 推荐版本
+  followedProjects: 关注的项目
+  followers: 关注数
+  gallery: 图片展示
   gameVersions:
-    name: æ¸¸æˆç‰ˆæœ¬
+    name: 游戏版本
   headers:
-    status: çŠ¶æ€
-    support: æ”¯æŒ
-    version: ç‰ˆæœ¬
-  issueUrl: åé¦ˆé“¾æŽ¥
-  license: åè®®
+    status: 状态
+    support: 支持
+    version: 版本
+  issueUrl: 反馈链接
+  license: 协议
   licenses:
-    name: åè®®
+    name: 协议
   loginHint: |-
-    è¯¥æ“ä½œéœ€è¦Modrinthæ‰èƒ½æ‰§è¡Œã€‚
-    å¯åŠ¨å™¨å°†æ‰“å¼€æµè§ˆå™¨çª—å£ä»¥ç™»å½•Modrinthã€‚
-  loginTitle: ç™»å½•è‡³Modrinth
+    该操作需要Modrinth才能执行。
+    启动器将打开浏览器窗口以登录Modrinth。
+  loginTitle: 登录至Modrinth
   modLoaders:
-    name: æ¨¡ç»„åŠ è½½å™¨
+    name: 模组加载器
   modpackSource:
-    source: æ¥æº
-  projectId: é¡¹ç›® ID
-  projectMembers: é¡¹ç›®æˆå‘˜
+    source: 来源
+  projectId: 项目 ID
+  projectMembers: 项目成员
   projectType:
-    mod: æ¨¡ç»„
-    modpack: æ•´åˆåŒ…
-    resourcepack: èµ„æºåŒ…
-    shader: å…‰å½±åŒ…
-    datapack: æ•°æ®åŒ…
-    plugin: æ’ä»¶
-  projects: '{count}ä¸ªé¡¹ç›®'
-  serverSide: æœåŠ¡ç«¯
+    mod: 模组
+    modpack: 整合包
+    resourcepack: 资源包
+    shader: 光影包
+    datapack: 数据包
+    plugin: 插件
+  projects: '{count}个项目'
+  serverSide: 服务端
   sort:
-    downloads: ä¸‹è½½æ•°é‡
-    follows: å…³æ³¨æ•°
-    newest: åˆ›å»ºæ—¶é—´
-    relevance: ç›¸å…³ç¨‹åº¦
-    title: æŽ’åº
-    updated: æ›´æ–°æ—¶é—´
-  sourceUrl: æºç 
-  technicalInformation: æŠ€æœ¯ä¿¡æ¯
-  updateAt: æ›´æ–°äºŽ
-  versions: ç‰ˆæœ¬
-  wikiUrl: ç™¾ç§‘é“¾æŽ¥
+    downloads: 下载数量
+    follows: 关注数
+    newest: 创建时间
+    relevance: 相关程度
+    title: 排序
+    updated: 更新时间
+  sourceUrl: 源码
+  technicalInformation: 技术信息
+  updateAt: 更新于
+  versions: 版本
+  wikiUrl: 百科链接
 modrinthCard:
-  currentVersion: å½“å‰ç‰ˆæœ¬
+  currentVersion: 当前版本
 multiplayer:
-  allowTurn: å…è®¸è½¬å‘æœåŠ¡
-  allowTurnHint: å½“æ‚¨å’Œæ‚¨çš„æœ‹å‹è¿žä¸ä¸Šæ—¶å¯ä»¥å°è¯•å…è®¸è½¬å‘æœåŠ¡ï¼Œä½†æ˜¯è½¬å‘æœåŠ¡å¯èƒ½ä¼šå¢žåŠ æ‚¨çš„è”æœºå»¶è¿Ÿã€‚ä½¿ç”¨æ—¶è¯·æ³¨æ„ã€‚
-  complete: å®Œæˆ
-  confirm: ç¡®å®š
-  connectionError: è¿žæŽ¥é”™è¯¯
-  connectionFailedHint: æ— æ³•å»ºç«‹è¿žæŽ¥ã€‚è¯·æ£€æŸ¥åŒæ–¹çš„ NAT ç±»åž‹æ˜¯å¦å…¼å®¹ã€‚
-  natWarning: æ‚¨çš„ NAT ç±»åž‹å¯èƒ½é˜»ç¢ç›´è¿žã€‚è¯·å°è¯•åœ¨è®¾ç½®ä¸­å¯ç”¨ä¸­ç»§æœåŠ¡å™¨ï¼Œæˆ–è®©æœ‹å‹ä½œä¸ºä¸»æœºã€‚
-  connections: ç”¨æˆ·è¿žæŽ¥ç®¡ç†
-  copied: å·²å¤åˆ¶ï¼
-  copy: å¤åˆ¶
-  copyGroupToFriendHint: è®©æ‚¨çš„å°ä¼™ä¼´ä½¿ç”¨æ­¤ ID åŠ å…¥è”æœºç¾¤ç»„
+  allowTurn: 允许转发服务
+  allowTurnHint: 当您和您的朋友连不上时可以尝试允许转发服务，但是转发服务可能会增加您的联机延迟。使用时请注意。
+  complete: 完成
+  confirm: 确定
+  connectionError: 连接错误
+  connectionFailedHint: 无法建立连接。请检查双方的 NAT 类型是否兼容。
+  natWarning: 您的 NAT 类型可能阻碍直连。请尝试在设置中启用中继服务器，或让朋友作为主机。
+  connections: 用户连接管理
+  copied: 已复制！
+  copy: 复制
+  copyGroupToFriendHint: 让您的小伙伴使用此 ID 加入联机群组
   copyLocalHint: >
-    <span>ä¸€æ®µä»¤ç‰Œåªèƒ½ç”¨<span style="color: red; font-weight:bold;">ä¸€æ¬¡</span>ï¼æ‚¨ä¸èƒ½å°†ä¸€ä¸ªä»¤ç‰Œå‘é€ç»™å¤šä¸ªå°ä¼™ä¼´ï¼</span> <br> <span class="hint-text" style="font-style: italic;">å¦‚æžœæœ‰å¤šä¸ªå°ä¼™ä¼´è¦åŠ å…¥æ‚¨éœ€è¦<span style="font-weight: bold; color: rgba(245, 158, 11)">å¤šæ¬¡</span>å»ºç«‹è¿žæŽ¥ã€‚</span>
-  createLocalToken: åˆ›å»ºæœ¬åœ°ä»¤ç‰Œ
-  currentIpTitle: æ£€æµ‹åˆ°å…¬ç½‘ IP
-  currentNatTitle: å½“å‰ç½‘ç»œ (NAT) çŽ¯å¢ƒ
-  difficultyLevelHint: ä¸Žä»–äººè”æœºéš¾åº¦ç”±ä½Žåˆ°é«˜
-  disconnect: æ–­å¼€è¿žæŽ¥
-  disconnectDescription: æ‚¨ç¡®å®šæ‚¨è¦æ–­å¼€ä¸Ž {user}({id}) çš„è¿žæŽ¥ä¹ˆ
-  disconnected: æ–­å¼€è¿žæŽ¥
-  enterRemoteToken: è¾“å…¥å¯¹æ–¹çš„ä»¤ç‰Œ
-  enterRemoteTokenHint: å½“æ‚¨çš„è”æœºä¼™ä¼´è¾“å…¥æ‚¨çš„ä»¤ç‰ŒåŽï¼Œæ‚¨éœ€è¦å°†ä»–çš„ä»¤ç‰Œè¾“å…¥åˆ°ä¸‹é¢çš„æ–‡å­—æ¡†ä¸­ï¼Œå¹¶ç‚¹å‡»ç¡®å®šå¼€å§‹è¿žæŽ¥ã€‚
-  exposedPortDescription: æ‚¨å‘å…¶ä»–ä¼™ä¼´å…¬å¼€çš„ç«¯å£
-  exposedPorts: è½¬å‘ç«¯å£
+    <span>一段令牌只能用<span style="color: red; font-weight:bold;">一次</span>！您不能将一个令牌发送给多个小伙伴！</span> <br> <span class="hint-text" style="font-style: italic;">如果有多个小伙伴要加入您需要<span style="font-weight: bold; color: rgba(245, 158, 11)">多次</span>建立连接。</span>
+  createLocalToken: 创建本地令牌
+  currentIpTitle: 检测到公网 IP
+  currentNatTitle: 当前网络 (NAT) 环境
+  difficultyLevelHint: 与他人联机难度由低到高
+  disconnect: 断开连接
+  disconnectDescription: 您确定您要断开与 {user}({id}) 的连接么
+  disconnected: 断开连接
+  enterRemoteToken: 输入对方的令牌
+  enterRemoteTokenHint: 当您的联机伙伴输入您的令牌后，您需要将他的令牌输入到下面的文字框中，并点击确定开始连接。
+  exposedPortDescription: 您向其他伙伴公开的端口
+  exposedPorts: 转发端口
   gatheringIce: >
-    è¯·å°†<span class="v-chip v-chip--label v-size--small" style="text-font: bold">æœ¬åœ°ä»¤ç‰Œ</span>å‘é€ç»™æ‚¨çš„è”æœºä¼™ä¼´ï¼Œæ‚¨çš„è”æœºä¼™ä¼´åœ¨ <span class="v-chip v-chip--label v-size--small" style="text-font: bold"> åŠ å…¥è¿žæŽ¥ </span> ä¸­è¾“å…¥è¿™æ®µæ–‡å­—ã€‚ <br> æœŸé—´ ICE æœåŠ¡å™¨å¯èƒ½éœ€è¦æ—¶é—´æ”¶é›†è¶³å¤Ÿä¿¡æ¯æ¥åˆ›å»º<span class="v-chip v-chip--label v-size--small" style="text-font: bold">æœ¬åœ°ä»¤ç‰Œ</span>ã€‚ <br> <span class="hint-text"> æ‚¨ä¸éœ€è¦ç­‰ ICE æœåŠ¡å™¨å®Œå…¨æ”¶é›†å®Œæ¯•ï¼Œå½“ä¸‹é¢çš„ä»¤ç‰Œå·²ç»æœ‰å†…å®¹å¹¶ä¸”ä¸æ€Žä¹ˆå˜åŒ–åŽï¼Œæ‚¨å¯ä»¥æå‰å°†ä»¤ç‰Œå¤åˆ¶ç»™å¯¹æ–¹ã€‚ </span>
-  groupId: å°ç»„ ID
-  illegalTokenDescription: éžæ³•çš„ä»¤ç‰Œï¼Œè¯·ç¡®è®¤å¯¹æ–¹ç»™æ‚¨çš„ä»¤ç‰Œæ˜¯å®Œæ•´ä¸”æ­£ç¡®çš„ã€‚
-  initiateConnection: å‘èµ·è¿žæŽ¥
-  joinConnection: å¦‚æžœæ‚¨çš„ä¼™ä¼´å·²ç»åˆ›å»ºäº†è¿žæŽ¥ï¼Œæ‚¨éœ€è¦é€‰æ‹©åŠ å…¥é“¾æŽ¥ã€‚
-  joinManual: åŠ å…¥è¿žæŽ¥
-  joinOrCreateGroup: åŠ å…¥/åˆ›å»ºç¾¤ç»„
-  joinOrCreateGroupHint: ä»Žæ‚¨çš„å°ä¼™ä¼´é‚£èŽ·å¾—ç¾¤ç»„ ID æˆ–è‡ªå·±åˆ›å»ºä¸€ä¸ªç¾¤ç»„
-  kernel: P2På†…æ ¸
+    请将<span class="v-chip v-chip--label v-size--small" style="text-font: bold">本地令牌</span>发送给您的联机伙伴，您的联机伙伴在 <span class="v-chip v-chip--label v-size--small" style="text-font: bold"> 加入连接 </span> 中输入这段文字。 <br> 期间 ICE 服务器可能需要时间收集足够信息来创建<span class="v-chip v-chip--label v-size--small" style="text-font: bold">本地令牌</span>。 <br> <span class="hint-text"> 您不需要等 ICE 服务器完全收集完毕，当下面的令牌已经有内容并且不怎么变化后，您可以提前将令牌复制给对方。 </span>
+  groupId: 小组 ID
+  illegalTokenDescription: 非法的令牌，请确认对方给您的令牌是完整且正确的。
+  initiateConnection: 发起连接
+  joinConnection: 如果您的伙伴已经创建了连接，您需要选择加入链接。
+  joinManual: 加入连接
+  joinOrCreateGroup: 加入/创建群组
+  joinOrCreateGroupHint: 从您的小伙伴那获得群组 ID 或自己创建一个群组
+  kernel: P2P内核
   kernelDescription: |-
-    ä½¿ç”¨æœ¬æœº WebRTC æˆ–èŠ‚ç‚¹æ•°æ®é€šé“ã€‚
-    ä»…å½“æ‚¨çš„ p2p è¿žæŽ¥æœ‰æ—¶å¯¼è‡´å¯åŠ¨å™¨çª—å£å´©æºƒæ—¶æ‰åˆ‡æ¢æ­¤é€‰é¡¹ã€‚
-  leaveGroup: ç¦»å¼€ç¾¤ç»„
-  localToken: æœ¬åœ°ä»¤ç‰Œ
-  manualConnect: æ‰‹åŠ¨è¿žæŽ¥
-  name: è·¨å±€åŸŸç½‘è”æœº
-  networkInfo: å½“å‰ç½‘ç»œçŠ¶å†µ
-  next: ä¸‹ä¸€æ­¥
-  otherExposedPortDescription: '{user} æš´éœ²ç»™ä½ çš„ç«¯å£'
-  placeholder: å’Œå…¶ä»–çŽ©å®¶å»ºç«‹è¿žæŽ¥ï¼Œè·¨å±€åŸŸç½‘è”æœº Minecraftï¼
-  previous: ä¸Šä¸€æ­¥
-  receiveHint: åœ¨å¯¹æ–¹è¾“å…¥æ‚¨çš„ä»¤ç‰ŒåŽï¼Œæ‚¨ä»¬ä¹‹é—´çš„è¿žæŽ¥ä¼šè‡ªåŠ¨åˆ›å»ºã€‚çŽ°åœ¨æ‚¨å·²ç»å¯ä»¥ç‚¹å‡»å®Œæˆäº†ã€‚
-  receiveRemoteTokenHint: è¯·å°†è”æœºä¼™ä¼´çš„ä»¤ç‰Œç²˜è´´åœ¨æ­¤å¤„ï¼Œå¹¶ç‚¹å‡»ä¸‹ä¸€æ­¥ã€‚
-  remoteToken: å¯¹æ–¹çš„ä»¤ç‰Œ
-  routerInfo: è·¯ç”±å™¨ä¿¡æ¯
-  sendTokenToRemote: å°†æœ¬åœ°ä»¤ç‰Œç»™æ‚¨çš„è”æœºä¼™ä¼´
-  share: åˆ†äº«å¯åŠ¨é…ç½®
-  sharing: æ­£åœ¨å…±äº«æ¸¸æˆé…ç½®...
-  sharingNotificationBody: æ‚¨å¯ä»¥ä»Ž {name} å…±äº«é…ç½®ä¸‹è½½æˆ–åˆ›å»ºå®žä¾‹ã€‚
-  sharingNotificationTitle: åŒä¼´æ­£åœ¨å…±äº«æ¸¸æˆé…ç½®
-  start: å¼€å§‹
-  startNewP2PConnection: ç‚¹å‡»å¼€å§‹æŒ‰é’®æ¥æ–°å»ºä¸€ä¸ªæ–°çš„ç‚¹å¯¹ç‚¹è¿žæŽ¥
-myStuff: ä¸ªäººä¸­å¿ƒ
+    使用本机 WebRTC 或节点数据通道。
+    仅当您的 p2p 连接有时导致启动器窗口崩溃时才切换此选项。
+  leaveGroup: 离开群组
+  localToken: 本地令牌
+  manualConnect: 手动连接
+  name: 跨局域网联机
+  networkInfo: 当前网络状况
+  next: 下一步
+  otherExposedPortDescription: '{user} 暴露给你的端口'
+  placeholder: 和其他玩家建立连接，跨局域网联机 Minecraft！
+  previous: 上一步
+  receiveHint: 在对方输入您的令牌后，您们之间的连接会自动创建。现在您已经可以点击完成了。
+  receiveRemoteTokenHint: 请将联机伙伴的令牌粘贴在此处，并点击下一步。
+  remoteToken: 对方的令牌
+  routerInfo: 路由器信息
+  sendTokenToRemote: 将本地令牌给您的联机伙伴
+  share: 分享启动配置
+  sharing: 正在共享游戏配置...
+  sharingNotificationBody: 您可以从 {name} 共享配置下载或创建实例。
+  sharingNotificationTitle: 同伴正在共享游戏配置
+  start: 开始
+  startNewP2PConnection: 点击开始按钮来新建一个新的点对点连接
+myStuff: 个人中心
 migrateMinecraft:
-  name: è¿ç§» Minecraft æ–‡ä»¶
+  name: 迁移 Minecraft 文件
 natType:
-  blocked: æ— æ³•è®¿é—®å¤–ç½‘
-  fullCone: å®Œå…¨é”¥å½¢
-  openInternet: å…¬ç½‘
-  restrictNat: åœ°å€å—é™é”¥å½¢
-  restrictPortNat: ç«¯å£å—é™é”¥å½¢
-  symmetricNat: å¯¹ç§° NAT
-  symmetricUDPFirewall: å¯¹ç§° UDP é˜²ç«å¢™
-  unknown: æœªçŸ¥
+  blocked: 无法访问外网
+  fullCone: 完全锥形
+  openInternet: 公网
+  restrictNat: 地址受限锥形
+  restrictPortNat: 端口受限锥形
+  symmetricNat: 对称 NAT
+  symmetricUDPFirewall: 对称 UDP 防火墙
+  unknown: 未知
 neoForgedVersion:
-  disable: ä¸ä½¿ç”¨ NeoForge
-  empty: Minecraft {version} ä¸æ”¯æŒ NeoForge
+  disable: 不使用 NeoForge
+  empty: Minecraft {version} 不支持 NeoForge
 news:
-  name: æ–°é—»
-  readMore: é˜…è¯»æ›´å¤š
+  name: 新闻
+  readMore: 阅读更多
 optifineVersion:
-  disable: ä¸ä½¿ç”¨ Optifine
-  empty: Minecraft {version} ä¸æ”¯æŒ Optifine
-optional: å¯é€‰
+  disable: 不使用 Optifine
+  empty: Minecraft {version} 不支持 Optifine
+optional: 可选
 peerConnectionState:
-  closed: å·²å…³é—­
-  connected: å·²è¿žæŽ¥
-  connecting: è¿žæŽ¥ä¸­
-  disconnected: æŽ‰çº¿
-  failed: å¤±è´¥
-  name: è¿žæŽ¥çŠ¶æ€
-  new: ç­‰å¾…è¿žæŽ¥
+  closed: 已关闭
+  connected: 已连接
+  connecting: 连接中
+  disconnected: 掉线
+  failed: 失败
+  name: 连接状态
+  new: 等待连接
 peerGroupState:
-  closed: æœªåŠ å…¥å°ç»„
-  closing: æ–­å¼€ä¸­
-  connected: å°ç»„åœ¨çº¿
-  connecting: åŠ å…¥ä¸­
+  closed: 未加入小组
+  closing: 断开中
+  connected: 小组在线
+  connecting: 加入中
 peerIceGatheringState:
-  gathering: æ”¶é›†æœ¬åœ°ä¿¡æ¯ä¸­
+  gathering: 收集本地信息中
 peerSignalingState:
-  have-local-offer: ç­‰å¾…å¯¹æ–¹ä¿¡æ¯ä¸­
+  have-local-offer: 等待对方信息中
 presence:
-  instance: æµè§ˆå®žä¾‹ {instance}
-  instanceSetting: ç¼–è¾‘å®žä¾‹è®¾ç½®ï¼š {instance}
-  mod: æŸ¥çœ‹ {instance}ä¸­çš„æ¨¡å¼
-  modrinthProject: åœ¨ Modrinth ä¸­æŸ¥çœ‹ {name}
-  resourcePack: æŸ¥çœ‹ {instance} ä¸­çš„èµ„æºé›†
-  save: '{instance}ä¸­çš„ä¸–ç•Œè§‚'
-  setting: æŸ¥çœ‹è®¾ç½®é¡µé¢
-  shaderPack: æŸ¥çœ‹ {instance}ä¸­çš„ç€è‰²å™¨é›†
+  instance: 浏览实例 {instance}
+  instanceSetting: 编辑实例设置： {instance}
+  mod: 查看 {instance}中的模式
+  modrinthProject: 在 Modrinth 中查看 {name}
+  resourcePack: 查看 {instance} 中的资源集
+  save: '{instance}中的世界观'
+  setting: 查看设置页面
+  shaderPack: 查看 {instance}中的着色器集
 proxy:
-  host: æœåŠ¡å™¨åœ°å€
-  port: ç«¯å£å·
+  host: 服务器地址
+  port: 端口号
 quiltVersion:
-  disable: ä¸ä½¿ç”¨ Quilt
-  empty: Minecraft {version} ä¸æ”¯æŒ Quilt
+  disable: 不使用 Quilt
+  empty: Minecraft {version} 不支持 Quilt
 reinstall:
-  name: é‡æ–°å®‰è£… {version}
+  name: 重新安装 {version}
 resourceError:
-  title: æ— æ³•è¯»å– {file}
+  title: 无法读取 {file}
   body: >-
-    â€œ{path}â€ è§£æžå¤±è´¥ï¼ˆ{code}ï¼‰ã€‚è¯¥æ–‡ä»¶å¯èƒ½å·²æŸåã€è¢«å ç”¨æˆ–ä¸‹è½½ä¸å®Œæ•´ã€‚
-    è¯·å°è¯•é‡æ–°ä¸‹è½½æˆ–åˆ é™¤è¯¥æ–‡ä»¶ã€‚
+    “{path}” 解析失败（{code}）。该文件可能已损坏、被占用或下载不完整。
+    请尝试重新下载或删除该文件。
 resourcepack:
-  compatible: å½“å‰æ ¼å¼({format}) å¯ç”¨äºŽå½“å‰ç‰ˆæœ¬ {version}
-  defaultDescription: Minecraft çš„é»˜è®¤æè´¨
+  compatible: 当前格式({format}) 可用于当前版本 {version}
+  defaultDescription: Minecraft 的默认材质
   delete:
-    content: å°†ä»Žç£ç›˜ä¸­åˆ é™¤èµ„æºåŒ…ï¼Œè¯¥æ“ä½œä¸å¯é€†ï¼Œç¡®å®šç»§ç»­æ‰§è¡Œå—
-    title: åˆ é™¤èµ„æºåŒ…
-  dropHint: å°†èµ„æºåŒ…zipæˆ–æ–‡ä»¶å¤¹æ‹–å…¥æ­¤å¤„å¯¼å…¥
-  enable: ä¸€å…±å¯ç”¨äº† {count} ä¸ªèµ„æºåŒ…
-  incompatible: ä¸å…¼å®¹çš„èµ„æºåŒ…æ ¼å¼({format})ã€‚é€‚ç”¨èŒƒå›´ {accept}ã€‚å½“å‰ç‰ˆæœ¬ {actual}ã€‚
-  name: èµ„æºåŒ… | èµ„æºåŒ…
-  noPacks: æœªæ‰¾åˆ°èµ„æºåŒ…
-  noPacksInstalled: æ‚¨å°šæœªå®‰è£…ä»»ä½•èµ„æºåŒ…ã€‚
-  noLocalPacksFound: æœªæ‰¾åˆ°åŒ¹é…æœç´¢çš„æœ¬åœ°èµ„æºåŒ…ã€‚
-  search: æœç´¢èµ„æºåŒ…...
-  searchHint: æœç´¢èµ„æºåŒ…
-  searchOnCurseforge: åœ¨ Curseforge ä¸­æŸ¥æ‰¾ {name}
+    content: 将从磁盘中删除资源包，该操作不可逆，确定继续执行吗
+    title: 删除资源包
+  dropHint: 将资源包zip或文件夹拖入此处导入
+  enable: 一共启用了 {count} 个资源包
+  incompatible: 不兼容的资源包格式({format})。适用范围 {accept}。当前版本 {actual}。
+  name: 资源包 | 资源包
+  noPacks: 未找到资源包
+  noPacksInstalled: 您尚未安装任何资源包。
+  noLocalPacksFound: 未找到匹配搜索的本地资源包。
+  search: 搜索资源包...
+  searchHint: 搜索资源包
+  searchOnCurseforge: 在 Curseforge 中查找 {name}
   searchOnModrinth: '@:mod.searchOnModrinth'
-  selected: å·²é€‰èµ„æºåŒ…
-  showDirectory: æ‰“å¼€è£…æœ‰èµ„æºåŒ…çš„æ–‡ä»¶å¤¹
-  showFile: åœ¨æ–‡ä»¶å¤¹ä¸­æ˜¾ç¤º {file}
-  showInCurseforge: åœ¨ Curseforge ä¸­æ˜¾ç¤º {name}
-  unselected: æœªé€‰èµ„æºåŒ…
+  selected: 已选资源包
+  showDirectory: 打开装有资源包的文件夹
+  showFile: 在文件夹中显示 {file}
+  showInCurseforge: 在 Curseforge 中显示 {name}
+  unselected: 未选资源包
 save:
-  allowCheats: å…è®¸ä½œå¼Š
+  allowCheats: 允许作弊
   copy:
-    name: å¤åˆ¶å­˜æ¡£
-  createNew: æ–°å­˜æ¡£
-  createdWorlds: åˆ›å»ºäº† {count} ä¸ªä¸–ç•Œ
-  deleteHint: è¯¥æ“ä½œä¸å¯é€†ï¼Œæ‚¨å°†æ°¸è¿œå¤±åŽ»è¿™ä¸ªå­˜æ¡£çš„è®°å½•ï¼Œæ‚¨ç¡®å®šè¦åˆ é™¤æ­¤å­˜æ¡£å—ï¼Ÿ
-  deleteTitle: åˆ é™¤è¯¥å­˜æ¡£
-  difficulty: éš¾åº¦
-  dropHint: å°†åœ°å›¾ Zip æˆ–æ–‡ä»¶å¤¹æ‹–å…¥æ­¤å¤„æ¥å¯¼å…¥
-  export: å¯¼å‡ºåœ°å›¾
-  exportMessage: å°†å­˜æ¡£å¯¼å‡ºä¸º Zip
-  exportTitle: å¯¼å‡ºå­˜æ¡£
-  gameMode: æ¸¸æˆæ¨¡å¼
-  independent: å®žä¾‹ä½¿ç”¨ç‹¬ç«‹çš„å­˜æ¡£æ–‡ä»¶å¤¹
-  levelName: å…³å¡åç§°
-  loadMap: åŠ è½½åœ°å›¾
-  mapError: åœ°å›¾é”™è¯¯
-  mapInfo: äº¤äº’å¼3Dä¸–ç•Œé¢„è§ˆï¼š
-  mapLoaded: åœ°å›¾å·²åŠ è½½
-  mapPreview: åœ°å›¾é¢„è§ˆ
-  name: åœ°å›¾å­˜æ¡£ | åœ°å›¾å­˜æ¡£
-  noSavesFound: æœªæ‰¾åˆ°å­˜æ¡£
-  noSavesInstalled: æ‚¨è¿˜æ²¡æœ‰ä»»ä½•å­˜æ¡£ã€‚
-  noLocalSavesFound: æœªæ‰¾åˆ°åŒ¹é…æœç´¢çš„æœ¬åœ°å­˜æ¡£ã€‚
-  openFolder: æ‰“å¼€å­˜æ¡£æ–‡ä»¶å¤¹
-  properties: ä¸–ç•Œå±žæ€§
-  search: æœç´¢åœ°å›¾
-  searchSaves: æœç´¢å­˜æ¡£
-  searchHint: åœ¨ CurseForge ä¸Šæœç´¢ä¸–ç•Œ
-  seed: ç§å­
-  selected: æœ¬åœ°å­˜æ¡£
-  shared: å®žä¾‹ä½¿ç”¨å…±äº«å­˜æ¡£æ–‡ä»¶å¤¹
-  showDirectory: æ˜¾ç¤ºä¿å­˜ç›®å½•
-  unselected: å…±äº«çš„å­˜æ¡£
-  useCurrent: ä½¿ç”¨å½“å‰ä¸–ç•Œ
-  useMouseRotate: ä½¿ç”¨é¼ æ ‡æ—‹è½¬è§†å›¾
-  useScrollZoom: ä½¿ç”¨æ»šè½®ç¼©æ”¾
+    name: 复制存档
+  createNew: 新存档
+  createdWorlds: 创建了 {count} 个世界
+  deleteHint: 该操作不可逆，您将永远失去这个存档的记录，您确定要删除此存档吗？
+  deleteTitle: 删除该存档
+  difficulty: 难度
+  dropHint: 将地图 Zip 或文件夹拖入此处来导入
+  export: 导出地图
+  exportMessage: 将存档导出为 Zip
+  exportTitle: 导出存档
+  gameMode: 游戏模式
+  independent: 实例使用独立的存档文件夹
+  levelName: 关卡名称
+  loadMap: 加载地图
+  mapError: 地图错误
+  mapInfo: 交互式3D世界预览：
+  mapLoaded: 地图已加载
+  mapPreview: 地图预览
+  name: 地图存档 | 地图存档
+  noSavesFound: 未找到存档
+  noSavesInstalled: 您还没有任何存档。
+  noLocalSavesFound: 未找到匹配搜索的本地存档。
+  openFolder: 打开存档文件夹
+  properties: 世界属性
+  search: 搜索地图
+  searchSaves: 搜索存档
+  searchHint: 在 CurseForge 上搜索世界
+  seed: 种子
+  selected: 本地存档
+  shared: 实例使用共享存档文件夹
+  showDirectory: 显示保存目录
+  unselected: 共享的存档
+  useCurrent: 使用当前世界
+  useMouseRotate: 使用鼠标旋转视图
+  useScrollZoom: 使用滚轮缩放
 screenshots:
-  empty: æ‚¨è¿˜æ²¡æœ‰æˆªå›¾
-  gallery: æˆªå›¾ç”»å»Š
-  hint: åœ¨æ¸¸æˆä¸­æŒ‰ F2 æˆªå›¾
-  openFolder: æ‰“å¼€æˆªå›¾æ–‡ä»¶å¤¹
-  playRandom: éšæœºæ’­æ”¾
-  playSequence: é¡ºåºæ’­æ”¾
+  empty: 您还没有截图
+  gallery: 截图画廊
+  hint: 在游戏中按 F2 截图
+  openFolder: 打开截图文件夹
+  playRandom: 随机播放
+  playSequence: 顺序播放
 search:
-  favorate: æ”¶è—
-  local: å·²å®‰è£…
-  market: Mod å¸‚åœº
+  favorate: 收藏
+  local: 已安装
+  market: Mod 市场
 server:
-  acceptingMinecraftVersion: æŽ¥å— Minecraft ç‰ˆæœ¬
-  addServer: æ·»åŠ æœåŠ¡å™¨
-  address: æœåŠ¡å™¨åœ°å€
-  addressHint: ä¾‹å¦‚ mc.hypixel.net
-  bindUpstream: ç»‘å®šä¸ºä¸Šæ¸¸
-  boundUpstream: å·²ç»‘å®šæœåŠ¡å™¨ä¸Šæ¸¸
-  boundUpstreamHint: æ­¤å®žä¾‹å°†è·Ÿéšæ‰€ç»‘å®šæœåŠ¡å™¨çš„ Minecraft ç‰ˆæœ¬ã€‚
-  creationHint: è¯·å¡«å†™æœåŠ¡å™¨åœ°å€å¹¶å°è¯• Ping æœåŠ¡å™¨
-  editServer: ç¼–è¾‘æœåŠ¡å™¨
-  emptyHint: æ­¤å®žä¾‹çš„ servers.dat ä¸­æš‚æ— æœåŠ¡å™¨ï¼Œæ·»åŠ ä¸€ä¸ªä»¥å¼€å§‹ã€‚
-  entryCount: '{count} ä¸ªæœåŠ¡å™¨'
-  expectedVersions: å·²æ”¯æŒçš„ç‰ˆæœ¬
-  export: å¯¼å‡ºæœåŠ¡å™¨
+  acceptingMinecraftVersion: 接受 Minecraft 版本
+  addServer: 添加服务器
+  address: 服务器地址
+  addressHint: 例如 mc.hypixel.net
+  bindUpstream: 绑定为上游
+  boundUpstream: 已绑定服务器上游
+  boundUpstreamHint: 此实例将跟随所绑定服务器的 Minecraft 版本。
+  creationHint: 请填写服务器地址并尝试 Ping 服务器
+  editServer: 编辑服务器
+  emptyHint: 此实例的 servers.dat 中暂无服务器，添加一个以开始。
+  entryCount: '{count} 个服务器'
+  expectedVersions: 已支持的版本
+  export: 导出服务器
   exportNoFilesHint: |-
-    æ‰¾ä¸åˆ°æœåŠ¡å™¨æ–‡ä»¶ã€‚
-    æ‚¨å¯ä»¥ä¸€æ¬¡åœ¨æœ¬åœ°è¿è¡ŒæœåŠ¡å™¨æ¥ç”Ÿæˆä¸€äº›æ–‡ä»¶ã€‚
-  exportOption: æœåŠ¡å™¨å¯¼å‡ºé€‰é¡¹
+    找不到服务器文件。
+    您可以一次在本地运行服务器来生成一些文件。
+  exportOption: 服务器导出选项
   exportSSHAuthenticationFailed: |-
-    æ‰€æœ‰èº«ä»½éªŒè¯æ–¹æ³•éƒ½å¤±è´¥äº†ã€‚
-    è¯·æ£€æŸ¥ç”¨æˆ·å/å¯†ç æˆ–ç§é’¥ã€‚
-  exportSSHOptions: SSHé€‰é¡¹
-  exportSSHPrivateKeyPath: SSHç§é’¥è·¯å¾„
-  exportSSHRemotePath: è¿œç¨‹æœåŠ¡å™¨è·¯å¾„
-  exportToFolder: å¯¼å‡ºåˆ°æ–‡ä»¶å¤¹
-  filterVersion: ç­›é€‰æœåŠ¡å™¨ç›¸åº”çš„ Minecraft ç‰ˆæœ¬
-  host: æœåŠ¡å™¨åœ°å€
-  hostHint: æœåŠ¡å™¨çš„ IP åœ°å€ï¼ˆå’Œç«¯å£å·ï¼‰
-  hostRequired: è¯·è¾“å…¥æœåŠ¡å™¨IPåœ°å€
-  ipAddress: IP åœ°å€
-  launchClient: æ”¹ä¸ºå¯åŠ¨å®¢æˆ·ç«¯
-  launchPinned: å·²å›ºå®š
-  launchTargetHint: æ­¤å®žä¾‹ä¼šç›´æŽ¥å¯åŠ¨è¿›å…¥å·²å›ºå®šçš„æœåŠ¡å™¨ï¼Œè¦åˆ‡æ¢å›žå®¢æˆ·ç«¯å—ï¼Ÿ
-  maxPlayers: æœ€å¤§çŽ©å®¶æ•°
-  motd: æœåŠ¡å™¨ MOTD
-  nogui: éšè—æœåŠ¡å™¨ GUI
-  onlineMode: åœ¨çº¿æ¨¡å¼ (åªå…è®¸æ­£ç‰ˆ)
-  pin: å›ºå®šæœåŠ¡å™¨
-  pinAfterSave: ä¿å­˜åŽå›ºå®šä¸ºé»˜è®¤å¯åŠ¨ç›®æ ‡
-  pinnedHeader: 'å·²å›ºå®šï¼š{name}'
-  ping: Ping æœåŠ¡å™¨
-  pings: å»¶è¿Ÿ
-  players: çŽ©å®¶
-  port: ç«¯å£
-  serverName: æœåŠ¡å™¨åç§°
-  serversListTitle: æœåŠ¡å™¨åˆ—è¡¨
-  unbindUpstream: è§£ç»‘
-  unknown: æœªçŸ¥æœåŠ¡å™¨
-  unknownDescription: æœªçŸ¥æœåŠ¡å™¨ï¼Œè¯·åˆ·æ–°ã€‚
-  unpin: å–æ¶ˆå›ºå®š
-  upload: ä¸Šä¼ æœåŠ¡å™¨
-  upstreamUpdateAvailable: 'æœåŠ¡å™¨çŽ°åœ¨è¿è¡Œ Minecraft {version}ï¼Œç‚¹å‡»åº”ç”¨ã€‚'
-  upstreamUpdateHint: å°†å»ºè®®çš„ Minecraft ç‰ˆæœ¬åº”ç”¨åˆ°æ­¤å®žä¾‹ã€‚
-  upstreamUpToDate: æ‚¨çš„å®žä¾‹ä¸ŽæœåŠ¡å™¨ç‰ˆæœ¬ä¸€è‡´ï¼ˆ{version}ï¼‰ã€‚
-  upstreamUpToDateHint: æ— éœ€å‡çº§ï¼Œç‚¹å‡»å¯é‡æ–° Ping æœåŠ¡å™¨ã€‚
-  useAsUpstreamHint: æ­¤å®žä¾‹å°†è·ŸéšæœåŠ¡å™¨æ‰€æŠ¥å‘Šçš„ Minecraft ç‰ˆæœ¬ã€‚
-  version: æœåŠ¡å™¨æŽ¨èç‰ˆæœ¬
-  versionHint: Ping ä½¿ç”¨çš„ Minecraft ç‰ˆæœ¬
+    所有身份验证方法都失败了。
+    请检查用户名/密码或私钥。
+  exportSSHOptions: SSH选项
+  exportSSHPrivateKeyPath: SSH私钥路径
+  exportSSHRemotePath: 远程服务器路径
+  exportToFolder: 导出到文件夹
+  filterVersion: 筛选服务器相应的 Minecraft 版本
+  host: 服务器地址
+  hostHint: 服务器的 IP 地址（和端口号）
+  hostRequired: 请输入服务器IP地址
+  ipAddress: IP 地址
+  launchClient: 改为启动客户端
+  launchPinned: 已固定
+  launchTargetHint: 此实例会直接启动进入已固定的服务器，要切换回客户端吗？
+  maxPlayers: 最大玩家数
+  motd: 服务器 MOTD
+  nogui: 隐藏服务器 GUI
+  onlineMode: 在线模式 (只允许正版)
+  pin: 固定服务器
+  pinAfterSave: 保存后固定为默认启动目标
+  pinnedHeader: '已固定：{name}'
+  ping: Ping 服务器
+  pings: 延迟
+  players: 玩家
+  port: 端口
+  serverName: 服务器名称
+  serversListTitle: 服务器列表
+  unbindUpstream: 解绑
+  unknown: 未知服务器
+  unknownDescription: 未知服务器，请刷新。
+  unpin: 取消固定
+  upload: 上传服务器
+  upstreamUpdateAvailable: '服务器现在运行 Minecraft {version}，点击应用。'
+  upstreamUpdateHint: 将建议的 Minecraft 版本应用到此实例。
+  upstreamUpToDate: 您的实例与服务器版本一致（{version}）。
+  upstreamUpToDateHint: 无需升级，点击可重新 Ping 服务器。
+  useAsUpstreamHint: 此实例将跟随服务器所报告的 Minecraft 版本。
+  version: 服务器推荐版本
+  versionHint: Ping 使用的 Minecraft 版本
 serverStatus:
-  nohost: æ‰¾ä¸åˆ°æœåŠ¡å™¨ï¼
-  ping: å»¶è¿Ÿ
-  refuse: æœåŠ¡å™¨æ–­å¼€äº†è¿žæŽ¥ï¼
-  timeout: æœåŠ¡å™¨å“åº”è¶…æ—¶ï¼
+  nohost: 找不到服务器！
+  ping: 延迟
+  refuse: 服务器断开了连接！
+  timeout: 服务器响应超时！
 setting:
   themeStore:
-    name: ä¸»é¢˜åº“
-    description: ä¿å­˜å¹¶ç®¡ç†å…¨å±€ä¸»é¢˜
-    savedThemes: å·²ä¿å­˜çš„ä¸»é¢˜
-    noSavedThemes: å°šæ— å·²ä¿å­˜çš„ä¸»é¢˜
-    saveToStore: ä¿å­˜åˆ°ä¸»é¢˜åº“
-    saveDialogTitle: ä¿å­˜ä¸»é¢˜
-    themeName: ä¸»é¢˜åç§°
-    themeNameHint: ç”¨äºŽå­˜å‚¨æ­¤ä¸»é¢˜çš„åç§°
-    loadConfirmTitle: æ›¿æ¢å½“å‰ä¸»é¢˜ï¼Ÿ
-    loadConfirmMessage: åŠ è½½å·²ä¿å­˜çš„ä¸»é¢˜å°†æ›¿æ¢å½“å‰ä¸»é¢˜ï¼Œè¯·å…ˆå¤‡ä»½ã€‚
-    loadTheme: åŠ è½½ä¸»é¢˜
-  about: å…³äºŽ
-  aboutBmclDescription: BMCL API ä¸ºä¸­å›½åœ°åŒºç”¨æˆ·æä¾›ä¾¿æ·çš„ä¸‹è½½æœåŠ¡
-  aboutContributors: ðŸ§‘â€ðŸ’» è´¡çŒ®è€… ðŸ§‘â€ðŸ’»
-  aboutDenoDescription: FastLauncher ä½¿ç”¨ Deno Deploy æä¾›çš„æ— æœåŠ¡å™¨ JavaScript åº”ç”¨å¹³å°
+    name: 主题库
+    description: 保存并管理全局主题
+    savedThemes: 已保存的主题
+    noSavedThemes: 尚无已保存的主题
+    saveToStore: 保存到主题库
+    saveDialogTitle: 保存主题
+    themeName: 主题名称
+    themeNameHint: 用于存储此主题的名称
+    loadConfirmTitle: 替换当前主题？
+    loadConfirmMessage: 加载已保存的主题将替换当前主题，请先备份。
+    loadTheme: 加载主题
+  about: 关于
+  aboutBmclDescription: BMCL API 为中国地区用户提供便捷的下载服务
+  aboutContributors: 🧑‍💻 贡献者 🧑‍💻
+  aboutDenoDescription: FastLauncher 使用 Deno Deploy 提供的无服务器 JavaScript 应用平台
   aboutLicense: MIT License
-  aboutLicenseInfo: æ„Ÿè°¢ SignPath.io æä¾›å…è´¹çš„ Windows ä»£ç ç­¾å
-  aboutSponsors: ðŸ˜‡ èµžåŠ©å•† ðŸ˜‡
-  advancedJavaOptions: é«˜çº§ Java é€‰é¡¹
-  advancedSettings: é«˜çº§è®¾ç½®
-  advancedSettingsHint: å±é™©åŒºåŸŸ - é‡ç½®æˆ–ç®¡ç†å¯åŠ¨å™¨æ•°æ®
+  aboutLicenseInfo: 感谢 SignPath.io 提供免费的 Windows 代码签名
+  aboutSponsors: 😇 赞助商 😇
+  advancedJavaOptions: 高级 Java 选项
+  advancedSettings: 高级设置
+  advancedSettingsHint: 危险区域 - 重置或管理启动器数据
   aiAgentApiKey: AI Agent API Key
-  aiAgentApiKeyDescription: ä»…ä¿å­˜åœ¨æœ¬åœ°è®¾å¤‡ï¼Œç”¨äºŽ Agent è¯·æ±‚ã€‚
+  aiAgentApiKeyDescription: 仅保存在本地设备，用于 Agent 请求。
   aiAgentEndpoint: AI Agent Endpoint
-  aiAgentEndpointDescription: èŠå¤©è¡¥å…¨ï¼ˆchat completionsï¼‰çš„ Endpoint åœ°å€ã€‚
-  aiAgentModel: AI Agent æ¨¡åž‹
-  aiAgentModelDescription: è¯·æ±‚èŠå¤©è¡¥å…¨æ—¶ä½¿ç”¨çš„æ¨¡åž‹åã€‚
+  aiAgentEndpointDescription: 聊天补全（chat completions）的 Endpoint 地址。
+  aiAgentModel: AI Agent 模型
+  aiAgentModelDescription: 请求聊天补全时使用的模型名。
   apiSets:
-    auto: è‡ªåŠ¨ (æ ¹æ®ç½‘ç»œå†³å®š)
-    official: å®˜æ–¹ (Mojang)
-  appearance: å¤–è§‚
-  appearanceDescription: è‡ªå®šä¹‰å¯åŠ¨å™¨å¤–è§‚
-  appxUpdateHint: å¯åŠ¨å™¨å°†ä¸‹è½½å¹¶æ‰§è¡Œå®‰è£…åŒ…ï¼Œå¦‚æžœå®‰è£…åŒ…è§£æžå¤±è´¥ï¼Œè¯·å°è¯•è‡ªè¡Œæ‰“å¼€å®‰è£…æ–‡ä»¶æ›´æ–°ã€‚
-  authenticationSettings: èº«ä»½éªŒè¯
-  backdropBlur: èƒŒæ™¯æ¨¡ç³Š
-  backgroundColorAbove: å°†èƒŒæ™¯é¢œè‰²æ˜¾ç¤ºä¸ºå åŠ å±‚
-  backgroundColorAboveDescription: è¿™å°†ä½¿èƒŒæ™¯é¢œè‰²æ˜¾ç¤ºåœ¨èƒŒæ™¯å›¾åƒæˆ–è§†é¢‘ä¸Šæ–¹ã€‚
-  backgroundImage: èƒŒæ™¯å›¾ç‰‡
-  backgroundImageClear: æ¸…ç©º
-  backgroundImageDescription: é€‰æ‹©ä¸€å¼ èƒŒæ™¯å›¾ç‰‡æˆ–æ¸…ç©ºå½“å‰å›¾ç‰‡
+    auto: 自动 (根据网络决定)
+    official: 官方 (Mojang)
+  appearance: 外观
+  appearanceDescription: 自定义启动器外观
+  appxUpdateHint: 启动器将下载并执行安装包，如果安装包解析失败，请尝试自行打开安装文件更新。
+  authenticationSettings: 身份验证
+  backdropBlur: 背景模糊
+  backgroundColorAbove: 将背景颜色显示为叠加层
+  backgroundColorAboveDescription: 这将使背景颜色显示在背景图像或视频上方。
+  backgroundImage: 背景图片
+  backgroundImageClear: 清空
+  backgroundImageDescription: 选择一张背景图片或清空当前图片
   backgroundImageFit:
-    contain: åŒ…å«
-    cover: è¦†ç›–
-    name: æ”¾ç½®æ–¹å¼
-  backgroundImageUrl: å›¾ç‰‡ç½‘å€
-  backgroundImageUrlPlaceholder: è¾“å…¥å›¾åƒçš„ HTTP/HTTPS URL
-  backgroundMusic: ä¸»é¢˜èƒŒæ™¯éŸ³ä¹
-  backgroundMusicUrl: éŸ³ä¹ç½‘å€
-  backgroundMusicUrlPlaceholder: è¾“å…¥éŸ³ä¹çš„ HTTP/HTTPS URL
-  backgroundType: èƒŒæ™¯æ•ˆæžœ
-  backgroundTypeDescription: èƒŒæ™¯æ˜¯å¦æ˜¾ç¤ºç‰¹æ•ˆï¼ˆå¦‚æžœè§‰å¾—å¡å°±å¯ä»¥å…³æŽ‰ï¼‰
+    contain: 包含
+    cover: 覆盖
+    name: 放置方式
+  backgroundImageUrl: 图片网址
+  backgroundImageUrlPlaceholder: 输入图像的 HTTP/HTTPS URL
+  backgroundMusic: 主题背景音乐
+  backgroundMusicUrl: 音乐网址
+  backgroundMusicUrlPlaceholder: 输入音乐的 HTTP/HTTPS URL
+  backgroundType: 背景效果
+  backgroundTypeDescription: 背景是否显示特效（如果觉得卡就可以关掉）
   setAsBackground:
-    global: è®¾ä¸ºå¯åŠ¨å™¨èƒŒæ™¯
-    instance: è®¾ä¸ºå®žä¾‹èƒŒæ™¯
-    successGlobal: å·²æ›´æ–°èƒŒæ™¯å›¾ç‰‡ã€‚
-    successInstance: å·²æ›´æ–°å®žä¾‹èƒŒæ™¯å›¾ç‰‡ã€‚
-    failed: è®¾ç½®èƒŒæ™¯å›¾ç‰‡å¤±è´¥
+    global: 设为启动器背景
+    instance: 设为实例背景
+    successGlobal: 已更新背景图片。
+    successInstance: 已更新实例背景图片。
+    failed: 设置背景图片失败
   backgroundTypes:
-    halo: å…‰æ™•
-    image: å›¾ç‰‡
-    none: æ— 
-    particle: ç²’å­
-    video: è§†é¢‘
-  backgroundVideo: èƒŒæ™¯è§†é¢‘
-  backgroundVideoDescription: é€‰æ‹©ä¸€ä¸ªèƒŒæ™¯è§†é¢‘æˆ–æ¸…ç©ºå½“å‰
-  backgroundVideoUrl: è§†é¢‘ç½‘å€
-  backgroundVideoUrlPlaceholder: è¾“å…¥è§†é¢‘çš„ HTTP/HTTPS URL
-  backgroundVideoVolume: è§†é¢‘éŸ³é‡
-  backgroundVideoVolumeDescription: æ‹–åŠ¨ä»¥è°ƒæ•´éŸ³é‡
-  browseRoot: æ›´æ”¹
-  checkUpdate: æ£€æŸ¥æ›´æ–°
+    halo: 光晕
+    image: 图片
+    none: 无
+    particle: 粒子
+    video: 视频
+  backgroundVideo: 背景视频
+  backgroundVideoDescription: 选择一个背景视频或清空当前
+  backgroundVideoUrl: 视频网址
+  backgroundVideoUrlPlaceholder: 输入视频的 HTTP/HTTPS URL
+  backgroundVideoVolume: 视频音量
+  backgroundVideoVolumeDescription: 拖动以调整音量
+  browseRoot: 更改
+  checkUpdate: 检查更新
   colorTheme:
-    appBarColor: é¡¶ç«¯æ 
-    backgroundColor: èƒŒæ™¯é¢œè‰²
-    cardColor: å¡ç‰‡é¢œè‰²
-    description: æ”¹å˜ä¸»é¢˜ä¸­çš„é…è‰²
-    errorColor: é”™è¯¯é¢œè‰²
-    name: ä¸»é¢˜é¢œè‰²å’Œæ¨¡ç³Š
-    primaryColor: ä¸»è¦é¢œè‰²
-    sideBarColor: ä¾§è¾¹æ 
-    warningColor: è­¦å‘Šé¢œè‰²
+    appBarColor: 顶端栏
+    backgroundColor: 背景颜色
+    cardColor: 卡片颜色
+    description: 改变主题中的配色
+    errorColor: 错误颜色
+    name: 主题颜色和模糊
+    primaryColor: 主要颜色
+    sideBarColor: 侧边栏
+    warningColor: 警告颜色
   customCss:
-    advancedDescription: ä½¿ç”¨ä½ è‡ªå·±çš„ CSS è¦†ç›–å¯åŠ¨å™¨å½“å‰çš„æ ·å¼ã€‚
-    assistantHint: æè¿°ä½ æƒ³è¦çš„å¤–è§‚ï¼Œæˆ‘ä¼šä¸ºä½ ç¼–å†™ CSSã€‚
-    assistantSuggestion1: è®©ä¾§è¾¹æ åŠé€æ˜Ž
-    assistantSuggestion2: ç»™å¡ç‰‡æ·»åŠ æ·¡æ·¡çš„æ¸å˜èƒŒæ™¯
-    assistantTitle: CSS åŠ©æ‰‹
-    dropHint: æ‹–å…¥ .css æ–‡ä»¶ä»¥åŠ è½½
-    editorPlaceholder: "/* åœ¨æ­¤ç¼–å†™ä½ çš„è‡ªå®šä¹‰ CSS */"
-    globalToggle: å¼€å…³è‡ªå®šä¹‰ CSS
-    openInDialog: åœ¨åŠ©æ‰‹å¯¹è¯æ¡†ä¸­æ‰“å¼€
-    title: è‡ªå®šä¹‰ CSS
-    warning: è‡ªå®šä¹‰ CSS å…è®¸ä½ å®šåˆ¶å¯åŠ¨å™¨çš„ä»»ä½•éƒ¨åˆ†ã€‚ä»Žä¸å¯ä¿¡æ¥æºç²˜è´´ CSS æ—¶è¯·åŠ¡å¿…å°å¿ƒï¼Œå› ä¸ºå®ƒå¯èƒ½ä¼šä¿®æ”¹ç•Œé¢å¸ƒå±€ã€‚
-  darkTheme: ä¸»é¢˜
-  darkThemeDescription: é€‰æ‹©æ·±è‰²æˆ–æµ…è‰²ä¸»é¢˜
-  devModeLabel: å¼€å‘
-  developerMode: å¼€å‘è€…æ¨¡å¼
-  developerModeDescription: å¼€å‘è€…æ¨¡å¼æ—¨åœ¨å¸®åŠ©æ‚¨æµ‹è¯•è‡ªå·±å†™çš„æ¨¡ç»„
-  disableTelemetry: å…³é—­é¥æµ‹
-  disableTelemetryDescription: FastLauncher ä¼šæ”¶é›†æ¸¸æˆå¯åŠ¨ä»¥åŠç”¨æˆ·ç™»å½•äº‹ä»¶
-  enableDedicatedGPUOptimization: åˆ†é…ä¸“ç”¨ GPU
-  enableDedicatedGPUOptimizationDescription: æ­¤é€‰é¡¹å°†ä¸º Minecraft è¿›ç¨‹åˆ†é…ä¸“ç”¨ GPUã€‚
-  enableDiscord: å¯ç”¨ Discord Presence
-  enableDiscordDescription: æ ¹æ® FastLauncher å®žæ—¶æ›´æ–° Discord çš„çŠ¶æ€
-  enterUrl: è¾“å…¥ç½‘å€
-  exportSettings: å¯¼å‡ºè®¾ç½®
-  exportSettingsHint: å°†å½“å‰è®¾ç½®ä¿å­˜åˆ°æ–‡ä»¶
-  general: åŸºæœ¬è®¾ç½®
+    advancedDescription: 使用你自己的 CSS 覆盖启动器当前的样式。
+    assistantHint: 描述你想要的外观，我会为你编写 CSS。
+    assistantSuggestion1: 让侧边栏半透明
+    assistantSuggestion2: 给卡片添加淡淡的渐变背景
+    assistantTitle: CSS 助手
+    dropHint: 拖入 .css 文件以加载
+    editorPlaceholder: "/* 在此编写你的自定义 CSS */"
+    globalToggle: 开关自定义 CSS
+    openInDialog: 在助手对话框中打开
+    title: 自定义 CSS
+    warning: 自定义 CSS 允许你定制启动器的任何部分。从不可信来源粘贴 CSS 时请务必小心，因为它可能会修改界面布局。
+  darkTheme: 主题
+  darkThemeDescription: 选择深色或浅色主题
+  devModeLabel: 开发
+  developerMode: 开发者模式
+  developerModeDescription: 开发者模式旨在帮助您测试自己写的模组
+  disableTelemetry: 关闭遥测
+  disableTelemetryDescription: FastLauncher 会收集游戏启动以及用户登录事件
+  enableDedicatedGPUOptimization: 分配专用 GPU
+  enableDedicatedGPUOptimizationDescription: 此选项将为 Minecraft 进程分配专用 GPU。
+  enableDiscord: 启用 Discord Presence
+  enableDiscordDescription: 根据 FastLauncher 实时更新 Discord 的状态
+  enterUrl: 输入网址
+  exportSettings: 导出设置
+  exportSettingsHint: 将当前设置保存到文件
+  general: 基本设置
   githubRelease: Github
-  globalSetting: å…¨å±€å®žä¾‹è®¾ç½®
-  globalSettingHint: å®žä¾‹é»˜è®¤æƒ…å†µä¸‹ä¼šä½¿ç”¨è¿™äº›å…¨å±€è®¾ç½®
-  importSettings: å¯¼å…¥è®¾ç½®
-  importSettingsHint: ä»Žä¹‹å‰å¯¼å‡ºçš„æ–‡ä»¶ä¸­åŠ è½½è®¾ç½®
+  globalSetting: 全局实例设置
+  globalSettingHint: 实例默认情况下会使用这些全局设置
+  importSettings: 导入设置
+  importSettingsHint: 从之前导出的文件中加载设置
   instanceTheme:
     activeDescription: |-
-      æ­¤å®žä¾‹ä½¿ç”¨è‡ªå®šä¹‰ä¸»é¢˜ã€‚
-      æ‚¨å¯ä»¥å°†å…¶åˆ é™¤ä»¥ä½¿ç”¨å…¨å±€ä¸»é¢˜ã€‚
+      此实例使用自定义主题。
+      您可以将其删除以使用全局主题。
     description: |-
-      ä¸ºæ­¤å®žä¾‹å¯ç”¨è‡ªå®šä¹‰ä¸»é¢˜ã€‚
-      è¿™å°†åˆ›å»ºå½“å‰å…¨å±€ä¸»é¢˜çš„å‰¯æœ¬ã€‚
-    name: å®žä¾‹ä¸»é¢˜
-  language: è¯­è¨€
-  languageDescription: å½“å‰æ˜¾ç¤ºçš„è¯­è¨€
-  latestVersion: æœ€æ–°ç‰ˆæœ¬
+      为此实例启用自定义主题。
+      这将创建当前全局主题的副本。
+    name: 实例主题
+  language: 语言
+  languageDescription: 当前显示的语言
+  latestVersion: 最新版本
   layout:
-    default: é»˜è®¤å¸ƒå±€
-    focus: èšç„¦å¸ƒå±€
-  layoutDescription: ä¸åŒçš„å¸ƒå±€æœ‰ä¸åŒçš„ UI äº¤äº’é€»è¾‘
-  layoutTitle: å¸ƒå±€
-  linuxEnableDedicatedGPUOptimization: åˆ†é…ä¸“ç”¨å›¾å½¢å¤„ç†å™¨
-  linuxEnableDedicatedGPUOptimizationDescription: æ­¤é€‰é¡¹ä¸º Minecraft è¿›ç¨‹åˆ†é…ä¸“ç”¨ GPUã€‚
-  linuxTitlebar: åŽŸç”Ÿé¡¶ç«¯æ 
-  linuxTitlebarDescription: ä½¿ç”¨ Linux ç³»ç»ŸåŽŸç”Ÿçš„é¡¶ç«¯æ 
-  livePreview: å®žæ—¶é¢„è§ˆ
-  location: æ•°æ®å­˜å‚¨ä½ç½®
-  manualUpdateHint: ç‰ˆæœ¬æ— æ³•è‡ªåŠ¨æ›´æ–°ã€‚è¯·ä»Žå®˜æ–¹ç½‘ç«™é‡æ–°ä¸‹è½½å¯åŠ¨å™¨ï¼
+    default: 默认布局
+    focus: 聚焦布局
+  layoutDescription: 不同的布局有不同的 UI 交互逻辑
+  layoutTitle: 布局
+  linuxEnableDedicatedGPUOptimization: 分配专用图形处理器
+  linuxEnableDedicatedGPUOptimizationDescription: 此选项为 Minecraft 进程分配专用 GPU。
+  linuxTitlebar: 原生顶端栏
+  linuxTitlebarDescription: 使用 Linux 系统原生的顶端栏
+  livePreview: 实时预览
+  location: 数据存储位置
+  manualUpdateHint: 版本无法自动更新。请从官方网站重新下载启动器！
   maunalUpdateHint: |-
-    ç‰ˆæœ¬æ— æ³•è‡ªåŠ¨æ›´æ–°ã€‚
-    è¯·ä»Žç½‘ç«™é‡æ–°ä¸‹è½½å¯åŠ¨å™¨ï¼
-  maxSockets: (æ¯ä¸ªç½‘ç«™)æœ€å¤§è¿žæŽ¥æ•°
-  maxSocketsDescription: æŽ§åˆ¶æœ€å¤§çš„å¹¶å‘ HTTP é“¾æŽ¥æ•°é‡ã€‚0 ä»£è¡¨ä¸é™åˆ¶æ•°é‡ã€‚
-  maxSocketsTitle: æœ€å¤§ HTTP è¿žæŽ¥æ•°é‡
-  memoryAssignment: å†…å­˜åˆ†é…
-  migrateFromOther: ä»Žå…¶ä»–å¯åŠ¨å™¨å¯¼å…¥
-  minecraftOptions: Minecraft é€‰é¡¹
-  name: è®¾ç½®
-  network: ç½‘ç»œè®¾ç½®
-  newsPosition: ç§»åŠ¨æ–°é—»åŒºåŸŸ
-  officialWebsite: å®˜ç½‘åœ°å€
+    版本无法自动更新。
+    请从网站重新下载启动器！
+  maxSockets: (每个网站)最大连接数
+  maxSocketsDescription: 控制最大的并发 HTTP 链接数量。0 代表不限制数量。
+  maxSocketsTitle: 最大 HTTP 连接数量
+  memoryAssignment: 内存分配
+  migrateFromOther: 从其他启动器导入
+  minecraftOptions: Minecraft 选项
+  name: 设置
+  network: 网络设置
+  newsPosition: 移动新闻区域
+  officialWebsite: 官网地址
   particleMode:
-    bubble: æ°”æ³¡
-    name: ç²’å­ç‰¹æ•ˆ
-    push: å¢žåŠ 
-    remove: ç§»é™¤
-    repulse: å‡»é€€
-  particleModeDescription: é€‰æ‹©å½“æ‚¨ç‚¹å‡»ç²’å­æ—¶çš„ç‰¹æ•ˆ
-  quickLaunchSettings: å¿«é€Ÿå¯åŠ¨
-  replaceNative: æ›¿æ¢åº“ä¸º Native (åŽŸç”Ÿ)
-  replaceNativeDescription: æ ¹æ®æ‚¨çš„è®¡ç®—æœºæž¶æž„æ›¿æ¢æœ¬æœºåº“ã€‚
+    bubble: 气泡
+    name: 粒子特效
+    push: 增加
+    remove: 移除
+    repulse: 击退
+  particleModeDescription: 选择当您点击粒子时的特效
+  quickLaunchSettings: 快速启动
+  replaceNative: 替换库为 Native (原生)
+  replaceNativeDescription: 根据您的计算机架构替换本机库。
   replaceNatives:
-    all: å…¨éƒ¨
-    legacy: ä»…æ—§ç‰ˆæœ¬
-  resetAllSettings: é‡ç½®æ‰€æœ‰è®¾ç½®
-  resetAllSettingsConfirmMessage: æ­¤æ“ä½œå°†æ°¸ä¹…åˆ é™¤æ‰€æœ‰è®¾ç½®ã€è´¦æˆ·ã€å®žä¾‹ã€åˆ†ç»„å’Œç¼“å­˜æ•°æ®ã€‚æ­¤æ“ä½œæ— æ³•æ’¤é”€ã€‚ç¡®å®šè¦ç»§ç»­å—ï¼Ÿ
-  resetAllSettingsConfirmTitle: é‡ç½®æ‰€æœ‰è®¾ç½®ï¼Ÿ
-  resetAllSettingsHint: å°†å¯åŠ¨å™¨é‡ç½®ä¸ºå‡ºåŽ‚é»˜è®¤å€¼ï¼ˆåˆ é™¤æ‰€æœ‰æ•°æ®ï¼‰
-  resetAllSettingsSuccess: æ‰€æœ‰è®¾ç½®å·²é‡ç½®ã€‚å¯åŠ¨å™¨å°†é‡æ–°å¯åŠ¨ã€‚
-  resetSettingsError: 'é‡ç½®è®¾ç½®æ—¶å‡ºé”™: {error}'
-  resetToDefault: é‡ç½®åˆ°é»˜è®¤é…è‰²
-  select: é€‰æ‹©
-  settingsExported: è®¾ç½®å¯¼å‡ºæˆåŠŸ
-  settingsImportError: å¯¼å…¥è®¾ç½®å¤±è´¥ã€‚è¯·æ£€æŸ¥æ–‡ä»¶æ ¼å¼ã€‚
-  settingsImported: è®¾ç½®å¯¼å…¥æˆåŠŸ
-  settingsReloadHint: å¯åŠ¨å™¨å°†é‡æ–°å¯åŠ¨ä»¥åº”ç”¨æ‰€æœ‰è®¾ç½®ã€‚
-  showNewsHeader: å–æ¶ˆéšè—æ–°é—»å±•ç¤º
-  showRoot: æµè§ˆ
-  sidebarAlign: ä¾§è¾¹æ å¯¹é½
-  sidebarAutoHide: è‡ªåŠ¨éšè—ä¾§è¾¹æ 
-  sidebarAutoHideHint: è‡ªåŠ¨éšè—ä¾§è¾¹æ ï¼Œé¼ æ ‡æ‚¬åœæ—¶æ˜¾ç¤º
-  sidebarClassic: ç»å…¸
-  sidebarNotch: å‡¹æ§½
-  sidebarPosition: ä¾§è¾¹æ ä½ç½®
-  sidebarScale: ä¾§è¾¹æ ç¼©æ”¾
-  sidebarShowOnlyPinned: ä»…æ˜¾ç¤ºå›ºå®šçš„å®žä¾‹
-  sidebarShowOnlyPinnedHint: ä»…åœ¨ä¾§è¾¹æ ä¸­æ˜¾ç¤ºå›ºå®šçš„å®žä¾‹
-  sidebarStyle: ä¾§è¾¹æ æ ·å¼
-  sidebarStyleHint: åœ¨ç»å…¸å’ŒçŽ°ä»£å‡¹æ§½è®¾è®¡ä¹‹é—´é€‰æ‹©
-  streamerMode: å±å¹•å…±äº«å±è”½
-  streamerModeDescription: æ­¤åŠŸèƒ½å¯ä»¥ä¿æŠ¤æ‚¨çš„éšç§ã€‚æ‰“å¼€åŽï¼Œæ‚¨çš„é‚®ç®±åœ°å€ç­‰éšç§ä¿¡æ¯å°†ä¼šè¢«éšè—ã€‚
+    all: 全部
+    legacy: 仅旧版本
+  resetAllSettings: 重置所有设置
+  resetAllSettingsConfirmMessage: 此操作将永久删除所有设置、账户、实例、分组和缓存数据。此操作无法撤销。确定要继续吗？
+  resetAllSettingsConfirmTitle: 重置所有设置？
+  resetAllSettingsHint: 将启动器重置为出厂默认值（删除所有数据）
+  resetAllSettingsSuccess: 所有设置已重置。启动器将重新启动。
+  resetSettingsError: '重置设置时出错: {error}'
+  resetToDefault: 重置到默认配色
+  select: 选择
+  settingsExported: 设置导出成功
+  settingsImportError: 导入设置失败。请检查文件格式。
+  settingsImported: 设置导入成功
+  settingsReloadHint: 启动器将重新启动以应用所有设置。
+  showNewsHeader: 取消隐藏新闻展示
+  showRoot: 浏览
+  sidebarAlign: 侧边栏对齐
+  sidebarAutoHide: 自动隐藏侧边栏
+  sidebarAutoHideHint: 自动隐藏侧边栏，鼠标悬停时显示
+  sidebarClassic: 经典
+  sidebarNotch: 凹槽
+  sidebarPosition: 侧边栏位置
+  sidebarScale: 侧边栏缩放
+  sidebarShowOnlyPinned: 仅显示固定的实例
+  sidebarShowOnlyPinnedHint: 仅在侧边栏中显示固定的实例
+  sidebarStyle: 侧边栏样式
+  sidebarStyleHint: 在经典和现代凹槽设计之间选择
+  streamerMode: 屏幕共享屏蔽
+  streamerModeDescription: 此功能可以保护您的隐私。打开后，您的邮箱地址等隐私信息将会被隐藏。
   theme:
-    dark: æš—è‰²ä¸»é¢˜
-    light: äº®è‰²ä¸»é¢˜
-    system: è·Ÿéšç³»ç»Ÿ
-  themeExport: å¯¼å‡ºä¸»é¢˜
-  themeBorderRadius: åœ†è§’
-  themeBorderRadiusDescription: ä¸ºå¡ç‰‡ã€å¯¹è¯æ¡†ã€èœå•å’Œé¢æ¿å¯ç”¨æˆ–ç¦ç”¨åœ†è§’ã€‚
-  themeFont: å­—ä½“
-  themeFontDescription: æ›´æ”¹å¯åŠ¨å™¨çš„å­—ä½“ã€‚
-  themeFontUrl: å­—ä½“ç½‘å€
-  themeFontUrlPlaceholder: è¾“å…¥å­—ä½“çš„ HTTP/HTTPS URL
-  themeImport: å¯¼å…¥ä¸»é¢˜
-  themeResetFont: é‡ç½®å­—ä½“
-  themeSelectFont: é€‰æ‹©å­—ä½“
-  themeSettings: ä¸»é¢˜è®¾ç½®
-  themeShare: åˆ†äº«ä¸»é¢˜
-  themeShareDescription: æ‚¨å¯ä»¥ä¸Žæ‚¨çš„æœ‹å‹åˆ†äº«ä¸»é¢˜ã€‚
-  update: å‡çº§
-  useBmclAPI: ä½¿ç”¨ BMCLAPI é•œåƒ
+    dark: 暗色主题
+    light: 亮色主题
+    system: 跟随系统
+  themeExport: 导出主题
+  themeBorderRadius: 圆角
+  themeBorderRadiusDescription: 为卡片、对话框、菜单和面板启用或禁用圆角。
+  themeFont: 字体
+  themeFontDescription: 更改启动器的字体。
+  themeFontUrl: 字体网址
+  themeFontUrlPlaceholder: 输入字体的 HTTP/HTTPS URL
+  themeImport: 导入主题
+  themeResetFont: 重置字体
+  themeSelectFont: 选择字体
+  themeSettings: 主题设置
+  themeShare: 分享主题
+  themeShareDescription: 您可以与您的朋友分享主题。
+  update: 升级
+  useBmclAPI: 使用 BMCLAPI 镜像
   useBmclAPIDescription: >
-    "BMCLAPIæ˜¯ç”±bangbang93åˆ›å»ºçš„é•œåƒæœåŠ¡ã€‚è¿™ä¸ªæœåŠ¡ç”±bangbang93å’ŒOpenBMCLAPIç¤¾åŒºå…±åŒæä¾›ã€‚å®ƒé€šè¿‡æä¾›å›½å†…ä¸‹è½½æœåŠ¡å™¨æ¥æ”¹å–„ä»ŽMojangå®˜æ–¹S3å¯¹è±¡å­˜å‚¨ä¸‹è½½æ–‡ä»¶æ…¢çš„é—®é¢˜ã€‚ç”±äºŽMCBBSæºå·²åœæœï¼ŒBMCLAPIä¼šåœ¨ä¸‹è½½é«˜å³°æœŸæ—¶ä¸‹è½½ç¼“æ…¢ã€‚æœ‰å…³OpenBMCLAPIæœåŠ¡å™¨çš„æœåŠ¡çŠ¶æ€ï¼Œè¯·è®¿é—®OpenBMCLAPIæ¦œå•ç½‘ç«™bd.bangbang93.com"
-  useProxy: HTTP ä»£ç†æœåŠ¡å™¨è®¾ç½®
-  useProxyDescription: ä½¿ç”¨ä»£ç†æœåŠ¡å™¨å¯ä»¥æŸäº›æœåŠ¡çš„è®¿é—®
-  viewBackgroundMusic: æŸ¥çœ‹èƒŒæ™¯éŸ³ä¹
+    "BMCLAPI是由bangbang93创建的镜像服务。这个服务由bangbang93和OpenBMCLAPI社区共同提供。它通过提供国内下载服务器来改善从Mojang官方S3对象存储下载文件慢的问题。由于MCBBS源已停服，BMCLAPI会在下载高峰期时下载缓慢。有关OpenBMCLAPI服务器的服务状态，请访问OpenBMCLAPI榜单网站bd.bangbang93.com"
+  useProxy: HTTP 代理服务器设置
+  useProxyDescription: 使用代理服务器可以某些服务的访问
+  viewBackgroundMusic: 查看背景音乐
 settingLabel:
-  global: å…¨å±€é…ç½®
-  globalHint: æ­¤é…ç½®å·²ä½¿ç”¨å…¨å±€é…ç½®
-  local: å®žä¾‹é…ç½®
-  localHint: æ­¤é…ç½®å·²è¢«å½“å‰å®žä¾‹ä¿®æ”¹
+  global: 全局配置
+  globalHint: 此配置已使用全局配置
+  local: 实例配置
+  localHint: 此配置已被当前实例修改
 setup:
   account:
-    description: æ·»åŠ æ‚¨å¸¸ç”¨çš„è´¦å·ã€‚å¦‚æžœæ‚¨è¿˜æ²¡æœ‰è´¦å·ï¼Œæ‚¨å¯ä»¥è·³è¿‡æ­¤æ­¥éª¤ã€‚
-    name: æ·»åŠ æ¸¸æˆè´¦å·
-    skip: å…ˆä¸ç™»å½•äº†
+    description: 添加您常用的账号。如果您还没有账号，您可以跳过此步骤。
+    name: 添加游戏账号
+    skip: 先不登录了
   appearance:
     name: '@:setting.appearance'
   dataRoot:
-    description: æ•°æ®å­˜å‚¨ç›®å½•ä¸æ˜¯å¸¸è§„çš„ .minecraft ç›®å½•ã€‚å› ä¸º FastLauncher çš„æ•°æ®ç›®å½•æ ¼å¼ç‰¹æ®Šï¼Œä¸å»ºè®®å°†å¸¸è§„ .minecraft ç›®å½•è®¾ç½®ä¸ºæ•°æ®ç›®å½•ã€‚
-    drives: æŽ¨èè·¯å¾„
-    name: è®¾ç½®æ•°æ®å­˜å‚¨ç›®å½•
+    description: 数据存储目录不是常规的 .minecraft 目录。因为 FastLauncher 的数据目录格式特殊，不建议将常规 .minecraft 目录设置为数据目录。
+    drives: 推荐路径
+    name: 设置数据存储目录
   defaultLayoutDescription: |-
-    é»˜è®¤å¸ƒå±€è¯•å›¾å¼ºåŒ–æ¸¸æˆâ€œå®žä¾‹â€çš„æ¦‚å¿µã€‚
-    å¸ƒå±€ä¸Šæœ‰ç‚¹åƒ Discord ä¹‹ç±»çš„åº”ç”¨ç¨‹åºã€‚
-    å®ƒè¿˜å—åˆ°å…¶ä»–æ¸¸æˆå¯åŠ¨å™¨åº”ç”¨ç¨‹åºï¼ˆå¦‚ Steam ç­‰ï¼‰çš„å¯å‘ã€‚
-  defaultPath: é»˜è®¤ä½ç½®
+    默认布局试图强化游戏“实例”的概念。
+    布局上有点像 Discord 之类的应用程序。
+    它还受到其他游戏启动器应用程序（如 Steam 等）的启发。
+  defaultPath: 默认位置
   error:
-    badDataRoot: å¯åŠ¨å™¨æ— æ³•ä½¿ç”¨å½“å‰æ–‡ä»¶åœ°å€ä½œä¸ºæ•°æ®æ–‡ä»¶å¤¹ï¼è¯·å°è¯•å…¶å®ƒæ–‡ä»¶å¤¹ï¼
+    badDataRoot: 启动器无法使用当前文件地址作为数据文件夹！请尝试其它文件夹！
     exists: |-
-      æ‰€é€‰ç›®å½•é‡Œé¢å·²ç»æœ‰æ–‡ä»¶äº†ã€‚
-      æ‚¨ä»ç„¶å¯ä»¥é€‰æ‹©å®ƒä½œä¸ºæ•°æ®ç›®å½•ï¼Œä½†è¯·ç¡®ä¿å·²ç»å¤‡ä»½æ•°æ®ã€‚
+      所选目录里面已经有文件了。
+      您仍然可以选择它作为数据目录，但请确保已经备份数据。
     invalidChar: |-
-      æ•°æ®ç›®å½•åŒ…å«æ— æ•ˆçš„å­—ç¬¦ï¼
-      è¿™å¯èƒ½å¯¼è‡´Minecraftæ— æ³•å¼€å§‹ï¼è·¯å¾„ä¸­è¯·åªåŒ…å«è‹±æ–‡å’Œå¸¸è§ç¬¦å·ï¼
+      数据目录包含无效的字符！
+      这可能导致Minecraft无法开始！路径中请只包含英文和常见符号！
     noPermission: |-
-      å¯åŠ¨å™¨æ²¡æœ‰è®¿é—®æ‰€é€‰ç›®å½•çš„æƒé™ï¼
-      è¯·å°è¯•é€‰æ‹©å…¶ä»–çš„æ–‡ä»¶å¤¹ã€‚
-    nonDictionary: å·²é€‰æ‹©çš„æ–‡ä»¶è·¯å¾„æ˜¯ä¸€ä¸ªæ–‡ä»¶ï¼è¯·é€‰æ‹©ä¸€ä¸ªæ–‡ä»¶å¤¹ï¼
+      启动器没有访问所选目录的权限！
+      请尝试选择其他的文件夹。
+    nonDictionary: 已选择的文件路径是一个文件！请选择一个文件夹！
   focusLayoutDescription: |-
-    ç„¦ç‚¹å¸ƒå±€æ˜¯ Minecraft Launcher æœ€ä¸»æµçš„å¸ƒå±€ã€‚
-    å®ƒè®¾è®¡ç”¨äºŽå•ä¸ªå®žä¾‹æˆ–å‡ ä¸ªå®žä¾‹çš„æƒ…å†µã€‚
+    焦点布局是 Minecraft Launcher 最主流的布局。
+    它设计用于单个实例或几个实例的情况。
   game:
-    name: å¯¼å…¥å·²æœ‰çš„æ¸¸æˆ
+    name: 导入已有的游戏
   locale:
     description: >-
-      é€‰æ‹©æ‚¨çš„è¯­è¨€ï¼Œå¦‚æžœæ‚¨åœ¨è¿™é‡Œæ²¡æœ‰çœ‹åˆ°æƒ³è¦çš„è¯­è¨€ï¼Œå¹¶ä¸”æ‚¨æœ‰å…´è¶£å¸®åŠ©æˆ‘ä»¬çš„è¯ï¼Œæ‚¨å¯ä»¥åœ¨æˆ‘ä»¬çš„ GitHub ä¸Šæ‰“å¼€ Pull Request æ¥æ·»åŠ æ–°è¯­è¨€ï¼
-    language: å½“å‰è¯­è¨€
-    name: è®¾ç½®è¯­è¨€
-  path: å½“å‰ä½ç½®
+      选择您的语言，如果您在这里没有看到想要的语言，并且您有兴趣帮助我们的话，您可以在我们的 GitHub 上打开 Pull Request 来添加新语言！
+    language: 当前语言
+    name: 设置语言
+  path: 当前位置
 shaderPack:
-  deletion: åˆ é™¤å…‰å½±åŒ…
-  deletionHint: è¿™å°†æŠŠå…‰å½±åŒ…æ–‡ä»¶ {path} æ°¸ä¹…åˆ é™¤ã€‚
-  disabled: æœªå¯ç”¨çš„å…‰å½±
-  dropHint: å¯¼å…¥å…‰å½±åŒ…
-  empty: æ²¡æœ‰å¯ç”¨å…‰å½±åŒ…
-  enable: ä½¿ç”¨äº† {name} ä½œä¸ºå…‰å½±åŒ…
-  enabled: å·²å¯ç”¨çš„å…‰å½±
-  manage: ç®¡ç†å…‰å½±åŒ…
-  market: å…‰å½±åŒ…å¸‚åœº
-  name: å…‰å½±åŒ…
-  noPacks: æœªå®‰è£…å…‰å½±åŒ…
-  noPacksInstalled: æ‚¨å°šæœªå®‰è£…ä»»ä½•å…‰å½±åŒ…ã€‚
-  noLocalPacksFound: æœªæ‰¾åˆ°åŒ¹é…æœç´¢çš„æœ¬åœ°å…‰å½±åŒ…ã€‚
-  noShaderMod: æ²¡æœ‰å®‰è£…å…‰å½±æ¨¡ç»„
-  noShaderModHint: ä¸è£…å…‰å½±æ¨¡ç»„å…‰å½±åŒ…æ²¡æ³•ç”Ÿæ•ˆ
-  noShaderModInstallHint: æ‚¨éœ€è¦å®‰è£…ä»¥ä¸‹ mod ä¹‹ä¸€æ¥åŠ è½½ç€å…‰å½±åŒ…ã€‚
-  search: æœç´¢å…‰å½±åŒ…...
-  searchHint: æœç´¢å…‰å½±åŒ…
-  selectSearchHint: æŸ¥çœ‹å·²é€‰æ‹©çš„å…‰å½±åŒ…
-  showDirectory: æ˜¾ç¤ºå…‰å½±æ–‡ä»¶å¤¹
-  showFile: åœ¨æ–‡ä»¶å¤¹ä¸­æ˜¾ç¤ºæ­¤å…‰å½±åŒ…
+  deletion: 删除光影包
+  deletionHint: 这将把光影包文件 {path} 永久删除。
+  disabled: 未启用的光影
+  dropHint: 导入光影包
+  empty: 没有启用光影包
+  enable: 使用了 {name} 作为光影包
+  enabled: 已启用的光影
+  manage: 管理光影包
+  market: 光影包市场
+  name: 光影包
+  noPacks: 未安装光影包
+  noPacksInstalled: 您尚未安装任何光影包。
+  noLocalPacksFound: 未找到匹配搜索的本地光影包。
+  noShaderMod: 没有安装光影模组
+  noShaderModHint: 不装光影模组光影包没法生效
+  noShaderModInstallHint: 您需要安装以下 mod 之一来加载着光影包。
+  search: 搜索光影包...
+  searchHint: 搜索光影包
+  selectSearchHint: 查看已选择的光影包
+  showDirectory: 显示光影文件夹
+  showFile: 在文件夹中显示此光影包
 shared:
-  add: æ·»åŠ 
-  author: ä½œè€…
-  back: è¿”å›ž
-  browse: æµè§ˆ
-  cancel: å–æ¶ˆ
-  client: å®¢æˆ·ç«¯
-  copy: å¤åˆ¶
-  copied: å·²å¤åˆ¶
-  copyFailed: å¤åˆ¶å¤±è´¥
-  copyFailedHint: æ— æ³•å¤åˆ¶åˆ°å‰ªè´´æ¿
-  description: ç®€ä»‹
-  disable: ç¦ç”¨
-  download: ä¸‹è½½
-  edit: ç¼–è¾‘
-  enable: å¯ç”¨
-  filter: æ£€ç´¢
-  install: å®‰è£…
-  installed: å·²å®‰è£…
-  keepSelected: åªç•™ä¸‹å‹¾é€‰çš„ Mod
-  manage: é…ç½®
-  name: åç§°
-  next: ä¸‹ä¸€æ­¥
-  'no': å¦
-  ok: å¥½çš„
-  previous: ä¸Šä¸€æ­¥
-  refresh: åˆ·æ–°
-  remove: ç§»é™¤
-  save: ä¿å­˜
-  search: æœç´¢
-  server: æœåŠ¡ç«¯
-  skipForNow: å…ˆè·³è¿‡
-  'yes': æ˜¯
+  add: 添加
+  author: 作者
+  back: 返回
+  browse: 浏览
+  cancel: 取消
+  client: 客户端
+  copy: 复制
+  copied: 已复制
+  copyFailed: 复制失败
+  copyFailedHint: 无法复制到剪贴板
+  description: 简介
+  disable: 禁用
+  download: 下载
+  edit: 编辑
+  enable: 启用
+  filter: 检索
+  install: 安装
+  installed: 已安装
+  keepSelected: 只留下勾选的 Mod
+  manage: 配置
+  name: 名称
+  next: 下一步
+  'no': 否
+  ok: 好的
+  previous: 上一步
+  refresh: 刷新
+  remove: 移除
+  save: 保存
+  search: 搜索
+  server: 服务端
+  skipForNow: 先跳过
+  'yes': 是
 sidebar:
-  pin: å›ºå®š
-  unpin: å–æ¶ˆå›ºå®š
+  pin: 固定
+  unpin: 取消固定
 sortBy:
-  alphabetAsc: æŒ‰å­—æ¯ï¼ˆä¸Šå‡ï¼‰æŽ’åº
-  alphabetDesc: æŒ‰å­—æ¯ï¼ˆä¸‹é™ï¼‰æŽ’åº
-  name: æŽ’åºæ–¹å¼
-  timeAsc: æŒ‰ä¿®æ”¹æ—¶é—´ï¼ˆä¸Šå‡ï¼‰æŽ’åº
-  timeDesc: é€šè¿‡ä¿®æ”¹æ—¶é—´ï¼ˆä¸‹é™ï¼‰æŽ’åº
+  alphabetAsc: 按字母（上升）排序
+  alphabetDesc: 按字母（下降）排序
+  name: 排序方式
+  timeAsc: 按修改时间（上升）排序
+  timeDesc: 通过修改时间（下降）排序
 store:
-  discover: å‘çŽ°
-  empty: æ²¡æœ‰æ‰¾åˆ°æ•´åˆåŒ…
-  emptyHint: è¯·å°è¯•è°ƒæ•´ç­›é€‰æ¡ä»¶æˆ–æœç´¢å…³é”®è¯ã€‚
-  latestMinecraft: ä½¿ç”¨è¿‘æœŸ Minecraft ç‰ˆæœ¬
-  name: æ•´åˆåŒ…å¸‚åœº
-  searchResult: æœç´¢ç»“æžœ
-  trending: æµè¡Œè¶‹åŠ¿
+  discover: 发现
+  empty: 没有找到整合包
+  emptyHint: 请尝试调整筛选条件或搜索关键词。
+  latestMinecraft: 使用近期 Minecraft 版本
+  name: 整合包市场
+  searchResult: 搜索结果
+  trending: 流行趋势
 tag:
-  create: åˆ›å»ºæ ‡ç­¾
-  createSelected: ä¸ºæ‰€æœ‰é€‰ä¸­çš„åˆ›å»ºæ ‡ç­¾
+  create: 创建标签
+  createSelected: 为所有选中的创建标签
 task:
-  cancelled: å·²å–æ¶ˆ
-  clear: æ¸…é™¤å·²å®Œæˆçš„ä»»åŠ¡
+  cancelled: 已取消
+  clear: 清除已完成的任务
   connection:
-    connected: å·²è¿žæŽ¥
-    free: ç©ºé—²
-    pending: ç­‰å¾…
-    queued: æŽ’é˜Ÿä¸­
-    running: è¿žæŽ¥ä¸­
-    size: æ€»æ•°
-  connections: ç½‘ç»œè¿žæŽ¥
-  empty: ç›®å‰æ²¡æœ‰è¿è¡Œä¸­çš„ä»»åŠ¡
-  failed: å¤±è´¥
-  manager: ä»»åŠ¡ç®¡ç†å™¨
-  nTaskRunning: '{count} ä¸ªä»»åŠ¡è¿è¡Œä¸­'
-  name: ä»»åŠ¡ | ä»»åŠ¡
-  pause: æš‚åœ
+    connected: 已连接
+    free: 空闲
+    pending: 等待
+    queued: 排队中
+    running: 连接中
+    size: 总数
+  connections: 网络连接
+  empty: 目前没有运行中的任务
+  failed: 失败
+  manager: 任务管理器
+  nTaskRunning: '{count} 个任务运行中'
+  name: 任务 | 任务
+  pause: 暂停
 theme:
-  selectImage: é€‰æ‹©å›¾åƒ
-  selectMusic: é€‰æ‹©éŸ³ä¹
-  selectVideo: é€‰æ‹©è§†é¢‘
+  selectImage: 选择图像
+  selectMusic: 选择音乐
+  selectVideo: 选择视频
   title: FastLauncher
 title: FastLauncher
 transportType:
-  host: å…¬ç½‘åœ°å€
-  prflx: åŒä¼´åå°„åœ°å€
-  relay: è½¬å‘åœ°å€
-  srflx: æœåŠ¡ç«¯åå°„åœ°å€
+  host: 公网地址
+  prflx: 同伴反射地址
+  relay: 转发地址
+  srflx: 服务端反射地址
 turnRegion:
-  fr: æ³•å›½
-  guangzhou: å¹¿å·ž
-  hk: é¦™æ¸¯
-  liaoning: è¾½å®
-  po: æ³¢å…°
+  fr: 法国
+  guangzhou: 广州
+  hk: 香港
+  liaoning: 辽宁
+  po: 波兰
 tutorial:
-  feedbackDescription: å¦‚æžœæ‚¨é‡åˆ°äº†é—®é¢˜ï¼Œè¯·ç‚¹å‡»è¿™ä¸ªæŒ‰é’®æ¥è”ç³»å¼€å‘å›¢é˜Ÿã€‚
+  feedbackDescription: 如果您遇到了问题，请点击这个按钮来联系开发团队。
   hideNewsHeaderDescription: |-
-    æ‚¨å¯ä»¥åœ¨å·¦ä¾§çœ‹åˆ°æ–°é—»å±•ç¤ºæŸœã€‚
-    å•å‡»æ­¤æŒ‰é’®å¯ä»¥éšè—è¯¥å±•ç¤ºæ¡ˆä¾‹ã€‚
+    您可以在左侧看到新闻展示柜。
+    单击此按钮可以隐藏该展示案例。
   instance:
-    iconDescription: ç‚¹å‡»æ›´æ”¹å›¾æ ‡ã€‚
-    iconTitle: æ¸¸æˆå›¾æ ‡
-    javaDescription: åˆ‡æ¢ Java ç‰ˆæœ¬ã€‚
-    javaImportDescription: ä»Žæœ¬åœ°å¯¼å…¥ Javaã€‚
-    javaImportTitle: å¯¼å…¥ Java
-    javaTitle: å·²æœ‰ Java åˆ—è¡¨
-  instanceAddDescription: å•å‡»æ­¤æŒ‰é’®å¯å¯¼å…¥çŽ°æœ‰çš„ Minecraftï¼Œä»Žæ•´åˆåŒ…åˆ›å»ºä¸€ä¸ªæ–°çš„ Minecraftï¼Œæˆ–ä»Žå¤´å¼€å§‹åˆ›å»ºä¸€ä¸ªæ–°çš„ Minecraft å®žä¾‹
-  instanceSelectDescription: å•å‡»æ­¤æŒ‰é’®å°†å¯¼èˆªè‡³é€‰æ‹©æ¸¸æˆå’Œé˜…è¯»æ–°é—»çš„é¡µé¢ã€‚
-  launchDescription: ç‚¹å‡»æ­¤æŒ‰é’®å®‰è£…æˆ–å¯åŠ¨æ¸¸æˆã€‚
+    iconDescription: 点击更改图标。
+    iconTitle: 游戏图标
+    javaDescription: 切换 Java 版本。
+    javaImportDescription: 从本地导入 Java。
+    javaImportTitle: 导入 Java
+    javaTitle: 已有 Java 列表
+  instanceAddDescription: 单击此按钮可导入现有的 Minecraft，从整合包创建一个新的 Minecraft，或从头开始创建一个新的 Minecraft 实例
+  instanceSelectDescription: 单击此按钮将导航至选择游戏和阅读新闻的页面。
+  launchDescription: 点击此按钮安装或启动游戏。
   mod:
     defaultSourceDescription: |-
-      æ‚¨å¯ä»¥åœ¨æ­¤å¤„é€‰æ‹©æ¨¡ç»„è¯¦ç»†ä¿¡æ¯çš„æ¥æºã€‚
-      Modrinth å’Œ Curseforge å‡å‘å¸ƒäº†æ¨¡ç»„ã€‚
-      å¦‚æžœæ‚¨æƒ³åœ¨è¿™ä¸¤ä¸ªå†…å®¹æä¾›å•†ä¹‹é—´åˆ‡æ¢ã€‚
-      æ‚¨å¯ä»¥åœ¨æ­¤å¤„æ›´æ”¹è¯¥å€¼ã€‚
-    defaultSourceTitle: é€‰æ‹©æ¨¡ç»„è¯¦æƒ…æ¥æº
+      您可以在此处选择模组详细信息的来源。
+      Modrinth 和 Curseforge 均发布了模组。
+      如果您想在这两个内容提供商之间切换。
+      您可以在此处更改该值。
+    defaultSourceTitle: 选择模组详情来源
     detailDescription: |-
-      å½“æ‚¨é€‰æ‹©å·¦ä¾§çš„é¡¹ç›®æ—¶ã€‚
-      æ‚¨å°†çœ‹åˆ°è¯¥æ¨¡ç»„çš„è¯¦ç»†ä¿¡æ¯ã€‚
-      å†…å®¹å¯ä»¥æ¥è‡ª Modrinthã€Curseforge æˆ–è§£æžçš„æ¨¡ç»„å†…å®¹ã€‚
-    detailTitle: æ¨¡ç»„è¯¦æƒ…
+      当您选择左侧的项目时。
+      您将看到该模组的详细信息。
+      内容可以来自 Modrinth、Curseforge 或解析的模组内容。
+    detailTitle: 模组详情
     listDescription: |-
-      è¿™é‡Œä¼šæ˜¾ç¤ºå·²å®‰è£…çš„æ¨¡ç»„ã€‚
-      å½“æ‚¨è¾“å…¥å…³é”®å­—æˆ–é€‰æ‹©ç±»åˆ«åŽï¼Œè¿™é‡Œä¼šæ˜¾ç¤ºæœç´¢åˆ°çš„æ¨¡ç»„ã€‚
-    listTitle: å®‰è£…/æœç´¢çš„æ¨¡ç»„
-    searchDescription: æ‚¨å¯ä»¥é€šè¿‡æ­¤æœç´¢æ¡†ä»Ž Modrinthã€Curseforge æˆ–æœ¬åœ°ç¼“å­˜ä¸­æœç´¢æ¨¡ç»„ã€‚
-    searchTitle: æœç´¢ã€å‘çŽ°æ¨¡ç»„
+      这里会显示已安装的模组。
+      当您输入关键字或选择类别后，这里会显示搜索到的模组。
+    listTitle: 安装/搜索的模组
+    searchDescription: 您可以通过此搜索框从 Modrinth、Curseforge 或本地缓存中搜索模组。
+    searchTitle: 搜索、发现模组
   multiplayer:
-    contentDescription: æ‚¨å’Œæ‚¨çš„åŒä¼´ä¹‹é—´çš„è”ç³»å°†åœ¨æ­¤å¤„åˆ—å‡ºã€‚
+    contentDescription: 您和您的同伴之间的联系将在此处列出。
     contentTitle: '@:multiplayer.connections'
     groupDescription: |-
-      æ‚¨å¯ä»¥ä¸Žå…¶ä»–çŽ©å®¶åˆ›å»ºæˆ–åŠ å…¥ç¾¤ç»„ã€‚
-      å¯åŠ¨å™¨ä¼šå°è¯•æ ¹æ®ç¾¤ç»„åœ¨æ‚¨å’Œæ‚¨çš„æœ‹å‹ä¹‹é—´åˆ›å»º P2P è¿žæŽ¥ã€‚
-      æ‚¨å¯ä»¥è¾“å…¥å¥½å‹æä¾›çš„ç¾¤ç»„åç§°ã€‚
-      æˆ–è€…æ‚¨å¯ä»¥è‡ªå·±åˆ›å»ºä¸€ä¸ªç‹¬ç‰¹çš„åç§°ã€‚
-    groupTitle: å’Œå…¶ä»–çŽ©å®¶ç»„é˜Ÿ
+      您可以与其他玩家创建或加入群组。
+      启动器会尝试根据群组在您和您的朋友之间创建 P2P 连接。
+      您可以输入好友提供的群组名称。
+      或者您可以自己创建一个独特的名称。
+    groupTitle: 和其他玩家组队
     joinDescription: |-
-      è¾“å…¥ç»„åç§°åŽã€‚
-      æ‚¨å¯ä»¥å•å‡»æ­¤æŒ‰é’®åŠ å…¥æˆ–åˆ›å»ºç¾¤ç»„ã€‚
-      å¦‚æžœç»„åç§°ä¸ºç©ºï¼Œå¯åŠ¨å™¨å°†ä¸ºæ‚¨ç”Ÿæˆä¸€ä¸ªåç§°ã€‚
+      输入组名称后。
+      您可以单击此按钮加入或创建群组。
+      如果组名称为空，启动器将为您生成一个名称。
     manualDescription: |-
-      å¦‚æžœæ‚¨æˆ–æ‚¨çš„æœ‹å‹æ— æ³•è¿žæŽ¥åˆ°ç¾¤ç»„ã€‚
-      æ‚¨å¯ä»¥å°è¯•é€šè¿‡ç‚¹å‡»â€œæ‰‹åŠ¨è¿žæŽ¥â€æ¥æ‰‹åŠ¨äº¤æ¢ä»¤ç‰Œã€‚
-      å¦‚æžœä¹Ÿå¤±è´¥ï¼Œåˆ™å¯èƒ½æ˜¯äº’è”ç½‘é—®é¢˜ã€‚
+      如果您或您的朋友无法连接到群组。
+      您可以尝试通过点击“手动连接”来手动交换令牌。
+      如果也失败，则可能是互联网问题。
   recentPlayDescription: |-
-    åˆ›å»ºçš„æ¸¸æˆå°†åœ¨æ­¤å¤„åˆ—å‡ºã€‚
-    æ‚¨å¯ä»¥åœ¨æ­¤å¤„åˆ‡æ¢è§†å›¾ä»¥æŸ¥çœ‹å·²å®‰è£…çš„ç‰ˆæœ¬å’Œä¸‹è½½çš„æ•´åˆåŒ…ã€‚
-  storePoupularModpackDescription: æ‚¨å°†åœ¨è¿™é‡Œçœ‹åˆ° Curseforge å’Œ Modrinth ä¸­æœ€æµè¡Œçš„æ•´åˆåŒ…ã€‚
-  storeSearchCategoryDescription: æ‚¨è¿˜å¯ä»¥åœ¨æ­¤å¤„åˆ‡æ¢ç±»åˆ«æˆ–è¿‡æ»¤å™¨ã€‚
+    创建的游戏将在此处列出。
+    您可以在此处切换视图以查看已安装的版本和下载的整合包。
+  storePoupularModpackDescription: 您将在这里看到 Curseforge 和 Modrinth 中最流行的整合包。
+  storeSearchCategoryDescription: 您还可以在此处切换类别或过滤器。
   storeSearchDescription: |-
-    æ‚¨å¯ä»¥é€šè¿‡åœ¨æ­¤æ–‡æœ¬æ¡†ä¸­è¾“å…¥æ¥æœç´¢æ•´åˆåŒ…ã€‚
-    æŒ‰ Enter é”®æœç´¢ã€‚
-  storeSearchResultDescription: æ‚¨å°†çœ‹åˆ°æ­¤å¤„åˆ—å‡ºçš„æ‰€æœ‰æœç´¢ç»“æžœã€‚
-  userAccountDescription: å•å‡»æ­¤å›¾æ ‡å¯æ·»åŠ æˆ–ç®¡ç†æ‚¨çš„ Minecraft å¸æˆ·ã€‚
+    您可以通过在此文本框中输入来搜索整合包。
+    按 Enter 键搜索。
+  storeSearchResultDescription: 您将看到此处列出的所有搜索结果。
+  userAccountDescription: 单击此图标可添加或管理您的 Minecraft 帐户。
 universalDrop:
-  unknownResource: æ— æ³•è§£æž
+  unknownResource: 无法解析
 unresolvedFiles:
-  description: è¿™äº›æ–‡ä»¶åœ¨å®‰è£…æ—¶æ— æ³•ä¸‹è½½ã€‚æœç´¢åŒ¹é…çš„æ¥æºå¹¶å®‰è£…åŒ¹é…é¡¹ï¼Œæˆ–å¿½ç•¥æ–‡ä»¶ä»¥ç…§å¸¸å¯åŠ¨ã€‚
-  empty: æ‰€æœ‰æ–‡ä»¶å‡å·²è§£æžã€‚
-  ignoreSelected: 'å¿½ç•¥ {count} ä¸ª'
-  install: 'å®‰è£… {count} ä¸ªåŒ¹é…é¡¹'
-  matched: å·²åŒ¹é…
-  noMatch: æœªæ‰¾åˆ°
-  search: æœç´¢æ¥æº
+  description: 这些文件在安装时无法下载。搜索匹配的来源并安装匹配项，或忽略文件以照常启动。
+  empty: 所有文件均已解析。
+  ignoreSelected: '忽略 {count} 个'
+  install: '安装 {count} 个匹配项'
+  matched: 已匹配
+  noMatch: 未找到
+  search: 搜索来源
   source:
     curseforge-name: CurseForge
-    dependency: ä¾èµ–
-    modrinth-hash: Modrinth å“ˆå¸Œ
+    dependency: 依赖
+    modrinth-hash: Modrinth 哈希
     modrinth-name: Modrinth
-  title: æœªè§£æžçš„æ–‡ä»¶
-  via: 'é€šè¿‡ {source}'
+  title: 未解析的文件
+  via: '通过 {source}'
 upstream:
-  downgrade: é™çº§
-  onlyShowCurrentVersion: åªæ˜¾ç¤ºé€‚åˆå½“å‰ Minecraft çš„ç‰ˆæœ¬
-  update: æ›´æ–°
+  downgrade: 降级
+  onlyShowCurrentVersion: 只显示适合当前 Minecraft 的版本
+  update: 更新
 user:
-  accessToken: è®¿é—®ä»¤ç‰Œ
-  authMode: éªŒè¯æœåŠ¡
-  authService: éªŒè¯æœåŠ¡
-  email: é‚®ç®±
-  id: ç”¨æˆ· ID
-  name: ç”¨æˆ·å
-  nameHint: æ¸¸æˆä¸­æ˜¾ç¤ºçš„åå­—
-  profile: ä¸ªäººä¿¡æ¯
-  tokenExpired: å·²è¿‡æœŸ
-  tokenValidUntil: æœ‰æ•ˆæœŸè‡³
+  accessToken: 访问令牌
+  authMode: 验证服务
+  authService: 验证服务
+  email: 邮箱
+  id: 用户 ID
+  name: 用户名
+  nameHint: 游戏中显示的名字
+  profile: 个人信息
+  tokenExpired: 已过期
+  tokenValidUntil: 有效期至
 userAccount:
-  add: æ·»åŠ è´¦å·
-  removeDescription: è¿™å°†æŠ¹åŽ»æ‰€æœ‰å…³äºŽæ­¤è´¦å·çš„ä¿¡æ¯ï¼Œæ‚¨æ˜¯å¦ç¡®å®šï¼Ÿ
-  removeTitle: ç§»é™¤è´¦å·
+  add: 添加账号
+  removeDescription: 这将抹去所有关于此账号的信息，您是否确定？
+  removeTitle: 移除账号
 userCape:
-  changeTitle: æŠ«é£Žè®¾ç½®
-  description: æŠ«é£Žæ˜¯çŽ©å®¶å‚ä¸Žæ´»åŠ¨èŽ·å¾—çš„ç‰¹æ®Šå¥–åŠ±ï¼Œæˆ–åœ¨ç‰¹å®šäº‹ä»¶å‘ç”ŸåŽçš„çºªå¿µå“
-  noCape: éšè—æŠ«é£Ž
+  changeTitle: 披风设置
+  description: 披风是玩家参与活动获得的特殊奖励，或在特定事件发生后的纪念品
+  noCape: 隐藏披风
 userService:
-  add: æ·»åŠ æ›´å¤šéªŒè¯æˆ–çŽ©å®¶ä¿¡æ¯æœåŠ¡å™¨
-  authlibInjectorMetadata: Authlib-Injector å…ƒæ•°æ®
-  baseUrlHint: ç¬¬ä¸‰æ–¹æœåŠ¡å™¨çš„æ ¹ URL
-  homepage: ä¸»é¡µ
-  implementation: å®žçŽ°
-  manageServices: ç®¡ç†æœåŠ¡
-  register: æ³¨å†Œ
-  server: æœåŠ¡å™¨
+  add: 添加更多验证或玩家信息服务器
+  authlibInjectorMetadata: Authlib-Injector 元数据
+  baseUrlHint: 第三方服务器的根 URL
+  homepage: 主页
+  implementation: 实现
+  manageServices: 管理服务
+  register: 注册
+  server: 服务器
   service: null
-  skinDomains: çš®è‚¤åŸŸå
-  title: ç¬¬ä¸‰æ–¹çŽ©å®¶ä¿¡æ¯æœåŠ¡
-  version: ç‰ˆæœ¬
+  skinDomains: 皮肤域名
+  title: 第三方玩家信息服务
+  version: 版本
 userServices:
   microsoft:
-    account: å¾®è½¯è´¦å·
-    deviceCode: è®¾å¤‡ç 
-    deviceCodeHint: è®¾å¤‡ç ä¼šåœ¨ç‚¹å‡»ç™»å½•åŽè‡ªåŠ¨ç”Ÿæˆ
-    name: å¾®è½¯
-    password: åœ¨æµè§ˆå™¨ä¸­è¾“å…¥å¯†ç 
-    useDeviceCode: ä½¿ç”¨è®¾å¤‡ç ç™»å½•
+    account: 微软账号
+    deviceCode: 设备码
+    deviceCodeHint: 设备码会在点击登录后自动生成
+    name: 微软
+    password: 在浏览器中输入密码
+    useDeviceCode: 使用设备码登录
   mojang:
-    account: é‚®ç®±åœ°å€
+    account: 邮箱地址
     name: Mojang
-    password: å¯†ç 
+    password: 密码
   offline:
-    account: ç”¨æˆ·å
-    name: ç¦»çº¿æ¨¡å¼
-    password: æ— éœ€å¯†ç 
-    uuid: ç”¨æˆ·çš„ UUID (é™¤äº†ç‰¹æ®Šç”¨é€”ï¼Œå¦åˆ™ä¸å¡«å†™)
+    account: 用户名
+    name: 离线模式
+    password: 无需密码
+    uuid: 用户的 UUID (除了特殊用途，否则不填写)
 userSkin:
-  import: å¯¼å…¥çš®è‚¤
-  importFile: ä»Žæ–‡ä»¶å¯¼å…¥
-  importLink: ä»Žé“¾æŽ¥å¯¼å…¥
-  placeUrlHere: å¡«å†™å¾…å¯¼å…¥çš®è‚¤ URL
-  reset: é‡ç½®
-  save: ä¿å­˜
-  saveTitle: ä¿å­˜çš®è‚¤åˆ°æœ¬åœ°
-  skinType: çš®è‚¤ç±»åž‹
-  upload: ä¸Šä¼ 
-  urlNotEmpty: çš®è‚¤ URL ä¸èƒ½ä¸ºç©º
-  urlNotValid: è¯·è¾“å…¥æœ‰æ•ˆçš„çš®è‚¤ URL
-  useSlim: ä½¿ç”¨ç»†èƒ³è†Šæ¨¡åž‹
-  classic: ç»å…¸
-  slim: çº¤ç»†
+  import: 导入皮肤
+  importFile: 从文件导入
+  importLink: 从链接导入
+  placeUrlHere: 填写待导入皮肤 URL
+  reset: 重置
+  save: 保存
+  saveTitle: 保存皮肤到本地
+  skinType: 皮肤类型
+  upload: 上传
+  urlNotEmpty: 皮肤 URL 不能为空
+  urlNotValid: 请输入有效的皮肤 URL
+  useSlim: 使用细胳膊模型
+  classic: 经典
+  slim: 纤细
 version:
-  checkIntegrity: æ£€æŸ¥å®Œæ•´æ€§
-  name: ç‰ˆæœ¬ | ç‰ˆæœ¬
-  notInstalled: æœªå®‰è£…è¯¥ç‰ˆæœ¬
+  checkIntegrity: 检查完整性
+  name: 版本 | 版本
+  notInstalled: 未安装该版本
 versionType:
-  alpha: Alpha (æ—©æœŸæµ‹è¯•ç‰ˆ)
-  beta: Beta (æµ‹è¯•ç‰ˆ)
-  name: ç±»åž‹
-  release: ç¨³å®šç‰ˆ
+  alpha: Alpha (早期测试版)
+  beta: Beta (测试版)
+  name: 类型
+  release: 稳定版
 minecraftFriends:
-  title: Minecraft å¥½å‹
-  add: æ·»åŠ å¥½å‹
-  addPlaceholder: Minecraft ç”¨æˆ·å
-  send: å‘é€
-  friends: å¥½å‹
-  incoming: æ”¶åˆ°çš„è¯·æ±‚
-  outgoing: å‘å‡ºçš„è¯·æ±‚
-  heroEmptyTitle: ä½ çš„å¥½å‹åˆ—è¡¨ä¸ºç©º
-  heroEmptyHint: è¾“å…¥ Minecraft ç”¨æˆ·åä»¥å‘é€å¥½å‹è¯·æ±‚ã€‚
-  scopedTo: 'å·²ç™»å½•ä¸º {name}'
-  reconnectAction: é‡æ–°è¿žæŽ¥
-  accept: æŽ¥å—
-  unsupported: å¥½å‹åŠŸèƒ½ä»…é€‚ç”¨äºŽ Microsoft è´¦æˆ·ã€‚
-  requiresMicrosoft: è¯·ä½¿ç”¨ Microsoft è´¦æˆ·ç™»å½•ä»¥ä½¿ç”¨å¥½å‹åŠŸèƒ½ã€‚
-  notifyAdded: å·²å‘ {name} å‘é€å¥½å‹è¯·æ±‚
-  addedRelative: '{time}æ·»åŠ '
-  expiresRelative: '{time}è¿‡æœŸ'
-  incomingHint: 1 ä¸ªå¥½å‹è¯·æ±‚ | {count} ä¸ªå¥½å‹è¯·æ±‚
+  title: Minecraft 好友
+  add: 添加好友
+  addPlaceholder: Minecraft 用户名
+  send: 发送
+  friends: 好友
+  incoming: 收到的请求
+  outgoing: 发出的请求
+  heroEmptyTitle: 你的好友列表为空
+  heroEmptyHint: 输入 Minecraft 用户名以发送好友请求。
+  scopedTo: '已登录为 {name}'
+  reconnectAction: 重新连接
+  accept: 接受
+  unsupported: 好友功能仅适用于 Microsoft 账户。
+  requiresMicrosoft: 请使用 Microsoft 账户登录以使用好友功能。
+  notifyAdded: 已向 {name} 发送好友请求
+  addedRelative: '{time}添加'
+  expiresRelative: '{time}过期'
+  incomingHint: 1 个好友请求 | {count} 个好友请求
   privacy:
-    friendsEnabled: å¯ç”¨å¥½å‹åˆ—è¡¨
-    acceptInvites: æŽ¥å—å¥½å‹é‚€è¯·
-    acceptInvitesHint: å…³é—­åŽï¼Œå…¶ä»–çŽ©å®¶æ— æ³•å‘ä½ å‘é€å¥½å‹è¯·æ±‚ã€‚
+    friendsEnabled: 启用好友列表
+    acceptInvites: 接受好友邀请
+    acceptInvitesHint: 关闭后，其他玩家无法向你发送好友请求。
   errors:
-    unknownProfile: æ‰¾ä¸åˆ°è¯¥ç”¨æˆ·åçš„çŽ©å®¶ã€‚
-    cannotAddSelf: ä½ ä¸èƒ½å‘è‡ªå·±å‘é€å¥½å‹è¯·æ±‚ã€‚
-    duplicate: è¯¥çŽ©å®¶å·²åœ¨ä½ çš„åˆ—è¡¨ä¸­ã€‚
-    inviteRejected: è¯¥çŽ©å®¶æœªå¯ç”¨å¥½å‹åŠŸèƒ½æˆ–ä¸æŽ¥å—é‚€è¯·ã€‚
-    tokenExpired: ä½ çš„ Microsoft ä¼šè¯å·²è¿‡æœŸï¼Œè¯·é‡æ–°ç™»å½•ã€‚
-    generic: å‡ºçŽ°äº†ä¸€äº›é—®é¢˜ï¼Œè¯·é‡è¯•ã€‚
+    unknownProfile: 找不到该用户名的玩家。
+    cannotAddSelf: 你不能向自己发送好友请求。
+    duplicate: 该玩家已在你的列表中。
+    inviteRejected: 该玩家未启用好友功能或不接受邀请。
+    tokenExpired: 你的 Microsoft 会话已过期，请重新登录。
+    generic: 出现了一些问题，请重试。
 relative:
-  justNow: åˆšåˆš
-  secondsAgo: '{count} ç§’å‰'
-  minutesAgo: '{count} åˆ†é’Ÿå‰'
-  hoursAgo: '{count} å°æ—¶å‰'
-  daysAgo: '{count} å¤©å‰'
-
+  justNow: 刚刚
+  secondsAgo: '{count} 秒前'
+  minutesAgo: '{count} 分钟前'
+  hoursAgo: '{count} 小时前'
+  daysAgo: '{count} 天前'

@@ -1,760 +1,760 @@
-﻿AppAddInstanceDialog:
+AppAddInstanceDialog:
   choiceTitle: |-
-    æˆ‘å€‘ç™¼ç¾å¤šå€‹å•Ÿå‹•è¨­å®šæª”æ¡ˆã€‚
-    è«‹é¸æ“‡å…¶ä¸­çš„ä¸€é …é€²è¡ŒåŒ¯å…¥ã€‚
-  createTitle: å»ºç«‹éŠæˆ²
-  serverTitle: è¼¸å…¥æ‚¨çš„ä¼ºæœå™¨ä½å€
+    我們發現多個啟動設定檔案。
+    請選擇其中的一項進行匯入。
+  createTitle: 建立遊戲
+  serverTitle: 輸入您的伺服器位址
 AppShareInstanceDialog:
   alterDownloadDescription: |-
-    å¦‚æžœæ‚¨ä¸æƒ³æžäº‚ç›®å‰å¯¦ä¾‹ã€‚
-    æ‚¨ä¹Ÿå¯ä»¥å¾žå°ç­‰æ–¹çš„è¨­å®šå»ºç«‹ä¸€å€‹æ–°å¯¦ä¾‹ã€‚
-    æŒ‰ä¸€ä¸‹ä¸‹é¢çš„æŒ‰éˆ•å»ºç«‹å¯¦ä¾‹ã€‚
-  baseInfo: åˆ†äº«çš„åŸºæœ¬è¨­å®š
-  cancelShare: å–æ¶ˆåˆ†äº«
-  description: åˆ†äº«å¾Œï¼Œæ‚¨çš„è¯æ©Ÿå¤¥ä¼´å°‡å¯ä»¥ä¸‹è¼‰æ‚¨åˆ†äº«çš„éŠæˆ²è³‡æº
-  downloadDescription: è«‹ç¢ºèªæ‚¨çš„è¯æ©Ÿå¤¥ä¼´æä¾›çš„æª”æ¡ˆï¼Œä¸¦é¸æ“‡æ‚¨è¦ä¸‹è¼‰çš„é …ç›®ã€‚æª”æ¡ˆå°‡ä¸‹è¼‰åˆ°ç›®å‰å¯¦ä¾‹ {name} ä¸­ã€‚
-  downloadNotifyTitle: å¾ž {user} ä¸‹è¼‰å¯¦ä¾‹
-  downloadTitle: å¾žå…¶ä»–çŽ©å®¶é‚£ç²å¾—éŠæˆ²è³‡æº
-  filesToDownload: é¸æ“‡æ‚¨æƒ³ä¸‹è¼‰çš„æª”æ¡ˆ
-  filesToShare: é¸æ“‡åˆ†äº«çš„æª”æ¡ˆ
-  instanceShare: '{user} çµ¦æ‚¨åˆ†äº«äº†ä»–çš„éŠæˆ²è¨­å®š'
-  share: åˆ†äº«
-  shareNotifyTitle: åˆ†äº«è¨­å®š
-  shareTitle: åˆ†äº«å•Ÿå‹•è¨­å®šçµ¦å…¶ä»–çŽ©å®¶
+    如果您不想搞亂目前實例。
+    您也可以從對等方的設定建立一個新實例。
+    按一下下面的按鈕建立實例。
+  baseInfo: 分享的基本設定
+  cancelShare: 取消分享
+  description: 分享後，您的聯機夥伴將可以下載您分享的遊戲資源
+  downloadDescription: 請確認您的聯機夥伴提供的檔案，並選擇您要下載的項目。檔案將下載到目前實例 {name} 中。
+  downloadNotifyTitle: 從 {user} 下載實例
+  downloadTitle: 從其他玩家那獲得遊戲資源
+  filesToDownload: 選擇您想下載的檔案
+  filesToShare: 選擇分享的檔案
+  instanceShare: '{user} 給您分享了他的遊戲設定'
+  share: 分享
+  shareNotifyTitle: 分享設定
+  shareTitle: 分享啟動設定給其他玩家
 BaseSettingGeneral:
-  title: ä¸€èˆ¬è¨­å®š
+  title: 一般設定
 HomeJavaIssueDialog:
-  incompatibleJava: Java ç‰ˆæœ¬å¯èƒ½ä¸ç›¸å®¹
-  incompatibleJavaHint: Java {javaVersion} å¯èƒ½ç„¡æ³•åŸ·è¡Œå·²é¸æ“‡çš„ Minecraft ç‰ˆæœ¬
-  missingJava: æ²’æœ‰æ‰¾åˆ° Java
-  missingJavaHint: å•Ÿå‹•å™¨åœ¨æ‚¨çš„é›»è…¦ä¸Šæ²’æœ‰æ‰¾åˆ°ä»»ä½•Javaã€‚æ‚¨å¯ä»¥å˜—è©¦ï¼š
+  incompatibleJava: Java 版本可能不相容
+  incompatibleJavaHint: Java {javaVersion} 可能無法執行已選擇的 Minecraft 版本
+  missingJava: 沒有找到 Java
+  missingJavaHint: 啟動器在您的電腦上沒有找到任何Java。您可以嘗試：
   optionSwitch:
-    name: åˆ‡æ›åˆ°å·²æœ‰çš„ Java {version}
+    name: 切換到已有的 Java {version}
 HomeLaunchMultiInstanceDialog:
-  confirm: æ˜¯çš„ï¼Œå¤šå¯¦ä¾‹å•Ÿå‹•
-  description: æ­£åœ¨å˜—è©¦å•Ÿå‹•å¤šå€‹ Minecraft å¯¦ä¾‹ï¼Œæ‚¨ç¢ºå®šå—Žï¼Ÿ
-  title: å¤šå¯¦ä¾‹å•Ÿå‹•
+  confirm: 是的，多實例啟動
+  description: 正在嘗試啟動多個 Minecraft 實例，您確定嗎？
+  title: 多實例啟動
 SettingMigrationDialog:
-  selectRootDirectory: é¸æ“‡æ–°çš„æ ¹ç›®éŒ„
+  selectRootDirectory: 選擇新的根目錄
 ago:
-  day: '{duration} å¤©å‰'
-  hour: '{duration} å°æ™‚å‰'
-  minute: '{duration} åˆ†é˜å‰'
-  second: '{duration} ç§’å‰'
+  day: '{duration} 天前'
+  hour: '{duration} 小時前'
+  minute: '{duration} 分鐘前'
+  second: '{duration} 秒前'
 askAICrash:
-  agentNotConfigured: åœ¨è¨­å®šä¸­é…ç½® AI ä¾›æ‡‰å•†å’Œ API é‡‘é‘°ï¼Œå³å¯è®“å•Ÿå‹•å™¨å…§å»ºçš„ AI åŠ©æ‰‹ç‚ºä½ è¨ºæ–·ä¸¦ä¿®å¾©æ­¤å•é¡Œã€‚
-  askAgent: ä½¿ç”¨å…§å»º AI åŠ©æ‰‹è¨ºæ–·
-  copyPrompt: è¤‡è£½æç¤ºè©¢å•AI
-  description: è®“AIå¹«åŠ©æ‚¨äº†è§£éŠæˆ²å´©æ½°ï¼è«‹æŒ‰ç…§ä¸‹é¢çš„èªªæ˜Žå‘AIè©¢å•æœ‰é—œæ­¤éŠæˆ²å´©æ½°çš„ä¿¡æ¯ï¼
-  orExternal: æˆ–ä½¿ç”¨å¤–éƒ¨ AI
-  selectPlatform: æ‰“é–‹ä¸€å€‹AIå¹³å°ï¼Œç²˜è²¼æ‚¨å‰›å‰›è¤‡åˆ¶çš„æç¤ºã€‚
-  setupAgent: è¨­å®š AI åŠ©æ‰‹
-authProfileAddedNotification: å·²æ–°å¢žç¬¬ä¸‰æ–¹é©—è­‰ {name}
+  agentNotConfigured: 在設定中配置 AI 供應商和 API 金鑰，即可讓啟動器內建的 AI 助手為你診斷並修復此問題。
+  askAgent: 使用內建 AI 助手診斷
+  copyPrompt: 複製提示詢問AI
+  description: 讓AI幫助您了解遊戲崩潰！請按照下面的說明向AI詢問有關此遊戲崩潰的信息！
+  orExternal: 或使用外部 AI
+  selectPlatform: 打開一個AI平台，粘貼您剛剛複制的提示。
+  setupAgent: 設定 AI 助手
+authProfileAddedNotification: 已新增第三方驗證 {name}
 baseSetting:
-  title: ä¸€èˆ¬è¨­å®š
+  title: 一般設定
 browseApp:
-  createShortcut: å»ºç«‹æ·å¾‘
-  default: é è¨­
-  delete: åˆªé™¤
-  launch: å•Ÿå‹•ä¸¦è¨­å®šç‚ºé è¨­
-browseApps: æª¢è¦–å•Ÿå‹•å™¨çš„ä½¿ç”¨è€…ä»‹é¢
-color: é¡è‰²
-confirm: é–‹å§‹
+  createShortcut: 建立捷徑
+  default: 預設
+  delete: 刪除
+  launch: 啟動並設定為預設
+browseApps: 檢視啟動器的使用者介面
+color: 顏色
+confirm: 開始
 copyClipboard:
-  success: è¤‡è£½åˆ°å‰ªè²¼ç°¿
-create: å»ºç«‹
+  success: 複製到剪貼簿
+create: 建立
 curseforge:
-  category: åˆ†é¡ž
-  createdDate: å»ºç«‹æ—¥æœŸ
-  lastUpdate: ä¸Šæ¬¡æ›´æ–°æ—¥æœŸ
-  releasedDate: é‡‹å‡ºæ—¥æœŸ
+  category: 分類
+  createdDate: 建立日期
+  lastUpdate: 上次更新日期
+  releasedDate: 釋出日期
 curseforgeCategory:
-  API and Library: API å’Œå‡½å¼åº«
-  Addons: æ“´å……æ’ä»¶
-  Adventure: å†’éšª
-  Adventure and RPG: å†’éšªèˆ‡è§’è‰²æ‰®æ¼”
-  Animated: å‹•ç•«
-  Armor, Tools, and Weapons: ç›”ç”²ã€å·¥å…·å’Œæ­¦å™¨
-  Combat / PvP: ç«¶æŠ€/PVP
-  Cosmetic: å¤–è§€/è£é£¾
-  Creation: å‰µé€ æ¨¡å¼
-  Data Packs: è³‡æ–™åŒ…
-  Education: æ•™è‚²
-  Exploration: æŽ¢ç´¢
-  Extra Large: è¶…å¤§åž‹
-  FTB Official Pack: FTB å®˜æ–¹åŒ…
+  API and Library: API 和函式庫
+  Addons: 擴充插件
+  Adventure: 冒險
+  Adventure and RPG: 冒險與角色扮演
+  Animated: 動畫
+  Armor, Tools, and Weapons: 盔甲、工具和武器
+  Combat / PvP: 競技/PVP
+  Cosmetic: 外觀/裝飾
+  Creation: 創造模式
+  Data Packs: 資料包
+  Education: 教育
+  Exploration: 探索
+  Extra Large: 超大型
+  FTB Official Pack: FTB 官方包
   Fabric: Fabric
   FancyMenu: FancyMenu
-  Font Packs: å­—é«”
-  Food: é£Ÿç‰©
-  Game Map: éŠæˆ²åœ°åœ–
-  Hardcore: ç¡¬æ ¸
+  Font Packs: 字體
+  Food: 食物
+  Game Map: 遊戲地圖
+  Hardcore: 硬核
   MCreator: MCreator
-  Magic: é­”æ³•
-  Map Based: åŸºæ–¼åœ°åœ–
-  Map and Information: åœ°åœ–å’Œè³‡è¨Š
-  Medieval: ä¸­ä¸–ç´€
-  Mini Game: å°éŠæˆ²
-  Miscellaneous: é›œé …
-  Mod Support: ç›¸å®¹æ¨¡çµ„
-  Modded World: æ¨¡çµ„åŒ–ä¸–ç•Œ
-  Modern: ç¾ä»£
-  Multiplayer: å¤šäººè¯æ©Ÿ
-  Parkour: è·‘é…·
-  Photo Realistic: çœŸå¯¦é¢¨æ ¼
-  Puzzle: è§£å¯†
+  Magic: 魔法
+  Map Based: 基於地圖
+  Map and Information: 地圖和資訊
+  Medieval: 中世紀
+  Mini Game: 小遊戲
+  Miscellaneous: 雜項
+  Mod Support: 相容模組
+  Modded World: 模組化世界
+  Modern: 現代
+  Multiplayer: 多人聯機
+  Parkour: 跑酷
+  Photo Realistic: 真實風格
+  Puzzle: 解密
   QoL: QoL
-  Quests: ä»»å‹™
-  Redstone: ç´…çŸ³
-  Sci-Fi: ç§‘å¹»
-  Server Utility: ä¼ºæœå™¨å·¥å…·
-  Skyblock: ç©ºå³¶
-  Small / Light: è¼•é‡ç´š
-  Steampunk: è’¸æ±½é¾å…‹
-  Storage: å„²å­˜
-  Survival: ç”Ÿå­˜
-  Tech: ç§‘æŠ€
-  Technology: ç§‘æŠ€
-  Traditional: å‚³çµ±
-  Twitch Integration: Twitch æ•´åˆ
-  Utility & QoL: å·¥å…·å’Œ QoL
-  Vanilla+: åŽŸç‰ˆæ”¹è‰¯
-  World Gen: ä¸–ç•Œç”Ÿæˆ
+  Quests: 任務
+  Redstone: 紅石
+  Sci-Fi: 科幻
+  Server Utility: 伺服器工具
+  Skyblock: 空島
+  Small / Light: 輕量級
+  Steampunk: 蒸汽龐克
+  Storage: 儲存
+  Survival: 生存
+  Tech: 科技
+  Technology: 科技
+  Traditional: 傳統
+  Twitch Integration: Twitch 整合
+  Utility & QoL: 工具和 QoL
+  Vanilla+: 原版改良
+  World Gen: 世界生成
 dataMigration:
-  apply: é–‹å§‹é·ç§»
-  directoryCriteriaHint: è«‹ç¢ºä¿æ‚¨é¸æ“‡çš„æ–°è³‡æ–™å¤¾<span class="font-bold text-lg mx-1">æ˜¯ç©ºçš„ï¼</span>
-  placeholder: æŒ‰ä¸€ä¸‹æ­¤è™•ä»¥é¸æ“‡æ–°çš„æ ¹ç›®éŒ„
-  setRootCause: è«‹ç¢ºä¿å•Ÿå‹•å™¨åœ¨æ­¤éŽç¨‹ä¸­ä¸è¢«ä¸­æ–·ï¼Œå¦å‰‡æŸäº›è³‡æ–™ï¼ˆåœ°åœ–ã€è³‡æºåŒ…ã€æ¨¡çµ„ï¼‰æœƒéºå¤±ï¼
-  setRootDescription: å•Ÿå‹•å™¨çš„æ ¹ç›®éŒ„å°‡æœƒè¢«æ”¹è®Š
-  setRootTitle: é·ç§»æ ¹ç›®éŒ„åˆ°æ–°çš„ä½ç½®
-  unknownError: æœªçŸ¥éŒ¯èª¤ï¼Œè«‹è¯çµ¡ä½œè€…æˆ–é‡è©¦ã€‚
-  waitReload: é·ç§»è³‡æ–™ä¸­ã€‚è«‹ä¸è¦é—œé–‰å•Ÿå‹•å™¨ï¼Œå¦å‰‡æ‚¨å¯èƒ½æœƒä¸Ÿå¤±ä¸€éƒ¨åˆ†è³‡æ–™ã€‚
+  apply: 開始遷移
+  directoryCriteriaHint: 請確保您選擇的新資料夾<span class="font-bold text-lg mx-1">是空的！</span>
+  placeholder: 按一下此處以選擇新的根目錄
+  setRootCause: 請確保啟動器在此過程中不被中斷，否則某些資料（地圖、資源包、模組）會遺失！
+  setRootDescription: 啟動器的根目錄將會被改變
+  setRootTitle: 遷移根目錄到新的位置
+  unknownError: 未知錯誤，請聯絡作者或重試。
+  waitReload: 遷移資料中。請不要關閉啟動器，否則您可能會丟失一部分資料。
 delete:
-  name: åˆªé™¤ {name}
-  'no': å–æ¶ˆ
-  'yes': åˆªé™¤
+  name: 刪除 {name}
+  'no': 取消
+  'yes': 刪除
 dependencies:
-  embedded: å…§åµŒ
-  incompatible: ä¸ç›¸å®¹
-  name: ç›¸ä¾é …
-  optional: å¯é¸
-  required: å¿…éœ€
+  embedded: 內嵌
+  incompatible: 不相容
+  name: 相依項
+  optional: 可選
+  required: 必需
 diagnosis:
   badInstall:
-    message: ä¹Ÿè¨±æ‚¨æ‡‰è©²å˜—è©¦é‡æ–°å®‰è£æ­¤ç‰ˆæœ¬
-    name: '{version} ç‰ˆæœ¬å®‰è£å¤±æ•—'
+    message: 也許您應該嘗試重新安裝此版本
+    name: '{version} 版本安裝失敗'
   corruptedAssets:
-    message: å•Ÿå‹•å™¨å°‡é‡æ–°ä¸‹è¼‰éŠæˆ²è³‡æºæª”æ¡ˆ
-    name: 'Assets æª”æ¡ˆä¸å®Œæ•´: {name} | Assets æª”æ¡ˆä¸å®Œæ•´: {name} | {count} å€‹éŠæˆ²è³‡æºä¸å®Œæ•´'
+    message: 啟動器將重新下載遊戲資源檔案
+    name: 'Assets 檔案不完整: {name} | Assets 檔案不完整: {name} | {count} 個遊戲資源不完整'
   corruptedAssetsIndex:
-    message: å•Ÿå‹•å™¨å°‡é‡æ–°ä¸‹è¼‰éŠæˆ²è³‡æºç›®éŒ„
-    name: '{version} éŠæˆ²è³‡æºç›®éŒ„æå£žã€‚'
+    message: 啟動器將重新下載遊戲資源目錄
+    name: '{version} 遊戲資源目錄損壞。'
   corruptedLibraries:
-    message: å•Ÿå‹•å™¨å°‡é‡æ–°ä¸‹è¼‰å‡½å¼åº«
+    message: 啟動器將重新下載函式庫
     name: >-
-      Libraries æª”æ¡ˆä¸å®Œæ•´: {name} | Libraries æª”æ¡ˆä¸å®Œæ•´: {name} | {count} å€‹ Libraries æª”æ¡ˆä¸å®Œæ•´ | {count} å€‹ Libraries æª”æ¡ˆä¸å®Œæ•´
+      Libraries 檔案不完整: {name} | Libraries 檔案不完整: {name} | {count} 個 Libraries 檔案不完整 | {count} 個 Libraries 檔案不完整
   corruptedVersionJar:
-    message: æŒ‰ä¸€ä¸‹ä»¥ä¸‹è¼‰æ­¤ç‰ˆæœ¬
-    name: Minecraft {version} éŠæˆ² Jar æª”æ¡ˆä¸å®Œæ•´ã€‚
+    message: 按一下以下載此版本
+    name: Minecraft {version} 遊戲 Jar 檔案不完整。
   incompatibleJava:
-    name: Java {javaVersion} å¯èƒ½ä¸ç¬¦åˆ {version} ç‰ˆæœ¬éœ€æ±‚ï¼
+    name: Java {javaVersion} 可能不符合 {version} 版本需求！
   instanceFiles:
-    description: å¯¦ä¾‹å®‰è£åŒ…æ‹¬ {counts} å€‹æª”æ¡ˆã€‚
-    title: å¯¦ä¾‹å®‰è£æœªå®Œæˆ
+    description: 實例安裝包括 {counts} 個檔案。
+    title: 實例安裝未完成
   invalidJava:
-    name: ç›®å‰ Java è·¯å¾‘å·²ç¶“å¤±æ•ˆ
+    name: 目前 Java 路徑已經失效
   missingJava:
-    message: æŒ‰ä¸€ä¸‹ä¾†è§£æ±ºé€™å€‹å•é¡Œ
-    name: æ²’æœ‰æ‰¾åˆ°åˆé©çš„ Java
+    message: 按一下來解決這個問題
+    name: 沒有找到合適的 Java
   missingLibraries:
-    message: å•Ÿå‹•å™¨å°‡è‡ªå‹•ä¸‹è¼‰ä¸¦å®‰è£ Libraries æª”æ¡ˆ
+    message: 啟動器將自動下載並安裝 Libraries 檔案
     name: >-
-      ç¼ºå°‘ {name} Library | ç¼ºå°‘ {name} Library | ç¼ºå°‘ {count} å€‹ Libraries æª”æ¡ˆ | ç¼ºå°‘ {count} å€‹ Libraries æª”æ¡ˆ
+      缺少 {name} Library | 缺少 {name} Library | 缺少 {count} 個 Libraries 檔案 | 缺少 {count} 個 Libraries 檔案
   missingVersion:
-    message: æŒ‰ä¸€ä¸‹ä»¥ä¸‹è¼‰æ­¤ç‰ˆæœ¬
-    name: æœªå®‰è£ {version}
+    message: 按一下以下載此版本
+    name: 未安裝 {version}
   unresolvedFiles:
-    description: å®‰è£æ™‚æœ‰ {count} å€‹æª”æ¡ˆç„¡æ³•è§£æž
-    title: æœªè§£æžçš„æª”æ¡ˆ
+    description: 安裝時有 {count} 個檔案無法解析
+    title: 未解析的檔案
   unzipFileNotFound:
-    description: æ‰¾ä¸åˆ° {file}
-    title: æ‰¾ä¸åˆ°æ¨¡çµ„åŒ…æª”æ¡ˆ
+    description: 找不到 {file}
+    title: 找不到模組包檔案
 disk:
-  available: å¯ç”¨
-  used: å·²ç”¨
-downloadCount: '{count} æ¬¡ä¸‹è¼‰'
+  available: 可用
+  used: 已用
+downloadCount: '{count} 次下載'
 downloadUpdate:
-  name: ä¸‹è¼‰æ›´æ–° {version}
+  name: 下載更新 {version}
 duration:
-  day: '{duration} å¤©'
-  hour: '{duration} å°æ™‚'
-  minute: '{duration} åˆ†é˜'
-  second: '{duration} ç§’'
+  day: '{duration} 天'
+  hour: '{duration} 小時'
+  minute: '{duration} 分鐘'
+  second: '{duration} 秒'
 env:
   select:
-    all: å…¨é¸
-    fit: é¸æ“‡é©åˆçš„
-    none: å…¨ä¸é¸
+    all: 全選
+    fit: 選擇適合的
+    none: 全不選
 errors:
-  BadForgeInstallerJarError: ç„¡æ³•è§£æž Forge å®‰è£åŒ… Jar æª”æ¡ˆã€‚ä¹Ÿè¨± Forge æœ‰äº†æ–°çš„å®‰è£åŒ…æ ¼å¼ï¼Ÿå¦‚æžœç¶“å¸¸é‡åˆ°æ­¤å•é¡Œï¼Œè«‹è¯çµ¡é–‹ç™¼åœ˜éšŠã€‚
-  BadInstanceType: 'ä¸æ˜¯ä¸€å€‹åˆæ³•çš„å¯¦ä¾‹: {type}'
-  BodyTimeoutError: ç­‰å¾… HTTP æœ¬æ–‡è³‡æ–™è¶…æ™‚
-  ChecksumNotMatchError: æª”æ¡ˆæ ¡é©—å¤±æ•—ï¼æœŸæœ›çš„é›œæ¹Šå€¼æ˜¯ {expect}ï¼Œå¯¦éš›å–å¾—åˆ°çš„æ˜¯ {actual}ã€‚
-  ConnectTimeoutError: èˆ‡ä¼ºæœå™¨å»ºç«‹é€£ç·šè¶…æ™‚
-  DNSNotFoundError: DNS æŸ¥è©¢éŒ¯èª¤
+  BadForgeInstallerJarError: 無法解析 Forge 安裝包 Jar 檔案。也許 Forge 有了新的安裝包格式？如果經常遇到此問題，請聯絡開發團隊。
+  BadInstanceType: '不是一個合法的實例: {type}'
+  BodyTimeoutError: 等待 HTTP 本文資料超時
+  ChecksumNotMatchError: 檔案校驗失敗！期望的雜湊值是 {expect}，實際取得到的是 {actual}。
+  ConnectTimeoutError: 與伺服器建立連線超時
+  DNSNotFoundError: DNS 查詢錯誤
   DatabaseNotOpened: |-
-    è³‡æ–™åº«ç„¡æ³•é–‹å•Ÿï¼
-    å•Ÿå‹•å™¨å°‡ç„¡æ³•æ­£å¸¸å·¥ä½œï¼
-    è«‹é¸æ“‡å•Ÿå‹•å™¨å¯ä»¥å­˜å–çš„è³‡æ–™ç›®éŒ„ã€‚æ‚¨å¯ä»¥åœ¨è¨­å®šé é¢é‡æ–°é¸æ“‡è³‡æ–™ç›®éŒ„ã€‚
+    資料庫無法開啟！
+    啟動器將無法正常工作！
+    請選擇啟動器可以存取的資料目錄。您可以在設定頁面重新選擇資料目錄。
   DiskIsFull: |-
-    æ‚¨çš„ç£ç¢Ÿç©ºé–“å·²æ»¿ï¼
-    ç„¡æ³•å°‡ä»»ä½•å…§å®¹å¯«å…¥ç£ç¢Ÿç©ºé–“ï¼
-    æ‰€æœ‰åŠŸèƒ½å¯èƒ½ç„¡æ³•æ­£å¸¸é‹ä½œï¼
-  DownloadAggregateError: ä¸‹è¼‰æª”æ¡ˆå¤±æ•—ã€‚
-  DownloadFileSystemError: ç„¡æ³•å­˜å–ä¸‹è¼‰ç›®æ¨™è·¯å¾‘ï¼Œè«‹ç¢ºèªå•Ÿå‹•å™¨æœ‰æ¬Šé™å¯«å…¥ç›®æ¨™è·¯å¾‘ã€‚
-  HeadersTimeoutError: ç­‰å¾… HTTP æ¨™é ­è³‡è¨Šè¶…æ™‚
-  NotFoundError: 404 æœªæ‰¾åˆ°è³‡æº
-  SocketError: ä¼ºæœå™¨é€£ç·šä¸­æ–·
+    您的磁碟空間已滿！
+    無法將任何內容寫入磁碟空間！
+    所有功能可能無法正常運作！
+  DownloadAggregateError: 下載檔案失敗。
+  DownloadFileSystemError: 無法存取下載目標路徑，請確認啟動器有權限寫入目標路徑。
+  HeadersTimeoutError: 等待 HTTP 標頭資訊超時
+  NotFoundError: 404 未找到資源
+  SocketError: 伺服器連線中斷
 eula:
-  body: å‹¾é¸æ­¤è¤‡é¸æ¡†å³è¡¨ç¤ºæ‚¨åŒæ„ Minecraft çš„ {eula}ã€‚
+  body: 勾選此複選框即表示您同意 Minecraft 的 {eula}。
 exception:
-  http: '{url} çš„ HTTP è«‹æ±‚å¤±æ•—ã€‚ç‹€æ…‹ç¢¼ {statusCode}ã€‚{code}ã€‚è«‹é‡è©¦æˆ–æª¢æŸ¥æ‚¨çš„ç¶²è·¯ã€‚å¦‚æžœæ­¤å•é¡ŒæŒçºŒå‡ºç¾ï¼Œè«‹å›žå ±çµ¦é–‹ç™¼åœ˜éšŠã€‚'
+  http: '{url} 的 HTTP 請求失敗。狀態碼 {statusCode}。{code}。請重試或檢查您的網路。如果此問題持續出現，請回報給開發團隊。'
 extensions:
-  mrpack: Modrinth æ¨¡çµ„åŒ…
-  zip: Zip å£“ç¸®æª”
+  mrpack: Modrinth 模組包
+  zip: Zip 壓縮檔
 fabricVersion:
-  disable: ä¸ä½¿ç”¨ Fabric
-  empty: Minecraft {version} æ²’æœ‰æ‰¾åˆ°å¯ç”¨çš„ Fabric ç‰ˆæœ¬
-  showSnapshot: é¡¯ç¤ºå¿«ç…§ç‰ˆ
-  stable: ç©©å®šç‰ˆ
-  unstable: é è¦½ç‰ˆ
+  disable: 不使用 Fabric
+  empty: Minecraft {version} 沒有找到可用的 Fabric 版本
+  showSnapshot: 顯示快照版
+  stable: 穩定版
+  unstable: 預覽版
 command:
   instance:
     launch:
-      title: å•Ÿå‹•åŸ·è¡Œå€‹é«”
+      title: 啟動執行個體
     create:
-      title: å»ºç«‹åŸ·è¡Œå€‹é«”
+      title: 建立執行個體
     delete:
-      title: åˆªé™¤åŸ·è¡Œå€‹é«”
+      title: 刪除執行個體
   user:
     login:
-      title: ç”¨æˆ¶ç™»å…¥
+      title: 用戶登入
     refresh:
-      title: åˆ·æ–°ç”¨æˆ¶
+      title: 刷新用戶
 commandPalette:
-  placeholder: æœå°‹å‘½ä»¤ã€åŸ·è¡Œå€‹é«”ã€æ¨¡çµ„â€¦
-  commands: å‘½ä»¤
-  instances: åŸ·è¡Œå€‹é«”
+  placeholder: 搜尋命令、執行個體、模組…
+  commands: 命令
+  instances: 執行個體
   modrinth: Modrinth
-  recent: æœ€è¿‘
-  open: å¿«é€Ÿæ“ä½œ
-  openHint: é–‹å•Ÿå‘½ä»¤é¢æ¿ ({shortcut})
-  empty: è¼¸å…¥ä»¥æœå°‹ã€‚
-  noResults: æ²’æœ‰ç¬¦åˆçš„çµæžœã€‚
-  searching: æœå°‹ä¸­â€¦
-  hintNavigate: ç€è¦½
-  hintInvoke: åŸ·è¡Œ
-  hintEnter: é€²å…¥
-  hintBack: è¿”å›ž
-  hintClose: é—œé–‰
+  recent: 最近
+  open: 快速操作
+  openHint: 開啟命令面板 ({shortcut})
+  empty: 輸入以搜尋。
+  noResults: 沒有符合的結果。
+  searching: 搜尋中…
+  hintNavigate: 瀏覽
+  hintInvoke: 執行
+  hintEnter: 進入
+  hintBack: 返回
+  hintClose: 關閉
 feedback:
-  channel: è¯çµ¡ç®¡é“
-  description: æˆ‘æ‰¾åˆ°äº†æ¼æ´ž/æˆ‘æƒ³æå‡ºå»ºè­°
+  channel: 聯絡管道
+  description: 我找到了漏洞/我想提出建議
   discord: Discord
-  discordDescription: åŠ å…¥ Discord é »é“
-  discordJoin: åŠ å…¥
-  generateReport: ç”¢ç”Ÿå ±å‘Š
-  generateSaveAs: å°‡å ±å‘Šå„²å­˜è‡³
+  discordDescription: 加入 Discord 頻道
+  discordJoin: 加入
+  generateReport: 產生報告
+  generateSaveAs: 將報告儲存至
   github: Github Issue
-  githubDescription: é€éŽ Github Issue ä¾†å›žé¥‹æ‚¨çš„æƒ³æ³•
+  githubDescription: 透過 Github Issue 來回饋您的想法
   githubOpenIssue: Github
-  hint: æŒ‰ä¸€ä¸‹æŒ‰éˆ•ç”¢ç”Ÿå ±å‘Šä¸¦è¯çµ¡é–‹ç™¼åœ˜éšŠã€‚å ±å‘ŠæœƒåŒ…å«æ‚¨çš„è£ç½®è³‡è¨Šï¼Œä¾‹å¦‚ä½œæ¥­ç³»çµ±é¡žåž‹ã€ç‰ˆæœ¬ã€ä½œæ¥­ç³»çµ±ä½¿ç”¨è€…åç¨±ç­‰ã€‚
+  hint: 按一下按鈕產生報告並聯絡開發團隊。報告會包含您的裝置資訊，例如作業系統類型、版本、作業系統使用者名稱等。
   kook: Kook
-  kookDescription: åŠ å…¥ Kook (åƒ…é™å¤§é™¸åœ°å€)
-  name: å›žé¥‹
-  qq: QQ ç¾¤
-  qqDescription: åŠ å…¥ QQ å›žé¥‹ç¾¤ç›´æŽ¥å’Œä½œè€…èŠèŠå§ï¼Œç¾¤çµ„è™Ÿç¢¼ï¼š{number}
-  qqEnterGroup: åŠ å…¥
+  kookDescription: 加入 Kook (僅限大陸地區)
+  name: 回饋
+  qq: QQ 群
+  qqDescription: 加入 QQ 回饋群直接和作者聊聊吧，群組號碼：{number}
+  qqEnterGroup: 加入
 fileDetail:
-  fileSize: æª”æ¡ˆå¤§å°
-  filesize: æª”æ¡ˆå¤§å°
-  hash: é›œæ¹Šå€¼
-filterLocalOnly: åªé¡¯ç¤ºå·²å®‰è£
+  fileSize: 檔案大小
+  filesize: 檔案大小
+  hash: 雜湊值
+filterLocalOnly: 只顯示已安裝
 forgeVersion:
-  disable: ä¸ä½¿ç”¨ Forge
-  empty: Minecraft {version} ä¸æ”¯æ´ Forge
-  latest: æœ€æ–°ç‰ˆ
-  recommended: ç©©å®šç‰ˆ
+  disable: 不使用 Forge
+  empty: Minecraft {version} 不支援 Forge
+  latest: 最新版
+  recommended: 穩定版
 gameType:
-  adventure: å†’éšªæ¨¡å¼
-  creative: å‰µé€ æ¨¡å¼
-  spectator: æ—è§€è€…æ¨¡å¼
-  survival: ç”Ÿå­˜æ¨¡å¼
-help: å¹«åŠ©
-home: ä¸»é 
+  adventure: 冒險模式
+  creative: 創造模式
+  spectator: 旁觀者模式
+  survival: 生存模式
+help: 幫助
+home: 主頁
 importModpack:
-  name: åŒ¯å…¥æ¨¡çµ„åŒ…
+  name: 匯入模組包
 installAssets:
-  asset: ä¸‹è¼‰ {count} å€‹è³‡æºæª”æ¡ˆ
-  assetIndex: ä¸‹è¼‰è³‡æºæª”æ¡ˆç›®éŒ„
-  name: ä¸‹è¼‰éŠæˆ²è³‡æºæª”æ¡ˆ
-installAuthlibInjector: å®‰è£ authlib-injector
-installCurseforgeFile: å®‰è£ Curseforge æª”æ¡ˆ
+  asset: 下載 {count} 個資源檔案
+  assetIndex: 下載資源檔案目錄
+  name: 下載遊戲資源檔案
+installAuthlibInjector: 安裝 authlib-injector
+installCurseforgeFile: 安裝 Curseforge 檔案
 installFabric:
-  name: å®‰è£ Fabric
+  name: 安裝 Fabric
 installForge:
-  downloadInstaller: ä¸‹è¼‰ Forge å®‰è£å™¨
-  name: å®‰è£ Forge
-  postProcessing: è™•ç† Minecraft Jar æª”æ¡ˆ
+  downloadInstaller: 下載 Forge 安裝器
+  name: 安裝 Forge
+  postProcessing: 處理 Minecraft Jar 檔案
 installInstance:
-  file: æ›´æ–°/å®‰è£å¯¦ä¾‹æª”æ¡ˆ {file}
-  link: è¤‡è£½æˆ–é€£çµ {count} å€‹æª”æ¡ˆ
-  name: æ›´æ–°/å®‰è£å¯¦ä¾‹
-  resolve: è§£æžå¯¦ä¾‹å®‰è£è³‡è¨Š
-  unzip: è§£å£“ç¸® {count} å€‹æª”æ¡ˆ
+  file: 更新/安裝實例檔案 {file}
+  link: 複製或連結 {count} 個檔案
+  name: 更新/安裝實例
+  resolve: 解析實例安裝資訊
+  unzip: 解壓縮 {count} 個檔案
 installJre:
-  decompress: è§£å£“ç¸® JRE æª”æ¡ˆåˆ°æœ¬åœ°
-  download: ä¸‹è¼‰å£“ç¸®çš„ JRE æª”æ¡ˆ
-  name: å®‰è£ Java åŸ·è¡Œåº«
+  decompress: 解壓縮 JRE 檔案到本地
+  download: 下載壓縮的 JRE 檔案
+  name: 安裝 Java 執行庫
 installLabyMod:
-  name: å®‰è£ LabyMod
+  name: 安裝 LabyMod
 installLibraries:
-  library: æª¢æŸ¥ Libraries æª”æ¡ˆ
-  name: å®‰è£ç›¸ä¾åŸ·è¡Œåº«
+  library: 檢查 Libraries 檔案
+  name: 安裝相依執行庫
 installModrinthFile:
-  name: å¾ž Modrinth ä¸‹è¼‰
+  name: 從 Modrinth 下載
 installOptifine:
-  download: ä¸‹è¼‰ Optifine Universal
-  name: å®‰è£ Optifine
+  download: 下載 Optifine Universal
+  name: 安裝 Optifine
 installVersion:
-  jar: å®‰è£éŠæˆ² Jar æª”æ¡ˆ
-  json: å®‰è£éŠæˆ² JSON æª”æ¡ˆ
-  name: å®‰è£ Minecraft ç”¨æˆ¶ç«¯ {version}
+  jar: 安裝遊戲 Jar 檔案
+  json: 安裝遊戲 JSON 檔案
+  name: 安裝 Minecraft 用戶端 {version}
 instance:
-  changeIcon: æ›´æ”¹åœ–ç¤º
-  contents: å…§å®¹
-  current: ç›®å‰å¯¦ä¾‹
-  delete: åˆªé™¤éŠæˆ²
-  deleteFailed: åˆªé™¤å¯¦ä¾‹å¤±æ•—
-  deleteFailedPermission: å…¶ä»–ç¨‹å¼ä½”ç”¨äº†è©²æª”æ¡ˆ
-  deleteFile: åˆªé™¤å¯¦ä¾‹æª”æ¡ˆ
-  deleteHint: éŠæˆ²è³‡æ–™å°‡å®Œå…¨è¢«ç§»é™¤ã€‚æ‚¨ç¢ºå®šè¦ç¹¼çºŒæ­¤æ“ä½œå—Žï¼Ÿ
-  duplicate: å»ºç«‹å‚™ä»½
-  duplicatedName: åç¨±é‡è¤‡ï¼
-  fileApi: é ç«¯åŒæ­¥æª”æ¡ˆä¼ºæœå™¨ API ä½å€
-  fileApiHint: ç”¨æ–¼é ç«¯åŒæ­¥å¯¦ä¾‹æª”æ¡ˆçš„é€£çµ
-  fullscreen: å…¨èž¢å¹•
-  height: é«˜åº¦
-  hideCard: éš±è—æ­¤å¡ç‰‡
-  icon: å¯¦ä¾‹åœ–ç¤º
-  iconHint: è©²åœ–ç¤ºå¯ä»¥æ˜¯æª”æ¡ˆæˆ–ç¶²éš›ç¶²è·¯ URL é€£çµã€‚
-  iconUrl: åœ–ç‰‡ URL
-  installModpack: å¾žæ¨¡çµ„åŒ…æ›´æ–°å¯¦ä¾‹
-  lastPlayed: ä¸Šæ¬¡éŠçŽ©
-  launchArguments: å•Ÿå‹•å‘½ä»¤é è¦½
-  launchServer: å•Ÿå‹•æœ¬åœ°ä¸»æ©Ÿä¼ºæœå™¨
+  changeIcon: 更改圖示
+  contents: 內容
+  current: 目前實例
+  delete: 刪除遊戲
+  deleteFailed: 刪除實例失敗
+  deleteFailedPermission: 其他程式佔用了該檔案
+  deleteFile: 刪除實例檔案
+  deleteHint: 遊戲資料將完全被移除。您確定要繼續此操作嗎？
+  duplicate: 建立備份
+  duplicatedName: 名稱重複！
+  fileApi: 遠端同步檔案伺服器 API 位址
+  fileApiHint: 用於遠端同步實例檔案的連結
+  fullscreen: 全螢幕
+  height: 高度
+  hideCard: 隱藏此卡片
+  icon: 實例圖示
+  iconHint: 該圖示可以是檔案或網際網路 URL 連結。
+  iconUrl: 圖片 URL
+  installModpack: 從模組包更新實例
+  lastPlayed: 上次遊玩
+  launchArguments: 啟動命令預覽
+  launchServer: 啟動本地主機伺服器
   linkFileDesc: |-
-    é€™å°‡ä½¿ç”¨å…¨åŸŸ {file} è¦†å¯«å¯¦ä¾‹æœ¬åœ° {file}ã€‚
-    æ‚¨ç¢ºå®šè¦é€£çµå—Žï¼Ÿ
-  linkFileTitle: æ‚¨ç¢ºå®šè¦é€£çµ {file} å—Žï¼Ÿ
-  mcOptions: Minecraft å•Ÿå‹•é¸é …
-  mcOptionsHint: é¡å¤–çš„ Minecraft å•Ÿå‹•å¼•æ•¸
-  name: åç¨±
-  nameHint: åç¨±ä¾¿æ–¼ä»¥å¾Œè­˜åˆ¥
-  nameNoCyrillic: åç¨±ä¸æ‡‰åŒ…å«è¥¿é‡Œçˆ¾å­—æ¯
-  neverPlayed: å¾žæœªéŠçŽ©
-  openCrashReportFolder: é–‹å•Ÿç•¶æ©Ÿå ±å‘Šè³‡æ–™å¤¾
-  openLogFolder: é–‹å•Ÿæ—¥èªŒè³‡æ–™å¤¾
-  playtime: éŠçŽ©æ™‚é•·
-  preExecCommand: é å…ˆå•Ÿå‹•æŒ‡ä»¤
-  preExecCommandHint: å•Ÿå‹• Minecraft å‰è¦åŸ·è¡Œçš„æŒ‡ä»¤
-  prependCommand: å‰ç½®å‘½ä»¤
-  prependCommandHint: é€™å°‡åœ¨æ‰€æœ‰å•Ÿå‹•å‘½ä»¤ä¹‹å‰æ·»åŠ æ­¤å‘½ä»¤
-  requireName: å¿…é ˆå¡«å¯«åç¨±
-  resolution: åˆ†è¾¨çŽ‡
-  resolutionPreset: åˆ†è¾¨çŽ‡é è¨­
-  showHiddenCards: é¡¯ç¤ºéš±è—çš„å¡ç‰‡
-  showInstance: é–‹å•Ÿè³‡æ–™å¤¾
-  updates: æ›´æ–°
-  useSharedOptions: å…±äº« Minecraft è¨­å®š
-  useSharedOptionsDesc: é€™æœƒå°‡ options.txt é€£çµåˆ°è·¨å¯¦ä¾‹çš„å…±ç”¨æª”æ¡ˆ
-  useSharedServersList: å…±äº«ä¼ºæœå™¨åˆ—è¡¨
-  useSharedServersListDesc: é€™æœƒå°‡ servers.dat é€£çµåˆ°è·¨å¯¦ä¾‹çš„å…±ç”¨æª”æ¡ˆ
-  vmOptions: JVM å•Ÿå‹•é¸é …
-  vmOptionsHint: é¡å¤–çš„ JVM çš„å•Ÿå‹•å¼•æ•¸
-  vmVar: ç’°å¢ƒè®Šæ•¸
-  vmVarHint: æŒ‰ä¸€ä¸‹æŒ‰éˆ•æ–°å¢žç’°å¢ƒè®Šæ•¸
-  width: å¯¬åº¦
-  envVarKey: è®Šæ•¸å
-  envVarValue: å€¼
+    這將使用全域 {file} 覆寫實例本地 {file}。
+    您確定要連結嗎？
+  linkFileTitle: 您確定要連結 {file} 嗎？
+  mcOptions: Minecraft 啟動選項
+  mcOptionsHint: 額外的 Minecraft 啟動引數
+  name: 名稱
+  nameHint: 名稱便於以後識別
+  nameNoCyrillic: 名稱不應包含西里爾字母
+  neverPlayed: 從未遊玩
+  openCrashReportFolder: 開啟當機報告資料夾
+  openLogFolder: 開啟日誌資料夾
+  playtime: 遊玩時長
+  preExecCommand: 預先啟動指令
+  preExecCommandHint: 啟動 Minecraft 前要執行的指令
+  prependCommand: 前置命令
+  prependCommandHint: 這將在所有啟動命令之前添加此命令
+  requireName: 必須填寫名稱
+  resolution: 分辨率
+  resolutionPreset: 分辨率預設
+  showHiddenCards: 顯示隱藏的卡片
+  showInstance: 開啟資料夾
+  updates: 更新
+  useSharedOptions: 共享 Minecraft 設定
+  useSharedOptionsDesc: 這會將 options.txt 連結到跨實例的共用檔案
+  useSharedServersList: 共享伺服器列表
+  useSharedServersListDesc: 這會將 servers.dat 連結到跨實例的共用檔案
+  vmOptions: JVM 啟動選項
+  vmOptionsHint: 額外的 JVM 的啟動引數
+  vmVar: 環境變數
+  vmVarHint: 按一下按鈕新增環境變數
+  width: 寬度
+  envVarKey: 變數名
+  envVarValue: 值
   envVarKeyPlaceholder: MY_VAR
   envVarValuePlaceholder: value
-  fileApiPlaceholder: è‹¥éœ€ä¿æŒè³‡æºåŒæ­¥ï¼Œè«‹åœ¨æ­¤è™•å¡«å…¥é ç«¯åŒæ­¥ç¶²å€
+  fileApiPlaceholder: 若需保持資源同步，請在此處填入遠端同步網址
 instanceAge:
-  older: ä¸‰å¤©å‰
-  threeDay: ä¸‰å¤©å…§
-  today: ä»Šå¤©
+  older: 三天前
+  threeDay: 三天內
+  today: 今天
 instanceDiscover:
-  gameFolder: ç™¼ç¾ {count} å€‹éŠæˆ²è³‡æ–™å¤¾
-  instanceFolder: æ‰¾åˆ° {count} å€‹å¯¦ä¾‹
+  gameFolder: 發現 {count} 個遊戲資料夾
+  instanceFolder: 找到 {count} 個實例
 instanceFileOperation:
-  add: æ–°å¢ž
-  backup-add: å‚™ä»½ä¸¦æ›¿æ›
-  backup-remove: ç§»é™¤ï¼ˆå‚™ä»½ï¼‰
-  keep: ä¿ç•™
-  remove: ç§»é™¤
+  add: 新增
+  backup-add: 備份並替換
+  backup-remove: 移除（備份）
+  keep: 保留
+  remove: 移除
 instanceInstallSkip:
-  ignore: å¿½ç•¥
-  skip: è·³éŽ
-  title: æ½›åœ¨æå£žçš„æª”æ¡ˆä¾†æº
+  ignore: 忽略
+  skip: 跳過
+  title: 潛在損壞的檔案來源
   warning: |-
-    æœ‰äº›æª”æ¡ˆè¢«å¤šæ¬¡ä¸‹è¼‰ï¼Œä¸”æ ¸å°å’Œä¸ç¬¦ã€‚
-    é€™å¯èƒ½æ˜¯ç”±æ–¼åŽŸå§‹æ ¸å°å’Œä¸æ­£ç¢ºé€ æˆçš„ã€‚
-    è«‹æª¢æŸ¥ã€‚
-    å¦‚æžœç¢ºèªç›®å‰æª”æ¡ˆæœ‰æ•ˆï¼Œå‰‡å¯ä»¥è·³éŽé©—è­‰æª¢æŸ¥ã€‚
+    有些檔案被多次下載，且核對和不符。
+    這可能是由於原始核對和不正確造成的。
+    請檢查。
+    如果確認目前檔案有效，則可以跳過驗證檢查。
 instanceSetting:
-  disableAuthlibInjector: åœç”¨ authlib æ³¨å…¥å™¨
+  disableAuthlibInjector: 停用 authlib 注入器
   disableAuthlibInjectorDescription: |-
-    å¦‚æžœæ‚¨ä½¿ç”¨çš„æ˜¯ç¬¬ä¸‰æ–¹çš®è†šç³»çµ±ã€‚
-    authlib æ³¨å…¥å™¨å¯ä»¥å”åŠ©æ‚¨åœ¨éŠæˆ²ä¸­é¡¯ç¤ºçš®è†šã€‚
-  disableElyByAuthlib: åœç”¨ ely.by çš„ authlib æ›¿ä»£æ–¹æ¡ˆ
-  disableElyByAuthlibDescription: Ely.by æä¾›ç¨ç‰¹çš„ authlib æ›¿ä»£æ–¹æ¡ˆï¼Œå¯ä»¥è®“æ‚¨åœ¨ä»»ä½•ä¼ºæœå™¨ä¸­é€šç”¨é¡¯ç¤ºçš®è†šã€‚
-  fastLaunch: å¿«é€Ÿå•Ÿå‹•
-  fastLaunchHint: å•Ÿå‹•æ™‚ç•¥éŽä½¿ç”¨è€…ç‹€æ…‹èˆ‡å°šæœªä¿®å¾©çš„å•é¡Œ
-  hideLauncher: Minecraft å•Ÿå‹•å¾Œéš±è—å•Ÿå‹•å™¨
-  icon: é¸æ“‡åœ–ç‰‡
-  showLog: Minecraft å•Ÿå‹•å¾Œé¡¯ç¤ºæ—¥èªŒ
-  showLogHint: éŠæˆ²é–‹å•Ÿå¾Œå°‡å½ˆå‡ºä¸€å€‹é¡¯ç¤º Minecraft æ—¥èªŒçš„è¦–çª—
+    如果您使用的是第三方皮膚系統。
+    authlib 注入器可以協助您在遊戲中顯示皮膚。
+  disableElyByAuthlib: 停用 ely.by 的 authlib 替代方案
+  disableElyByAuthlibDescription: Ely.by 提供獨特的 authlib 替代方案，可以讓您在任何伺服器中通用顯示皮膚。
+  fastLaunch: 快速啟動
+  fastLaunchHint: 啟動時略過使用者狀態與尚未修復的問題
+  hideLauncher: Minecraft 啟動後隱藏啟動器
+  icon: 選擇圖片
+  showLog: Minecraft 啟動後顯示日誌
+  showLogHint: 遊戲開啟後將彈出一個顯示 Minecraft 日誌的視窗
 instanceTemplate:
-  ftb: é€™æ˜¯ä¸€å€‹ FTB çš„æ¨¡çµ„åŒ…è¨­å®š
-  preview: é è¦½
+  ftb: 這是一個 FTB 的模組包設定
+  preview: 預覽
 instanceUpdate:
-  basic: è¨­å®šæ›´æ–°
-  files: æª”æ¡ˆæ›´æ–°
+  basic: 設定更新
+  files: 檔案更新
   loaderChanged: |-
-    è©²å¯¦ä¾‹çš„æ¨¡çµ„è¼‰å…¥å™¨å·²æ›´æ”¹ã€‚
-    ä»¥å‰çš„æ¨¡çµ„è¼‰å…¥å™¨æ˜¯ {modloader}ï¼Œç¾åœ¨çš„æ¨¡çµ„è¼‰å…¥å™¨æ˜¯ {newModloader}ã€‚
-  noFiles: ç„¡æª”æ¡ˆè®Šæ›´
+    該實例的模組載入器已更改。
+    以前的模組載入器是 {modloader}，現在的模組載入器是 {newModloader}。
+  noFiles: 無檔案變更
   summary: |-
-    æ–°å¢ž {add} æª”æ¡ˆã€‚
-    åˆªé™¤ {remove} æª”æ¡ˆã€‚
-    ä¿ç•™ {keep} æª”æ¡ˆã€‚
-  title: æ›´æ–°å¯¦ä¾‹
-  update: é–‹å§‹æ›´æ–°å¯¦ä¾‹
+    新增 {add} 檔案。
+    刪除 {remove} 檔案。
+    保留 {keep} 檔案。
+  title: 更新實例
+  update: 開始更新實例
 instances:
-  add: å»ºç«‹éŠæˆ²
+  add: 建立遊戲
   addCurseForgeDescription: |-
-    å¾ž Curseforge å„²å­˜è³‡æ–™å¤¾åŒ¯å…¥ã€‚
-    æ‚¨éœ€è¦é¸æ“‡ Curseforge çš„æ ¹å„²å­˜è³‡æ–™å¤¾
-  addDescription: å¾žé›¶é–‹å§‹å»ºç«‹ä¸€å€‹æ–°å¯¦ä¾‹
+    從 Curseforge 儲存資料夾匯入。
+    您需要選擇 Curseforge 的根儲存資料夾
+  addDescription: 從零開始建立一個新實例
   addMMCDescription: |-
-    åŒ¯å…¥ç¾æœ‰çš„ MultiMC å¯¦ä¾‹ã€‚
-    æ‚¨éœ€è¦å¾ž MultiMC ä¸­é¸æ“‡å„²å­˜è³‡æ–™å¤¾ã€‚
-  addManually: æ‰‹å‹•å»ºç«‹
+    匯入現有的 MultiMC 實例。
+    您需要從 MultiMC 中選擇儲存資料夾。
+  addManually: 手動建立
   addModrinthDescription: |-
-    åŒ¯å…¥ç¾æœ‰çš„ Modrinth å¯¦ä¾‹ã€‚
-    æ‚¨éœ€è¦é¸æ“‡ Modrinth æ ¹è³‡æ–™å¤¾ã€‚
-  addServer: å¾žä¼ºæœå™¨å»ºç«‹
-  addServerDescription: é€™å°‡å»ºç«‹ä¸€å€‹ç›´æŽ¥å•Ÿå‹•åˆ°ä¼ºæœå™¨çš„éŠæˆ²ã€‚
-  addTemplate: å¾žä¸‹è¼‰çš„æ¨¡çµ„åŒ…å‰µå»º
-  addTemplateDescription: å¾žä¸‹è¼‰çš„æ¨¡çµ„åŒ…åŒ¯å…¥
-  addVanilla: å¾žåŽŸç‰ˆ Minecraft å»ºç«‹
+    匯入現有的 Modrinth 實例。
+    您需要選擇 Modrinth 根資料夾。
+  addServer: 從伺服器建立
+  addServerDescription: 這將建立一個直接啟動到伺服器的遊戲。
+  addTemplate: 從下載的模組包創建
+  addTemplateDescription: 從下載的模組包匯入
+  addVanilla: 從原版 Minecraft 建立
   addVanillaDescription: |-
-    å¾žé€šç”¨ .minecraft è³‡æ–™å¤¾åŒ¯å…¥ã€‚
-    é€™æœƒå°‡åŽŸå§‹éŠæˆ²è¨­å®šæª”æ¡ˆè¤‡è£½åˆ° FastLauncherã€‚
-  fix: ä¿®å¾©
-  folder: è³‡æ–™å¤¾
-  folderSetting: è³‡æ–™å¤¾è¨­å®š
-  importFolderDescription: åŒ¯å…¥ Minecraft åˆ°å•Ÿå‹•å™¨
-  loadingFiles: è¼‰å…¥æ¨¡çµ„åŒ…æª”æ¡ˆ
-  addPrismDescription: åŒ¯å…¥ç¾æœ‰çš„ PrismLauncher å¯¦ä¾‹ã€‚
+    從通用 .minecraft 資料夾匯入。
+    這會將原始遊戲設定檔案複製到 FastLauncher。
+  fix: 修復
+  folder: 資料夾
+  folderSetting: 資料夾設定
+  importFolderDescription: 匯入 Minecraft 到啟動器
+  loadingFiles: 載入模組包檔案
+  addPrismDescription: 匯入現有的 PrismLauncher 實例。
 items:
-  count: '{count} å€‹'
-  total: å…± {total} å€‹
+  count: '{count} 個'
+  total: 共 {total} 個
 java:
-  allocatedLong: å•Ÿå‹•å™¨è‡ªå‹•é¸æ“‡ Java
-  allocatedShort: è‡ªå‹•åˆ†é…
-  importFromFile: å¾žæª”æ¡ˆåŒ¯å…¥ Java
-  invalid: ç„¡æ•ˆçš„ Java è·¯å¾‘
-  location: Java è·¯å¾‘
-  maxMemory: æœ€å¤§è¨˜æ†¶é«”
-  memory: Java è¨˜æ†¶é«”
-  memoryAuto: è‡ªå‹•
-  memoryManual: æ‰‹å‹•æŒ‡å®š
-  memoryUnassigned: ä¸æŒ‡å®šè¨˜æ†¶é«”
-  minMemory: æœ€å°è¨˜æ†¶é«”
-  noMemory: ä¸è¨­å®šè¨˜æ†¶é«”é™åˆ¶
-  refresh: é‡æ–°æ•´ç†æœ¬åœ° Java
-  systemMemory: 'ç³»çµ±å¯ç”¨è¨˜æ†¶é«”: {free} / {total}'
-  allocation: å·²åˆ†é…
-  autoHint: æœ€å°è¨˜æ†¶é«”éš¨å·²å®‰è£ Mod æ•¸é‡å¢žé•·ï¼›æœ€å¤§è¨˜æ†¶é«”ä½¿ç”¨ç³»çµ±å¯ç”¨è¨˜æ†¶é«”ã€‚
-  change: æ›´æ›
-  locationHint: æœªé¸æ“‡ Java â€” ä½¿ç”¨ç³»çµ±é è¨­
-  openFolder: é–‹å•Ÿ Java æ‰€åœ¨è³‡æ–™å¤¾
-  presets: é è¨­
+  allocatedLong: 啟動器自動選擇 Java
+  allocatedShort: 自動分配
+  importFromFile: 從檔案匯入 Java
+  invalid: 無效的 Java 路徑
+  location: Java 路徑
+  maxMemory: 最大記憶體
+  memory: Java 記憶體
+  memoryAuto: 自動
+  memoryManual: 手動指定
+  memoryUnassigned: 不指定記憶體
+  minMemory: 最小記憶體
+  noMemory: 不設定記憶體限制
+  refresh: 重新整理本地 Java
+  systemMemory: '系統可用記憶體: {free} / {total}'
+  allocation: 已分配
+  autoHint: 最小記憶體隨已安裝 Mod 數量增長；最大記憶體使用系統可用記憶體。
+  change: 更換
+  locationHint: 未選擇 Java — 使用系統預設
+  openFolder: 開啟 Java 所在資料夾
+  presets: 預設
 labyMod:
-  disable: ä¸ä½¿ç”¨ LabyMod
-  empty: ç›®å‰ Minecraft ä¸æ”¯æ´ LabyMod
+  disable: 不使用 LabyMod
+  empty: 目前 Minecraft 不支援 LabyMod
 unauthenticatedWarning:
-  title: å°šæœªç™»å…¥
-  description: ç›®å‰æœªç™»å…¥ä»»ä½•å¸³è™Ÿï¼ŒéŠæˆ²å°‡ä»¥è©¦çŽ©æ¨¡å¼å•Ÿå‹•ã€‚å¦‚éœ€å®Œæ•´åŠŸèƒ½ï¼Œè«‹å…ˆç™»å…¥ã€‚
-  cancel: å–æ¶ˆ
-  login: ç™»å…¥
-  playAnyway: ä»è¦å•Ÿå‹•
+  title: 尚未登入
+  description: 目前未登入任何帳號，遊戲將以試玩模式啟動。如需完整功能，請先登入。
+  cancel: 取消
+  login: 登入
+  playAnyway: 仍要啟動
 launch:
-  cancel: ä¸­æ­¢
-  createShortcut: å»ºç«‹æ·å¾‘
-  kill: åœæ­¢
-  killServer: åœæ­¢æœ¬åœ°ä¼ºæœå™¨
-  launch: å•Ÿå‹•
-  launchAnyway: ç›´æŽ¥å•Ÿå‹•
-  launchAs: ä»¥å…¶ä»–å¸³è™Ÿå•Ÿå‹•
-  launchTo: å•Ÿå‹•è‡³â€¦
-  forceKill: å¼·åˆ¶çµæŸ
+  cancel: 中止
+  createShortcut: 建立捷徑
+  kill: 停止
+  killServer: 停止本地伺服器
+  launch: 啟動
+  launchAnyway: 直接啟動
+  launchAs: 以其他帳號啟動
+  launchTo: 啟動至…
+  forceKill: 強制結束
 launchBlocked:
   launchBadVersion:
-    description: ç‰ˆæœ¬ {version} çš„ JSON å…§æœ‰ç„¡æ³•è§£æžçš„åº«ï¼Œä¹Ÿè¨±æ‚¨éœ€è¦é‡æ–°å®‰è£æ­¤ç‰ˆæœ¬ï¼Ÿ
-    title: ç‰ˆæœ¬ JSON å¯èƒ½æå£ž
+    description: 版本 {version} 的 JSON 內有無法解析的庫，也許您需要重新安裝此版本？
+    title: 版本 JSON 可能損壞
   launchGeneralException:
-    description: ä¸€äº›æœªçŸ¥éŒ¯èª¤å°Žè‡´å•Ÿå‹•å¤±æ•—ã€‚
-    title: ç„¡æ³•å•Ÿå‹•
+    description: 一些未知錯誤導致啟動失敗。
+    title: 無法啟動
   launchInvalidJavaPath:
     description: >-
-      ç›®å‰ Java è·¯å¾‘å¯èƒ½ç„¡æ•ˆï¼Œè«‹æª¢æŸ¥ Java å¯åŸ·è¡Œæª”æ¡ˆæ˜¯å¦å­˜åœ¨ <span class="highlight"> {javaPath} </span>
-    title: Java è·¯å¾‘ç„¡æ•ˆ
+      目前 Java 路徑可能無效，請檢查 Java 可執行檔案是否存在 <span class="highlight"> {javaPath} </span>
+    title: Java 路徑無效
   launchJavaNoPermission:
     description: >-
-      æ²’æœ‰è¨±å¯æ¬ŠåŸ·è¡Œ <span class="highlight"> {javaPath} </span>ï¼Œè«‹å˜—è©¦çµ¦å•Ÿå‹•å™¨æ›´é«˜è¨±å¯æ¬Šï¼Œçµ¦ Java æª”æ¡ˆå¢žåŠ å¯åŸ·è¡Œè¨±å¯æ¬Šï¼Œæˆ–è€…æ›´æ› Javaã€‚
-    title: ç„¡è¨±å¯æ¬Šä½¿ç”¨ Java
+      沒有許可權執行 <span class="highlight"> {javaPath} </span>，請嘗試給啟動器更高許可權，給 Java 檔案增加可執行許可權，或者更換 Java。
+    title: 無許可權使用 Java
   launchNoProperJava:
-    description: æ‰¾ä¸åˆ°åˆé©çš„ Java ä¾†å•Ÿå‹•éŠæˆ²ã€‚({javaPath} å¯èƒ½ç„¡æ•ˆï¼Ÿ)
-    title: æ²’æœ‰åˆé©çš„ Java
+    description: 找不到合適的 Java 來啟動遊戲。({javaPath} 可能無效？)
+    title: 沒有合適的 Java
   launchNoVersionInstalled:
-    description: æ‰¾ä¸åˆ° Minecraft å•Ÿå‹•ã€‚ç›®å‰ç‰ˆæœ¬æ˜¯ <span class="highlight">{version}</span>ã€‚
-    title: ç„¡æ³•æ‰¾åˆ°å®‰è£çš„ Minecraft
+    description: 找不到 Minecraft 啟動。目前版本是 <span class="highlight">{version}</span>。
+    title: 無法找到安裝的 Minecraft
   launchSpawnProcessFailed:
     description: |-
-      è«‹æª¢æŸ¥æ‚¨çš„ Javaï¼Œæˆ–å‘å•Ÿå‹•å™¨æŽˆäºˆæ›´å¤šè¨±å¯æ¬Šï¼Œç„¶å¾Œé‡è©¦ã€‚
-      å¦‚æžœä»ç„¶ç„¡æ³•è§£æ±ºå•é¡Œï¼Œè«‹è¯çµ¡é–‹ç™¼äººå“¡ã€‚
-    title: ç„¡æ³•å•Ÿå‹•éŠæˆ²ç¨‹åº
-  unexpectedText: é€™æ˜¯æ„æ–™ä¹‹å¤–çš„éŒ¯èª¤ï¼Œæ‚¨å¯ä»¥é‡æ–°å•Ÿå‹•å•Ÿå‹•å™¨ä¾†å˜—è©¦ç·©è§£å•é¡Œï¼Œè«‹è¯çµ¡ä½œè€…ä¾†ä¿®å¾©ã€‚
+      請檢查您的 Java，或向啟動器授予更多許可權，然後重試。
+      如果仍然無法解決問題，請聯絡開發人員。
+    title: 無法啟動遊戲程序
+  unexpectedText: 這是意料之外的錯誤，您可以重新啟動啟動器來嘗試緩解問題，請聯絡作者來修復。
 launchFailed:
-  crash: éŠæˆ²ç•¶æ©Ÿäº†ï¼
-  description: æ²’æœ‰æ‰¾åˆ°ç•¶æ©Ÿå ±å‘Šï¼Œé€™è£¡æ˜¯éŒ¯èª¤æ—¥èªŒå’Œæœ€æ–°çš„æ—¥èªŒæª”æ¡ˆ
+  crash: 遊戲當機了！
+  description: 沒有找到當機報告，這裡是錯誤日誌和最新的日誌檔案
   elyByAuthlib:
-    description: é‡å° Minecraft ç‰ˆæœ¬ {version} ä½¿ç”¨äº† Ely.by çš„ Authlib å–ä»£ï¼Œä½†è©²ç‰ˆæœ¬å¯èƒ½ä¸å®Œå…¨ç›¸å®¹ã€‚
-    suggestion: æ‚¨å¯ä»¥åœ¨å¯¦ä¾‹è¨­å®šä¸­åœç”¨ Ely.by çš„ Authlib å–ä»£ä»¥é¿å…æ­¤å•é¡Œã€‚
-    title: Ely.by Authlib ç›¸å®¹æ€§å•é¡Œ
-  failedToLaunch: å•Ÿå‹•å™¨å•Ÿå‹•å¤±æ•—
-  latestLog: æœ€æ–°æ—¥èªŒæª”æ¡ˆ
-  title: éŠæˆ²æœªæ­£å¸¸é€€å‡º
+    description: 針對 Minecraft 版本 {version} 使用了 Ely.by 的 Authlib 取代，但該版本可能不完全相容。
+    suggestion: 您可以在實例設定中停用 Ely.by 的 Authlib 取代以避免此問題。
+    title: Ely.by Authlib 相容性問題
+  failedToLaunch: 啟動器啟動失敗
+  latestLog: 最新日誌檔案
+  title: 遊戲未正常退出
 launchPreExecuteCommandFailed:
-  description: é å…ˆåŸ·è¡ŒæŒ‡ä»¤å¤±æ•—ï¼Œä¸¦ç”¢ç”ŸéŒ¯èª¤ï¼š {error}ã€‚è«‹æª¢æŸ¥æŒ‡ä»¤ä¸¦é‡è©¦ã€‚
-  title: åŸ·è¡Œå‰æŒ‡ä»¤å¤±æ•—
+  description: 預先執行指令失敗，並產生錯誤： {error}。請檢查指令並重試。
+  title: 執行前指令失敗
 launchStatus:
-  assigningMemory: æ­£åœ¨åˆ†é…è¨˜æ†¶é«”
-  elyByWarning: å·²å•Ÿç”¨ Ely.by Authlib å–ä»£ã€‚æŸäº› Minecraft ç‰ˆæœ¬å¯èƒ½ä¸ç›¸å®¹ä¸”æœƒå°Žè‡´ç•¶æ©Ÿã€‚å¦‚ç™¼ç”Ÿå•é¡Œï¼Œå¯åœ¨å¯¦ä¾‹è¨­å®šä¸­åœç”¨å®ƒã€‚
-  exit: é—œé–‰éŠæˆ²ï¼Ÿ
-  injectingAuthLib: æ­£åœ¨è¨­å®šç¬¬ä¸‰æ–¹ AuthLib
-  launching: å•Ÿå‹•ä¸­...
-  launchingSlow: é‚„åœ¨å•Ÿå‹•â€¦ Minecraft çš„å•Ÿå‹•æœƒæ¯”è¼ƒæ…¢å‘¢~
-  refreshingUser: é‡æ–°æ•´ç†ä½¿ç”¨è€…ä»¤ç‰Œ
-  spawningProcess: æ­£åœ¨å•Ÿå‹•éŠæˆ²
+  assigningMemory: 正在分配記憶體
+  elyByWarning: 已啟用 Ely.by Authlib 取代。某些 Minecraft 版本可能不相容且會導致當機。如發生問題，可在實例設定中停用它。
+  exit: 關閉遊戲？
+  injectingAuthLib: 正在設定第三方 AuthLib
+  launching: 啟動中...
+  launchingSlow: 還在啟動… Minecraft 的啟動會比較慢呢~
+  refreshingUser: 重新整理使用者令牌
+  spawningProcess: 正在啟動遊戲
 launcherUpdate:
-  alreadyLatest: å·²æ˜¯æœ€æ–°
-  installAndQuit: é‡æ–°å•Ÿå‹•ä¸¦å®‰è£æ›´æ–°
-  noUpdateAvailable: ç›®å‰æ²’æœ‰å¯ç”¨æ›´æ–°
-  updateToThisVersion: ä¸‹è¼‰ä¸¦å®‰è£
+  alreadyLatest: 已是最新
+  installAndQuit: 重新啟動並安裝更新
+  noUpdateAvailable: 目前沒有可用更新
+  updateToThisVersion: 下載並安裝
 localVersion:
-  auto: è‡ªå‹•é¸æ“‡
-  empty: æœ¬åœ°æ²’æœ‰å®‰è£ä»»ä½•ç‰ˆæœ¬
-  hint: ç›´æŽ¥å•Ÿå‹•æŸå€‹æœ¬åœ°ç‰ˆæœ¬
-  reinstallDescription: å¦‚æžœæ‚¨è¦ºå¾—æ­¤ç‰ˆæœ¬å®‰è£çš„æœ‰å•é¡Œï¼Œå¯ä»¥å˜—è©¦é‡æ–°å®‰è£è©²ç‰ˆæœ¬ã€‚
-  reinstallTitle: é‡æ–°å®‰è£ {version}
-  title: æœ¬åœ°ç‰ˆæœ¬
+  auto: 自動選擇
+  empty: 本地沒有安裝任何版本
+  hint: 直接啟動某個本地版本
+  reinstallDescription: 如果您覺得此版本安裝的有問題，可以嘗試重新安裝該版本。
+  reinstallTitle: 重新安裝 {version}
+  title: 本地版本
 logLevel:
-  error: éŒ¯èª¤
-  info: è³‡è¨Š
-  success: æˆåŠŸ
-  warning: è­¦å‘Š
+  error: 錯誤
+  info: 資訊
+  success: 成功
+  warning: 警告
 logView:
-  searchPlaceholder: æœå°‹æ—¥èªŒ...
+  searchPlaceholder: 搜尋日誌...
 login:
-  dropHint: å°‡é©—è­‰é€£çµæ‹–å…¥æ­¤è™•æ‰‹å‹•é©—è­‰
-  forgetPassword: å¿˜è¨˜å¯†ç¢¼ï¼Ÿ
-  login: ç™»å…¥
-  manualLoginUrl: å¦‚æžœç€è¦½å™¨æ²’æœ‰è‡ªå‹•é–‹å•Ÿï¼Œè«‹æŒ‰ä¸€ä¸‹æ­¤é€£çµä¾†é©—è­‰ï¼
-  signup: è¨»å†Š
-  signupDescription: æ²’æœ‰å¸³è™Ÿï¼Ÿ
-  userRelogin: ä½¿ç”¨è€…è³‡è¨ŠéŽæœŸï¼Œè«‹é‡æ–°ç™»å…¥ï¼
+  dropHint: 將驗證連結拖入此處手動驗證
+  forgetPassword: 忘記密碼？
+  login: 登入
+  manualLoginUrl: 如果瀏覽器沒有自動開啟，請按一下此連結來驗證！
+  signup: 註冊
+  signupDescription: 沒有帳號？
+  userRelogin: 使用者資訊過期，請重新登入！
 loginError:
-  acquireMicrosoftTokenFailed: ç„¡æ³•å–å¾— Microsoft ä»¤ç‰Œã€‚é€™å¯èƒ½æ˜¯ç¶²è·¯å•é¡Œï¼Œè«‹é‡è©¦ã€‚
-  badNetworkOrServer: è«‹æª¢æŸ¥æ‚¨çš„ç¶²è·¯é€£ç·šï¼ç•¶ç„¶ä¹Ÿå¯èƒ½æ˜¯é©—è­‰ä¼ºæœå™¨æŽ›äº†:/
-  checkOwnershipFailed: åœ¨æª¢æŸ¥æ‚¨æ˜¯å¦æ“æœ‰ Minecraft æ™‚ç™¼ç”ŸéŒ¯èª¤ï¼Œè«‹é‡è©¦ã€‚
-  connectionReset: ç„¡æ³•ç™»å…¥ï¼Œé€£ç·šå·²è¢«ä¼ºæœå™¨é‡è¨­ã€‚è«‹æª¢æŸ¥ç¶²è·¯æˆ–ç¨å¾Œå†è©¦ã€‚
-  fetchMinecraftProfileFailed: 'ç²å– Minecraft ä½¿ç”¨è€…è³‡è¨Šå¤±æ•—: {reason}'
-  illegalEmail: ç›®å‰çš„é›»å­éƒµä»¶æ ¼å¼ç„¡æ•ˆ
-  invalidCredentials: ç„¡æ³•é©—è­‰ã€‚ä½¿ç”¨è€…åç¨±æˆ–å¯†ç¢¼éŒ¯èª¤ã€‚
-  loginMinecraftByXboxFailed: åœ¨é€éŽ Xbox ä»¤ç‰Œäº¤æ› Minecraft ä»¤ç‰Œçš„éŽç¨‹ä¸­ç™¼ç”ŸéŒ¯èª¤ï¼Œè«‹ç¢ºèªæ‚¨çš„ Xbox å¸³è™Ÿæ“æœ‰ Minecraftã€‚æ‚¨å¯ä»¥å˜—è©¦é‡è©¦ç™»å…¥
-  loginXboxAgeRestricted: ç”±æ–¼å¹´é½¡å•é¡Œï¼Œç„¡æ³•ç™»éŒ„Xboxã€‚è«‹ç¢ºä¿ç‚ºæ‚¨çš„Microsoftå¸³æˆ¶è¨­å®šå¹´é½¡ï¼Œä¸¦ä¸”å¹´é½¡é«˜æ–¼18æ­²ã€‚
-  loginXboxFailed: è«‹æ±‚ Xbox ä»¤ç‰Œå¤±æ•—ï¼Œè«‹ç¢ºä¿æ‚¨çš„å¾®è»Ÿå¸³è™Ÿå·²ç¶“ç¶å®šäº†ä¸€å€‹ Xbox å¸³è™Ÿï¼
+  acquireMicrosoftTokenFailed: 無法取得 Microsoft 令牌。這可能是網路問題，請重試。
+  badNetworkOrServer: 請檢查您的網路連線！當然也可能是驗證伺服器掛了:/
+  checkOwnershipFailed: 在檢查您是否擁有 Minecraft 時發生錯誤，請重試。
+  connectionReset: 無法登入，連線已被伺服器重設。請檢查網路或稍後再試。
+  fetchMinecraftProfileFailed: '獲取 Minecraft 使用者資訊失敗: {reason}'
+  illegalEmail: 目前的電子郵件格式無效
+  invalidCredentials: 無法驗證。使用者名稱或密碼錯誤。
+  loginMinecraftByXboxFailed: 在透過 Xbox 令牌交換 Minecraft 令牌的過程中發生錯誤，請確認您的 Xbox 帳號擁有 Minecraft。您可以嘗試重試登入
+  loginXboxAgeRestricted: 由於年齡問題，無法登錄Xbox。請確保為您的Microsoft帳戶設定年齡，並且年齡高於18歲。
+  loginXboxFailed: 請求 Xbox 令牌失敗，請確保您的微軟帳號已經綁定了一個 Xbox 帳號！
   noProfileForNewUser: |-
-    æ‰¾ä¸åˆ°éŠæˆ²è³‡æ–™ï¼
-    å¦‚æžœæ‚¨æ˜¯æ–°çš„ Minecraft ä½¿ç”¨è€…ï¼Œè«‹å…ˆåœ¨ Minecraft å®˜æ–¹å•Ÿå‹•å™¨ä¸­ç™»å…¥ä¸€æ¬¡ã€‚
-  requestFailed: ç”±æ–¼æœªçŸ¥åŽŸå› ç™»å…¥å¤±æ•—ï¼Œè«‹é‡è©¦
-  requireEmail: å¿…é ˆä½¿ç”¨é›»å­éƒµä»¶ç™»å…¥
-  requirePassword: è«‹è¼¸å…¥å¯†ç¢¼
-  requireUsername: ä½¿ç”¨è€…åç¨±ä¸èƒ½ç‚ºç©º
-  timeout: ç™»å…¥è¶…æ™‚ï¼Œè«‹é‡è©¦æˆ–æª¢æŸ¥æ‚¨çš„ç¶²è·¯ï¼
+    找不到遊戲資料！
+    如果您是新的 Minecraft 使用者，請先在 Minecraft 官方啟動器中登入一次。
+  requestFailed: 由於未知原因登入失敗，請重試
+  requireEmail: 必須使用電子郵件登入
+  requirePassword: 請輸入密碼
+  requireUsername: 使用者名稱不能為空
+  timeout: 登入超時，請重試或檢查您的網路！
 logsCrashes:
-  crashes: ç•¶æ©Ÿå ±å‘Š
-  logs: æ—¥èªŒ
-  placeholder: æ²’æœ‰æ‰¾åˆ°æª”æ¡ˆ
-  title: æ—¥èªŒæˆ–ç•¶æ©Ÿå ±å‘Š
-  failures: å•Ÿå‹•å¤±æ•—
-  serverLogs: ä¼ºæœå™¨æ—¥èªŒ
+  crashes: 當機報告
+  logs: 日誌
+  placeholder: 沒有找到檔案
+  title: 日誌或當機報告
+  failures: 啟動失敗
+  serverLogs: 伺服器日誌
 me:
-  news: æœ€æ–°æ¶ˆæ¯
-  recentPlay: æœ€è¿‘éŠçŽ©
+  news: 最新消息
+  recentPlay: 最近遊玩
 migrationWindow:
-  title: è³‡æ–™é·ç§»
-  preparing: æ­£åœ¨æº–å‚™é·ç§»â€¦
-  scanning: æ­£åœ¨è¨ˆç®—â€¦
-  migrating: æ­£åœ¨ç§»å‹•è³‡æ–™
-  done: é·ç§»å®Œæˆ
-  files: å€‹æª”æ¡ˆ
-  warning: è«‹åœ¨é·ç§»å®Œæˆå‰ä¿æŒå•Ÿå‹•å™¨é–‹å•Ÿï¼Œå¦å‰‡è³‡æ–™å¯èƒ½éºå¤±ã€‚
-  error: é·ç§»å¤±æ•—
+  title: 資料遷移
+  preparing: 正在準備遷移…
+  scanning: 正在計算…
+  migrating: 正在移動資料
+  done: 遷移完成
+  files: 個檔案
+  warning: 請在遷移完成前保持啟動器開啟，否則資料可能遺失。
+  error: 遷移失敗
 minecraftVersion:
-  name: Minecraft ç‰ˆæœ¬
-  all: æ‰€æœ‰ç‰ˆæœ¬
-  release: æ­£å¼ç‰ˆ
-  showAlpha: é¡¯ç¤ºå¿«ç…§ç‰ˆ
-  snapshot: å¿«ç…§ç‰ˆ
+  name: Minecraft 版本
+  all: 所有版本
+  release: 正式版
+  showAlpha: 顯示快照版
+  snapshot: 快照版
 mod:
-  acceptVersion: æŽ¨è–¦ {version}
-  applyGroupRules: å¥—ç”¨å·²å„²å­˜çš„åˆ†çµ„è¦å‰‡
-  compatible: å¯ç”¨æ–¼ç›®å‰ç‰ˆæœ¬ã€‚
-  createGroup: å»ºç«‹åˆ†çµ„
-  currentVersion: ç›®å‰æ˜¯ {current}
-  denseView: å¯†é›†æª¢è¦–
-  disableAll: å…¨éƒ¨åœç”¨
-  dropHint: å°‡æ¨¡çµ„ Jar æª”æ¡ˆæ‹–å…¥æ­¤è™•ä¾†åŒ¯å…¥
-  duplicatedDetected: æœ‰ {count} å€‹æ¨¡çµ„é‡è¤‡äº†
+  acceptVersion: 推薦 {version}
+  applyGroupRules: 套用已儲存的分組規則
+  compatible: 可用於目前版本。
+  createGroup: 建立分組
+  currentVersion: 目前是 {current}
+  denseView: 密集檢視
+  disableAll: 全部停用
+  dropHint: 將模組 Jar 檔案拖入此處來匯入
+  duplicatedDetected: 有 {count} 個模組重複了
   duplicatedDetectedDescription: |-
-    æ‰¾åˆ°å…·æœ‰ç›¸åŒ mod id ä½†æª”æ¡ˆä¸åŒçš„ modã€‚
-    é€™å¯èƒ½æœƒå°Žè‡´ Minecraft ç•¶æ©Ÿã€‚
-    è«‹é¸æ“‡æ‚¨è¦ä¿ç•™çš„æª”æ¡ˆã€‚
-  enableAll: å…¨éƒ¨å•Ÿç”¨
-  enabled: ä¸€å…±å•Ÿç”¨äº† {count} å€‹æ¨¡çµ„
-  filter: ç¯©é¸æ¨¡çµ„
-  group: åˆ†çµ„
-  groupInstalled: åˆ†é–‹é¡¯ç¤ºå·²å®‰è£æ¨¡çµ„
-  groupName: åˆ†çµ„åç¨±
-  groupNameRequired: åˆ†çµ„åç¨±æ˜¯å¿…å¡«çš„
-  hasUpdate: æ¨¡çµ„æœ‰æ–°ç‰ˆæœ¬ï¼
-  incompatible: å¯èƒ½ä¸ç›¸å®¹ç›®å‰ç‰ˆæœ¬ã€‚
-  incompatibleHint: æŸ¥çœ‹æ‚¨çš„æ¨¡çµ„ç›¸å®¹æ€§å ±å‘Š
+    找到具有相同 mod id 但檔案不同的 mod。
+    這可能會導致 Minecraft 當機。
+    請選擇您要保留的檔案。
+  enableAll: 全部啟用
+  enabled: 一共啟用了 {count} 個模組
+  filter: 篩選模組
+  group: 分組
+  groupInstalled: 分開顯示已安裝模組
+  groupName: 分組名稱
+  groupNameRequired: 分組名稱是必填的
+  hasUpdate: 模組有新版本！
+  incompatible: 可能不相容目前版本。
+  incompatibleHint: 查看您的模組相容性報告
   incompatibleHintDescription: |-
-    æŸäº›æ¨¡çµ„ç›¸ä¾é …å¯èƒ½éºå¤±ã€‚
-    æˆ–æŸäº›ç›¸ä¾é …ç‰ˆæœ¬ä¸ç¬¦ã€‚
-  maybeCompatible: ä¹Ÿè¨±ç›¸å®¹æ–¼ç›®å‰ç‰ˆæœ¬ã€‚
+    某些模組相依項可能遺失。
+    或某些相依項版本不符。
+  maybeCompatible: 也許相容於目前版本。
   modloaderSelectHint: |-
-    æ­¤æ¨¡çµ„æ”¯æ´ä»¥ä¸‹æ¨¡çµ„è¼‰å…¥å™¨ã€‚
-    è«‹é¸æ“‡ä¸€å€‹é€²è¡Œå®‰è£ã€‚
-  modloaderSelectNotSupported: æ‰¾ä¸åˆ° Minecraft {minecraft} çš„ {modloader}
-  mods: '{count} å€‹æ¨¡çµ„'
-  name: æ¨¡çµ„ | æ¨¡çµ„
-  newFolder: æ–°å¢žè³‡æ–™å¤¾
-  noGroupsFound: æœªæ‰¾åˆ°åˆ†çµ„
-  noGroupsYet: é‚„æ²’æœ‰åˆ†çµ„ï¼Œå»ºç«‹ä¸€å€‹å§ï¼
-  noModLoaderHint: è«‹ä¸è¦å¿˜è¨˜é¸æ“‡æ¨¡çµ„è¼‰å…¥å™¨ä¾†è¼‰å…¥æ¨¡çµ„
-  openLink: é–‹å•Ÿæ¨¡çµ„é€£çµ {url}
-  search: æœå°‹æ¨¡çµ„
-  searchGroups: æœå°‹åˆ†çµ„...
-  searchOnMcWiki: åœ¨ MC ç™¾ç§‘ä¸­æŸ¥è©¢ {name}
-  selectOrCreateGroup: é¸æ“‡æˆ–å»ºç«‹åˆ†çµ„
-  showDirectory: é¡¯ç¤ºæ¨¡çµ„è³‡æ–™å¤¾
-  showFile: é–‹å•Ÿæ¨¡çµ„æ‰€åœ¨ä½ç½® {file}
-  showInModrinth: åœ¨ Modrinth ä¸­é¡¯ç¤º {name}
-  switchDefaultSource: æœ¬åœ°æ¨¡çµ„é è¨­é¡¯ç¤ºç‚º
-  syncGroupRules: å„²å­˜åˆ†çµ„è¦å‰‡
-  toUpdate: '{count} å€‹æœ‰æ–°ç‰ˆæœ¬'
-  ungroup: å–æ¶ˆåˆ†çµ„
-  description: æè¿°
+    此模組支援以下模組載入器。
+    請選擇一個進行安裝。
+  modloaderSelectNotSupported: 找不到 Minecraft {minecraft} 的 {modloader}
+  mods: '{count} 個模組'
+  name: 模組 | 模組
+  newFolder: 新增資料夾
+  noGroupsFound: 未找到分組
+  noGroupsYet: 還沒有分組，建立一個吧！
+  noModLoaderHint: 請不要忘記選擇模組載入器來載入模組
+  openLink: 開啟模組連結 {url}
+  search: 搜尋模組
+  searchGroups: 搜尋分組...
+  searchOnMcWiki: 在 MC 百科中查詢 {name}
+  selectOrCreateGroup: 選擇或建立分組
+  showDirectory: 顯示模組資料夾
+  showFile: 開啟模組所在位置 {file}
+  showInModrinth: 在 Modrinth 中顯示 {name}
+  switchDefaultSource: 本地模組預設顯示為
+  syncGroupRules: 儲存分組規則
+  toUpdate: '{count} 個有新版本'
+  ungroup: 取消分組
+  description: 描述
 modFilter:
-  clear: æ¸…é™¤ç¯©é¸
-  dependenciesInstallOnly: åƒ…é¡¯ç¤ºç¼ºå°‘ç›¸ä¾é …çš„æ¨¡çµ„
-  disabledOnly: åƒ…é¡¯ç¤ºåœç”¨çš„æ¨¡çµ„
-  hasUpdateOnly: åƒ…é¡¯ç¤ºå¯æ›´æ–°çš„æ¨¡çµ„
-  incompatibleOnly: åƒ…é¡¯ç¤ºä¸ç›¸å®¹æˆ–ç¼ºå¤±ç›¸ä¾é …çš„æ¨¡çµ„
-  unusedOnly: åƒ…é¡¯ç¤ºæœªä½¿ç”¨çš„å‡½å¼åº«æ¨¡çµ„
+  clear: 清除篩選
+  dependenciesInstallOnly: 僅顯示缺少相依項的模組
+  disabledOnly: 僅顯示停用的模組
+  hasUpdateOnly: 僅顯示可更新的模組
+  incompatibleOnly: 僅顯示不相容或缺失相依項的模組
+  unusedOnly: 僅顯示未使用的函式庫模組
 modInstall:
   archived: |-
-    {name} å·²å­˜æª”ã€‚
-    é™¤éžä½œè€…æ±ºå®šå–æ¶ˆå­˜æª”è©²é …ç›®ï¼Œå¦å‰‡ {name} å°‡ä¸æœƒæ”¶åˆ°ä»»ä½•é€²ä¸€æ­¥çš„æ›´æ–°ã€‚
+    {name} 已存檔。
+    除非作者決定取消存檔該項目，否則 {name} 將不會收到任何進一步的更新。
   autoUpgrade:
-    description: æ‚¨å·²è®Šæ›´ Minecraft ç‰ˆæœ¬ã€‚æ˜¯å¦è¦è‡ªå‹•å°‡ç›¸å®¹çš„æ¨¡çµ„æ›´æ–°è‡³èˆ‡ Minecraft {version} ç›¸ç¬¦çš„ç‰ˆæœ¬ï¼Ÿ
-    'no': ç•¥éŽ
-    title: æ›´æ–°æ¨¡çµ„ï¼Ÿ
-    'yes': æ›´æ–°æ¨¡çµ„
-  checkDependencies: æª¢æŸ¥ç›¸ä¾æ€§
-  checkUpgrade: æª¢æŸ¥æ¨¡çµ„æ›´æ–°
-  checkedDependencies: å·²æª¢æŸ¥ç›¸ä¾æ€§
-  checkedUpgrade: å·²é‡æ–°æ•´ç†æ›´æ–°åˆ—è¡¨
-  currentVersion: å·²é¸ç‰ˆæœ¬
-  dependencyHint: å®‰è£äº†å…¶ä»–ç‰ˆæœ¬ {version}
-  releaseOnly: æ›´æ–°æ™‚å¿½ç•¥ alpha å’Œ beta ç‰ˆæœ¬
-  installDependencies: å®‰è£ç¼ºå°‘çš„ç›¸ä¾é …
-  installHint: å®‰è£ {file} å€‹æª”æ¡ˆå’Œ {dependencies} å€‹ç›¸ä¾æª”æ¡ˆ
-  noVersionSupported: æ¨¡çµ„åƒ…æ”¯æ´ Minecraft {supported}ã€‚
-  recommendation: åœ¨{modrinth}å’Œ{curseforge}ä¸­æŽ¢ç´¢{first} modsï¼
-  removeUnusedLibraries: åˆªé™¤æœªä½¿ç”¨çš„å‡½å¼åº«æ¨¡çµ„
-  search: æœå°‹çµæžœ
-  skipVersion: å¿½ç•¥ä¸åŒ Minecraft ç‰ˆæœ¬çš„ Mod
-  source: æ¨¡çµ„ä¾†æº
-  switch: åˆ‡æ›ç‰ˆæœ¬
-  upgrade: æ›´æ–°æ¨¡çµ„
+    description: 您已變更 Minecraft 版本。是否要自動將相容的模組更新至與 Minecraft {version} 相符的版本？
+    'no': 略過
+    title: 更新模組？
+    'yes': 更新模組
+  checkDependencies: 檢查相依性
+  checkUpgrade: 檢查模組更新
+  checkedDependencies: 已檢查相依性
+  checkedUpgrade: 已重新整理更新列表
+  currentVersion: 已選版本
+  dependencyHint: 安裝了其他版本 {version}
+  releaseOnly: 更新時忽略 alpha 和 beta 版本
+  installDependencies: 安裝缺少的相依項
+  installHint: 安裝 {file} 個檔案和 {dependencies} 個相依檔案
+  noVersionSupported: 模組僅支援 Minecraft {supported}。
+  recommendation: 在{modrinth}和{curseforge}中探索{first} mods！
+  removeUnusedLibraries: 刪除未使用的函式庫模組
+  search: 搜尋結果
+  skipVersion: 忽略不同 Minecraft 版本的 Mod
+  source: 模組來源
+  switch: 切換版本
+  upgrade: 更新模組
 modSearch:
-  noLocalModsFound: æœªæ‰¾åˆ°ç¬¦åˆæœå°‹çš„æœ¬æ©Ÿæ¨¡çµ„ã€‚
-  noModsFound: æœªæ‰¾åˆ°æ¨¡çµ„ã€‚
-  noModsInstalled: æ‚¨å°šæœªå®‰è£ä»»ä½•æ¨¡çµ„ã€‚
-  searchInMarket: åœ¨å¸‚å ´ä¸­æœå°‹ {keyword}
+  noLocalModsFound: 未找到符合搜尋的本機模組。
+  noModsFound: 未找到模組。
+  noModsInstalled: 您尚未安裝任何模組。
+  searchInMarket: 在市場中搜尋 {keyword}
 modUpgradePolicy:
-  curseforge: Curseforge å„ªå…ˆ
-  curseforgeOnly: åƒ…é™ Curseforge
-  modrinth: Modrinth å„ªå…ˆ
-  modrinthOnly: åƒ…é™ Modrinth
-  name: æ›´æ–°åŽŸå‰‡
+  curseforge: Curseforge 優先
+  curseforgeOnly: 僅限 Curseforge
+  modrinth: Modrinth 優先
+  modrinthOnly: 僅限 Modrinth
+  name: 更新原則
 modified:
-  reset: é‡è¨­
-  save: å„²å­˜
-  unsaved: æ³¨æ„ï¼æ‚¨å°šæœªå„²å­˜æ›´æ”¹ï¼
+  reset: 重設
+  save: 儲存
+  unsaved: 注意！您尚未儲存更改！
 modpack:
-  author: ç½²å
-  authorHint: é€™å€‹éŠæˆ²/æ¨¡çµ„åŒ…çš„è£½ä½œäºº
-  description: éŠæˆ²ç°¡ä»‹
-  descriptionHint: é€šç”¨çš„æ¨¡çµ„åŒ…ç°¡ä»‹ã€‚åœ¨åŒ¯å‡ºæˆ Curseforge æ¨¡çµ„åŒ…æˆ–è€…å…¶ä»–æ ¼å¼æ™‚æœƒä½¿ç”¨ã€‚
-  dropHint: é€éŽæ‹–æ›³åŒ¯å…¥æ¨¡çµ„åŒ…æª”æ¡ˆ
-  emitCurseforge: åŒ¯å‡º Curseforge æ¨¡çµ„åŒ…
-  emitModrinth: åŒ¯å‡º Modrinth æ¨¡çµ„åŒ…
-  emitModrinthStrict: åš´æ ¼éµå®ˆ Modrinth æ¨¡çµ„åŒ…æ ¼å¼
-  emitModrinthStrictDescription: ä¸‹è¼‰é€£çµåªå…è¨±åŒ…å« Modrinth å®˜ç¶²å®šç¾©çš„å››å€‹ç¶²åŸŸ
-  export: åŒ¯å‡ºæ¨¡çµ„åŒ…
-  exportDirectory: å¯¼å‡ºç›®éŒ„
-  exportDirectoryDescription: é»˜èªæƒ…æ³ä¸‹ï¼Œmodpackå°‡å°Žå‡ºåˆ°ä¸‹è¼‰æ–‡ä»¶å¤¾
-  includeAssets: æ˜¯å¦åŒ…å«éŠæˆ²è³‡æº (Assets) æª”æ¡ˆ
-  includes: æ‰“åŒ…æª”æ¡ˆ
-  modpackVersion: æ¨¡çµ„åŒ…ç‰ˆæœ¬
-  name: æ¨¡çµ„åŒ…
-  overrides: æ¨¡çµ„åŒ…æ‰“åŒ…è¦†è“‹ (overrides)
+  author: 署名
+  authorHint: 這個遊戲/模組包的製作人
+  description: 遊戲簡介
+  descriptionHint: 通用的模組包簡介。在匯出成 Curseforge 模組包或者其他格式時會使用。
+  dropHint: 透過拖曳匯入模組包檔案
+  emitCurseforge: 匯出 Curseforge 模組包
+  emitModrinth: 匯出 Modrinth 模組包
+  emitModrinthStrict: 嚴格遵守 Modrinth 模組包格式
+  emitModrinthStrictDescription: 下載連結只允許包含 Modrinth 官網定義的四個網域
+  export: 匯出模組包
+  exportDirectory: 导出目錄
+  exportDirectoryDescription: 默認情況下，modpack將導出到下載文件夾
+  includeAssets: 是否包含遊戲資源 (Assets) 檔案
+  includes: 打包檔案
+  modpackVersion: 模組包版本
+  name: 模組包
+  overrides: 模組包打包覆蓋 (overrides)
   url: URL
-  urlHint: æ¨¡çµ„åŒ…çš„ä¸»é  URL ä½å€
+  urlHint: 模組包的主頁 URL 位址
 modpackImportConfirm:
-  description: åµæ¸¬åˆ°æ‚¨å°‡æª”æ¡ˆæ‹–æ›³åˆ°å•Ÿå‹•å™¨ã€‚æ‚¨æ˜¯è¦åŒ¯å…¥æ¨¡çµ„åŒ…å—Žï¼Ÿ
-  title: æ‚¨æ˜¯å¦è¦åŒ¯å…¥æ¨¡çµ„åŒ…ï¼Ÿ
+  description: 偵測到您將檔案拖曳到啟動器。您是要匯入模組包嗎？
+  title: 您是否要匯入模組包？
 modrinth:
-  browseUrl: åœ¨ç€è¦½å™¨ä¸­é–‹å•Ÿ {url}
+  browseUrl: 在瀏覽器中開啟 {url}
   categories:
     128x: 128x
     16x: 16x
@@ -764,944 +764,943 @@ modrinth:
     512x+: 512x+
     64x: 64x
     8x-: 8x-
-    adventure: å†’éšª
-    atmosphere: æ°›åœ
-    audio: éŸ³æ•ˆ
-    blocks: æ–¹å¡Š
-    bloom: ç‚«å…‰ (Bloom)
+    adventure: 冒險
+    atmosphere: 氛圍
+    audio: 音效
+    blocks: 方塊
+    bloom: 炫光 (Bloom)
     bukkit: Bukkit
     bungeecord: Bungeecord
     canvas: Canvas
-    cartoon: å¡é€šé¢¨æ ¼
-    categories: åˆ†é¡ž
-    challenging: æŒ‘æˆ°
-    colored-lighting: ç‡ˆå…‰è‘—è‰²
-    combat: æˆ°é¬¥
-    core-shaders: å…‰å½±
-    cursed: æ€ªç•°
-    datapack: è³‡æ–™åŒ…
-    decoration: è£é£¾
-    economy: ç¶“æ¿Ÿ
-    entities: å¯¦é«”
-    environment: ç’°å¢ƒ
-    equipment: è£å‚™
+    cartoon: 卡通風格
+    categories: 分類
+    challenging: 挑戰
+    colored-lighting: 燈光著色
+    combat: 戰鬥
+    core-shaders: 光影
+    cursed: 怪異
+    datapack: 資料包
+    decoration: 裝飾
+    economy: 經濟
+    entities: 實體
+    environment: 環境
+    equipment: 裝備
     fabric: Fabric
-    fantasy: å¹»æƒ³
-    features: ç‰¹æ€§
+    fantasy: 幻想
+    features: 特性
     folia: Folia
-    foliage: æœ€ä½³åŒ–æ¤è¢«
-    fonts: å­—é«”
-    food: é£Ÿç‰©
+    foliage: 最佳化植被
+    fonts: 字體
+    food: 食物
     forge: Forge
-    game-mechanics: éŠæˆ²æ©Ÿåˆ¶
-    gui: ä»‹é¢
-    high: é«˜
+    game-mechanics: 遊戲機制
+    gui: 介面
+    high: 高
     iris: Iris
-    items: ç‰©å“
-    kitchen-sink: é›œç‡´
-    library: å‡½å¼åº«
-    lightweight: è¼•é‡
+    items: 物品
+    kitchen-sink: 雜燴
+    library: 函式庫
+    lightweight: 輕量
     liteloader: Liteloader
-    locale: æœ¬åœ°åŒ–
-    low: ä½Ž
-    magic: é­”æ³•
-    management: ç®¡ç†
-    medium: ä¸­ç­‰
+    locale: 本地化
+    low: 低
+    magic: 魔法
+    management: 管理
+    medium: 中等
     minecraft: Minecraft
-    minigame: å°éŠæˆ²
-    misc: é›œé …
-    mobs: æ€ªç‰©
-    modded: ç›¸å®¹æ¨¡çµ„
-    models: æ¨¡åž‹
-    modloader: æ¨¡çµ„è¼‰å…¥å™¨
-    multiplayer: å¤šäººéŠæˆ²
-    name: é¡žåˆ¥
+    minigame: 小遊戲
+    misc: 雜項
+    mobs: 怪物
+    modded: 相容模組
+    models: 模型
+    modloader: 模組載入器
+    multiplayer: 多人遊戲
+    name: 類別
     neoforge: NeoForge
     optifine: Optifine
-    optimization: æœ€ä½³åŒ–
+    optimization: 最佳化
     paper: Paper
-    path-tracing: å…‰ç·šè¿½è¹¤
+    path-tracing: 光線追蹤
     pbr: PBR
-    performance impact: æ•ˆèƒ½éœ€æ±‚
-    potato: åœŸè±†ï¼ˆéžå¸¸ä½Žï¼‰
+    performance impact: 效能需求
+    potato: 土豆（非常低）
     purpur: Purpur
-    quests: ä»»å‹™å°Žå‘
+    quests: 任務導向
     quilt: Quilt
-    realistic: çœŸå¯¦é¢¨æ ¼
-    reflections: æ°´å
-    resolutions: è§£æžåº¦
+    realistic: 真實風格
+    reflections: 水反
+    resolutions: 解析度
     rift: Rift
-    screenshot: éš¨ä¾¿æˆªåœ–å°±èƒ½ç•¶æ¡Œå¸ƒ
-    semi-realistic: åŠçœŸå¯¦é¢¨
-    shadows: å…‰å½±
-    simplistic: ç°¡ç´„
-    social: ç¤¾äº¤
+    screenshot: 隨便截圖就能當桌布
+    semi-realistic: 半真實風
+    shadows: 光影
+    simplistic: 簡約
+    social: 社交
     spigot: Spigot
     sponge: Sponge
-    storage: å„²å­˜
-    technology: ç§‘æŠ€
-    themed: ä¸»é«”åŒ–
-    transportation: äº¤é€š
+    storage: 儲存
+    technology: 科技
+    themed: 主體化
+    transportation: 交通
     tweaks: Tweaks
-    utility: å¯¦ç”¨å·¥å…·
-    vanilla: åŽŸç‰ˆ
-    vanilla-like: åŽŸç‰ˆé¢¨æ ¼
+    utility: 實用工具
+    vanilla: 原版
+    vanilla-like: 原版風格
     velocity: Velocity
     waterfall: Waterfall
-    worldgen: ä¸–ç•Œç”Ÿæˆ
-  clientSide: ç”¨æˆ¶ç«¯
-  copyTitle: è¤‡è£½ "{title}" åˆ°å‰ªè²¼ç°¿
-  createAt: å»ºç«‹æ—¥æœŸ
-  createCollection: å»ºç«‹é›†åˆ
-  description: è©³æƒ…
-  downloads: ä¸‹è¼‰é‡
+    worldgen: 世界生成
+  clientSide: 用戶端
+  copyTitle: 複製 "{title}" 到剪貼簿
+  createAt: 建立日期
+  createCollection: 建立集合
+  description: 詳情
+  downloads: 下載量
   environments:
-    default: é è¨­
-    name: åŸ·è¡Œç’°å¢ƒ
-    optional: å¯é¸
-    required: å¿…è£
-    unsupported: ä¸æ”¯æ´
-    all: å…¨éƒ¨
-  externalResources: ç¬¬ä¸‰æ–¹é€£çµ
-  featuredVersions: æŽ¨è–¦ç‰ˆæœ¬
-  followedProjects: è¿½è¹¤çš„å°ˆæ¡ˆ
-  followers: è¿½è¹¤è€…
-  gallery: åœ–ç‰‡å±•ç¤º
+    default: 預設
+    name: 執行環境
+    optional: 可選
+    required: 必裝
+    unsupported: 不支援
+    all: 全部
+  externalResources: 第三方連結
+  featuredVersions: 推薦版本
+  followedProjects: 追蹤的專案
+  followers: 追蹤者
+  gallery: 圖片展示
   gameVersions:
-    name: éŠæˆ²ç‰ˆæœ¬
+    name: 遊戲版本
   headers:
-    status: ç‹€æ…‹
-    support: æ”¯æ´
-    version: ç‰ˆæœ¬
-  issueUrl: å›žé¥‹é€£çµ
-  license: å”è­°
+    status: 狀態
+    support: 支援
+    version: 版本
+  issueUrl: 回饋連結
+  license: 協議
   licenses:
-    name: å”è­°
-  loginHint: è©²æ“ä½œéœ€è¦ Modrinth æ‰èƒ½åŸ·è¡Œã€‚å•Ÿå‹•å™¨å°‡æ‰“é–‹ç€è¦½å™¨è¦–çª—ä»¥ç™»å…¥ Modrinthã€‚
-  loginTitle: ç™»å…¥è‡³ Modrinth
+    name: 協議
+  loginHint: 該操作需要 Modrinth 才能執行。啟動器將打開瀏覽器視窗以登入 Modrinth。
+  loginTitle: 登入至 Modrinth
   modLoaders:
-    name: æ¨¡çµ„è¼‰å…¥å™¨
+    name: 模組載入器
   modpackSource:
-    source: ä¾†æº
-  projectId: å°ˆæ¡ˆ ID
-  projectMembers: å°ˆæ¡ˆæˆå“¡
+    source: 來源
+  projectId: 專案 ID
+  projectMembers: 專案成員
   projectType:
-    mod: æ¨¡çµ„
-    modpack: æ¨¡çµ„åŒ…
-    resourcepack: è³‡æºåŒ…
-    shader: å…‰å½±åŒ…
-    datapack: æ•¸æ“šåŒ…
-    plugin: å¤–æŽ›
-  projects: '{count} å€‹å°ˆæ¡ˆ'
-  serverSide: ä¼ºæœå™¨
+    mod: 模組
+    modpack: 模組包
+    resourcepack: 資源包
+    shader: 光影包
+    datapack: 數據包
+    plugin: 外掛
+  projects: '{count} 個專案'
+  serverSide: 伺服器
   sort:
-    downloads: ä¸‹è¼‰æ•¸é‡
-    follows: è¿½è¹¤æ•¸
-    newest: å»ºç«‹æ™‚é–“
-    relevance: ç›¸é—œç¨‹åº¦
-    title: æŽ’åº
-    updated: æ›´æ–°æ™‚é–“
-  sourceUrl: åŽŸå§‹ç¢¼
-  technicalInformation: æŠ€è¡“è³‡è¨Š
-  updateAt: æ›´æ–°æ–¼
-  versions: ç‰ˆæœ¬
-  wikiUrl: ç™¾ç§‘é€£çµ
+    downloads: 下載數量
+    follows: 追蹤數
+    newest: 建立時間
+    relevance: 相關程度
+    title: 排序
+    updated: 更新時間
+  sourceUrl: 原始碼
+  technicalInformation: 技術資訊
+  updateAt: 更新於
+  versions: 版本
+  wikiUrl: 百科連結
 modrinthCard:
-  currentVersion: ç›®å‰ç‰ˆæœ¬
+  currentVersion: 目前版本
 multiplayer:
-  allowTurn: å•Ÿç”¨ä¸­ç¹¼ä¼ºæœå™¨
-  allowTurnHint: ç•¶æ‚¨å’Œæ‚¨çš„æœ‹å‹é€£ä¸ä¸Šæ™‚å¯ä»¥å˜—è©¦å•Ÿç”¨ä¸­ç¹¼ä¼ºæœå™¨ï¼Œä½†æ˜¯ä½¿ç”¨ä¸­ç¹¼ä¼ºæœå™¨å¯èƒ½æœƒå¢žåŠ æ‚¨çš„è¯æ©Ÿå»¶é²ã€‚ä½¿ç”¨æ™‚è«‹æ³¨æ„ã€‚
-  complete: å®Œæˆ
-  confirm: ç¢ºå®š
-  connections: ä½¿ç”¨è€…é€£ç·šç®¡ç†
-  copied: å·²è¤‡è£½ï¼
-  copy: è¤‡è£½
-  copyGroupToFriendHint: è®“æ‚¨çš„è¯æ©Ÿå¤¥ä¼´ä½¿ç”¨æ­¤ ID åŠ å…¥è¯æ©Ÿç¾¤çµ„
+  allowTurn: 啟用中繼伺服器
+  allowTurnHint: 當您和您的朋友連不上時可以嘗試啟用中繼伺服器，但是使用中繼伺服器可能會增加您的聯機延遲。使用時請注意。
+  complete: 完成
+  confirm: 確定
+  connections: 使用者連線管理
+  copied: 已複製！
+  copy: 複製
+  copyGroupToFriendHint: 讓您的聯機夥伴使用此 ID 加入聯機群組
   copyLocalHint: >
-    <span>ä¸€æ®µä»¤ç‰Œåªèƒ½ç”¨<span style="color: red; font-weight:bold;">ä¸€æ¬¡</span>ï¼æ‚¨ä¸èƒ½å°‡ä¸€å€‹ä»¤ç‰Œå‚³é€çµ¦å¤šå€‹è¯æ©Ÿå¤¥ä¼´ï¼</span> <br> <span class="hint-text" style="font-style: italic;">å¦‚æžœæœ‰å¤šå€‹è¯æ©Ÿå¤¥ä¼´è¦åŠ å…¥æ‚¨éœ€è¦<span style="font-weight: bold; color: rgba(245ï¼Œ 158ï¼Œ 11)">å¤šæ¬¡</span>å»ºç«‹é€£ç·šã€‚</span>
-  createLocalToken: å»ºç«‹æœ¬åœ°ä»¤ç‰Œ
-  currentIpTitle: åµæ¸¬åˆ°å…¬ç”¨ IP ä½å€
-  currentNatTitle: ç›®å‰ç¶²è·¯ (NAT) ç’°å¢ƒ
-  difficultyLevelHint: èˆ‡ä»–äººè¯æ©Ÿé›£åº¦ç”±ä½Žåˆ°é«˜
-  disconnect: ä¸­æ–·é€£ç·š
-  disconnectDescription: æ‚¨ç¢ºå®šæ‚¨è¦ä¸­æ–·èˆ‡ {user}({id}) çš„é€£ç·šå—Ž
-  disconnected: é€£ç·šå·²ä¸­æ–·
-  enterRemoteToken: è¼¸å…¥å°æ–¹çš„ä»¤ç‰Œ
-  enterRemoteTokenHint: ç•¶æ‚¨çš„è¯æ©Ÿå¤¥ä¼´è¼¸å…¥æ‚¨çš„ä»¤ç‰Œå¾Œï¼Œæ‚¨éœ€è¦å°‡ä»–çš„ä»¤ç‰Œè¼¸å…¥åˆ°ä¸‹é¢çš„æ–‡å­—æ¡†ä¸­ï¼Œä¸¦æŒ‰ä¸€ä¸‹ç¢ºå®šé–‹å§‹é€£ç·šã€‚
-  exposedPortDescription: æ‚¨å‘å…¶ä»–è¯æ©Ÿå¤¥ä¼´é–‹æ”¾çš„é€£æŽ¥åŸ 
-  exposedPorts: é–‹æ”¾é€£æŽ¥åŸ 
+    <span>一段令牌只能用<span style="color: red; font-weight:bold;">一次</span>！您不能將一個令牌傳送給多個聯機夥伴！</span> <br> <span class="hint-text" style="font-style: italic;">如果有多個聯機夥伴要加入您需要<span style="font-weight: bold; color: rgba(245， 158， 11)">多次</span>建立連線。</span>
+  createLocalToken: 建立本地令牌
+  currentIpTitle: 偵測到公用 IP 位址
+  currentNatTitle: 目前網路 (NAT) 環境
+  difficultyLevelHint: 與他人聯機難度由低到高
+  disconnect: 中斷連線
+  disconnectDescription: 您確定您要中斷與 {user}({id}) 的連線嗎
+  disconnected: 連線已中斷
+  enterRemoteToken: 輸入對方的令牌
+  enterRemoteTokenHint: 當您的聯機夥伴輸入您的令牌後，您需要將他的令牌輸入到下面的文字框中，並按一下確定開始連線。
+  exposedPortDescription: 您向其他聯機夥伴開放的連接埠
+  exposedPorts: 開放連接埠
   gatheringIce: >
-    è«‹å°‡<span class="v-chip v-chip--label v-size--small" style="text-font: bold">æœ¬åœ°ä»¤ç‰Œ</span>å‚³é€çµ¦æ‚¨çš„è¯æ©Ÿå¤¥ä¼´ï¼Œæ‚¨çš„è¯æ©Ÿå¤¥ä¼´åœ¨ <span class="v-chip v-chip--label v-size--small" style="text-font: bold"> åŠ å…¥é€£ç·š </span> ä¸­è¼¸å…¥é€™æ®µæ–‡å­—ã€‚ <br> æœŸé–“ ICE ä¼ºæœå™¨å¯èƒ½éœ€è¦æ™‚é–“æ”¶é›†è¶³å¤ è³‡è¨Šä¾†å»ºç«‹<span class="v-chip v-chip--label v-size--small" style="text-font: bold">æœ¬åœ°ä»¤ç‰Œ</span>ã€‚ <br> <span class="hint-text"> æ‚¨ä¸éœ€è¦ç­‰ ICE ä¼ºæœå™¨å®Œå…¨æ”¶é›†å®Œç•¢ï¼Œç•¶ä¸‹é¢çš„ä»¤ç‰Œå·²ç¶“æœ‰å…§å®¹ä¸¦ä¸”ä¸å†æ˜Žé¡¯è®Šå‹•å¾Œï¼Œæ‚¨å¯ä»¥æå‰å°‡ä»¤ç‰Œè¤‡è£½çµ¦å°æ–¹ã€‚ </span>
-  groupId: å°çµ„ ID
-  illegalTokenDescription: ç„¡æ•ˆçš„ä»¤ç‰Œï¼Œè«‹ç¢ºèªå°æ–¹çµ¦æ‚¨çš„ä»¤ç‰Œæ˜¯å®Œæ•´ä¸”æ­£ç¢ºçš„ã€‚
-  initiateConnection: ç™¼èµ·é€£ç·š
-  joinConnection: å¦‚æžœæ‚¨çš„è¯æ©Ÿå¤¥ä¼´å·²ç¶“å»ºç«‹äº†é€£ç·šï¼Œæ‚¨éœ€è¦é¸æ“‡åŠ å…¥é€£çµã€‚
-  joinManual: åŠ å…¥é€£ç·š
-  joinOrCreateGroup: åŠ å…¥/å»ºç«‹ç¾¤çµ„
-  joinOrCreateGroupHint: å¾žæ‚¨çš„è¯æ©Ÿå¤¥ä¼´é‚£ç²å¾—ç¾¤çµ„ ID æˆ–è‡ªå·±å»ºç«‹ä¸€å€‹ç¾¤çµ„
-  kernel: P2P æ ¸å¿ƒ
+    請將<span class="v-chip v-chip--label v-size--small" style="text-font: bold">本地令牌</span>傳送給您的聯機夥伴，您的聯機夥伴在 <span class="v-chip v-chip--label v-size--small" style="text-font: bold"> 加入連線 </span> 中輸入這段文字。 <br> 期間 ICE 伺服器可能需要時間收集足夠資訊來建立<span class="v-chip v-chip--label v-size--small" style="text-font: bold">本地令牌</span>。 <br> <span class="hint-text"> 您不需要等 ICE 伺服器完全收集完畢，當下面的令牌已經有內容並且不再明顯變動後，您可以提前將令牌複製給對方。 </span>
+  groupId: 小組 ID
+  illegalTokenDescription: 無效的令牌，請確認對方給您的令牌是完整且正確的。
+  initiateConnection: 發起連線
+  joinConnection: 如果您的聯機夥伴已經建立了連線，您需要選擇加入連結。
+  joinManual: 加入連線
+  joinOrCreateGroup: 加入/建立群組
+  joinOrCreateGroupHint: 從您的聯機夥伴那獲得群組 ID 或自己建立一個群組
+  kernel: P2P 核心
   kernelDescription: |-
-    ä½¿ç”¨æœ¬åœ° WebRTC æˆ–ç¯€é»žè³‡æ–™é€šé“ã€‚
-    åƒ…ç•¶æ‚¨çš„ p2p é€£ç·šæœ‰æ™‚å°Žè‡´å•Ÿå‹•å™¨è¦–çª—ç•¶æ©Ÿæ™‚æ‰åˆ‡æ›æ­¤é¸é …ã€‚
-  leaveGroup: é›¢é–‹ç¾¤çµ„
-  localToken: æœ¬åœ°ä»¤ç‰Œ
-  manualConnect: æ‰‹å‹•é€£ç·š
-  name: è·¨å€åŸŸç¶²è¯æ©Ÿ
-  networkInfo: ç›®å‰ç¶²è·¯ç‹€æ³
-  next: ä¸‹ä¸€æ­¥
-  otherExposedPortDescription: '{user} é–‹æ”¾çš„é€£æŽ¥åŸ '
-  placeholder: å’Œå…¶ä»–çŽ©å®¶å»ºç«‹é€£ç·šï¼Œè·¨å€åŸŸç¶²è¯æ©Ÿ Minecraftï¼
-  previous: ä¸Šä¸€æ­¥
-  receiveHint: åœ¨å°æ–¹è¼¸å…¥æ‚¨çš„ä»¤ç‰Œå¾Œï¼Œæ‚¨å€‘ä¹‹é–“çš„é€£ç·šæœƒè‡ªå‹•å»ºç«‹ã€‚ç¾åœ¨æ‚¨å·²ç¶“å¯ä»¥æŒ‰ä¸€ä¸‹å®Œæˆäº†ã€‚
-  receiveRemoteTokenHint: è«‹å°‡è¯æ©Ÿå¤¥ä¼´çš„ä»¤ç‰Œè²¼ä¸Šåœ¨æ­¤è™•ï¼Œä¸¦æŒ‰ä¸€ä¸‹ä¸‹ä¸€æ­¥ã€‚
-  remoteToken: å°æ–¹çš„ä»¤ç‰Œ
-  routerInfo: è·¯ç”±å™¨è³‡è¨Š
-  sendTokenToRemote: å°‡æœ¬åœ°ä»¤ç‰Œçµ¦æ‚¨çš„è¯æ©Ÿå¤¥ä¼´
-  share: åˆ†äº«å•Ÿå‹•è¨­å®š
-  sharing: æ­£åœ¨å…±äº«éŠæˆ²è¨­å®š...
-  sharingNotificationBody: æ‚¨å¯ä»¥å¾ž {name} å…±ç”¨è¨­å®šä¸‹è¼‰æˆ–å»ºç«‹å¯¦ä¾‹ã€‚
-  sharingNotificationTitle: åŒä¼´æ­£åœ¨å…±äº«éŠæˆ²è¨­å®š
-  start: é–‹å§‹
-  startNewP2PConnection: æŒ‰ä¸€ä¸‹é–‹å§‹æŒ‰éˆ•ä¾†æ–°å»ºä¸€å€‹æ–°çš„é»žå°é»žé€£ç·š
-  connectionError: é€£ç·šéŒ¯èª¤
-  connectionFailedHint: ç„¡æ³•å»ºç«‹é€£ç·šã€‚è«‹æª¢æŸ¥é›™æ–¹çš„ NAT é¡žåž‹æ˜¯å¦ç›¸å®¹ã€‚
-  natWarning: æ‚¨çš„ NAT é¡žåž‹å¯èƒ½é˜»ç¤™ç›´é€£ã€‚è«‹å˜—è©¦åœ¨è¨­å®šä¸­å•Ÿç”¨ä¸­ç¹¼ä¼ºæœå™¨ï¼Œæˆ–è®“æœ‹å‹ä½œç‚ºä¸»æ©Ÿã€‚
-myStuff: å€‹äººä¸­å¿ƒ
+    使用本地 WebRTC 或節點資料通道。
+    僅當您的 p2p 連線有時導致啟動器視窗當機時才切換此選項。
+  leaveGroup: 離開群組
+  localToken: 本地令牌
+  manualConnect: 手動連線
+  name: 跨區域網聯機
+  networkInfo: 目前網路狀況
+  next: 下一步
+  otherExposedPortDescription: '{user} 開放的連接埠'
+  placeholder: 和其他玩家建立連線，跨區域網聯機 Minecraft！
+  previous: 上一步
+  receiveHint: 在對方輸入您的令牌後，您們之間的連線會自動建立。現在您已經可以按一下完成了。
+  receiveRemoteTokenHint: 請將聯機夥伴的令牌貼上在此處，並按一下下一步。
+  remoteToken: 對方的令牌
+  routerInfo: 路由器資訊
+  sendTokenToRemote: 將本地令牌給您的聯機夥伴
+  share: 分享啟動設定
+  sharing: 正在共享遊戲設定...
+  sharingNotificationBody: 您可以從 {name} 共用設定下載或建立實例。
+  sharingNotificationTitle: 同伴正在共享遊戲設定
+  start: 開始
+  startNewP2PConnection: 按一下開始按鈕來新建一個新的點對點連線
+  connectionError: 連線錯誤
+  connectionFailedHint: 無法建立連線。請檢查雙方的 NAT 類型是否相容。
+  natWarning: 您的 NAT 類型可能阻礙直連。請嘗試在設定中啟用中繼伺服器，或讓朋友作為主機。
+myStuff: 個人中心
 natType:
-  blocked: ç„¡æ³•å­˜å–ç¶²éš›ç¶²è·¯
-  fullCone: å…¨é–‹æ”¾ NAT
-  openInternet: é–‹æ”¾ç¶²éš›ç¶²è·¯
-  restrictNat: ä½å€å—é™ NAT
-  restrictPortNat: åŸ å£å—é™ NAT
-  symmetricNat: å°ç¨± NAT
-  symmetricUDPFirewall: å°ç¨± UDP é˜²ç«ç‰†
-  unknown: æœªçŸ¥
+  blocked: 無法存取網際網路
+  fullCone: 全開放 NAT
+  openInternet: 開放網際網路
+  restrictNat: 位址受限 NAT
+  restrictPortNat: 埠口受限 NAT
+  symmetricNat: 對稱 NAT
+  symmetricUDPFirewall: 對稱 UDP 防火牆
+  unknown: 未知
 neoForgedVersion:
-  disable: ä¸ä½¿ç”¨ NeoForge
-  empty: Minecraft {version} ä¸æ”¯æ´ NeoForge
+  disable: 不使用 NeoForge
+  empty: Minecraft {version} 不支援 NeoForge
 news:
-  name: æœ€æ–°æ¶ˆæ¯
-  readMore: é–±è®€æ›´å¤š
+  name: 最新消息
+  readMore: 閱讀更多
 optifineVersion:
-  disable: ä¸ä½¿ç”¨ Optifine
-  empty: Minecraft {version} ä¸æ”¯æ´ Optifine
-optional: å¯é¸
+  disable: 不使用 Optifine
+  empty: Minecraft {version} 不支援 Optifine
+optional: 可選
 peerConnectionState:
-  closed: å·²é—œé–‰
-  connected: å·²é€£ç·š
-  connecting: é€£ç·šä¸­
-  disconnected: é€£ç·šä¸­æ–·
-  failed: å¤±æ•—
-  name: é€£ç·šç‹€æ…‹
-  new: ç­‰å¾…é€£ç·š
+  closed: 已關閉
+  connected: 已連線
+  connecting: 連線中
+  disconnected: 連線中斷
+  failed: 失敗
+  name: 連線狀態
+  new: 等待連線
 peerGroupState:
-  closed: æœªåŠ å…¥å°çµ„
-  closing: ä¸­æ–·ä¸­
-  connected: å°çµ„ç·šä¸Š
-  connecting: åŠ å…¥ä¸­
+  closed: 未加入小組
+  closing: 中斷中
+  connected: 小組線上
+  connecting: 加入中
 peerIceGatheringState:
-  gathering: æ”¶é›†æœ¬åœ°è³‡è¨Šä¸­
+  gathering: 收集本地資訊中
 peerSignalingState:
-  have-local-offer: ç­‰å¾…å°æ–¹è³‡è¨Šä¸­
+  have-local-offer: 等待對方資訊中
 presence:
-  instance: ç€è¦½å¯¦ä¾‹ {instance}
-  instanceSetting: ç·¨è¼¯å¯¦é«”è¨­å®šï¼š{instance}
-  mod: åœ¨ {instance} ç€è¦½æ¨¡çµ„
-  modrinthProject: åœ¨ Modrinth ä¸­æª¢è¦– {name}
-  resourcePack: åœ¨ {instance} ç€è¦½è³‡æºåŒ…
-  save: åœ¨ {instance} ç€è¦½å­˜æª”
-  setting: ç€è¦½è¨­å®šé é¢
-  shaderPack: åœ¨ {instance} ç€è¦½å…‰å½±åŒ…
+  instance: 瀏覽實例 {instance}
+  instanceSetting: 編輯實體設定：{instance}
+  mod: 在 {instance} 瀏覽模組
+  modrinthProject: 在 Modrinth 中檢視 {name}
+  resourcePack: 在 {instance} 瀏覽資源包
+  save: 在 {instance} 瀏覽存檔
+  setting: 瀏覽設定頁面
+  shaderPack: 在 {instance} 瀏覽光影包
 proxy:
-  host: ä¼ºæœå™¨ä½å€
-  port: åŸ è™Ÿ
+  host: 伺服器位址
+  port: 埠號
 quiltVersion:
-  disable: ä¸ä½¿ç”¨ Quilt
-  empty: Minecraft {version} ä¸æ”¯æ´ Quilt
+  disable: 不使用 Quilt
+  empty: Minecraft {version} 不支援 Quilt
 resourcepack:
-  compatible: ç›®å‰æ ¼å¼({format}) å¯ç”¨æ–¼ç›®å‰ç‰ˆæœ¬ {version}
-  defaultDescription: Minecraft çš„é è¨­æè³ª
+  compatible: 目前格式({format}) 可用於目前版本 {version}
+  defaultDescription: Minecraft 的預設材質
   delete:
-    content: å°‡å¾žç£ç¢Ÿä¸­åˆªé™¤è³‡æºåŒ…ï¼Œè©²æ“ä½œä¸å¯é€†ï¼Œç¢ºå®šç¹¼çºŒåŸ·è¡Œå—Ž
-    title: åˆªé™¤è³‡æºåŒ…
-  dropHint: å°‡è³‡æºåŒ… zip æˆ–è³‡æ–™å¤¾æ‹–å…¥æ­¤è™•åŒ¯å…¥
-  enable: ä¸€å…±å•Ÿç”¨äº† {count} å€‹è³‡æºåŒ…
-  incompatible: ä¸ç›¸å®¹çš„è³‡æºåŒ…æ ¼å¼({format})ã€‚é©ç”¨ç¯„åœ {accept}ã€‚ç›®å‰ç‰ˆæœ¬ {actual}ã€‚
-  name: è³‡æºåŒ… | è³‡æºåŒ…
-  searchHint: æœç´¢è³‡æºåŒ…
-  searchOnCurseforge: åœ¨ Curseforge ä¸­æŸ¥è©¢ {name}
+    content: 將從磁碟中刪除資源包，該操作不可逆，確定繼續執行嗎
+    title: 刪除資源包
+  dropHint: 將資源包 zip 或資料夾拖入此處匯入
+  enable: 一共啟用了 {count} 個資源包
+  incompatible: 不相容的資源包格式({format})。適用範圍 {accept}。目前版本 {actual}。
+  name: 資源包 | 資源包
+  searchHint: 搜索資源包
+  searchOnCurseforge: 在 Curseforge 中查詢 {name}
   searchOnModrinth: '@:mod.searchOnModrinth'
-  selected: å·²é¸è³‡æºåŒ…
-  showDirectory: é–‹å•ŸåŒ…å«è³‡æºå¥—ä»¶çš„è³‡æ–™å¤¾
-  showFile: åœ¨è³‡æ–™å¤¾ä¸­é¡¯ç¤º {file}
-  showInCurseforge: åœ¨ Curseforge ä¸­é¡¯ç¤º {name}
-  unselected: æœªé¸è³‡æºåŒ…
-  noPacks: æœªæ‰¾åˆ°è³‡æºåŒ…
-  search: æœå°‹è³‡æºåŒ…...
+  selected: 已選資源包
+  showDirectory: 開啟包含資源套件的資料夾
+  showFile: 在資料夾中顯示 {file}
+  showInCurseforge: 在 Curseforge 中顯示 {name}
+  unselected: 未選資源包
+  noPacks: 未找到資源包
+  search: 搜尋資源包...
 save:
   copy:
-    name: è¤‡è£½å­˜æª”
-  createNew: æ–°å­˜æª”
-  createdWorlds: å»ºç«‹äº† {count} å€‹ä¸–ç•Œ
-  deleteHint: è©²æ“ä½œä¸å¯é€†ï¼Œæ‚¨å°‡æ°¸é å¤±åŽ»é€™å€‹å­˜æª”çš„ç´€éŒ„ï¼Œæ‚¨ç¢ºå®šè¦åˆªé™¤æ­¤å­˜æª”å—Žï¼Ÿ
-  deleteTitle: åˆªé™¤è©²å­˜æª”
-  dropHint: å°‡åœ°åœ– Zip æˆ–è³‡æ–™å¤¾æ‹–å…¥æ­¤è™•ä¾†åŒ¯å…¥
-  export: åŒ¯å‡ºåœ°åœ–
-  exportMessage: å°‡å­˜æª”åŒ¯å‡ºç‚º Zip
-  exportTitle: åŒ¯å‡ºå­˜æª”
-  gameMode: éŠæˆ²æ¨¡å¼
-  independent: å¯¦ä¾‹ä½¿ç”¨ç¨ç«‹çš„å­˜æª”è³‡æ–™å¤¾
-  levelName: é—œå¡åç¨±
-  name: åœ°åœ–å­˜æª” | åœ°åœ–å­˜æª”
-  search: æœå°‹åœ°åœ–
+    name: 複製存檔
+  createNew: 新存檔
+  createdWorlds: 建立了 {count} 個世界
+  deleteHint: 該操作不可逆，您將永遠失去這個存檔的紀錄，您確定要刪除此存檔嗎？
+  deleteTitle: 刪除該存檔
+  dropHint: 將地圖 Zip 或資料夾拖入此處來匯入
+  export: 匯出地圖
+  exportMessage: 將存檔匯出為 Zip
+  exportTitle: 匯出存檔
+  gameMode: 遊戲模式
+  independent: 實例使用獨立的存檔資料夾
+  levelName: 關卡名稱
+  name: 地圖存檔 | 地圖存檔
+  search: 搜尋地圖
   seed: Seed
-  selected: æœ¬åœ°å­˜æª”
-  shared: å¯¦ä¾‹ä½¿ç”¨å…±äº«å­˜æª”è³‡æ–™å¤¾
-  showDirectory: é¡¯ç¤ºå„²å­˜ç›®éŒ„
-  unselected: å…±äº«çš„å­˜æª”
-  useCurrent: ä½¿ç”¨ç›®å‰ä¸–ç•Œ
-  openFolder: é–‹å•Ÿå­˜æª”è³‡æ–™å¤¾
-  searchHint: åœ¨ CurseForge ä¸Šæœå°‹ä¸–ç•Œ
-  searchSaves: æœå°‹å­˜æª”
+  selected: 本地存檔
+  shared: 實例使用共享存檔資料夾
+  showDirectory: 顯示儲存目錄
+  unselected: 共享的存檔
+  useCurrent: 使用目前世界
+  openFolder: 開啟存檔資料夾
+  searchHint: 在 CurseForge 上搜尋世界
+  searchSaves: 搜尋存檔
 screenshots:
-  empty: æ‚¨é‚„æ²’æœ‰æˆªåœ–
-  playRandom: éš¨æ©Ÿæ’­æ”¾
-  playSequence: é †åºæ’­æ”¾
-  gallery: æˆªåœ–ç•«å»Š
-  hint: åœ¨éŠæˆ²ä¸­æŒ‰ F2 æˆªåœ–
-  openFolder: é–‹å•Ÿæˆªåœ–è³‡æ–™å¤¾
+  empty: 您還沒有截圖
+  playRandom: 隨機播放
+  playSequence: 順序播放
+  gallery: 截圖畫廊
+  hint: 在遊戲中按 F2 截圖
+  openFolder: 開啟截圖資料夾
 search:
-  favorate: æ”¶è—
-  local: å·²å®‰è£
-  market: æ¨¡çµ„å¸‚é›†
+  favorate: 收藏
+  local: 已安裝
+  market: 模組市集
 server:
-  acceptingMinecraftVersion: æŽ¥å— Minecraft ç‰ˆæœ¬
-  addServer: æ–°å¢žä¼ºæœå™¨
-  address: ä¼ºæœå™¨ä½å€
-  addressHint: ä¾‹å¦‚ mc.hypixel.net
-  bindUpstream: ç¶å®šç‚ºä¸Šæ¸¸
-  boundUpstream: å·²ç¶å®šä¼ºæœå™¨ä¸Šæ¸¸
-  boundUpstreamHint: æ­¤åŸ·è¡Œå€‹é«”å°‡è·Ÿéš¨æ‰€ç¶å®šä¼ºæœå™¨çš„ Minecraft ç‰ˆæœ¬ã€‚
-  creationHint: è«‹å¡«å¯«ä¼ºæœå™¨ä½å€ä¸¦å˜—è©¦ Ping ä¼ºæœå™¨
-  editServer: ç·¨è¼¯ä¼ºæœå™¨
-  emptyHint: æ­¤åŸ·è¡Œå€‹é«”çš„ servers.dat ä¸­å°šç„¡ä¼ºæœå™¨ï¼Œæ–°å¢žä¸€å€‹ä»¥é–‹å§‹ã€‚
-  entryCount: '{count} å€‹ä¼ºæœå™¨'
-  expectedVersions: å·²æ”¯æ´çš„ç‰ˆæœ¬
-  export: åŒ¯å‡ºä¼ºæœå™¨
+  acceptingMinecraftVersion: 接受 Minecraft 版本
+  addServer: 新增伺服器
+  address: 伺服器位址
+  addressHint: 例如 mc.hypixel.net
+  bindUpstream: 綁定為上游
+  boundUpstream: 已綁定伺服器上游
+  boundUpstreamHint: 此執行個體將跟隨所綁定伺服器的 Minecraft 版本。
+  creationHint: 請填寫伺服器位址並嘗試 Ping 伺服器
+  editServer: 編輯伺服器
+  emptyHint: 此執行個體的 servers.dat 中尚無伺服器，新增一個以開始。
+  entryCount: '{count} 個伺服器'
+  expectedVersions: 已支援的版本
+  export: 匯出伺服器
   exportNoFilesHint: |-
-    æ‰¾ä¸åˆ°ä¼ºæœå™¨æª”æ¡ˆã€‚
-    æ‚¨å¯ä»¥ä¸€æ¬¡åœ¨æœ¬åœ°é‹è¡Œä¼ºæœå™¨ä¾†ç”¢ç”Ÿä¸€äº›æª”æ¡ˆã€‚
-  exportOption: ä¼ºæœå™¨åŒ¯å‡ºé¸é …
+    找不到伺服器檔案。
+    您可以一次在本地運行伺服器來產生一些檔案。
+  exportOption: 伺服器匯出選項
   exportSSHAuthenticationFailed: |-
-    æ‰€æœ‰èº«ä»½é©—è­‰æ–¹æ³•éƒ½å¤±æ•—äº†ã€‚
-    è«‹æª¢æŸ¥ç”¨æˆ¶å/å¯†ç¢¼æˆ–ç§é‘°ã€‚
-  exportSSHOptions: SSH é¸é …
-  exportSSHPrivateKeyPath: SSH ç§é‘°è·¯å¾‘
-  exportSSHRemotePath: é ç«¯ä¼ºæœå™¨è·¯å¾‘
-  exportToFolder: åŒ¯å‡ºåˆ°è³‡æ–™å¤¾
-  filterVersion: ç¯©é¸ä¼ºæœå™¨ç›¸æ‡‰çš„ Minecraft ç‰ˆæœ¬
-  host: ä¼ºæœå™¨ä½å€
-  hostHint: ä¼ºæœå™¨çš„ IP ä½å€ï¼ˆå’ŒåŸ è™Ÿï¼‰
-  hostRequired: è«‹è¼¸å…¥ä¼ºæœå™¨ IP ä½å€
-  ipAddress: IP ä½å€
-  launchClient: æ”¹ç‚ºå•Ÿå‹•ç”¨æˆ¶ç«¯
-  launchPinned: å·²é‡˜é¸
-  launchTargetHint: æ­¤åŸ·è¡Œå€‹é«”æœƒç›´æŽ¥å•Ÿå‹•é€²å…¥å·²é‡˜é¸çš„ä¼ºæœå™¨ï¼Œè¦åˆ‡æ›å›žç”¨æˆ¶ç«¯å—Žï¼Ÿ
-  maxPlayers: æœ€å¤§çŽ©å®¶æ•¸
-  motd: ä¼ºæœå™¨ MOTD
-  nameHint: é¡¯ç¤ºåœ¨å¤šäººéŠæˆ²æ¸…å–®ä¸­çš„åç¨±
-  nogui: ç„¡ä¼ºæœå™¨ GUI
-  onlineMode: ç·šä¸Šæ¨¡å¼
-  pin: é‡˜é¸ä¼ºæœå™¨
-  pinAfterSave: å„²å­˜å¾Œé‡˜é¸ç‚ºé è¨­å•Ÿå‹•ç›®æ¨™
-  pinnedHeader: 'å·²é‡˜é¸ï¼š{name}'
-  ping: Ping ä¼ºæœå™¨
-  pings: å»¶é²
-  players: çŽ©å®¶
-  port: åŸ 
-  serverName: ä¼ºæœå™¨åç¨±
-  serversListTitle: ä¼ºæœå™¨æ¸…å–®
-  unbindUpstream: è§£é™¤ç¶å®š
-  unknown: æœªçŸ¥ä¼ºæœå™¨
-  unknownDescription: æœªçŸ¥ä¼ºæœå™¨ï¼Œè«‹é‡æ–°æ•´ç†ã€‚
-  unpin: å–æ¶ˆé‡˜é¸
-  upload: ä¸Šå‚³ä¼ºæœå™¨
-  upstreamUpdateAvailable: 'ä¼ºæœå™¨ç¾åœ¨åŸ·è¡Œ Minecraft {version}ï¼Œé»žé¸å¥—ç”¨ã€‚'
-  upstreamUpdateHint: å°‡å»ºè­°çš„ Minecraft ç‰ˆæœ¬å¥—ç”¨è‡³æ­¤åŸ·è¡Œå€‹é«”ã€‚
-  upstreamUpToDate: æ‚¨çš„åŸ·è¡Œå€‹é«”èˆ‡ä¼ºæœå™¨ç‰ˆæœ¬ä¸€è‡´ï¼ˆ{version}ï¼‰ã€‚
-  upstreamUpToDateHint: ç„¡éœ€å‡ç´šï¼Œé»žé¸å¯é‡æ–° Ping ä¼ºæœå™¨ã€‚
-  useAsUpstreamHint: æ­¤åŸ·è¡Œå€‹é«”å°‡è·Ÿéš¨ä¼ºæœå™¨æ‰€å›žå ±çš„ Minecraft ç‰ˆæœ¬ã€‚
-  version: ä¼ºæœå™¨æŽ¨è–¦ç‰ˆæœ¬
-  versionHint: Ping ä½¿ç”¨çš„ Minecraft ç‰ˆæœ¬
+    所有身份驗證方法都失敗了。
+    請檢查用戶名/密碼或私鑰。
+  exportSSHOptions: SSH 選項
+  exportSSHPrivateKeyPath: SSH 私鑰路徑
+  exportSSHRemotePath: 遠端伺服器路徑
+  exportToFolder: 匯出到資料夾
+  filterVersion: 篩選伺服器相應的 Minecraft 版本
+  host: 伺服器位址
+  hostHint: 伺服器的 IP 位址（和埠號）
+  hostRequired: 請輸入伺服器 IP 位址
+  ipAddress: IP 位址
+  launchClient: 改為啟動用戶端
+  launchPinned: 已釘選
+  launchTargetHint: 此執行個體會直接啟動進入已釘選的伺服器，要切換回用戶端嗎？
+  maxPlayers: 最大玩家數
+  motd: 伺服器 MOTD
+  nameHint: 顯示在多人遊戲清單中的名稱
+  nogui: 無伺服器 GUI
+  onlineMode: 線上模式
+  pin: 釘選伺服器
+  pinAfterSave: 儲存後釘選為預設啟動目標
+  pinnedHeader: '已釘選：{name}'
+  ping: Ping 伺服器
+  pings: 延遲
+  players: 玩家
+  port: 埠
+  serverName: 伺服器名稱
+  serversListTitle: 伺服器清單
+  unbindUpstream: 解除綁定
+  unknown: 未知伺服器
+  unknownDescription: 未知伺服器，請重新整理。
+  unpin: 取消釘選
+  upload: 上傳伺服器
+  upstreamUpdateAvailable: '伺服器現在執行 Minecraft {version}，點選套用。'
+  upstreamUpdateHint: 將建議的 Minecraft 版本套用至此執行個體。
+  upstreamUpToDate: 您的執行個體與伺服器版本一致（{version}）。
+  upstreamUpToDateHint: 無需升級，點選可重新 Ping 伺服器。
+  useAsUpstreamHint: 此執行個體將跟隨伺服器所回報的 Minecraft 版本。
+  version: 伺服器推薦版本
+  versionHint: Ping 使用的 Minecraft 版本
 serverStatus:
-  nohost: æ‰¾ä¸åˆ°ä¼ºæœå™¨ï¼
-  ping: å»¶é²
-  refuse: ä¼ºæœå™¨ä¸­æ–·äº†é€£ç·šï¼
-  timeout: ä¼ºæœå™¨éŸ¿æ‡‰è¶…æ™‚ï¼
+  nohost: 找不到伺服器！
+  ping: 延遲
+  refuse: 伺服器中斷了連線！
+  timeout: 伺服器響應超時！
 setting:
   themeStore:
-    name: ä¸»é¡Œåº«
-    description: ä¿å­˜ä¸¦ç®¡ç†å…¨åŸŸä¸»é¡Œ
-    savedThemes: å·²ä¿å­˜çš„ä¸»é¡Œ
-    noSavedThemes: å°šç„¡å·²ä¿å­˜çš„ä¸»é¡Œ
-    saveToStore: ä¿å­˜åˆ°ä¸»é¡Œåº«
-    saveDialogTitle: ä¿å­˜ä¸»é¡Œ
-    themeName: ä¸»é¡Œåç¨±
-    themeNameHint: ç”¨æ–¼ä¿å­˜æ­¤ä¸»é¡Œçš„åç¨±
-    loadConfirmTitle: å–ä»£ç›®å‰ä¸»é¡Œï¼Ÿ
-    loadConfirmMessage: è¼‰å…¥å·²ä¿å­˜çš„ä¸»é¡Œå°‡å–ä»£ç›®å‰ä¸»é¡Œï¼Œè«‹å…ˆå‚™ä»½ã€‚
-    loadTheme: è¼‰å…¥ä¸»é¡Œ
-  about: é—œæ–¼
-  aboutBmclDescription: BMCL API ç‚ºä¸­åœ‹åœ°å€ç”¨æˆ¶æä¾›ä¾¿æ·çš„ä¸‹è¼‰æœå‹™
-  aboutContributors: ðŸ§‘â€ðŸ’» è²¢ç»è€… ðŸ§‘â€ðŸ’»
-  aboutDenoDescription: FastLauncher ä½¿ç”¨ Deno Deploy å¹³å°æä¾›çš„ç„¡ä¼ºæœå™¨ JavaScript æ‡‰ç”¨ç¨‹å¼
+    name: 主題庫
+    description: 保存並管理全域主題
+    savedThemes: 已保存的主題
+    noSavedThemes: 尚無已保存的主題
+    saveToStore: 保存到主題庫
+    saveDialogTitle: 保存主題
+    themeName: 主題名稱
+    themeNameHint: 用於保存此主題的名稱
+    loadConfirmTitle: 取代目前主題？
+    loadConfirmMessage: 載入已保存的主題將取代目前主題，請先備份。
+    loadTheme: 載入主題
+  about: 關於
+  aboutBmclDescription: BMCL API 為中國地區用戶提供便捷的下載服務
+  aboutContributors: 🧑‍💻 貢獻者 🧑‍💻
+  aboutDenoDescription: FastLauncher 使用 Deno Deploy 平台提供的無伺服器 JavaScript 應用程式
   aboutLicense: MIT License
-  aboutLicenseInfo: Windows ä»£ç¢¼ç°½åç”± SignPath.io å…è²»æä¾›ï¼Œç°½ç½²äººç‚º SignPath Foundation
-  aboutSponsors: ðŸ˜‡ è´ŠåŠ©å•† ðŸ˜‡
-  advancedJavaOptions: é€²éšŽ Java é¸é …
-  advancedSettings: é€²éšŽè¨­å®š
-  advancedSettingsHint: å±éšªå€åŸŸ - é‡ç½®æˆ–ç®¡ç†å•Ÿå‹•å™¨è³‡æ–™
+  aboutLicenseInfo: Windows 代碼簽名由 SignPath.io 免費提供，簽署人為 SignPath Foundation
+  aboutSponsors: 😇 贊助商 😇
+  advancedJavaOptions: 進階 Java 選項
+  advancedSettings: 進階設定
+  advancedSettingsHint: 危險區域 - 重置或管理啟動器資料
   apiSets:
-    auto: è‡ªå‹• (æ ¹æ“šç¶²è·¯æ±ºå®š)
-    official: å®˜æ–¹ (Mojang)
-  appearance: å¤–è§€
-  appearanceDescription: è‡ªè¨‚å•Ÿå‹•å™¨å¤–è§€
-  appxUpdateHint: å•Ÿå‹•å™¨å°‡ä¸‹è¼‰ä¸¦åŸ·è¡Œå®‰è£åŒ…ï¼Œå¦‚æžœå®‰è£åŒ…è§£æžå¤±æ•—ï¼Œè«‹å˜—è©¦è‡ªè¡Œé–‹å•Ÿå®‰è£æª”æ¡ˆæ›´æ–°ã€‚
-  authenticationSettings: é©—è­‰
-  backdropBlur: èƒŒæ™¯æ¨¡ç³Š
-  backgroundColorAbove: å°‡èƒŒæ™¯é¡è‰²é¡¯ç¤ºç‚ºç–ŠåŠ å±¤
-  backgroundColorAboveDescription: é€™å°‡ä½¿èƒŒæ™¯é¡è‰²é¡¯ç¤ºåœ¨èƒŒæ™¯å½±è±¡æˆ–å½±ç‰‡ä¸Šæ–¹ã€‚
-  backgroundImage: èƒŒæ™¯åœ–ç‰‡
-  backgroundImageClear: æ¸…ç©º
-  backgroundImageDescription: é¸æ“‡ä¸€å¼µèƒŒæ™¯åœ–ç‰‡æˆ–æ¸…ç©ºç›®å‰åœ–ç‰‡
+    auto: 自動 (根據網路決定)
+    official: 官方 (Mojang)
+  appearance: 外觀
+  appearanceDescription: 自訂啟動器外觀
+  appxUpdateHint: 啟動器將下載並執行安裝包，如果安裝包解析失敗，請嘗試自行開啟安裝檔案更新。
+  authenticationSettings: 驗證
+  backdropBlur: 背景模糊
+  backgroundColorAbove: 將背景顏色顯示為疊加層
+  backgroundColorAboveDescription: 這將使背景顏色顯示在背景影象或影片上方。
+  backgroundImage: 背景圖片
+  backgroundImageClear: 清空
+  backgroundImageDescription: 選擇一張背景圖片或清空目前圖片
   backgroundImageFit:
-    contain: åŒ…å«
-    cover: è¦†è“‹
-    name: æ”¾ç½®æ–¹å¼
-  backgroundImageUrl: åœ–ç‰‡ç¶²å€
-  backgroundImageUrlPlaceholder: è¼¸å…¥åœ–åƒçš„ HTTP/HTTPS URL
-  backgroundMusic: ä¸»é¡ŒèƒŒæ™¯éŸ³æ¨‚
-  backgroundMusicUrl: éŸ³æ¨‚ç¶²å€
-  backgroundMusicUrlPlaceholder: è¼¸å…¥éŸ³æ¨‚çš„ HTTP/HTTPS URL
-  backgroundType: èƒŒæ™¯æ•ˆæžœ
-  backgroundTypeDescription: æ˜¯å¦é¡¯ç¤ºèƒŒæ™¯ç‰¹æ•ˆï¼ˆå¦‚æžœè¦ºå¾—å¡é “å¯ä»¥å°‡å…¶é—œé–‰ï¼‰
+    contain: 包含
+    cover: 覆蓋
+    name: 放置方式
+  backgroundImageUrl: 圖片網址
+  backgroundImageUrlPlaceholder: 輸入圖像的 HTTP/HTTPS URL
+  backgroundMusic: 主題背景音樂
+  backgroundMusicUrl: 音樂網址
+  backgroundMusicUrlPlaceholder: 輸入音樂的 HTTP/HTTPS URL
+  backgroundType: 背景效果
+  backgroundTypeDescription: 是否顯示背景特效（如果覺得卡頓可以將其關閉）
   backgroundTypes:
-    halo: å…‰æšˆ
-    image: åœ–ç‰‡
-    none: ç„¡
-    particle: ç²’å­
-    video: å½±ç‰‡
-  backgroundVideo: èƒŒæ™¯å½±ç‰‡
-  backgroundVideoDescription: é¸æ“‡ä¸€å€‹èƒŒæ™¯å½±ç‰‡æˆ–æ¸…ç©ºç›®å‰
-  backgroundVideoUrl: è¦–é »ç¶²å€
-  backgroundVideoUrlPlaceholder: è¼¸å…¥è¦–é »çš„ HTTP/HTTPS URL
-  backgroundVideoVolume: å½±ç‰‡éŸ³é‡
-  backgroundVideoVolumeDescription: æ‹–å‹•ä»¥èª¿æ•´éŸ³é‡
-  browseRoot: æ›´æ”¹
-  checkUpdate: æª¢æŸ¥æ›´æ–°
+    halo: 光暈
+    image: 圖片
+    none: 無
+    particle: 粒子
+    video: 影片
+  backgroundVideo: 背景影片
+  backgroundVideoDescription: 選擇一個背景影片或清空目前
+  backgroundVideoUrl: 視頻網址
+  backgroundVideoUrlPlaceholder: 輸入視頻的 HTTP/HTTPS URL
+  backgroundVideoVolume: 影片音量
+  backgroundVideoVolumeDescription: 拖動以調整音量
+  browseRoot: 更改
+  checkUpdate: 檢查更新
   colorTheme:
-    appBarColor: é ‚ç«¯æ¬„
-    backgroundColor: èƒŒæ™¯é¡è‰²
-    cardColor: å¡ç‰‡é¡è‰²
-    description: æ”¹è®Šä¸»é¡Œä¸­çš„é…è‰²
-    errorColor: éŒ¯èª¤é¡è‰²
-    name: ä¸»é¡Œé¡è‰²å’Œæ¨¡ç³Š
-    primaryColor: ä¸»è¦é¡è‰²
-    sideBarColor: å´é‚Šæ¬„
-    warningColor: è­¦å‘Šé¡è‰²
+    appBarColor: 頂端欄
+    backgroundColor: 背景顏色
+    cardColor: 卡片顏色
+    description: 改變主題中的配色
+    errorColor: 錯誤顏色
+    name: 主題顏色和模糊
+    primaryColor: 主要顏色
+    sideBarColor: 側邊欄
+    warningColor: 警告顏色
   customCss:
-    advancedDescription: ä½¿ç”¨ä½ è‡ªå·±çš„ CSS è¦†è“‹å•Ÿå‹•å™¨ç›®å‰çš„æ¨£å¼ã€‚
-    assistantHint: æè¿°ä½ æƒ³è¦çš„å¤–è§€ï¼Œæˆ‘æœƒç‚ºä½ ç·¨å¯« CSSã€‚
-    assistantSuggestion1: è®“å´é‚Šæ¬„åŠé€æ˜Ž
-    assistantSuggestion2: ç‚ºå¡ç‰‡åŠ å…¥æ·¡æ·¡çš„æ¼¸å±¤èƒŒæ™¯
-    assistantTitle: CSS åŠ©æ‰‹
-    dropHint: æ‹–å…¥ .css æª”æ¡ˆä»¥è¼‰å…¥
-    editorPlaceholder: "/* åœ¨æ­¤ç·¨å¯«ä½ çš„è‡ªè¨‚ CSS */"
-    globalToggle: åˆ‡æ›è‡ªè¨‚ CSS
-    openInDialog: åœ¨åŠ©æ‰‹å°è©±æ¡†ä¸­é–‹å•Ÿ
-    title: è‡ªè¨‚ CSS
-    warning: è‡ªè¨‚ CSS å…è¨±ä½ è‡ªè¨‚å•Ÿå‹•å™¨çš„ä»»ä½•éƒ¨åˆ†ã€‚å¾žä¸å¯ä¿¡ä¾†æºè²¼ä¸Š CSS æ™‚è«‹å‹™å¿…å°å¿ƒï¼Œå› ç‚ºå®ƒå¯èƒ½æœƒä¿®æ”¹ä»‹é¢ä½ˆå±€ã€‚
-  darkTheme: ä¸»é¡Œ
-  darkThemeDescription: é¸æ“‡æ·±è‰²æˆ–æ·ºè‰²ä¸»é¡Œ
-  devModeLabel: é–‹ç™¼
-  developerMode: é–‹ç™¼è€…æ¨¡å¼
-  developerModeDescription: é–‹ç™¼è€…æ¨¡å¼æ—¨åœ¨å”åŠ©æ‚¨æ¸¬è©¦è‡ªå·±å¯«çš„æ¨¡çµ„
-  disableTelemetry: åœç”¨é™æ¸¬
-  disableTelemetryDescription: FastLauncher æœƒæ”¶é›†éŠæˆ²å•Ÿå‹•ä»¥åŠä½¿ç”¨è€…ç™»å…¥äº‹ä»¶
-  enableDedicatedGPUOptimization: åˆ†é…å°ˆç”¨ GPU
-  enableDedicatedGPUOptimizationDescription: æ­¤é¸é …å°‡ç‚º Minecraft ç¨‹åºåˆ†é…å°ˆç”¨ GPUã€‚
-  enableDiscord: å•Ÿç”¨ Discord Presence
-  enableDiscordDescription: æ ¹æ“š FastLauncher å¯¦æ™‚æ›´æ–° Discord çš„ç‹€æ…‹
-  enterUrl: è¼¸å…¥ç¶²å€
-  exportSettings: åŒ¯å‡ºè¨­å®š
-  exportSettingsHint: å°‡ç›®å‰è¨­å®šå„²å­˜åˆ°æª”æ¡ˆ
-  general: åŸºæœ¬è¨­å®š
+    advancedDescription: 使用你自己的 CSS 覆蓋啟動器目前的樣式。
+    assistantHint: 描述你想要的外觀，我會為你編寫 CSS。
+    assistantSuggestion1: 讓側邊欄半透明
+    assistantSuggestion2: 為卡片加入淡淡的漸層背景
+    assistantTitle: CSS 助手
+    dropHint: 拖入 .css 檔案以載入
+    editorPlaceholder: "/* 在此編寫你的自訂 CSS */"
+    globalToggle: 切換自訂 CSS
+    openInDialog: 在助手對話框中開啟
+    title: 自訂 CSS
+    warning: 自訂 CSS 允許你自訂啟動器的任何部分。從不可信來源貼上 CSS 時請務必小心，因為它可能會修改介面佈局。
+  darkTheme: 主題
+  darkThemeDescription: 選擇深色或淺色主題
+  devModeLabel: 開發
+  developerMode: 開發者模式
+  developerModeDescription: 開發者模式旨在協助您測試自己寫的模組
+  disableTelemetry: 停用遙測
+  disableTelemetryDescription: FastLauncher 會收集遊戲啟動以及使用者登入事件
+  enableDedicatedGPUOptimization: 分配專用 GPU
+  enableDedicatedGPUOptimizationDescription: 此選項將為 Minecraft 程序分配專用 GPU。
+  enableDiscord: 啟用 Discord Presence
+  enableDiscordDescription: 根據 FastLauncher 實時更新 Discord 的狀態
+  enterUrl: 輸入網址
+  exportSettings: 匯出設定
+  exportSettingsHint: 將目前設定儲存到檔案
+  general: 基本設定
   githubRelease: Github
-  globalSetting: å…¨åŸŸæ€§å¯¦ä¾‹è¨­å®š
-  globalSettingHint: å¯¦ä¾‹é è¨­æƒ…æ³ä¸‹æœƒä½¿ç”¨é€™äº›å…¨åŸŸæ€§è¨­å®š
-  importSettings: åŒ¯å…¥è¨­å®š
-  importSettingsHint: å¾žå…ˆå‰åŒ¯å‡ºçš„æª”æ¡ˆä¸­è¼‰å…¥è¨­å®š
+  globalSetting: 全域性實例設定
+  globalSettingHint: 實例預設情況下會使用這些全域性設定
+  importSettings: 匯入設定
+  importSettingsHint: 從先前匯出的檔案中載入設定
   instanceTheme:
-    activeDescription: æ­¤å¯¦ä¾‹ä½¿ç”¨è‡ªå®šç¾©ä¸»é¡Œã€‚æ‚¨å¯ä»¥å°‡å…¶åˆªé™¤ä»¥ä½¿ç”¨å…¨å±€ä¸»é¡Œã€‚
-    description: ç‚ºæ­¤å¯¦ä¾‹å•Ÿç”¨è‡ªå®šç¾©ä¸»é¡Œã€‚é€™å°‡å‰µå»ºç•¶å‰å…¨å±€ä¸»é¡Œçš„å‰¯æœ¬ã€‚
-    name: å¯¦ä¾‹ä¸»é¡Œ
-  language: èªžè¨€
-  languageDescription: ç›®å‰é¡¯ç¤ºçš„èªžè¨€
-  latestVersion: æœ€æ–°ç‰ˆæœ¬
+    activeDescription: 此實例使用自定義主題。您可以將其刪除以使用全局主題。
+    description: 為此實例啟用自定義主題。這將創建當前全局主題的副本。
+    name: 實例主題
+  language: 語言
+  languageDescription: 目前顯示的語言
+  latestVersion: 最新版本
   layout:
-    default: é è¨­ä½ˆå±€
-    focus: èšç„¦ä½ˆå±€
-  layoutDescription: ä¸åŒä½ˆå±€æœ‰ä¸åŒçš„ UI äº’å‹•é‚è¼¯
-  layoutTitle: ä½ˆå±€
-  linuxEnableDedicatedGPUOptimization: æŒ‡æ´¾å°ˆç”¨çš„åœ–å½¢è™•ç†å™¨
-  linuxEnableDedicatedGPUOptimizationDescription: æ­¤é¸é …ç‚º Minecraft ç¨‹åºæŒ‡å®šå°ˆç”¨ GPUã€‚
-  linuxTitlebar: åŽŸç”Ÿé ‚ç«¯æ¬„
-  linuxTitlebarDescription: ä½¿ç”¨ Linux ç³»çµ±åŽŸç”Ÿçš„é ‚ç«¯æ¬„
-  livePreview: å¯¦æ™‚é è¦½
-  location: è³‡æ–™å„²å­˜ä½ç½®
-  manualUpdateHint: ç‰ˆæœ¬ç„¡æ³•è‡ªå‹•æ›´æ–°ã€‚è«‹å¾žå®˜æ–¹ç¶²ç«™é‡æ–°ä¸‹è¼‰å•Ÿå‹•å™¨ï¼
+    default: 預設佈局
+    focus: 聚焦佈局
+  layoutDescription: 不同佈局有不同的 UI 互動邏輯
+  layoutTitle: 佈局
+  linuxEnableDedicatedGPUOptimization: 指派專用的圖形處理器
+  linuxEnableDedicatedGPUOptimizationDescription: 此選項為 Minecraft 程序指定專用 GPU。
+  linuxTitlebar: 原生頂端欄
+  linuxTitlebarDescription: 使用 Linux 系統原生的頂端欄
+  livePreview: 實時預覽
+  location: 資料儲存位置
+  manualUpdateHint: 版本無法自動更新。請從官方網站重新下載啟動器！
   maunalUpdateHint: |-
-    ç‰ˆæœ¬ç„¡æ³•è‡ªå‹•æ›´æ–°ã€‚
-    è«‹å¾žç¶²ç«™é‡æ–°ä¸‹è¼‰å•Ÿå‹•å™¨ï¼
-  maxSockets: (æ¯å€‹ç¶²ç«™)æœ€å¤§é€£ç·šæ•¸
-  maxSocketsDescription: æŽ§åˆ¶æœ€å¤§çš„ä½µç™¼ HTTP é€£çµæ•¸é‡ã€‚0 ä»£è¡¨ä¸é™åˆ¶æ•¸é‡ã€‚
-  maxSocketsTitle: æœ€å¤§ HTTP é€£ç·šæ•¸é‡
-  memoryAssignment: è¨˜æ†¶é«”åˆ†é…
-  migrateFromOther: å¾žå…¶ä»–å•Ÿå‹•å™¨åŒ¯å…¥
-  minecraftOptions: Minecraft é¸é …
-  name: è¨­å®š
-  network: ç¶²è·¯è¨­å®š
-  newsPosition: ç§»å‹•æ–°èžå€åŸŸ
-  officialWebsite: å®˜æ–¹ç¶²ç«™ç¶²å€
+    版本無法自動更新。
+    請從網站重新下載啟動器！
+  maxSockets: (每個網站)最大連線數
+  maxSocketsDescription: 控制最大的併發 HTTP 連結數量。0 代表不限制數量。
+  maxSocketsTitle: 最大 HTTP 連線數量
+  memoryAssignment: 記憶體分配
+  migrateFromOther: 從其他啟動器匯入
+  minecraftOptions: Minecraft 選項
+  name: 設定
+  network: 網路設定
+  newsPosition: 移動新聞區域
+  officialWebsite: 官方網站網址
   particleMode:
-    bubble: æ°£æ³¡
-    name: ç²’å­ç‰¹æ•ˆ
-    push: å¢žåŠ 
-    remove: ç§»é™¤
-    repulse: æ“Šé€€
-  particleModeDescription: é¸æ“‡ç•¶æ‚¨æŒ‰ä¸€ä¸‹ç²’å­æ™‚çš„ç‰¹æ•ˆ
-  quickLaunchSettings: å¿«é€Ÿå•Ÿå‹•
-  replaceNative: æ›¿æ›å‡½å¼åº«ç‚º Native (åŽŸç”Ÿ)
-  replaceNativeDescription: æ ¹æ“šæ‚¨çš„é›»è…¦æž¶æ§‹æ›¿æ›åŽŸç”Ÿå‡½å¼åº«ã€‚
+    bubble: 氣泡
+    name: 粒子特效
+    push: 增加
+    remove: 移除
+    repulse: 擊退
+  particleModeDescription: 選擇當您按一下粒子時的特效
+  quickLaunchSettings: 快速啟動
+  replaceNative: 替換函式庫為 Native (原生)
+  replaceNativeDescription: 根據您的電腦架構替換原生函式庫。
   replaceNatives:
-    all: å…¨éƒ¨
-    legacy: åƒ…èˆŠç‰ˆæœ¬
-  resetAllSettings: é‡è¨­æ‰€æœ‰è¨­å®š
-  resetAllSettingsConfirmMessage: æ­¤æ“ä½œå°‡æ°¸ä¹…åˆªé™¤æ‰€æœ‰è¨­å®šã€å¸³æˆ¶ã€å¯¦ä¾‹ã€ç¾¤çµ„å’Œå¿«å–è³‡æ–™ã€‚æ­¤æ“ä½œç„¡æ³•æ’¤éŠ·ã€‚ç¢ºå®šè¦ç¹¼çºŒå—Žï¼Ÿ
-  resetAllSettingsConfirmTitle: é‡è¨­æ‰€æœ‰è¨­å®šï¼Ÿ
-  resetAllSettingsHint: å°‡å•Ÿå‹•å™¨é‡è¨­ç‚ºå‡ºå» é è¨­å€¼ï¼ˆåˆªé™¤æ‰€æœ‰è³‡æ–™ï¼‰
-  resetAllSettingsSuccess: æ‰€æœ‰è¨­å®šå·²é‡è¨­ã€‚å•Ÿå‹•å™¨å°‡é‡æ–°å•Ÿå‹•ã€‚
-  resetSettingsError: 'é‡ç½®è¨­å®šæ™‚å‡ºéŒ¯: {error}'
-  resetToDefault: é‡è¨­åˆ°é è¨­é…è‰²
-  select: é¸æ“‡
-  settingsExported: è¨­å®šåŒ¯å‡ºæˆåŠŸ
-  settingsImportError: åŒ¯å…¥è¨­å®šå¤±æ•—ã€‚è«‹æª¢æŸ¥æª”æ¡ˆæ ¼å¼ã€‚
-  settingsImported: è¨­å®šåŒ¯å…¥æˆåŠŸ
-  settingsReloadHint: å•Ÿå‹•å™¨å°‡é‡æ–°å•Ÿå‹•ä»¥æ‡‰ç”¨æ‰€æœ‰è¨­å®šã€‚
-  showNewsHeader: å–æ¶ˆéš±è—æœ€æ–°æ¶ˆæ¯å±•ç¤º
-  showRoot: ç€è¦½
-  sidebarAlign: å´é‚Šæ¬„å°é½Š
-  sidebarAutoHide: è‡ªå‹•éš±è—å´é‚Šæ¬„
-  sidebarAutoHideHint: ç•¶æ»‘é¼ ç§»é–‹æ™‚è‡ªå‹•éš±è—å´é‚Šæ¬„
-  sidebarClassic: ç¶“å…¸
-  sidebarNotch: ç¼ºå£
-  sidebarPosition: å´é‚Šæ¬„ä½ç½®
-  sidebarScale: å´é‚Šæ¬„ç¸®æ”¾
-  sidebarShowOnlyPinned: åƒ…é¡¯ç¤ºå·²å›ºå®š
-  sidebarShowOnlyPinnedHint: åƒ…åœ¨å´é‚Šæ¬„ä¸­é¡¯ç¤ºå·²å›ºå®šçš„å¯¦ä¾‹
-  sidebarStyle: å´é‚Šæ¬„æ¨£å¼
-  sidebarStyleHint: é¸æ“‡å´é‚Šæ¬„çš„å¤–è§€æ¨£å¼
-  streamerMode: èž¢å¹•åˆ†äº«æ¨¡å¼
-  streamerModeDescription: æ­¤åŠŸèƒ½å¯ä»¥ä¿è­·æ‚¨çš„éš±ç§ã€‚é–‹å•Ÿå¾Œï¼Œæ‚¨çš„é›»å­éƒµä»¶ç­‰éš±ç§è³‡è¨Šå°‡æœƒè¢«éš±è—ã€‚
+    all: 全部
+    legacy: 僅舊版本
+  resetAllSettings: 重設所有設定
+  resetAllSettingsConfirmMessage: 此操作將永久刪除所有設定、帳戶、實例、群組和快取資料。此操作無法撤銷。確定要繼續嗎？
+  resetAllSettingsConfirmTitle: 重設所有設定？
+  resetAllSettingsHint: 將啟動器重設為出廠預設值（刪除所有資料）
+  resetAllSettingsSuccess: 所有設定已重設。啟動器將重新啟動。
+  resetSettingsError: '重置設定時出錯: {error}'
+  resetToDefault: 重設到預設配色
+  select: 選擇
+  settingsExported: 設定匯出成功
+  settingsImportError: 匯入設定失敗。請檢查檔案格式。
+  settingsImported: 設定匯入成功
+  settingsReloadHint: 啟動器將重新啟動以應用所有設定。
+  showNewsHeader: 取消隱藏最新消息展示
+  showRoot: 瀏覽
+  sidebarAlign: 側邊欄對齊
+  sidebarAutoHide: 自動隱藏側邊欄
+  sidebarAutoHideHint: 當滑鼠移開時自動隱藏側邊欄
+  sidebarClassic: 經典
+  sidebarNotch: 缺口
+  sidebarPosition: 側邊欄位置
+  sidebarScale: 側邊欄縮放
+  sidebarShowOnlyPinned: 僅顯示已固定
+  sidebarShowOnlyPinnedHint: 僅在側邊欄中顯示已固定的實例
+  sidebarStyle: 側邊欄樣式
+  sidebarStyleHint: 選擇側邊欄的外觀樣式
+  streamerMode: 螢幕分享模式
+  streamerModeDescription: 此功能可以保護您的隱私。開啟後，您的電子郵件等隱私資訊將會被隱藏。
   theme:
-    dark: æš—è‰²ä¸»é¡Œ
-    light: äº®è‰²ä¸»é¡Œ
-    system: è·Ÿéš¨ç³»çµ±
-  themeExport: åŒ¯å‡ºä¸»é¡Œ
-  themeBorderRadius: åœ“è§’
-  themeBorderRadiusDescription: ç‚ºå¡ç‰‡ã€å°è©±æ¡†ã€é¸å–®å’Œé¢æ¿å•Ÿç”¨æˆ–åœç”¨åœ“è§’ã€‚
-  themeFont: å­—é«”
-  themeFontDescription: æ›´æ”¹å•Ÿå‹•å™¨çš„å­—é«”ã€‚
-  themeFontUrl: å­—é«”ç¶²å€
-  themeFontUrlPlaceholder: è¼¸å…¥å­—é«”çš„ HTTP/HTTPS URL
-  themeImport: åŒ¯å…¥ä¸»é¡Œ
-  themeResetFont: é‡è¨­å­—é«”
-  themeSelectFont: é¸æ“‡å­—é«”
-  themeSettings: ä¸»é¡Œ
-  themeShare: åˆ†äº«ä¸»é¡Œ
-  themeShareDescription: æ‚¨å¯ä»¥èˆ‡æ‚¨çš„æœ‹å‹åˆ†äº«ä¸»é¡Œã€‚
-  update: å‡ç´š
-  useBmclAPI: ä½¿ç”¨ BMCLAPI æ˜ è±¡
+    dark: 暗色主題
+    light: 亮色主題
+    system: 跟隨系統
+  themeExport: 匯出主題
+  themeBorderRadius: 圓角
+  themeBorderRadiusDescription: 為卡片、對話框、選單和面板啟用或停用圓角。
+  themeFont: 字體
+  themeFontDescription: 更改啟動器的字體。
+  themeFontUrl: 字體網址
+  themeFontUrlPlaceholder: 輸入字體的 HTTP/HTTPS URL
+  themeImport: 匯入主題
+  themeResetFont: 重設字體
+  themeSelectFont: 選擇字體
+  themeSettings: 主題
+  themeShare: 分享主題
+  themeShareDescription: 您可以與您的朋友分享主題。
+  update: 升級
+  useBmclAPI: 使用 BMCLAPI 映象
   useBmclAPIDescription: >
-    "BMCLAPI æ˜¯ç”± bangbang93 å»ºç«‹çš„æ˜ è±¡æœå‹™ã€‚é€™å€‹æœå‹™ç”± bangbang93 å’Œ OpenBMCLAPI ç¤¾ç¾¤å…±åŒæä¾›ã€‚å®ƒé€éŽæä¾›åœ‹å…§ä¸‹è¼‰ä¼ºæœå™¨ä¾†æ”¹å–„å¾ž Mojang å®˜æ–¹ S3 ç‰©ä»¶å„²å­˜ä¸‹è¼‰æª”æ¡ˆæ…¢çš„å•é¡Œã€‚ç”±æ–¼ MCBBS æºå·²åœæœï¼ŒBMCLAPI æœƒåœ¨ä¸‹è¼‰é«˜å³°æœŸæ™‚ä¸‹è¼‰ç·©æ…¢ã€‚æœ‰é—œ OpenBMCLAPI ä¼ºæœå™¨çš„æœå‹™ç‹€æ…‹ï¼Œè«‹å­˜å– OpenBMCLAPI æŽ’è¡Œæ¦œç¶²ç«™ bd.bangbang93.com"
-  useProxy: HTTP ä»£ç†ä¼ºæœå™¨è¨­å®š
-  useProxyDescription: HTTP è«‹æ±‚çš„ä»£ç†ä¼ºæœå™¨ä½å€
-  viewBackgroundMusic: æª¢è¦–èƒŒæ™¯éŸ³æ¨‚
+    "BMCLAPI 是由 bangbang93 建立的映象服務。這個服務由 bangbang93 和 OpenBMCLAPI 社群共同提供。它透過提供國內下載伺服器來改善從 Mojang 官方 S3 物件儲存下載檔案慢的問題。由於 MCBBS 源已停服，BMCLAPI 會在下載高峰期時下載緩慢。有關 OpenBMCLAPI 伺服器的服務狀態，請存取 OpenBMCLAPI 排行榜網站 bd.bangbang93.com"
+  useProxy: HTTP 代理伺服器設定
+  useProxyDescription: HTTP 請求的代理伺服器位址
+  viewBackgroundMusic: 檢視背景音樂
   setAsBackground:
-    global: è¨­ç‚ºå•Ÿå‹•å™¨èƒŒæ™¯
-    instance: è¨­ç‚ºå¯¦ä¾‹èƒŒæ™¯
-    successGlobal: èƒŒæ™¯åœ–ç‰‡å·²æ›´æ–°ã€‚
-    successInstance: å¯¦ä¾‹èƒŒæ™¯åœ–ç‰‡å·²æ›´æ–°ã€‚
-    failed: è¨­å®šèƒŒæ™¯åœ–ç‰‡å¤±æ•—
+    global: 設為啟動器背景
+    instance: 設為實例背景
+    successGlobal: 背景圖片已更新。
+    successInstance: 實例背景圖片已更新。
+    failed: 設定背景圖片失敗
 settingLabel:
-  global: å…¨åŸŸæ€§è¨­å®š
-  globalHint: æ­¤è¨­å®šå·²ä½¿ç”¨å…¨åŸŸæ€§è¨­å®š
-  local: å¯¦ä¾‹è¨­å®š
-  localHint: æ­¤è¨­å®šå·²è¢«ç›®å‰å¯¦ä¾‹ä¿®æ”¹
+  global: 全域性設定
+  globalHint: 此設定已使用全域性設定
+  local: 實例設定
+  localHint: 此設定已被目前實例修改
 setup:
   account:
-    description: æ–°å¢žæ‚¨å¸¸ç”¨çš„å¸³è™Ÿã€‚å¦‚æžœæ‚¨é‚„æ²’æœ‰å¸³è™Ÿï¼Œæ‚¨å¯ä»¥è·³éŽæ­¤æ­¥é©Ÿã€‚
-    name: æ–°å¢žéŠæˆ²å¸³è™Ÿ
-    skip: å…ˆä¸ç™»å…¥äº†
+    description: 新增您常用的帳號。如果您還沒有帳號，您可以跳過此步驟。
+    name: 新增遊戲帳號
+    skip: 先不登入了
   appearance:
     name: '@:setting.appearance'
   dataRoot:
-    description: è³‡æ–™å„²å­˜ç›®éŒ„ä¸æ˜¯å¸¸è¦çš„ .minecraft ç›®éŒ„ã€‚å› ç‚º FastLauncher çš„è³‡æ–™ç›®éŒ„æ ¼å¼ç‰¹æ®Šï¼Œä¸å»ºè­°å°‡å¸¸è¦ .minecraft ç›®éŒ„è¨­å®šç‚ºè³‡æ–™ç›®éŒ„ã€‚
-    drives: æŽ¨è–¦è·¯å¾‘
-    name: è¨­å®šè³‡æ–™å„²å­˜ç›®éŒ„
+    description: 資料儲存目錄不是常規的 .minecraft 目錄。因為 FastLauncher 的資料目錄格式特殊，不建議將常規 .minecraft 目錄設定為資料目錄。
+    drives: 推薦路徑
+    name: 設定資料儲存目錄
   defaultLayoutDescription: |-
-    é è¨­ä½ˆå±€è©¦åœ–å¼·åŒ–éŠæˆ²ã€Œå¯¦ä¾‹ã€çš„æ¦‚å¿µã€‚
-    ä½ˆå±€ä¸Šæœ‰é»žåƒ Discord ä¹‹é¡žçš„æ‡‰ç”¨ç¨‹å¼ã€‚
-    å®ƒé‚„å—åˆ°å…¶ä»–éŠæˆ²å•Ÿå‹•å™¨æ‡‰ç”¨ç¨‹å¼ï¼ˆå¦‚ Steam ç­‰ï¼‰çš„å•Ÿç™¼ã€‚
-  defaultPath: é è¨­ä½ç½®
+    預設佈局試圖強化遊戲「實例」的概念。
+    佈局上有點像 Discord 之類的應用程式。
+    它還受到其他遊戲啟動器應用程式（如 Steam 等）的啟發。
+  defaultPath: 預設位置
   error:
-    badDataRoot: å•Ÿå‹•å™¨ç„¡æ³•ä½¿ç”¨ç›®å‰æª”æ¡ˆä½å€ä½œç‚ºå„²å­˜è³‡æ–™å¤¾ï¼è«‹å˜—è©¦å…¶å®ƒè³‡æ–™å¤¾ï¼
+    badDataRoot: 啟動器無法使用目前檔案位址作為儲存資料夾！請嘗試其它資料夾！
     exists: |-
-      æ‰€é¸ç›®éŒ„è£¡é¢å·²ç¶“æœ‰æª”æ¡ˆäº†ã€‚
-      æ‚¨ä»ç„¶å¯ä»¥é¸æ“‡å®ƒä½œç‚ºè³‡æ–™ç›®éŒ„ï¼Œä½†è«‹ç¢ºä¿å·²ç¶“å‚™ä»½è³‡æ–™ã€‚
-    invalidChar: è·¯å¾‘åŒ…å«ç„¡æ•ˆçš„å­—ç¬¦ï¼é€™å¯èƒ½å°Žè‡´Minecraftç„¡æ³•é–‹å§‹ï¼ Plaeseåƒ…ä½¿ç”¨è‹±èªžå­—ç¬¦å’Œç¬¦è™Ÿï¼
+      所選目錄裡面已經有檔案了。
+      您仍然可以選擇它作為資料目錄，但請確保已經備份資料。
+    invalidChar: 路徑包含無效的字符！這可能導致Minecraft無法開始！ Plaese僅使用英語字符和符號！
     noPermission: |-
-      å•Ÿå‹•å™¨æ²’æœ‰å­˜å–æ‰€é¸ç›®éŒ„çš„è¨±å¯æ¬Šï¼
-      è«‹å˜—è©¦é¸æ“‡å…¶ä»–çš„è³‡æ–™å¤¾ã€‚
-    nonDictionary: å·²é¸æ“‡çš„æª”æ¡ˆè·¯å¾‘æ˜¯ä¸€å€‹æª”æ¡ˆï¼è«‹é¸æ“‡ä¸€å€‹è³‡æ–™å¤¾ï¼
+      啟動器沒有存取所選目錄的許可權！
+      請嘗試選擇其他的資料夾。
+    nonDictionary: 已選擇的檔案路徑是一個檔案！請選擇一個資料夾！
   focusLayoutDescription: |-
-    ç„¦é»žä½ˆå±€æ˜¯ Minecraft Launcher æœ€ä¸»æµçš„ä½ˆå±€ã€‚
-    å®ƒè¨­è¨ˆç”¨æ–¼å–®å€‹å¯¦ä¾‹æˆ–å¹¾å€‹å¯¦ä¾‹çš„æƒ…æ³ã€‚
+    焦點佈局是 Minecraft Launcher 最主流的佈局。
+    它設計用於單個實例或幾個實例的情況。
   game:
-    name: åŒ¯å…¥å·²æœ‰çš„éŠæˆ²
+    name: 匯入已有的遊戲
   locale:
     description: >-
-      é¸æ“‡æ‚¨çš„èªžè¨€ï¼Œå¦‚æžœæ‚¨åœ¨é€™è£¡æ²’æœ‰çœ‹åˆ°æƒ³è¦çš„èªžè¨€ï¼Œä¸¦ä¸”æ‚¨æœ‰èˆˆè¶£å”åŠ©æˆ‘å€‘çš„è©±ï¼Œæ‚¨å¯ä»¥åŽ»æˆ‘å€‘çš„ GitHub ä¸Šé–‹å•Ÿ Pull Request ä¾†æ–°å¢žæ–°èªžè¨€ï¼
-    language: ç›®å‰èªžè¨€
-    name: è¨­å®šèªžè¨€
-  path: ç›®å‰ä½ç½®
+      選擇您的語言，如果您在這裡沒有看到想要的語言，並且您有興趣協助我們的話，您可以去我們的 GitHub 上開啟 Pull Request 來新增新語言！
+    language: 目前語言
+    name: 設定語言
+  path: 目前位置
 shaderPack:
-  deletion: åˆªé™¤å…‰å½±åŒ…
-  deletionHint: é€™å°‡æŠŠå…‰å½±åŒ…æª”æ¡ˆ {path} æ°¸ä¹…åˆªé™¤ã€‚
-  disabled: æœªå•Ÿç”¨çš„å…‰å½±
-  dropHint: åŒ¯å…¥å…‰å½±åŒ…
-  empty: æ²’æœ‰å•Ÿç”¨å…‰å½±åŒ…
-  enable: ä½¿ç”¨äº† {name} ä½œç‚ºå…‰å½±åŒ…
-  enabled: å·²å•Ÿç”¨çš„å…‰å½±
-  manage: ç®¡ç†å…‰å½±åŒ…
-  name: å…‰å½±åŒ…
-  noShaderMod: æœªå®‰è£è‘—è‰²å™¨æ¨¡çµ„
-  noShaderModHint: æ²’æœ‰è‘—è‰²å™¨æ¨¡çµ„å°±ç„¡æ³•ä½¿ç”¨è‘—è‰²å™¨
-  noShaderModInstallHint: æ‚¨éœ€è¦å®‰è£ä»¥ä¸‹ mod ä¹‹ä¸€ä¾†è¼‰å…¥è‘—è‰²å™¨å¥—ä»¶ã€‚
-  searchHint: æœå°‹å…‰å½±åŒ…
-  selectSearchHint: æª¢è¦–å·²é¸æ“‡çš„å…‰å½±åŒ…
-  showDirectory: é¡¯ç¤ºå…‰å½±è³‡æ–™å¤¾
-  showFile: åœ¨è³‡æ–™å¤¾ä¸­é¡¯ç¤ºæ­¤å…‰å½±åŒ…
-  market: å…‰å½±åŒ…å¸‚å ´
-  noPacks: æœªå®‰è£å…‰å½±åŒ…
-  search: æœå°‹å…‰å½±åŒ…...
+  deletion: 刪除光影包
+  deletionHint: 這將把光影包檔案 {path} 永久刪除。
+  disabled: 未啟用的光影
+  dropHint: 匯入光影包
+  empty: 沒有啟用光影包
+  enable: 使用了 {name} 作為光影包
+  enabled: 已啟用的光影
+  manage: 管理光影包
+  name: 光影包
+  noShaderMod: 未安裝著色器模組
+  noShaderModHint: 沒有著色器模組就無法使用著色器
+  noShaderModInstallHint: 您需要安裝以下 mod 之一來載入著色器套件。
+  searchHint: 搜尋光影包
+  selectSearchHint: 檢視已選擇的光影包
+  showDirectory: 顯示光影資料夾
+  showFile: 在資料夾中顯示此光影包
+  market: 光影包市場
+  noPacks: 未安裝光影包
+  search: 搜尋光影包...
 shared:
-  add: æ–°å¢ž
-  author: ä½œè€…
-  back: è¿”å›ž
-  browse: ç€è¦½
-  cancel: å–æ¶ˆ
-  client: ç”¨æˆ¶ç«¯
-  copy: è¤‡è£½
-  copied: å·²è¤‡è£½
-  copyFailed: è¤‡è£½å¤±æ•—
-  copyFailedHint: ç„¡æ³•è¤‡è£½åˆ°å‰ªè²¼ç°¿
-  description: ç°¡ä»‹
-  disable: åœç”¨
-  download: ä¸‹è¼‰
-  edit: ç·¨è¼¯
-  enable: å•Ÿç”¨
-  filter: æœå°‹
-  install: å®‰è£
-  installed: å·²å®‰è£
-  keepSelected: ä¿æŒé¸æ“‡
-  manage: ç®¡ç†
-  name: åç¨±
-  next: ä¸‹ä¸€æ­¥
-  'no': å¦
-  ok: å¥½çš„
-  previous: ä¸Šä¸€æ­¥
-  refresh: é‡æ–°æ•´ç†
-  remove: ç§»é™¤
-  save: å„²å­˜
-  search: æœå°‹
-  server: ä¼ºæœå™¨
-  skipForNow: æš«æ™‚è·³éŽ
-  'yes': æ˜¯
+  add: 新增
+  author: 作者
+  back: 返回
+  browse: 瀏覽
+  cancel: 取消
+  client: 用戶端
+  copy: 複製
+  copied: 已複製
+  copyFailed: 複製失敗
+  copyFailedHint: 無法複製到剪貼簿
+  description: 簡介
+  disable: 停用
+  download: 下載
+  edit: 編輯
+  enable: 啟用
+  filter: 搜尋
+  install: 安裝
+  installed: 已安裝
+  keepSelected: 保持選擇
+  manage: 管理
+  name: 名稱
+  next: 下一步
+  'no': 否
+  ok: 好的
+  previous: 上一步
+  refresh: 重新整理
+  remove: 移除
+  save: 儲存
+  search: 搜尋
+  server: 伺服器
+  skipForNow: 暫時跳過
+  'yes': 是
 sidebar:
-  pin: é‡˜é¸
-  unpin: å–æ¶ˆé‡˜é¸
+  pin: 釘選
+  unpin: 取消釘選
 sortBy:
-  alphabetAsc: æŒ‰å­—æ¯ï¼ˆä¸Šå‡ï¼‰æŽ’åº
-  alphabetDesc: æŒ‰å­—æ¯ï¼ˆä¸‹é™ï¼‰æŽ’åº
-  timeAsc: æŒ‰ä¿®æ”¹æ™‚é–“ï¼ˆä¸Šå‡ï¼‰æŽ’åº
-  timeDesc: é€šéŽä¿®æ”¹æ™‚é–“ï¼ˆä¸‹é™ï¼‰æŽ’åº
-  name: æŽ’åºæ–¹å¼
+  alphabetAsc: 按字母（上升）排序
+  alphabetDesc: 按字母（下降）排序
+  timeAsc: 按修改時間（上升）排序
+  timeDesc: 通過修改時間（下降）排序
+  name: 排序方式
 store:
-  discover: ç™¼ç¾
-  latestMinecraft: ä½¿ç”¨è¿‘æœŸ Minecraft ç‰ˆæœ¬
-  name: æ¨¡çµ„åŒ…å¸‚é›†
-  searchResult: æœç´¢çµæžœ
-  trending: æµè¡Œè¶¨å‹¢
-  empty: æ²’æœ‰æ‰¾åˆ°æ•´åˆåŒ…
-  emptyHint: è«‹å˜—è©¦èª¿æ•´ç¯©é¸æ¢ä»¶æˆ–æœå°‹é—œéµå­—ã€‚
+  discover: 發現
+  latestMinecraft: 使用近期 Minecraft 版本
+  name: 模組包市集
+  searchResult: 搜索結果
+  trending: 流行趨勢
+  empty: 沒有找到整合包
+  emptyHint: 請嘗試調整篩選條件或搜尋關鍵字。
 tag:
-  create: å»ºç«‹æ¨™ç±¤
-  createSelected: ç‚ºæ‰€æœ‰é¸ä¸­çš„å»ºç«‹æ¨™ç±¤
+  create: 建立標籤
+  createSelected: 為所有選中的建立標籤
 task:
-  cancelled: å·²å–æ¶ˆ
-  clear: æ¸…é™¤å·²å®Œæˆçš„ä»»å‹™
+  cancelled: 已取消
+  clear: 清除已完成的任務
   connection:
-    connected: å·²é€£ç·š
-    free: ç©ºé–’
-    pending: ç­‰å¾…
-    queued: æŽ’éšŠä¸­
-    running: é€£ç·šä¸­
-    size: ç¸½æ•¸
-  connections: ç¶²è·¯é€£ç·š
-  empty: ç›®å‰æ²’æœ‰åŸ·è¡Œä¸­çš„ä»»å‹™
-  failed: å¤±æ•—
-  manager: å·¥ä½œç®¡ç†å“¡
-  nTaskRunning: '{count} å€‹ä»»å‹™åŸ·è¡Œä¸­'
-  name: ä»»å‹™ | ä»»å‹™
-  pause: æš«åœ
+    connected: 已連線
+    free: 空閒
+    pending: 等待
+    queued: 排隊中
+    running: 連線中
+    size: 總數
+  connections: 網路連線
+  empty: 目前沒有執行中的任務
+  failed: 失敗
+  manager: 工作管理員
+  nTaskRunning: '{count} 個任務執行中'
+  name: 任務 | 任務
+  pause: 暫停
 theme:
-  selectImage: é¸æ“‡å½±è±¡
-  selectMusic: é¸æ“‡éŸ³æ¨‚
-  selectVideo: é¸æ“‡å½±ç‰‡
+  selectImage: 選擇影象
+  selectMusic: 選擇音樂
+  selectVideo: 選擇影片
   title: FastLauncher
 title: FastLauncher
 transportType:
-  host: å…¬ç¶²ä½å€
-  prflx: åŒä¼´åå°„ä½å€
-  relay: ä¸­ç¹¼ä½å€
-  srflx: ä¼ºæœå™¨åå°„ä½å€
+  host: 公網位址
+  prflx: 同伴反射位址
+  relay: 中繼位址
+  srflx: 伺服器反射位址
 turnRegion:
-  fr: æ³•åœ‹
-  guangzhou: ä¸­åœ‹å»£å·ž
-  hk: é¦™æ¸¯
-  liaoning: ä¸­åœ‹é¼å¯§
-  po: æ³¢è˜­
+  fr: 法國
+  guangzhou: 中國廣州
+  hk: 香港
+  liaoning: 中國遼寧
+  po: 波蘭
 tutorial:
-  feedbackDescription: å¦‚æžœæ‚¨é‡åˆ°äº†å•é¡Œï¼Œè«‹æŒ‰ä¸€ä¸‹é€™å€‹æŒ‰éˆ•ä¾†è¯çµ¡é–‹ç™¼åœ˜éšŠã€‚
+  feedbackDescription: 如果您遇到了問題，請按一下這個按鈕來聯絡開發團隊。
   hideNewsHeaderDescription: |-
-    æ‚¨å¯ä»¥åœ¨å·¦å´çœ‹åˆ°æœ€æ–°æ¶ˆæ¯å±•ç¤ºå€ã€‚
-    æŒ‰ä¸€ä¸‹æ­¤æŒ‰éˆ•å¯ä»¥éš±è—è©²å±•ç¤ºå€ã€‚
+    您可以在左側看到最新消息展示區。
+    按一下此按鈕可以隱藏該展示區。
   instance:
-    iconDescription: æŒ‰ä¸€ä¸‹æ›´æ”¹åœ–ç¤ºã€‚
-    iconTitle: éŠæˆ²åœ–ç¤º
-    javaDescription: åˆ‡æ› Java ç‰ˆæœ¬ã€‚
-    javaImportDescription: å¾žæœ¬åœ°åŒ¯å…¥ Javaã€‚
-    javaImportTitle: åŒ¯å…¥ Java
-    javaTitle: å·²æœ‰ Java åˆ—è¡¨
-  instanceAddDescription: æŒ‰ä¸€ä¸‹æ­¤æŒ‰éˆ•å¯åŒ¯å…¥ç¾æœ‰çš„ Minecraftï¼Œå¾žæ¨¡çµ„åŒ…å»ºç«‹ä¸€å€‹æ–°çš„ Minecraftï¼Œæˆ–å¾žé ­é–‹å§‹å»ºç«‹ä¸€å€‹æ–°çš„ Minecraft å¯¦ä¾‹
-  instanceSelectDescription: æŒ‰ä¸€ä¸‹æ­¤æŒ‰éˆ•å°‡å°Žèˆªè‡³é¸æ“‡éŠæˆ²å’Œé–±è®€æœ€æ–°æ¶ˆæ¯çš„é é¢ã€‚
-  launchDescription: æŒ‰ä¸€ä¸‹æ­¤æŒ‰éˆ•å®‰è£æˆ–å•Ÿå‹•éŠæˆ²ã€‚
+    iconDescription: 按一下更改圖示。
+    iconTitle: 遊戲圖示
+    javaDescription: 切換 Java 版本。
+    javaImportDescription: 從本地匯入 Java。
+    javaImportTitle: 匯入 Java
+    javaTitle: 已有 Java 列表
+  instanceAddDescription: 按一下此按鈕可匯入現有的 Minecraft，從模組包建立一個新的 Minecraft，或從頭開始建立一個新的 Minecraft 實例
+  instanceSelectDescription: 按一下此按鈕將導航至選擇遊戲和閱讀最新消息的頁面。
+  launchDescription: 按一下此按鈕安裝或啟動遊戲。
   mod:
     defaultSourceDescription: |-
-      æ‚¨å¯ä»¥åœ¨æ­¤è™•é¸æ“‡æ¨¡çµ„è©³ç´°è³‡è¨Šçš„ä¾†æºã€‚
-      Modrinth å’Œ Curseforge å‡é‡‹å‡ºäº†æ¨¡çµ„ã€‚
-      å¦‚æžœæ‚¨æƒ³åœ¨é€™å…©å€‹å…§å®¹æä¾›å•†ä¹‹é–“åˆ‡æ›ã€‚
-      æ‚¨å¯ä»¥åœ¨æ­¤è™•æ›´æ”¹è©²å€¼ã€‚
-    defaultSourceTitle: é¸æ“‡æ¨¡çµ„è©³æƒ…ä¾†æº
+      您可以在此處選擇模組詳細資訊的來源。
+      Modrinth 和 Curseforge 均釋出了模組。
+      如果您想在這兩個內容提供商之間切換。
+      您可以在此處更改該值。
+    defaultSourceTitle: 選擇模組詳情來源
     detailDescription: |-
-      ç•¶æ‚¨é¸æ“‡å·¦å´çš„å°ˆæ¡ˆæ™‚ã€‚
-      æ‚¨å°‡çœ‹åˆ°è©²æ¨¡çµ„çš„è©³ç´°è³‡è¨Šã€‚
-      å…§å®¹å¯ä»¥ä¾†è‡ª Modrinthã€Curseforge æˆ–è§£æžçš„æ¨¡çµ„å…§å®¹ã€‚
-    detailTitle: æ¨¡çµ„è©³æƒ…
+      當您選擇左側的專案時。
+      您將看到該模組的詳細資訊。
+      內容可以來自 Modrinth、Curseforge 或解析的模組內容。
+    detailTitle: 模組詳情
     listDescription: |-
-      é€™è£¡æœƒé¡¯ç¤ºå·²å®‰è£çš„æ¨¡çµ„ã€‚
-      ç•¶æ‚¨è¼¸å…¥é—œéµå­—æˆ–é¸æ“‡é¡žåˆ¥å¾Œï¼Œé€™è£¡æœƒé¡¯ç¤ºæœå°‹åˆ°çš„æ¨¡çµ„ã€‚
-    listTitle: å®‰è£/æœå°‹çš„æ¨¡çµ„
-    searchDescription: æ‚¨å¯ä»¥é€éŽæ­¤æœå°‹æ¡†å¾ž Modrinthã€Curseforge æˆ–æœ¬åœ°å¿«å–ä¸­æœå°‹æ¨¡çµ„ã€‚
-    searchTitle: æœå°‹ã€ç™¼ç¾æ¨¡çµ„
+      這裡會顯示已安裝的模組。
+      當您輸入關鍵字或選擇類別後，這裡會顯示搜尋到的模組。
+    listTitle: 安裝/搜尋的模組
+    searchDescription: 您可以透過此搜尋框從 Modrinth、Curseforge 或本地快取中搜尋模組。
+    searchTitle: 搜尋、發現模組
   multiplayer:
-    contentDescription: æ‚¨å’Œæ‚¨çš„åŒä¼´ä¹‹é–“çš„è¯çµ¡å°‡åœ¨æ­¤è™•åˆ—å‡ºã€‚
+    contentDescription: 您和您的同伴之間的聯絡將在此處列出。
     contentTitle: '@:multiplayer.connections'
     groupDescription: |-
-      æ‚¨å¯ä»¥èˆ‡å…¶ä»–çŽ©å®¶å»ºç«‹æˆ–åŠ å…¥ç¾¤çµ„ã€‚
-      å•Ÿå‹•å™¨æœƒå˜—è©¦æ ¹æ“šç¾¤çµ„åœ¨æ‚¨å’Œæ‚¨çš„æœ‹å‹ä¹‹é–“å»ºç«‹ P2P é€£ç·šã€‚
-      æ‚¨å¯ä»¥è¼¸å…¥å¥½å‹æä¾›çš„ç¾¤çµ„åç¨±ã€‚
-      æˆ–è€…æ‚¨å¯ä»¥è‡ªå·±å»ºç«‹ä¸€å€‹ç¨ç‰¹çš„åç¨±ã€‚
-    groupTitle: å’Œå…¶ä»–çŽ©å®¶çµ„éšŠ
+      您可以與其他玩家建立或加入群組。
+      啟動器會嘗試根據群組在您和您的朋友之間建立 P2P 連線。
+      您可以輸入好友提供的群組名稱。
+      或者您可以自己建立一個獨特的名稱。
+    groupTitle: 和其他玩家組隊
     joinDescription: |-
-      è¼¸å…¥çµ„åç¨±å¾Œã€‚
-      æ‚¨å¯ä»¥æŒ‰ä¸€ä¸‹æ­¤æŒ‰éˆ•åŠ å…¥æˆ–å»ºç«‹ç¾¤çµ„ã€‚
-      å¦‚æžœçµ„åç¨±ç‚ºç©ºï¼Œå•Ÿå‹•å™¨å°‡ç‚ºæ‚¨ç”¢ç”Ÿä¸€å€‹åç¨±ã€‚
+      輸入組名稱後。
+      您可以按一下此按鈕加入或建立群組。
+      如果組名稱為空，啟動器將為您產生一個名稱。
     manualDescription: |-
-      å¦‚æžœæ‚¨æˆ–æ‚¨çš„æœ‹å‹ç„¡æ³•é€£ç·šåˆ°ç¾¤çµ„ã€‚
-      æ‚¨å¯ä»¥å˜—è©¦é€éŽæŒ‰ä¸€ä¸‹ã€Œæ‰‹å‹•é€£ç·šã€ä¾†æ‰‹å‹•äº¤æ›ä»¤ç‰Œã€‚
-      å¦‚æžœä¹Ÿå¤±æ•—ï¼Œå‰‡å¯èƒ½æ˜¯ç¶²éš›ç¶²è·¯å•é¡Œã€‚
+      如果您或您的朋友無法連線到群組。
+      您可以嘗試透過按一下「手動連線」來手動交換令牌。
+      如果也失敗，則可能是網際網路問題。
   recentPlayDescription: |-
-    å»ºç«‹çš„éŠæˆ²å°‡åœ¨æ­¤è™•åˆ—å‡ºã€‚
-    æ‚¨å¯ä»¥åœ¨æ­¤è™•åˆ‡æ›æª¢è¦–ä»¥æª¢è¦–å·²å®‰è£çš„ç‰ˆæœ¬å’Œä¸‹è¼‰çš„æ¨¡çµ„åŒ…ã€‚
-  storePoupularModpackDescription: æ‚¨å¯ä»¥åœ¨é€™è£¡çœ‹åˆ° CurseForge å’Œ Modrinth ä¸Šæœ€å—æ­¡è¿Žçš„æ•´åˆåŒ…ã€‚
-  storeSearchCategoryDescription: æ‚¨é‚„å¯ä»¥åœ¨æ­¤è™•åˆ‡æ›é¡žåˆ¥æˆ–ç¯©é¸æ¢ä»¶ã€‚
+    建立的遊戲將在此處列出。
+    您可以在此處切換檢視以檢視已安裝的版本和下載的模組包。
+  storePoupularModpackDescription: 您可以在這裡看到 CurseForge 和 Modrinth 上最受歡迎的整合包。
+  storeSearchCategoryDescription: 您還可以在此處切換類別或篩選條件。
   storeSearchDescription: |-
-    æ‚¨å¯ä»¥é€éŽåœ¨æ­¤æ–‡å­—æ¡†ä¸­è¼¸å…¥ä¾†æœå°‹æ¨¡çµ„åŒ…ã€‚
-    æŒ‰ Enter éµæœå°‹ã€‚
-  storeSearchResultDescription: æ‚¨å°‡çœ‹åˆ°æ­¤è™•åˆ—å‡ºçš„æ‰€æœ‰æœå°‹çµæžœã€‚
-  userAccountDescription: æŒ‰ä¸€ä¸‹æ­¤åœ–ç¤ºå¯æ–°å¢žæˆ–ç®¡ç†æ‚¨çš„ Minecraft å¸³æˆ¶ã€‚
+    您可以透過在此文字框中輸入來搜尋模組包。
+    按 Enter 鍵搜尋。
+  storeSearchResultDescription: 您將看到此處列出的所有搜尋結果。
+  userAccountDescription: 按一下此圖示可新增或管理您的 Minecraft 帳戶。
 universalDrop:
-  unknownResource: ç„¡æ³•è§£æž
+  unknownResource: 無法解析
 unresolvedFiles:
-  description: é€™äº›æª”æ¡ˆåœ¨å®‰è£æ™‚ç„¡æ³•ä¸‹è¼‰ã€‚æœå°‹ç¬¦åˆçš„ä¾†æºä¸¦å®‰è£ç›¸ç¬¦é …ç›®ï¼Œæˆ–å¿½ç•¥æª”æ¡ˆä»¥ç…§å¸¸å•Ÿå‹•ã€‚
-  empty: æ‰€æœ‰æª”æ¡ˆçš†å·²è§£æžã€‚
-  ignoreSelected: 'å¿½ç•¥ {count} å€‹'
-  install: 'å®‰è£ {count} å€‹ç›¸ç¬¦é …ç›®'
-  matched: å·²ç¬¦åˆ
-  noMatch: æ‰¾ä¸åˆ°
-  search: æœå°‹ä¾†æº
+  description: 這些檔案在安裝時無法下載。搜尋符合的來源並安裝相符項目，或忽略檔案以照常啟動。
+  empty: 所有檔案皆已解析。
+  ignoreSelected: '忽略 {count} 個'
+  install: '安裝 {count} 個相符項目'
+  matched: 已符合
+  noMatch: 找不到
+  search: 搜尋來源
   source:
     curseforge-name: CurseForge
-    dependency: ç›¸ä¾æ€§
-    modrinth-hash: Modrinth é›œæ¹Š
+    dependency: 相依性
+    modrinth-hash: Modrinth 雜湊
     modrinth-name: Modrinth
-  title: æœªè§£æžçš„æª”æ¡ˆ
-  via: 'é€éŽ {source}'
+  title: 未解析的檔案
+  via: '透過 {source}'
 upstream:
-  downgrade: é™ç´š
-  onlyShowCurrentVersion: åªé¡¯ç¤ºé©åˆç›®å‰ Minecraft çš„ç‰ˆæœ¬
-  update: æ›´æ–°
+  downgrade: 降級
+  onlyShowCurrentVersion: 只顯示適合目前 Minecraft 的版本
+  update: 更新
 user:
-  accessToken: å­˜å–ä»¤ç‰Œ
-  authMode: é©—è­‰æœå‹™
-  authService: é©—è­‰æœå‹™
-  email: é›»å­éƒµä»¶
-  id: ä½¿ç”¨è€… ID
-  name: ä½¿ç”¨è€…åç¨±
-  nameHint: éŠæˆ²ä¸­é¡¯ç¤ºçš„åå­—
-  profile: å€‹äººè³‡è¨Š
-  tokenExpired: å·²éŽæœŸ
-  tokenValidUntil: æœ‰æ•ˆæœŸè‡³
+  accessToken: 存取令牌
+  authMode: 驗證服務
+  authService: 驗證服務
+  email: 電子郵件
+  id: 使用者 ID
+  name: 使用者名稱
+  nameHint: 遊戲中顯示的名字
+  profile: 個人資訊
+  tokenExpired: 已過期
+  tokenValidUntil: 有效期至
 userAccount:
-  add: æ–°å¢žå¸³è™Ÿ
-  removeDescription: é€™å°‡æŠ¹åŽ»æ‰€æœ‰é—œæ–¼æ­¤å¸³è™Ÿçš„è³‡è¨Šï¼Œæ‚¨æ˜¯å¦ç¢ºå®šï¼Ÿ
-  removeTitle: ç§»é™¤å¸³è™Ÿ
+  add: 新增帳號
+  removeDescription: 這將抹去所有關於此帳號的資訊，您是否確定？
+  removeTitle: 移除帳號
 userCape:
-  changeTitle: æŠ«é¢¨è¨­å®š
-  description: æŠ«é¢¨æ˜¯çŽ©å®¶åƒèˆ‡æ´»å‹•ç²å¾—çš„ç‰¹æ®ŠçŽå‹µï¼Œæˆ–åœ¨ç‰¹å®šäº‹ä»¶ç™¼ç”Ÿå¾Œçš„ç´€å¿µå“
-  noCape: éš±è—æŠ«é¢¨
+  changeTitle: 披風設定
+  description: 披風是玩家參與活動獲得的特殊獎勵，或在特定事件發生後的紀念品
+  noCape: 隱藏披風
 userService:
-  add: æ–°å¢žæ›´å¤šé©—è­‰æˆ–çŽ©å®¶è³‡è¨Šä¼ºæœå™¨
-  authlibInjectorMetadata: Authlib-Injector å…ƒè³‡æ–™
-  baseUrlHint: ç¬¬ä¸‰æ–¹ä¼ºæœå™¨çš„æ ¹ URL
-  homepage: ä¸»é 
-  implementation: å¯¦ç¾
-  manageServices: ç®¡ç†æœå‹™
-  register: è¨»å†Š
-  server: ä¼ºæœå™¨
-  skinDomains: çš®è†šç¶²åŸŸ
-  title: ç¬¬ä¸‰æ–¹çŽ©å®¶è³‡è¨Šæœå‹™
-  version: ç‰ˆæœ¬
+  add: 新增更多驗證或玩家資訊伺服器
+  authlibInjectorMetadata: Authlib-Injector 元資料
+  baseUrlHint: 第三方伺服器的根 URL
+  homepage: 主頁
+  implementation: 實現
+  manageServices: 管理服務
+  register: 註冊
+  server: 伺服器
+  skinDomains: 皮膚網域
+  title: 第三方玩家資訊服務
+  version: 版本
 userServices:
   microsoft:
-    account: å¾®è»Ÿå¸³è™Ÿ
-    deviceCode: è£ç½®ç¢¼
-    deviceCodeHint: è£ç½®ç¢¼æœƒåœ¨æŒ‰ä¸€ä¸‹ç™»å…¥å¾Œè‡ªå‹•ç”¢ç”Ÿ
-    name: å¾®è»Ÿ
-    password: åœ¨ç€è¦½å™¨ä¸­è¼¸å…¥å¯†ç¢¼
-    useDeviceCode: ä½¿ç”¨è£ç½®ç¢¼ç™»å…¥
+    account: 微軟帳號
+    deviceCode: 裝置碼
+    deviceCodeHint: 裝置碼會在按一下登入後自動產生
+    name: 微軟
+    password: 在瀏覽器中輸入密碼
+    useDeviceCode: 使用裝置碼登入
   mojang:
-    account: é›»å­éƒµä»¶
+    account: 電子郵件
     name: Mojang
-    password: å¯†ç¢¼
+    password: 密碼
   offline:
-    account: ä½¿ç”¨è€…åç¨±
-    name: é›¢ç·šæ¨¡å¼
-    password: ç„¡éœ€å¯†ç¢¼
-    uuid: ä½¿ç”¨è€…çš„ UUID (é™¤äº†ç‰¹æ®Šç”¨é€”ï¼Œå¦å‰‡ä¸å¡«å¯«)
+    account: 使用者名稱
+    name: 離線模式
+    password: 無需密碼
+    uuid: 使用者的 UUID (除了特殊用途，否則不填寫)
 userSkin:
-  import: åŒ¯å…¥çš®è†š
-  importFile: å¾žæª”æ¡ˆåŒ¯å…¥
-  importLink: å¾žé€£çµåŒ¯å…¥
-  placeUrlHere: å¡«å¯«å¾…åŒ¯å…¥çš®è†š URL
-  reset: é‡è¨­
-  save: å„²å­˜
-  saveTitle: å„²å­˜çš®è†šåˆ°æœ¬åœ°
-  skinType: çš®è†šåž‹åˆ¥
-  upload: ä¸Šå‚³
-  urlNotEmpty: çš®è†š URL ä¸èƒ½ç‚ºç©º
-  urlNotValid: è«‹è¼¸å…¥æœ‰æ•ˆçš„çš®è†š URL
-  useSlim: ä½¿ç”¨ç´°èƒ³è†Šæ¨¡åž‹
-  classic: ç¶“å…¸
-  slim: çº–ç´°
+  import: 匯入皮膚
+  importFile: 從檔案匯入
+  importLink: 從連結匯入
+  placeUrlHere: 填寫待匯入皮膚 URL
+  reset: 重設
+  save: 儲存
+  saveTitle: 儲存皮膚到本地
+  skinType: 皮膚型別
+  upload: 上傳
+  urlNotEmpty: 皮膚 URL 不能為空
+  urlNotValid: 請輸入有效的皮膚 URL
+  useSlim: 使用細胳膊模型
+  classic: 經典
+  slim: 纖細
 version:
-  checkIntegrity: æª¢æŸ¥å®Œæ•´æ€§
-  name: ç‰ˆæœ¬ | ç‰ˆæœ¬
-  notInstalled: æœªå®‰è£è©²ç‰ˆæœ¬
+  checkIntegrity: 檢查完整性
+  name: 版本 | 版本
+  notInstalled: 未安裝該版本
 versionType:
-  alpha: Alpha (æ—©æœŸæ¸¬è©¦ç‰ˆ)
-  beta: Beta (æ¸¬è©¦ç‰ˆ)
-  name: åž‹åˆ¥
-  release: ç©©å®šç‰ˆ
+  alpha: Alpha (早期測試版)
+  beta: Beta (測試版)
+  name: 型別
+  release: 穩定版
 downloadModMetadataDb:
-  name: ä¸‹è¼‰ Mod å…ƒè³‡æ–™è³‡æ–™åº«
+  name: 下載 Mod 元資料資料庫
 duplicateInstance:
-  name: è¤‡è£½å¯¦ä¾‹
+  name: 複製實例
 exportModpack:
-  name: åŒ¯å‡ºæ•´åˆåŒ…
+  name: 匯出整合包
 installProfile:
-  name: å®‰è£è¨­å®šæª” {version}
+  name: 安裝設定檔 {version}
 installQuilt:
-  name: å®‰è£ Quilt {version}
+  name: 安裝 Quilt {version}
 instanceLauncher:
-  search: æœå°‹å¯¦ä¾‹...
-  showAll: é¡¯ç¤ºæ‰€æœ‰å¯¦ä¾‹
-  title: æ‰€æœ‰å¯¦ä¾‹
+  search: 搜尋實例...
+  showAll: 顯示所有實例
+  title: 所有實例
 migrateMinecraft:
-  name: é·ç§» Minecraft æª”æ¡ˆ
+  name: 遷移 Minecraft 檔案
 reinstall:
-  name: é‡æ–°å®‰è£ {version}
+  name: 重新安裝 {version}
 resourceError:
-  title: ç„¡æ³•è®€å– {file}
+  title: 無法讀取 {file}
   body: >-
-    ã€Œ{path}ã€è§£æžå¤±æ•—ï¼ˆ{code}ï¼‰ã€‚è©²æª”æ¡ˆå¯èƒ½å·²ææ¯€ã€è¢«ä½”ç”¨æˆ–ä¸‹è¼‰ä¸å®Œæ•´ã€‚
-    è«‹å˜—è©¦é‡æ–°ä¸‹è¼‰æˆ–åˆªé™¤è©²æª”æ¡ˆã€‚
+    「{path}」解析失敗（{code}）。該檔案可能已損毀、被佔用或下載不完整。
+    請嘗試重新下載或刪除該檔案。
 minecraftFriends:
-  title: Minecraft å¥½å‹
-  add: æ–°å¢žå¥½å‹
-  addPlaceholder: Minecraft ä½¿ç”¨è€…åç¨±
-  send: å‚³é€
-  friends: å¥½å‹
-  incoming: æ”¶åˆ°çš„è«‹æ±‚
-  outgoing: ç™¼å‡ºçš„è«‹æ±‚
-  heroEmptyTitle: ä½ çš„å¥½å‹åˆ—è¡¨ç‚ºç©º
-  heroEmptyHint: è¼¸å…¥ Minecraft ä½¿ç”¨è€…åç¨±ä»¥å‚³é€å¥½å‹è«‹æ±‚ã€‚
-  scopedTo: 'å·²ç™»å…¥ç‚º {name}'
-  reconnectAction: é‡æ–°é€£ç·š
-  accept: æŽ¥å—
-  unsupported: å¥½å‹åŠŸèƒ½åƒ…é©ç”¨æ–¼ Microsoft å¸³è™Ÿã€‚
-  requiresMicrosoft: è«‹ä½¿ç”¨ Microsoft å¸³è™Ÿç™»å…¥ä»¥ä½¿ç”¨å¥½å‹åŠŸèƒ½ã€‚
-  notifyAdded: å·²å‘ {name} å‚³é€å¥½å‹è«‹æ±‚
-  addedRelative: '{time}æ–°å¢ž'
-  expiresRelative: '{time}åˆ°æœŸ'
-  incomingHint: 1 å€‹å¥½å‹è«‹æ±‚ | {count} å€‹å¥½å‹è«‹æ±‚
+  title: Minecraft 好友
+  add: 新增好友
+  addPlaceholder: Minecraft 使用者名稱
+  send: 傳送
+  friends: 好友
+  incoming: 收到的請求
+  outgoing: 發出的請求
+  heroEmptyTitle: 你的好友列表為空
+  heroEmptyHint: 輸入 Minecraft 使用者名稱以傳送好友請求。
+  scopedTo: '已登入為 {name}'
+  reconnectAction: 重新連線
+  accept: 接受
+  unsupported: 好友功能僅適用於 Microsoft 帳號。
+  requiresMicrosoft: 請使用 Microsoft 帳號登入以使用好友功能。
+  notifyAdded: 已向 {name} 傳送好友請求
+  addedRelative: '{time}新增'
+  expiresRelative: '{time}到期'
+  incomingHint: 1 個好友請求 | {count} 個好友請求
   privacy:
-    friendsEnabled: å•Ÿç”¨å¥½å‹åˆ—è¡¨
-    acceptInvites: æŽ¥å—å¥½å‹é‚€è«‹
-    acceptInvitesHint: é—œé–‰å¾Œï¼Œå…¶ä»–çŽ©å®¶ç„¡æ³•å‘ä½ å‚³é€å¥½å‹è«‹æ±‚ã€‚
+    friendsEnabled: 啟用好友列表
+    acceptInvites: 接受好友邀請
+    acceptInvitesHint: 關閉後，其他玩家無法向你傳送好友請求。
   errors:
-    unknownProfile: æ‰¾ä¸åˆ°è©²ä½¿ç”¨è€…åç¨±çš„çŽ©å®¶ã€‚
-    cannotAddSelf: ä½ ä¸èƒ½å‘è‡ªå·±å‚³é€å¥½å‹è«‹æ±‚ã€‚
-    duplicate: è©²çŽ©å®¶å·²åœ¨ä½ çš„åˆ—è¡¨ä¸­ã€‚
-    inviteRejected: è©²çŽ©å®¶æœªå•Ÿç”¨å¥½å‹åŠŸèƒ½æˆ–ä¸æŽ¥å—é‚€è«‹ã€‚
-    tokenExpired: ä½ çš„ Microsoft å·¥ä½œéšŽæ®µå·²éŽæœŸï¼Œè«‹é‡æ–°ç™»å…¥ã€‚
-    generic: å‡ºç¾äº†ä¸€äº›å•é¡Œï¼Œè«‹é‡è©¦ã€‚
+    unknownProfile: 找不到該使用者名稱的玩家。
+    cannotAddSelf: 你不能向自己傳送好友請求。
+    duplicate: 該玩家已在你的列表中。
+    inviteRejected: 該玩家未啟用好友功能或不接受邀請。
+    tokenExpired: 你的 Microsoft 工作階段已過期，請重新登入。
+    generic: 出現了一些問題，請重試。
 relative:
-  justNow: å‰›å‰›
-  secondsAgo: '{count} ç§’å‰'
-  minutesAgo: '{count} åˆ†é˜å‰'
-  hoursAgo: '{count} å°æ™‚å‰'
-  daysAgo: '{count} å¤©å‰'
-
+  justNow: 剛剛
+  secondsAgo: '{count} 秒前'
+  minutesAgo: '{count} 分鐘前'
+  hoursAgo: '{count} 小時前'
+  daysAgo: '{count} 天前'
