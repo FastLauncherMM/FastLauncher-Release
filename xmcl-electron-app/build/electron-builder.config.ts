@@ -102,7 +102,7 @@ export const config = {
       StartupWMClass: 'FastLauncher',
     },
     category: 'Game',
-    icon: 'icons/dark.icns',
+    icon: 'icons/dark@256x256.png',
     artifactName: 'FastLauncher-${version}-${arch}.${ext}',
     target: [
       { target: 'deb', arch: ['x64', 'arm64'] },
