@@ -130,6 +130,22 @@ jobs:
           cd xmcl-electron-app/build/output
           ditto -c -k --sequesterRsrc --keepParent mac/FastLauncher.app /tmp/FastLauncher-x64.zip
           ditto -c -k --sequesterRsrc --keepParent mac-arm64/FastLauncher.app /tmp/FastLauncher-arm64.zip
+      - name: Init Mac repo if empty
+        if: ${{ runner.os == 'macOS' }}
+        run: |
+          readme=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer ${{ secrets.full }}" \
+            "https://api.github.com/repos/FastLauncherMM/Mac/contents/README.md")
+          if [ "$readme" = "404" ]; then
+            echo "Repo empty — creating initial commit..."
+            content=$(python3 -c "import base64; print(base64.b64encode(b'# FastLauncher macOS Builds\n').decode())")
+            curl -s -X PUT "https://api.github.com/repos/FastLauncherMM/Mac/contents/README.md" \
+              -H "Authorization: Bearer ${{ secrets.full }}" \
+              -H "Content-Type: application/json" \
+              -d "{\"message\": \"Initial commit\", \"content\": \"$content\"}" > /dev/null
+          else
+            echo "Repo has content — skipping init"
+          fi
       - name: Deploy macOS Build to FastLauncherMM/Mac
         if: ${{ runner.os == 'macOS' }}
         uses: ncipollo/release-action@v1
