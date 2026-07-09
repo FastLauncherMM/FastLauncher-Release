@@ -132,17 +132,23 @@ jobs:
           ditto -c -k --sequesterRsrc --keepParent mac-arm64/FastLauncher.app /tmp/FastLauncher-arm64.zip
           git config --global user.name "FastLauncherMM"
           git config --global user.email "fastlauncher@users.noreply.github.com"
-          git clone "https://x-access-token:${{ secrets.full }}@github.com/FastLauncherMM/Mac.git" /tmp/mac-repo
-          cp /tmp/FastLauncher-x64.zip /tmp/mac-repo/
-          cp /tmp/FastLauncher-arm64.zip /tmp/mac-repo/
+          git init /tmp/mac-repo
           cd /tmp/mac-repo
-          if git diff --quiet && git diff --cached --quiet; then
+          git remote add origin "https://x-access-token:${{ secrets.full }}@github.com/FastLauncherMM/Mac.git"
+          git fetch origin
+          if git rev-parse origin/main >/dev/null 2>&1; then
+            git reset origin/main
+          fi
+          cp /tmp/FastLauncher-x64.zip .
+          cp /tmp/FastLauncher-arm64.zip .
+          git checkout -B main
+          git add -A
+          if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git add -A
           git commit -m "Deploy FastLauncher macOS build #${{ github.run_number }}"
-          git push
+          git push origin main
 
   build-arch:
     needs: build
