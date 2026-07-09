@@ -124,34 +124,26 @@ jobs:
           name: mac-b${{ github.run_number }}-arm64
           path: |
             xmcl-electron-app/build/output/mac-arm64/
-      - name: Deploy macOS Build to FastLauncherMM/Mac
+      - name: Zip macOS .app bundles
         if: ${{ runner.os == 'macOS' }}
         run: |
           cd xmcl-electron-app/build/output
           ditto -c -k --sequesterRsrc --keepParent mac/FastLauncher.app /tmp/FastLauncher-x64.zip
           ditto -c -k --sequesterRsrc --keepParent mac-arm64/FastLauncher.app /tmp/FastLauncher-arm64.zip
-          TAG="build-${{ github.run_number }}"
-          # Create release
-          api_url="https://api.github.com/repos/FastLauncherMM/Mac/releases"
-          body=$(curl -s -X POST "$api_url" \
-            -H "Authorization: Bearer ${{ secrets.full }}" \
-            -H "Content-Type: application/json" \
-            -d "{ \"tag_name\": \"$TAG\", \"name\": \"FastLauncher macOS Build #${{ github.run_number }}\", \"body\": \"macOS build from commit ${{ github.sha }}\", \"draft\": false, \"prerelease\": true }")
-          upload_url=$(echo "$body" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['upload_url'].replace('{?name,label}',''))" 2>/dev/null)
-          if [ -z "$upload_url" ]; then
-            echo "Release creation failed:"
-            echo "$body"
-            exit 1
-          fi
-          for f in /tmp/FastLauncher-x64.zip /tmp/FastLauncher-arm64.zip; do
-            name=$(basename "$f")
-            echo "Uploading $name..."
-            curl -s -X POST "$upload_url?name=$name" \
-              -H "Authorization: Bearer ${{ secrets.full }}" \
-              -H "Content-Type: application/zip" \
-              --data-binary @"$f" > /dev/null
-          done
-          echo "Uploaded to release: $TAG"
+      - name: Deploy macOS Build to FastLauncherMM/Mac
+        if: ${{ runner.os == 'macOS' }}
+        uses: ncipollo/release-action@v1
+        with:
+          owner: FastLauncherMM
+          repo: Mac
+          token: ${{ secrets.full }}
+          tag: build-${{ github.run_number }}
+          name: FastLauncher macOS Build #${{ github.run_number }}
+          body: macOS build from commit ${{ github.sha }}
+          prerelease: true
+          replacesArtifacts: true
+          artifacts: /tmp/FastLauncher-x64.zip,/tmp/FastLauncher-arm64.zip
+          artifactErrorsFailBuild: true
 
   build-arch:
     needs: build
