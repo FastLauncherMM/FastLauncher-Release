@@ -6,3 +6,4 @@ export * from './labymod.browser'
 export * from './minecraft.browser'
 export * from './java-runtime.browser'
 export * from './utils.browser'
+

@@ -208,7 +208,7 @@ export function isCompatible(range: string, version: string) {
   return vRange?.containsVersion(parseVersion(version)) || false
 }
 
-export function getExpectVersion({ minecraft, forge, fabricLoader: fabric, optifine, quiltLoader, neoForged, labyMod }: PartialRuntimeVersions) {
+export function getExpectVersion({ minecraft, forge, fabricLoader: fabric, optifine, quiltLoader, neoForged, labyMod, viper }: PartialRuntimeVersions) {
   let expectedId = minecraft
   if (typeof forge === 'string' && forge.length > 0) expectedId += `-forge${forge}`
   if (typeof fabric === 'string' && fabric.length > 0) expectedId += `-fabric${fabric}`
@@ -258,11 +258,13 @@ function isVersionMatched(version: VersionHeader,
   optifine: string | undefined,
   quiltLoader: string | undefined,
   labyMod: string | undefined,
+  viper: string | undefined,
 ) {
   // compute version
   if (version.minecraft !== minecraft) {
     return false
   }
+
   if (forge) {
     // require forge
     if (!version.forge || !isSameForgeVersion(forge, version.forge, minecraft)) {
@@ -326,7 +328,7 @@ export function findMatchedVersion(versions: VersionHeader[],
   id: string,
   runtime: PartialRuntimeVersions,
 ): VersionHeader | undefined {
-  return versions.find(v => v.id === id) || versions.find(ver => isVersionMatched(ver, runtime.minecraft, runtime.forge, runtime.neoForged, runtime.fabricLoader, runtime.optifine, runtime.quiltLoader, runtime.labyMod))
+  return versions.find(v => v.id === id) || versions.find(ver => isVersionMatched(ver, runtime.minecraft, runtime.forge, runtime.neoForged, runtime.fabricLoader, runtime.optifine, runtime.quiltLoader, runtime.labyMod, ''))
 }
 
 export function getResolvedVersionHeader(ver: ResolvedVersion): VersionHeader {

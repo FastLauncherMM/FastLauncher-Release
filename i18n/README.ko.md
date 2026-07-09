@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://xmcl.app" target="_blank">
     <img alt="Logo" width="125" src="https://github.com/Voxelum/x-minecraft-launcher/blob/master/xmcl-electron-app/icons/dark@256x256.png">
-  </a>
 </p>
 
 <p align="center">
@@ -22,7 +20,7 @@
 
 ![home](https://raw.githubusercontent.com/Voxelum/xmcl-page/master/.vitepress/theme/assets/home.png)
 
-공식 사이트([https://xmcl.app](https://xmcl.app/ko))에서 앱을 다운로드할 수 있어요.
+공식 사이트에서 앱을 다운로드할 수 있어요.
 
 만약 `winget`을 사용 중이면, 아래 명령어로 설치할 수 있어요:
 
@@ -57,7 +55,7 @@ brew install --cask --no-quarantine voxelum/xmcl
 
 일반 개발 관련해서는 [기여하기](CONTRIBUTING.ko.md)를 참고해 주세요.
 
-번역(i18n) 작업을 하려면 [현지화를 시작하기](https://xmcl.app/ko/guide/i18n)를 따라 진행해 주세요.
+번역(i18n) 작업을 하려면 현지화를 시작하기를 따라 진행해 주세요.
 
 ## 라이선스
 

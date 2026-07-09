@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://xmcl.app" target="_blank">
     <img alt="Logo" width="125" src="https://github.com/Voxelum/x-minecraft-launcher/blob/master/xmcl-electron-app/icons/dark@256x256.png">
-  </a>
 </p>
 
 <p align="center">
@@ -23,7 +21,7 @@
 
 ![home](https://raw.githubusercontent.com/Voxelum/xmcl-page/master/.vitepress/theme/assets/home.png)
 
-请去 [官网](https://xmcl.app) 下载启动器！
+请去官网下载启动器！
 
 如果你有 winget，你可以使用 winget 安装
 

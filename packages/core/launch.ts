@@ -131,6 +131,11 @@ export interface LaunchOption {
    */
   extraMCArgs?: string[]
   /**
+   * Skip adding the game version jar to the classpath.
+   * Use this when a custom main class (e.g. Viper) provides its own game classes.
+   */
+  skipGameJar?: boolean
+  /**
    * Prepend command before java command.
    */
   prependCommand?: string | string[]
@@ -180,6 +185,10 @@ export interface LaunchOption {
    * Add extra classpaths
    */
   extraClassPaths?: string[]
+  /**
+   * Force override the main class. If set, this will be used instead of version.mainClass.
+   */
+  forceMainClass?: string
   /**
    * The platform of this launch will run. By default, it will fetch the current machine info if this is absent.
    */
@@ -856,7 +865,7 @@ export async function generateArguments(options: LaunchOption) {
       ...version.libraries
         .filter((lib) => !lib.isNative)
         .map((lib) => mc.getLibraryByPath(lib.download.path)),
-      mc.getVersionJar(version.minecraftVersion),
+      ...(options.skipGameJar ? [] : [mc.getVersionJar(version.minecraftVersion)]),
       ...(options.extraClassPaths || []),
     ]
       .map((c) => c.replaceAll('\\', '/'))
@@ -898,7 +907,7 @@ export async function generateArguments(options: LaunchOption) {
     }
   }
 
-  cmd.push(version.mainClass)
+  cmd.push(options.forceMainClass ?? version.mainClass)
   const assetsDir = join(resourcePath, 'assets')
   const resolution = options.resolution
   const versionName = options.versionName || version.id

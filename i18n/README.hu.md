@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://xmcl.app" target="_blank">
     <img alt="Logo" width="125" src="https://github.com/Voxelum/x-minecraft-launcher/blob/master/xmcl-electron-app/icons/dark@256x256.png">
-  </a>
 </p>
 
 <p align="center">
@@ -22,7 +20,7 @@
 
 ![home](https://raw.githubusercontent.com/Voxelum/xmcl-page/master/.vitepress/theme/assets/home.png)
 
-Látogasd meg a [hivatalos honlapot](https://xmcl.app) az alkalmazás letöltéséhez!
+Látogasd meg a hivatalos honlapot az alkalmazás letöltéséhez!
 
 Ha rendelkezel winget-tel, használhatod a telepítéshez:
 

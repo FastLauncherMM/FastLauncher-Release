@@ -18,7 +18,7 @@ export function getAgnesSetupDocUrl(locale: string): string {
   if (l.startsWith('zh')) docLocale = 'zh'
   else if (l.startsWith('ru')) docLocale = 'ru'
   else if (l.startsWith('uk')) docLocale = 'uk'
-  return `https://xmcl.app/${docLocale}/guide/agnes-ai-setup`
+  return `https://docs.xmcl.app/${docLocale}/guide/agnes-ai-setup`
 }
 
 /** Reactive Agnes setup guide URL matching the active UI locale. */

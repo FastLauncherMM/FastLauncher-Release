@@ -623,6 +623,7 @@ java:
 labyMod:
   disable: Disable LabyMod
   empty: LabyMod does not support current Minecraft
+
 launch:
   cancel: Cancel
   createShortcut: Create shortcut

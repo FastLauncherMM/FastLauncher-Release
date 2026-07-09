@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [macos-latest]
     env:
       # Redirect Electron / electron-builder caches to a workspace-local path
       # so a single `path:` works on Linux, macOS, and Windows.
@@ -180,7 +180,7 @@ jobs:
           pkgrel=1
           pkgdesc="FastLauncher - A modern Minecraft launcher"
           arch=('${{ matrix.arch }}')
-          url="https://xmcl.app/"
+          url=""
           license=('MIT')
           provides=("xmcl")
           conflicts=('xmcl-launcher-bin')

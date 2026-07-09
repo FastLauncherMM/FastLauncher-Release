@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://xmcl.app" target="_blank">
     <img alt="Logo" width="125" src="https://github.com/Voxelum/x-minecraft-launcher/blob/master/xmcl-electron-app/icons/dark@256x256.png">
-  </a>
 </p>
 
 <p align="center">
@@ -22,7 +20,7 @@
 
 ![home](https://raw.githubusercontent.com/Voxelum/xmcl-page/master/.vitepress/theme/assets/home.png)
 
-Visit the [official site](https://xmcl.app) to download the app!
+Visit the official site to download the app!
 
 If you have winget, you can use winget to install
 
@@ -67,7 +65,7 @@ sudo xattr -rd com.apple.quarantine /Applications/X\ Minecraft\ Launcher.app
 
 ## Core Libraries
 
-This repository also includes the **Minecraft Launcher Core** (`@xmcl/*` packages) — a set of npm packages providing useful functions to build a Minecraft launcher. [API Documentation](https://docs.xmcl.app/en/core)
+This repository also includes the **Minecraft Launcher Core** (`@xmcl/*` packages) — a set of npm packages providing useful functions to build a Minecraft launcher.
 
 | Package | Description | Version |
 | --- | --- | --- |
@@ -98,7 +96,7 @@ This repository also includes the **Minecraft Launcher Core** (`@xmcl/*` package
 
 For general developer, see [Contributing](./CONTRIBUTING.md)
 
-For i18n localization developer, please follow [Getting Started with Localization](https://docs.xmcl.app/en/guide/i18n)
+For i18n localization developer, please follow the Getting Started with Localization guide
 
 ## LICENSE
 

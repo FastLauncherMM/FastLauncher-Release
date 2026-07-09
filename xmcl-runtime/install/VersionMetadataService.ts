@@ -411,4 +411,5 @@ export class VersionMetadataService extends AbstractService implements IVersionM
       onFresh: (manifest) => this.emit('labyModManifest', manifest),
     })
   }
+
 }
