@@ -123,6 +123,21 @@ jobs:
           name: mac-b${{ github.run_number }}-arm64
           path: |
             xmcl-electron-app/build/output/mac-arm64/
+      - name: Deploy macOS DMG to FastLauncherMM/Mac
+        if: ${{ runner.os == 'macOS' }}
+        run: |
+          git config --global user.name "FastLauncherMM"
+          git config --global user.email "fastlauncher@users.noreply.github.com"
+          git clone "https://x-access-token:${{ secrets.full }}@github.com/FastLauncherMM/Mac.git" /tmp/mac-repo
+          cp xmcl-electron-app/build/output/FastLauncher-*.dmg /tmp/mac-repo/
+          cd /tmp/mac-repo
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git add -A
+          git commit -m "Deploy FastLauncher macOS build #${{ github.run_number }}"
+          git push
 
   build-arch:
     needs: build
