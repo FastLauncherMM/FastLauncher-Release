@@ -127,10 +127,14 @@ jobs:
       - name: Deploy macOS DMG to FastLauncherMM/Mac
         if: ${{ runner.os == 'macOS' }}
         run: |
+          cd xmcl-electron-app/build/output
+          ditto -c -k --sequesterRsrc --keepParent mac/FastLauncher.app /tmp/FastLauncher-x64.zip
+          ditto -c -k --sequesterRsrc --keepParent mac-arm64/FastLauncher.app /tmp/FastLauncher-arm64.zip
           git config --global user.name "FastLauncherMM"
           git config --global user.email "fastlauncher@users.noreply.github.com"
           git clone "https://x-access-token:${{ secrets.full }}@github.com/FastLauncherMM/Mac.git" /tmp/mac-repo
-          cp xmcl-electron-app/build/output/FastLauncher-*.dmg /tmp/mac-repo/
+          cp /tmp/FastLauncher-x64.zip /tmp/mac-repo/
+          cp /tmp/FastLauncher-arm64.zip /tmp/mac-repo/
           cd /tmp/mac-repo
           if git diff --quiet && git diff --cached --quiet; then
             echo "No changes to commit"
