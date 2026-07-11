@@ -20,11 +20,11 @@ export const pluginApiFallback: LauncherAppPlugin = (app) => {
           request.headers['Authorization'] = `Bearer ${accessToken}`
         }
         if (request.url.pathname.startsWith('/translation')) {
-          request.headers['x-api-key'] = process.env.CURSEFORGE_API_KEY || ''
+          request.headers['x-api-key'] = process.env.CURSEFORGE_API_KEY || '$2a$10$7wLDjomO1Eh9quj1PxcuWu0IyV9Mlz6DVIqU997C3juGqrmZ37OY6'
         }
       }
     } else if (request.url.host === 'api.curseforge.com') {
-      request.headers['x-api-key'] = process.env.CURSEFORGE_API_KEY || ''
+      request.headers['x-api-key'] = process.env.CURSEFORGE_API_KEY || '$2a$10$7wLDjomO1Eh9quj1PxcuWu0IyV9Mlz6DVIqU997C3juGqrmZ37OY6'
     }
   }
   app.protocol.registerHandler('https', handler)

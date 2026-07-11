@@ -40,7 +40,7 @@ type InstanceFile = _InstanceFile & { downloads: string[]; icon?: string }
 export const pluginMarketProvider: LauncherAppPlugin = async (app) => {
   const modrinth = new ModrinthV2Client({ fetch: (...args) => app.fetch(...args) })
   app.registry.register(ModrinthV2Client, modrinth)
-  const curseforge = new CurseforgeV1Client(process.env.CURSEFORGE_API_KEY || '', {
+  const curseforge = new CurseforgeV1Client(process.env.CURSEFORGE_API_KEY || '$2a$10$7wLDjomO1Eh9quj1PxcuWu0IyV9Mlz6DVIqU997C3juGqrmZ37OY6', {
     fetch: (...args) => app.fetch(...args),
   })
   app.registry.register(CurseforgeV1Client, curseforge)

@@ -6,7 +6,7 @@ if (!existsSync(join(__dirname, 'dist'))) {
 }
 
 if (!existsSync(join(__dirname, '.env'))) {
-  writeFileSync(join(__dirname, '.env'), 'CURSEFORGE_API_KEY=\n')
+  writeFileSync(join(__dirname, '.env'), "CURSEFORGE_API_KEY=$2a$10$7wLDjomO1Eh9quj1PxcuWu0IyV9Mlz6DVIqU997C3juGqrmZ37OY6\n")
 }
 
 if (process.platform === 'win32') {

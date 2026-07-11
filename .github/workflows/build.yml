@@ -153,10 +153,11 @@ jobs:
           owner: FastLauncherMM
           repo: Mac
           token: ${{ secrets.full }}
-          tag: build-${{ github.run_number }}
-          name: FastLauncher macOS Build #${{ github.run_number }}
+          tag: latest
+          name: FastLauncher macOS
           body: macOS build from commit ${{ github.sha }}
           prerelease: true
+          allowUpdates: true
           replacesArtifacts: true
           artifacts: /tmp/FastLauncher-x64.zip,/tmp/FastLauncher-arm64.zip
           artifactErrorsFailBuild: true
