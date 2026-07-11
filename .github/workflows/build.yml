@@ -19,7 +19,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest]
+        os: [windows-latest, macos-latest]
     env:
       # Redirect Electron / electron-builder caches to a workspace-local path
       # so a single `path:` works on Linux, macOS, and Windows.
@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: pnpm/action-setup@v6
       - name: Fix node-gyp and Python
-        if: ${{ runner.os == 'macOS' || runner.os == 'Windows' }}
+        if: ${{ runner.os == 'macOS' }}
         run: python3 -m pip install --break-system-packages --user packaging setuptools
       - name: Use Node.js 22
         uses: actions/setup-node@v5
@@ -89,6 +89,13 @@ jobs:
           name: build-${{ runner.os }}
           path: |
             xmcl-electron-app/build/output/
+      - name: Upload Windows Installer
+        if: ${{ runner.os == 'Windows' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: win-installer-b${{ github.run_number }}
+          path: |
+            xmcl-electron-app/build/output/FastLauncher-setup.exe
       - name: Upload Windows Zip Build
         if: ${{ runner.os == 'Windows' }}
         uses: actions/upload-artifact@v6
