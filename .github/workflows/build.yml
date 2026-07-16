@@ -19,7 +19,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [windows-latest, macos-latest]
+        os: [windows-latest, macos-latest, ubuntu-latest]
     env:
       # Redirect Electron / electron-builder caches to a workspace-local path
       # so a single `path:` works on Linux, macOS, and Windows.
@@ -167,6 +167,29 @@ jobs:
           allowUpdates: true
           replacesArtifacts: true
           artifacts: /tmp/FastLauncher-x64.zip,/tmp/FastLauncher-arm64.zip
+          artifactErrorsFailBuild: true
+      - name: Zip Linux builds
+        if: ${{ runner.os == 'Linux' }}
+        run: |
+          cd xmcl-electron-app/build/output
+          zip -r /tmp/FastLauncher-Linux-x64.zip linux-unpacked/
+          if [ -d linux-arm64-unpacked ]; then
+            zip -r /tmp/FastLauncher-Linux-arm64.zip linux-arm64-unpacked/
+          fi
+      - name: Deploy Linux Build to FastLauncherMM/Linux
+        if: ${{ runner.os == 'Linux' }}
+        uses: ncipollo/release-action@v1
+        with:
+          owner: FastLauncherMM
+          repo: Linux
+          token: ${{ secrets.full }}
+          tag: latest
+          name: FastLauncher Linux
+          body: Linux build from commit ${{ github.sha }}
+          prerelease: true
+          allowUpdates: true
+          replacesArtifacts: true
+          artifacts: /tmp/FastLauncher-Linux-x64.zip
           artifactErrorsFailBuild: true
 
   build-arch:
