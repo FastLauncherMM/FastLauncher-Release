@@ -1486,6 +1486,12 @@ sortBy:
   timeAsc: Сортировать по времени модификации (восходящая)
   timeDesc: Сортировать по времени модификации (спуск)
   name: Сортировать по
+instanceStore:
+  fetchVersionsFailed: Не удалось получить версии
+  installFailed: Не удалось установить
+  installSuccess: '{name} успешно установлен!'
+  installToInstance: Установить в экземпляр
+  name: Магазин модов
 store:
   discover: Обнаружить
   latestMinecraft: Последняя версия Minecraft

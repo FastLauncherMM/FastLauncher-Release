@@ -45,6 +45,18 @@
           store
         </v-icon>
       </AppSideBarItem>
+
+      <AppSideBarItem
+        v-if="inInstanceContext"
+        data-testid="nav-instance-store"
+        v-shared-tooltip.right="() => t('instanceStore.name')"
+        to="/instance-store"
+        :aria-label="instanceStoreAriaLabel"
+      >
+        <v-icon class="sidebar-item__icon" :size="28">
+          videogame_asset
+        </v-icon>
+      </AppSideBarItem>
     </div>
 
     <div class="sidebar__divider" />
@@ -132,6 +144,18 @@
         <v-icon :size="28">store</v-icon>
       </v-btn>
 
+      <v-btn
+        v-if="inInstanceContext"
+        data-testid="nav-instance-store"
+        v-shared-tooltip.bottom="t('instanceStore.name')"
+        icon
+        to="/instance-store"
+        :aria-label="instanceStoreAriaLabel"
+        class="non-moveable mr-1"
+      >
+        <v-icon :size="28">videogame_asset</v-icon>
+      </v-btn>
+
       <v-divider vertical class="mx-2 h-6" />
     </div>
 
@@ -195,8 +219,15 @@ const navigationAriaLabel = 'Sidebar navigation'
 const backAriaLabel = computed(() => t('shared.back'))
 const myStuffAriaLabel = computed(() => t('myStuff'))
 const storeAriaLabel = computed(() => t('store.name', 2))
+const instanceStoreAriaLabel = computed(() => t('instanceStore.name'))
 const multiplayerAriaLabel = computed(() => t('multiplayer.name'))
 const settingsAriaLabel = computed(() => t('setting.name', 2))
+
+const route = useRoute()
+const inInstanceContext = computed(() => {
+  const homeLayoutPaths = ['/', '/mods', '/resourcepacks', '/shaderpacks', '/save', '/base-setting', '/instance-store']
+  return homeLayoutPaths.includes(route.path)
+})
 
 function goBack() {
   back()

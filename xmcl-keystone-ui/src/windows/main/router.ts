@@ -5,6 +5,8 @@ import Home from '@/views/Home.vue'
 import HomeActions from '@/views/HomeActions.vue'
 import HomeExtension from '@/views/HomeExtension.vue'
 import HomeLayout from '@/views/HomeLayout.vue'
+import InstanceStore from '@/views/InstanceStore.vue'
+import InstanceStoreExtension from '@/views/InstanceStoreExtension.vue'
 import Me from '@/views/Me.vue'
 import Mod from '@/views/Mod.vue'
 import ModActions from '@/views/ModActions.vue'
@@ -72,6 +74,13 @@ export const router = createRouter({
             default: ShaderPack,
             extensions: ShaderPackExtension,
             actions: ShaderPackActions,
+          },
+        },
+        {
+          path: 'instance-store',
+          components: {
+            default: InstanceStore,
+            extensions: InstanceStoreExtension,
           },
         },
         {

@@ -491,6 +491,15 @@ const items = computed(() => {
         install: () => push('/save?source=remote'),
         setting: () => push('/save'),
         drop: onDropSave
+      },
+      {
+        icon: 'storefront',
+        tooltip: t('instanceStore.name'),
+        text: t('instanceStore.name'),
+        highlighted: false,
+        install: () => push('/instance-store?source=remote'),
+        setting: () => push('/instance-store'),
+        drop: () => {}
       }
     ]
   } else if (selected.value === 1) {

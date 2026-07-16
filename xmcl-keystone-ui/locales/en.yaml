@@ -1777,6 +1777,12 @@ sortBy:
   name: Sort By
   timeAsc: Sort by modification time (ascending)
   timeDesc: Sort by modification time (descending)
+instanceStore:
+  fetchVersionsFailed: Failed to fetch versions
+  installFailed: Failed to install
+  installSuccess: '{name} installed successfully!'
+  installToInstance: Install to Instance
+  name: Mod Store
 store:
   discover: Discover
   empty: No Modpacks Found
