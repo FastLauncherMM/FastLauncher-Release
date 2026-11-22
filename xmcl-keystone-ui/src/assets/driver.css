@@ -35,6 +35,19 @@
   gap: 3px;
 }
 
+/* Framed "Skip" button — same footer as Prev/Next but outlined to read as
+   a secondary action instead of a floating stray piece of text. */
+.driver-popover.driverjs-theme .driver-popover-navigation-btns .driver-skip-btn {
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.driver-popover.driverjs-theme .driver-popover-navigation-btns .driver-skip-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
 .driver-popover.driverjs-theme .driver-popover-close-btn {
   color: #9b9b9b;
 }

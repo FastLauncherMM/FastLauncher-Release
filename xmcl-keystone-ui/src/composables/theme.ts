@@ -78,33 +78,64 @@ export interface UIThemeDataV1 {
   customCssEnabled?: boolean
 }
 
+/**
+ * The last used dark/light choice is mirrored into localStorage so the first
+ * paint of the next launch already matches it. Otherwise the window would show
+ * the default (system) scheme for a moment and then flip to the saved one —
+ * the "screen flickers when the color scheme changes" bug.
+ */
+const THEME_DARK_BOOT_CACHE = 'fastlauncher.theme.dark'
+
+export function readThemeDarkBootCache(): boolean | 'system' | undefined {
+  try {
+    const value = localStorage.getItem(THEME_DARK_BOOT_CACHE)
+    if (value === 'true') return true
+    if (value === 'false') return false
+    if (value === 'system') return 'system'
+  } catch {}
+  return undefined
+}
+
+export function writeThemeDarkBootCache(dark: boolean | 'system') {
+  try { localStorage.setItem(THEME_DARK_BOOT_CACHE, String(dark)) } catch {}
+}
+
+/** Keep the document base color in sync with the theme so no white frame flashes through. */
+export function syncDocumentBackground(dark: boolean) {
+  const color = dark ? '#060a07' : '#eef4ef'
+  try {
+    document.documentElement.style.backgroundColor = color
+    if (document.body) document.body.style.backgroundColor = color
+  } catch {}
+}
+
 export function getDefaultTheme(): UIThemeDataV1 {
   return {
     dark: 'system',
     backgroundMusic: [],
     backgroundMusicPlayOrder: 'sequential',
     colors: {
-      lightAppBarColor: '#e0e0e0FF',
-      lightSideBarColor: '#FFFFFFFF',
-      darkAppBarColor: '#111111FF',
-      darkSideBarColor: '#11111166',
-      darkPrimaryColor: '#4caf50',
-      darkBackground: '#121212A5',
+      lightAppBarColor: '#F7FAF7F2',
+      lightSideBarColor: '#FFFFFFE8',
+      darkAppBarColor: '#080D0AF2',
+      darkSideBarColor: '#0B130FE0',
+      darkPrimaryColor: '#75E85B',
+      darkBackground: '#060A07A8',
       darkInfoColor: '#2196F3',
       darkErrorColor: '#FF5252',
       darkWarningColor: '#FB8C00',
 
-      darkSuccessColor: '#4CAF50',
-      darkAccentColor: '#00e676',
-      darkCardColor: '#0c0c0ccc',
-      lightPrimaryColor: '#1976D2',
-      lightBackground: '#FFFFFF',
+      darkSuccessColor: '#64DB55',
+      darkAccentColor: '#B6FF75',
+      darkCardColor: '#101812D9',
+      lightPrimaryColor: '#269C45',
+      lightBackground: '#EEF4EFB8',
       lightInfoColor: '#2196F3',
       lightErrorColor: '#FF5252',
       lightWarningColor: '#FB8C00',
-      lightSuccessColor: '#4CAF50',
-      lightAccentColor: '#82B1FF',
-      lightCardColor: '#e0e0e080' },
+      lightSuccessColor: '#2F9F4B',
+      lightAccentColor: '#62C84E',
+      lightCardColor: '#FFFFFFD9' },
     backgroundColorOverlay: true,
     backgroundVolume: 1,
     backgroundImage: undefined,
@@ -116,10 +147,10 @@ export function getDefaultTheme(): UIThemeDataV1 {
     borderRadiusEnabled: true,
     customCssEnabled: false,
     blur: {
-      background: 3,
-      card: 20,
-      appBar: 3,
-      sideBar: 3 } }
+      background: 2,
+      card: 28,
+      appBar: 20,
+      sideBar: 24 } }
 }
 
 export function useStoredThemes() {
@@ -798,6 +829,10 @@ export function useTheme(
 ) {
   const framework = useVuetifyTheme()
   const currentTheme = ref<UIThemeDataV1>(getDefaultTheme())
+  // Paint the first frame with the same color scheme the user had last time,
+  // so the window does not flash while the real theme is being fetched.
+  const bootDark = readThemeDarkBootCache()
+  if (bootDark !== undefined) currentTheme.value.dark = bootDark
   const storedThemes = ref<StoredTheme[]>([])
 
   async function refreshStoredThemes() {
@@ -947,6 +982,8 @@ export function useTheme(
     isDark,
     (dark) => {
       framework.change(dark ? 'dark' : 'light')
+      syncDocumentBackground(dark)
+      writeThemeDarkBootCache(currentTheme.value.dark)
     },
     { immediate: true },
   )
@@ -1029,8 +1066,8 @@ export function useTheme(
     --color-error: ${errorColor.value};
     --color-success: ${successColor.value};
     --color-warning: ${warningColor.value};
-    --color-border: ${isDark.value ? 'hsla(0, 0%, 100%, .12)' : 'hsla(0, 0%, 100%, .12)'};
-    --color-highlight-bg: ${isDark.value ? 'hsla(0, 0%, 100%, .12)' : 'hsla(0, 0%, 100%, .12)'};
+    --color-border: ${isDark.value ? 'hsla(0, 0%, 100%, .10)' : 'rgba(23, 44, 29, .12)'};
+    --color-highlight-bg: ${isDark.value ? 'rgba(117, 232, 91, .13)' : 'rgba(38, 156, 69, .10)'};
     --color-secondary-text: ${isDark.value ? 'rgba(156, 163, 175, 1)' : 'rgba(75, 85, 99, 1)'};
     --color-sidebar-bg: ${sideBarColor.value};
     --color-appbar-bg: ${appBarColor.value};

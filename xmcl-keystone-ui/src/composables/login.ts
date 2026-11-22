@@ -2,7 +2,6 @@ import { useLocalStorageCache, useLocalStorageCacheStringValue } from '@/composa
 import {
   AUTHORITY_DEV,
   AUTHORITY_MICROSOFT,
-  AUTHORITY_MOJANG,
   AuthorityMetadata,
   YggdrasilApi,
 } from '@xmcl/runtime-api'
@@ -16,7 +15,7 @@ import { useLocalStorage } from '@vueuse/core'
 export function useAccountSystemHistory() {
   const authority = useLocalStorageCacheStringValue(
     'loginLastAuthAuthority',
-    AUTHORITY_MICROSOFT as string,
+    AUTHORITY_DEV as string,
     { legacyKey: 'last-auth-service' },
   )
   const allHistoryRaw = useLocalStorage(

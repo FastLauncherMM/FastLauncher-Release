@@ -561,11 +561,28 @@ function getBackgroundMenu(): ContextMenuItem[] {
 
 .vgl-layout .vgl-item:not(.vgl-item--placeholder):not(.vgl-item--dragging) > .v-card  {
   border: var(--card-subsection-border);
-  transition: border-color 0.5s ease;
+  box-shadow:
+    0 18px 48px -38px rgba(0, 0, 0, 0.62),
+    inset 0 1px rgba(255, 255, 255, 0.025);
+  transition:
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.3s ease,
+    box-shadow 0.35s ease;
+  animation: dashboard-card-enter 0.24s ease-out both;
 }
 /* ── Modern card hover ── */
 .vgl-layout .vgl-item:hover:not(.vgl-item--placeholder):not(.vgl-item--dragging) > .v-card {
   border: 1px solid rgba(var(--v-theme-primary), 0.45) !important;
+  box-shadow:
+    0 24px 56px -34px rgba(0, 0, 0, 0.72),
+    0 10px 30px -24px rgba(var(--v-theme-primary), 0.48),
+    inset 0 1px rgba(255, 255, 255, 0.04);
+  transform: translateY(-3px);
+}
+
+@keyframes dashboard-card-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* ── Resize handle — diagonal grip lines ── */
@@ -617,5 +634,12 @@ function getBackgroundMenu(): ContextMenuItem[] {
     rgba(var(--v-theme-on-surface), 0.5) 75%,
     transparent 75%
   );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vgl-layout .vgl-item:not(.vgl-item--placeholder):not(.vgl-item--dragging) > .v-card {
+    animation: none;
+    transition: none;
+  }
 }
 </style>

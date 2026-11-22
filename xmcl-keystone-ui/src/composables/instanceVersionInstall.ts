@@ -64,7 +64,6 @@ function useInstanceVersionInstall(
     installOptifine,
     installFabric,
     installQuilt,
-    installLabyModVersion,
   } = useService(InstallServiceKey)
   const { refreshVersion, refreshServerVersion, resolveLocalVersion } =
     useService(VersionServiceKey)
@@ -122,9 +121,10 @@ function useInstanceVersionInstall(
         await refreshVersion(localLabyMod.id)
         labyModBase = localLabyMod.id
       } else {
-        const manifest = await metadata.getLabyModManifest()
-
-        labyModBase = await installLabyModVersion({ manifest, minecraftVersion: minecraft })
+        // Install the bundled LabyMod 4 profile (version json + libraries +
+        // labymod-neo assets) instead of downloading from the network.
+        labyModBase = await windowController.installLabyMod4(minecraft)
+        await refreshVersion(labyModBase)
       }
     }
 
@@ -234,7 +234,9 @@ function useInstanceVersionInstall(
       })
     }
 
-    return minecraft
+    // When only LabyMod is selected, run the LabyMod profile directly instead
+    // of the plain minecraft version.
+    return labyModBase || minecraft
   }
 
   async function installServer(runtime: RuntimeVersions, path: string) {

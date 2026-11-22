@@ -53,5 +53,8 @@
             "postcss": ">=8.5.10",
             "rolldown": "1.0.1"
         }
+    },
+    "dependencies": {
+        "execa": "^10.0.0"
     }
 }

@@ -27,6 +27,9 @@ export class Settings implements SettingSchema {
   disableTelemetry = false
   linuxTitlebar = false
   windowTranslucent = false
+  bootSplashStyle: 'pulse' | 'rise' | 'spin' | 'glow' | 'none' = 'pulse'
+  bootSplashColor = '#1565c0'
+  tutorialShown = false
 
   locale = ''
 
@@ -51,6 +54,7 @@ export class Settings implements SettingSchema {
   autoInstallOnAppQuit = false
   autoDownload = false
   enableDedicatedGPUOptimization = true
+  globalOptimization = false
   apiSetsPreference: 'mojang' | 'bmcl' | '' = ''
   apiSets = [{ name: 'bmcl', url: 'https://bmclapi2.bangbang93.com' }]
   /**
@@ -114,8 +118,12 @@ export class Settings implements SettingSchema {
     this.linuxTitlebar = config.linuxTitlebar
     this.windowTranslucent = config.windowTranslucent
     this.enableDedicatedGPUOptimization = config.enableDedicatedGPUOptimization
+    this.globalOptimization = config.globalOptimization
     this.replaceNatives = config.replaceNatives
     this.globalResolution = config.globalResolution
+    this.bootSplashStyle = config.bootSplashStyle
+    this.bootSplashColor = config.bootSplashColor
+    this.tutorialShown = config.tutorialShown
   }
 
   developerModeSet(developerMode: boolean) {
@@ -136,6 +144,10 @@ export class Settings implements SettingSchema {
 
   enableDedicatedGPUOptimizationSet(enabled: boolean) {
     this.enableDedicatedGPUOptimization = enabled
+  }
+
+  globalOptimizationSet(enabled: boolean) {
+    if (typeof enabled === 'boolean') this.globalOptimization = enabled
   }
 
   localesSet(languages: {
@@ -215,6 +227,18 @@ export class Settings implements SettingSchema {
     this.windowTranslucent = enabled
   }
 
+  bootSplashStyleSet(style: 'pulse' | 'rise' | 'spin' | 'glow' | 'none') {
+    this.bootSplashStyle = style
+  }
+
+  bootSplashColorSet(color: string) {
+    this.bootSplashColor = color
+  }
+
+  tutorialShownSet(shown: boolean) {
+    this.tutorialShown = shown
+  }
+
   replaceNativesSet(replace: 'all' | 'legacy-only' | false) {
     this.replaceNatives = replace
   }
@@ -248,6 +272,7 @@ export class Settings implements SettingSchema {
     globalFastLaunch: boolean
     globalHideLauncher: boolean
     globalShowLog: boolean
+    globalOptimization: boolean
     globalDisableAuthlibInjector: boolean
     globalDisableElyByAuthlib: boolean
     globalPrependCommand: string
@@ -263,6 +288,7 @@ export class Settings implements SettingSchema {
     this.globalFastLaunch = settings.globalFastLaunch
     this.globalHideLauncher = settings.globalHideLauncher
     this.globalShowLog = settings.globalShowLog
+    this.globalOptimization = settings.globalOptimization
     this.globalDisableAuthlibInjector = settings.globalDisableAuthlibInjector
     this.globalDisableElyByAuthlib = settings.globalDisableElyByAuthlib
     this.globalPrependCommand = settings.globalPrependCommand

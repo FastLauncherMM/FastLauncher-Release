@@ -192,22 +192,25 @@ export function useInstanceLaunch(
     }
     try {
       error.value = undefined
-      const options = await generateLaunchOptions(instancePath, user, operationId, side, overrides)
 
-      if (user.id && side === 'client') {
-        const refreshPromise = track(token, refreshUser(user.id, { validate: !options.skipAssetsCheck }).then((profile) => { user = profile }), 'refreshing-user', operationId).catch((e) => {
+      // The account refresh (network roundtrip) and the audio permission
+      // prompt are independent of the launch options — start them first and
+      // let them run while the options below are being generated.
+      const fastLaunch = overrides?.skipAssetsCheck ?? instance.value.fastLaunch ?? globalFastLaunch.value
+      const refreshPromise = user.id && side === 'client'
+        ? track(token, refreshUser(user.id, { validate: !fastLaunch }).then((profile) => { user = profile }), 'refreshing-user', operationId).catch((e) => {
           console.error(e)
         })
-        const audioPromise = shouldEnableVoiceChat()
-          ? track(token, windowController.queryAudioPermission(), 'checking-permission', operationId).catch((e) => { console.error(e) })
-          : Promise.resolve()
-        await Promise.all([refreshPromise, audioPromise])
-      } else if (shouldEnableVoiceChat() && side === 'client') {
-        try {
-          await track(token, windowController.queryAudioPermission(), 'checking-permission', operationId)
-        } catch (e) {
-          console.error(e)
-        }
+        : undefined
+      const audioPromise = shouldEnableVoiceChat() && side === 'client'
+        ? track(token, windowController.queryAudioPermission(), 'checking-permission', operationId).catch((e) => { console.error(e) })
+        : undefined
+
+      const options = await generateLaunchOptions(instancePath, user, operationId, side, overrides)
+
+      const pending = [refreshPromise, audioPromise].filter((p) => !!p)
+      if (pending.length > 0) {
+        await Promise.all(pending)
       }
 
       assignStatus(token, 'spawning-process')

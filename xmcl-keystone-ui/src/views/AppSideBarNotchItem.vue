@@ -55,9 +55,16 @@ function onClick(event: MouseEvent) {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 12px;
+  border: 1px solid transparent;
+  border-radius: 13px;
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(var(--v-theme-on-surface), 0.02);
+  transition:
+    transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.25s ease,
+    color 0.2s ease;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -75,17 +82,28 @@ function onClick(event: MouseEvent) {
 }
 
 .sidebar-notch-item:hover::before {
-  opacity: 0.08;
+  opacity: 0.06;
 }
 
 .sidebar-notch-item:active::before {
   opacity: 0.12;
 }
 
+.sidebar-notch-item--link:hover {
+  border-color: rgba(var(--v-theme-primary), 0.18);
+  background: rgba(var(--v-theme-primary), 0.08);
+  color: rgb(var(--v-theme-primary));
+  transform: translateY(-2px) scale(1.035);
+}
+
+.sidebar-notch-item--link:active {
+  transform: scale(0.96);
+}
+
 .sidebar-notch-item__icon {
   position: relative;
   z-index: 1;
-  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .sidebar-notch-item__image {
@@ -103,16 +121,36 @@ function onClick(event: MouseEvent) {
 }
 
 .sidebar-notch-item.router-link-active,
+.sidebar-notch-item--active {
+  border-color: rgba(var(--v-theme-primary), 0.46);
+  background: linear-gradient(145deg, rgba(var(--v-theme-primary), 0.24), rgba(var(--v-theme-primary), 0.11));
+  color: rgb(var(--v-theme-primary));
+  box-shadow:
+    0 9px 22px -13px rgba(var(--v-theme-primary), 0.75),
+    inset 0 1px rgba(255, 255, 255, 0.06);
+}
+
 .sidebar-notch-item.router-link-active .v-icon,
-.sidebar-notch-item--active,
 .sidebar-notch-item--active .v-icon {
-  color: var(--color-primary);
+  color: rgb(var(--v-theme-primary));
 }
 
 .sidebar-notch-item.router-link-active::before,
 .sidebar-notch-item--active::before {
-  opacity: 0.20;
+  opacity: 0.08;
   background: var(--color-primary);
 }
-</style>
 
+.sidebar-notch-item--link:hover .sidebar-notch-item__icon,
+.sidebar-notch-item--link:hover .sidebar-notch-item__image {
+  transform: scale(1.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar-notch-item,
+  .sidebar-notch-item__icon,
+  .sidebar-notch-item__image {
+    transition: none;
+  }
+}
+</style>

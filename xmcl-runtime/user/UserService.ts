@@ -1,4 +1,4 @@
-/* eslint-disable quotes */
+﻿/* eslint-disable quotes */
 import { download } from '@xmcl/file-transfer'
 import {
   AUTHORITY_MICROSOFT,

@@ -13,8 +13,8 @@
     <img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg" alt="Commit">
   </a>
   <br>
-  <a href="https://discord.com/users/myfavjuzo">
-    <img src="https://img.shields.io/badge/Discord-@myfavjuzo-5865F2?logo=discord&logoColor=white" alt="Discord">
+  <a href="https://discord.com/users/f0rcaj">
+    <img src="https://img.shields.io/badge/Discord-@f0rcaj-5865F2?logo=discord&logoColor=white" alt="Discord">
   </a>
 </p>
 

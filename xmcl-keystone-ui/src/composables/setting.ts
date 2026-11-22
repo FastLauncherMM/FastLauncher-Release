@@ -1,6 +1,6 @@
 import { useService } from '@/composables'
 import { injection } from '@/util/inject'
-import { BaseServiceKey, Environment, Settings } from '@xmcl/runtime-api'
+import { BaseServiceKey, Environment, ReleaseInfo, Settings } from '@xmcl/runtime-api'
 import { InjectionKey, Ref } from 'vue'
 import { useLocalStorageCacheBool } from './cache'
 import { kEnvironment } from './environment'
@@ -8,38 +8,125 @@ import { useState } from './syncableState'
 
 export const kUpdateSettings: InjectionKey<ReturnType<typeof useUpdateSettings>> = Symbol('UpdateSettings')
 
+/**
+ * Launcher self-update state, shared by the whole window.
+ *
+ * The updater works like the cheat downloads: FastLauncher-setup.exe is pulled
+ * straight from the GitHub release (the only thing that changes between
+ * versions is the release tag) and then launched as a normal installer.
+ */
+const _updateStatus = ref<'none' | 'pending' | 'ready'>('none')
+const _updateInfo = ref<ReleaseInfo | null>(null)
+const _updateError = ref('')
+const _updateProgress = ref<{ percent: number; bytes: number; total: number; rateBytes: number } | null>(null)
+let _updateEventsBound = false
+
+/** Turn the raw IPC/network error into a short human message. */
+function updateErrorMessage(error: any): string {
+  const raw = String(error?.message ?? error ?? '')
+  if (/HTTP 404/.test(raw)) return 'Релиз не найден на GitHub'
+  if (/HTTP 403|HTTP 429/.test(raw)) return 'GitHub временно ограничил запросы — попробуй позже'
+  if (/HTTP 5\d\d/.test(raw)) return 'GitHub недоступен — попробуй позже'
+  if (/ERR_|ENOTFOUND|ECONN|net::/i.test(raw)) return 'Нет связи с GitHub — проверь интернет'
+  if (/not found in/i.test(raw)) return 'В релизе нет файла FastLauncher-setup.exe'
+  if (/Загрузка уже идёт/.test(raw)) return 'Загрузка уже идёт'
+  const tail = raw.split(': ').pop() ?? raw
+  return tail.length > 160 ? tail.slice(0, 160) + '…' : tail
+}
+
+function bindUpdateEvents() {
+  if (_updateEventsBound) return
+  _updateEventsBound = true
+  windowController.on('app-update-progress', (event) => {
+    _updateProgress.value = {
+      percent: event.percent,
+      bytes: event.bytes,
+      total: event.total,
+      rateBytes: event.rateBytes ?? 0,
+    }
+    _updateError.value = ''
+  })
+  windowController.on('app-update-done', () => {
+    _updateProgress.value = null
+    _updateError.value = ''
+    if (_updateInfo.value) _updateStatus.value = 'ready'
+  })
+  windowController.on('app-update-error', (event) => {
+    _updateProgress.value = null
+    _updateError.value = event.message || ''
+    if (_updateInfo.value) _updateStatus.value = 'pending'
+  })
+  windowController.on('app-update-cancelled', () => {
+    _updateProgress.value = null
+    if (_updateInfo.value) _updateStatus.value = 'pending'
+  })
+}
+
 export function useUpdateSettings() {
-  const { checkUpdate, downloadUpdate, quitAndInstall } = useService(BaseServiceKey)
+  bindUpdateEvents()
   const env: Ref<Environment | undefined> = injection(kEnvironment)
-  const { state } = injection(kSettingsState)
-  const updateStatus = computed(() => state.value?.updateStatus)
-  const updateInfo = computed(() => state.value?.updateInfo)
   const version = computed(() => env.value?.version ?? '0.0.0')
   const installing = ref(false)
+  const downloadingUpdate = ref(false)
+  const checkingUpdate = ref(false)
+
   async function install() {
     installing.value = true
     try {
-      await quitAndInstall()
-    } finally {
+      await windowController.installAppUpdate()
+    } catch (e: any) {
+      _updateError.value = updateErrorMessage(e)
       installing.value = false
     }
   }
 
-  const downloadingUpdate = ref(false)
   async function download() {
+    if (downloadingUpdate.value) return
     downloadingUpdate.value = true
+    _updateError.value = ''
     try {
-      await downloadUpdate()
+      await windowController.downloadAppUpdate()
+    } catch (e: any) {
+      _updateError.value = updateErrorMessage(e)
     } finally {
       downloadingUpdate.value = false
     }
   }
 
-  const checkingUpdate = ref(false)
+  async function cancelDownload() {
+    try {
+      await windowController.cancelAppUpdate()
+    } catch {
+      // ignore
+    }
+  }
+
   async function check() {
+    if (checkingUpdate.value) return
     checkingUpdate.value = true
     try {
-      await checkUpdate()
+      const res = await windowController.checkAppUpdate()
+      if (res?.available) {
+        _updateInfo.value = {
+          name: res.tag.startsWith('v') ? res.tag : 'v' + res.tag,
+          body: res.body,
+          date: res.date,
+          files: [],
+          newUpdate: true,
+          operation: 'autoupdater',
+        }
+        const cached = await windowController.appUpdateCached(res.version)
+        _updateProgress.value = null
+        _updateStatus.value = cached ? 'ready' : 'pending'
+      } else {
+        _updateInfo.value = null
+        _updateProgress.value = null
+        _updateStatus.value = 'none'
+      }
+      _updateError.value = ''
+    } catch (e: any) {
+      _updateError.value = updateErrorMessage(e)
+      if (!_updateInfo.value) _updateStatus.value = 'none'
     } finally {
       checkingUpdate.value = false
     }
@@ -49,12 +136,15 @@ export function useUpdateSettings() {
     version,
     quitAndInstall: install,
     downloadUpdate: download,
+    cancelDownload,
     checkUpdate: check,
     installing,
-    updateStatus,
+    updateStatus: computed(() => _updateStatus.value),
     checkingUpdate,
     downloadingUpdate,
-    updateInfo,
+    updateInfo: computed(() => _updateInfo.value),
+    updateProgress: computed(() => _updateProgress.value),
+    updateError: computed(() => _updateError.value),
   }
 }
 export const kSettingsState: InjectionKey<ReturnType<typeof useSettingsState>> = Symbol('Settings')
@@ -73,6 +163,7 @@ export function useGlobalSettings({ state } = injection(kSettingsState)) {
   const globalFastLaunch = computed(() => state.value?.globalFastLaunch ?? false)
   const globalHideLauncher = computed(() => state.value?.globalHideLauncher ?? false)
   const globalShowLog = computed(() => state.value?.globalShowLog ?? false)
+  const globalOptimization = computed(() => state.value?.globalOptimization ?? false)
   const globalDisableAuthlibInjector = computed(() => state.value?.globalDisableAuthlibInjector ?? true)
   const globalDisableElyByAuthlib = computed(() => state.value?.globalDisableElyByAuthlib ?? false)
   const globalPrependCommand = computed(() => state.value?.globalPrependCommand ?? '')
@@ -88,6 +179,7 @@ export function useGlobalSettings({ state } = injection(kSettingsState)) {
     globalFastLaunch: boolean
     globalHideLauncher: boolean
     globalShowLog: boolean
+    globalOptimization: boolean
     globalDisableAuthlibInjector: boolean
     globalDisableElyByAuthlib: boolean
     globalPrependCommand: string
@@ -107,6 +199,7 @@ export function useGlobalSettings({ state } = injection(kSettingsState)) {
     globalFastLaunch,
     globalHideLauncher,
     globalShowLog,
+    globalOptimization,
     globalDisableAuthlibInjector,
     globalDisableElyByAuthlib,
     globalPrependCommand,

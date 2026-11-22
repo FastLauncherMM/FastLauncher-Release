@@ -231,6 +231,8 @@ export class LaunchService extends AbstractService implements ILaunchService {
       },
       demo,
       prechecks: [],
+      skipGameJar: options.skipGameJar,
+      extraClassPaths: options.extraClassPaths,
     }
 
     const getAddress = () => {

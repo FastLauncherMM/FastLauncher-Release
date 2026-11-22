@@ -588,7 +588,10 @@ export class InstallService extends AbstractService implements IInstallService {
       this.log(`Install dependencies for ${options.version} (${side})`)
       if (side === 'client') {
         const resolvedVersion = await Version.parse(location, options.version)
-        await installLibraries(resolvedVersion, ops)
+        // `quick` (used at launch time) checks file sizes first and only
+        // re-hashes files whose size differs, instead of hashing every
+        // library on every launch.
+        await installLibraries(resolvedVersion, options.quick ? { ...ops, strict: true } : ops)
         await installAssets(resolvedVersion, ops)
       } else {
         const resolvedVersion = await this.versionService.resolveServerVersion(options.version)

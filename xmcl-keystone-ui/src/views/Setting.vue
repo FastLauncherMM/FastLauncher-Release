@@ -70,6 +70,7 @@
             :subtitle="t('setting.appearanceDescription')"
           />
           <SettingGlobalUI />
+          <SettingBootSplash class="mt-4" />
         </section>
         <section id="global" class="mb-8 scroll-target" role="region" :aria-label="t('setting.globalSetting')">
           <SettingHeader
@@ -84,6 +85,13 @@
             icon="public"
           />
           <SettingNetwork />
+        </section>
+        <section id="update" class="mb-8 scroll-target" role="region" :aria-label="t('setting.update')">
+          <SettingHeader
+            :title="t('setting.update')"
+            icon="rocket_launch"
+          />
+          <SettingUpdate />
         </section>
         <section id="about" class="mb-12 scroll-target" role="region" :aria-label="t('setting.about')">
           <SettingHeader
@@ -115,6 +123,8 @@ import SettingGlobalUI from './SettingGlobalUI.vue'
 import { useMediaQuery } from '@vueuse/core'
 import SettingAdvanced from './SettingAdvanced.vue'
 import SettingHeader from '@/components/SettingHeader.vue'
+import SettingUpdate from './SettingUpdate.vue'
+import SettingBootSplash from './SettingBootSplash.vue'
 
 const { t } = useI18n()
 usePresence(computed(() => t('presence.setting')))
@@ -143,6 +153,7 @@ const sections = [
   { id: 'appearance', title: 'setting.appearance', icon: 'palette' },
   { id: 'global', title: 'setting.globalSetting', icon: 'videogame_asset' },
   { id: 'network', title: 'setting.network', icon: 'wifi' },
+  { id: 'update', title: 'setting.update', icon: 'rocket_launch' },
   { id: 'about', title: 'setting.about', icon: 'info' },
 ]
 
@@ -194,12 +205,39 @@ function onScroll() {
 }
 
 .setting-sidebar {
-  width: 220px;
+  width: 236px;
   flex-shrink: 0;
   position: sticky;
   top: 0;
   height: fit-content;
   max-height: 100vh;
+}
+
+.setting-sidebar :deep(.v-card) {
+  overflow: hidden;
+  border-color: rgba(var(--v-theme-on-surface), 0.08);
+  background:
+    linear-gradient(145deg, rgba(var(--v-theme-surface), 0.74), rgba(var(--v-theme-surface), 0.46));
+  box-shadow:
+    0 20px 54px -36px rgba(0, 0, 0, 0.68),
+    inset 0 1px rgba(255, 255, 255, 0.035);
+}
+
+.setting-sidebar :deep(.v-list) {
+  padding: 8px;
+}
+
+.setting-sidebar :deep(.v-list-item) {
+  min-height: 42px;
+  margin-bottom: 3px !important;
+  border: 1px solid transparent;
+  border-radius: 12px !important;
+}
+
+.setting-sidebar :deep(.v-list-item--active) {
+  border-color: rgba(var(--v-theme-primary), 0.22);
+  background: linear-gradient(110deg, rgba(var(--v-theme-primary), 0.17), rgba(var(--v-theme-primary), 0.06));
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.035);
 }
 
 .scroll-container {
@@ -215,17 +253,36 @@ function onScroll() {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(var(--v-theme-surface), 0.95);
-  backdrop-filter: blur(8px);
-  padding: 8px 0;
+  border-bottom: 1px solid rgba(var(--v-theme-on-surface), 0.08);
+  background: rgba(var(--v-theme-surface), 0.76);
+  backdrop-filter: blur(24px) saturate(140%);
+  padding: 8px;
   margin-bottom: 16px;
 }
 
 .content-wrapper {
-  max-width: 80rem;
+  max-width: 74rem;
 }
 
 .scroll-target {
   scroll-margin-top: 80px;
+  animation: settings-section-enter 0.22s ease-out both;
+}
+
+.scroll-target:nth-of-type(2) { animation-delay: 0.02s; }
+.scroll-target:nth-of-type(3) { animation-delay: 0.04s; }
+.scroll-target:nth-of-type(4) { animation-delay: 0.06s; }
+.scroll-target:nth-of-type(5) { animation-delay: 0.08s; }
+.scroll-target:nth-of-type(6) { animation-delay: 0.1s; }
+
+@keyframes settings-section-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-target {
+    animation: none;
+  }
 }
 </style>

@@ -177,8 +177,53 @@ onMounted(refreshStreak)
 </style>
 <style scoped>
 .btn-launch {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
   border-radius: 9999px;
   height: 64px;
+  background: linear-gradient(120deg, rgb(var(--v-theme-primary)), rgb(var(--v-theme-primary)) 56%, rgb(var(--v-theme-accent))) !important;
+  color: rgb(var(--v-theme-on-primary)) !important;
+  box-shadow:
+    0 16px 38px -16px rgba(var(--v-theme-primary), 0.72),
+    inset 0 1px rgba(255, 255, 255, 0.34),
+    inset 0 -1px rgba(0, 0, 0, 0.12) !important;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  transition:
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.35s ease,
+    filter 0.25s ease;
+}
+
+.btn-launch::after {
+  content: '';
+  position: absolute;
+  top: -130%;
+  left: -36%;
+  width: 28%;
+  height: 360%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.34), transparent);
+  transform: rotate(24deg);
+  transition: left 0.72s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.launch-pill:hover .btn-launch {
+  filter: brightness(1.055) saturate(1.08);
+  transform: translateY(-3px) scale(1.012);
+  box-shadow:
+    0 22px 48px -16px rgba(var(--v-theme-primary), 0.82),
+    inset 0 1px rgba(255, 255, 255, 0.36),
+    inset 0 -1px rgba(0, 0, 0, 0.12) !important;
+}
+
+.launch-pill:hover .btn-launch::after {
+  left: 112%;
+}
+
+.launch-pill:active .btn-launch {
+  transform: translateY(0) scale(0.985);
 }
 
 /* Embed the play button inside the pill at its leading edge. */
@@ -189,8 +234,11 @@ onMounted(refreshStreak)
   transform: translateY(-50%);
   width: 52px;
   height: 52px;
-  background-color: rgba(255, 255, 255, 0.22) !important;
-  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgb(var(--v-theme-on-primary)) !important;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.18);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s ease;
 }
 
 .btn-play-inset :deep(.v-icon) {
@@ -205,8 +253,11 @@ onMounted(refreshStreak)
   transform: translateY(-50%);
   width: 52px !important;
   height: 52px !important;
-  background-color: rgba(0, 0, 0, 0.32) !important;
-  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: rgba(0, 0, 0, 0.26) !important;
+  color: rgb(var(--v-theme-on-primary)) !important;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.08);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s ease;
 }
 
 .btn-menu-inset :deep(.v-icon) {
@@ -220,6 +271,12 @@ onMounted(refreshStreak)
 
 .btn-menu-inset .nested-icon.is-active {
   transform: rotate(90deg);
+}
+
+.btn-play-inset:hover,
+.btn-menu-inset:hover {
+  background-color: rgba(255, 255, 255, 0.28) !important;
+  transform: translateY(-50%) scale(1.06);
 }
 
 /* Play icon does a single full spin when clicked. */
@@ -258,6 +315,16 @@ onMounted(refreshStreak)
 @media (max-width: 850px) {
   .btn-launch {
     max-width: 300px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-launch,
+  .btn-launch::after,
+  .btn-play-inset,
+  .btn-menu-inset,
+  .nested-icon {
+    transition: none;
   }
 }
 </style>

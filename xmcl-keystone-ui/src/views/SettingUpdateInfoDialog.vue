@@ -28,6 +28,29 @@
         <div v-html="body" />
       </v-card-text>
       <v-alert
+        v-if="updateError"
+        variant="tonal"
+        type="error"
+        class="mx-4 mb-2"
+      >
+        {{ updateError }}
+      </v-alert>
+      <div
+        v-if="updateProgress"
+        class="px-4 pb-3"
+      >
+        <div class="d-flex justify-space-between text-caption mb-1 opacity-70">
+          <span>{{ progressLabel }}</span>
+          <span>{{ updateProgress.percent }}%</span>
+        </div>
+        <v-progress-linear
+          :model-value="updateProgress.percent"
+          color="primary"
+          height="6"
+          rounded
+        />
+      </div>
+      <v-alert
         v-if="hintRedownload"
         variant="tonal"
         type="warning"
@@ -43,10 +66,17 @@
           >
             discord
           </v-icon>
-          Discord: @myfavjuzo
+          Discord: @f0rcaj
         </v-btn>
         <v-spacer />
         <template v-if="!hintRedownload">
+          <v-btn
+            v-if="downloadingUpdate"
+            variant="text"
+            @click="cancelDownload()"
+          >
+            Отмена
+          </v-btn>
           <v-btn
             v-if="updateStatus === 'pending'"
             color="primary"
@@ -100,7 +130,8 @@
 <script lang=ts setup>
 import { kEnvironment } from '@/composables/environment'
 import { useMarkdown } from '@/composables/markdown'
-import { kSettingsState, kUpdateSettings } from '@/composables/setting'
+import { kUpdateSettings } from '@/composables/setting'
+import { formatBytesRu } from '@/composables/useCheatDownload'
 import { getLocalDateString } from '@/util/date'
 import { injection } from '@/util/inject'
 import { useDialog } from '../composables/dialog'
@@ -108,27 +139,27 @@ import { useDialog } from '../composables/dialog'
 const { isShown } = useDialog('update-info')
 const { t } = useI18n()
 const { render } = useMarkdown()
-const { state } = injection(kSettingsState)
 const {
   installing, downloadingUpdate, checkingUpdate, updateInfo, updateStatus,
-  downloadUpdate, quitAndInstall,
+  downloadUpdate, quitAndInstall, cancelDownload, updateProgress, updateError,
 } = injection(kUpdateSettings)
 
-function renderUpdate() {
-  const body = state.value?.updateInfo?.body ?? ''
-  const transformed = body.replace(/## \[(.+)\]\(#.+\)/g, (str, v) => `## ${v}`)
-  return render(transformed)
-}
-const body = computed(() => state.value?.updateInfo?.operation === 'autoupdater' ? state.value?.updateInfo.body : renderUpdate())
+const body = computed(() => render(updateInfo.value?.body ?? ''))
 const env = injection(kEnvironment)
 const isAppX = computed(() => env.value?.env === 'appx')
 const isAppImage = computed(() => env.value?.env === 'appimage')
-const hintRedownload = computed(() =>
-  state.value?.updateInfo?.operation === 'manual',
-)
+const hintRedownload = computed(() => updateInfo.value?.operation === 'manual')
+
+const progressLabel = computed(() => {
+  const p = updateProgress.value
+  if (!p) return ''
+  const done = formatBytesRu(p.bytes)
+  const base = p.total > 0 ? `${done} / ${formatBytesRu(p.total)}` : done
+  return p.rateBytes > 0 ? `${base} · ${formatBytesRu(p.rateBytes)}/с` : base
+})
 
 const openDiscord = () => {
-  window.open('https://discord.com/users/myfavjuzo', 'browser')
+  window.open('https://discord.com/users/f0rcaj', 'browser')
 }
 </script>
 

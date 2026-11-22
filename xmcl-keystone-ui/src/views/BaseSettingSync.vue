@@ -48,7 +48,7 @@ import { InstanceEditInjectionKey } from '../composables/instanceEdit'
 const { data } = injection(InstanceEditInjectionKey)
 const { t } = useI18n()
 const gotoHelp = () => {
-  window.open('https://discord.com/users/myfavjuzo', 'browser')
+  window.open('https://discord.com/users/f0rcaj', 'browser')
 }
 
 </script>

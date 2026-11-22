@@ -40,15 +40,35 @@ defineProps<{
 </script>
 <style scoped>
 .system-bar-badge {
-  background: transparent;
-  border: 0;
+  min-height: 28px;
+  background: rgba(var(--v-theme-on-surface), 0.025);
+  border: 1px solid transparent;
+  border-radius: 9px !important;
   color: inherit;
   font: inherit;
   appearance: none;
+  transition:
+    transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .system-bar-badge:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(var(--v-theme-primary), 0.1);
+  border-color: rgba(var(--v-theme-primary), 0.18);
+  color: rgb(var(--v-theme-on-surface));
+  transform: translateY(-1px);
+}
+
+.system-bar-badge:active {
+  transform: translateY(0) scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .system-bar-badge {
+    transition: none;
+  }
 }
 
 .system-bar-badge:focus-visible {

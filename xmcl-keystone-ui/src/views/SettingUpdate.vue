@@ -36,6 +36,12 @@
         >
           NEW
         </v-chip>
+        <div
+          v-if="updateError"
+          class="text-caption text-error mt-1"
+        >
+          {{ updateError }}
+        </div>
       </template>
       
       <template #action>
@@ -72,7 +78,7 @@ import SettingItem from '@/components/SettingItem.vue'
 
 const { show: showUpdateInfo } = useDialog('update-info')
 const disableUpdate = false // state.env !== 'raw'
-const { updateInfo, installing, updateStatus, checkUpdate, checkingUpdate, version } = injection(kUpdateSettings)
+const { updateInfo, installing, updateStatus, checkUpdate, checkingUpdate, version, updateError } = injection(kUpdateSettings)
 const hasNewUpdate = computed(() => updateStatus.value !== 'none' && !!updateInfo.value?.newUpdate)
 const { t } = useI18n()
 

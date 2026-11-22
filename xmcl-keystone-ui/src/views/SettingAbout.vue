@@ -8,7 +8,7 @@
           <div>
             <span class="text-h5" v-shared-tooltip="() => 'FastLauncher'">FastLauncher</span>
             <div class="flex justify-center items-center gap-2 pt-1">
-              <div class="text-caption">Discord: @myfavjuzo</div>
+              <div class="text-caption">Discord: @f0rcaj</div>
             </div>
           </div>
           <v-spacer />

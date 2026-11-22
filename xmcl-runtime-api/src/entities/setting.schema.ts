@@ -85,10 +85,18 @@ export const SettingSchema = z.object({
   linuxTitlebar: z.boolean().catch(false),
   /** Enable dedicated GPU optimization */
   enableDedicatedGPUOptimization: z.boolean().catch(true),
+  /** Enable in-game JVM optimization flags (Aikar's flags) */
+  globalOptimization: z.boolean().catch(false),
   /** Window translucency effect */
   windowTranslucent: z.boolean().catch(false),
   /** Global resolution settings for Minecraft */
   globalResolution: GlobalResolutionSchema.catch({}),
+  /** Boot splash animation style shown while the launcher loads */
+  bootSplashStyle: z.enum(['pulse', 'rise', 'spin', 'glow', 'none']).catch('pulse'),
+  /** Boot splash accent color used by the animation */
+  bootSplashColor: z.string().catch('#1565c0'),
+  /** Whether the onboarding tutorial has been shown/finished or skipped */
+  tutorialShown: z.boolean().catch(false),
 })
 
 export type SettingSchema = z.infer<typeof SettingSchema>

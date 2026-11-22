@@ -192,6 +192,7 @@ provide(kCurseforgeInstaller, {
       instancePath: path.value,
       file,
     })
+    return []
   },
 })
 

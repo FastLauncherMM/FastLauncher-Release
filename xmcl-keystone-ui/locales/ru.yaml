@@ -1025,6 +1025,86 @@ multiplayer:
     Не удалось установить соединение. Проверьте, что у обеих сторон совместимые типы NAT.
   natWarning: >-
     Ваш тип NAT может препятствовать прямым соединениям. Попробуйте включить релейный сервер в настройках или попросите друга стать хостом.
+modstore:
+  name: Магазин модов
+  selectInstance: Выберите экземпляр
+cheats:
+  name: Читы
+  subtitle: Клиенты и модификации для улучшения игры
+  stats:
+    title: Статистика использования
+    totalTime: Всего времени
+    today: Сегодня
+    sessions: Сессий
+    last7Days: Последние 7 дней
+    perCheat: Время по читам
+    empty: Пока нет данных. Запусти чита и статистика появится здесь.
+    resetButton: Сбросить статистику
+    confirmReset: Вы уверены, что хотите сбросить всю статистику использования?
+    reset: Статистика
+  categories: Категории
+  all: Все
+  resetFilters: Сбросить
+  launch: Запустить
+  cancel: Отмена
+  launching: Запуск…
+  info: Информация
+  version: Версия
+  state: Состояние
+  ready: Готов к запуску
+  download: Скачать
+  notInstalled: Не установлен
+  retry: Повторить
+  mods: Включённые моды
+  noCheats: Нет доступных читов
+visuals:
+  name: Визуалы
+  subtitle: Визуальные клиенты для улучшения графики и стиля
+  launch: Запустить
+  cancel: Отмена
+  ready: Готов к запуску
+  download: Скачать
+  notInstalled: Не установлен
+  retry: Повторить
+devlog:
+  name: DevLog
+  subtitle: История обновлений лаунчера
+  latest: Последнее обновление
+media:
+  title: Медиа
+  subtitle: Скриншоты
+  screenshotsTitle: 'Скриншоты — {name}'
+  screenshots: Скриншоты
+  openFolder: Открыть папку
+  noScreenshots: Скриншотов пока нет — запустите игру и сделайте их!
+visualMods:
+  button: Добавить моды
+  title: 'Моды для {name}'
+  subtitle: Скачайте моды из встроенного магазина Modrinth или загрузите локальную папку
+  openStore: 'Открыть магазин модов ({version})'
+  storeHint: Магазин откроется с уже выбранным загрузчиком и версией визуала — просто выберите мод и установите.
+  storeTarget: 'Установка в визуал: {name}'
+  installToVisual: Установить
+  installSuccess: 'Установлено: {name}'
+  or: или
+  addFolder: Загрузить папку с модами
+  addFolderHint: Все .jar файлы из выбранной папки будут добавлены.
+  yourMods: 'Ваши моды ({count})'
+  applyHint: Кастомные моды применяются поверх встроенных при каждом запуске.
+cheatMods:
+  button: Добавить моды
+  title: 'Моды для {name}'
+  subtitle: Скачайте моды из встроенного магазина Modrinth или загрузите локальную папку
+  openStore: 'Открыть магазин модов ({version})'
+  storeHint: Магазин откроется с уже выбранным загрузчиком и версией чита — просто выберите мод и установите.
+  storeTarget: 'Установка в чит: {name}'
+  installToCheat: Установить
+  installSuccess: 'Установлено: {name}'
+  or: или
+  addFolder: Загрузить папку с модами
+  addFolderHint: Все .jar файлы из выбранной папки будут добавлены.
+  yourMods: 'Ваши моды ({count})'
+  applyHint: Кастомные моды применяются поверх встроенных при каждом запуске.
 myStuff: Мой контент
 natType:
   blocked: Заблокирован
@@ -1199,6 +1279,12 @@ setting:
   advancedJavaOptions: Расширенные параметры Java
   advancedSettings: Расширенные настройки
   advancedSettingsHint: Опасная зона - сброс или управление данными лаунчера
+  optimization: Оптимизация
+  optimizationTitle: Оптимизация игры
+  optimizationHint: >-
+    Применяет набор оптимизированных JVM-флагов (флаги Aikar), которые значительно
+    повышают производительность Minecraft — меньше лагов, быстрее загрузка чанков,
+    выше FPS.
   aiAgentApiKey: API-ключ AI Agent
   aiAgentApiKeyDescription: Хранится локально на этом устройстве и используется для запросов агента.
   aiAgentEndpoint: Endpoint AI Agent
@@ -1298,6 +1384,16 @@ setting:
   linuxTitlebar: Нативный заголовок окна
   linuxTitlebarDescription: Использовать нативный заголовок окна Linux для лаунчера.
   livePreview: Живой предпросмотр
+  bootSplash: Заставка загрузки
+  bootSplashStyle: Анимация загрузки
+  bootSplashStyleHint: Стиль анимации, показываемой при запуске лаунчера. Изменится при следующем запуске.
+  bootSplashColor: Цвет заставки
+  bootSplashColorHint: Акцентный цвет, используемый в анимации загрузки.
+  bootSplashPulse: Пульс
+  bootSplashRise: Подъём
+  bootSplashSpin: Вращение
+  bootSplashGlow: Свечение
+  bootSplashNone: Без анимации
   location: Место для хранения файлов лаунчера
   manualUpdateHint: >-
     Версия не может быть обновлена автоматически. Пожалуйста, скачайте пусковую установку заново с официального сайта!
@@ -1492,6 +1588,7 @@ instanceStore:
   installSuccess: '{name} успешно установлен!'
   installToInstance: Установить в экземпляр
   name: Магазин модов
+  selectInstance: Выберите экземпляр
 store:
   discover: Обнаружить
   latestMinecraft: Последняя версия Minecraft
@@ -1500,6 +1597,9 @@ store:
   trending: Тенденции
   empty: Модпаки не найдены
   emptyHint: Попробуйте изменить фильтры или поисковый запрос.
+  recentDownloads: Недавние скачивания
+  recentClear: Очистить
+  recentSearch: Найти «{name}» в магазине
 tag:
   create: Создать тег
   createSelected: Создать тег для выбранного
@@ -1538,6 +1638,8 @@ turnRegion:
   liaoning: Ляонин, Китай
   po: Польша
 tutorial:
+  skip: Пропустить
+  done: Понятно!
   feedbackDescription: >-
     Если у вас возникнут какие-либо проблемы, нажмите на эту кнопку, чтобы отправить отзыв!
   hideNewsHeaderDescription: >-
@@ -1657,7 +1759,7 @@ userServices:
     password: Пароль
   offline:
     account: Имя пользователя
-    name: Автономная учётная запись
+    name: Автономная учетная запись
     password: Нет пароля
     uuid: UUID пользователя (необязательно)
 userSkin:

@@ -6,16 +6,13 @@
   >
     <!-- Main hero image (left) -->
     <div class="store-gallery__hero relative col-span-3 max-h-[360px] cursor-pointer overflow-hidden">
-      <transition name="fade-transition" mode="out-in">
-        <v-img
-          v-if="gallery.images[currentImageIndex]"
-          :key="currentImageIndex"
-          cover
-          class="store-gallery__hero-img h-full w-full"
-          :src="gallery.images[currentImageIndex][1]"
-          :lazy-src="gallery.images[currentImageIndex][0]"
-        />
-      </transition>
+      <v-img
+        v-if="gallery.images[currentImageIndex]"
+        cover
+        class="store-gallery__hero-img h-full w-full"
+        :src="gallery.images[currentImageIndex][1]"
+        :lazy-src="gallery.images[currentImageIndex][0]"
+      />
 
       <!-- Bottom gradient + title overlay -->
       <div class="store-gallery__hero-overlay pointer-events-none absolute inset-x-0 bottom-0 p-5">
@@ -237,4 +234,3 @@ const brandColor = computed(() =>
   opacity: 0;
 }
 </style>
-

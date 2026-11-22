@@ -8,16 +8,14 @@ export const pluginAutoUpdate: LauncherAppPlugin = async (app) => {
   if (process.env.XMCL_E2E) {
     return
   }
+  // The launcher updates itself by downloading FastLauncher-setup.exe straight
+  // from the GitHub release and running it (see main/app-update.ts). The old
+  // electron-updater must never download or install anything on its own — its
+  // silent installs on quit are exactly what we want to avoid.
+  autoUpdater.autoDownload = false
+  autoUpdater.autoInstallOnAppQuit = false
   const state = await app.registry.get(kSettings)
-  state.subscribe('autoInstallOnAppQuitSet', (value) => {
-    autoUpdater.autoInstallOnAppQuit = value
-  }).subscribe('allowPrereleaseSet', (value) => {
+  state.subscribe('allowPrereleaseSet', (value) => {
     autoUpdater.allowPrerelease = value
-  }).subscribe('autoDownloadSet', (value) => {
-    autoUpdater.autoDownload = value
-  }).subscribe('config', (config) => {
-    autoUpdater.autoInstallOnAppQuit = config.autoInstallOnAppQuit
-    autoUpdater.allowPrerelease = config.allowPrerelease
-    autoUpdater.autoDownload = config.autoDownload
   })
 }

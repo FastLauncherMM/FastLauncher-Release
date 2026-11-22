@@ -208,6 +208,9 @@ const { notify } = useNotifier()
 const { path: instancePath } = injection(kInstance)
 const { gameVersions, categories, modLoaders: modrinthLoaders } = injection(kModrinthTags)
 const sortByItems = useSortByItems()
+const modService = useService(InstanceModsServiceKey)
+const rpService = useService(InstanceResourcePacksServiceKey)
+const spService = useService(InstanceShaderPacksServiceKey)
 
 const projectType = ref('mod')
 const keyword = ref('')
@@ -336,21 +339,21 @@ async function installVersion() {
   if (!selectedVersion.value || !selectedProjectData.value) return
   installing.value = true
   try {
-    let serviceKey: any
+    let service: any
     switch (projectType.value) {
       case 'mod':
-        serviceKey = InstanceModsServiceKey
+        service = modService
         break
       case 'resourcepack':
-        serviceKey = InstanceResourcePacksServiceKey
+        service = rpService
         break
       case 'shader':
-        serviceKey = InstanceShaderPacksServiceKey
+        service = spService
         break
       default:
         return
     }
-    const { installFromMarket } = useService(serviceKey)
+    const { installFromMarket } = service
     await installFromMarket({
       market: MarketType.Modrinth,
       version: { versionId: selectedVersion.value.id, icon: selectedProjectData.value.iconUrl },
@@ -360,7 +363,7 @@ async function installVersion() {
     dialogOpen.value = false
   } catch (e) {
     console.error('Failed to install:', e)
-    notify({ level: 'error', title: t('instanceStore.installFailed') })
+    notify({ level: 'error', title: t('instanceStore.installFailed'), body: (e as any)?.message || String(e) })
   } finally {
     installing.value = false
   }

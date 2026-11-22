@@ -24,6 +24,15 @@
         class="sidebar-notch__container"
         :style="containerStyles"
       >
+        <!-- News -->
+        <AppSideBarNotchItem
+          data-testid="nav-news"
+          icon="newspaper"
+          :icon-size="iconSize"
+          :tooltip="() => ({ text: 'Новости', direction: tooltipDirection })"
+          to="/news"
+        />
+
         <!-- My Stuff -->
         <AppSideBarNotchItem
           id="my-stuff-button"
@@ -87,6 +96,26 @@
           :tooltip="() => ({ text: t('multiplayer.name'), direction: tooltipDirection })"
           clickable
           @click="goMultiplayer"
+        />
+
+        <div class="sidebar-notch__divider moveable" />
+
+        <!-- Cheats -->
+        <AppSideBarNotchItem
+          data-testid="nav-cheats"
+          icon="diamond"
+          :icon-size="iconSize"
+          :tooltip="() => ({ text: t('cheats.name'), direction: tooltipDirection })"
+          to="/cheats"
+        />
+
+        <!-- Visuals -->
+        <AppSideBarNotchItem
+          data-testid="nav-visuals"
+          icon="palette"
+          :icon-size="iconSize"
+          :tooltip="() => ({ text: t('visuals.name'), direction: tooltipDirection })"
+          to="/visuals"
         />
 
         <div class="sidebar-notch__divider moveable" />
@@ -172,7 +201,7 @@ const containerStyles = computed(() => {
   const styles: any = {
     backgroundColor: sideBarColor.value,
     transform: `scale(${scale.value / 100})`,
-    backdropFilter: blurSidebar.value ? `blur(${blurSidebar.value}px)` : 'none',
+    backdropFilter: blurSidebar.value ? `blur(${blurSidebar.value}px) saturate(150%)` : 'none',
   }
   
   let originX = 'center'
@@ -349,15 +378,15 @@ const instanceItems = computed(() => {
 .sidebar-trigger::after {
   content: '';
   position: absolute;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+  background: rgba(var(--v-theme-primary), 0.34);
+  box-shadow: 0 0 10px rgba(var(--v-theme-primary), 0.2);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Hover state - grow and glow when wrapper is hovered */
 .wrapper--hovered .sidebar-trigger::after {
-  background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  background: rgba(var(--v-theme-primary), 0.72);
+  box-shadow: 0 0 18px rgba(var(--v-theme-primary), 0.5);
 }
 
 .wrapper--hovered .trigger--left::after {
@@ -454,7 +483,7 @@ const instanceItems = computed(() => {
   display: flex;
   align-items: center;
   padding: 8px;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+  transition: transform 0.42s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
 }
 
 /* Hidden state animations */
@@ -504,9 +533,19 @@ const instanceItems = computed(() => {
   align-items: center;
   gap: 3px;
   padding: 8px 6px;
+  overflow: hidden;
+  border: 1px solid rgba(var(--v-theme-on-surface), 0.1);
   border-radius: 20px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(var(--v-theme-primary), 0.13), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 24%);
+  box-shadow:
+    0 24px 60px -32px rgba(0, 0, 0, 0.68),
+    inset 0 1px rgba(255, 255, 255, 0.045);
+  transition:
+    transform 0.38s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.25s ease,
+    box-shadow 0.3s ease;
   pointer-events: auto; /* Re-enable pointer events ONLY for the container */
 }
 
@@ -523,8 +562,8 @@ const instanceItems = computed(() => {
 }
 
 .sidebar-notch__divider {
-  background: currentColor;
-  opacity: 0.12;
+  background: linear-gradient(90deg, transparent, currentColor, transparent);
+  opacity: 0.16;
   border-radius: 1px;
   flex-shrink: 0;
 }
@@ -571,5 +610,21 @@ const instanceItems = computed(() => {
 .sidebar-notch__instances::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+.sidebar-notch__container:hover {
+  border-color: rgba(var(--v-theme-primary), 0.16);
+  box-shadow:
+    0 28px 68px -30px rgba(0, 0, 0, 0.72),
+    0 8px 32px -24px rgba(var(--v-theme-primary), 0.34),
+    inset 0 1px rgba(255, 255, 255, 0.055);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar-notch,
+  .sidebar-notch__container,
+  .sidebar-trigger::after {
+    transition: none;
+  }
 }
 </style>

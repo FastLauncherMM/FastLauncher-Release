@@ -144,13 +144,11 @@
             {{ t('store.trending') }}
           </h2>
           <v-carousel
-            cycle
             height="400"
             hide-delimiter-background
             show-arrows="hover"
             color="white"
             class="rounded-3xl overflow-hidden"
-            interval="6000"
           >
             <template #prev="{ props: btnProps }">
               <v-btn
@@ -208,6 +206,48 @@
               :value="item"
               @click="enter(item.type, item.id)"
             />
+          </div>
+        </section>
+
+        <!-- Recent Downloads -->
+        <section v-if="!keyword && selectedCount === 0 && history.length > 0" class="mb-12" role="region" :aria-labelledby="recentDownloadsHeadingId">
+          <div class="flex items-end justify-between mb-6 gap-2">
+            <h2 :id="recentDownloadsHeadingId" class="text-2xl font-bold flex items-center gap-3">
+              <v-icon color="deep-purple" size="large" aria-hidden="true">history</v-icon>
+              {{ t('store.recentDownloads') }}
+            </h2>
+            <v-btn
+              size="small"
+              variant="text"
+              color="red"
+              prepend-icon="clear"
+              :aria-label="t('shared.cancel')"
+              @click="clearHistory"
+            >
+              {{ t('store.recentClear') }}
+            </v-btn>
+          </div>
+          <div
+            v-roving-tabindex
+            role="group"
+            :aria-labelledby="recentDownloadsHeadingId"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"
+          >
+            <button
+              v-for="entry in history"
+              :key="`${entry.name}-${entry.time}`"
+              type="button"
+              class="surface-card-row rounded-xl flex items-center gap-3 p-3 text-left"
+              :title="t('store.recentSearch', { name: entry.name })"
+              @click="searchHistory(entry.name)"
+            >
+              <v-icon size="small" color="grey" aria-hidden="true">{{ entry.market === 'curseforge' ? 'store' : 'extension' }}</v-icon>
+              <div class="flex-1 min-w-0">
+                <div class="text-sm font-medium truncate">{{ entry.name }}</div>
+                <div class="text-xs text-gray-500 dark:text-gray-400">{{ timeText(entry.time) }}</div>
+              </div>
+              <v-icon size="small" color="grey" aria-hidden="true">search</v-icon>
+            </button>
           </div>
         </section>
 
@@ -302,6 +342,7 @@ import StoreExploreCardModern from '@/components/StoreExploreCardModern.vue'
 import StoreGallery from '@/components/StoreGallery.vue'
 import { kCurseforgeCategories, useCurseforgeCategoryI18n } from '@/composables/curseforge'
 import { useDateString } from '@/composables/date'
+import { useDownloadHistory } from '@/composables/downloadHistory'
 import { kModrinthTags } from '@/composables/modrinth'
 import { useQuery, useQueryNumber, useQueryStringArray } from '@/composables/query'
 import { useSortByItems } from '@/composables/sortBy'
@@ -322,6 +363,7 @@ const arrowColor = computed(() => (isDark.value ? 'white' : 'black'))
 
 const latestMinecraftHeadingId = useId()
 const discoverHeadingId = useId()
+const recentDownloadsHeadingId = useId()
 
 // --- Query State ---
 function ensureQuery(query: Record<string, string | (string | null)[] | null | undefined>) {
@@ -530,6 +572,21 @@ function clearAllFilters() {
 function onClose() {
   query.value = ''
   keyword.value = ''
+}
+
+const { entries: history, clear: clearHistory } = useDownloadHistory()
+
+const timeText = (ts: number) => {
+  try {
+    return new Date(ts).toLocaleString()
+  } catch {
+    return ''
+  }
+}
+
+const searchHistory = (name: string) => {
+  keyword.value = name
+  query.value = name
 }
 
 const hasFilters = computed(() => selectedCount.value > 0 || !!keyword.value)

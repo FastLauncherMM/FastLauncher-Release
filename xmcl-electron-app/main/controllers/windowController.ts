@@ -50,6 +50,12 @@ export const windowController: ControllerPlugin = function (this: ElectronContro
       window.show()
     }
   })
+  ipcMain.handle('toggle-fullscreen', (event) => {
+    const window = BrowserWindow.fromWebContents(event.sender)
+    if (window) {
+      window.setFullScreen(!window.isFullScreen())
+    }
+  })
   ipcMain.handle('write-clipboard', (_, text: string) => {
     clipboard.writeText(text)
   })

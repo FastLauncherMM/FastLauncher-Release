@@ -7,7 +7,7 @@
     class="grid xl:gap-4 gap-1 home-actions"
     :style="{
       'grid-template-columns': `repeat(${
-        isBedrock ? 2 : 3
+        isBedrock ? 3 : 4
       }, minmax(0, 1fr))`,
     }"
   >
@@ -21,6 +21,17 @@
       @click="showLogDialog()"
     >
       <v-icon> subtitles </v-icon>
+    </v-btn>
+
+    <v-btn
+      v-shared-tooltip="() => t('screenshots.gallery')"
+      icon
+      variant="text"
+      density="comfortable"
+      :aria-label="t('screenshots.gallery')"
+      @click="openScreenshots"
+    >
+      <v-icon> photo_library </v-icon>
     </v-btn>
 
     <v-btn
@@ -66,10 +77,16 @@ const { isValidating } = injection(kInstances);
 const isBedrock = computed(() => isBedrockInstance(instance.value));
 const { openDirectory } = useService(BaseServiceKey);
 const { show: showLogDialog } = useDialog("log");
+const { show: showScreenshots } = useDialog<{ title: string; kind: string; id: string }>("screenshots");
 const { t } = useI18n();
 
 function showInstanceFolder() {
   openDirectory(path.value);
+}
+
+function openScreenshots() {
+  const name = instance.value?.name || path.value.split(/[\\/]/).filter(Boolean).pop() || "Minecraft";
+  showScreenshots({ title: name, kind: "instance", id: path.value });
 }
 </script>
 <style scoped>

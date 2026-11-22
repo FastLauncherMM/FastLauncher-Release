@@ -20,6 +20,12 @@
         :description="t('instanceSetting.disableElyByAuthlibDescription')" />
     </SettingCard>
 
+    <!-- In-Game Optimization Settings Card -->
+    <SettingCard :title="t('setting.optimization')" icon="speed">
+      <SettingItemCheckbox v-model="optimization" :title="t('setting.optimizationTitle')"
+        :description="t('setting.optimizationHint')" />
+    </SettingCard>
+
     <!-- Java Memory Settings Card -->
     <SettingCard :title="t('java.memory')" icon="memory">
       <div class="d-flex align-center mb-3">
@@ -127,6 +133,7 @@ const {
   globalFastLaunch,
   globalHideLauncher,
   globalShowLog,
+  globalOptimization,
   globalDisableAuthlibInjector,
   globalDisableElyByAuthlib,
   globalPrependCommand,
@@ -147,6 +154,7 @@ const mcOptions = ref(globalMcOptions.value.join(' '))
 const fastLaunch = ref(globalFastLaunch.value)
 const hideLauncher = ref(globalHideLauncher.value)
 const showLog = ref(globalShowLog.value)
+const optimization = ref(globalOptimization.value)
 const disableAuthlibInjector = ref(globalDisableAuthlibInjector.value)
 const disableElyByAuthlib = ref(globalDisableElyByAuthlib.value)
 const env = ref({ ...globalEnv.value })
@@ -182,6 +190,7 @@ onMounted(() => {
   fastLaunch.value = globalFastLaunch.value
   hideLauncher.value = globalHideLauncher.value
   showLog.value = globalShowLog.value
+  optimization.value = globalOptimization.value
   disableAuthlibInjector.value = globalDisableAuthlibInjector.value
   disableElyByAuthlib.value = globalDisableElyByAuthlib.value
   prependCommand.value = globalPrependCommand.value
@@ -204,6 +213,7 @@ function save() {
     globalFastLaunch: fastLaunch.value,
     globalHideLauncher: hideLauncher.value,
     globalShowLog: showLog.value,
+    globalOptimization: optimization.value,
     globalDisableAuthlibInjector: disableAuthlibInjector.value,
     globalDisableElyByAuthlib: disableElyByAuthlib.value,
     globalPrependCommand: prependCommand.value,

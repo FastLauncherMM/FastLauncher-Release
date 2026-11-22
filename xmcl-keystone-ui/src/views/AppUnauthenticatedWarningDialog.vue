@@ -132,5 +132,5 @@ const onLogin = () => {
   userMenu.show('login')
 }
 
-const openDiscord = () => window.open('https://discord.com/users/myfavjuzo', 'browser')
+const openDiscord = () => window.open('https://discord.com/users/f0rcaj', 'browser')
 </script>

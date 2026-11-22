@@ -20,14 +20,20 @@
       }"
     >
       <div
-        class="align-center flex max-h-20 flex-1 flex-grow-0 items-baseline pl-6 pr-2 gap-1"
+        class="align-center flex max-h-20 flex-1 flex-grow-0 items-center pl-6 pr-2 gap-2"
       >
-        <span
-          :style="{
-            fontSize: headerFontSize
-          }"
-          class="home-title overflow-hidden overflow-ellipsis whitespace-nowrap transition-all"
-        >{{ name || `Minecraft ${version.minecraft}` }}</span>
+        <div class="home-heading min-w-0">
+          <span
+            :style="{
+              fontSize: headerFontSize
+            }"
+            class="home-title overflow-hidden overflow-ellipsis whitespace-nowrap transition-all"
+          >{{ name || `Minecraft ${version.minecraft}` }}</span>
+          <span v-if="version.minecraft" class="home-version-chip">
+            <i aria-hidden="true" />
+            Minecraft {{ version.minecraft }}
+          </span>
+        </div>
         <router-view name="route" />
         <div class="flex-grow" />
         <router-view name="actions" v-slot="{ Component }">
@@ -135,7 +141,59 @@ const overcount = ref(0)
 <style scoped>
 
 .header {
-  padding-top: 2.5rem;
+  padding-top: 0.75rem;
+}
+
+.header-content {
+  width: calc(100% - 1rem);
+  overflow: hidden;
+  border: 1px solid rgba(var(--v-theme-on-surface), 0.08);
+  border-radius: 19px;
+  background:
+    linear-gradient(110deg, rgba(var(--v-theme-surface), 0.66), rgba(var(--v-theme-surface), 0.38));
+  box-shadow:
+    0 18px 48px -34px rgba(0, 0, 0, 0.65),
+    inset 0 1px rgba(255, 255, 255, 0.035);
+  backdrop-filter: blur(var(--app-bar-blur, 18px)) saturate(145%);
+  -webkit-backdrop-filter: blur(var(--app-bar-blur, 18px)) saturate(145%);
+  animation: home-header-enter 0.58s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.home-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.home-title {
+  color: rgb(var(--v-theme-on-surface));
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+  text-shadow: 0 8px 28px rgba(0, 0, 0, 0.26);
+}
+
+.home-version-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 4px 8px;
+  border: 1px solid rgba(var(--v-theme-primary), 0.2);
+  border-radius: 9999px;
+  background: rgba(var(--v-theme-primary), 0.08);
+  color: rgba(var(--v-theme-on-surface), 0.68);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.home-version-chip i {
+  width: 5px;
+  height: 5px;
+  border-radius: 9999px;
+  background: rgb(var(--v-theme-primary));
+  box-shadow: 0 0 8px rgba(var(--v-theme-primary), 0.72);
 }
 
 /*
@@ -165,8 +223,25 @@ const overcount = ref(0)
 }
 
 .header.compact {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.5rem;
+}
+
+@keyframes home-header-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 980px) {
+  .home-version-chip {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-content {
+    animation: none;
+  }
 }
 
 </style>

@@ -8,7 +8,7 @@ const manifest: InstalledAppManifest = {
   name: 'KeyStone Launcher',
   description: 'The default launcher UI',
   url: HAS_DEV_SERVER ? defaultUrl : `http://${HOST}/index.html`,
-  backgroundColor: '0x424242',
+  backgroundColor: '#111318',
   minWidth: 800,
   minHeight: 400,
   vibrancy: false,

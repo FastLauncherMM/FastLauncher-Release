@@ -142,6 +142,7 @@ export const launchInstanceCommand = defineCommand({
         globalEnv: settings.globalEnv,
         globalVmOptions: settings.globalVmOptions,
         globalMcOptions: settings.globalMcOptions,
+        globalOptimization: settings.globalOptimization,
         globalPrependCommand: settings.globalPrependCommand,
         globalAssignMemory: settings.globalAssignMemory,
         globalMinMemory: settings.globalMinMemory,

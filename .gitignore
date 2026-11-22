@@ -12,6 +12,7 @@ thumbs.db
 *.log
 *.bin
 /temp
+/.cache/
 xmcl-electron-app/build/appx
 .env
 
@@ -28,6 +29,9 @@ package-lock.json
 !/docs/tutorial/
 
 # e2e artifacts
+
+# Zenith offline cheat client
+/zenith/
 e2e/artifacts/
 e2e/playwright-report/
 e2e/test-results/

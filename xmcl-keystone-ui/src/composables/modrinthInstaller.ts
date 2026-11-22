@@ -1,3 +1,4 @@
+import { useDownloadHistory } from '@/composables/downloadHistory'
 import { useInstanceModLoaderDefault } from '@/composables/instanceModLoaderDefault'
 import { ProjectFile } from '@/util/search'
 import { RuntimeVersions } from '@xmcl/instance'
@@ -18,12 +19,18 @@ export function useModrinthInstaller(
   installDefaultModLoader = useInstanceModLoaderDefault(),
 ) {
   const { getInstanceModpackMetadata, setInstanceModpackMetadata } = useService(InstanceServiceKey)
+  const { add: addHistory } = useDownloadHistory()
 
   function install(version: { versionId: string; icon?: string } | { versionId: string; icon?: string }[], instancePath?: string) {
     return installFromMarket({
       market: MarketType.Modrinth,
       version,
       instancePath: instancePath || path.value,
+    }).then((paths: string[]) => {
+      for (const p of paths) {
+        addHistory(p, 'modrinth')
+      }
+      return paths
     })
   }
 

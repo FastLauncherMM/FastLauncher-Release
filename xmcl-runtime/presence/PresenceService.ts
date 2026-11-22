@@ -105,7 +105,6 @@ export class PresenceService extends AbstractService implements IPresenceService
     if (!this.discord.isConnected || !this.settings.discordPresence) return
 
     const param: SetActivity = {
-      name: 'FastLauncher',
       largeImageKey: 'flauncher',
       largeImageText: 'FastLauncher',
       startTimestamp: Date.now(),
@@ -118,7 +117,16 @@ export class PresenceService extends AbstractService implements IPresenceService
     })
   }
 
-  async setActivity(activity: string, options?: { username?: string; server?: string }): Promise<void> {
+  async clearActivity(): Promise<void> {
+    if (!this.discord.isConnected) return
+    try {
+      await this.discord.user?.clearActivity()
+    } catch (e) {
+      this.warn('Fail to clear discord presence. %o', e)
+    }
+  }
+
+  async setActivity(activity: string, options?: { username?: string; server?: string; name?: string }): Promise<void> {
     if (!this.settings.discordPresence) {
       return
     }
@@ -134,9 +142,8 @@ export class PresenceService extends AbstractService implements IPresenceService
       }
     }
     const param = this.current
-    param.name = 'FastLauncher'
     param.largeImageKey = 'flauncher'
-    param.largeImageText = 'FastLauncher'
+    param.largeImageText = options?.name || 'FastLauncher'
     param.startTimestamp = Date.now()
 
     if (options?.username) {

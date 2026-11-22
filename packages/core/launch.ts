@@ -132,7 +132,7 @@ export interface LaunchOption {
   extraMCArgs?: string[]
   /**
    * Skip adding the game version jar to the classpath.
-   * Use this when a custom main class (e.g. Viper) provides its own game classes.
+   * Use this when a custom main class provides its own game classes.
    */
   skipGameJar?: boolean
   /**

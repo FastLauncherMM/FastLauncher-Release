@@ -180,7 +180,7 @@ export default defineComponent({
 
     provide(kImageDialog, useImageDialog())
     provide(kSupportedAuthorityMetadata, useSupportedAuthority())
-    provide(kTutorial, useTutorialModel())
+    provide(kTutorial, useTutorialModel(settings))
     provide(kModrinthTags, useModrinthTags())
     provide(kCurseforgeCategories, useCurseforgeCategories())
     provide(kModpackExport, useModpackExport())

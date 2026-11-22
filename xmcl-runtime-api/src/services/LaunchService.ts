@@ -147,7 +147,15 @@ export interface LaunchOptions {
    */
   resolution?: { width?: number; height?: number; fullscreen?: boolean }
 
+  /**
+   * Skip adding the game jar to the classpath.
+   */
+  skipGameJar?: boolean
 
+  /**
+   * Extra classpath entries to append after the standard classpath.
+   */
+  extraClassPaths?: string[]
 }
 
 export interface GameProcess {

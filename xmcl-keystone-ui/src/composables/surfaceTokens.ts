@@ -15,38 +15,38 @@ import { InjectionKey, Ref, ref, watchEffect } from 'vue'
 
 // ── Defaults ──────────────────────────────────────────────────────────
 
-/** Border radius (px). Matches Vuetify's `rounded="xl"`. */
-export const DEFAULT_SURFACE_RADIUS = 16
-/** Dialog shell radius (px). Keeps legacy 32px look at factor=1. */
-export const DEFAULT_SURFACE_DIALOG_RADIUS = 32
+/** Border radius (px). Shared glass surfaces use a soft, modern silhouette. */
+export const DEFAULT_SURFACE_RADIUS = 18
+/** Dialog shell radius (px). */
+export const DEFAULT_SURFACE_DIALOG_RADIUS = 26
 
 /** Vuetify `rounded` prop value equivalent to `DEFAULT_SURFACE_RADIUS`. */
 export const DEFAULT_SURFACE_RADIUS_PROP = 'xl' as const
 
 export const DEFAULT_SURFACE_BORDER = '1px solid rgba(var(--v-theme-on-surface), 0.10)'
-export const DEFAULT_SURFACE_SHADOW = '0 12px 40px -8px rgba(0, 0, 0, 0.35)'
+export const DEFAULT_SURFACE_SHADOW = '0 24px 70px -22px rgba(0, 0, 0, 0.58), 0 8px 24px -14px rgba(0, 0, 0, 0.34), inset 0 1px rgba(255, 255, 255, 0.04)'
 
 /** Frosted-glass background shared by dialogs, menus and popovers. */
-export const DEFAULT_SURFACE_BG = 'rgba(var(--v-theme-surface), 0.82)'
-export const DEFAULT_SURFACE_BLUR = 48
+export const DEFAULT_SURFACE_BG = 'rgba(var(--v-theme-surface), 0.78)'
+export const DEFAULT_SURFACE_BLUR = 32
 
 /** Menu-only: inner padding and list-item radius. */
 export const DEFAULT_SURFACE_MENU_PADDING = 6
-export const DEFAULT_SURFACE_MENU_ITEM_RADIUS = 10
+export const DEFAULT_SURFACE_MENU_ITEM_RADIUS = 12
 /** Shared tooltip bubble radius. */
-export const DEFAULT_SURFACE_TOOLTIP_RADIUS = 10
+export const DEFAULT_SURFACE_TOOLTIP_RADIUS = 12
 /** Pill button radius. Keep large by default to preserve capsule shape. */
 export const DEFAULT_SURFACE_PILL_RADIUS = 9999
-/** Default button radius (matches previous Vuetify VBtn rounded=4). */
-export const DEFAULT_SURFACE_BUTTON_RADIUS = 4
+/** Default button radius. Pill and circle buttons still keep their explicit shapes. */
+export const DEFAULT_SURFACE_BUTTON_RADIUS = 12
 
 // Cards — three intentional tiers. Apply via the `.surface-card`,
 // `.surface-card-subsection`, `.surface-card-item` utility classes
 // (defined in common.css) so existing components that deliberately
 // pick a different radius keep working.
-export const DEFAULT_CARD_RADIUS = 16            // tier 1: HomeCard, SettingCard
-export const DEFAULT_CARD_SUBSECTION_RADIUS = 12 // tier 2: nested sections
-export const DEFAULT_CARD_ITEM_RADIUS = 10       // tier 3: list / compact tiles
+export const DEFAULT_CARD_RADIUS = 20            // tier 1: HomeCard, SettingCard
+export const DEFAULT_CARD_SUBSECTION_RADIUS = 18 // tier 2: nested sections
+export const DEFAULT_CARD_ITEM_RADIUS = 12       // tier 3: list / compact tiles
 
 /** Vuetify `elevation` prop value for subsection cards (SettingCard etc.). */
 export const DEFAULT_CARD_SUBSECTION_ELEVATION = 0
@@ -56,7 +56,7 @@ export const DEFAULT_CARD_SUBSECTION_ELEVATION = 0
 export const DEFAULT_CARD_SUBSECTION_BG = 'rgb(var(--v-theme-surface))'
 /** Subsection card border — matches Vuetify's default `border` prop
  * (FilterCard's reference look). */
-export const DEFAULT_CARD_SUBSECTION_BORDER = '1px solid rgba(var(--v-border-color), var(--v-border-opacity))'
+export const DEFAULT_CARD_SUBSECTION_BORDER = '1px solid rgba(var(--v-theme-on-surface), 0.09)'
 
 // Row card — list rows (Me instance, Friends rows). Same border-swap
 // interaction as `.surface-card-clickable` but with the small item
@@ -66,7 +66,7 @@ export const DEFAULT_CARD_ROW_BORDER = '1px solid rgba(var(--v-theme-on-surface)
 export const DEFAULT_CARD_ROW_BORDER_HOVER = '1px solid rgba(var(--v-theme-primary), 0.45)'
 /** Scale applied while the row is being pressed (1 = none). */
 export const DEFAULT_CARD_ROW_ACTIVE_SCALE = 0.98
-export const DEFAULT_CARD_ROW_TRANSITION = 'border-color 0.2s ease, background-color 0.15s ease, transform 0.1s ease'
+export const DEFAULT_CARD_ROW_TRANSITION = 'border-color 0.25s ease, background-color 0.2s ease, transform 0.2s cubic-bezier(0.16, 1, 0.3, 1)'
 
 /** Default card background — `transparent` lets Vuetify's surface color show through. */
 export const DEFAULT_CARD_BG = 'transparent'
@@ -75,7 +75,7 @@ export const DEFAULT_CARD_BORDER = 'none'
 
 // Info / frosted panels — the recurring "rounded-2xl border border-white/10
 // bg-white/5" pattern used inside dialogs (Feedback / Export / Friends).
-export const DEFAULT_PANEL_RADIUS = 24
+export const DEFAULT_PANEL_RADIUS = 22
 export const DEFAULT_PANEL_BG = 'rgba(var(--v-theme-on-surface), 0.04)'
 export const DEFAULT_PANEL_BORDER = '1px solid rgba(var(--v-theme-on-surface), 0.10)'
 
@@ -91,14 +91,14 @@ export const DEFAULT_CARD_PROMINENT_RADIUS = 24
 // UnoCSS atomics if a specific tile needs to deviate.
 export const DEFAULT_CARD_CLICKABLE_RADIUS = 24
 export const DEFAULT_CARD_CLICKABLE_BG = 'rgb(var(--v-theme-surface))'
-export const DEFAULT_CARD_CLICKABLE_BORDER = '1px solid rgba(var(--v-theme-on-surface), 0.06)'
-export const DEFAULT_CARD_CLICKABLE_BORDER_HOVER = '1px solid rgba(var(--v-theme-primary), 0.35)'
-export const DEFAULT_CARD_CLICKABLE_SHADOW_HOVER = '0 12px 24px -8px rgba(0, 0, 0, 0.25), 0 4px 12px -4px rgba(0, 0, 0, 0.15)'
+export const DEFAULT_CARD_CLICKABLE_BORDER = '1px solid rgba(var(--v-theme-on-surface), 0.08)'
+export const DEFAULT_CARD_CLICKABLE_BORDER_HOVER = '1px solid rgba(var(--v-theme-primary), 0.42)'
+export const DEFAULT_CARD_CLICKABLE_SHADOW_HOVER = '0 22px 42px -20px rgba(0, 0, 0, 0.52), 0 8px 24px -16px rgba(var(--v-theme-primary), 0.42)'
 /** Hover lift in px (negative = upward). */
-export const DEFAULT_CARD_CLICKABLE_LIFT = -4
+export const DEFAULT_CARD_CLICKABLE_LIFT = -3
 /** Scale applied while the card is being pressed (1 = none). */
 export const DEFAULT_CARD_CLICKABLE_ACTIVE_SCALE = 0.98
-export const DEFAULT_CARD_CLICKABLE_TRANSITION = 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+export const DEFAULT_CARD_CLICKABLE_TRANSITION = 'transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease'
 
 
 // ── Composable ────────────────────────────────────────────────────────

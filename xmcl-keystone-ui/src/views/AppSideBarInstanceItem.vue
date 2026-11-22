@@ -171,12 +171,15 @@ const { dragging, overState, onDragEnd, onDragEnter, onDragLeave, onDragOver, on
   justify-content: center;
   width: 48px;
   height: 48px;
-  border-radius: 50%;
+  border: 1px solid rgba(var(--v-theme-on-surface), 0.06);
+  border-radius: 15px;
   overflow: hidden;
   background-color: transparent;
   transition:
-    border-radius 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.22s ease,
+    border-radius 0.22s ease,
+    box-shadow 0.28s ease;
   /* The avatar is purely decorative during drag operations - the wrapping
      div is the only drop target. */
   pointer-events: none;
@@ -185,11 +188,20 @@ const { dragging, overState, onDragEnd, onDragEnter, onDragLeave, onDragOver, on
 /* But still allow click + context menu when not dragging */
 .sidebar-instance:hover .sidebar-instance__content,
 .sidebar-instance--active .sidebar-instance__content {
-  border-radius: 16px;
+  border-radius: 15px;
+}
+
+.sidebar-instance:hover .sidebar-instance__content {
+  border-color: rgba(var(--v-theme-primary), 0.28);
+  box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.65);
+  transform: translateY(-2px) scale(1.035);
 }
 
 .sidebar-instance--active .sidebar-instance__content {
-  box-shadow: 0 0 0 2px var(--color-primary);
+  border-color: rgba(var(--v-theme-primary), 0.72);
+  box-shadow:
+    0 0 0 2px rgba(var(--v-theme-primary), 0.2),
+    0 8px 24px -10px rgba(var(--v-theme-primary), 0.62);
 }
 
 .sidebar-instance__image {
@@ -207,7 +219,8 @@ const { dragging, overState, onDragEnd, onDragEnter, onDragLeave, onDragOver, on
   width: 4px;
   height: 0;
   border-radius: 0 4px 4px 0;
-  background-color: white;
+  background-color: rgb(var(--v-theme-primary));
+  box-shadow: 0 0 10px rgba(var(--v-theme-primary), 0.58);
   transform: translateY(-50%);
   transition: height 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0.85;
@@ -220,5 +233,12 @@ const { dragging, overState, onDragEnd, onDragEnter, onDragLeave, onDragOver, on
 
 .sidebar-instance--active .sidebar-instance__indicator {
   height: 36px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar-instance__content,
+  .sidebar-instance__indicator {
+    transition: none;
+  }
 }
 </style>

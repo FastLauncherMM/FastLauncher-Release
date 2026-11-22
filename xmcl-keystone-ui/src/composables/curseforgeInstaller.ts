@@ -1,3 +1,4 @@
+import { useDownloadHistory } from '@/composables/downloadHistory'
 import { useInstanceModLoaderDefault } from '@/composables/instanceModLoaderDefault'
 import { isNoModLoader } from '@/util/isNoModloader'
 import { ProjectFile } from '@/util/search'
@@ -19,12 +20,18 @@ export function useCurseforgeInstaller(
   installDefaultModLoader = useInstanceModLoaderDefault(),
 ) {
   const { getInstanceModpackMetadata, setInstanceModpackMetadata } = useService(InstanceServiceKey)
+  const { add: addHistory } = useDownloadHistory()
 
   const install = async (file: { fileId: number; icon?: string } | { fileId: number; icon?: string }[]) => {
     return installResource({
       market: MarketType.CurseForge,
       file,
       instancePath: path.value,
+    }).then((paths: string[]) => {
+      for (const p of paths) {
+        addHistory(p, 'curseforge')
+      }
+      return paths
     })
   }
 

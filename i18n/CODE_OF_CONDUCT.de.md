@@ -60,7 +60,7 @@ Vertreter bei einer Online- oder Offline-Veranstaltung.
 
 Fälle von missbräuchlichem, belästigendem oder anderweitig inakzeptablem Verhalten können
 den für die Durchsetzung verantwortlichen Gemeinschaftsleitern gemeldet werden unter
-Discord: @myfavjuzo.
+Discord: @f0rcaj.
 Alle Beschwerden werden umgehend und fair geprüft und untersucht.
 
 Alle Gemeinschaftsleiter sind verpflichtet, die Privatsphäre und Sicherheit des

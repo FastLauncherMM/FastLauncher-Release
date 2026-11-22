@@ -280,6 +280,12 @@ export interface InstallAssetsForVersionOptions {
 export interface InstallDependenciesOptions {
   version: string
   side?: 'client' | 'server'
+  /**
+   * Launch-time quick check: compare file sizes before hashing, so an
+   * already-installed version does not re-hash every library. Corrupted or
+   * missing files (any size mismatch) are still re-downloaded.
+   */
+  quick?: boolean
 }
 
 export interface ReinstallOptions {

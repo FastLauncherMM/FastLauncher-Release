@@ -1,4 +1,4 @@
-import type { GameProfile } from '@xmcl/user'
+﻿import type { GameProfile } from '@xmcl/user'
 import { Exception } from '../entities/exception'
 import type { GameProfileAndTexture, UserProfile } from '../entities/user.schema'
 import type { AuthlibInjectorApiProfile } from '../entities/yggdrasil.schema'
@@ -279,7 +279,7 @@ export type UserExceptions = {
   type: 'userLoginMinecraftByXboxFailed'
   /** HTTP status code from /authentication/login_with_xbox, if available. */
   status?: number
-  /** Raw response body (truncated by the catch site) — useful when debugging. */
+  /** Raw response body (truncated by the catch site) â€” useful when debugging. */
   statusBody?: string
   /** Whether the failure was a transient HTTP code retried by the client. */
   retryable?: boolean

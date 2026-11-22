@@ -1,7 +1,8 @@
 import { ServiceKey } from './Service'
 
 export interface PresenceService {
-  setActivity(activity: string, options?: { username?: string; server?: string }): Promise<void>
+  setActivity(activity: string, options?: { username?: string; server?: string; name?: string }): Promise<void>
+  clearActivity(): Promise<void>
 }
 
 export const PresenceServiceKey: ServiceKey<PresenceService> = 'PresenceService'

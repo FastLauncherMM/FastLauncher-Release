@@ -57,7 +57,7 @@ function onClick(event: MouseEvent) {
   padding: 0;
   border: 0;
   background: transparent;
-  margin: 4px auto;
+  margin: 3px auto;
   flex-shrink: 0;
   text-decoration: none;
   color: inherit;
@@ -71,12 +71,15 @@ function onClick(event: MouseEvent) {
   justify-content: center;
   width: 48px;
   height: 48px;
-  border-radius: 50%;
-  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background: rgba(var(--v-theme-on-surface), 0.025);
   transition:
-    border-radius 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.22s ease,
+    background-color 0.22s ease,
+    box-shadow 0.28s ease,
+    color 0.2s ease;
   overflow: hidden;
   cursor: default;
 }
@@ -86,26 +89,39 @@ function onClick(event: MouseEvent) {
 }
 
 .sidebar-item--clickable:hover .sidebar-item__content {
-  border-radius: 16px;
-  background-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(var(--v-theme-primary), 0.2);
+  border-radius: 15px;
+  background: rgba(var(--v-theme-primary), 0.1);
+  color: rgb(var(--v-theme-primary));
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.04);
+  transform: translateY(-2px) scale(1.035);
 }
 
 .sidebar-item--clickable.sidebar-item--colored:hover .sidebar-item__content {
-  background-color: var(--sidebar-item-color);
+  background: color-mix(in srgb, var(--sidebar-item-color) 86%, transparent);
   color: white;
 }
 
 .sidebar-item--active .sidebar-item__content,
 .sidebar-item.router-link-active .sidebar-item__content {
-  border-radius: 16px;
-  background-color: var(--sidebar-item-color);
-  color: white;
+  border-color: color-mix(in srgb, var(--sidebar-item-color) 78%, white);
+  border-radius: 15px;
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--sidebar-item-color) 88%, white 10%), var(--sidebar-item-color));
+  color: rgb(var(--v-theme-on-primary));
+  box-shadow:
+    0 8px 22px -10px color-mix(in srgb, var(--sidebar-item-color) 72%, transparent),
+    inset 0 1px rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-item__icon {
   position: relative;
   z-index: 1;
-  transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.2s ease, transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sidebar-item--clickable:hover .sidebar-item__icon {
+  transform: scale(1.08);
 }
 
 /* Discord-style left pill indicator */
@@ -116,7 +132,8 @@ function onClick(event: MouseEvent) {
   width: 4px;
   height: 0;
   border-radius: 0 4px 4px 0;
-  background-color: white;
+  background-color: rgb(var(--v-theme-primary));
+  box-shadow: 0 0 10px rgba(var(--v-theme-primary), 0.6);
   transform: translateY(-50%);
   transition:
     height 0.2s cubic-bezier(0.4, 0, 0.2, 1),
@@ -132,5 +149,13 @@ function onClick(event: MouseEvent) {
 .sidebar-item--active .sidebar-item__indicator,
 .sidebar-item.router-link-active .sidebar-item__indicator {
   height: 36px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar-item__content,
+  .sidebar-item__icon,
+  .sidebar-item__indicator {
+    transition: none;
+  }
 }
 </style>

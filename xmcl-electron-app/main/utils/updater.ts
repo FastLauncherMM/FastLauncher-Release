@@ -18,7 +18,7 @@ import { app, shell } from 'electron'
 import * as updater from 'electron-updater'
 import { AppUpdater, CancellationToken, UpdaterSignal } from 'electron-updater'
 import { createReadStream, createWriteStream } from 'fs'
-import { readFile, rename as renameAsync, unlink as unlinkAsync, writeFile } from 'fs-extra'
+import { readFile, remove, rename as renameAsync, unlink as unlinkAsync, writeFile } from 'fs-extra'
 import { closeSync, existsSync, open, rename, unlink } from 'original-fs'
 import { platform } from 'os'
 import { basename, dirname, join } from 'path'
@@ -31,8 +31,6 @@ import { kSettings } from '~/settings'
 import { checksum } from '~/util/fs'
 import ElectronLauncherApp from '../ElectronLauncherApp'
 import { ensureElevateExe } from './elevate'
-
-const kPatched = Symbol('Patched')
 
 /**
  * Only download asar file update.
@@ -153,6 +151,8 @@ async function getUpdateAsarViaBatArgs(
   appDataPath: string,
   elevatePath?: string,
 ): Promise<string[]> {
+  const exeName = basename(process.argv[0] || 'FastLauncher.exe')
+
   const psPath = join(appDataPath, 'AutoUpdate.bat')
   await writeFile(
     psPath,
@@ -160,9 +160,9 @@ async function getUpdateAsarViaBatArgs(
       '@echo off',
       'chcp 65001',
       '%WinDir%\\System32\\timeout.exe 2',
-      `taskkill /f /im "${basename(process.argv[0])}"`,
+      `taskkill /f /im "${exeName}"`,
       `copy /Y "${updateAsarPath}" "${appAsarPath}"`,
-      `start /b "" /d "${process.cwd()}" ${process.argv.map((s) => `"${s}"`).join(' ')}`,
+      `start "" "${appAsarPath}"`,
     ].join('\r\n'),
   )
 
@@ -179,27 +179,6 @@ async function downloadFullUpdate(
     abortSignal?: AbortSignal
   },
 ): Promise<void> {
-  const gfw = await app.registry.get(kGFW)
-
-  if (gfw.inside) {
-    // @ts-ignore
-    const executor = appUpdater.httpExecutor as any
-    if (!(kPatched in executor)) {
-      const createRequest = executor.createRequest.bind(executor)
-      Object.assign(executor, {
-        [kPatched]: true,
-        createRequest: (options: any, callback: any) => {
-          if (gfw.inside) {
-            options.hostname = 'files.0xc.cn'
-            options.pathname = `/Soft_Mirrors/github-release/FastLauncherMM/FastLauncher-Release/LatestRelease/${basename(options.pathname)}`
-            app.emit('download-cdn', 'electron', basename(options.pathname))
-          }
-          return createRequest(options, callback)
-        },
-      })
-    }
-  }
-
   const tracker: ProgressTracker = {
     progress: 0,
     total: 0,
@@ -222,6 +201,48 @@ async function downloadFullUpdate(
     cancellationToken.cancel()
   })
   await appUpdater.downloadUpdate(cancellationToken)
+}
+
+/**
+ * electron-updater can fail intermittently on large downloads (GitHub resets /
+ * byte-range throttling), which surfaces as "the update only installs after a
+ * few tries". Retry a few times and clear the partial/corrupt cache between
+ * attempts so the retry starts fresh instead of resuming a broken file.
+ */
+async function downloadFullUpdateWithRetry(
+  app: ElectronLauncherApp,
+  appUpdater: AppUpdater,
+  options?: {
+    tracker?: Tracker<DownloadUpdateTrackerEvents>
+    abortSignal?: AbortSignal
+  },
+): Promise<void> {
+  const maxAttempts = 4
+  let lastError: unknown
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      await downloadFullUpdate(app, appUpdater, options)
+      return
+    } catch (e) {
+      lastError = e
+      const msg = e instanceof Error ? e.message : String(e)
+      if (e instanceof Error && msg === 'aborted') return
+      app.getLogger('ElectronUpdater')?.warn?.(`Update download attempt ${attempt}/${maxAttempts} failed: ${msg}`)
+      // Clear the electron-updater cache so the next attempt starts fresh.
+      try {
+        const baseCache = (appUpdater as any)?.app?.baseCachePath as string | undefined
+        if (baseCache && existsSync(baseCache)) {
+          await remove(baseCache)
+        }
+      } catch {
+        // cleaning the cache is best-effort
+      }
+      if (attempt < maxAttempts) {
+        await setTimeout(1200 * attempt)
+      }
+    }
+  }
+  throw lastError
 }
 
 function isSameVersion(a: string, b: string) {
@@ -311,32 +332,50 @@ export class ElectronUpdater implements LauncherAppUpdater {
     const autoUpdater = updater.autoUpdater
 
     this.logger.log(`Check update via ${autoUpdater.getFeedURL()}`)
-    const info = await autoUpdater.checkForUpdates()
-    if (!info) throw new Error('No update info found')
+    // Retry transient network failures (GitHub can throttle / reset the feed
+    // request, which made the update only succeed on the 2nd-4th manual try).
+    const maxAttempts = 3
+    let lastError: unknown
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        const info = await autoUpdater.checkForUpdates()
+        if (!info) throw new Error('No update info found')
 
-    const files = info.updateInfo.files.map((f) => ({ name: basename(f.url), url: f.url }))
-    const release: ReleaseInfo = {
-      name: info.updateInfo.version,
-      body: info.updateInfo.releaseNotes as string,
-      date: info.updateInfo.releaseDate,
-      files,
-      newUpdate: !isSameVersion(info.updateInfo.version, this.app.version),
-      operation: ElectronUpdateOperation.AutoUpdater,
+        const files = info.updateInfo.files.map((f) => ({ name: basename(f.url), url: f.url }))
+        const release: ReleaseInfo = {
+          name: info.updateInfo.version,
+          body: info.updateInfo.releaseNotes as string,
+          date: info.updateInfo.releaseDate,
+          files,
+          newUpdate: !isSameVersion(info.updateInfo.version, this.app.version),
+          operation: ElectronUpdateOperation.AutoUpdater,
+        }
+
+        return release
+      } catch (e) {
+        lastError = e
+        const msg = e instanceof Error ? e.message : String(e)
+        if (msg === 'No update info found') throw e
+        this.logger.warn(`Update check attempt ${attempt}/${maxAttempts} failed: ${msg}`)
+        if (attempt < maxAttempts) {
+          await setTimeout(1000 * attempt)
+        }
+      }
     }
-
-    return release
+    throw lastError
   }
 
   private async quitAndInstallAsar() {
     const appAsarPath = join(dirname(__dirname), 'app.asar')
-    const updateAsarPath = join(this.app.appDataPath, 'pending_update')
+    const appDataPath = this.app.appDataPath
+    if (!appDataPath) {
+      throw new Error('Cannot update: appDataPath is not set')
+    }
+    const updateAsarPath = join(appDataPath, 'pending_update')
 
     this.logger.log(`Install asar on ${this.app.platform.os} ${appAsarPath}`)
     if (this.app.platform.os === 'windows') {
-      const elevatePath = await ensureElevateExe(this.app.appDataPath)
-
-      const appAsarPath = join(dirname(__dirname), 'app.asar')
-      const updateAsarPath = join(this.app.appDataPath, 'pending_update')
+      const elevatePath = await ensureElevateExe(appDataPath)
 
       if (!existsSync(updateAsarPath)) {
         throw new Error(`No update found: ${updateAsarPath}`)
@@ -364,12 +403,12 @@ export class ElectronUpdater implements LauncherAppUpdater {
       const args = await getUpdateAsarViaBatArgs(
         appAsarPath,
         updateAsarPath,
-        this.app.appDataPath,
+        appDataPath,
         !hasWriteAccess ? elevatePath : undefined,
       )
       this.logger.log(`Install from windows: ${args.join(' ')}`)
       const x = spawn(args[0], args.slice(1), {
-        cwd: this.app.appDataPath,
+        cwd: appDataPath,
         detached: true,
         stdio: 'ignore',
       })
@@ -401,9 +440,24 @@ export class ElectronUpdater implements LauncherAppUpdater {
   }
 
   async checkUpdateTask(): Promise<ReleaseInfo> {
-    if (this.app.platform.os === 'windows' || this.app.platform.os === 'osx') {
-      return this.#getUpdateFromSelfHost()
+    // On Windows the launcher updates itself by downloading
+    // FastLauncher-setup.exe from the GitHub release and running it
+    // (see main/app-update.ts). The legacy electron-updater flow is disabled
+    // there: it only ever produced "path" errors and silent installs.
+    if (this.app.platform.os === 'windows') {
+      return {
+        name: this.app.version,
+        body: '',
+        date: new Date().toISOString(),
+        files: [],
+        newUpdate: false,
+        operation: ElectronUpdateOperation.Manual,
+      }
     }
+
+    // Prefer the GitHub release feed (provider: github + app-update.yml).
+    // Fall back to the XMCL self-host only if the auto-updater cannot reach
+    // its feed (e.g. no app-update.yml was generated / dev build).
     try {
       return await this.#getUpdateFromAutoUpdater()
     } catch (e) {
@@ -416,15 +470,22 @@ export class ElectronUpdater implements LauncherAppUpdater {
   }
 
   async downloadUpdate(updateInfo: ReleaseInfo, options?: DownloadUpdateOptions): Promise<void> {
+    if (this.app.platform.os === 'windows') {
+      throw new Error('Skip legacy update on Windows: use the GitHub setup download (app-update)')
+    }
+
     const tracker = options?.tracker
     const abortSignal = options?.abortSignal
 
     if (updateInfo.operation === ElectronUpdateOperation.AutoUpdater) {
-      await downloadFullUpdate(this.app, updater.autoUpdater, {
+      await downloadFullUpdateWithRetry(this.app, updater.autoUpdater, {
         tracker,
         abortSignal,
       })
     } else if (updateInfo.operation === ElectronUpdateOperation.Asar) {
+      if (!this.app.appDataPath) {
+        throw new Error('Cannot download update: appDataPath is not set')
+      }
       const updatePath = join(this.app.appDataPath, 'pending_update')
       await downloadAsarUpdate(this.app, updatePath, updateInfo.name, {
         tracker,
@@ -442,6 +503,10 @@ export class ElectronUpdater implements LauncherAppUpdater {
   }
 
   async installUpdateAndQuit(updateInfo: ReleaseInfo): Promise<void> {
+    if (this.app.platform.os === 'windows') {
+      this.logger.log('Skip legacy update install on Windows: the launcher uses the GitHub setup download')
+      return
+    }
     if (HAS_DEV_SERVER) {
       this.logger.log('Currently is development environment. Skip to install update')
       return

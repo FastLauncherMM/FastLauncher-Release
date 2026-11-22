@@ -28,7 +28,7 @@ export function getCrashPrompt(useCN: boolean, crash: string, log: string, local
 对于java问题或者游戏原版library，你应当直接提醒我。
 若是mod造成的崩溃，你应当通过日志分析出哪些mod可能造成这些错误，并提示我。注意我正在是用FastLauncher，关于修复崩溃的建议（如下载 Mod）应当在 FastLauncher 里进行。
 
-如果实在分析不出具体原因，请告知我应当联系开发者。Discord: @myfavjuzo
+如果实在分析不出具体原因，请告知我应当联系开发者。Discord: @f0rcaj
 
 这是当前的崩溃报告:
 \`\`\`
@@ -48,7 +48,7 @@ For Java issues or missing vanilla game libraries, you should provide direct rem
 
 If the crash is caused by mods, you should analyze the logs to determine which mods may be responsible for the errors and notify me.
 
-If the specific cause cannot be determined, please inform me to contact the developer via Discord: @myfavjuzo
+If the specific cause cannot be determined, please inform me to contact the developer via Discord: @f0rcaj
 
 I prefer you to response my with locale ${localeCode}.
 

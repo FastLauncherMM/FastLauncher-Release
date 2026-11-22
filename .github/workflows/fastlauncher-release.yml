@@ -1,0 +1,80 @@
+name: FastLauncher Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release-windows:
+    runs-on: windows-latest
+    env:
+      ELECTRON_CACHE: ${{ github.workspace }}/.cache/electron
+      ELECTRON_BUILDER_CACHE: ${{ github.workspace }}/.cache/electron-builder
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: pnpm/action-setup@v6
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Verify release version
+        shell: pwsh
+        run: |
+          $version = node -p "require('./xmcl-electron-app/package.json').version"
+          $tagVersion = '${{ github.ref_name }}' -replace '^v', ''
+          if ($tagVersion -ne $version -and "$tagVersion.0" -ne $version) {
+            throw "Tag ${{ github.ref_name }} does not match launcher version $version"
+          }
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Type-check
+        run: pnpm check
+
+      - name: Build renderer
+        run: pnpm build:renderer
+        env:
+          NODE_ENV: production
+
+      - name: Build Windows installer
+        run: pnpm --prefix=xmcl-electron-app build
+        env:
+          NODE_ENV: production
+          NODE_OPTIONS: --max-old-space-size=32768
+          RELEASE: 'true'
+
+      - name: Verify auto-update assets
+        shell: pwsh
+        run: |
+          $required = @(
+            'xmcl-electron-app/build/output/FastLauncher-setup.exe',
+            'xmcl-electron-app/build/output/FastLauncher-setup.exe.blockmap',
+            'xmcl-electron-app/build/output/FastLauncher-setup.exe.sha256',
+            'xmcl-electron-app/build/output/latest.yml'
+          )
+          foreach ($file in $required) {
+            if (-not (Test-Path $file)) { throw "Missing release asset: $file" }
+          }
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: FastLauncher ${{ github.ref_name }}
+          body_path: .github/release-notes/v2.4.md
+          prerelease: false
+          draft: false
+          fail_on_unmatched_files: true
+          files: |
+            xmcl-electron-app/build/output/FastLauncher-setup.exe
+            xmcl-electron-app/build/output/FastLauncher-setup.exe.blockmap
+            xmcl-electron-app/build/output/FastLauncher-setup.exe.sha256
+            xmcl-electron-app/build/output/latest.yml

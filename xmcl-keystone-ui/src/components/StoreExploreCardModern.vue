@@ -1,6 +1,5 @@
 <template>
   <div
-    ref="el"
     data-testid="store-project-card"
     class="explore-card surface-card-clickable group relative overflow-hidden flex flex-col h-full"
     role="button"
@@ -12,14 +11,11 @@
   >
     <!-- Image Area -->
     <div class="explore-card__media aspect-[16/9] relative overflow-hidden">
-      <transition name="fade-transition" mode="out-in">
-        <img
-          :key="imgSrc"
-          :src="imgSrc"
-          class="explore-card__img w-full h-full object-cover"
-          loading="lazy"
-        />
-      </transition>
+      <img
+        :src="imgSrc"
+        class="explore-card__img w-full h-full object-cover"
+        loading="lazy"
+      />
 
       <!-- Gradient overlay -->
       <div class="explore-card__gradient absolute inset-0 pointer-events-none" />
@@ -106,7 +102,6 @@
 
 <script setup lang="ts">
 import { vSharedTooltip } from '@/directives/sharedTooltip'
-import { useElementHover, useInterval } from '@vueuse/core'
 
 const props = defineProps<{ value: ExploreProjectModern }>()
 
@@ -114,22 +109,9 @@ defineEmits(['click'])
 
 const { t } = useI18n()
 
-const el = ref<HTMLElement | null>(null)
-const hover = useElementHover(el)
-const { pause, reset, resume, counter } = useInterval(2000, { controls: true, immediate: false })
-
-watch(hover, (isHovering) => {
-  if (isHovering) {
-    resume()
-  } else {
-    pause()
-    reset()
-  }
-})
-
 const imgSrc = computed(() => {
   if (props.value.gallery && props.value.gallery.length > 0) {
-    return props.value.gallery[counter.value % props.value.gallery.length]
+    return props.value.gallery[0]
   }
   return props.value.iconUrl
 })

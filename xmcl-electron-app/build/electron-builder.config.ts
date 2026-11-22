@@ -4,6 +4,12 @@ import type { Configuration } from 'electron-builder'
 
 dotenv()
 
+// Code signing is opt-in: it only kicks in when a certificate is provided via
+// the environment (CSC_LINK / WIN_CSC_LINK plus CSC_KEY_PASSWORD, e.g. through
+// a .env file beside package.json). Without it, the build stays unsigned and
+// everything below keeps working out of the box.
+const hasSigningCert = !!(process.env.CSC_LINK || process.env.WIN_CSC_LINK)
+
 export const config = {
   productName: 'FastLauncher',
   appId: 'xmcl',
@@ -12,6 +18,7 @@ export const config = {
     buildResources: 'build',
     app: '.',
   },
+  extraResources: [],
   protocols: {
     name: 'XMCL',
     schemes: ['xmcl'],
@@ -30,7 +37,7 @@ export const config = {
   }, {
     from: '.',
     to: '.',
-    filter: 'package.json',
+    filter: ['package.json', 'app-update.yml'],
   }],
   artifactName: 'FastLauncher-${version}-${platform}-${arch}.${ext}',
   appx: {
@@ -78,11 +85,19 @@ export const config = {
     artifactName: 'FastLauncher-setup.${ext}',
     oneClick: true,
     perMachine: false,
+    differentialPackage: true,
+    include: 'build/installer.nsh',
   },
+  // Highest LZMA (solid) compression for the NSIS installer — shrinks the
+  // setup size meaningfully on top of the JRE file filters below.
+  compression: 'maximum',
   win: {
-    certificateFile: undefined as string | undefined,
-    publisherName: 'CI010',
     icon: 'icons/dark.ico',
+    // RFC 3161 timestamping keeps signatures valid after the certificate
+    // expires; only applied when a signing certificate is actually set.
+    ...(hasSigningCert
+      ? { rfc3161TimeStampServer: 'http://timestamp.digicert.com' }
+      : {}),
     target: [
       'nsis',
       {
@@ -92,7 +107,6 @@ export const config = {
           'ia32',
         ],
       },
-      'appx',
     ],
   },
   linux: {

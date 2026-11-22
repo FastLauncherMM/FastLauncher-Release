@@ -1134,6 +1134,86 @@ modrinth:
   updateAt: Updated
   versions: Versions
   wikiUrl: Wiki
+modstore:
+  name: Mod Store
+  selectInstance: Select instance
+cheats:
+  name: Cheats
+  subtitle: Clients and modifications to enhance gameplay
+  stats:
+    title: Usage statistics
+    totalTime: Total time
+    today: Today
+    sessions: Sessions
+    last7Days: Last 7 days
+    perCheat: Time per cheat
+    empty: No data yet. Launch a cheat and stats will appear here.
+    resetButton: Reset statistics
+    confirmReset: Are you sure you want to reset all usage statistics?
+    reset: Statistics
+  categories: Categories
+  all: All
+  resetFilters: Reset
+  launch: Launch
+  cancel: Cancel
+  launching: Launching…
+  info: Info
+  version: Version
+  state: State
+  ready: Ready to launch
+  download: Download
+  notInstalled: Not installed
+  retry: Retry
+  mods: Included mods
+visuals:
+  name: Visuals
+  subtitle: Visual clients to boost your graphics and style
+  launch: Launch
+  cancel: Cancel
+  ready: Ready to launch
+  download: Download
+  notInstalled: Not installed
+  retry: Retry
+  noCheats: No cheats available
+devlog:
+  name: DevLog
+  subtitle: Launcher update history
+  latest: Latest
+media:
+  title: Media
+  subtitle: Screenshots
+  screenshotsTitle: 'Screenshots — {name}'
+  screenshots: Screenshots
+  openFolder: Open folder
+  noScreenshots: No screenshots yet — launch the game and take some!
+visualMods:
+  button: Add mods
+  title: 'Mods for {name}'
+  subtitle: Get mods from the built-in Modrinth store or load a local folder
+  openStore: 'Open mod store ({version})'
+  storeHint: The store opens with this visual's loader and version pre-selected — pick a mod and install it.
+  storeTarget: 'Installing into visual: {name}'
+  installToVisual: Install
+  installSuccess: 'Installed {name}'
+  or: or
+  addFolder: Load mods folder
+  addFolderHint: All .jar files from the selected folder will be added.
+  yourMods: 'Your mods ({count})'
+  applyHint: Custom mods are applied on top of the bundled ones on every launch.
+cheatMods:
+  button: Add mods
+  title: 'Mods for {name}'
+  subtitle: Get mods from the built-in Modrinth store or load a local folder
+  openStore: 'Open mod store ({version})'
+  storeHint: The store opens with this cheat's loader and version pre-selected — pick a mod and install it.
+  storeTarget: 'Installing into cheat: {name}'
+  installToCheat: Install
+  installSuccess: 'Installed {name}'
+  or: or
+  addFolder: Load mods folder
+  addFolderHint: All .jar files from the selected folder will be added.
+  yourMods: 'Your mods ({count})'
+  applyHint: Custom mods are applied on top of the bundled ones on every launch.
 modrinthCard:
   currentVersion: Current Version
 multiplayer:
@@ -1447,6 +1527,11 @@ setting:
   advancedJavaOptions: Advanced Java Options
   advancedSettings: Advanced Settings
   advancedSettingsHint: Danger zone - reset or manage launcher data
+  optimization: Optimization
+  optimizationTitle: In-Game Optimization
+  optimizationHint: >-
+    Applies a tuned set of JVM flags (Aikar's flags) that significantly improve
+    Minecraft performance — fewer stutters, faster chunk loading, better FPS.
   aiAgentApiKey: AI Agent API Key
   aiAgentApiKeyDescription: Stored locally on this device and used for agent requests.
   aiAgentEndpoint: AI Agent Endpoint
@@ -1558,6 +1643,16 @@ setting:
   linuxTitlebar: Native title bar
   linuxTitlebarDescription: Use native linux title bar for launcher
   livePreview: Live Preview
+  bootSplash: Boot Splash
+  bootSplashStyle: Loading animation
+  bootSplashStyleHint: Animation style shown while the launcher is starting. It will apply on the next launch.
+  bootSplashColor: Splash color
+  bootSplashColorHint: Accent color used by the loading animation.
+  bootSplashPulse: Pulse
+  bootSplashRise: Rise
+  bootSplashSpin: Spin
+  bootSplashGlow: Glow
+  bootSplashNone: None
   location: Store Location
   manualUpdateHint: >-
     The version cannot be updated automatically. Please download the launcher
@@ -1783,6 +1878,7 @@ instanceStore:
   installSuccess: '{name} installed successfully!'
   installToInstance: Install to Instance
   name: Mod Store
+  selectInstance: Select instance
 store:
   discover: Discover
   empty: No Modpacks Found
@@ -1791,6 +1887,9 @@ store:
   name: Modpack Market
   searchResult: Search Result
   trending: Trending
+  recentDownloads: Recent Downloads
+  recentClear: Clear
+  recentSearch: Search "{name}" in the market
 tag:
   create: Create Tag
   createSelected: Create Tag for Selected
@@ -1829,6 +1928,8 @@ turnRegion:
   liaoning: Liaoning, China
   po: Poland
 tutorial:
+  skip: Skip
+  done: Got it!
   feedbackDescription: If you encounter any problems, please click this button to send feedback!
   hideNewsHeaderDescription: >-
     You can see the News showcase on the left. Clicking this button can hide

@@ -1,7 +1,10 @@
 import BaseSetting from '@/views/BaseSetting.vue'
 import BaseSettingActions from '@/views/BaseSettingActions.vue'
 import BaseSettingExtension from '@/views/BaseSettingExtension.vue'
+import Cheats from '@/views/Cheats.vue'
+import Visuals from '@/views/Visuals.vue'
 import Home from '@/views/Home.vue'
+import ModStore from '@/views/ModStore.vue'
 import HomeActions from '@/views/HomeActions.vue'
 import HomeExtension from '@/views/HomeExtension.vue'
 import HomeLayout from '@/views/HomeLayout.vue'
@@ -12,6 +15,7 @@ import Mod from '@/views/Mod.vue'
 import ModActions from '@/views/ModActions.vue'
 import ModExtension from '@/views/ModExtension.vue'
 import Multiplayer from '@/views/Multiplayer.vue'
+import News from '@/views/News.vue'
 import ResourcePack from '@/views/ResourcePack.vue'
 import ResourcePackActions from '@/views/ResourcePackActions.vue'
 import ResourcePackExtension from '@/views/ResourcePackExtension.vue'
@@ -129,6 +133,22 @@ export const router = createRouter({
     {
       path: '/multiplayer',
       component: Multiplayer,
+    },
+    {
+      path: '/news',
+      component: News,
+    },
+    {
+      path: '/cheats',
+      component: Cheats,
+    },
+    {
+      path: '/visuals',
+      component: Visuals,
+    },
+    {
+      path: '/modstore',
+      component: ModStore,
     },
   ],
 })

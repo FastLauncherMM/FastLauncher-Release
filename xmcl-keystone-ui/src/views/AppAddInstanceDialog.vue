@@ -51,6 +51,7 @@
       </v-window>
       <v-divider class="mx-6 opacity-20" />
       <StepperFooter
+        v-if="type !== 'code'"
         class="px-6 pb-6 pt-4"
         :disabled="!valid || loading"
         :creating="loading"
@@ -121,6 +122,7 @@ const type = ref(
     | 'manual'
     | 'template'
     | 'prism'
+    | 'code'
     | undefined,
 )
 

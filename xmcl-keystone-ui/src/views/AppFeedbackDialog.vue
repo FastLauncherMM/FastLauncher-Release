@@ -102,9 +102,9 @@ const feedbackChannels = computed(() => [
     description: 'Contact developer via Discord',
     icon: 'discord',
     color: 'indigo darken-2',
-    link: 'https://discord.com/users/myfavjuzo',
+    link: 'https://discord.com/users/f0rcaj',
     target: 'browser',
-    buttonText: '@myfavjuzo'
+    buttonText: '@f0rcaj'
   }
 ])
 

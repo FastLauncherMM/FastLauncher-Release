@@ -5,7 +5,7 @@
     window
     role="toolbar"
     :aria-label="systemBarAriaLabel"
-    class="moveable static! flex w-full grow-0 gap-1 p-0 text-[.875rem]! bg-[transparent]! dark:color-[#ffffffb3] pr-0"
+    class="app-system-bar moveable static! flex w-full grow-0 gap-1 p-0 text-[.875rem]! bg-[transparent]! dark:color-[#ffffffb3] pr-0"
     :style="{ 'backdrop-filter': `blur(${blurAppBar}px)` }"
   >
     <span
@@ -31,9 +31,15 @@
     </span>
     <slot />
 
+    <div class="system-brand moveable" aria-label="FastLauncher">
+      <span class="system-brand__mark" aria-hidden="true">F</span>
+      <span class="system-brand__name">FastLauncher</span>
+      <span class="system-brand__status" aria-hidden="true" />
+    </div>
+
     <AppAudioPlayer
       v-if="!noDebug"
-      class="ml-22"
+      class="ml-2"
     />
 
     <div class="flex-grow"/>
@@ -76,6 +82,14 @@
       :text="t('feedback.name')"
       can-hide-text
       @click="showFeedbackDialog"
+    />
+    <AppSystemBarBadge
+      v-if="!noDebug"
+      id="devlog-button"
+      icon="history"
+      :text="t('devlog.name')"
+      can-hide-text
+      @click="showDevLogDialog"
     />
 
     <span
@@ -144,6 +158,7 @@ const { blurAppBar } = injection(kTheme)
 const { maximize, minimize, close, hide } = windowController
 const { shouldShiftBackControl, hideWindowControl } = useWindowStyle()
 const { show: showFeedbackDialog } = useDialog('feedback')
+const { show: showDevLogDialog } = useDialog('devlog')
 const { show: showTaskDialog } = useDialog('task')
 const { t } = useI18n()
 const { count } = useTaskCount()
@@ -184,10 +199,62 @@ const closeAriaLabel = 'Close'
 const windowControlsAriaLabel = 'Window controls'
 </script>
 <style lang="css" scoped>
+.app-system-bar {
+  min-height: 38px !important;
+  height: 38px !important;
+  padding-left: 10px !important;
+  border-bottom: 1px solid rgba(var(--v-theme-on-surface), 0.08);
+  background:
+    linear-gradient(180deg, rgba(var(--v-theme-surface), 0.72), rgba(var(--v-theme-surface), 0.52)) !important;
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(24px) saturate(145%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(145%) !important;
+}
+
+.system-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 28px;
+  padding: 0 10px 0 6px;
+  border: 1px solid rgba(var(--v-theme-on-surface), 0.08);
+  border-radius: 10px;
+  background: rgba(var(--v-theme-surface), 0.38);
+  color: rgb(var(--v-theme-on-surface));
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.035);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  user-select: none;
+}
+
+.system-brand__mark {
+  display: grid;
+  width: 18px;
+  height: 18px;
+  place-items: center;
+  border: 1px solid rgba(var(--v-theme-primary), 0.32);
+  border-radius: 6px;
+  background: linear-gradient(145deg, rgba(var(--v-theme-primary), 0.28), rgba(var(--v-theme-primary), 0.08));
+  color: rgb(var(--v-theme-primary));
+  box-shadow: 0 0 14px rgba(var(--v-theme-primary), 0.2);
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.system-brand__status {
+  width: 5px;
+  height: 5px;
+  border-radius: 9999px;
+  background: rgb(var(--v-theme-primary));
+  box-shadow: 0 0 8px rgba(var(--v-theme-primary), 0.8);
+}
+
 .system-btn {
   @apply  h-full top-0 mr-0 flex cursor-pointer select-none items-center justify-center px-3 py-1 after:hidden! w-[40px] min-w-[40px];
   font-size: 16px !important;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+  transition: background-color 0.2s ease, color 0.2s ease;
   background: transparent;
   border: 0;
   color: inherit;
@@ -195,7 +262,7 @@ const windowControlsAriaLabel = 'Window controls'
 }
 
 .system-btn:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(var(--v-theme-on-surface), 0.1);
 }
 
 .system-btn--close:hover {
@@ -203,7 +270,7 @@ const windowControlsAriaLabel = 'Window controls'
 }
 
 .system-bar-back-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(var(--v-theme-on-surface), 0.1);
 }
 
 .system-btn:focus-visible,
@@ -236,6 +303,15 @@ const windowControlsAriaLabel = 'Window controls'
 @media (max-width: 880px) {
   .palette-hotkey {
     margin-left: 4px;
+  }
+
+  .system-brand {
+    padding-right: 6px;
+  }
+
+  .system-brand__name,
+  .system-brand__status {
+    display: none;
   }
 }
 </style>
